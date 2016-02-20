@@ -1,4 +1,4 @@
-[Command Line Arguments](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Command_Line_Arguments)
+[Command Line Arguments] <a name="Command_Line_Arguments"></a>
 ========================================================================================================================
 
 Cytoscape recognizes a number of optional command line arguments,

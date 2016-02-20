@@ -1,4 +1,4 @@
-[Launching Cytoscape](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Launching_Cytoscape)
+[Launching Cytoscape] <a name="Launching_Cytoscape"></a>
 ==================================================================================================================
 
 Cytoscape is a Java application verified to run on the Linux, Windows,
@@ -6,7 +6,7 @@ and Mac OS X platforms. Although not officially supported, other UNIX
 platforms such as Solaris or FreeBSD may run Cytoscape if Java version 8
 or later is available for the platform.
 
-System requirements
+System requirements <a name="Quick_Tour"></a>
 -------------------
 
 The system requirements for Cytoscape depend on the size of the networks
@@ -148,7 +148,7 @@ amount of memory. An incorrect estimate may result in Cytoscape hanging
 at startup or Cytoscape unable to load your network. Unless Cytoscape
 fails to start or open your network, it has likely estimated the
 available memory correctly, and you can continue to the [Quick
-Tour](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_User_Manual/Quick_Tour#).
+Tour](#Quick_Tour).
 If Cytoscape misjudges the memory size or can't allocate enough memory,
 it could be that you're running with a 32 bit JRE and could get better
 results by installing a 64 bit JRE -- see the Install Java section

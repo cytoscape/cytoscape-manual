@@ -1,4 +1,4 @@
-[Quick Tour of Cytoscape](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Quick_Tour)
+[Quick Tour of Cytoscape] <a name="Quick_Tour"></a>
 =============================================================================================================
 
 Welcome Screen
@@ -26,7 +26,7 @@ Cytoscape including:
 
 Also, a news panel always display latest information for users. For
 information on user privacy, see the **[Cytoscape Privacy
-Policy](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Privacy#)**.
+Policy](#Privacy)**.
 
 Basic Features
 --------------
@@ -80,7 +80,7 @@ when you put the mouse pointer on a cell.
 Note that Table Panel now has a Dock Window control. If you click this
 control, the window will dock onto the main window. For more information
 on the panels in Cytoscape, see the
-**[Panels](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Panels#)**
+**[Panels](#Panels)**
 section.
 
 ### Network Editing
@@ -94,8 +94,7 @@ Edge**. Then select the target node, a new edge will be added between
 the two nodes. In a similar way annotation objects can be added;
 pictures, shapes or textboxes; much like in MS PowerPoint or similar
 software. Detailed information on network editing can be found in the
-**[Editing
-Networks](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Network_Editor#)**
+**[Editing Networks](#Network_Editor)**
 section.
 
 -   ![AddNodeMenu.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=AddNodeMenu.png)
@@ -191,12 +190,9 @@ similar function.
 
 ### Tools
 
-The **Tools** menu contains advanced features like the **[Command Line
-Dialog](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Command_Tool#)**,
-**[Network
-Analyzer](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Network_Analyzer#)**,
-**[Network
-Merge](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Merge#)**
+The **Tools** menu contains advanced features like the **[Command Line Dialog](#Command_Tool)**,
+**[Network Analyzer](#Network_Analyzer)**,
+**[Network Merge](#Merge)**
 and **Workflow**.
 
 -   ![ToolsMenu.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=ToolsMenu.png)

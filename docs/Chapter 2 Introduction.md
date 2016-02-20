@@ -1,4 +1,4 @@
-[Introduction](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Introduction)
+[Introduction] <a name="Introduction"></a>
 ====================================================================================================
 
 Cytoscape @version@ is the latest version of Cytoscape, building upon
