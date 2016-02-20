@@ -1,4 +1,5 @@
-[Quick Tour of Cytoscape] <a name="Quick_Tour"></a>
+<a name="Quick_Tour"></a>
+[Quick Tour of Cytoscape] 
 =============================================================================================================
 
 Welcome Screen

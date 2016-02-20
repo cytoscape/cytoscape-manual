@@ -1,4 +1,5 @@
-[Command Line Arguments] <a name="Command_Line_Arguments"></a>
+<a name="Command_Line_Arguments"></a>
+[Command Line Arguments] 
 ========================================================================================================================
 
 Cytoscape recognizes a number of optional command line arguments,

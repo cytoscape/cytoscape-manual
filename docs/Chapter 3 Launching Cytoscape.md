@@ -1,4 +1,5 @@
-[Launching Cytoscape] <a name="Launching_Cytoscape"></a>
+<a name="Launching_Cytoscape"></a>
+[Launching Cytoscape] 
 ==================================================================================================================
 
 Cytoscape is a Java application verified to run on the Linux, Windows,

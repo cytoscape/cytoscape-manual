@@ -1,4 +1,5 @@
-[Introduction] <a name="Introduction"></a>
+<a name="Introduction"></a>
+[Introduction] 
 ====================================================================================================
 
 Cytoscape @version@ is the latest version of Cytoscape, building upon

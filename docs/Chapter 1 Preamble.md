@@ -3,7 +3,8 @@ date: '2012-02-17 12:35:55'
 title: 'Cytoscape\_3/UserManual'
 ...
 
-[Cytoscape @version@ User Manual] <a name="TitlePage"></a>
+<a name="TitlePage"></a>
+[Cytoscape @version@ User Manual] 
 ====================================================================================================================
 
 The Cytoscape User Manual copyright is owned by The Cytoscape
