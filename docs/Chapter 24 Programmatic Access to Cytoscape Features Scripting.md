@@ -110,7 +110,7 @@ Commands, please follow these steps:
 3.  To test the Command interface, open the following URL with your web
     browser:
 
-    -   http://localhost:8888/cytoscape/commands
+    -   http://localhost:8888/v1/commands
 
 4.  If you see list of available commands, you are ready to use Command
     API
