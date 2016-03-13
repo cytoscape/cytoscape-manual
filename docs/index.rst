@@ -28,6 +28,8 @@ http://cytoscape.org website.
 TOC
 ===
 
+My intro section should be below
+
 .. toctree::
    :maxdepth: 2
 
