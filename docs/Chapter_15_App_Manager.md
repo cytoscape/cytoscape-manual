@@ -1,5 +1,5 @@
-[App Manager](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/AppManager)
-=================================================================================================
+App Manager
+===========
 
 What are apps?
 --------------
