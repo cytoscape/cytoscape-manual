@@ -1,5 +1,5 @@
-[Command Tool](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Command_Tool)
-====================================================================================================
+Command Tool
+============
 
 The **Command Line Tool** provides a simple command-line interface to
 Cytoscape using the Commands API. Any app that registers commands will
