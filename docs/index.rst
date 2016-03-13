@@ -44,20 +44,20 @@ My intro section should be below ... because of Preamble and Introduction
    Chapter_9_Node_and_EdgeColumn_Data
    Chapter_10_Ontology_and_Annotation_Import
    Chapter_11_Column_Data_Functions_and_Equations
-   Chapter_12_
-   Chapter_13_
-   Chapter_14_
-   Chapter_15_
-   Chapter_16_
-   Chapter_17_
-   Chapter_18_
-   Chapter_19_
-   Chapter_20_
-   Chapter_21_
-   Chapter_22_
-   Chapter_23_
-   Chapter_24_
-   Chapter_25_
+   Chapter_12_Finding_and_Filtering_Nodes_and_Edges
+   Chapter_13_Navigation_and_Layout
+   Chapter_14_Styles
+   Chapter_15_App_Manager
+   Chapter_16_Command_Tool
+   Chapter_17_Merge
+   Chapter_18_Network_Analyzer
+   Chapter_19_Cytoscape_Preferences
+   Chapter_20_Linkout
+   Chapter_21_Rendering_Engine
+   Chapter_22_Publish_Your_Data
+   Chapter_23_Cytoscape.js_and_Cytoscape
+   Chapter_24_Programmatic_Access_to_Cytoscape_Features_Scripting
+   Chapter_25_Cytoscape_Privacy_Policy
    
    
 
