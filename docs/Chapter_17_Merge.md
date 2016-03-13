@@ -1,5 +1,5 @@
-[Merge](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Merge)
-======================================================================================
+Merge
+=====
 
 Cytoscape allows for merging of both network and table data, through
 **Tools ? Merge**.
