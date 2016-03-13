@@ -19,3 +19,4 @@ Additionally:
 
 1. Create a new project in ReadTheManual, and create a WebHook from GitHub to ReadTheDocs via http://docs.readthedocs.org/en/latest/webhooks.html
 
+1. Text is processed by Sphinx, which is documented here: http://www.sphinx-doc.org/en/stable/contents.html
