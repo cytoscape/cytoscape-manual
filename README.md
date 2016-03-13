@@ -14,3 +14,8 @@ with ```pandoc -f docbook -t markdown -s UserManual.xml -o UserManual.md```
 (https://github.com/kozo2/cytoscape3-usermanual/tree/master/docs)
 
 4. I built and deployed 3. with mkdocs and readthedocs.
+ 
+Additionally:
+
+1. Create a new project in ReadTheManual, and create a WebHook from GitHub to ReadTheDocs via http://docs.readthedocs.org/en/latest/webhooks.html
+
