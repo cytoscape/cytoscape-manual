@@ -1,4 +1,3 @@
-
 [Ontology and Annotation Import](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Annotation)
 ====================================================================================================================
 
