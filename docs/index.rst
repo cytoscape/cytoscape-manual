@@ -28,11 +28,11 @@ http://cytoscape.org website.
 TOC
 ===
 
-My intro section should be below
+My intro section should be below ... because of :glob:
 
 .. toctree::
-   :maxdepth: 2
+   :glob:
 
-   intro
+   *
 
 
