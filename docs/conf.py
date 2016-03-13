@@ -1,19 +1,3 @@
-Skip to content
-This repository  
-Search
-Pull requests
-Issues
-Gist
- @bdemchak
- Watch 2
-  Star 0
- Fork 1 kozo2/cytoscape3-usermanual
- Code  Issues 2  Pull requests 0  Wiki  Pulse  Graphs
-Branch: master Find file Copy pathcytoscape3-usermanual/conf.py
-b8d8569  on Nov 18, 2015
-@kozo2 kozo2 prepare to move from mkdocs to sphinx
-1 contributor
-RawBlameHistory     62 lines (46 sloc)  1.19 KB
 extensions = []
 templates_path = ['_templates']
 
@@ -76,5 +60,3 @@ source_suffix = ['.rst', '.md']
 source_parsers = {
 	'.md': CommonMarkParser,
 }
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
