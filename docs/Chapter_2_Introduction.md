@@ -1,6 +1,5 @@
-<a name="Introduction"></a>
-[Introduction] 
-====================================================================================================
+Introduction
+============
 
 Cytoscape @version@ is the latest version of Cytoscape, building upon
 the new architecture, developer API and set of user controls established
