@@ -1,4 +1,4 @@
-Cytoscape @version@ User Manual
+Cytoscape |version| User Manual
 ===============================
 
 The Cytoscape User Manual copyright is owned by The Cytoscape
