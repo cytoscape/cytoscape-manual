@@ -30,10 +30,8 @@ TOC
 
 .. toctree::
    :glob:
-   
-   xxxx
     Chapter_1_Preamble
     Chapter_2_Introduction
-    Chapter_3_Launching Cytoscape
+    Chapter_3_Launching_Cytoscape
     
 
