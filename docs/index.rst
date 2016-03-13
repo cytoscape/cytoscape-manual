@@ -31,10 +31,34 @@ TOC
 My intro section should be below ... because of Preamble and Introduction
 
 .. toctree::
-   :glob:
+   :maxdepth: 2
 
    Chapter_1_Preamble
    Chapter_2_Introduction
+   Chapter_3_Launching_Cytoscape
+   Chapter_4_Command_Line_Arguments
+   Chapter_5_Quick_Tour_of_Cytoscape
+   Chapter_6_
+   Chapter_7_
+   Chapter_8_
+   Chapter_9_
+   Chapter_10_
+   Chapter_11_
+   Chapter_12_
+   Chapter_13_
+   Chapter_14_
+   Chapter_15_
+   Chapter_16_
+   Chapter_17_
+   Chapter_18_
+   Chapter_19_
+   Chapter_20_
+   Chapter_21_
+   Chapter_22_
+   Chapter_23_
+   Chapter_24_
+   Chapter_25_
+   
    
 
 
