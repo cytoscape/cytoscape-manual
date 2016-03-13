@@ -25,6 +25,9 @@ thorough understanding of Cytoscape and its ecosystem, we highly
 recommend reading the **Welcome Letter** accessible on the
 http://cytoscape.org website.
 
+
+.. _contents:
+
 TOC
 ===
 
@@ -32,7 +35,4 @@ TOC
    :maxdepth: 2
    
     Chapter_1_Preamble
-    Chapter_2_Introduction
-    Chapter_3_Launching_Cytoscape
-    
 
