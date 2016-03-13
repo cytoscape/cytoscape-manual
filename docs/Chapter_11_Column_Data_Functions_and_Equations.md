@@ -1,4 +1,3 @@
-
 [Column Data Functions and Equations](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Column_Formulas)
 ==============================================================================================================================
 
