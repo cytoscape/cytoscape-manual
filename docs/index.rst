@@ -28,12 +28,13 @@ http://cytoscape.org website.
 TOC
 ===
 
-My intro section should be below ... because of intro and Preamble
+My intro section should be below ... because of Preamble and Introduction
 
 .. toctree::
    :glob:
 
-   intro
    Chapter_1_Preamble
+   Chapter_2_Introduction
+   
 
 
