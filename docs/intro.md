@@ -1,6 +1,0 @@
-My Test Intro
-=============
-
-This is Barry's test introduction file
-
-This is working
