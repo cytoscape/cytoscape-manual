@@ -38,12 +38,12 @@ My intro section should be below ... because of Preamble and Introduction
    Chapter_3_Launching_Cytoscape
    Chapter_4_Command_Line_Arguments
    Chapter_5_Quick_Tour_of_Cytoscape
-   Chapter_6_
-   Chapter_7_
-   Chapter_8_
-   Chapter_9_
-   Chapter_10_
-   Chapter_11_
+   Chapter_6_Creating_Networks
+   Chapter_7_Nested_Networks
+   Chapter_8_Supported_Network_File_Formats
+   Chapter_9_Node_and_EdgeColumn_Data
+   Chapter_10_Ontology_and_Annotation_Import
+   Chapter_11_Column_Data_Functions_and_Equations
    Chapter_12_
    Chapter_13_
    Chapter_14_
