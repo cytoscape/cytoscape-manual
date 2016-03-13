@@ -1,5 +1,5 @@
-[Cytoscape Preferences](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Preferences)
-============================================================================================================
+Cytoscape Preferences
+=====================
 
 Managing Properties
 -------------------
