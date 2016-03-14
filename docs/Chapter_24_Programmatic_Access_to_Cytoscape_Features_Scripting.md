@@ -1,5 +1,5 @@
-[Programmatic Access to Cytoscape Features (Scripting)](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/ProgrammaticAccess)
-===================================================================================================================================================
+Programmatic Access to Cytoscape Features (Scripting)
+=====================================================
 
 Programmatic Access to Cytoscape Features
 -----------------------------------------
