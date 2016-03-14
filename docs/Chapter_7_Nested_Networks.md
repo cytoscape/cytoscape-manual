@@ -1,5 +1,5 @@
-[Nested Networks](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Nested_Networks)
-==========================================================================================================
+Nested Networks
+===============
 
 Cytoscape has the ability to associate a **Nested Network** with any
 node. A nested network is any other network currently defined in
