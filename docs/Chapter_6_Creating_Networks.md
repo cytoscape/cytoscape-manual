@@ -1,5 +1,5 @@
-[Creating Networks](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Creating_Networks)
-==============================================================================================================
+Creating Networks
+=================
 
 There are 4 different ways of creating networks in Cytoscape:
 
