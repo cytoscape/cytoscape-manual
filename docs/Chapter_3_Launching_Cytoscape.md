@@ -1,6 +1,5 @@
-<a name="Launching_Cytoscape"></a>
-[Launching Cytoscape] 
-==================================================================================================================
+Launching Cytoscape
+===================
 
 Cytoscape is a Java application verified to run on the Linux, Windows,
 and Mac OS X platforms. Although not officially supported, other UNIX
