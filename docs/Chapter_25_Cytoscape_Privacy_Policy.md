@@ -1,6 +1,5 @@
-
-[Cytoscape Privacy Policy](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Privacy)
-===========================================================================================================
+Cytoscape Privacy Policy
+========================
 
 We respect the privacy of all Cytoscape users, and we do not collect any
 information on Cytoscape users except in the situations listed below. In
