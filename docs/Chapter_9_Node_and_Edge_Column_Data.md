@@ -36,7 +36,7 @@ from the **File ? Import ? Table ? File...** user interface.
 
 ### Basic Operation
 
--   ![ImportColumnsFromTable.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=ImportColumnsFromTable.png)
+-   ![ImportColumnsFromTable.png](Images/Columns/ImportColumnsFromTable.png)
 
 1.  Select **File ? Import ? Table ? File...**.
 
@@ -234,7 +234,7 @@ primitive data types (string, boolean, floating point, and integer) can
 be selected as the Key Attribute using the drop-down list provided.
 Complex attributes such as lists are not supported.
 
-![attribute\_table\_import\_keyattr.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=attribute_table_import_keyattr.png)
+![attribute\_table\_import\_keyattr.png](Images/Columns/attribute_table_import_keyattr.png)
 
 #### Aliases
 
@@ -247,11 +247,11 @@ and the key attribute. To define an alias column in the attribute table,
 just click on the checkboxes to the left of the column name while
 importing.
 
-![attribute\_table\_import\_alias.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=attribute_table_import_alias.png)
+![attribute\_table\_import\_alias.png](Images/Columns/attribute_table_import_alias.png)
 
 ### Table Panel
 
-![TablePanel\_withData.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=TablePanel_withData.png)
+![TablePanel\_withData.png](Images/Columns/TablePanel_withData.png)
 
 When Cytoscape is started, the **Table Panel** appears in the bottom
 right of the main Cytoscape window. This browser can be hidden and
@@ -264,10 +264,10 @@ tabs on the bottom of the Table Panel. By default, the Table Panel
 displays columns for all nodes and edges in the selected network. To
 display columns for only selected nodes/edges, click the **Change Table
 Mode** button
-![TableMode.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=TableMode.png)
+![TableMode.png](Images/Columns/TableMode.png)
 at the top left. To change the columns that are displayed, click the
 **Show Column**
-![ShowColumns.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=ShowColumns.png)
+![ShowColumns.png](Images/Columns/ShowColumns.png)
 button and choose the columns that are to be displayed (select various
 columns by clicking on them, and then click elsewhere on the screen to
 close the column list).
@@ -282,20 +282,20 @@ undo any changes.
 Rows in the panel can be sorted alphabetically by specific column by
 clicking on a column heading. A new column can be created using the
 **Create New column**
-![NewColumn.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=NewColumn.png)
+![NewColumn.png](Images/Columns/NewColumn.png)
 button, and must be one of four types - integer, string, real number
 (floating point), or boolean. Columns can be deleted using the **Delete
 Columns...**
-![DeleteColumns.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=DeleteColumns.png)
+![DeleteColumns.png](Images/Columns/DeleteColumns.png)
 button. **NOTE: Deleting columns removes them from Cytoscape, not just
 the Table Panel!** To remove columns from the panel without deleting
 them, simply unselect the column using the **Select Columns**
-![ShowColumns.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=ShowColumns.png)
+![ShowColumns.png](Images/Columns/ShowColumns.png)
 button.
 
 #### Column Batch Editor
 
-![attribute\_editor26.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=attribute_editor26.png)
+![attribute\_editor26.png](Images/Columns/attribute_editor26.png)
 The Attribute Browser has an **Attribute Batch Editor**. This enables
 you to set and modify attribute values for selected nodes or edges of a
 specified attribute at once. For example, if you want to create a new
@@ -318,7 +318,7 @@ via web services, for example from
 3.  You will first be asked to select from a set of web services. For
     this example, we will choose **ENSEMBL GENES 73 (SANGER UK)**.
 
-![select\_services.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=select_services.png)
+![select\_services.png](Images/Columns/select_services.png)
 
 1.  In the **Import Data Table from Web Services** dialog, select a
     **Data Source**. Since galFiltered.sif is a yeast network, select
@@ -330,7 +330,7 @@ via web services, for example from
 The type of identifier selected under **Data Type** must match what is
 used in the selected **Column** in the network.
 
-![table\_webservice.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=table_webservice.png)
+![table\_webservice.png](Images/Columns/table_webservice.png)
 
 1.  Select the data columns you want to import.
 
@@ -339,4 +339,4 @@ used in the selected **Column** in the network.
 When import is complete, you can see the newly imported data columns in
 the Table Panel.
 
-![table\_webservice\_final.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Columns?action=AttachFile&do=get&target=table_webservice_final.png)
+![table\_webservice\_final.png](Images/Columns/table_webservice_final.png)

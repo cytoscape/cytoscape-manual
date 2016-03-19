@@ -4,7 +4,7 @@ Cytoscape.js and Cytoscape
 What is Cytoscape.js?
 ---------------------
 
-![jsWebSite.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/CytoscapeJs?action=AttachFile&do=get&target=jsWebSite.png)
+![jsWebSite.png](Images/CytoscapeJs/jsWebSite.png)
 
 [Cytoscape.js](http://cytoscape.github.io/cytoscape.js/) is a
 **JavaScript library** for interactive network visualization. It is a
@@ -17,12 +17,12 @@ using Cytoscape.js and this new **Export to Cytoscape.js** feature.
 
 -   A network visualized with Cytoscape 3.1.0
 
-    -   ![sampleOriginal.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/CytoscapeJs?action=AttachFile&do=get&target=sampleOriginal.png)
+    -   ![sampleOriginal.png](Images/CytoscapeJs/sampleOriginal.png)
 
 -   Same network exported to Cytoscape.js (Rendered with Google Chrome
     and Cytoscape.js 2.0.3)
 
-    -   ![sampleExport.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/CytoscapeJs?action=AttachFile&do=get&target=sampleExport.png)
+    -   ![sampleExport.png](Images/CytoscapeJs/sampleExport.png)
 
 -   [Interactive example (galFiltered.sif rendered with
     Cytoscape.js 2.0.3)](http://chianti.ucsd.edu/~kono/dist/)
@@ -166,8 +166,8 @@ Cytoscape.js JSON:
 The following two charts detail the compatibility of specific Cytoscape
 features in Cytoscape.js.
 
-[![attachment:CS-web\_vs\_CS-1\_small.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/CytoscapeJs?action=AttachFile&do=get&target=CS-web_vs_CS-1.png){width="100"}](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/CytoscapeJs?action=AttachFile&do=get&target=CS-web_vs_CS-1_small.png)
-[![attachment:CS-web\_vs\_CS-2\_small.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/CytoscapeJs?action=AttachFile&do=get&target=CS-web_vs_CS-2.png){width="100"}](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/CytoscapeJs?action=AttachFile&do=get&target=CS-web_vs_CS-2_small.png)
+[![attachment:CS-web\_vs\_CS-1\_small.png](Images/CytoscapeJs/CS-web_vs_CS-1.png){width="100"}](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/CytoscapeJs/CS-web_vs_CS-1_small.png)
+[![attachment:CS-web\_vs\_CS-2\_small.png](Images/CytoscapeJs/CS-web_vs_CS-2.png){width="100"}](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/CytoscapeJs/CS-web_vs_CS-2_small.png)
 
 ### Import Cytoscape.js data into Cytoscape
 

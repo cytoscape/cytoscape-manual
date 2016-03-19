@@ -55,7 +55,7 @@ as a service relative to an application.
 
 ### Commands
 
--   ![CommandTool.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/ProgrammaticAccess?action=AttachFile&do=get&target=CommandTool.png)
+-   ![CommandTool.png](Images/ProgrammaticAccess/CommandTool.png)
 
 ***Commands*** is the built-in Cytoscape feature to automate your
 workflow as simple script. You can learn more about this feature in this
@@ -115,7 +115,7 @@ Commands, please follow these steps:
 4.  If you see list of available commands, you are ready to use Command
     API
 
-    -   ![CommandAPI.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/ProgrammaticAccess?action=AttachFile&do=get&target=CommandAPI.png)
+    -   ![CommandAPI.png](Images/ProgrammaticAccess/CommandAPI.png)
 
 #### 2. cyREST
 
@@ -130,7 +130,7 @@ you. You can use popular tools, including IPython/Jupyter Notebook and
 RStudio as your orchestration tool for your data visualization workflow
 with Cytoscape.
 
--   ![jupyter.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/ProgrammaticAccess?action=AttachFile&do=get&target=jupyter.png)
+-   ![jupyter.png](Images/ProgrammaticAccess/jupyter.png)
 
 (Sample [Jupyter
 Notebook](http://nbviewer.ipython.org/github/idekerlab/py2cytoscape/blob/develop/examples/New_wrapper_api_sample.ipynb)

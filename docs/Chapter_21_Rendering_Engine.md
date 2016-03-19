@@ -26,7 +26,7 @@ Preferences ? Properties...**.
 
   ------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------
   Network with **Low** LOD                                                                                                       Network with **High** LOD
-  ![LowLOD.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Rendering_Engine?action=AttachFile&do=get&target=LowLOD.png)   ![HighLOD.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Rendering_Engine?action=AttachFile&do=get&target=HighLOD.png)
+  ![LowLOD.png](Images/Rendering_Engine/LowLOD.png)   ![HighLOD.png](Images/Rendering_Engine/HighLOD.png)
   ------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------
 
 With low LOD values, all nodes are displayed as square and anti-aliasing

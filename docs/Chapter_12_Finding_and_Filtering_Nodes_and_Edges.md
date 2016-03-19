@@ -12,7 +12,7 @@ zero or more characters, while "?" matches exactly one character. So
 `ste?` would match "STE2" but would not match "STE12". Searching for
 `ste*` would match both.
 
-![searchbar2.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Filters?action=AttachFile&do=get&target=searchbar2.png)
+![searchbar2.png](Images/Filters/searchbar2.png)
 
 To search a specific column, you can prefix your search term with the
 column name followed by a `:`. For example, to select nodes and edges
@@ -41,7 +41,7 @@ Filters
 Cytoscape 3 provides a new user interface for filtering nodes and edges.
 These tools can be found in the **Select** panel:
 
-![select-panel.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Filters?action=AttachFile&do=get&target=select-panel.png)
+![select-panel.png](Images/Filters/select-panel.png)
 
 There are two types of filters. On the **Filter** tab are *narrowing*
 filters, which can be combined into a tree. On the **Chain** tab are
@@ -57,7 +57,7 @@ number of sub-filters.
 
 To add a filter click on the "+" button. To delete a filter (and all its
 sub-filters) click the "x" button. To move a filter grab the handle
-![filterhandle.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Filters?action=AttachFile&do=get&target=filterhandle.png)
+![filterhandle.png](Images/Filters/filterhandle.png)
 with the mouse and drag and drop the filter on its intended destination.
 Dropping a filter on top of another filter will group the filters into a
 composite filter.
@@ -72,7 +72,7 @@ automatically disables this interactivity. You can override this by
 manually checking the **Apply Automatically** box above the **Apply**
 button:
 
-![apply-automatically.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Filters?action=AttachFile&do=get&target=apply-automatically.png)
+![apply-automatically.png](Images/Filters/apply-automatically.png)
 
 Cytoscape comes packaged with the following narrowing filters:
 
@@ -84,7 +84,7 @@ maximum values, or the values may be entered manually.
 
 From string columns, a variety of matching options are provided:
 
-![string-column.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Filters?action=AttachFile&do=get&target=string-column.png)
+![string-column.png](Images/Filters/string-column.png)
 
 For example, column values can be checked to see if they contain or
 match exactly the text entered in the text box. More complex matching
@@ -126,16 +126,16 @@ suppose you wanted to match nodes with column *COMMON* containing `ste`
 or `cdc`, but you only want nodes with degree 5 or more, you'd first
 construct a filter that looks like this:
 
-![sample-group2.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Filters?action=AttachFile&do=get&target=sample-group2.png)
+![sample-group2.png](Images/Filters/sample-group2.png)
 
 This filter will match nodes where **COMMON** contains `ste` **and**
 `cdc`. To change this to a logical **or** operation, drag either of the
 column filters by its handle
-![filterhandle.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Filters?action=AttachFile&do=get&target=filterhandle.png)
+![filterhandle.png](Images/Filters/filterhandle.png)
 onto the other column filter to create a new group. Now change the
 group's matching behavior to **Match any**:
 
-![sample-group1.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Filters?action=AttachFile&do=get&target=sample-group1.png)
+![sample-group1.png](Images/Filters/sample-group1.png)
 
 You can also reorder filters by dropping them in-between existing
 filters.
@@ -153,7 +153,7 @@ a **Start with**, where **Current selection** refers to the nodes and
 edges currently selected. You can also choose a narrowing filter, which
 produces a different set of selected nodes and edges.
 
-![ChainFilter1.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Filters?action=AttachFile&do=get&target=ChainFilter1.png)
+![ChainFilter1.png](Images/Filters/ChainFilter1.png)
 
 Chainable filters can be reordered by dragging one by the handle and
 dropping it between existing filters.
@@ -239,7 +239,7 @@ The name of active filter appears in the drop-down box at the top of
 to rename, remove or export the active filter. It also lets you create a
 new filter, or import filters.
 
-![select-panel-options.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Filters?action=AttachFile&do=get&target=select-panel-options.png)
+![select-panel-options.png](Images/Filters/select-panel-options.png)
 
 At the bottom of the **Select** panel, there is an **Apply** button that
 will re-apply the active filter. On the opposite side of the progress

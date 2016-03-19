@@ -22,7 +22,7 @@ GO 8150 biological\_process
 
 **Graphical View of GO Term 6412: protein biosynthesis**
 
-![ontology\_dag1.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Annotation?action=AttachFile&do=get&target=ontology_dag1.png)
+![ontology\_dag1.png](Images/Annotation/ontology_dag1.png)
 
 Cytoscape can use this ontology DAG (Directed Acyclic Graph) to annotate
 objects in networks. The Ontology Server (originally called
@@ -93,7 +93,7 @@ for yeast):
 Import Ontology and Annotation
 ------------------------------
 
-![AnnotationImport.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Annotation?action=AttachFile&do=get&target=AnnotationImport.png)
+![AnnotationImport.png](Images/Annotation/AnnotationImport.png)
 
 Cytoscape provides a graphical user interface to import both ontology
 and annotation files at the same time.
@@ -107,14 +107,14 @@ network connection is required.
     example, if you want to annotate the yeast network, select "Gene
     Association file for Saccharomyces cerevisiae".
 
-![ontology\_import\_annotation.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Annotation?action=AttachFile&do=get&target=ontology_import_annotation.png)
+![ontology\_import\_annotation.png](Images/Annotation/ontology_import_annotation.png)
 
 \* Select an Ontology data (OBO file) from the Ontology drop-down list.
 If the file is not loaded yet, it will be shown in red. The first three
 files are Gene Ontology files. You can load other ontologies, but you
 need your own annotation file to annotate networks.
 
-![ontology\_import\_obo.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Annotation?action=AttachFile&do=get&target=ontology_import_obo.png)
+![ontology\_import\_obo.png](Images/Annotation/ontology_import_obo.png)
 
 Once you click the **Import** button, Cytoscape will start loading OBO
 and Gene Association files from the remote sources. If you choose GO

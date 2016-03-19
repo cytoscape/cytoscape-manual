@@ -15,58 +15,58 @@ example, you can:
 
 **Specify a default color and shape for all nodes.**
 
--   ![NodeShape.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=NodeShape.png)
+-   ![NodeShape.png](Images/Styles/NodeShape.png)
 
 **Set node sizes based on the degree of connectivity of the nodes. You
 can visually see the hub of a network...**
 
--   ![DegreeSize.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=DegreeSize.png)
+-   ![DegreeSize.png](Images/Styles/DegreeSize.png)
 
 **...or, set the font size of the node labels instead.**
 
--   ![DegreeLabelSize.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=DegreeLabelSize.png)
+-   ![DegreeLabelSize.png](Images/Styles/DegreeLabelSize.png)
 
 **Visualize gene expression data along a color gradient.**
 
--   ![ColorGradient.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=ColorGradient.png)
+-   ![ColorGradient.png](Images/Styles/ColorGradient.png)
 
 **Encode specific physical entities as different node shapes.**
 
--   ![NodeShapeMapping.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=NodeShapeMapping.png)
+-   ![NodeShapeMapping.png](Images/Styles/NodeShapeMapping.png)
 
 **Use specific line types to indicate different types of interactions.**
 
--   ![edge\_types.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=edge_types.png)
+-   ![edge\_types.png](Images/Styles/edge_types.png)
 
 **Control edge transparency (opacity) using edge weights.**
 
--   ![OpacityForEdges.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=OpacityForEdges.png)
+-   ![OpacityForEdges.png](Images/Styles/OpacityForEdges.png)
 
 **Control multiple edge properties using edge score.**
 
--   ![MultipleEdgeMapping.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=MultipleEdgeMapping.png)
+-   ![MultipleEdgeMapping.png](Images/Styles/MultipleEdgeMapping.png)
 
 **Browse extremely-dense networks by controlling the opacity of nodes.**
 
--   ![OpacityForNodesAndEdges.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=OpacityForNodesAndEdges.png)
+-   ![OpacityForNodesAndEdges.png](Images/Styles/OpacityForNodesAndEdges.png)
 
 **Show highly-connected region by edge bundling and opacity.**
 
--   ![Bundling.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=Bundling.png)
+-   ![Bundling.png](Images/Styles/Bundling.png)
 
 **Add photo/image/graphics on top of nodes.**
 
--   ![CustomGraphics1.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=CustomGraphics1.png)
-    ![CustomGraphics4.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=CustomGraphics4.png)
-    ![CustomGraphics5.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=CustomGraphics5.png)
+-   ![CustomGraphics1.png](Images/Styles/CustomGraphics1.png)
+    ![CustomGraphics4.png](Images/Styles/CustomGraphics4.png)
+    ![CustomGraphics5.png](Images/Styles/CustomGraphics5.png)
 
 Cytoscape 3 has several sample styles. Below are a few examples of these
 applied to the *galFiltered.sif* network :
 
-![default\_style.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=default_style.png)
-![solid\_style.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=solid_style.png)
-![ripple\_style.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=ripple_style.png)
-![universe\_style.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=universe_style.png)
+![default\_style.png](Images/Styles/default_style.png)
+![solid\_style.png](Images/Styles/solid_style.png)
+![ripple\_style.png](Images/Styles/ripple_style.png)
+![universe\_style.png](Images/Styles/universe_style.png)
 
 Introduction to the Style interface
 -----------------------------------
@@ -74,7 +74,7 @@ Introduction to the Style interface
 The **Style** interface is located under the **Style** panel of the
 **Control Panel**.
 
--   ![StylesInterface.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=StylesInterface.png)
+-   ![StylesInterface.png](Images/Styles/StylesInterface.png)
 
 This interface allows you to create/delete/view/switch between different
 styles using the Current Style options. The panel displays the mapping
@@ -139,7 +139,7 @@ started. To examine a few styles, try out the following example:
     the node) and you can see the hubs of the network as larger nodes.
     See the sample screenshot below:
 
--   ![galFilteredSessionDefault.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=galFilteredSessionDefault.png)
+-   ![galFilteredSessionDefault.png](Images/Styles/galFilteredSessionDefault.png)
 
 **Step 2. Switch between different styles**
 
@@ -153,11 +153,11 @@ If you zoom in closer, you can see that protein-DNA interactions
 protein-protein interactions (specified with the label "pp") are drawn
 with solid edges (see sample screenshot below).
 
--   ![VizMapperSample1Style26.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=VizMapperSample1Style26.png)
+-   ![VizMapperSample1Style26.png](Images/Styles/VizMapperSample1Style26.png)
 
 Finally, if you select **Solid**, you can see the graphics below:
 
--   ![VizMapperSolidStyle.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=VizMapperSolidStyle.png)
+-   ![VizMapperSolidStyle.png](Images/Styles/VizMapperSolidStyle.png)
 
 This style does not have mappings except node/edge labels, but you can
 modify the network graphics by editing the *Default Value* for any
@@ -254,9 +254,9 @@ are summarized in the tables below.
 
   -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------
   **Available Shapes and Line Styles**   **Sample**
-  *Node Shapes*                          ![NodeShapeOptions.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=NodeShapeOptions.png)
-  *Line Types*                           ![BorderLineOptions.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BorderLineOptions.png)
-  *Arrow Shapes*                         ![ArrowShapeOptions.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=ArrowShapeOptions.png)
+  *Node Shapes*                          ![NodeShapeOptions.png](Images/Styles/NodeShapeOptions.png)
+  *Line Types*                           ![BorderLineOptions.png](Images/Styles/BorderLineOptions.png)
+  *Arrow Shapes*                         ![ArrowShapeOptions.png](Images/Styles/ArrowShapeOptions.png)
   -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How Mappings Work
@@ -383,18 +383,18 @@ types are supported:
 
 1.  Color Passthrough Mapping
 
-    -   ![ColorPassthrough.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=ColorPassthrough.png)
-        ![colorPt2.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=colorPt2.png)
+    -   ![ColorPassthrough.png](Images/Styles/ColorPassthrough.png)
+        ![colorPt2.png](Images/Styles/colorPt2.png)
 
 2.  Node Size Passthrough Mapping
 
-    -   ![SizePassthrough.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=SizePassthrough.png)
-        ![sizePt2.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=sizePt2.png)
+    -   ![SizePassthrough.png](Images/Styles/SizePassthrough.png)
+        ![sizePt2.png](Images/Styles/sizePt2.png)
 
 3.  Image Passthrough Mapping
 
-    -   ![CustomGraphicsPassthrough.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=CustomGraphicsPassthrough.png)
-        ![cglorPt2.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=cglorPt2.png)
+    -   ![CustomGraphicsPassthrough.png](Images/Styles/CustomGraphicsPassthrough.png)
+        ![cglorPt2.png](Images/Styles/cglorPt2.png)
 
 Images, Charts and Gradients
 ----------------------------
@@ -416,7 +416,7 @@ set used in this section is created by Database Center for Life Science
 The **Image Manager** is available under the menu option **View ? Open
 Image Manager...**:
 
--   ![cgManager1.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=cgManager1.png)
+-   ![cgManager1.png](Images/Styles/cgManager1.png)
 
 -   You can add images by drag-and-drop of image files and URLs. If you
     want to add images from a web browser or local file system, you can
@@ -432,7 +432,7 @@ Image Manager...**:
     button on the bottom of the Image Manager window and then select the
     images you want to add.
 
--   ![add\_custom\_graphics.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=add_custom_graphics.png)
+-   ![add\_custom\_graphics.png](Images/Styles/add_custom_graphics.png)
 
 -   To remove images from the current session's image library, simply
     select one or more images from the list and press the **Remove
@@ -445,8 +445,8 @@ Image Manager...**:
 
 ### Using Graphics in Styles
 
--   ![CustomGraphicsVizMapper.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=CustomGraphicsVizMapper.png)
-    ![CustomGraphicsNodes.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=CustomGraphicsNodes.png)
+-   ![CustomGraphicsVizMapper.png](Images/Styles/CustomGraphicsVizMapper.png)
+    ![CustomGraphicsNodes.png](Images/Styles/CustomGraphicsNodes.png)
 
 Node graphics are used and defined like any other property, through the
 **Style** interface. There are nine **Image/Chart** properties.
@@ -459,24 +459,24 @@ Node graphics are used and defined like any other property, through the
         images to the list).
 
     -   **Charts:** The following chart types are available:
-        ![BarChartIcon.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartIcon.png)
+        ![BarChartIcon.png](Images/Styles/BarChartIcon.png)
         *Bar* ,
-        ![BoxChartIcon.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BoxChartIcon.png)
+        ![BoxChartIcon.png](Images/Styles/BoxChartIcon.png)
         *Box*,
-        ![HeatMapChartIcon.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=HeatMapChartIcon.png)
+        ![HeatMapChartIcon.png](Images/Styles/HeatMapChartIcon.png)
         *Heat Map*,
-        ![LineChartIcon.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=LineChartIcon.png)
+        ![LineChartIcon.png](Images/Styles/LineChartIcon.png)
         *Line*,
-        ![PieChartIcon.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=PieChartIcon.png)
+        ![PieChartIcon.png](Images/Styles/PieChartIcon.png)
         *Pie*,
-        ![RingChartIcon.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=RingChartIcon.png)
+        ![RingChartIcon.png](Images/Styles/RingChartIcon.png)
         *Ring*.
 
     -   **Gradients:** You can also set *Linear* and *Radial* gradients
         to nodes.
 
-![BarChartEditor.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartEditor.png)
-![RadialGradientEditor.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=RadialGradientEditor.png)
+![BarChartEditor.png](Images/Styles/BarChartEditor.png)
+![RadialGradientEditor.png](Images/Styles/RadialGradientEditor.png)
 
 -   To add a graphic, first add one **Image/Chart** property to the
     properties list in the **Style** interface (on the **Node** tab,
@@ -491,7 +491,7 @@ Node graphics are used and defined like any other property, through the
 -   To remove an image, chart or gradient, click the **Remove Graphics**
     button on the **Graphics** dialog.
 
--   ![CustomGraphicsSelector.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=CustomGraphicsSelector.png)
+-   ![CustomGraphicsSelector.png](Images/Styles/CustomGraphicsSelector.png)
 
 #### Graphics Positions
 
@@ -562,14 +562,14 @@ some default values.
 
 3.  Select the **Style** panel in the Control Panel.
 
-    ![StylesInterface.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=StylesInterface.png)
+    ![StylesInterface.png](Images/Styles/StylesInterface.png)
 
 4.  **Create a new style:** Click the **Options**
-    ![OptionsDropDown.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=OptionsDropDown.png)
+    ![OptionsDropDown.png](Images/Styles/OptionsDropDown.png)
     drop-down, and select **Create New Style**. Enter a name for your
     new style when prompted.
 
-    ![NewStyle.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=NewStyle.png)
+    ![NewStyle.png](Images/Styles/NewStyle.png)
 
 Since no mappings are set up yet, only default values are defined for
 some of the properties. From this panel, you can create node/edge
@@ -584,7 +584,7 @@ mappings for all properties.
     Color** is set to white. The new Style is automatically applied to
     the current network, as shown below.
 
-    ![Tutorial1-final.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=Tutorial1-final.png)
+    ![Tutorial1-final.png](Images/Styles/Tutorial1-final.png)
 
 ### Tutorial 2: Creating a New Style with a Discrete Mapping
 
@@ -608,7 +608,7 @@ protein-protein interactions as solid lines.
     "Discrete Mapping". All available column values for "interaction"
     will be displayed, as shown below.
 
-    ![DiscreteMapper.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=DiscreteMapper.png)
+    ![DiscreteMapper.png](Images/Styles/DiscreteMapper.png)
 
 4.  **Set the mapped values:** Click the empty cell next to "pd"
     (protein-DNA interactions). On the right side of the cell, click on
@@ -616,7 +616,7 @@ protein-protein interactions as solid lines.
     green or similar, and the change will immediately appear on the
     network window.
 
-    ![EdgeColorTut2.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=EdgeColorTut2.png)
+    ![EdgeColorTut2.png](Images/Styles/EdgeColorTut2.png)
 
 Repeat step 4 for "pp" (protein-protein interactions), but select a
 darker color. Then repeat steps 3 through 4 for the *Line Type*
@@ -626,7 +626,7 @@ the list.
 Now your network should show "pd" interactions as dashed green lines and
 "pp" interactions as solid lines. A sample screenshot is provided below.
 
-![Tutorial2-final.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=Tutorial2-final.png)
+![Tutorial2-final.png](Images/Styles/Tutorial2-final.png)
 
 ### Tutorial 3: Creating a New Style with a Continuous Mapping
 
@@ -648,14 +648,14 @@ network and display it along a color gradient.
 3.  **Set the mapping type:** Set the "Continuous Mapping" option as the
     **Mapping Type**. This automatically creates a default mapping.
 
-    ![DefaultContinous.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=DefaultContinous.png)
+    ![DefaultContinous.png](Images/Styles/DefaultContinous.png)
 
 4.  **Define the points where colors will change:** Double-click on the
     black-and-white gradient rectangle next to **Current Mapping** to
     open the **Continuous Mapping Editor**. Note the two smaller
     triangles at the top of the gradient.
 
-    ![DefaultColorGradient.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=DefaultColorGradient.png)
+    ![DefaultColorGradient.png](Images/Styles/DefaultColorGradient.png)
 
 5.  **Define the colors between points:** Double-click on the larger
     leftmost triangle (facing left) and a color palette will appear. Set
@@ -663,14 +663,14 @@ network and display it along a color gradient.
     the triangle on the right, set the color green and then choose the
     same color for the smaller right-side triangle.
 
-    ![GreenWhiteGradient.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=GreenWhiteGradient.png)
+    ![GreenWhiteGradient.png](Images/Styles/GreenWhiteGradient.png)
 
 The color gradients will immediately appear on the network. All nodes
 with degree *1* will be set to white, and all values between *1* and
 *18* will be painted with a white/green color gradient (see the sample
 screenshot below).
 
--   ![Tutorial3-final.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=Tutorial3-final.png)
+-   ![Tutorial3-final.png](Images/Styles/Tutorial3-final.png)
 
 -   **Repeat for other properties:** You can create more continuous
     mappings for other numeric table data. For example, edge data table
@@ -678,7 +678,7 @@ screenshot below).
     continuous mapping. The following is an example visualization which
     mapps *Edge Width* to "EdgeBetweenness".
 
-    ![Tutorial3-EdgeThickness.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=Tutorial3-EdgeThickness.png)
+    ![Tutorial3-EdgeThickness.png](Images/Styles/Tutorial3-EdgeThickness.png)
 
 ### Tutorial 4: Setting Automatic Values to a Discrete Mapping
 
@@ -688,7 +688,7 @@ for discrete mappings.
 1.  Switch the Current Style to **Minimal**. Now your network looks like
     the following:
 
-    ![Minimal.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=Minimal.png)
+    ![Minimal.png](Images/Styles/Minimal.png)
 
 2.  Create a discrete mapping for **Fill Color**. Select
     "AverageShortestPathLength" (generated by the Network Analyzer) as
@@ -698,7 +698,7 @@ for discrete mappings.
     Generators ? Rainbow**. Cytoscape will automatically generate
     different colors for all the property values as shown below:
 
-    ![RainbowDiscreteMapping.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=RainbowDiscreteMapping.png)
+    ![RainbowDiscreteMapping.png](Images/Styles/RainbowDiscreteMapping.png)
 
 4.  Create a discrete mapping for **Label Font Size**. Select
     "AverageShortestPathLength" as controlling property
@@ -711,13 +711,13 @@ for discrete mappings.
 6.  Apply **Layout ? yFiles Layouts ? Organic**. The final view is shown
     below:
 
-    ![Tutorial4-final.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=Tutorial4-final.png)
+    ![Tutorial4-final.png](Images/Styles/Tutorial4-final.png)
 
 This mapping generator utility is useful for categorical data. The
 following example shows a discrete mapping that maps the species column
 to node color.
 
--   ![tutorial4\_sample.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=tutorial4_sample.png)
+-   ![tutorial4\_sample.png](Images/Styles/tutorial4_sample.png)
 
 ### Tutorial 5: Using Images in Styles
 
@@ -742,16 +742,16 @@ assign up to nine images per node as a part of a Style.
     yet, add it from the drop-down **Properties ? Paint ? Custom Paint 1
     ? Image/Chart 1**.
 
-    ![ImageChart1-Add.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=ImageChart1-Add.png)
+    ![ImageChart1-Add.png](Images/Styles/ImageChart1-Add.png)
 
 5.  Click the **Default Value** cell of the **Image/Chart 1** entry in
     order to open the **Graphics** dialog.
 
-    ![ImageChart1-DefValue.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=ImageChart1-DefValue.png)
+    ![ImageChart1-DefValue.png](Images/Styles/ImageChart1-DefValue.png)
 
 6.  Select any of the images from the list and click **Apply**.
 
-    ![cgTutorial-defImage.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=cgTutorial-defImage.png)
+    ![cgTutorial-defImage.png](Images/Styles/cgTutorial-defImage.png)
 
 7.  Click the **Default Value** cell of node **Transparency** and set
     the value to *zero*.
@@ -764,41 +764,41 @@ assign up to nine images per node as a part of a Style.
 10. Also change the edge **Width** to *6*. Now your network looks like
     the following:
 
-    ![CustomGraphicsNodes.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=CustomGraphicsNodes.png)
+    ![CustomGraphicsNodes.png](Images/Styles/CustomGraphicsNodes.png)
 
 11. Open the Image Manager under **View ? Open Image Manager...**. Drag
     and Drop this
-    ![sampleImage.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=sampleImage.png)
+    ![sampleImage.png](Images/Styles/sampleImage.png)
     icon to the image list which automatically adds it to the manager.
 
-    ![cgTutorial4.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=cgTutorial4.png)
+    ![cgTutorial4.png](Images/Styles/cgTutorial4.png)
 
 12. Create a Continuous Mapping for **Image/Chart 2** and select
     "BetweennessCentrality" as its controlling property. Double-click
     the **Current Mapping** value cell to open the Continuos
     Mapping Editor.
 
-    ![cgTutorial-openCMEditor.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=cgTutorial-openCMEditor.png)
+    ![cgTutorial-openCMEditor.png](Images/Styles/cgTutorial-openCMEditor.png)
 
 13. In the **Continuos Mapping Editor**, add a handle position by
     clicking in the **Add** button, and move the handle to *0.2*.
     Double-click the region over **0.2** and set the new icon you have
     just added in the last step.
 
-    ![cgTutorial5.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=cgTutorial5.png)
+    ![cgTutorial5.png](Images/Styles/cgTutorial5.png)
 
 14. Add the property **Image/Chart Position 2** from the drop-down
     option **Properties ? Paint ? Custom Paint 2 ? Image/Chart Position
     2**. Click its **Default Value** cell to move the position of the
     graphics to upper left.
 
-    ![cgTutorial6.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=cgTutorial6.png)
+    ![cgTutorial6.png](Images/Styles/cgTutorial6.png)
 
     Now the important nodes in the network (nodes with high [betweenness
     centrality](http://en.wikipedia.org/wiki/Betweenness_centrality))
     are annotated with the icon:
 
-    ![CustomGraphicsNodes2.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=CustomGraphicsNodes2.png)
+    ![CustomGraphicsNodes2.png](Images/Styles/CustomGraphicsNodes2.png)
 
 ### Tutorial 6: Creating Node Charts
 
@@ -819,7 +819,7 @@ charts from data stored in the Node tables.
 3.  Select the **Style** panel in the Control Panel.
 
 4.  **Create a new style:** Click the **Options**
-    ![OptionsDropDown.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=OptionsDropDown.png)
+    ![OptionsDropDown.png](Images/Styles/OptionsDropDown.png)
     drop-down, and select **Create New Style**. Enter a name for your
     new style when prompted.
 
@@ -827,17 +827,17 @@ charts from data stored in the Node tables.
     yet, add it from the drop-down **Properties ? Paint ? Custom Paint 1
     ? Image/Chart 1**.
 
-    ![ImageChart1-Add.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=ImageChart1-Add.png)
+    ![ImageChart1-Add.png](Images/Styles/ImageChart1-Add.png)
 
 6.  Click the **Default Value** cell of the **Image/Chart 1** entry in
     order to open the **Graphics** dialog.
 
-    ![ImageChart1-DefValue.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=ImageChart1-DefValue.png)
+    ![ImageChart1-DefValue.png](Images/Styles/ImageChart1-DefValue.png)
 
 7.  Click the **Charts** tab and make sure the **Bar Chart** option
     is selected.
 
-    ![BarChartPanel\_6\_1.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartPanel_6_1.png)
+    ![BarChartPanel\_6\_1.png](Images/Styles/BarChartPanel_6_1.png)
 
 8.  **Select data columns:** Now you have to choose the columns in the
     Node table that contains the data you want to be displayed
@@ -849,39 +849,39 @@ charts from data stored in the Node tables.
         selected columns (by default, Cytoscape selects the first column
         in the **Available Columns** list).
 
-        ![BarChartPanel\_6\_2.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartPanel_6_2.png)
+        ![BarChartPanel\_6\_2.png](Images/Styles/BarChartPanel_6_2.png)
 
     -   Now select all *centrality* and *coefficient* columns from
         **Available Columns** list and click the **Add
         Selected** button.
 
-        ![BarChartPanel\_6\_3.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartPanel_6_3.png)
+        ![BarChartPanel\_6\_3.png](Images/Styles/BarChartPanel_6_3.png)
 
 9.  Click the **Apply** button to create bar charts with the selected
     data columns and default options.
 
-    ![BarChartPanel\_6\_4.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartPanel_6_4.png)
-    ![BarChartsNetwork\_6\_1.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartsNetwork_6_1.png)
+    ![BarChartPanel\_6\_4.png](Images/Styles/BarChartPanel_6_4.png)
+    ![BarChartsNetwork\_6\_1.png](Images/Styles/BarChartsNetwork_6_1.png)
 
 10. The network view doesn't look so good yet, so let's make a few
     changes to its Style before we continue. In the example shown below,
     the node **Shape** is set to *Rectangle*, while the node **Fill
     Color** is set to *white*.
 
-    ![BarChartsNetwork\_6\_2.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartsNetwork_6_2.png)
+    ![BarChartsNetwork\_6\_2.png](Images/Styles/BarChartsNetwork_6_2.png)
 
 11. Focus on one node to see the chart details. For example search for
     and then focus on node "YMR043W".
 
-    ![BarChartsNetwork\_6\_2b.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartsNetwork_6_2b.png)
-    ![BarChartsNode\_6\_1.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartsNode_6_1.png)
+    ![BarChartsNetwork\_6\_2b.png](Images/Styles/BarChartsNetwork_6_2b.png)
+    ![BarChartsNode\_6\_1.png](Images/Styles/BarChartsNode_6_1.png)
 
 12. **Change other chart options:** Click the **Default Value** cell of
     the **Image/Chart 1** property again in order to open the
     **Graphics** dialog, and then select the **Options** tab on the
     **Bar Chart** editor.
 
-    ![BarChartPanel\_6\_5.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartPanel_6_5.png)
+    ![BarChartPanel\_6\_5.png](Images/Styles/BarChartPanel_6_5.png)
 
     On this panel, you can:
 
@@ -905,7 +905,7 @@ charts from data stored in the Node tables.
 13. Check both **Show Domain Axis** and **Show Range Axis** and apply
     the graphics again. Now the node chart should look like this:
 
-    ![BarChartsNode\_6\_2.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartsNode_6_2.png)
+    ![BarChartsNode\_6\_2.png](Images/Styles/BarChartsNode_6_2.png)
 
 14. The default domain labels are not very useful, so let's set better
     labels:
@@ -920,7 +920,7 @@ charts from data stored in the Node tables.
     -   Right-click the same cell and select the option **Apply to
         entire column**.
 
-    ![BarChartsNetwork\_6\_3.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartsNetwork_6_3.png)
+    ![BarChartsNetwork\_6\_3.png](Images/Styles/BarChartsNetwork_6_3.png)
 
     -   Open the chart editor again and select the **Options** panel.
 
@@ -930,7 +930,7 @@ charts from data stored in the Node tables.
     -   Select "Up 45^o^" on the **Domain Labels Position**
         drop-down button. The labels should look like this now:
 
-    ![BarChartsNode\_6\_3.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=BarChartsNode_6_3.png)
+    ![BarChartsNode\_6\_3.png](Images/Styles/BarChartsNode_6_3.png)
 
 Advanced Topics
 ---------------
@@ -941,7 +941,7 @@ Several utility functions are available for Discrete Mappings. You can
 use these functions by right-clicking on any property entry (shown
 below).
 
-![MappingValueGenerators.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=MappingValueGenerators.png)
+![MappingValueGenerators.png](Images/Styles/MappingValueGenerators.png)
 
 #### Automatic Value Generators
 
@@ -952,7 +952,7 @@ below).
     -   **Rainbow** and **Rainbow OSC** - These functions try to assign
         as diverse a set of colors as possible for each data value.
 
-        -   ![RainbowMapper.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=RainbowMapper.png)
+        -   ![RainbowMapper.png](Images/Styles/RainbowMapper.png)
 
     -   **Random Numbers** and **Random Colors** - Randomized numbers
         and colors.
@@ -960,7 +960,7 @@ below).
     -   **Number Series** - Set a series of numbers to the
         specified mapping. Requires a starting number and increment.
 
-        -   ![NumberSeriesNodeSize.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=NumberSeriesNodeSize.png)
+        -   ![NumberSeriesNodeSize.png](Images/Styles/NumberSeriesNodeSize.png)
 
     -   **Fit label width** - This function is only for node **Width**
         and **Size**. When a discrete mapping for node **Width** or
@@ -968,7 +968,7 @@ below).
         label automatically by selecting this function. See the example
         below:
 
-        -   ![NodeLabelFit.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=NodeLabelFit.png)
+        -   ![NodeLabelFit.png](Images/Styles/NodeLabelFit.png)
 
 #### Edit Selected Values at Once
 
@@ -977,7 +977,7 @@ mapping rows in which you want to change values then right-click and
 select **Edit ? Edit Selected Discrete Mapping Values**. A dialog pops
 up and you can enter the new value for the selected rows.
 
-![EditSelectedMappingValues.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=EditSelectedMappingValues.png)
+![EditSelectedMappingValues.png](Images/Styles/EditSelectedMappingValues.png)
 
 ### Working with Continuous Mapping Editors
 
@@ -993,7 +993,7 @@ are associated with a specific property type:
 
 #### Range Settings Panel
 
-![RangeSetting26.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=RangeSetting26.png)
+![RangeSetting26.png](Images/Styles/RangeSetting26.png)
 
 Each continuous mapping editor has a range settings section (labelled
 **Edit Handle Positions and Values**) with the following fields and
@@ -1017,7 +1017,7 @@ buttons.
 
 #### Gradient Editor
 
-![GradientEditorSample26.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=GradientEditorSample26.png)
+![GradientEditorSample26.png](Images/Styles/GradientEditorSample26.png)
 
 The Gradient Editor is an editor for creating continuous mappings for
 colors. To change the color of each region, just double-click the
@@ -1026,12 +1026,12 @@ only when the editor has two or more handles (see the example below).
 
   -------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------
   1 handle (no gradient)                                                                                                     2 handles
-  ![OneSlider.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=OneSlider.png)   ![TwoSliders.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=TwoSliders.png)
+  ![OneSlider.png](Images/Styles/OneSlider.png)   ![TwoSliders.png](Images/Styles/TwoSliders.png)
   -------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------
 
 #### Continuous-Continuous Editor
 
-![C2CEditor26.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=C2CEditor26.png)
+![C2CEditor26.png](Images/Styles/C2CEditor26.png)
 
 The Continuous-Continuous Editor is for creating mappings between
 numerical data and numerical properties (e.g. size, transparency). To
@@ -1041,7 +1041,7 @@ them to directly type an exact value.
 
 #### Continuous-Discrete Editor
 
-![C2DEditor26.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=C2DEditor26.png)
+![C2DEditor26.png](Images/Styles/C2DEditor26.png)
 
 The Continuous-Discrete Editor is used to create mappings from numerical
 column values to discrete properties, such as fonts, shapes, or line
@@ -1066,11 +1066,11 @@ file separate from the session file. To do this, navigate to the menu
 option **File ? Export ? Styles...**, and save the selected styles to a
 file. This feature can be used to share styles with other users.
 
-![ExportStylesDialog.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=ExportStylesDialog.png)
+![ExportStylesDialog.png](Images/Styles/ExportStylesDialog.png)
 
 You can also change the default list of styles for all future sessions
 of Cytoscape. To do this, click the **Options**
-![OptionsDropDown.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Styles?action=AttachFile&do=get&target=OptionsDropDown.png)
+![OptionsDropDown.png](Images/Styles/OptionsDropDown.png)
 drop-down in the **Style** section, and select **Make Current Styles
 Default**. This will save the current styles as a `default_vizmap.xml`
 file to your `CytoscapeConfiguration` directory (found in your home

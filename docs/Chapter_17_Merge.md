@@ -11,7 +11,7 @@ The **Advanced Network Merge** interface is available from **Tools ?
 Merge ? Networks...** and allows for merging of two or more networks.
 
 ![Advanced Network
-Merge](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Merge?action=AttachFile&do=get&target=AdvancedNetworkMerge.png)
+Merge](Images/Merge/AdvancedNetworkMerge.png)
 
 ### Basic Operations
 
@@ -38,7 +38,7 @@ how to merge the networks. The options available here are:
     merged network should be named and its data type.
 
 ![Advanced Network Merge
-Options](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Merge?action=AttachFile&do=get&target=AdvancedNetworkMergeOptions.png)
+Options](Images/Merge/AdvancedNetworkMergeOptions.png)
 
 Merge Tables
 ------------

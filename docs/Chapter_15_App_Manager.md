@@ -28,7 +28,7 @@ App Manager**. At the top of the **App Manager** window, make sure you
 have the **Install** tab selected.
 
 -   ![App
-    Manager](http://wiki.cytoscape.org//Cytoscape_3/UserManual/AppManager?action=AttachFile&do=get&target=AppManager.png)
+    Manager](Images/AppManager/AppManager.png)
 
 There are three ways you can find apps:
 

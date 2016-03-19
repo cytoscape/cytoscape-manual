@@ -12,7 +12,7 @@ to these properties will be saved in .props files under the
 Cytoscape properties are configurable using the Add, Modify and Delete
 buttons as seen below.
 
--   ![Preferences\_cy3.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Preferences?action=AttachFile&do=get&target=Preferences_cy3.png)
+-   ![Preferences\_cy3.png](Images/Preferences/Preferences_cy3.png)
 
 App properties may also be edited in the same way as editing Cytoscape
 properties. For example, to edit the properties of Linkout, select
@@ -20,7 +20,7 @@ properties. For example, to edit the properties of Linkout, select
 store properties inside session files in addition to (or instead of)
 storing them in the `CytoscapeConfiguration` directory.
 
--   ![Preferences\_linkout.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Preferences?action=AttachFile&do=get&target=Preferences_linkout.png)
+-   ![Preferences\_linkout.png](Images/Preferences/Preferences_linkout.png)
 
 Managing Bookmarks
 ------------------
@@ -30,7 +30,7 @@ sample network files located on the Cytoscape web server. Users may add,
 modify, and delete bookmarks through the Bookmark manager, accessed by
 going to **Edit ? Preferences ? Bookmarks...**.
 
--   ![Preferences\_bookmarks.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Preferences?action=AttachFile&do=get&target=Preferences_bookmarks.png)
+-   ![Preferences\_bookmarks.png](Images/Preferences/Preferences_bookmarks.png)
 
 There are currently several types of bookmarks (based on data
 categories), including network and table. Network bookmarks are URLs
@@ -44,7 +44,7 @@ Managing Proxy Servers
 You can define and configure a proxy server for Cytoscape by going to
 **Edit ? Preferences ? Proxy Settings...**.
 
--   ![Preferences\_proxy.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Preferences?action=AttachFile&do=get&target=Preferences_proxy.png)
+-   ![Preferences\_proxy.png](Images/Preferences/Preferences_proxy.png)
 
 After the proxy server is set, all network traffic related to loading a
 network from URL will pass through the proxy server. Cytoscape apps use
@@ -64,4 +64,4 @@ Managing Group View
 The configuration of Cytoscape group view may also be edited through
 **Edit ? Preferences ? Group Preferences...**.
 
--   ![Preferences\_groups.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Preferences?action=AttachFile&do=get&target=Preferences_groups.png)
+-   ![Preferences\_groups.png](Images/Preferences/Preferences_groups.png)
