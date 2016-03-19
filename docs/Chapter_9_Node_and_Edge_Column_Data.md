@@ -36,7 +36,7 @@ from the **File ? Import ? Table ? File...** user interface.
 
 ### Basic Operation
 
--   ![ImportColumnsFromTable.png](Images/Columns/ImportColumnsFromTable.png)
+-   ![ImportColumnsFromTable.png](Images/Columns/FromTable.png)
 
 1.  Select **File ? Import ? Table ? File...**.
 

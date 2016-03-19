@@ -166,8 +166,10 @@ Cytoscape.js JSON:
 The following two charts detail the compatibility of specific Cytoscape
 features in Cytoscape.js.
 
-[![attachment:CS-web\_vs\_CS-1\_small.png](Images/CytoscapeJs/CS-web_vs_CS-1.png){width="100"}](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/CytoscapeJs/CS-web_vs_CS-1_small.png)
-[![attachment:CS-web\_vs\_CS-2\_small.png](Images/CytoscapeJs/CS-web_vs_CS-2.png){width="100"}](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/CytoscapeJs/CS-web_vs_CS-2_small.png)
+************** Is this broken ??? *******************
+
+[![small.png](Images/CytoscapeJs/CS-web_vs_CS-1.png){width="100"}](Images/CS-web_vs_CS-1_small.png)
+[![small.png](Images/CytoscapeJs/CS-web_vs_CS-2.png){width="100"}](Images/CS-web_vs_CS-2_small.png)
 
 ### Import Cytoscape.js data into Cytoscape
 

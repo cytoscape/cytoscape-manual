@@ -38,7 +38,7 @@ how to merge the networks. The options available here are:
     merged network should be named and its data type.
 
 ![Advanced Network Merge
-Options](Images/Merge/AdvancedNetworkMergeOptions.png)
+Options](Images/Merge/Options.png)
 
 Merge Tables
 ------------
