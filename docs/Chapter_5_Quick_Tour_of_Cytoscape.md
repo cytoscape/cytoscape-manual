@@ -7,7 +7,7 @@ Welcome Screen
 When you start Cytoscape, you can access basic functions from the
 **Welcome Screen**:
 
-![Welcome\_33.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=Welcome_33.png)
+![Welcome\_33.png](Images/Quick_Tour/Welcome_33.png)
 
 The **Welcome Screen** is designed to access commonly used features of
 Cytoscape including:
@@ -34,7 +34,7 @@ Basic Features
 When a network is loaded, Cytoscape will look similar to the image
 below:
 
-![NetworkLoaded.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=NetworkLoaded.png)
+![NetworkLoaded.png](Images/Quick_Tour/NetworkLoaded.png)
 
 Most functionalities are self-explanatory, but we'll go through a
 concise explanation for clarity. The main window here has several
@@ -60,13 +60,13 @@ components:
 
 The Network Panel and Table Panel are dockable tabbed Panels. You can
 undock any of these panels by clicking on the **Float Window** control
-![FloatWindow-v31.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=FloatWindow-v31.png)
+![FloatWindow-v31.png](Images/Quick_Tour/FloatWindow-v31.png)
 in the upper-right corner of the CytoPanel. This is useful when you want
 assign the network panel as much screen space as possible. To dock the
 window again, click the **Dock Window** icon
-![DockWindow.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=DockWindow.png).
+![DockWindow.png](Images/Quick_Tour/DockWindow.png).
 Clicking the **Hide Panel** icon
-![HideWindow.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=HideWindow.png)
+![HideWindow.png](Images/Quick_Tour/HideWindow.png)
 will hide the panel; this can be shown again by choosing **View ? Show**
 and selecting the relevant panel.
 
@@ -75,7 +75,7 @@ have two Cytoscape windows, the main window, and a new window labeled
 Table Panel, similar to the one shown below. A popup will be displayed
 when you put the mouse pointer on a cell.
 
--   ![TablePanel.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=TablePanel.png)
+-   ![TablePanel.png](Images/Quick_Tour/TablePanel.png)
 
 Note that Table Panel now has a Dock Window control. If you click this
 control, the window will dock onto the main window. For more information
@@ -97,7 +97,7 @@ software. Detailed information on network editing can be found in the
 **[Editing Networks](#Network_Editor)**
 section.
 
--   ![AddNodeMenu.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=AddNodeMenu.png)
+-   ![AddNodeMenu.png](Images/Quick_Tour/AddNodeMenu.png)
 
 The Menus
 ---------
@@ -116,7 +116,7 @@ network in either JPEG, PDF, PNG, Post Script or SVG format.
 quick access. **File ? Run** allows you to specify a Cytoscape script
 file to run, and **File ? Print Current Network...** allows printing.
 
--   ![FileMenu.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=FileMenu.png)
+-   ![FileMenu.png](Images/Quick_Tour/FileMenu.png)
 
 ### Edit
 
@@ -142,7 +142,7 @@ Preferences ? Properties...**. More details on how to edit preferences
 can be found
 [here](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Preferences#).
 
--   ![EditMenu.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=EditMenu.png)
+-   ![EditMenu.png](Images/Quick_Tour/EditMenu.png)
 
 ### View
 
@@ -150,14 +150,14 @@ The **View** menu allows you to display or hide the **Control Panel**,
 **Table Panel**, **Tool Panel** and the **Result Panel**. It also
 provides the control of other view-related functionality.
 
--   ![ViewMenu.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=ViewMenu.png)
+-   ![ViewMenu.png](Images/Quick_Tour/ViewMenu.png)
 
 ### Select
 
 The **Select** menu contains different options for selecting nodes and
 edges.
 
--   ![SelectMenu.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=SelectMenu.png)
+-   ![SelectMenu.png](Images/Quick_Tour/SelectMenu.png)
 
 ### Layout
 
@@ -168,7 +168,7 @@ Distribute**) are tools for manipulating the network visualization. The
 bottom section of the menu lists a variety of layout algorithms which
 automatically lay a network out.
 
--   ![LayoutMenu.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=LayoutMenu.png)
+-   ![LayoutMenu.png](Images/Quick_Tour/LayoutMenu.png)
 
 ### Apps
 
@@ -179,7 +179,7 @@ are loaded, the apps that you see may be different than what appear
 here. The below picture shows a Cytoscape installation without installed
 apps.
 
--   ![AppsMenu.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=AppsMenu.png)
+-   ![AppsMenu.png](Images/Quick_Tour/AppsMenu.png)
 
   ------------------------------------------------------------------------------------------------------------------
   Note: A list of available Cytoscape apps with descriptions is available online at: [](http://apps.cytoscape.org)
@@ -195,21 +195,21 @@ The **Tools** menu contains advanced features like the **[Command Line Dialog](#
 **[Network Merge](#Merge)**
 and **Workflow**.
 
--   ![ToolsMenu.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=ToolsMenu.png)
+-   ![ToolsMenu.png](Images/Quick_Tour/ToolsMenu.png)
 
 ### Help
 
 The **Help** menu allows you to launch the online help viewer and browse
 the table of contents for this manual (**Contents**).
 
--   ![HelpMenu.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=HelpMenu.png)
+-   ![HelpMenu.png](Images/Quick_Tour/HelpMenu.png)
 
 The **Citations** option displays the main literature citation for
 Cytoscape, as well as a list of literature citations for installed apps.
 The list will be different depending on the set of apps you have
 installed.
 
--   ![Citations.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=Citations.png)
+-   ![Citations.png](Images/Quick_Tour/Citations.png)
 
 The **Update Organism Preset Networks** option updates the preset
 networks available on the **Welcome** screen to the latest version.
@@ -226,7 +226,7 @@ loaded by the user and a view displays them.
 
 An example where a number of networks have been loaded is shown below:
 
-![MultipleNetworkView.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=MultipleNetworkView.png)
+![MultipleNetworkView.png](Images/Quick_Tour/MultipleNetworkView.png)
 
 The network manager (in Control Panel) shows the networks that are
 loaded. Clicking on a network here will make that view active in the
@@ -261,11 +261,11 @@ windows under **View ? Arrange Network Windows**.
 
 **Vertical**
 
--   ![MultipleNetworks\_Vertical.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=MultipleNetworks_Vertical.png)
+-   ![MultipleNetworks\_Vertical.png](Images/Quick_Tour/MultipleNetworks_Vertical.png)
 
 **Grid**
 
--   ![MultipleNetworks\_Grid.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=MultipleNetworks_Grid.png)
+-   ![MultipleNetworks\_Grid.png](Images/Quick_Tour/MultipleNetworks_Grid.png)
 
 The Network Overview Window
 ---------------------------
@@ -277,4 +277,4 @@ in the network view window, and it can be dragged with the mouse to view
 other portions of the network. Zooming in will cause the rectangle to
 appear smaller and vice versa.
 
--   ![network\_overview\_30.png](http://wiki.cytoscape.org//Cytoscape_3/UserManual/Quick_Tour?action=AttachFile&do=get&target=network_overview_30.png)
+-   ![network\_overview\_30.png](Images/Quick_Tour/network_overview_30.png)
