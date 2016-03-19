@@ -1,7 +1,5 @@
-
-
-[Finding and Filtering Nodes and Edges](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Filters)
-========================================================================================================================
+Finding and Filtering Nodes and Edges
+=====================================
 
 Search Bar
 ----------

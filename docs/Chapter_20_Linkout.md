@@ -1,5 +1,5 @@
-[Linkout](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Linkout)
-==========================================================================================
+Linkout
+=======
 
 Linkout provides a mechanism to link nodes and edges to external web
 resources within Cytoscape. Right-clicking on a node or edge in

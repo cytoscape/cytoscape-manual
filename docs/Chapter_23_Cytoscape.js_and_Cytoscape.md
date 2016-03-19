@@ -1,5 +1,5 @@
-[Cytoscape.js and Cytoscape](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/CytoscapeJs)
-=================================================================================================================
+Cytoscape.js and Cytoscape
+==========================
 
 What is Cytoscape.js?
 ---------------------

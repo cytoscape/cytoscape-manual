@@ -1,5 +1,5 @@
-[Rendering Engine](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Rendering_Engine)
-============================================================================================================
+Rendering Engine
+================
 
 What is Level of Detail (LOD)?
 ------------------------------

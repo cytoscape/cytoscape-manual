@@ -1,6 +1,5 @@
-<a name="Command_Line_Arguments"></a>
-[Command Line Arguments] 
-========================================================================================================================
+Command Line Arguments
+======================
 
 Cytoscape recognizes a number of optional command line arguments,
 including run-time specification of network files, node and edge data

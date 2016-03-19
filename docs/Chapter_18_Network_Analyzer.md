@@ -1,5 +1,5 @@
-[NetworkAnalyzer](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Network_Analyzer)
-===========================================================================================================
+NetworkAnalyzer
+===============
 
 NetworkAnalyzer computes a comprehensive set of topological parameters
 for undirected and directed networks, including:

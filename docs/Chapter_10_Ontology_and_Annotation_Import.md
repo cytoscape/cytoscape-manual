@@ -1,6 +1,5 @@
-
-[Ontology and Annotation Import](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Annotation)
-====================================================================================================================
+Ontology and Annotation Import
+==============================
 
 Annotations in Cytoscape are stored as a set of ontologies (e.g. the
 Gene Ontology, or GO). An ontology consists of a set of controlled

@@ -1,6 +1,5 @@
-
-[Supported Network File Formats](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Network_Formats)
-=========================================================================================================================
+Supported Network File Formats
+==============================
 
 Cytoscape can read network/pathway files written in the following
 formats:

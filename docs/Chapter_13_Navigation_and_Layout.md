@@ -1,5 +1,5 @@
-[Navigation and Layout](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Navigation_Layout)
-==================================================================================================================
+Navigation and Layout
+=====================
 
 Basic Network Navigation
 ------------------------

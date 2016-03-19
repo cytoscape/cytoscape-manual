@@ -1,6 +1,5 @@
-
-[Node and Edge Column Data](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Columns)
-============================================================================================================
+Node and Edge Column Data
+=========================
 
 Interaction networks are useful as stand-alone models. However, they are
 most powerful for answering scientific questions when integrated with

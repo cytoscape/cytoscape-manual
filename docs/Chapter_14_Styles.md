@@ -1,5 +1,5 @@
-[Styles](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Styles)
-========================================================================================
+Styles
+======
 
 What are Styles?
 ----------------

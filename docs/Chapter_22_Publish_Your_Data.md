@@ -1,5 +1,5 @@
-[Publish Your Data](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Publish)
-====================================================================================================
+Publish Your Data
+=================
 
 Publish Your Visualizations
 ---------------------------
