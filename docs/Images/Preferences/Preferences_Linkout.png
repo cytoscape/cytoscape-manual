@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="noindex,nofollow">
+
+<title>Cytoscape_3/UserManual/Preferences - Cytoscape Wiki</title>
+<script type="text/javascript" src="/moin_static192/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static192/modernized/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static192/modernized/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static192/modernized/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static192/modernized/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static192/modernized/css/msie.css">
+<![endif]-->
+
+
+
+
+
+<link rel="Start" href="/Welcome">
+<link rel="Alternate" title="Wiki Markup" href="/Cytoscape_3/UserManual/Preferences?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/Cytoscape_3/UserManual/Preferences?action=print">
+<link rel="Up" href="/Cytoscape_3/UserManual">
+<link rel="Appendix" title="BookmarkManager.png" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=view&amp;target=BookmarkManager.png">
+<link rel="Appendix" title="Preferences_bookmarks.png" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=view&amp;target=Preferences_bookmarks.png">
+<link rel="Appendix" title="Preferences_cy3.png" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=view&amp;target=Preferences_cy3.png">
+<link rel="Appendix" title="Preferences_groups.png" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=view&amp;target=Preferences_groups.png">
+<link rel="Appendix" title="Preferences_linkout.png" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=view&amp;target=Preferences_linkout.png">
+<link rel="Appendix" title="Preferences_proxy.png" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=view&amp;target=Preferences_proxy.png">
+<link rel="Appendix" title="ProxyServerSetting.png" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=view&amp;target=ProxyServerSetting.png">
+<link rel="Appendix" title="groupViewSetting.png" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=view&amp;target=groupViewSetting.png">
+<link rel="Appendix" title="linkout_propsEditor.png" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=view&amp;target=linkout_propsEditor.png">
+<link rel="Appendix" title="prefs_editor.png" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=view&amp;target=prefs_editor.png">
+<link rel="Search" href="/FindPage">
+<link rel="Index" href="/TitleIndex">
+<link rel="Glossary" href="/WordIndex">
+<link rel="Help" href="/HelpOnFormatting">
+<style type='text/css'> #turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } </style></head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="/Cytoscape_3/UserManual/Preferences">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="/Welcome"><img src="http://cytoscape.org/images/cy3.png" width="25" height="25"> Cytoscape Wiki</a></div>
+<div id="username"><a href="/Cytoscape_3/UserManual/Preferences?action=login" id="login" rel="nofollow">Login</a></div>
+<h1 id="locationline">
+
+<span id="pagelocation"><span class="pagepath"><a href="/Cytoscape_3">Cytoscape_3</a><span class="sep">/</span><a href="/Cytoscape_3/UserManual">UserManual</a></span><span class="sep">/</span><a class="backlink" href="/Cytoscape_3/UserManual/Preferences?action=fullsearch&amp;value=linkto%3A%22Cytoscape_3%2FUserManual%2FPreferences%22&amp;context=180" rel="nofollow" title="Click to do a full-text search for this title">Preferences</a></span>
+</h1>
+
+
+<ul id="navibar">
+<li class="wikilink"><a href="/RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="/FindPage">FindPage</a></li><li class="wikilink"><a href="/HelpContents">HelpContents</a></li><li class="current"><a href="/Cytoscape_3/UserManual/Preferences">Preferences</a></li>
+</ul>
+
+<div id="pageline"><hr style="display:none;"></div>
+<div id="message">
+<p><div class="error">Attachment 'Preferences_Linkout?action=AttachFile' does not exist!</div></p><a class="clear-link" href="/Cytoscape_3/UserManual/Preferences">Clear message</a>
+</div>
+
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/Cytoscape_3/UserManual/Preferences?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/Cytoscape_3/UserManual/Preferences">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><p class="line867">
+<h2 id="Managing_Properties">Managing Properties</h2>
+<span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line862">The Cytoscape properties editor, accessed via <strong>Edit &rarr; Preferences &rarr; Properties…</strong>, is used to specify default properties. Any changes made to these properties will be saved in .props files under the <tt>CytoscapeConfiguration</tt> subdirectory of the user's home directory. <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><p class="line874">Cytoscape properties are configurable using the Add, Modify and Delete buttons as seen below. <span class="anchor" id="line-7"></span><ul><li style="list-style-type:none"><p class="line891"><img alt="Preferences_cy3.png" class="attachment" src="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=get&amp;target=Preferences_cy3.png" title="Preferences_cy3.png" /> <span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span></li></ul><p class="line862">App properties may also be edited in the same way as editing Cytoscape properties. For example, to edit the properties of Linkout, select 'linkout' from the combobox of the Preferences Editor. Some apps may store properties inside session files in addition to (or instead of) storing them in the <tt>CytoscapeConfiguration</tt> directory. <span class="anchor" id="line-10"></span><ul><li style="list-style-type:none"><p class="line891"><img alt="Preferences_linkout.png" class="attachment" src="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=get&amp;target=Preferences_linkout.png" title="Preferences_linkout.png" /> <span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span></li></ul><p class="line867">
+<h2 id="Managing_Bookmarks">Managing Bookmarks</h2>
+<span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span><p class="line862">Cytoscape contains a pre-defined list of bookmarks, which point to sample network files located on the Cytoscape web server. Users may add, modify, and delete bookmarks through the Bookmark manager, accessed  by going to <strong>Edit &rarr; Preferences &rarr; Bookmarks…</strong>.   <span class="anchor" id="line-15"></span><ul><li style="list-style-type:none"><p class="line891"><img alt="Preferences_bookmarks.png" class="attachment" src="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=get&amp;target=Preferences_bookmarks.png" title="Preferences_bookmarks.png" /> <span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span></li></ul><p class="line874">There are currently several types of bookmarks (based on data categories), including network and table. Network bookmarks are URLs pointing to Cytoscape network files. These are normal networks that can be loaded into Cytoscape. Table bookmarks are URLs pointing to data table files. <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><p class="line867">
+<h2 id="Managing_Proxy_Servers">Managing Proxy Servers</h2>
+<span class="anchor" id="line-20"></span><p class="line862">You can define and configure a proxy server for Cytoscape by going to <strong>Edit &rarr; Preferences &rarr; Proxy Settings…</strong>. <span class="anchor" id="line-21"></span><ul><li style="list-style-type:none"><p class="line891"><img alt="Preferences_proxy.png" class="attachment" src="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=get&amp;target=Preferences_proxy.png" title="Preferences_proxy.png" /> <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span></li></ul><p class="line862">After the proxy server is set, all network traffic related to loading a network from URL will pass through the proxy server. Cytoscape apps use this capability as well. The proxy settings are saved in <tt>cytoscape3.props</tt>. Each time you click the OK button after making a change to the proxy settings, an attempt is made to connect to a well known site on the Internet (e.g., google.com) using your settings. For both success and failure you are notified and for failure you are given an opportunity to change your proxy settings. <span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><p class="line874">If you no longer need to use a proxy to connect to the Internet, simply  set the Proxy type to "direct" and click the OK button. <span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><p class="line867">
+<h2 id="Managing_Group_View">Managing Group View</h2>
+<span class="anchor" id="line-28"></span><p class="line862">The configuration of Cytoscape group view may also be edited through <strong>Edit &rarr; Preferences &rarr; Group Preferences…</strong>. <span class="anchor" id="line-29"></span><ul><li style="list-style-type:none"><p class="line891"><img alt="Preferences_groups.png" class="attachment" src="/Cytoscape_3/UserManual/Preferences?action=AttachFile&amp;do=get&amp;target=Preferences_groups.png" title="Preferences_groups.png" /> <span class="anchor" id="line-30"></span></li></ul><span class="anchor" id="bottom"></span></div>
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/Cytoscape_3/UserManual/Preferences?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/Cytoscape_3/UserManual/Preferences?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/Cytoscape_3/UserManual/Preferences">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+<p id="credits"><b>Funding for Cytoscape is provided by a federal grant from the U.S.  <a href="htt p://www.nigms.nih.gov">National Institute of General Medical Sciences (NIGMS)</a> of the <a href="http://www.nih.gov">Na tional Institutes of Health (NIH)</a> under award number GM070743-01.  Corporate funding is provided through a contract from <a href="http://www.unilever.com">Unilever PLC</a>. </b></P><script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> </script> <script type="text/javascript"> _uacct = "UA-155159-2"; urchinTracker(); </script><div id='turnkey-credit'> <div> <a href='http://www.turnkeylinux.org/moinmoin'>MoinMoin Appliance</a> - Powered by <a href='http://www.turnkeylinux.org'>TurnKey Linux</a> </div> </div></body>
+</html>
+

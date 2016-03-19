@@ -1,0 +1,276 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="noindex,nofollow">
+
+<title>Cytoscape_3/UserManual/Columns - Cytoscape Wiki</title>
+<script type="text/javascript" src="/moin_static192/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static192/modernized/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static192/modernized/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static192/modernized/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static192/modernized/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static192/modernized/css/msie.css">
+<![endif]-->
+
+
+
+
+
+<link rel="Start" href="/Welcome">
+<link rel="Alternate" title="Wiki Markup" href="/Cytoscape_3/UserManual/Columns?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/Cytoscape_3/UserManual/Columns?action=print">
+<link rel="Up" href="/Cytoscape_3/UserManual">
+<link rel="Appendix" title="DeleteColumns.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=DeleteColumns.png">
+<link rel="Appendix" title="ImportColumnsFromTable.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=ImportColumnsFromTable.png">
+<link rel="Appendix" title="NewColumn.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=NewColumn.png">
+<link rel="Appendix" title="ShowColumns.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=ShowColumns.png">
+<link rel="Appendix" title="TableMode.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=TableMode.png">
+<link rel="Appendix" title="TablePanel_withData.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=TablePanel_withData.png">
+<link rel="Appendix" title="attribute_browser1.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attribute_browser1.png">
+<link rel="Appendix" title="attribute_browser26.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attribute_browser26.png">
+<link rel="Appendix" title="attribute_browser_nodes.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attribute_browser_nodes.png">
+<link rel="Appendix" title="attribute_editor26.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attribute_editor26.png">
+<link rel="Appendix" title="attribute_table_import_alias.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attribute_table_import_alias.png">
+<link rel="Appendix" title="attribute_table_import_keyattr.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attribute_table_import_keyattr.png">
+<link rel="Appendix" title="attribute_table_import_main.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attribute_table_import_main.png">
+<link rel="Appendix" title="attribute_table_import_primary_key.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attribute_table_import_primary_key.png">
+<link rel="Appendix" title="attributes_delete_icon.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attributes_delete_icon.png">
+<link rel="Appendix" title="attributes_gene_expr_icon.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attributes_gene_expr_icon.png">
+<link rel="Appendix" title="attributes_go_icon.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attributes_go_icon.png">
+<link rel="Appendix" title="attributes_import_icon.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attributes_import_icon.png">
+<link rel="Appendix" title="attributes_new_icon.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attributes_new_icon.png">
+<link rel="Appendix" title="attributes_select_icon.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=attributes_select_icon.png">
+<link rel="Appendix" title="select_services.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=select_services.png">
+<link rel="Appendix" title="table_webservice.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=table_webservice.png">
+<link rel="Appendix" title="table_webservice_final.png" href="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=view&amp;target=table_webservice_final.png">
+<link rel="Search" href="/FindPage">
+<link rel="Index" href="/TitleIndex">
+<link rel="Glossary" href="/WordIndex">
+<link rel="Help" href="/HelpOnFormatting">
+<style type='text/css'> #turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } </style></head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="/Cytoscape_3/UserManual/Columns">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="/Welcome"><img src="http://cytoscape.org/images/cy3.png" width="25" height="25"> Cytoscape Wiki</a></div>
+<div id="username"><a href="/Cytoscape_3/UserManual/Columns?action=login" id="login" rel="nofollow">Login</a></div>
+<h1 id="locationline">
+
+<span id="pagelocation"><span class="pagepath"><a href="/Cytoscape_3">Cytoscape_3</a><span class="sep">/</span><a href="/Cytoscape_3/UserManual">UserManual</a></span><span class="sep">/</span><a class="backlink" href="/Cytoscape_3/UserManual/Columns?action=fullsearch&amp;value=linkto%3A%22Cytoscape_3%2FUserManual%2FColumns%22&amp;context=180" rel="nofollow" title="Click to do a full-text search for this title">Columns</a></span>
+</h1>
+
+
+<ul id="navibar">
+<li class="wikilink"><a href="/RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="/FindPage">FindPage</a></li><li class="wikilink"><a href="/HelpContents">HelpContents</a></li><li class="current"><a href="/Cytoscape_3/UserManual/Columns">Columns</a></li>
+</ul>
+
+<div id="pageline"><hr style="display:none;"></div>
+<div id="message">
+<p><div class="error">Attachment 'ShowColumns?action=AttachFile' does not exist!</div></p><a class="clear-link" href="/Cytoscape_3/UserManual/Columns">Clear message</a>
+</div>
+
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/Cytoscape_3/UserManual/Columns?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/Cytoscape_3/UserManual/Columns?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/Cytoscape_3/UserManual/Columns">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line862">Interaction networks are useful as stand-alone models. However, they are most powerful for answering scientific questions when integrated with additional information. Cytoscape allows the user to add arbitrary node, edge and network information to Cytoscape as node/edge/network data columns. This could include, for example, annotation data on a gene or confidence values in a protein-protein interaction. These column data can then be visualized in a user-defined way by setting up a mapping from columns to network properties (colors, shapes, and so on). The section on <strong><a href="/Cytoscape_3/UserManual/Styles">Styles</a></strong> discusses this in greater detail. <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line867">
+<h2 id="Import_Data_Table_Files">Import Data Table Files</h2>
+<span class="anchor" id="line-8"></span><p class="line874">Cytoscape offers support for importing data from delimited text and MS Excel data tables. <span class="anchor" id="line-9"></span><span class="anchor" id="line-10"></span><p class="line867"><em><strong>Sample Data Table 1</strong></em> <span class="anchor" id="line-11"></span><div><table><tbody><tr>  <td><p class="line862">Object Key</td>
+  <td><p class="line862">Alias</td>
+  <td><p class="line862">SGD ID</td>
+</tr>
+<tr>  <td><span class="anchor" id="line-12"></span><p class="line862">AAC3</td>
+  <td><p class="line862">YBR085W|ANC3</td>
+  <td><p class="line862">S000000289</td>
+</tr>
+<tr>  <td><span class="anchor" id="line-13"></span><p class="line862">AAT2</td>
+  <td><p class="line862">YLR027C|ASP5</td>
+  <td><p class="line862">S000004017</td>
+</tr>
+<tr>  <td><span class="anchor" id="line-14"></span><p class="line862">BIK1</td>
+  <td><p class="line862">YCL029C|ARM5|PAC14</td>
+  <td><p class="line862">S000000534</td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><p class="line862">The data table file should contain a primary key column and at least one data column. The maximum number of data columns is unlimited. The <strong>Alias</strong> column is an optional feature, as is using the first row of data as column names. Alternatively, you can specify each column name from the <strong>File &rarr; Import &rarr; Table &rarr; File...</strong> user interface. <span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><p class="line867">
+<h3 id="Basic_Operation">Basic Operation</h3>
+<span class="anchor" id="line-19"></span><ul><li style="list-style-type:none"><p class="line891"><img alt="ImportColumnsFromTable.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=ImportColumnsFromTable.png" title="ImportColumnsFromTable.png" /> <span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span></li></ul><ol type="1"><li><p class="line862">Select <strong>File &rarr; Import &rarr; Table &rarr; File...</strong>. <span class="anchor" id="line-22"></span></li><li>Select a data file. The file can be either a text or Excel (.xls/.xlsx) file.  <span class="anchor" id="line-23"></span></li><li><p class="line862">In the <strong>Target Table Data</strong> section, choose where to import the data to. You can choose an existing network collection, a specific network only, or you can choose to import the data to an <strong>Unassigned Table</strong> (described below).  <span class="anchor" id="line-24"></span></li><li><p class="line862">Depending on what you choose in the <strong>Where to import Table Data</strong> drop-down, you will need to select a network collection or specific network. You will also need to select <strong>Importing Type</strong>, that is whether the data is node, edge or network table columns.  <span class="anchor" id="line-25"></span></li><li><p class="line862">If the table is not properly delimited in the preview panel, change the delimiter in the <strong>Advanced Options</strong> panel. The default delimiter is tab. This step is not necessary for Excel Workbooks. <span class="anchor" id="line-26"></span></li><li>By default, the first column is designated as the primary key. Change the key column if necessary.  <span class="anchor" id="line-27"></span></li><li><p class="line862">Click <strong>OK</strong> to import. <span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span></li></ol><p class="line867">
+<h4 id="Unassigned_Table">Unassigned Table</h4>
+<span class="anchor" id="line-30"></span><p class="line862">As of Cytoscape 3.1. it is possible to import data tables without assigning them to existing networks, meaning the data doesn't have to correspond to any nodes/edges currently loaded. If a data table is imported as unassigned and a network is later imported that maps to the data in terms of nodes or edges, the data will link automatically. This is useful when loading a large dataset (for example expression data), defining a <strong>Style</strong> for visualizing the data on networks and later loading individual networks to view the data, for example from an online database. This feature allows the data to be automatically linked to any network that is applicable, without having to load the data for each network. <span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><p class="line867">
+<h2 id="Legacy_Cytoscape_Attributes_Format">Legacy Cytoscape Attributes Format</h2>
+<span class="anchor" id="line-33"></span><p class="line874">In addition to tabular data, the simple attribute file format used in previous versions of Cytoscape is still supported. Node and edge data files are simply formatted: a node data file begins with the name of the column on the first line (note that it cannot contain spaces). Each following line contains the name of the node, followed by an equals sign and the data value. Numbers and text strings are the most common data types. All values for a given column must have the same type. For example: <span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><p class="line867"><span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><pre><span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-1"></span>FunctionalCategory
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-2"></span>YAL001C = metabolism
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-3"></span>YAR002W = apoptosis
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-4"></span>YBL007C = ribosome</pre><span class="anchor" id="line-41"></span><p class="line874">An edge data file has much the same structure, except that the name of the edge is the source node name, followed by the interaction type in parentheses, followed by the target node name. Directionality counts, so switching the source and target will refer to a different (or perhaps non-existent) edge. The following is an example edge data file: <span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line867"><span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><pre><span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-1-1"></span>InteractionStrength
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-2-1"></span>YAL001C (pp) YBR043W = 0.82
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-3-1"></span>YMR022W (pd) YDL112C = 0.441
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-4-1"></span>YDL112C (pd) YMR022W = 0.9013</pre><span class="anchor" id="line-49"></span><p class="line874">Since Cytoscape treats edge data as directional, the second and third edge data values refer to two different edges (source and target are reversed, though the nodes involved are the same). <span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span><p class="line874">Each data column is stored in a separate file. Node and edge data files use the same format, and have the suffix ".attrs". <span class="anchor" id="line-52"></span><span class="anchor" id="line-53"></span><p class="line862">Node and edge data may be loaded via the <strong>File &rarr; Import &rarr; Table</strong> menu, just as data table files are. <span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span><p class="line874">When expression data is loaded using an expression matrix, it is automatically loaded as node data unless explicitly specified otherwise. <span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><p class="line874">Node and edge data columns are attached to nodes and edges, and so are independent of networks. Data values for a given node or edge will be applied to all copies of that node or edge in all loaded network files, regardless of whether the data file or network file is imported first. <span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><p class="line867">
+<h3 id="Detailed_file_format_.28Advanced_users.29">Detailed file format (Advanced users)</h3>
+<span class="anchor" id="line-61"></span><p class="line874">Every data file has one header line that gives the name of the data column, and optionally some additional meta-information about that data column. The format is as follows: <span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><p class="line867"><span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><pre><span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-1-2"></span>columnName (class=JavaClassName)</pre><span class="anchor" id="line-66"></span><p class="line874">The first field is always the column name: it cannot contain spaces. If present, the class field defines the name of the class of the data values. For example, java.lang.String or String for Strings, java.lang.Double or Double for floating point values, java.lang.Integer or Integer for integer values, etc. If the value is actually a list of values, the class should be the type of the objects in the list. If no class is specified in the header line, Cytoscape will attempt to guess the type from the first value. If the first value contains numbers in a floating point format, Cytoscape will assume java.lang.Double; if the first value contains only numbers with no decimal point, Cytoscape will assume java.lang.Integer; otherwise Cytoscape will assume java.lang.String. Note that the first value can lead Cytoscape astray: for example, <span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><p class="line867"><span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><pre><span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-1-3"></span>floatingPointDataColumn
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-2-2"></span>firstName = 1
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-3-2"></span>secondName = 2.5</pre><span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><p class="line874">In this case, the first value will make Cytoscape think the values should be integers, when in fact they should be floating point numbers. It's safest to explicitly specify the value type to prevent confusion. A better format would be: <span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span><p class="line867"><span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span><pre><span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-1-4"></span>floatingPointDataColumn (class=Double)
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-2-3"></span>firstName = 1
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-3-3"></span>secondName = 2.5</pre><span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><p class="line874">or <span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><p class="line867"><span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span><pre><span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-1-5"></span>floatingPointDataColumn 
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-2-4"></span>firstName = 1.0
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-3-4"></span>secondName = 2.5</pre><span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><p class="line874">Every line past the first line identifies the name of an object (a node in a node data file or an edge in a edge data file) along with the String representation of the data value. The delimiter is always an equals sign; whitespace (spaces and/or tabs) before and after the equals sign is ignored. This means that your names and values can contain whitespace, but object names cannot contain an equals sign and no guarantees are made concerning leading or trailing whitespace.  Object names must be the Node ID or Edge ID as seen in the left-most column of the Table Panel if the data column is to map to anything. These names must be reproduced exactly, including case, or they will not match. <span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><p class="line874">Edge names are all of the form: <span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><p class="line867"><span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><pre><span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-1-6"></span>sourceName (edgeType) targetName</pre><span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><p class="line874">Specifically, that is  <span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><div><table><tbody><tr>  <td><p class="line862">sourceName space openParen edgeType closeParen space targetName</td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span><p class="line874">Note that tabs are not allowed in edge names. Tabs can be used to separate the edge name from the "=" delimiter, but not within the edge name itself. Also note that this format is different from the specification of interactions in the SIF file format. To be explicit: a SIF entry for the previous interaction would look like <span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span><p class="line867"><span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span><pre><span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-1-7"></span>sourceName edgeType targetName</pre><span class="anchor" id="line-107"></span><span class="anchor" id="line-108"></span><p class="line874">or <span class="anchor" id="line-109"></span><span class="anchor" id="line-110"></span><div><table><tbody><tr>  <td><p class="line862">sourceName whiteSpace edgeType whiteSpace targetName</td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-111"></span><span class="anchor" id="line-112"></span><p class="line874">To specify lists of values, use the following syntax: <span class="anchor" id="line-113"></span><span class="anchor" id="line-114"></span><p class="line867"><span class="anchor" id="line-115"></span><span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><span class="anchor" id="line-118"></span><pre><span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-1-8"></span>listDataColumnName (class=java.lang.String)
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-2-5"></span>firstObjectName = (firstValue::secondValue::thirdValue)
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-3-5"></span>secondObjectName = (onlyOneValue)</pre><span class="anchor" id="line-119"></span><span class="anchor" id="line-120"></span><p class="line874">This example shows a data column whose value is defined as a list of text strings. The first object has three strings, and thus three elements in its list, while the second object has a list with only one element. In the case of a list every data value uses list syntax (i.e. parentheses), and each element is of the same class. Again, the class will be inferred if it is not specified in the header line. Lists are not supported by Styles and so can’t be mapped to network properties. <span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span><p class="line867">
+<h3 id="Newline_Feature">Newline Feature</h3>
+<span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span><p class="line862">Sometimes it is desirable to for data values to include linebreaks, such as node labels that extend over two lines. You can accomplish by inserting <tt>\n</tt> into the data value. For example: <span class="anchor" id="line-125"></span><span class="anchor" id="line-126"></span><p class="line867"><span class="anchor" id="line-127"></span><span class="anchor" id="line-128"></span><span class="anchor" id="line-129"></span><pre><span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-1-9"></span>newlineDataColumn
+<span class="anchor" id="Cytoscape_3.2BAC8-UserManual.2BAC8-Columns.line-2-6"></span>YJL157C = This is a long\nline for a label.</pre><span class="anchor" id="line-130"></span><span class="anchor" id="line-131"></span><span class="anchor" id="line-132"></span><p class="line867"><span class="anchor" id="line-133"></span><span class="anchor" id="line-134"></span><span class="anchor" id="line-135"></span><span class="anchor" id="line-136"></span><span class="anchor" id="line-137"></span><span class="anchor" id="line-138"></span><span class="anchor" id="line-139"></span><span class="anchor" id="line-140"></span><span class="anchor" id="line-141"></span><span class="anchor" id="line-142"></span><span class="anchor" id="line-143"></span><span class="anchor" id="line-144"></span><span class="anchor" id="line-145"></span><div class="comment" style="display:none"><span class="anchor" id="line-1-1"></span><p class="line867">
+<h3 id="Advanced_Options">Advanced Options</h3>
+<span class="anchor" id="line-2-1"></span><span class="anchor" id="line-3-1"></span><p class="line874">Is this still relevant? <span class="anchor" id="line-4-1"></span>
+<h4 id="Annotation_File_to_Table_Mapping">Annotation File to Table Mapping</h4>
+<span class="anchor" id="line-5-1"></span><p class="line874">Formerly, Cytoscape only supported mapping between node/edge IDs and the primary keys in data files. With the introduction of Cytoscape 2.4, this limitation has been removed, and now both IDs and data columns with primitive data types (string, boolean, floating point, and integer) can be selected as the Key Attribute using the drop-down list provided. Complex attributes such as lists are not supported. <span class="anchor" id="line-6-1"></span><span class="anchor" id="line-7-1"></span><p class="line867"><img alt="attribute_table_import_keyattr.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=attribute_table_import_keyattr.png" title="attribute_table_import_keyattr.png" /> <span class="anchor" id="line-8-1"></span><span class="anchor" id="line-9-1"></span><p class="line867">
+<h4 id="Aliases">Aliases</h4>
+<span class="anchor" id="line-10-1"></span><p class="line874">Cytoscape uses a simple mechanism to manage aliases of objects. Both nodes and edges can have aliases. If an attribute is loaded as an alias, it is treated as a special attribute called "alias".  This will be used when mapping attributes.  If the primary key and key attribute for an object do not match, Cytoscape will search for a match between aliases and the key attribute.  To define an alias column in the attribute table, just click on the checkboxes to the left of the column name while importing. <span class="anchor" id="line-11-1"></span><span class="anchor" id="line-12-1"></span><p class="line867"><img alt="attribute_table_import_alias.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=attribute_table_import_alias.png" title="attribute_table_import_alias.png" /> </div><span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span><p class="line867">
+<h3 id="Table_Panel">Table Panel</h3>
+<span class="anchor" id="line-148"></span><p class="line867"><img alt="TablePanel_withData.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=TablePanel_withData.png" title="TablePanel_withData.png" /> <span class="anchor" id="line-149"></span><span class="anchor" id="line-150"></span><p class="line862">When Cytoscape is started, the <strong>Table Panel</strong> appears in the bottom right of the main Cytoscape window. This browser can be hidden and restored using the F5 key or the <strong>View &rarr; Show/Hide Table Panel</strong> menu option. Like other Panels, the browser can be undocked by pressing the little icon in the top right corner. <span class="anchor" id="line-151"></span><span class="anchor" id="line-152"></span><p class="line862">To swap between displaying node, edge, and network Data Tables use the tabs on the bottom of the Table Panel. By default, the Table Panel displays columns for all nodes and edges in the selected network. To display columns for only selected nodes/edges, click the <strong>Change Table Mode</strong> button <img alt="TableMode.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=TableMode.png" title="TableMode.png" /> at the top left. To change the columns that are displayed, click the <strong>Show Column</strong> <img alt="ShowColumns.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=ShowColumns.png" title="ShowColumns.png" /> button and choose the columns that are to be displayed (select various columns by clicking on them, and then click elsewhere on the screen to close the column list).  <span class="anchor" id="line-153"></span><span class="anchor" id="line-154"></span><p class="line862">Most column values can be edited by double-clicking the cell (only the ID cannot be edited). Newline characters can be inserted into String columns either by pressing <strong>Enter</strong> or by typing "\n". Once finished editing, click outside of the editing cell in the Table Panel or press <strong>Shift-Enter</strong> to save your edits. Pressing <strong>Esc</strong> while editing will undo any changes.  <span class="anchor" id="line-155"></span><span class="anchor" id="line-156"></span><p class="line862">Rows in the panel can be sorted alphabetically by specific column by clicking on a column heading. A new column can be created using the <strong>Create New column</strong> <img alt="NewColumn.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=NewColumn.png" title="NewColumn.png" /> button, and must be one of four types – integer, string, real number (floating point), or boolean. Columns can be deleted using the <strong>Delete Columns...</strong> <img alt="DeleteColumns.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=DeleteColumns.png" title="DeleteColumns.png" /> button. <strong>NOTE: Deleting columns removes them from Cytoscape, not just the Table Panel!</strong> To remove columns from the panel without deleting them, simply unselect the column using the <strong>Select Columns</strong> <img alt="ShowColumns.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=ShowColumns.png" title="ShowColumns.png" /> button. <span class="anchor" id="line-157"></span><span class="anchor" id="line-158"></span><p class="line867"><span class="anchor" id="line-159"></span><span class="anchor" id="line-160"></span><span class="anchor" id="line-161"></span><span class="anchor" id="line-162"></span><div class="comment" style="display:none"><span class="anchor" id="line-1-2"></span><p class="line867">
+<h4 id="Column_Batch_Editor">Column Batch Editor</h4>
+<span class="anchor" id="line-2-2"></span><p class="line867"><img alt="attribute_editor26.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=attribute_editor26.png" title="attribute_editor26.png" /> <span class="anchor" id="line-3-2"></span>The Attribute Browser has an <strong>Attribute Batch Editor</strong>. This enables you to set and modify attribute values for selected nodes or edges of a specified attribute at once. For example, if you want to create a new attribute called <em>Modules</em> and set module names for each group of selected nodes, you can use <em>Set</em> command from this editor.  </div><span class="anchor" id="line-163"></span><span class="anchor" id="line-164"></span><span class="anchor" id="line-165"></span><span class="anchor" id="line-166"></span><p class="line867">
+<h2 id="Import_Data_Table_from_Public_Databases">Import Data Table from Public Databases</h2>
+<span class="anchor" id="line-167"></span><p class="line862">It is also possible to import node data columns from public databases via web services, for example from <a class="nonexistent" href="/BioMart">BioMart</a>.  <span class="anchor" id="line-168"></span><span class="anchor" id="line-169"></span><p class="line867">
+<h3 id="Basic_Operation-1">Basic Operation</h3>
+<span class="anchor" id="line-170"></span><ol type="1"><li>Load a network, for example galFiltered.sif. <span class="anchor" id="line-171"></span></li><li><p class="line862">Select <strong>File &rarr; Import &rarr; Table &rarr; Public Databases...</strong>. <span class="anchor" id="line-172"></span></li><li><p class="line862">You will first be asked to select from a set of web services. For this example, we will choose <strong>ENSEMBL GENES 73 (SANGER UK)</strong>. <span class="anchor" id="line-173"></span><span class="anchor" id="line-174"></span></li></ol><p class="line867"><img alt="select_services.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=select_services.png" title="select_services.png" /> <span class="anchor" id="line-175"></span><span class="anchor" id="line-176"></span><ol type="1"><li><p class="line862">In the <strong>Import Data Table from Web Services</strong> dialog, select a <strong>Data Source</strong>. Since galFiltered.sif is a yeast network, select <strong>ENSEMBL GENES - SACCHAROMYCES CEREVISIAE</strong>. <span class="anchor" id="line-177"></span></li><li><p class="line862">For <strong>Key Column in Cytoscape</strong>, select <em>shared name</em> for <strong>Column</strong> and <em>Ensembl Gene ID</em> for <strong>Data Type</strong>.  <span class="anchor" id="line-178"></span></li></ol><p class="line862">The type of identifier selected under <strong>Data Type</strong> must match what is used in the selected <strong>Column</strong> in the network. <span class="anchor" id="line-179"></span><span class="anchor" id="line-180"></span><p class="line867"><img alt="table_webservice.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=table_webservice.png" title="table_webservice.png" /> <span class="anchor" id="line-181"></span><span class="anchor" id="line-182"></span><ol type="1"><li>Select the data columns you want to import.  <span class="anchor" id="line-183"></span></li><li><p class="line862">Select <strong>Import</strong>. <span class="anchor" id="line-184"></span><span class="anchor" id="line-185"></span></li></ol><p class="line874">When import is complete, you can see the newly imported data columns in the Table Panel. <span class="anchor" id="line-186"></span><span class="anchor" id="line-187"></span><p class="line867"><img alt="table_webservice_final.png" class="attachment" src="/Cytoscape_3/UserManual/Columns?action=AttachFile&amp;do=get&amp;target=table_webservice_final.png" title="table_webservice_final.png" /> <span class="anchor" id="line-188"></span><span class="anchor" id="bottom"></span></div>
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/Cytoscape_3/UserManual/Columns?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/Cytoscape_3/UserManual/Columns?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/Cytoscape_3/UserManual/Columns">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+<p id="credits"><b>Funding for Cytoscape is provided by a federal grant from the U.S.  <a href="htt p://www.nigms.nih.gov">National Institute of General Medical Sciences (NIGMS)</a> of the <a href="http://www.nih.gov">Na tional Institutes of Health (NIH)</a> under award number GM070743-01.  Corporate funding is provided through a contract from <a href="http://www.unilever.com">Unilever PLC</a>. </b></P><script src="http://www.google-analytics.com/urchin.js" type="text/javascript"> </script> <script type="text/javascript"> _uacct = "UA-155159-2"; urchinTracker(); </script><div id='turnkey-credit'> <div> <a href='http://www.turnkeylinux.org/moinmoin'>MoinMoin Appliance</a> - Powered by <a href='http://www.turnkeylinux.org'>TurnKey Linux</a> </div> </div></body>
+</html>
+
