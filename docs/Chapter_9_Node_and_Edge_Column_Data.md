@@ -1,10 +1,6 @@
 Node and Edge Column Data
 =========================
 
-***** Partially commented out *****
-
-<!---
-
 Interaction networks are useful as stand-alone models. However, they are
 most powerful for answering scientific questions when integrated with
 additional information. Cytoscape allows the user to add arbitrary node,
@@ -40,7 +36,7 @@ from the **File ? Import ? Table ? File...** user interface.
 
 ### Basic Operation
 
--   ![ImportColumnsFromTable.png](Images/Columns/FromTable.png)
+-   ![ImportColumnsFromTable.png](Images/Columns/ImportColumnsFromTable.png)
 
 1.  Select **File ? Import ? Table ? File...**.
 
@@ -344,5 +340,3 @@ When import is complete, you can see the newly imported data columns in
 the Table Panel.
 
 ![table\_webservice\_final.png](Images/Columns/table_webservice_final.png)
-
--->
