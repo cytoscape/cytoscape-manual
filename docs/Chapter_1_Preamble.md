@@ -18,3 +18,14 @@ version 2.1, February 1999 available in text at
 [](http://www.gnu.org/licenses/lgpl-2.1.html).
 
 Copyright (c) 2001-2015 The Cytoscape Consortium
+
+<table border="1">
+<tr>
+<td>Row 1, Column 1</td>
+<td>Row 1, Column 2</td>
+</tr>
+<tr>
+<td>Row 2, Column 1</td>
+<td>Row 2, Column 2</td>
+</tr>
+</table>
