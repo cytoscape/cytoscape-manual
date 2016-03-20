@@ -37,8 +37,7 @@ how to merge the networks. The options available here are:
     the individual network columns, what the corresponding column in the
     merged network should be named and its data type.
 
-![Advanced Network Merge
-Options](Images/Merge/Options.png)
+![Advanced Network Merge Options](Images/Merge/AdvancedNetworkMergeOptions.png)
 
 Merge Tables
 ------------

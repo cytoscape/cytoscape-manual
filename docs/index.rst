@@ -48,9 +48,9 @@ My intro section should be below ... because of Preamble and Introduction
    Chapter_13_Navigation_and_Layout
    Chapter_14_Styles
    Chapter_15_App_Manager
-..
    Chapter_16_Command_Tool
    Chapter_17_Merge
+..
    Chapter_18_Network_Analyzer
    Chapter_19_Cytoscape_Preferences
    Chapter_20_Linkout
