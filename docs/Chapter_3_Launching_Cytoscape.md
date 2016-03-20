@@ -25,7 +25,7 @@ loadable by prior Cytoscape versions on the same memory configuration.*
 <th>Large Network Analysis/Visualization</th>
 </tr>
 <tr>
-<td><b>Processor</b></td>
+<th>Processor!</th>
 <td>1GHz</td>
 <td>As fast as possible, with multiple cores</td>
 </tr>
