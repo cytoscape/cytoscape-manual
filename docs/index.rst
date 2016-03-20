@@ -46,9 +46,9 @@ My intro section should be below ... because of Preamble and Introduction
    Chapter_11_Column_Data_Functions_and_Equations
    Chapter_12_Finding_and_Filtering_Nodes_and_Edges
    Chapter_13_Navigation_and_Layout
-..
    Chapter_14_Styles
    Chapter_15_App_Manager
+..
    Chapter_16_Command_Tool
    Chapter_17_Merge
    Chapter_18_Network_Analyzer
