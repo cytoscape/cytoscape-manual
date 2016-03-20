@@ -21,26 +21,26 @@ loadable by prior Cytoscape versions on the same memory configuration.*
 <table border="1">
 <tr>
 <td></td>
-<td>**Small Network Visualization**</td>
-<td>**Large Network Analysis/Visualization**</td>
+<td><b>Small Network Visualization</b></td>
+<td><b>Large Network Analysis/Visualization</b></td>
 </tr>
 <tr>
-<td>**Processor**</td>
+<td><b>Processor</b></td>
 <td>1GHz</td>
 <td>As fast as possible, with multiple cores</td>
 </tr>
 <tr>
-<td>**Memory**</td>
+<td><b>Memory</b></td>
 <td>512MB</td>
 <td>2GB+</td>
 </tr>
 <tr>
-<td>**Graphics Card**</td>
+<td><b>Graphics Card</b></td>
 <td>Integrated video</td>
 <td>High-end graphics card</td>
 </tr>
 <tr>
-<td>**Monitor**</td>
+<td><b>Monitor</b></td>
 <td>XGA (1024X768)</td>
 <td>Wide or Dual Monitor</td>
 </tr>
