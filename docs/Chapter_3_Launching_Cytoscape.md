@@ -18,6 +18,34 @@ memory than with previous versions. While this is good news, networks
 created on v3.2 on a given memory configuration (e.g., 1GB) may not be
 loadable by prior Cytoscape versions on the same memory configuration.*
 
+<table border="1">
+<tr>
+<td></td>
+<td>**Small Network Visualization**</td>
+<td>**Large Network Analysis/Visualization**</td>
+</tr>
+<tr>
+<td>**Processor**</td>
+<td>1GHz</td>
+<td>As fast as possible, with multiple cores</td>
+</tr>
+<tr>
+<td>**Memory**</td>
+<td>512MB</td>
+<td>2GB+</td>
+</tr>
+<tr>
+<td>**Graphics Card**</td>
+<td>Integrated video</td>
+<td>High-end graphics card</td>
+</tr>
+<tr>
+<td>**Monitor**</td>
+<td>XGA (1024X768)</td>
+<td>Wide or Dual Monitor</td>
+</tr>
+</table>
+
   ------------------- --------------------------------- ------------------------------------------
                       **Small Network Visualization**   **Large Network Analysis/Visualization**
   **Processor**       1GHz                              As fast as possible, with multiple cores
