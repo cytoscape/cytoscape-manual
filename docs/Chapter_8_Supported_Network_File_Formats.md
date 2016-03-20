@@ -509,7 +509,8 @@ will be exported to this JSON:
 
 And this is a sample visualization in Cytoscape.js:
 
-![JSON1.png](Images/Network_Formats/JSON1.png)
+*** there seems be a problem with this image inclusion ****
+.. ![JSON2.png](Images/Network_Formats/JSON2.png)
 
 ### Important Note
 
