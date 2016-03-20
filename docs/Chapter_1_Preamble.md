@@ -19,8 +19,14 @@ version 2.1, February 1999 available in text at
 
 Copyright (c) 2001-2015 The Cytoscape Consortium
 
-<table>
-    <tr>
-        <td>Foo</td>
-    </tr>
+<table border="1">
+<tr>
+<td>Row 1, Column 1</td>
+<td>Row 1, Column 2</td>
+</tr>
+<tr>
+<td>Row 2, Column 1</td>
+<td>Row 2, Column 2</td>
+</tr>
 </table>
+
