@@ -20,7 +20,7 @@ properties. For example, to edit the properties of Linkout, select
 store properties inside session files in addition to (or instead of)
 storing them in the `CytoscapeConfiguration` directory.
 
--   ![Preferences\_linkout.png](Images/Preferences/Preferences_linkout.png)
+-   ![Preferences\_linkout.png](Images/Preferences/Preferences_Linkout.png)
 
 Managing Bookmarks
 ------------------
