@@ -12,7 +12,7 @@ Copyright (c) 2001-2014 The Cytoscape Consortium
 Introduction
 ============
 
-Cytoscape @version@ is the latest version of Cytoscape, building upon
+Cytoscape |version| is the latest version of Cytoscape, building upon
 the new architecture, developer API and set of user controls established
 in the 3.x series. If you're familiar with former versions of Cytoscape,
 this version will feel completely familiar and you'll be all set to go.
@@ -38,6 +38,7 @@ My intro section should be below ... because of Preamble and Introduction
    Chapter_3_Launching_Cytoscape
    Chapter_4_Command_Line_Arguments
    Chapter_5_Quick_Tour_of_Cytoscape
+..
    Chapter_6_Creating_Networks
    Chapter_7_Nested_Networks
    Chapter_8_Supported_Network_File_Formats
