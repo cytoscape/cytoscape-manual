@@ -322,7 +322,10 @@ browsers. Cytoscape.js has two ways to represent network data, and
 currently both reader and writer support only the array style graph
 notation. For example, this network in Cytoscape:
 
+*** there seems be a problem with this image inclusion ****
+<!---
 ![JSON1.png](Images/Network_Formats/JSON1.png)
+-->
 
 will be exported to this JSON:
 
