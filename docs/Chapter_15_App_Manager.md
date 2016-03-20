@@ -27,8 +27,7 @@ To install apps within Cytoscape, go to the menu bar and choose **Apps ?
 App Manager**. At the top of the **App Manager** window, make sure you
 have the **Install** tab selected.
 
--   ![App
-    Manager](Images/AppManager/AppManager.png)
+-   ![AppManager](Images/AppManager/AppManager.png)
 
 There are three ways you can find apps:
 

@@ -50,10 +50,10 @@ My intro section should be below ... because of Preamble and Introduction
    Chapter_15_App_Manager
    Chapter_16_Command_Tool
    Chapter_17_Merge
-..
    Chapter_18_Network_Analyzer
    Chapter_19_Cytoscape_Preferences
    Chapter_20_Linkout
+..
    Chapter_21_Rendering_Engine
    Chapter_22_Publish_Your_Data
    Chapter_23_Cytoscape.js_and_Cytoscape
