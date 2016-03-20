@@ -18,3 +18,9 @@ version 2.1, February 1999 available in text at
 [](http://www.gnu.org/licenses/lgpl-2.1.html).
 
 Copyright (c) 2001-2015 The Cytoscape Consortium
+
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
