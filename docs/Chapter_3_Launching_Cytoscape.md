@@ -46,14 +46,6 @@ loadable by prior Cytoscape versions on the same memory configuration.*
 </tr>
 </table>
 
-  ------------------- --------------------------------- ------------------------------------------
-                      **Small Network Visualization**   **Large Network Analysis/Visualization**
-  **Processor**       1GHz                              As fast as possible, with multiple cores
-  **Memory**          512MB                             2GB+
-  **Graphics Card**   Integrated video                  High-end graphics Card
-  **Monitor**         XGA (1024X768)                    Wide or Dual Monitor
-  ------------------- --------------------------------- ------------------------------------------
-
 *Specific system requirements, limitations, and configuration options
 apply to each platform, as described in the **Release Notes** available
 on the [](http://cytoscape.org) website.*
