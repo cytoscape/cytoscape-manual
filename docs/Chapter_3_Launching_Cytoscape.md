@@ -40,7 +40,7 @@ loadable by prior Cytoscape versions on the same memory configuration.*
 <td>High-end graphics card</td>
 </tr>
 <tr>
-<td><b>Monitor</b></td>  
+<td><b>Monitor</b></td> 
 <td>XGA (1024X768)</td>
 <td>Wide or Dual Monitor</td>
 </tr>
