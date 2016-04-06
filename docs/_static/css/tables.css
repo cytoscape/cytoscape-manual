@@ -25,20 +25,12 @@ th.spec {
 	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 }
 
-th.spec.ulcase {
-	text-transform: none;
-}
-
 th.specalt {
 	border-left: 1px solid #C1DAD7;
 	border-top: 0;
 	background: #f5fafa;
 	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 	color: #797268;
-}
-
-th.specalt.ulcase{
-	text-transform: none;
 }
 
 th.nobg {
