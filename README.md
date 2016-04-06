@@ -42,7 +42,7 @@ Note, too, that even development projects appear to be visible within ReadTheDoc
 
 ------------------ scraps are below ... please ignore them for now --------------------------
 
-
+Remember to mention that Markdown shown in Github is only an approximation of what ReadTheDocs will compose.
 
 
 Kozo's instructions:
