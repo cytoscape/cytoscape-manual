@@ -47,7 +47,7 @@ loadable by prior Cytoscape versions on the same memory configuration.*
 <td class="alt">Wide or Dual Monitor</td>
 </tr>
 </table>
-
+<br>
 
 
 *Specific system requirements, limitations, and configuration options
@@ -136,7 +136,7 @@ following files and directories:
 <td class="alt">Cytoscape configuration settings</td>
 </tr>
 </table>
-
+<br>
 
   
 The *`p/`* directory signifies the program directory, which varies from
