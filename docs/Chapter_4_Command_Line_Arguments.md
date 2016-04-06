@@ -32,7 +32,7 @@ Or you can specify a network as a URL:
 
 <table cellspacing="0">
 <caption>Command Line Arguments</caption>
-<colgroup> <col style="width:40%"> <col style="width:60%"> </colgroup>
+<colgroup> <col style="width:200px"> <col style="width:500px"> </colgroup>
 <tbody>
 <tr> <th><div style="xwidth: 150px">Argument</div></th>                                         <th>Description</th>                                                                      </tr>
 <tr> <th class="spec" style="text-transform: none"><div style="xwidth: 150px">-h,--help</div></th>                    <td>This flag generates the help output you see above and exits.</td>                     </tr>
