@@ -1,5 +1,22 @@
 # cytoscape-manual
-Markdown version of Cytoscape manual
+Development version of Cytoscape user manual
+
+This project is the working copy of the Cytoscape user manual. It will become the permanent manual once we have created a feature-complete and format-complete version. The outstanding issues are:
+
+1. Table formatting using centralized CSS
+
+2. Links within the document resolving properly
+ 
+3. Links from outside of the document resolving properly
+
+4. A properly formatted PDF file
+
+5. Incorporating the PDF file into the Cytoscape build process
+
+
+
+
+
 
 Kozo's instructions:
 
