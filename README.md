@@ -1,5 +1,5 @@
 # cytoscape-manual
-Development version of Cytoscape user manual
+###Development version of Cytoscape user manual
 
 This project is the working copy of the Cytoscape user manual. It will become the permanent manual once we have created a feature-complete and format-complete version. The outstanding issues are:
 
@@ -24,6 +24,8 @@ Images are stored in the "docs/Images" directory, organized into subdirectories 
 
 Simple tables can be represented in Markdown, but high quality formatting requires direct HTML coding. By convention, we encode tables as tagged data, but do not specify visual attributes and layout inline. Instead, we use preset table styles contained in "docs/_static/css" for formatting. Note that additional CSS files can be added, but must be accounted for in "_templates/layout.html" and "conf.py".
 
+Note that GitHub displays files containing Markdown with reasonably good quality. However, it only approximates the look of tables created via HTML. For an accurate view of a table, you must look at a document rendered by ReadTheDocs.
+
 ## Rebuilding the Manual
 The manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that I installed per http://docs.readthedocs.org/en/latest/webhooks.html). 
 
@@ -40,27 +42,25 @@ However, the Cytoscape development process entails continuous manual changes in 
 
 Note, too, that even development projects appear to be visible within ReadTheDocs and searchable via Google search. It's likely that having work-in-progress versions visible to general public search will cause confusion in the user community, and we need to investigate ways to avoid publishing in-progress versions.
 
------------------- scraps are below ... please ignore them for now --------------------------
+## Process for Importation
+The existing Cytoscape user manual was ported from Moin Moin to Markdown/ReadTheDocs according to a formula laid out by Kozo Nishida. The original port is contained in the "originals" directory and are not part of the current document build. For posterity, the initial instructions were:
 
-Remember to mention that Markdown shown in Github is only an approximation of what ReadTheDocs will compose.
-
-
-Kozo's instructions:
-
-1. I exported http://wiki.cytoscape.org/Cytoscape_3/UserManual to a
+1. Export http://wiki.cytoscape.org/Cytoscape_3/UserManual to a
 docbook xml. (https://github.com/kozo2/cytoscape3-usermanual/blob/master/UserManual.xml)
 
-2. I converted UserManual.xml to UserManual.md
+2. Convert UserManual.xml to UserManual.md
 (https://github.com/kozo2/cytoscape3-usermanual/blob/master/UserManual.md)
 with ```pandoc -f docbook -t markdown -s UserManual.xml -o UserManual.md```
 
-3. I separated UserManual.md per chapter manually.
+3. Separate UserManual.md per chapter manually.
 (https://github.com/kozo2/cytoscape3-usermanual/tree/master/docs)
 
-4. I built and deployed 3. with mkdocs and readthedocs.
+4. Find all pictures used by each chapter and put them into the Images directory. Resolve all picture references in the text by hand.
+
+5. Build and deploy #4 with mkdocs and readthedocs.
  
 Additionally:
 
 1. Create a new project in ReadTheManual, and create a WebHook from GitHub to ReadTheDocs via http://docs.readthedocs.org/en/latest/webhooks.html
 
-1. Text is processed by Sphinx, which is documented here: http://www.sphinx-doc.org/en/stable/contents.html
+1. Note that text is processed by Sphinx, which is documented here: http://www.sphinx-doc.org/en/stable/contents.html
