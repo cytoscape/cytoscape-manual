@@ -25,9 +25,8 @@ th.spec {
 	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 }
 
-th.spec.ulcase150 {
+th.spec.ulcase {
 	text-transform: none;
-	width: 150px;
 }
 
 th.specalt {
@@ -38,9 +37,8 @@ th.specalt {
 	color: #797268;
 }
 
-th.specalt.ulcase150{
+th.specalt.ulcase{
 	text-transform: none;
-	width: 150px;
 }
 
 th.nobg {
