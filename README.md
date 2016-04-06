@@ -13,7 +13,34 @@ This project is the working copy of the Cytoscape user manual. It will become th
 
 5. Incorporating the PDF file into the Cytoscape build process
 
+While the manual sources are maintained in GitHub, the document is actually assembled, formatted, and staged by the ReadTheDocs.org site. ReadTheDocs presents online and PDF versions, and we will use both.
 
+## Editing the Manual
+To edit manual text, you must first check out this repository and use a text editor on your workstation. (You can use GitHub's native Markdown editor, too, for small edits.)
+
+All document components are in the "docs" directory. Each chapter is contained in its own file, and the files are assembled as a complete document by naming them in the "docs/index.rst" file.
+
+Images are stored in the "docs/Images" directory, organized into subdirectories by chapter. For high quality images, vector graphic files produce best results (e.g., .png).
+
+Simple tables can be represented in Markdown, but high quality formatting requires direct HTML coding. By convention, we encode tables as tagged data, but do not specify visual attributes and layout inline. Instead, we use preset table styles contained in "docs/_static/css" for formatting. Note that additional CSS files can be added, but must be accounted for in "_templates/layout.html" and "conf.py".
+
+## Rebuilding the Manual
+The manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that I installed per http://docs.readthedocs.org/en/latest/webhooks.html). 
+
+To check in manual sources, you'll need permissions that you can get from me (for now). You can get the permissions or make updates via GitHub pull request.
+
+The rebuild can be observed by logging into the ReadTheDocs account (see me for credentials) and choosing the "Cytoscape Working Copy" project. To see the build log, click on the grey Builds button. You can watch the progress of the build by manually refreshing your browser window until the build status shows either Passed or Failed. If it shows Passed, you can view the build result by clicking on the green View Docs button. 
+
+Note that many errors (e.g., missing chapter files) fail silently. It's always best to verify recent changes by viewing them in the built document.
+
+## Future Plan
+The build process is adequate for development, but must be augmented once we reach a release stage. At that point, a released manual should be paired with a Cytoscape release, and should not be changed until the next Cytoscape release.
+
+However, the Cytoscape development process entails continuous manual changes in anticipation of a future release. To reconcile this, I expect that we will create a separate ReadTheDocs project that keys off a GitHub branch (e.g., "development"), and that the branch will be merged into the master (and rebuilt) immediately before a new release. This arrangement has yet to be made. 
+
+Note, too, that even development projects appear to be visible within ReadTheDocs and searchable via Google search. It's likely that having work-in-progress versions visible to general public search will cause confusion in the user community, and we need to investigate ways to avoid publishing in-progress versions.
+
+------------------ scraps are below ... please ignore them for now --------------------------
 
 
 
