@@ -48,6 +48,8 @@ loadable by prior Cytoscape versions on the same memory configuration.*
 </tr>
 </table>
 
+
+
 *Specific system requirements, limitations, and configuration options
 apply to each platform, as described in the **Release Notes** available
 on the [](http://cytoscape.org) website.*
@@ -134,7 +136,8 @@ following files and directories:
 <td class="alt">Cytoscape configuration settings</td>
 </tr>
 </table>
-  
+
+
   
 The *`p/`* directory signifies the program directory, which varies from
 platform to platform. For Cytoscape to work properly, all files should
