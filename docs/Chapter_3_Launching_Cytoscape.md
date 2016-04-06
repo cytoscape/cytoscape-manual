@@ -99,17 +99,6 @@ options.
 Cytoscape installations (regardless of platform) containing the
 following files and directories:
 
-  --------------------------------------------- ----------------------------------------------------------------------------------
-  **File/Directory**                            **Description**
-  `p/Cytoscape_v3.3.0`                          Cytoscape program files, startup scripts, and default location for session files
-  `p/Cytoscape_v3.3.0/Cytoscape.vmoptions`      Cytoscape memory configuration settings
-  `p/Cytoscape_v3.3.0/sampleData`               Preset networks as described in the embedded README.txt file
-  `p/Cytoscape_v3.3.0/framework`                Cytoscape program files
-  `p/Cytoscape_v3.3.0/apps`                     Cytoscape core app program files
-  `u/CytoscapeConfiguration`                    Cytoscape properties and program cache files
-  `u/CytoscapeConfiguration/cytoscape3.props`   Cytoscape configuration settings
-  --------------------------------------------- ----------------------------------------------------------------------------------
-
 <table cellspacing="0">
 <caption>Cytoscape files and directories</caption>
 <tr>
