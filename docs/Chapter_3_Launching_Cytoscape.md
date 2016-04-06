@@ -21,31 +21,11 @@ loadable by prior Cytoscape versions on the same memory configuration.*
 
 <table cellspacing="0">
 <caption>Required Resources</caption>
-<tr>
-<th></th>
-<th>Small Network Visualization</th>
-<th>Large Network Analysis/Visualization</th>
-</tr>
-<tr>
-<th class="spec">Processor</th>
-<td>1GHz</td>
-<td>As fast as possible, with multiple cores</td>
-</tr>
-<tr>
-<th class="specalt">Memory</th>
-<td class="alt">512MB</td>
-<td class="alt">2GB+</td>
-</tr>
-<tr>
-<th class="spec">Graphics Card</th>
-<td>Integrated video</td>
-<td>High-end graphics card</td>
-</tr>
-<tr>
-<th class="specalt">Monitor</th> 
-<td class="alt">XGA (1024X768)</td>
-<td class="alt">Wide or Dual Monitor</td>
-</tr>
+<tr> <th></th>                           <th>Small Network Visualization</th> <th>Large Network Analysis/Visualization</th>     </tr>
+<tr> <th class="spec">Processor</th>     <td>1GHz</td>                        <td>As fast as possible, with multiple cores</td> </tr>
+<tr> <th class="specalt">Memory</th>     <td class="alt">512MB</td>           <td class="alt">2GB+</td>                         </tr>
+<tr> <th class="spec">Graphics Card</th> <td>Integrated video</td>            <td>High-end graphics card</td>                   </tr>
+<tr> <th class="specalt">Monitor</th>    <td class="alt">XGA (1024X768)</td>  <td class="alt">Wide or Dual Monitor</td>         </tr>
 </table>
 <br>
 
@@ -103,38 +83,14 @@ following files and directories:
 
 <table cellspacing="0">
 <caption>Cytoscape files and directories</caption>
-<tr>
-<th>File / Directory</th>
-<th>Description</th>
-</tr>
-<tr>
-<th class="spec">p/Cytoscape_v3.3.0</th>
-<td>Cytoscape program files, startup scripts, and default location for session files</td>
-</tr>
-<tr>
-<th class="specalt">p/Cytoscape_v3.3.0/Cytoscape.vmoptions</th>
-<td class="alt">Cytoscape memory configuration settings</td>
-</tr>
-<tr>
-<th class="spec">p/Cytoscape_v3.3.0/sampleData</th>
-<td>Preset networks as described in the embedded README.txt file</td>
-</tr>
-<tr>
-<th class="specalt">p/Cytoscape_v3.3.0/framework</th> 
-<td class="alt">Cytoscape program files</td>
-</tr>
-<tr>
-<th class="specalt">p/Cytoscape_v3.3.0/apps</th> 
-<td class="alt">Cytoscape core app program files</td>
-</tr>
-<tr>
-<th class="specalt">u/CytoscapeConfiguration</th> 
-<td class="alt">Cytoscape properties and program cache files</td>
-</tr>
-<tr>
-<th class="specalt">u/CytoscapeConfiguration/cytoscape3.props</th> 
-<td class="alt">Cytoscape configuration settings</td>
-</tr>
+<tr> <th>File / Directory</th>                                       <th>Description</th>                                                                      </tr>
+<tr> <th class="spec">p/Cytoscape_v3.3.0</th>                        <td>Cytoscape program files, startup scripts, and default location for session files</td> </tr>
+<tr> <th class="specalt">p/Cytoscape_v3.3.0/Cytoscape.vmoptions</th> <td class="alt">Cytoscape memory configuration settings</td>                              </tr>
+<tr> <th class="spec">p/Cytoscape_v3.3.0/sampleData</th>             <td>Preset networks as described in the embedded README.txt file</td>                     </tr>
+<tr> <th class="specalt">p/Cytoscape_v3.3.0/framework</th>           <td class="alt">Cytoscape program files</td>                                              </tr>
+<tr> <th class="spec">p/Cytoscape_v3.3.0/apps</th>                   <td>Cytoscape core app program files</td>                                                 </tr>
+<tr> <th class="specalt">u/CytoscapeConfiguration</th>               <td class="alt">Cytoscape properties and program cache files</td>                         </tr>
+<tr> <th class="spec">u/CytoscapeConfiguration/cytoscape3.props</th> <td>Cytoscape configuration settings</td>                                                 </tr>
 </table>
 <br>
 

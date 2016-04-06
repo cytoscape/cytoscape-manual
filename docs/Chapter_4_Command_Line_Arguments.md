@@ -42,5 +42,20 @@ Or you can specify a network as a URL:
   -R,--rest &lt;port&gt;      This option starts a Cytoscape REST service on the specified port.
   --------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<table cellspacing="0">
+<caption>Command Line Arguments</caption>
+<tr> <th>Argument</th>                                  <th>Description</th>                                                                      </tr>
+<tr> <th class="spec">-h,--help</th>                    <td>This flag generates the help output you see above and exits.</td>                     </tr>
+<tr> <th class="specalt">-v,--version</th>              <td class="alt">This flag prints the version number of Cytoscape and exits.</td>          </tr>
+<tr> <th class="spec">-s,--session &lt;file&gt;</th>    <td>This option specifies a session file to be loaded. Since only one session file can be loaded at a given time, this option may only specified once on a given command line. The option expects a `.cys` Cytoscape session file. It is customary, although not necessary, for session file names to contain the .cys extension.</td> </tr>
+<tr> <th class="specalt">-N,--network &lt;file&gt;</th> <td class="alt">This option is used to load all types of network files. SIF, GML, and XGMML files can all be loaded using the -N option. You can specify as many networks as desired on a single command line.</td> </tr>
+<tr> <th class="spec">-P,--props &lt;file&gt;</th>      <td>This option specifies Cytoscape properties. Properties can be specified either as a properties file (in Java's standard properties format), or as individual properties. To specify individual properties, you must specify the property name followed by the property value where the name and value are separated by the '=' sign. For example to specify the defaultSpeciesName: `cytoscape.sh -P defaultSpeciesName=Human`. If you would like to include spaces in your property, simply enclose the name and value in quotation marks: `cytoscape.sh -P "defaultSpeciesName=Homo Sapiens"`. The property option subsumes previous options -noCanonicalization, -species, and -bioDataServer. Now it would look like: `cytoscape.sh -P defaultSpeciesName=Human -P noCanonicalization=true -P bioDataServer=myServer`.</td> </tr>
+<tr> <th class="specalt">-V,--vizmap &lt;file&gt;</th>  <td class="alt">This option specifies a Style file.</td>                                  </tr>
+<tr> <th class="spec">-S,--script &lt;file&gt;</th>     <td>This option executes commands from a specifed Cytoscape script file.</td>             </tr>
+<tr> <th class="specalt">-R,--rest &lt;port&gt;</th>    <td class="alt">This option starts a Cytoscape REST service on the specified port.</td>   </tr>
+</table>
+<br>
+  
+  
 All options described above (except for starting a REST service) can be
 accessed from the menu once Cytoscape is running.
