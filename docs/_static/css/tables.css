@@ -33,6 +33,10 @@ th.specalt {
 	color: #797268;
 }
 
+th.ulcase {
+	text-transform: none;
+}
+
 th.nobg {
 	border-top: 0;
 	border-left: 0;
@@ -52,3 +56,5 @@ td.alt {
 	background: #F5FAFA;
 	color: #797268;
 }
+
+
