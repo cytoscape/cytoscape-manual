@@ -33,7 +33,6 @@ My intro section should be below ... because of Preamble and Introduction
 .. toctree::
    :maxdepth: 2
 
-   css/test.css
    Chapter_1_Preamble
    Chapter_2_Introduction
    Chapter_3_Launching_Cytoscape
