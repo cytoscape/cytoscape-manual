@@ -18,7 +18,7 @@ import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 def setup(app):
-  app.add_stylesheet( "test.css" )
+  app.add_stylesheet( "css/tables.css" )
 # from http://stackoverflow.com/questions/32079200/how-do-i-set-up-custom-styles-for-restructuredtext-sphinx-readthedocs-etc/32079202#32079202
 
 html_static_path = ['_static']
