@@ -36,7 +36,7 @@ Operators
 ---------
 
 Currently supported operators are the four basic arithmetic operators
-and the **`^`** exponentiation operator. **+**, **-**, **\***, and
+and the **\^** exponentiation operator. **+**, **-**, **\***, and
 **\\** are left-associative and **\^** is right-associative. The string
 concatenation operator is **&**. Supported boolean or logical operators
 are the comparison operators **<**, **>**, **<=**, **>=**,
