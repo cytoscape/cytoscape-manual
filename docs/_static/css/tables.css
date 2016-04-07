@@ -60,6 +60,10 @@ td.top {
 	border-top: 1px solid #C1DAD7;
 }
 
+td.left {
+	border-left: 1px solid #C1DAD7;
+}
+
 td.alt {
 	background: #F5FAFA;
 	color: #797268;

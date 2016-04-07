@@ -54,18 +54,18 @@ the included ontologies.
 
 <table cellspacing="0" style="table-layout: fixed; width: 700px">
 <caption>Default List of Ontologies</caption>
-<colgroup> <col style="width:170px">                           <col style="width:530px"> </colgroup>
+<colgroup> <col style="width:170px">                               <col style="width:530px">                                                                                                                               </colgroup>
 <tbody>
-<tr> <th>Ontology Name</th>                                        <th>Description</th>                                                                      </tr>
+<tr> <th>Ontology Name</th>                                        <th>Description</th>                                                                                                                                    </tr>
 <tr> <th class="spec ulcase">Gene Ontology Full</th>               <td class="">This data source contains a full-size GO DAG, which contains all GO terms. This OBO file is written in version 1.2 format.</td>            </tr>
-<tr> <th class="specalt ulcase">Generic GO slim</th>               <td class="alt">A subset of general GO Terms, including higer-level terms only.</td>          </tr>
-<tr> <th class="spec ulcase">Yeast GO slim</th>                    <td class="">A subset of GO Terms for annotating Yeast data sets maintained by SGD.</td> </tr>
+<tr> <th class="specalt ulcase">Generic GO slim</th>               <td class="alt">A subset of general GO Terms, including higer-level terms only.</td>                                                                    </tr>
+<tr> <th class="spec ulcase">Yeast GO slim</th>                    <td class="">A subset of GO Terms for annotating Yeast data sets maintained by SGD.</td>                                                                </tr>
 <tr> <th class="specalt ulcase">Molecule role (INOH Protein name/family name ontology)</th> <td class="alt">A structured controlled vocabulary of concrete and abstract (generic) protein names. This ontology is a INOH pathway annotation ontology, one of a set of ontologies intended to be used in pathway data annotation to ease data integration. This ontology is used to annotate protein names, protein family names, and generic/concrete protein names in the INOH pathway data. INOH is part of the BioPAX working group.</td> </tr>
 <tr> <th class="spec ulcase">Event (INOH pathway ontology)</th>    <td class="">A structured controlled vocabulary of pathway-centric biological processes. This ontology is a INOH pathway annotation ontology, one of a set of ontologies intended to be used in pathway data annotation to ease data integration. This ontology is used to annotate biological processes, pathways, and sub-pathways in the INOH pathway data. INOH is part of the BioPAX working group.</td> </tr>
-<tr> <th class="specalt ulcase">Protein-protein interaction </th>  <td class="alt">A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions.</td>                                  </tr>
+<tr> <th class="specalt ulcase">Protein-protein interaction </th>  <td class="alt">A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions.</td>                  </tr>
 <tr> <th class="spec ulcase">PATO</th>                             <td class="">PATO is an ontology of phenotypic qualities, intended for use in a number of applications, primarily phenotype annotation. For more information, please visit the <a href="http://www.bioontology.org/wiki/index.php/PATO:Main_Page">PATO wiki</a>.</td>    </tr>
-<tr> <th class="specalt ulcase">Mouse pathology</th>               <td class="alt">The Mouse Pathology Ontology (MPATH) is an ontology for mutant mouse pathology. This is Version 1.</td>   </tr>
-<tr> <th class="spec ulcase">Human disease</th>                    <td class="">This ontology is a comprehensive hierarchical controlled vocabulary for human disease representation. For more information, please visit the <a href="http://diseaseontology.sourceforge.net/">Disease Ontology website</a>.</td>    </tr>
+<tr> <th class="specalt ulcase">Mouse pathology</th>               <td class="alt">The Mouse Pathology Ontology (MPATH) is an ontology for mutant mouse pathology. This is Version 1.</td>                                 </tr>
+<tr> <th class="spec ulcase">Human disease</th>                    <td class="">This ontology is a comprehensive hierarchical controlled vocabulary for human disease representation. For more information, please visit the <a href="http://diseaseontology.sourceforge.net/">Disease Ontology website</a>.</td>                           </tr>
 </tbody>
 </table>
 <br>
@@ -91,19 +91,12 @@ for yeast):
 
 <table cellspacing="0"  style="table-layout: fixed; dwidth: 700px">
 <caption>Sample Gene Association File</caption>
-<colgroup> <col style="width:20px"> <col style="width:50px"> <col style="width:30px"> <col style="width:70px"> <col style="width:70px"> <col style="width:30px"> <col style="width:20px"> <col style="width:100px"> <col style="width:80px"> <col style="width:70px"> </colgroup>
+<colgroup> <col style="width:20px">      <col style="width:50px">              <col style="width:30px">         <col style="width:70px">              <col style="width:190px">                                    <col style="width:30px">       <col style="width:20px">     <col style="width:100px">                                        <col style="width:80px">                <col style="width:70px">              </colgroup>
 <tbody>
-<tr> <td class="small top">SGD</td> <td class="small top">S000003916</td> <td class="small top">AAD10</td> <td class="small top">GO:0006081</td> <td class="small top">SGD\_REF:S000042151|PMID:10572264</td> <td class="small top">ISS</td> <td class="small top">P</td> <td class="small top">aryl-alcohol dehydrogenase (putative)</td> <td class="small top">YJR155W gene</td> <td class="small top">taxon:4932</td>                                  </tr>
-<tr> <td class="small">SGD</td> <td class="small">S000005275</td> <td class="small">AAD14</td> <td class="small">GO:0008372</td> <td class="small">SGD\_REF:S000069584</td>               <td class="small">ND</td>  <td class="small">C</td> <td class="small">aryl-alcohol dehydrogenase (putative)</td> <td class="small">YNL331C gene</td> <td class="small">taxon:4932</td>                                      </tr>
+<tr> <td class="small top left">SGD</td> <td class="small top">S000003916</td> <td class="small top">AAD10</td> <td class="small top">GO:0006081</td> <td class="small top">SGD\_REF:S000042151|PMID:10572264</td> <td class="small top">ISS</td> <td class="small top">P</td> <td class="small top">aryl-alcohol dehydrogenase (putative)</td> <td class="small top">YJR155W gene</td> <td class="small top">taxon:4932</td> </tr>
+<tr> <td class="small left">SGD</td>     <td class="small">S000005275</td>     <td class="small">AAD14</td>     <td class="small">GO:0008372</td>     <td class="small">SGD\_REF:S000069584</td>                   <td class="small">ND</td>      <td class="small">C</td>     <td class="small">aryl-alcohol dehydrogenase (putative)</td>     <td class="small">YNL331C gene</td>     <td class="small">taxon:4932</td>     </tr>
 </tbody>
 </table>
-<br>
-
-
-  ----- ------------ ------- ------------ ----------------------------------- ----- --- --------------------------------------- -------------- ------------
-  SGD   S000003916   AAD10   GO:0006081   SGD\_REF:S000042151| PMID:10572264   ISS   P   aryl-alcohol dehydrogenase (putative)   YJR155W gene   taxon:4932
-  SGD   S000005275   AAD14   GO:0008372   SGD\_REF:S000069584                 ND    C   aryl-alcohol dehydrogenase (putative)   YNL331C gene   taxon:4932
-  ----- ------------ ------- ------------ ----------------------------------- ----- --- --------------------------------------- -------------- ------------
 
 Import Ontology and Annotation
 ------------------------------
