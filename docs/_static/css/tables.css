@@ -37,6 +37,14 @@ th.ulcase {
 	text-transform: none;
 }
 
+th.w150 {
+	width: 150px;
+}
+
+th.w550 {
+	width: 550px;
+}
+
 th.nobg {
 	border-top: 0;
 	border-left: 0;
@@ -57,4 +65,7 @@ td.alt {
 	color: #797268;
 }
 
+td.w550 {
+	width: 550px;
+}
 
