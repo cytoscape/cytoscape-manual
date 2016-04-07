@@ -10,6 +10,8 @@ This project is the working copy of the Cytoscape user manual. It will become th
 3. Links from outside of the document resolving properly
 
 4. A proper placement of First pages, Table of Contents, and Document body
+ 
+5. Typos introduced by the conversion process
 
 4. A properly formatted PDF file
 
