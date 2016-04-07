@@ -41,7 +41,8 @@ Programmatically Manipulating Nested Networks
 
 The giny.model.node interface defines two methods:
 
--   public void setNestedNetwork(final
+```
+   public void setNestedNetwork(final
     [GraphPerspective](http://wiki.cytoscape.org/Cytoscape_3/UserManual/GraphPerspective#)
     graphPerspective); This will assign a "network"
     ([GraphPerspective](http://wiki.cytoscape.org/Cytoscape_3/UserManual/GraphPerspective#))
@@ -54,3 +55,4 @@ The giny.model.node interface defines two methods:
     getNestedNetwork(); If a Node has an associated nested network, it
     will be returned by this method. If no associated nested network
     exists, null will be returned instead.
+```
