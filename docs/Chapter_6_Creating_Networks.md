@@ -86,6 +86,9 @@ and Microsoft Excel Workbooks. For Excel Workbooks with multiple sheets,
 one sheet can be selected for import at a time. The following is a
 sample table file:
 
+Table ...
+
+
 <table cellspacing="0">
 <caption>Sample Network in Table</caption>
 <tr> <th>source</th>              <th>target</th>              <th>interaction</th>           <th>boolean data</th>             <th>string data</th>                  <th>floating point data</th>          </tr>
