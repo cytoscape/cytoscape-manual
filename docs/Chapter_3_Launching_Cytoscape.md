@@ -1,8 +1,6 @@
 Launching Cytoscape
 ===================
 
-# check1
-
 Cytoscape is a Java application verified to run on the Linux, Windows,
 and Mac OS X platforms. Although not officially supported, other UNIX
 platforms such as Solaris or FreeBSD may run Cytoscape if Java version 8

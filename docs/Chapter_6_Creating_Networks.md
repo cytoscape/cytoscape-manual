@@ -11,8 +11,6 @@ There are 4 different ways of creating networks in Cytoscape:
 
 4.  Creating an empty network and manually adding nodes and edges.
 
-# check1
-
 Import Fixed-Format Network Files
 ---------------------------------
 
@@ -44,8 +42,6 @@ to map the new network to the existing network collection.
 Network files in SIF, GML, and XGMML formats may also be loaded directly
 from the command line using the -N option.
 
-# check2
-
 ### Load Networks from a Remote Computer (URL import)
 
 To load a network from a remote file, you can select **File ? Import ?
@@ -67,8 +63,6 @@ proxy server, go to **Edit ? Preferences? Proxy Settings...**. This is
 further described in the
 **[Preferences](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_User_Manual/Preferences#)**
 section.
-
-# check3
 
 Import Networks from Unformatted Table Files
 --------------------------------------------
@@ -92,11 +86,6 @@ and Microsoft Excel Workbooks. For Excel Workbooks with multiple sheets,
 one sheet can be selected for import at a time. The following is a
 sample table file:
 
-# check4
-
-
-
-
 <table cellspacing="0">
 <caption>Sample Network in Table</caption>
 <tr> <th>source</th>              <th>target</th>              <th>interaction</th>           <th>boolean data</th>             <th>string data</th>                  <th>floating point data</th>          </tr>
@@ -108,13 +97,6 @@ sample table file:
 </table>
 <br>
 
-    source  target  interaction  boolean data       string data     floating point data
-    YJR022W YNR053C pp      TRUE    abcd12371       1.2344543
-    YER116C YDL013W pp      TRUE    abcd12372       1.2344543
-    YNL307C YAL038W pp      FALSE   abcd12373       1.2344543
-    YNL216W YCR012W pd      TRUE    abcd12374       1.2344543
-    YNL216W YGR254W pd      TRUE    abcd12375       1.2344543
-
 The network table files should contain at least two columns for creating
 network with edges. If the file has only one column, the created network
 will not contain any edges. The interaction type is optional in this
@@ -125,9 +107,6 @@ format. Therefore, a minimal network table looks like the following:
     YNL307C YAL038W
     YNL216W YCR012W
     YNL216W YGR254W
-
-# check5
-
 
 One row in a network table file represents an edge and its edge data
 columns. This means that a network file is considered a combination of
