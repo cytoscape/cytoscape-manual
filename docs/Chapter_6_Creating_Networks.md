@@ -89,11 +89,11 @@ sample table file:
 <table cellspacing="0">
 <caption>Sample Network in Table</caption>
 <tr> <th>source</th>              <th>target</th>              <th>interaction</th>           <th>boolean data</th>             <th>string data</th>                  <th>floating point data</th>          </tr>
-<tr> <td>YJR022W</td>             <td>YNR053C</td>             <td class="center">pp</td>     <td class="center">TRUE </td>     <td class="center">abcd12371</td>     <td class="center">1.2344543</td>     </tr>
+<tr> <td class="">YJR022W</td>    <td class="">YNR053C</td>    <td class="center">pp</td>     <td class="center">TRUE </td>     <td class="center">abcd12371</td>     <td class="center">1.2344543</td>     </tr>
 <tr> <td class="alt">YER116C</td> <td class="alt">YDL013W</td> <td class="alt center">pp</td> <td class="alt center">TRUE </td> <td class="alt center">abcd12372</td> <td class="alt center">1.2344543</td> </tr>
-<tr> <td>YNL307C</td>             <td>YAL038W</td>             <td class="center">pp</td>     <td class="center">FALSE</td>     <td class="center">abcd12373</td>     <td class="center">1.2344543</td>     </tr>
+<tr> <td class="">YNL307C</td>    <td class="">YAL038W</td>    <td class="center">pp</td>     <td class="center">FALSE</td>     <td class="center">abcd12373</td>     <td class="center">1.2344543</td>     </tr>
 <tr> <td class="alt">YNL216W</td> <td class="alt">YCR012W</td> <td class="alt center">pd</td> <td class="alt center">TRUE </td> <td class="alt center">abcd12374</td> <td class="alt center">1.2344543</td> </tr>
-<tr> <td>YNL216W</td>             <td>YGR254W</td>             <td class="center">pd</td>     <td class="center">TRUE </td>     <td class="center">abcd12375</td>     <td class="center">1.2344543</td>     </tr>
+<tr> <td class="">YNL216W</td>    <td class="">YGR254W</td>    <td class="center">pd</td>     <td class="center">TRUE </td>     <td class="center">abcd12375</td>     <td class="center">1.2344543</td>     </tr>
 </table>
 <br>
 
@@ -102,11 +102,16 @@ network with edges. If the file has only one column, the created network
 will not contain any edges. The interaction type is optional in this
 format. Therefore, a minimal network table looks like the following:
 
-    YJR022W YNR053C
-    YER116C YDL013W
-    YNL307C YAL038W
-    YNL216W YCR012W
-    YNL216W YGR254W
+<table cellspacing="0">
+<caption>Minimal Network Table</caption>
+<tr> <th>source</th>              <th>target</th>              </tr>
+<tr> <td class="">YJR022W</td>    <td class="">YNR053C</td>    </tr>
+<tr> <td class="alt">YER116C</td> <td class="alt">YDL013W</td> </tr>
+<tr> <td class="">YNL307C</td>    <td class="">YAL038W</td>    </tr>
+<tr> <td class="alt">YNL216W</td> <td class="alt">YCR012W</td> </tr>
+<tr> <td class="">YNL216W</td>    <td class="">YGR254W</td>    </tr>
+</table>
+<br>
 
 One row in a network table file represents an edge and its edge data
 columns. This means that a network file is considered a combination of
