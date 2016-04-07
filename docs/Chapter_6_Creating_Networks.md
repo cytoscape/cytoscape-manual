@@ -86,7 +86,7 @@ and Microsoft Excel Workbooks. For Excel Workbooks with multiple sheets,
 one sheet can be selected for import at a time. The following is a
 sample table file:
 
-<table cellspacing="0"  style="table-layout: fixed; width: 700px">
+<table cellspacing="0"  style="table-layout: fixed; dwidth: 700px">
 <caption>Sample Network in Table</caption>
 <tr> <th class="">source</th>     <th class="">target</th>     <th class="center">interaction</th>  <th class="center">boolean data</th>  <th class="center">string data</th>   <th class="center">floating point data</th> </tr>
 <tr> <td class="">YJR022W</td>    <td class="">YNR053C</td>    <td class="center">pp</td>           <td class="center">TRUE </td>         <td class="center">abcd12371</td>     <td class="center">1.2344543</td>           </tr>
@@ -102,8 +102,8 @@ network with edges. If the file has only one column, the created network
 will not contain any edges. The interaction type is optional in this
 format. Therefore, a minimal network table looks like the following:
 
-<table cellspacing="0"  style="table-layout: fixed; width: 300px">
-<caption>Minimal Network Table</caption>
+<table cellspacing="0">
+<caption style="width: 240px">Minimal Network Table</caption>
 <tr> <th class="">source</th>     <th class="">target</th>     </tr>
 <tr> <td class="">YJR022W</td>    <td class="">YNR053C</td>    </tr>
 <tr> <td class="alt">YER116C</td> <td class="alt">YDL013W</td> </tr>
