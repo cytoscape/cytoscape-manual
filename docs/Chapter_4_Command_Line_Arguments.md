@@ -30,7 +30,7 @@ it:
 Or you can specify a network as a URL:
 `cytoscape.sh -N http://example.com/myNet.sif`.
 
-<table cellspacing="0">
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
 <caption>Command Line Arguments</caption>
 <tr> <th class="w150">Argument</th>                                 <th class="w550">Description</th>                                                                      </tr>
 <tr> <th class="spec ulcase w150">-h,--help</th>                    <td class="w550">This flag generates the help output you see above and exits.</td>                     </tr>
