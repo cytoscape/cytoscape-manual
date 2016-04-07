@@ -83,7 +83,7 @@ following files and directories:
 
 <table cellspacing="0">
 <caption>Cytoscape files and directories</caption>
-<tr> <th>File / Directory</th>                                       <th>Description</th>                                                                               </tr>
+<tr> <th class=">File / Directory</th>                               <th class=">Description</th>                                                                       </tr>
 <tr> <th class="spec">p/Cytoscape_v3.3.0</th>                        <td class="">Cytoscape program files, startup scripts, and default location for session files</td> </tr>
 <tr> <th class="specalt">p/Cytoscape_v3.3.0/Cytoscape.vmoptions</th> <td class="alt">Cytoscape memory configuration settings</td>                                       </tr>
 <tr> <th class="spec">p/Cytoscape_v3.3.0/sampleData</th>             <td class="">Preset networks as described in the embedded README.txt file</td>                     </tr>

@@ -98,7 +98,7 @@ The name of each edge will be formed from the name of the source and
 target nodes plus the interaction type: for example,
 `sourceName (edgeType) targetName`.
 
-The tag &lt;edgeType&gt; can be any string. Whole words or concatenated
+The tag <edgeType> can be any string. Whole words or concatenated
 words may be used to define types of relationships, e.g. geneFusion,
 cogInference, pullsDown, activates, degrades, inactivates, inhibits,
 phosphorylates, upRegulates, etc.
