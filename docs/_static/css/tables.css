@@ -56,6 +56,10 @@ td {
 	color: #4f6b72;
 }
 
+td.top {
+	border-top: 1px solid #C1DAD7;
+}
+
 td.alt {
 	background: #F5FAFA;
 	color: #797268;

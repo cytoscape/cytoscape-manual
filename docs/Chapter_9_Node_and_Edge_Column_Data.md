@@ -22,7 +22,7 @@ Excel data tables.
 ***Sample Data Table 1***
 
 <table cellspacing="0">
-<caption>Sample Data</caption>
+<caption style="width: 240px">Sample Data</caption>
 <tr> <th class="">Object Key</th>  <th class="">Alias</th>              <th class="">SGD ID</th>        </tr>
 <tr> <th class="spec">AAC3</th>    <td class="">YBR085W|ANC3</td>       <td class="">S000000289</td>    </tr> 
 <tr> <th class="specalt">AAT2</th> <td class="alt">YLR027C|ASP5</td>    <td class="alt">S000004017</td> </tr>
@@ -30,12 +30,6 @@ Excel data tables.
 </table>
 <br>
 
-  ------------ -------------------- ------------
-  Object Key   Alias                SGD ID
-  AAC3         YBR085W|ANC3         S000000289
-  AAT2         YLR027C|ASP5         S000004017
-  BIK1         YCL029C|ARM5|PAC14   S000000534
-  ------------ -------------------- ------------
 
 The data table file should contain a primary key column and at least one
 data column. The maximum number of data columns is unlimited. The
