@@ -11,7 +11,7 @@ There are 4 different ways of creating networks in Cytoscape:
 
 4.  Creating an empty network and manually adding nodes and edges.
 
-#check1
+# check1
 
 Import Fixed-Format Network Files
 ---------------------------------
@@ -44,7 +44,7 @@ to map the new network to the existing network collection.
 Network files in SIF, GML, and XGMML formats may also be loaded directly
 from the command line using the -N option.
 
-#check2
+# check2
 
 ### Load Networks from a Remote Computer (URL import)
 
@@ -68,7 +68,7 @@ further described in the
 **[Preferences](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_User_Manual/Preferences#)**
 section.
 
-#check3
+# check3
 
 Import Networks from Unformatted Table Files
 --------------------------------------------
@@ -92,7 +92,7 @@ and Microsoft Excel Workbooks. For Excel Workbooks with multiple sheets,
 one sheet can be selected for import at a time. The following is a
 sample table file:
 
-#check4
+# check4
 
 
 
@@ -126,7 +126,7 @@ format. Therefore, a minimal network table looks like the following:
     YNL216W YCR012W
     YNL216W YGR254W
 
-#check5
+# check5
 
 
 One row in a network table file represents an edge and its edge data
