@@ -32,7 +32,6 @@ Or you can specify a network as a URL:
 
 <table cellspacing="0">
 <caption>Command Line Arguments</caption>
-<tbody>
 <tr> <th class="w150">Argument</th>                                 <th class="w550">Description</th>                                                                      </tr>
 <tr> <th class="spec ulcase w150">-h,--help</th>                    <td class="w550">This flag generates the help output you see above and exits.</td>                     </tr>
 <tr> <th class="specalt ulcase w150">-v,--version</th>              <td class="alt w550">This flag prints the version number of Cytoscape and exits.</td>          </tr>
@@ -42,7 +41,6 @@ Or you can specify a network as a URL:
 <tr> <th class="specalt ulcase w150">-V,--vizmap &lt;file&gt;</th>  <td class="alt w550">This option specifies a Style file.</td>                                  </tr>
 <tr> <th class="spec ulcase w150">-S,--script &lt;file&gt;</th>     <td class="w550">This option executes commands from a specifed Cytoscape script file.</td>             </tr>
 <tr> <th class="specalt ulcase w150">-R,--rest &lt;port&gt;</th>    <td class="alt w550">This option starts a Cytoscape REST service on the specified port.</td>   </tr>
-</tbody>
 </table>
 <br>
   
