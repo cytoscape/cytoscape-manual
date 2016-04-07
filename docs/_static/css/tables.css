@@ -69,4 +69,8 @@ td.center {
 	text-align: center;
 }
 
+td.small {
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
 

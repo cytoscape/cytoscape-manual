@@ -21,9 +21,9 @@ Excel data tables.
 
 ***Sample Data Table 1***
 
-<table cellspacing="0">
-<caption style="width: 240px">Sample Data</caption>
-<tr> <th class="">Object Key</th>  <th class="">Alias</th>              <th class="">SGD ID</th>        </tr>
+<table cellspacing="0" style="table-layout: fixed; dwidth: 500px">
+<caption style="width: 500px">Sample Data</caption>
+<tr> <th class="">Object Key</th>  <th class="center">Alias</th>        <th class="center">SGD ID</th>  </tr>
 <tr> <th class="spec">AAC3</th>    <td class="">YBR085W|ANC3</td>       <td class="">S000000289</td>    </tr> 
 <tr> <th class="specalt">AAT2</th> <td class="alt">YLR027C|ASP5</td>    <td class="alt">S000004017</td> </tr>
 <tr> <th class="spec">BIK1</th>    <td class="">YCL029C|ARM5|PAC14</td> <td class="">S000000534</td>    </tr>
