@@ -37,14 +37,6 @@ th.ulcase {
 	text-transform: none;
 }
 
-th.w150 {
-	width: 150px;
-}
-
-th.w550 {
-	width: 550px;
-}
-
 th.nobg {
 	border-top: 0;
 	border-left: 0;
