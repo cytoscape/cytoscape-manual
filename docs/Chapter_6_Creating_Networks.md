@@ -87,13 +87,13 @@ one sheet can be selected for import at a time. The following is a
 sample table file:
 
 <table cellspacing="0">
-<caption>Cytoscape files and directories</caption>
-<tr>             <th>source</th>  <th>target</th>  <th>interaction</th> <th>boolean data</th> <th>string data</th> <th>floating point data</th> </tr>
-<tr class="">    <td>YJR022W</td> <td>YNR053C</td> <td>pp</td>          <td>TRUE </td>        <td>abcd12371</td>   <td>1.2344543</td>           </tr>
-<tr class="alt"> <td>YER116C</td> <td>YDL013W</td> <td>pp</td>          <td>TRUE </td>        <td>abcd12372</td>   <td>1.2344543</td>           </tr>
-<tr class="">    <td>YNL307C</td> <td>YAL038W</td> <td>pp</td>          <td>FALSE</td>        <td>abcd12373</td>   <td>1.2344543</td>           </tr>
-<tr class="alt"> <td>YNL216W</td> <td>YCR012W</td> <td>pd</td>          <td>TRUE </td>        <td>abcd12374</td>   <td>1.2344543</td>           </tr>
-<tr class="">    <td>YNL216W</td> <td>YGR254W</td> <td>pd</td>          <td>TRUE </td>        <td>abcd12375</td>   <td>1.2344543</td>           </tr>
+<caption>Sample Network in Table</caption>
+<tr> <th>source</th>              <th>target</th>              <th>interaction</th>           <th>boolean data</th>             <th>string data</th>                  <th>floating point data</th>          </tr>
+<tr> <td>YJR022W</td>             <td>YNR053C</td>             <td class="center">pp</td>     <td class="center">TRUE </td>     <td class="center">abcd12371</td>     <td class="center">1.2344543</td>     </tr>
+<tr> <td class="alt">YER116C</td> <td class="alt">YDL013W</td> <td class="alt center">pp</td> <td class="alt center">TRUE </td> <td class="alt center">abcd12372</td> <td class="alt center">1.2344543</td> </tr>
+<tr> <td>YNL307C</td>             <td>YAL038W</td>             <td class="center">pp</td>     <td class="center">FALSE</td>     <td class="center">abcd12373</td>     <td class="center">1.2344543</td>     </tr>
+<tr> <td class="alt">YNL216W</td> <td class="alt">YCR012W</td> <td class="alt center">pd</td> <td class="alt center">TRUE </td> <td class="alt center">abcd12374</td> <td class="alt center">1.2344543</td> </tr>
+<tr> <td>YNL216W</td>             <td>YGR254W</td>             <td class="center">pd</td>     <td class="center">TRUE </td>     <td class="center">abcd12375</td>     <td class="center">1.2344543</td>     </tr>
 </table>
 <br>
 
