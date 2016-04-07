@@ -91,9 +91,11 @@ for yeast):
 
 <table cellspacing="0"  style="table-layout: fixed; dwidth: 700px">
 <caption>Sample Gene Association File</caption>
-
-<tr> <td class="small top">SGD</td> <td class="small top">S000003916</td> <td class="small top">AAD10</td> <td class="small top">GO:0006081</td> <td class="small top">SGD\_REF:S000042151| PMID:10572264</td> <td class="small top">ISS</td> <td class="small top">P</td> <td class="small top">aryl-alcohol dehydrogenase (putative)</td> <td class="small top">YJR155W gene</td> <td class="small top">taxon:4932</td>                                  </tr>
+<colgroup> <col style="width:20px"> <col style="width:50px"> <col style="width:30px"> <col style="width:70px"> <col style="width:70px"> <col style="width:30px"> <col style="width:20px"> <col style="width:100px"> <col style="width:80px"> <col style="width:70px"> </colgroup>
+<tbody>
+<tr> <td class="small top">SGD</td> <td class="small top">S000003916</td> <td class="small top">AAD10</td> <td class="small top">GO:0006081</td> <td class="small top">SGD\_REF:S000042151|PMID:10572264</td> <td class="small top">ISS</td> <td class="small top">P</td> <td class="small top">aryl-alcohol dehydrogenase (putative)</td> <td class="small top">YJR155W gene</td> <td class="small top">taxon:4932</td>                                  </tr>
 <tr> <td class="small">SGD</td> <td class="small">S000005275</td> <td class="small">AAD14</td> <td class="small">GO:0008372</td> <td class="small">SGD\_REF:S000069584</td>               <td class="small">ND</td>  <td class="small">C</td> <td class="small">aryl-alcohol dehydrogenase (putative)</td> <td class="small">YNL331C gene</td> <td class="small">taxon:4932</td>                                      </tr>
+</tbody>
 </table>
 <br>
 
