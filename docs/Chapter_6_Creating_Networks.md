@@ -35,7 +35,7 @@ After you choose a network file, another dialog will pop up. Here, you
 can choose either to create a new network collection for the new
 network, or load the new network into an existing network collection.
 When you choose the latter, make sure to choose the right mapping column
-to map the new network to the existing network collection.
+to map the new network to the existing network collection. 
 
 ![ImportNetwork.png](_static/images/Creating_Networks/ImportNetwork.png)
 
