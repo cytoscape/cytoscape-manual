@@ -46,7 +46,7 @@ noticeable slowing. The various thresholds are described below.
 
 <table cellspacing="0">
 <caption>LOD Thresholds</caption>
-<tr> <th class=">Parameter</th>                          <th class=">Description</th>                                                                                                                                  </tr>
+<tr> <th class="">Parameter</th>                          <th class="">Description</th>                                                                                                                                  </tr>
 <tr> <th class="spec">render.coarseDetailThreshold</th>  <td class="">If the sum of <i>rendered</i> nodes and <i>rendered</i> edges equals to or exceeds this number, a very coarse level of detail will be chosen and all other detail parameters will be ignored. If the total number of nodes and edges is below this threshold, anti-alias will be turned on; this value defaults to 4000.</td> </tr>
 <tr> <th class="specalt">render.nodeBorderThreshold</th> <td class="alt">If the number of <i>rendered</i> nodes equals to or exceeds this number, node borders will not be rendered; this value defaults to 400.</td>  </tr>
 <tr> <th class="spec">render.nodeLabelThreshold</th>     <td class="">If the number of <i>rendered</i> nodes equals to or exceeds this number, node labels will not be rendered; this value defaults to 200.</td>      </tr>
