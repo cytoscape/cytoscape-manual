@@ -267,14 +267,14 @@ are summarized in the tables below.
 
 ### Available Shapes and Line Styles
 
-<table cellspacing="0" style="table-layout: fixed; width: 700px">
-<caption>Available Shapes and Line Styles</caption>
-<colgroup> <col style="width:200px">                    <col style="width:500px"> </colgroup>
+<table cellspacing="0" style="table-layout: fixed; width: 440px">
+<caption style="width: 440px">Available Shapes and Line Styles</caption>
+<colgroup> <col style="width:140px">                           <col style="width:300px"> </colgroup>
 <tbody>
-<tr> <th>Available Shapes and Line Styles</th>          <th>Sample</th></tr>
-<tr> <th class="spec ulcase"><i>Node Shapes</i></th>    <td class=""><img src="Images/Styles/NodeShapeOptions.png"></td> </tr>
-<tr> <th class="specalt ulcase"><i>Line Types</i></th>  <td class="alt"><img src="Images/Styles/BorderLineOptions.png"></td> </tr>
-<tr> <th class="spec ulcase"><i>Arrow Shapes</i></th>   <td class=""><img src="Images/Styles/ArrowShapeOptions.png"></td> </tr>
+<tr> <th class="center">Available Shapes and Line Styles</th>  <th>Sample</th></tr>
+<tr> <th class="spec ulcase center"><i>Node Shapes</i></th>    <td class=""><img src="Images/Styles/NodeShapeOptions.png"></td> </tr>
+<tr> <th class="specalt ulcase center"><i>Line Types</i></th>  <td class="alt"><img src="Images/Styles/BorderLineOptions.png"></td> </tr>
+<tr> <th class="spec ulcase center"><i>Arrow Shapes</i></th>   <td class=""><img src="Images/Styles/ArrowShapeOptions.png"></td> </tr>
 </tbody>
 <br>
 
