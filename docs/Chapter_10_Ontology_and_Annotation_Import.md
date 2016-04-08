@@ -6,7 +6,7 @@ Gene Ontology, or GO). An ontology consists of a set of controlled
 vocabulary terms that annotate the objects. For example, using the Gene
 Ontology, the Saccharomyces Cerevisiae CDC55 gene has a biological
 process described as "protein biosynthesis", to which GO has assigned
-the number 6412 (a GO ID).
+the number 6412 (a GO ID). 
 
 GO 8150 biological\_process
 
