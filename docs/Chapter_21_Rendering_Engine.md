@@ -27,7 +27,7 @@ Preferences ? Properties...**.
 <table cellspacing="0">
 <caption>Levels of Detail</caption>
 <tbody>
-<tr> <th class="center">Network with <b>Low</b> LOD</th>                      <th class="center">Network with <b>High</b> LOD</th></tr>
+<tr> <th class="center">Network with <b>Low</b> LOD</th>                                                            <th class="center">Network with <b>High</b> LOD</th>                                                       </tr>
 <tr> <td class="center left"><img src="_static/images/Rendering_Engine/LowLOD.png" height="589" width="336" /></td> <td class="center"><img src="_static/images/Rendering_Engine/HighLOD.png" height="589" width="336" /></td> </tr>
 </tbody>
 </table>
@@ -44,13 +44,15 @@ will become.* If you work with small networks (a few hundred nodes),
 this shouldn't be a problem, but for large networks it will produce
 noticeable slowing. The various thresholds are described below.
 
-  ------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  render.coarseDetailThreshold   If the sum of *rendered* nodes and *rendered* edges equals to or exceeds this number, a very coarse level of detail will be chosen and all other detail parameters will be ignored. If the total number of nodes and edges is below this threshold, anti-alias will be turned on; this value defaults to 4000.
-  render.nodeBorderThreshold     If the number of *rendered* nodes equals to or exceeds this number, node borders will not be rendered; this value defaults to 400.
-  render.nodeLabelThreshold      If the number of *rendered* nodes equals to or exceeds this number, node labels will not be rendered; this value defaults to 200.
-  render.edgeArrowThreshold      If the number of *rendered* edges equals to or exceeds this number, edge arrows will not be rendered; this value defaults to 600.
-  render.edgeLabelThreshold      If the number of *rendered* edges equals to or exceeds this number, edge labels will not be rendered; this value defaults to 200.
-  ------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<table cellspacing="0">
+<caption>LOD Thresholds</caption>
+<tr> <th class="spec">render.coarseDetailThreshold</th>  <td class="">If the sum of <i>rendered</i> nodes and <i>rendered</i> edges equals to or exceeds this number, a very coarse level of detail will be chosen and all other detail parameters will be ignored. If the total number of nodes and edges is below this threshold, anti-alias will be turned on; this value defaults to 4000.</td> </tr>
+<tr> <th class="specalt">render.nodeBorderThreshold</th> <td class="alt">If the number of <i>rendered</i> nodes equals to or exceeds this number, node borders will not be rendered; this value defaults to 400.</td>  </tr>
+<tr> <th class="spec">render.nodeLabelThreshold</th>     <td class="">If the number of <i>rendered</i> nodes equals to or exceeds this number, node labels will not be rendered; this value defaults to 200.</td>      </tr>
+<tr> <th class="specalt">render.edgeArrowThreshold</th>  <td class="alt">If the number of <i>rendered</i> edges equals to or exceeds this number, edge arrows will not be rendered; this value defaults to 600.</td>   </tr>
+<tr> <th class="spec">render.edgeLabelThreshold</th>     <td class="">If the number of <i>rendered</i> edges equals to or exceeds this number, edge labels will not be rendered; this value defaults to 200.</td>      </tr>
+</table>
+<br>
 
 When printing networks or exporting to formats such as PostScript, the
 highest level of detail is always chosen, regardless of what is
