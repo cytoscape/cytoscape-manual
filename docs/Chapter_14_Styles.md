@@ -276,6 +276,7 @@ are summarized in the tables below.
 <tr> <th class="specalt ulcase center"><i>Line Types</i></th>  <td class="alt">f11</td> </tr>
 <tr> <th class="spec ulcase center"><i>Arrow Shapes</i></th>   <td class="">f22</td> </tr>
 </tbody>
+</table>
 <br>
 
 <img src="Images/Styles/NodeShapeOptions.png">
