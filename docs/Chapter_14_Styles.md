@@ -1065,10 +1065,15 @@ colors. To change the color of each region, just double-click the
 handles (small triangles on the top). A Color gradient will be created
 only when the editor has two or more handles (see the example below).
 
-  -------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------
-  1 handle (no gradient)                                                                                                     2 handles
-  ![OneSlider.png](Images/Styles/OneSlider.png)   ![TwoSliders.png](Images/Styles/TwoSliders.png)
-  -------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------
+<table cellspacing="0" style="table-layout: fixed; width: 680px">
+<caption style="width: 680px">Gradient Editor</caption>
+<colgroup> <col style="width:340px">                                     <col style="width:340px"> </colgroup>
+<tbody>
+<tr> <th class="center">1 handle (no gradient)</th>                      <th class="center">2 handles</th></tr>
+<tr> <td class=""><img src="_static/Images/Styles/OneSlider.png" /></td> <td class=""><img src="_static/Images/Styles/TwoSliders.png" /></td> </tr>
+</tbody>
+</table>
+<br>
 
 #### Continuous-Continuous Editor
 
