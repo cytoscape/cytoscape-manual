@@ -280,6 +280,7 @@ are summarized in the tables below.
 <tr> <th class="spec ulcase center"><i>Arrow Shapes</i></th>   <td class=""><img src="Styles/ArrowShapeOptions.png" /></td> </tr>
 <tr> <th class="spec ulcase center"><i>Arrow Shapes</i></th>   <td class=""><img src="ArrowShapeOptions.png" /></td> </tr>
 <tr> <th class="spec ulcase center"><i>Arrow Shapes</i></th>   <td class=""><img src="_static/ArrowShapeOptions.png" /></td> </tr>
+<tr> <th class="spec ulcase center"><i>Arrow Shapes</i></th>   <td class=""><img src="_static/Images/Styles/ArrowShapeOptions.png" /></td> </tr>
 </tbody>
 </table>
 <br>
