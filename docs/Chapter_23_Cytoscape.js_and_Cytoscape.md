@@ -4,7 +4,7 @@ Cytoscape.js and Cytoscape
 What is Cytoscape.js?
 ---------------------
 
-![jsWebSite.png](Images/CytoscapeJs/jsWebSite.png)
+![jsWebSite.png](_static/images/CytoscapeJs/jsWebSite.png)
 
 [Cytoscape.js](http://cytoscape.github.io/cytoscape.js/) is a
 **JavaScript library** for interactive network visualization. It is a
@@ -17,12 +17,12 @@ using Cytoscape.js and this new **Export to Cytoscape.js** feature.
 
 -   A network visualized with Cytoscape 3.1.0
 
-    -   ![sampleOriginal.png](Images/CytoscapeJs/sampleOriginal.png)
+    -   ![sampleOriginal.png](_static/images/CytoscapeJs/sampleOriginal.png)
 
 -   Same network exported to Cytoscape.js (Rendered with Google Chrome
     and Cytoscape.js 2.0.3)
 
-    -   ![sampleExport.png](Images/CytoscapeJs/sampleExport.png)
+    -   ![sampleExport.png](_static/images/CytoscapeJs/sampleExport.png)
 
 -   [Interactive example (galFiltered.sif rendered with
     Cytoscape.js 2.0.3)](http://chianti.ucsd.edu/~kono/dist/)
@@ -168,8 +168,8 @@ features in Cytoscape.js.
 
 ************** Is this broken ??? *******************
 
-[![small.png](Images/CytoscapeJs/CS-web_vs_CS-1.png){width="100"}](Images/CS-web_vs_CS-1_small.png)
-[![small.png](Images/CytoscapeJs/CS-web_vs_CS-2.png){width="100"}](Images/CS-web_vs_CS-2_small.png)
+[![small.png](_static/images/CytoscapeJs/CS-web_vs_CS-1.png){width="100"}](_static/images/CS-web_vs_CS-1_small.png)
+[![small.png](_static/images/CytoscapeJs/CS-web_vs_CS-2.png){width="100"}](_static/images/CS-web_vs_CS-2_small.png)
 
 ### Import Cytoscape.js data into Cytoscape
 

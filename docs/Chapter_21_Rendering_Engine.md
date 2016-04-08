@@ -26,7 +26,7 @@ Preferences ? Properties...**.
 
   ------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------
   Network with **Low** LOD                                                                                                       Network with **High** LOD
-  ![LowLOD.png](Images/Rendering_Engine/LowLOD.png)   ![HighLOD.png](Images/Rendering_Engine/HighLOD.png)
+  ![LowLOD.png](_static/images/Rendering_Engine/LowLOD.png)   ![HighLOD.png](_static/images/Rendering_Engine/HighLOD.png)
   ------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------
 
 With low LOD values, all nodes are displayed as square and anti-aliasing

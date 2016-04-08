@@ -18,7 +18,7 @@ scroll wheel. Use the zooming buttons located on the toolbar to zoom in
 and out of the interaction network shown in the current network display.
 Zoom icons are detailed below:
 
-![image049.png](Images/Navigation_Layout/image049.png)
+![image049.png](_static/images/Navigation_Layout/image049.png)
 
 From Left to Right:
 
@@ -141,7 +141,7 @@ layout algorithms are:
 
 ### Grid Layout
 
--   ![grid\_layout.png](Images/Navigation_Layout/grid_layout.png)
+-   ![grid\_layout.png](_static/images/Navigation_Layout/grid_layout.png)
 
 The grid layout is a simple layout the arranges all of the nodes in a
 square grid. This is the default layout and is always available as part
@@ -150,7 +150,7 @@ Layout**. A sample screen shot is shown above.
 
 ### Edge-weighted Spring-Embedded Layout
 
--   ![spring.png](Images/Navigation_Layout/spring.png)
+-   ![spring.png](_static/images/Navigation_Layout/spring.png)
 
 The spring-embedded layout is based on a "force-directed" paradigm as
 implemented by Kamada and Kawai (1988). Network nodes are treated like
@@ -165,7 +165,7 @@ Embedded**.
 
 ### Attribute Circle Layout
 
--   ![attribute\_circle\_layout.png](Images/Navigation_Layout/attribute_circle_layout.png)
+-   ![attribute\_circle\_layout.png](_static/images/Navigation_Layout/attribute_circle_layout.png)
 
 The **Attribute Circle** layout is a quick, useful layout, particularly
 for small networks, that will locate all of the nodes in the network
@@ -178,7 +178,7 @@ subset of the galFiltered network organized by node degree.
 
 ### Group Attributes Layout
 
--   ![group\_by\_attributes\_layout.png](Images/Navigation_Layout/group_by_attributes_layout.png)
+-   ![group\_by\_attributes\_layout.png](_static/images/Navigation_Layout/group_by_attributes_layout.png)
 
 The **Group Attributes** layout is similar to the **Attribute Circle**
 layout described above except that instead of a single circle with all
@@ -189,7 +189,7 @@ Attributes Layout ? taxonomy**.
 
 ### Prefuse Force Directed Layout
 
--   ![force\_layout.png](Images/Navigation_Layout/force_layout.png)
+-   ![force\_layout.png](_static/images/Navigation_Layout/force_layout.png)
 
 The force-directed layout is a layout based on the "force-directed"
 paradigm. This layout is based on the algorithm implemented as part of
@@ -215,7 +215,7 @@ Settings...**). The main layout algorithms provided by yFiles are:
 
 ### yFiles Organic Layout
 
--   ![yOrganic.png](Images/Navigation_Layout/yOrganic.png)
+-   ![yOrganic.png](_static/images/Navigation_Layout/yOrganic.png)
 
 The organic layout algorithm is a kind of spring-embedded algorithm that
 combines elements of the other algorithms to show the clustered
@@ -224,7 +224,7 @@ structure of a graph. This algorithm is available by selecting **Layout
 
 ### yFiles Circular Layout
 
--   ![yCircular.png](Images/Navigation_Layout/yCircular.png)
+-   ![yCircular.png](_static/images/Navigation_Layout/yCircular.png)
 
 This algorithm produces layouts that emphasize group and tree structures
 within a network. It partitions the network by analyzing its
@@ -235,7 +235,7 @@ Circular**.
 
 ### yFiles Hierarchical Layout
 
--   ![yHir.png](Images/Navigation_Layout/yHir.png)
+-   ![yHir.png](_static/images/Navigation_Layout/yHir.png)
 
 The hierarchical layout algorithm is good for representing main
 direction or "flow" within a network. Nodes are placed in hierarchically
@@ -255,7 +255,7 @@ algorithms that allow access to their parameters will appear in the
 drop-down menu at the top of the dialog. Once you've modified a
 parameter, clicking the **Execute Layout** button will apply the layout.
 
-![layout\_settings\_dialog.png](Images/Navigation_Layout/layout_settings_dialog.png)
+![layout\_settings\_dialog.png](_static/images/Navigation_Layout/layout_settings_dialog.png)
 
 Edge Bend and Automatic Edge Bundling
 -------------------------------------
@@ -269,16 +269,16 @@ to bring up the **Edge Bend Editor**. In the editor, you can add as many
 handles as you want to the edge using Alt-Click on Windows, Option-Click
 on Mac, or Ctrl-Alt-Click on Linux.
 
-![edbeBend1.png](Images/Navigation_Layout/edbeBend1.png)
+![edbeBend1.png](_static/images/Navigation_Layout/edbeBend1.png)
 
-![bundle1.png](Images/Navigation_Layout/bundle1.png)
+![bundle1.png](_static/images/Navigation_Layout/bundle1.png)
 
 To clear all edge bends, select **Layout ? Clear All Edge Bends**.
 
 In addition to adding handles manually, you can use the **Bundle Edges**
 function to bundle all or selected edges automatically.
 
-![bundle2.png](Images/Navigation_Layout/bundle2.png)
+![bundle2.png](_static/images/Navigation_Layout/bundle2.png)
 
 1.  Select **Layout ? Bundle Edges ? All Nodes and Edges**.
 
@@ -308,7 +308,7 @@ will be moved together.
 
 ### Rotate
 
--   ![rotate\_dialog.png](Images/Navigation_Layout/rotate_dialog.png)
+-   ![rotate\_dialog.png](_static/images/Navigation_Layout/rotate_dialog.png)
 
 Selecting the **Layout ? Rotate** option will show the **Rotate** window
 in the **Tool Panel**. This function will either rotate the entire
@@ -317,15 +317,15 @@ network with selected nodes rotated.
 
 Before
 
--   ![rotate\_networkA.png](Images/Navigation_Layout/rotate_networkA.png)
+-   ![rotate\_networkA.png](_static/images/Navigation_Layout/rotate_networkA.png)
 
 After
 
--   ![rotate\_networkB.png](Images/Navigation_Layout/rotate_networkB.png)
+-   ![rotate\_networkB.png](_static/images/Navigation_Layout/rotate_networkB.png)
 
 ### Scale
 
--   ![scale\_dialog.png](Images/Navigation_Layout/scale_dialog.png)
+-   ![scale\_dialog.png](_static/images/Navigation_Layout/scale_dialog.png)
 
 Selecting the **Layout ? Scale** option will open the **Scale** window
 in the **Tool Panel**. This function will scale the position of the
@@ -337,15 +337,15 @@ The image below shows selected nodes scaled.
 
 Before
 
--   ![scale\_networkA.png](Images/Navigation_Layout/scale_networkA.png)
+-   ![scale\_networkA.png](_static/images/Navigation_Layout/scale_networkA.png)
 
 After
 
--   ![scale\_networkB.png](Images/Navigation_Layout/scale_networkB.png)
+-   ![scale\_networkB.png](_static/images/Navigation_Layout/scale_networkB.png)
 
 ### Align, Distribute and Stack
 
--   ![align\_distribute\_dialog.png](Images/Navigation_Layout/align_distribute_dialog.png)
+-   ![align\_distribute\_dialog.png](_static/images/Navigation_Layout/align_distribute_dialog.png)
 
 Selecting the **Layout ? Align/Distribute** option will open the **Align
 and Distribute** window in the **Tool Panel**. **Align** provides
@@ -362,32 +362,32 @@ of what each button does.
 
   ------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------
   **Button**                                                                                                                                        **Before**                                                                                                                                             **After**                                                                                                                                                                       **Description of Align Options**
-  ![V\_ALIGN\_TOP.gif](Images/Navigation_Layout/V_ALIGN_TOP.gif)         ![small.align\_begin.png](Images/Navigation_Layout/small.align_begin.png)   ![small.align\_vertical\_top.png](Images/Navigation_Layout/small.align_vertical_top.png)             Vertical Align Top - The tops of the selected nodes are aligned with the top-most node.
-  ![V\_ALIGN\_CENTER.gif](Images/Navigation_Layout/V_ALIGN_CENTER.gif)   ![small.align\_begin.png](Images/Navigation_Layout/small.align_begin.png)   ![small.align\_vertical\_center.png](Images/Navigation_Layout/small.align_vertical_center.png)       Vertical Align Center - The centers of the selected nodes are aligned along a line defined by the midpoint between the top and bottom-most nodes.
-  ![V\_ALIGN\_BOTTOM.gif](Images/Navigation_Layout/V_ALIGN_BOTTOM.gif)   ![small.align\_begin.png](Images/Navigation_Layout/small.align_begin.png)   ![small.align\_vertical\_bottom.png](Images/Navigation_Layout/small.align_vertical_bottom.png)       Vertical Align Bottom - The bottoms of the selected nodes are aligned with the bottom-most node.
-  ![H\_ALIGN\_LEFT.gif](Images/Navigation_Layout/H_ALIGN_LEFT.gif)       ![small.align\_begin.png](Images/Navigation_Layout/small.align_begin.png)   ![small.align\_horizontal\_left.png](Images/Navigation_Layout/small.align_horizontal_left.png)       Horizontal Align Left - The left hand sides of the selected nodes are aligned with the left-most node.
-  ![H\_ALIGN\_CENTER.gif](Images/Navigation_Layout/H_ALIGN_CENTER.gif)   ![small.align\_begin.png](Images/Navigation_Layout/small.align_begin.png)   ![small.align\_horizontal\_center.png](Images/Navigation_Layout/small.align_horizontal_center.png)   Horizontal Align Center - The centers of the selected nodes are aligned along a line defined by the midpoint between the left and right-most nodes.
-  ![H\_ALIGN\_RIGHT.gif](Images/Navigation_Layout/H_ALIGN_RIGHT.gif)     ![small.align\_begin.png](Images/Navigation_Layout/small.align_begin.png)   ![small.align\_horizontal\_right.png](Images/Navigation_Layout/small.align_horizontal_right.png)     Horizontal Align Right - The right hand sides of the selected nodes are aligned with the right-most node.
+  ![V\_ALIGN\_TOP.gif](_static/images/Navigation_Layout/V_ALIGN_TOP.gif)         ![small.align\_begin.png](_static/images/Navigation_Layout/small.align_begin.png)   ![small.align\_vertical\_top.png](_static/images/Navigation_Layout/small.align_vertical_top.png)             Vertical Align Top - The tops of the selected nodes are aligned with the top-most node.
+  ![V\_ALIGN\_CENTER.gif](_static/images/Navigation_Layout/V_ALIGN_CENTER.gif)   ![small.align\_begin.png](_static/images/Navigation_Layout/small.align_begin.png)   ![small.align\_vertical\_center.png](_static/images/Navigation_Layout/small.align_vertical_center.png)       Vertical Align Center - The centers of the selected nodes are aligned along a line defined by the midpoint between the top and bottom-most nodes.
+  ![V\_ALIGN\_BOTTOM.gif](_static/images/Navigation_Layout/V_ALIGN_BOTTOM.gif)   ![small.align\_begin.png](_static/images/Navigation_Layout/small.align_begin.png)   ![small.align\_vertical\_bottom.png](_static/images/Navigation_Layout/small.align_vertical_bottom.png)       Vertical Align Bottom - The bottoms of the selected nodes are aligned with the bottom-most node.
+  ![H\_ALIGN\_LEFT.gif](_static/images/Navigation_Layout/H_ALIGN_LEFT.gif)       ![small.align\_begin.png](_static/images/Navigation_Layout/small.align_begin.png)   ![small.align\_horizontal\_left.png](_static/images/Navigation_Layout/small.align_horizontal_left.png)       Horizontal Align Left - The left hand sides of the selected nodes are aligned with the left-most node.
+  ![H\_ALIGN\_CENTER.gif](_static/images/Navigation_Layout/H_ALIGN_CENTER.gif)   ![small.align\_begin.png](_static/images/Navigation_Layout/small.align_begin.png)   ![small.align\_horizontal\_center.png](_static/images/Navigation_Layout/small.align_horizontal_center.png)   Horizontal Align Center - The centers of the selected nodes are aligned along a line defined by the midpoint between the left and right-most nodes.
+  ![H\_ALIGN\_RIGHT.gif](_static/images/Navigation_Layout/H_ALIGN_RIGHT.gif)     ![small.align\_begin.png](_static/images/Navigation_Layout/small.align_begin.png)   ![small.align\_horizontal\_right.png](_static/images/Navigation_Layout/small.align_horizontal_right.png)     Horizontal Align Right - The right hand sides of the selected nodes are aligned with the right-most node.
   ------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------
 
   ----------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Button**                                                                                                                                      **Before**                                                                                                                                                                              **After**                                                                                                                                                                                 **Description of Distribute Options**
-  ![V\_DIST\_TOP.gif](Images/Navigation_Layout/V_DIST_TOP.gif)         ![small.distribute\_begin\_vertical.png](Images/Navigation_Layout/small.distribute_begin_vertical.png)       ![small.distribute\_vertical\_top.png](Images/Navigation_Layout/small.distribute_vertical_top.png)             Vertical Distribute Top - The tops of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.
-  ![V\_DIST\_CENTER.gif](Images/Navigation_Layout/V_DIST_CENTER.gif)   ![small.distribute\_begin\_vertical.png](Images/Navigation_Layout/small.distribute_begin_vertical.png)       ![small.distribute\_vertical\_center.png](Images/Navigation_Layout/small.distribute_vertical_center.png)       Vertical Distribute Center - The centers of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.
-  ![V\_DIST\_BOTTOM.gif](Images/Navigation_Layout/V_DIST_BOTTOM.gif)   ![small.distribute\_begin\_vertical.png](Images/Navigation_Layout/small.distribute_begin_vertical.png)       ![small.distribute\_vertical\_bottom.png](Images/Navigation_Layout/small.distribute_vertical_bottom.png)       Vertical Distribute Bottom - The bottoms of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.
-  ![H\_DIST\_LEFT.gif](Images/Navigation_Layout/H_DIST_LEFT.gif)       ![small.distribute\_begin\_horizontal.png](Images/Navigation_Layout/small.distribute_begin_horizontal.png)   ![small.distribute\_horizontal\_left.png](Images/Navigation_Layout/small.distribute_horizontal_left.png)       Horizontal Distribute Left - The left hand sides of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.
-  ![H\_DIST\_CENTER.gif](Images/Navigation_Layout/H_DIST_CENTER.gif)   ![small.distribute\_begin\_horizontal.png](Images/Navigation_Layout/small.distribute_begin_horizontal.png)   ![small.distribute\_horizontal\_center.png](Images/Navigation_Layout/small.distribute_horizontal_center.png)   Horizontal Distribute Center - The centers of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.
-  ![H\_DIST\_RIGHT.gif](Images/Navigation_Layout/H_DIST_RIGHT.gif)     ![small.distribute\_begin\_horizontal.png](Images/Navigation_Layout/small.distribute_begin_horizontal.png)   ![small.distribute\_horizontal\_right.png](Images/Navigation_Layout/small.distribute_horizontal_right.png)     Horizontal Distribute Right - The right hand sides of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.
+  ![V\_DIST\_TOP.gif](_static/images/Navigation_Layout/V_DIST_TOP.gif)         ![small.distribute\_begin\_vertical.png](_static/images/Navigation_Layout/small.distribute_begin_vertical.png)       ![small.distribute\_vertical\_top.png](_static/images/Navigation_Layout/small.distribute_vertical_top.png)             Vertical Distribute Top - The tops of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.
+  ![V\_DIST\_CENTER.gif](_static/images/Navigation_Layout/V_DIST_CENTER.gif)   ![small.distribute\_begin\_vertical.png](_static/images/Navigation_Layout/small.distribute_begin_vertical.png)       ![small.distribute\_vertical\_center.png](_static/images/Navigation_Layout/small.distribute_vertical_center.png)       Vertical Distribute Center - The centers of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.
+  ![V\_DIST\_BOTTOM.gif](_static/images/Navigation_Layout/V_DIST_BOTTOM.gif)   ![small.distribute\_begin\_vertical.png](_static/images/Navigation_Layout/small.distribute_begin_vertical.png)       ![small.distribute\_vertical\_bottom.png](_static/images/Navigation_Layout/small.distribute_vertical_bottom.png)       Vertical Distribute Bottom - The bottoms of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.
+  ![H\_DIST\_LEFT.gif](_static/images/Navigation_Layout/H_DIST_LEFT.gif)       ![small.distribute\_begin\_horizontal.png](_static/images/Navigation_Layout/small.distribute_begin_horizontal.png)   ![small.distribute\_horizontal\_left.png](_static/images/Navigation_Layout/small.distribute_horizontal_left.png)       Horizontal Distribute Left - The left hand sides of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.
+  ![H\_DIST\_CENTER.gif](_static/images/Navigation_Layout/H_DIST_CENTER.gif)   ![small.distribute\_begin\_horizontal.png](_static/images/Navigation_Layout/small.distribute_begin_horizontal.png)   ![small.distribute\_horizontal\_center.png](_static/images/Navigation_Layout/small.distribute_horizontal_center.png)   Horizontal Distribute Center - The centers of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.
+  ![H\_DIST\_RIGHT.gif](_static/images/Navigation_Layout/H_DIST_RIGHT.gif)     ![small.distribute\_begin\_horizontal.png](_static/images/Navigation_Layout/small.distribute_begin_horizontal.png)   ![small.distribute\_horizontal\_right.png](_static/images/Navigation_Layout/small.distribute_horizontal_right.png)     Horizontal Distribute Right - The right hand sides of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.
   ----------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Button**                                                                                                                                        **Before**                                                                                                                                                                    **After**                                                                                                                                                                       **Description of Stack Options**
-  ![V\_STACK\_LEFT.gif](Images/Navigation_Layout/V_STACK_LEFT.gif)       ![small.stack\_vertical\_begin.png](Images/Navigation_Layout/small.stack_vertical_begin.png)       ![small.stack\_vertical\_left.png](Images/Navigation_Layout/small.stack_vertical_left.png)           Vertical Stack Left - Vertically stacked below top-most node with the left-hand sides of the selected nodes aligned.
-  ![V\_STACK\_CENTER.gif](Images/Navigation_Layout/V_STACK_CENTER.gif)   ![small.stack\_vertical\_begin.png](Images/Navigation_Layout/small.stack_vertical_begin.png)       ![small.stack\_vertical\_center.png](Images/Navigation_Layout/small.stack_vertical_center.png)       Vertical Stack Center - Vertically stacked below top-most node with the centers of selected nodes aligned.
-  ![V\_STACK\_RIGHT.gif](Images/Navigation_Layout/V_STACK_RIGHT.gif)     ![small.stack\_vertical\_begin.png](Images/Navigation_Layout/small.stack_vertical_begin.png)       ![small.stack\_vertical\_right.png](Images/Navigation_Layout/small.stack_vertical_right.png)         Vertical Stack Right - Vertically stacked below top-most node with the right-hand sides of the selected nodes aligned.
-  ![H\_STACK\_TOP.gif](Images/Navigation_Layout/H_STACK_TOP.gif)         ![small.stack\_horizontal\_begin.png](Images/Navigation_Layout/small.stack_horizontal_begin.png)   ![small.stack\_horizontal\_top.png](Images/Navigation_Layout/small.stack_horizontal_top.png)         Horizontal Stack Top - Horizontally stacked to the right of the left-most node with the tops of the selected nodes aligned.
-  ![H\_STACK\_CENTER.gif](Images/Navigation_Layout/H_STACK_CENTER.gif)   ![small.stack\_horizontal\_begin.png](Images/Navigation_Layout/small.stack_horizontal_begin.png)   ![small.stack\_horizontal\_center.png](Images/Navigation_Layout/small.stack_horizontal_center.png)   Horizontal Stack Center - Horizontally stacked to the right of the left-most node with the centers of selected nodes aligned.
-  ![H\_STACK\_BOTTOM.gif](Images/Navigation_Layout/H_STACK_BOTTOM.gif)   ![small.stack\_horizontal\_begin.png](Images/Navigation_Layout/small.stack_horizontal_begin.png)   ![small.stack\_horizontal\_bottom.png](Images/Navigation_Layout/small.stack_horizontal_bottom.png)   Horizontal Stack Bottom - Horizontal Stack Center - Horizontally stacked to the right of the left-most node with the bottoms of the selected nodes aligned.
+  ![V\_STACK\_LEFT.gif](_static/images/Navigation_Layout/V_STACK_LEFT.gif)       ![small.stack\_vertical\_begin.png](_static/images/Navigation_Layout/small.stack_vertical_begin.png)       ![small.stack\_vertical\_left.png](_static/images/Navigation_Layout/small.stack_vertical_left.png)           Vertical Stack Left - Vertically stacked below top-most node with the left-hand sides of the selected nodes aligned.
+  ![V\_STACK\_CENTER.gif](_static/images/Navigation_Layout/V_STACK_CENTER.gif)   ![small.stack\_vertical\_begin.png](_static/images/Navigation_Layout/small.stack_vertical_begin.png)       ![small.stack\_vertical\_center.png](_static/images/Navigation_Layout/small.stack_vertical_center.png)       Vertical Stack Center - Vertically stacked below top-most node with the centers of selected nodes aligned.
+  ![V\_STACK\_RIGHT.gif](_static/images/Navigation_Layout/V_STACK_RIGHT.gif)     ![small.stack\_vertical\_begin.png](_static/images/Navigation_Layout/small.stack_vertical_begin.png)       ![small.stack\_vertical\_right.png](_static/images/Navigation_Layout/small.stack_vertical_right.png)         Vertical Stack Right - Vertically stacked below top-most node with the right-hand sides of the selected nodes aligned.
+  ![H\_STACK\_TOP.gif](_static/images/Navigation_Layout/H_STACK_TOP.gif)         ![small.stack\_horizontal\_begin.png](_static/images/Navigation_Layout/small.stack_horizontal_begin.png)   ![small.stack\_horizontal\_top.png](_static/images/Navigation_Layout/small.stack_horizontal_top.png)         Horizontal Stack Top - Horizontally stacked to the right of the left-most node with the tops of the selected nodes aligned.
+  ![H\_STACK\_CENTER.gif](_static/images/Navigation_Layout/H_STACK_CENTER.gif)   ![small.stack\_horizontal\_begin.png](_static/images/Navigation_Layout/small.stack_horizontal_begin.png)   ![small.stack\_horizontal\_center.png](_static/images/Navigation_Layout/small.stack_horizontal_center.png)   Horizontal Stack Center - Horizontally stacked to the right of the left-most node with the centers of selected nodes aligned.
+  ![H\_STACK\_BOTTOM.gif](_static/images/Navigation_Layout/H_STACK_BOTTOM.gif)   ![small.stack\_horizontal\_begin.png](_static/images/Navigation_Layout/small.stack_horizontal_begin.png)   ![small.stack\_horizontal\_bottom.png](_static/images/Navigation_Layout/small.stack_horizontal_bottom.png)   Horizontal Stack Bottom - Horizontal Stack Center - Horizontally stacked to the right of the left-most node with the bottoms of the selected nodes aligned.
   ------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Node Movement and Placement

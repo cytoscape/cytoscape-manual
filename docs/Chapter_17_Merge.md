@@ -11,7 +11,7 @@ The **Advanced Network Merge** interface is available from **Tools ?
 Merge ? Networks...** and allows for merging of two or more networks.
 
 ![Advanced Network
-Merge](Images/Merge/AdvancedNetworkMerge.png)
+Merge](_static/images/Merge/AdvancedNetworkMerge.png)
 
 ### Basic Operations
 
@@ -37,7 +37,7 @@ how to merge the networks. The options available here are:
     the individual network columns, what the corresponding column in the
     merged network should be named and its data type.
 
-![Advanced Network Merge Options](Images/Merge/AdvancedNetworkMergeOptions.png)
+![Advanced Network Merge Options](_static/images/Merge/AdvancedNetworkMergeOptions.png)
 
 Merge Tables
 ------------

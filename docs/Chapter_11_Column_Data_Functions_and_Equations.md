@@ -211,10 +211,10 @@ In order to ease the creation of formulas as well as to facilitate
 discovery of built-in functions we provide a **Function Builder** in the
 Table Panel. After selecting a non-list column cell, you can invoke it
 by clicking on
-![fx-button.png](Images/Column_Formulas/fx-button.png).
+![fx-button.png](_static/images/Column_Formulas/fx-button.png).
 This should bring up the Function Builder which looks like this:
 
-![FunctionBuilder2.png](Images/Column_Formulas/FunctionBuilder2.png)
+![FunctionBuilder2.png](_static/images/Column_Formulas/FunctionBuilder2.png)
 
 Select a function on the left hand side of the dialog - here, we've
 selected the ABS function. Next to the list of functions, you can

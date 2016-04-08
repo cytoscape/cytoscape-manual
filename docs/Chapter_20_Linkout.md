@@ -26,7 +26,7 @@ For example, the following entry:
 places the SGD link under the Model Organism DB submenu. This link will
 appear in Cytoscape as:
 
-![Figure1\_linkout\_Cy3.png](Images/Linkout/Figure1_linkout_Cy3.png)
+![Figure1\_linkout\_Cy3.png](_static/images/Linkout/Figure1_linkout_Cy3.png)
 
 In a similar fashion one can add new submenus.
 
@@ -66,7 +66,7 @@ added or removed using this dialog; however, note that the modifications
 would not be stored in the file. To change a URL permanently, you would
 need to edit the linkout.props file directly.
 
-![Figure2\_linkout26.png](Images/Linkout/Figure2_linkout26.png)
+![Figure2\_linkout26.png](_static/images/Linkout/Figure2_linkout26.png)
 
 In addition, new links can be defined when starting Cytoscape from
 command line by specifying individual properties. The formatting of the
@@ -84,7 +84,7 @@ For instance this command:
 
 will add this menu item:
 
-![Figure3\_linkout26.png](Images/Linkout/Figure3_linkout26.png)
+![Figure3\_linkout26.png](_static/images/Linkout/Figure3_linkout26.png)
 
 To remove a link from the menu, simply delete the property using **Edit
 ? Preferences ? Properties...** and selecting **commandline**. Linkouts

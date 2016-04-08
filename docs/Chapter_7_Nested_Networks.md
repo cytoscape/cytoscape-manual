@@ -32,9 +32,9 @@ the nested network the image will be a default icon, otherwise it will
 be a low-resolution rendering of the nested network's current layout.
 
 ![Nested Network
-visualization](Images/Nested_Networks/NestedNetwork.png)
+visualization](_static/images/Nested_Networks/NestedNetwork.png)
 
-![NestedNetwork2.png](Images/Nested_Networks/NestedNetwork2.png)
+![NestedNetwork2.png](_static/images/Nested_Networks/NestedNetwork2.png)
 
 Programmatically Manipulating Nested Networks
 ---------------------------------------------

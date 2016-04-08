@@ -175,7 +175,7 @@ an embedded space a backslash followed by a space etc.
 
 #### Example 1
 
-![NNFExample1\_2.png](Images/Network_Formats/NNFExample1_2.png)
+![NNFExample1\_2.png](_static/images/Network_Formats/NNFExample1_2.png)
 
     Example_1      C
     Example_1      network1
@@ -185,7 +185,7 @@ an embedded space a backslash followed by a space etc.
 
 #### Example 2
 
-![NNFExample2\_2.png](Images/Network_Formats/NNFExample2_2.png)
+![NNFExample2\_2.png](_static/images/Network_Formats/NNFExample2_2.png)
 
     Example_2      M1
     Example_2      M2
@@ -196,7 +196,7 @@ an embedded space a backslash followed by a space etc.
 
 #### Example 3
 
-![NNFExample3\_2.png](Images/Network_Formats/NNFExample3_2.png)
+![NNFExample3\_2.png](_static/images/Network_Formats/NNFExample3_2.png)
 
     Example_3      M1       im        M2
     Example_3      M3       im        M1
@@ -208,14 +208,14 @@ an embedded space a backslash followed by a space etc.
     M3             B        pp        C
 
 ==== Example 4 ====
-![NNFExample4.png](Images/Network_Formats/NNFExample4.png)
+![NNFExample4.png](_static/images/Network_Formats/NNFExample4.png)
 Example\_4 M1\*/ /\* root M3\*/ /\* M1 A pp B M1 B pp A Example\_4 C pp
 B M3 M2 M2 D M3 E pp F M3 D pp F M3 D pp E Example\_4 D pp C Example\_4
 A pp M2\*/ /\* Example\_4 B pp M3 Example\_4 M2 pp B
 
 #### Example 5
 
-![NNFExample5\_2.png](Images/Network_Formats/NNFExample5_2.png)
+![NNFExample5\_2.png](_static/images/Network_Formats/NNFExample5_2.png)
 
     Example_5      M4
     M4             D
@@ -322,7 +322,7 @@ browsers. Cytoscape.js has two ways to represent network data, and
 currently both reader and writer support only the array style graph
 notation. For example, this network in Cytoscape:
 
-![JSON1.png](Images/Network_Formats/JSON1.png)
+![JSON1.png](_static/images/Network_Formats/JSON1.png)
 
 will be exported to this JSON:
 
@@ -509,7 +509,7 @@ will be exported to this JSON:
 
 And this is a sample visualization in Cytoscape.js:
 
-![JSON2.png](Images/Network_Formats/JSON2.png)
+![JSON2.png](_static/images/Network_Formats/JSON2.png)
 
 ### Important Note
 

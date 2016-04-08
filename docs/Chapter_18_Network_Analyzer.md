@@ -27,7 +27,7 @@ Network Analysis
 To run NetworkAnalyzer, select **Tools ? NetworkAnalyzer ? Network
 Analysis ? Analyze Network**.
 
-![NetworkAnalyzer.png](Images/Network_Analyzer/NetworkAnalyzer.png)
+![NetworkAnalyzer.png](_static/images/Network_Analyzer/NetworkAnalyzer.png)
 
 The NetworkAnalyzer will determine whether your network contains
 directed or undirected edges. At this point, you can choose to ignore
@@ -35,7 +35,7 @@ edge direction information.
 
 When results are calculated, they will appear in the **Results Panel**.
 
-![NetworkAnalyzerResults.png](Images/Network_Analyzer/NetworkAnalyzerResults.png)
+![NetworkAnalyzerResults.png](_static/images/Network_Analyzer/NetworkAnalyzerResults.png)
 
 The results have multiple tabs. Details on the network parameters can be
 found
@@ -160,7 +160,7 @@ parameters.
     for fine-grained perception of differing values through the
     color gradient. The default middle color is yellow.
 
-![NetworkAnalyzer\_VisualizeParameters.png](Images/Network_Analyzer/NetworkAnalyzer_VisualizeParameters.png)
+![NetworkAnalyzer\_VisualizeParameters.png](_static/images/Network_Analyzer/NetworkAnalyzer_VisualizeParameters.png)
 
 ### NetworkAnalyzer Settings
 
@@ -216,4 +216,4 @@ NetworkAnalyzer allows for the creation of sub-networks of connected
 components. The user selects a number of connected components from a
 list and each selected components is visualized as a sub-network.
 
-![NetworkAnalyzer\_ConnectedComponents.png](Images/Network_Analyzer/NetworkAnalyzer_ConnectedComponents.png)
+![NetworkAnalyzer\_ConnectedComponents.png](_static/images/Network_Analyzer/NetworkAnalyzer_ConnectedComponents.png)

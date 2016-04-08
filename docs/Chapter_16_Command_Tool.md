@@ -8,7 +8,7 @@ main functions: first, a Command Line Dialog is available from **Tools ?
 Command Line Dialog**, that allows the user to type commands into
 Cytoscape and see the results in a "Reply Log".
 
-![CommandTool.png](Images/Command_Tool/CommandTool.png)
+![CommandTool.png](_static/images/Command_Tool/CommandTool.png)
 
 Second, and arguably more useful, it will read script files and execute
 them. Each line in the script file is a command that is sent to a app.
@@ -16,7 +16,7 @@ Script files may be entered on the Cytoscape command line using the "-S"
 flag to Cytoscape, through the **File ? Run Script File...** menu item,
 or through **Tools ? Execute Command File**.
 
-![RunScriptCommands.png](Images/Command_Tool/RunScriptCommands.png)
+![RunScriptCommands.png](_static/images/Command_Tool/RunScriptCommands.png)
 
 Cytoscape commands consist of three parts: a command class, or
 namespace; a command within that namespace; and a series of arguments or
