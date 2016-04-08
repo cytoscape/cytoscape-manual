@@ -173,57 +173,45 @@ Cytoscape allows a wide variety of properties to be controlled. These
 are summarized in the tables below.
 
 <table cellspacing="0" style="table-layout: fixed; width: 700px">
-<caption>Command Line Arguments</caption>
-<colgroup> <col style="width:170px">                           <col style="width:530px"> </colgroup>
+<caption>Node Properties</caption>
+<colgroup> <col style="width:200px">                              <col style="width:500px"> </colgroup>
 <tbody>
-<tr> <th>Argument</th>                                         <th>Description</th>                                                                      </tr>
-<tr> <th class="spec ulcase">-h,--help</th>                    <td class="">This flag generates the help output you see above and exits.</td>            </tr>
-<tr> <th class="specalt ulcase">-v,--version</th>              <td class="alt">This flag prints the version number of Cytoscape and exits.</td>          </tr>
-<tr> <th class="spec ulcase">-s,--session &lt;file&gt;</th>    <td class="">This option specifies a session file to be loaded. Since only one session file can be loaded at a given time, this option may only specified once on a given command line. The option expects a <code>.cys</code> Cytoscape session file. It is customary, although not necessary, for session file names to contain the .cys extension.</td> </tr>
-<tr> <th class="specalt ulcase">-N,--network &lt;file&gt;</th> <td class="alt">This option is used to load all types of network files. SIF, GML, and XGMML files can all be loaded using the -N option. You can specify as many networks as desired on a single command line.</td> </tr>
-<tr> <th class="spec ulcase">-P,--props &lt;file&gt;</th>      <td class="">This option specifies Cytoscape properties. Properties can be specified either as a properties file (in Java's standard properties format), or as individual properties. To specify individual properties, you must specify the property name followed by the property value where the name and value are separated by the '=' sign. For example to specify the defaultSpeciesName: <code>cytoscape.sh -P defaultSpeciesName=Human</code>. If you would like to include spaces in your property, simply enclose the name and value in quotation marks: <code>cytoscape.sh -P "defaultSpeciesName=Homo Sapiens"</code>. The property option subsumes previous options -noCanonicalization, -species, and -bioDataServer. Now it would look like: <code>cytoscape.sh </code> <code>-P defaultSpeciesName=Human </code> <code>-P noCanonicalization=true </code> <code>-P bioDataServer=myServer</code>.</td> </tr>
-<tr> <th class="specalt ulcase">-V,--vizmap &lt;file&gt;</th>  <td class="alt">This option specifies a Style file.</td>                                  </tr>
-<tr> <th class="spec ulcase">-S,--script &lt;file&gt;</th>     <td class="">This option executes commands from a specifed Cytoscape script file.</td>    </tr>
-<tr> <th class="specalt ulcase">-R,--rest &lt;port&gt;</th>    <td class="alt">This option starts a Cytoscape REST service on the specified port.</td>   </tr>
+<tr> <th>Node Properties</th>                                     <th>Description</th> </tr>
+<tr> <th class="spec ulcase">Border Line Type</th>                <td class="">The type of line used for the border of the node.</td> </tr>
+<tr> <th class="specalt ulcase">Border Transparency</th>          <td class="alt">The opacity of the color of the border of the node. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
+<tr> <th class="spec ulcase">Border Width</th>                    <td class="">The width of the node border.</td> </tr>
+<tr> <th class="specalt ulcase">Label</th>                        <td class="alt">The text used for the node label.</td> </tr>
+<tr> <th class="spec ulcase">Label Font Face</th>                 <td class="">The font used for the node label.</td> </tr>
+<tr> <th class="specalt ulcase">Label Font Size</th>              <td class="alt">The size of the font used for the node label.</td> </tr>
+<tr> <th class="spec ulcase">Label Position</th>                  <td class="">The position of the node label relative to the node.</td> </tr>
+<tr> <th class="specalt ulcase">Label Transparency</th>           <td class="alt">The opacity of the node label. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
+<tr> <th class="spec ulcase">Label Width</th>                     <td class="">The maximum width of the node label. If the node label is wider than the specified width, Cytoscape will automatically wrap the label on space characters. Cytoscape will not hyphenate words, meaning that if a single word (i.e. no spaces) is longer than maximum width, the word will be displayed beyond the maximum width.</td> </tr>
+<tr> <th class="specalt ulcase">Nested Network Image Visible</th> <td class="alt">A boolean value that indicates whether a nested network should be visualized (assuming a nested network is present for the specified node).</td> </tr>
+<tr> <th class="spec ulcase">Padding (Compound Node)</th>         <td class="">Internal padding of the compound node (a node that contains other nodes).</td> </tr>
+<tr> <th class="specalt ulcase">Paint</th>                        <td class="alt">The color of the whole node, including its border, label and selected paint. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Border Paint</th>                    <td class="">The color of the border of the node. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Border Paint</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Image/Chart <i>1-9</i></th>       <td class="alt">A user-defined graphic (image, chart or gradient) that is displayed on the node. These properties (maximum of nine) can be added to the list from the drop-down menu <b>Properties ? Paint ? Custom Paint <i>n</i> ? Image/Chart <i>n</i></b>.</td> </tr>
+<tr> <th class="spec ulcase">Image/Chart Position <i>1-9</i></th> <td class="">The position of each graphic (image, chart or gradient). These properties (maximum of nine) can be added to the list from the drop-down menu <b>Properties ? Paint ? Custom Paint <i>n</i> ? Image/Chart Position <i>n</i></b>.</td> </tr>
+<tr> <th class="specalt ulcase">Fill Color</th>                   <td class="alt">The color of the node. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Fill Color</b>.</td> </tr>
+<tr> <th class="spec ulcase">Label Color</th>                     <td class="">The color of the node label. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Label Color</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Selected Paint</th>               <td class="alt">The fill color of the node when selected. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Selected Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Shape</th>                           <td class="">The shape of the node.</td> </tr>
+<tr> <th class="specalt ulcase">Shape (Compound Node)</th>        <td class="alt">The shape of the compound node (a node that contains other nodes).</td> </tr>
+<tr> <th class="spec ulcase">Size</th>                            <td class="">The size of the node. Width and height will be equal. This property is mutually exclusive of <i>Node Height</i> and <i>Node Width</i>. It can be added to the list from the drop-down menu <b>Properties ? Size ? Size</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Image/Chart Size <i>1-9</i></th>  <td class="alt">The size of the related node <i>Image/Chart</i>. It can be added to the list from the drop-down menu <b>Properties ? Size ? Image/Chart Size <i>n</i></b>.</td> </tr>
+<tr> <th class="spec ulcase">Height</th>                          <td class="">The height of the node. Height will be independent of width. This property is mutually exclusive of <i>Node Size</i>. It can be added to the list from the drop-down menu <b>Properties ? Size ? Height</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Width</th>                        <td class="alt">The width of the node. Width will be independent of height. This property is mutually exclusive of <i>Node Size</i>. It can be added to the list from the drop-down menu <b>Properties ? Size ? Width</b>.</td> </tr>
+<tr> <th class="spec ulcase">Fit Custom Graphics to node</th>     <td class="">Toggle to fit Image/Chart size to node size. It can be added to the list from the drop-down menu <b>Properties ? Size ? Fit Custom Graphics to node</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Lock node width and height</th>   <td class="alt">Toggle to ignore <i>Width</i> and <i>Height</i>, and to use <i>Size</i> for both values. It can be added to the list from the drop-down menu <b>Properties ? Size ? Lock node width and height</b>.</td> </tr>
+<tr> <th class="spec ulcase">Tooltip</th>                         <td class="">The text of the tooltip that appears when a mouse hovers over the node.</td> </tr>
+<tr> <th class="specalt ulcase">Transparency</th>                 <td class="alt">The opacity of the color of the node. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
+<tr> <th class="spec ulcase">Visible</th>                         <td class="">Hides the node if set to <i>false</i>. By default, this value is set to <i>true</i>.</td> </tr>
+<tr> <th class="specalt ulcase">X Location</th>                   <td class="alt">X location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.</td> </tr>
+<tr> <th class="spec ulcase">Y Location</th>                      <td class="">Y location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.</td> </tr>
+<tr> <th class="specalt ulcase">Z Location</th>                   <td class="alt">Z location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.</td> </tr>
 </tbody>
 </table>
 <br>
-
-  ------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Node Properties**            **Description**
-  Border Line Type               The type of line used for the border of the node.
-  Border Transparency            The opacity of the color of the border of the node. *Zero* means totally transparent, and *255* means totally opaque.
-  Border Width                   The width of the node border.
-  Label                          The text used for the node label.
-  Label Font Face                The font used for the node label.
-  Label Font Size                The size of the font used for the node label.
-  Label Position                 The position of the node label relative to the node.
-  Label Transparency             The opacity of the node label. *Zero* means totally transparent, and *255* means totally opaque.
-  Label Width                    The maximum width of the node label. If the node label is wider than the specified width, Cytoscape will automatically wrap the label on space characters. Cytoscape will not hyphenate words, meaning that if a single word (i.e. no spaces) is longer than maximum width, the word will be displayed beyond the maximum width.
-  Nested Network Image Visible   A boolean value that indicates whether a nested network should be visualized (assuming a nested network is present for the specified node).
-  Padding (Compound Node)        Internal padding of the compound node (a node that contains other nodes).
-  Paint                          The color of the whole node, including its border, label and selected paint. This property can be added to the list from the drop-down menu **Properties ? Paint ? Paint**.
-  Border Paint                   The color of the border of the node. This property can be added to the list from the drop-down menu **Properties ? Paint ? Border Paint**.
-  Image/Chart *1-9*              A user-defined graphic (image, chart or gradient) that is displayed on the node. These properties (maximum of nine) can be added to the list from the drop-down menu **Properties ? Paint ? Custom Paint *n* ? Image/Chart *n***.
-  Image/Chart Position *1-9*     The position of each graphic (image, chart or gradient). These properties (maximum of nine) can be added to the list from the drop-down menu **Properties ? Paint ? Custom Paint *n* ? Image/Chart Position *n***.
-  Fill Color                     The color of the node. This property can be added to the list from the drop-down menu **Properties ? Paint ? Fill Color**.
-  Label Color                    The color of the node label. This property can be added to the list from the drop-down menu **Properties ? Paint ? Label Color**.
-  Selected Paint                 The fill color of the node when selected. This property can be added to the list from the drop-down menu **Properties ? Paint ? Selected Paint**.
-  Shape                          The shape of the node.
-  Shape (Compound Node)          The shape of the compound node (a node that contains other nodes).
-  Size                           The size of the node. Width and height will be equal. This property is mutually exclusive of *Node Height* and *Node Width*. It can be added to the list from the drop-down menu **Properties ? Size ? Size**.
-  Image/Chart Size *1-9*         The size of the related node *Image/Chart*. It can be added to the list from the drop-down menu **Properties ? Size ? Image/Chart Size *n***.
-  Height                         The height of the node. Height will be independent of width. This property is mutually exclusive of *Node Size*. It can be added to the list from the drop-down menu **Properties ? Size ? Height**.
-  Width                          The width of the node. Width will be independent of height. This property is mutually exclusive of *Node Size*. It can be added to the list from the drop-down menu **Properties ? Size ? Width**.
-  Fit Custom Graphics to node    Toggle to fit Image/Chart size to node size. It can be added to the list from the drop-down menu **Properties ? Size ? Fit Custom Graphics to node**.
-  Lock node width and height     Toggle to ignore *Width* and *Height*, and to use *Size* for both values. It can be added to the list from the drop-down menu **Properties ? Size ? Lock node width and height**.
-  Tooltip                        The text of the tooltip that appears when a mouse hovers over the node.
-  Transparency                   The opacity of the color of the node. *Zero* means totally transparent, and *255* means totally opaque.
-  Visible                        Hides the node if set to *false*. By default, this value is set to *true*.
-  X Location                     X location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.
-  Y Location                     Y location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.
-  Z Location                     Z location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.
-  ------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Edge Properties**             **Description**
