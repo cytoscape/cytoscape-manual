@@ -278,6 +278,10 @@ are summarized in the tables below.
 </tbody>
 <br>
 
+
+<img src="Images/Styles/VizMapperSolidStyle.png">
+<img src="Images/Styles/NodeShapeOptions.png">
+
 ### How Mappings Work
 
 For each property, you can specify a default value or define a dynamic
