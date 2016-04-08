@@ -168,8 +168,8 @@ features in Cytoscape.js.
 
 ************** Is this broken ??? *******************
 
-[![small.png](_static/images/CytoscapeJs/CS-web_vs_CS-1.png){width="100"}](_static/images/CS-web_vs_CS-1_small.png)
-[![small.png](_static/images/CytoscapeJs/CS-web_vs_CS-2.png){width="100"}](_static/images/CS-web_vs_CS-2_small.png)
+[![small.png](_static/images/CytoscapeJs/CS-web_vs_CS-1.png)](_static/images/CS-web_vs_CS-1_small.png)
+[![small.png](_static/images/CytoscapeJs/CS-web_vs_CS-2.png)](_static/images/CS-web_vs_CS-2_small.png)
 
 ### Import Cytoscape.js data into Cytoscape
 
