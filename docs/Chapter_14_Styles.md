@@ -272,9 +272,9 @@ are summarized in the tables below.
 <colgroup> <col style="width:200px">                    <col style="width:500px"> </colgroup>
 <tbody>
 <tr> <th>Available Shapes and Line Styles</th>          <th>Sample</th></tr>
-<tr> <th class="spec ulcase"><i>Node Shapes</i></th>    <td class="">![NodeShapeOptions.png](Images/Styles/NodeShapeOptions.png)</td> </tr>
-<tr> <th class="specalt ulcase"><i>Line Types</i></th>  <td class="alt">![BorderLineOptions.png](Images/Styles/BorderLineOptions.png)</td> </tr>
-<tr> <th class="spec ulcase"><i>Arrow Shapes</i></th>   <td class="">![ArrowShapeOptions.png](Images/Styles/ArrowShapeOptions.png)</td> </tr>
+<tr> <th class="spec ulcase"><i>Node Shapes</i></th>    <td class=""><img src="Images/Styles/NodeShapeOptions.png"></td> </tr>
+<tr> <th class="specalt ulcase"><i>Line Types</i></th>  <td class="alt"><img src="Images/Styles/BorderLineOptions.png"></td> </tr>
+<tr> <th class="spec ulcase"><i>Arrow Shapes</i></th>   <td class=""><img src="Images/Styles/ArrowShapeOptions.png"></td> </tr>
 </tbody>
 <br>
 
@@ -369,26 +369,26 @@ The table below shows mapping support for each property.
 
 <table cellspacing="0" style="table-layout: fixed; width: 600px">
 <caption>Edge Mappings</caption>
-<colgroup> <col style="width:80px">   <col style="width:170px">  <col style="width:150px">   <col style="width:150px">    <col style="width:150px"> </colgroup>
+<colgroup> <col style="width:80px">                    <col style="width:170px">                                 <col style="width:150px">                   <col style="width:150px">                <col style="width:150px">                  </colgroup>
 <tbody>
-<tr> <th class="center" colspan="2">Edge Property</th>                                                              <th class="center">Passthrough Mapping</th> <th class="center">Discrete Mapping</th> <th class="center">Continuous Mapping</th> </tr>
-<tr> <th class="spec ulcase" rowspan="6">Color</th>    <th class="spec ulcase"><i>Color</i></th>                 <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                     </tr>
-<tr>                                                   <th class="specalt ulcase"><i>Transparency</i></th>       <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>                 </tr>
-<tr>                                                   <th class="spec ulcase"><i>Target Arrow Color</i></th>    <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                     </tr>
-<tr>                                                   <th class="specalt ulcase"><i>Source Arrow Color</i></th> <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>                 </tr>
-<tr>                                                   <th class="spec ulcase"><i>Label Color</i></th>           <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                     </tr>
-<tr>                                                   <th class="specalt ulcase"><i>Label Transparency</i></th> <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>                 </tr>
-<tr> <th class="spec ulcase" rowspan="3">Numeric</th>  <th class="spec ulcase"><i>Width</i></th>                 <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                     </tr>
-<tr>                                                   <th class="specalt ulcase"><i>Label Font Size</i></th>    <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>                 </tr>
-<tr>                                                   <th class="spec ulcase"><i>Label Width</i></th>           <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                     </tr>
-<tr> <th class="specalt ulcase" rowspan="8">Other</th> <th class="specalt ulcase"><i>Line Type</i></th>          <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>                 </tr>
-<tr>                                                   <th class="spec ulcase"><i>Bend</i></th>                  <td class="center">-</th>                   <td class="center">+</th>                <td class="center">o</td>                     </tr>
-<tr>                                                   <th class="specalt ulcase"><i>Curved</i></th>             <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>                 </tr>
-<tr>                                                   <th class="spec ulcase"><i>Source Arrow Shape</i></th>    <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                     </tr>
-<tr>                                                   <th class="specalt ulcase"><i>Target Arrow Shape</i></th> <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>                 </tr>
-<tr>                                                   <th class="spec ulcase"><i>Label</i></th>                 <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                     </tr>
-<tr>                                                   <th class="specalt ulcase"><i>Tooltip</i></th>            <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>                 </tr>
-<tr>                                                   <th class="spec ulcase"><i>Label Font Face</i></th>       <td class="center">-</th>                   <td class="center">+</th>                <td class="center">o</td>                     </tr>
+<tr> <th class="center" colspan="2">Edge Property</th>                                                           <th class="center">Passthrough Mapping</th> <th class="center">Discrete Mapping</th> <th class="center">Continuous Mapping</th> </tr>
+<tr> <th class="spec ulcase" rowspan="6">Color</th>    <th class="spec ulcase"><i>Color</i></th>                 <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Transparency</i></th>       <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>              </tr>
+<tr>                                                   <th class="spec ulcase"><i>Target Arrow Color</i></th>    <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Source Arrow Color</i></th> <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>              </tr>
+<tr>                                                   <th class="spec ulcase"><i>Label Color</i></th>           <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Label Transparency</i></th> <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>              </tr>
+<tr> <th class="spec ulcase" rowspan="3">Numeric</th>  <th class="spec ulcase"><i>Width</i></th>                 <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Label Font Size</i></th>    <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>              </tr>
+<tr>                                                   <th class="spec ulcase"><i>Label Width</i></th>           <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
+<tr> <th class="specalt ulcase" rowspan="8">Other</th> <th class="specalt ulcase"><i>Line Type</i></th>          <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
+<tr>                                                   <th class="spec ulcase"><i>Bend</i></th>                  <td class="center">-</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Curved</i></th>             <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
+<tr>                                                   <th class="spec ulcase"><i>Source Arrow Shape</i></th>    <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Target Arrow Shape</i></th> <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
+<tr>                                                   <th class="spec ulcase"><i>Label</i></th>                 <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Tooltip</i></th>            <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
+<tr>                                                   <th class="spec ulcase"><i>Label Font Face</i></th>       <td class="center">-</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
 </tbody>
 </table>
 <br>
@@ -1020,7 +1020,7 @@ are associated with a specific property type:
 
 <table cellspacing="0" style="table-layout: fixed; width: 700px">
 <caption>Editor Type</caption>
-<colgroup> <col style="width:230px">   <col style="width:150px">  <col style="width:320px"> </colgroup>
+<colgroup> <col style="width:230px">                                     <col style="width:150px">                   <col style="width:320px">                                </colgroup>
 <tbody>
 <tr> <th>Editor Type</th>                                                <th class="center">Supported Data Type</th> <th class="center">Properties</th>                       </tr>
 <tr> <th class="spec ulcase"><b>Color Gradient Editor</b></th>           <td class="center">Color</th>               <td class="">node/edge/border/label colors</td>          </tr>
