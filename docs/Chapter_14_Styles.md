@@ -176,7 +176,7 @@ are summarized in the tables below.
 <caption>Node Properties</caption>
 <colgroup> <col style="width:200px">                              <col style="width:500px"> </colgroup>
 <tbody>
-<tr> <th>Node Properties</th>                                     <th>Description</th> </tr>
+<tr> <th>Node Properties</th>                                     <th>Description</th></tr>
 <tr> <th class="spec ulcase">Border Line Type</th>                <td class="">The type of line used for the border of the node.</td> </tr>
 <tr> <th class="specalt ulcase">Border Transparency</th>          <td class="alt">The opacity of the color of the border of the node. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
 <tr> <th class="spec ulcase">Border Width</th>                    <td class="">The width of the node border.</td> </tr>
@@ -213,56 +213,70 @@ are summarized in the tables below.
 </table>
 <br>
 
-  ------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Edge Properties**             **Description**
-  Bend                            The edge bend. Defines how the edge is rendered. Users can add multiple handles to define how to bend the edge line.
-  Curved                          If *Egde Bend* is defined, edges will be rendered as straight or curved lines. If this value is set to *true*, edges will be drawn as curved lines.
-  Label                           The text used for the edge label.
-  Label Font Face                 The font used for the edge label.
-  Label Font Size                 The size of the font used for the edge label.
-  Label Transparency              The opacity of the color of the edge label. *Zero* means totally transparent, and *255* means totally opaque.
-  Line Type                       The type of stoke used to render the line (solid, dashed, etc.)
-  Paint                           The color of the whole edge (including the stroke and arrows) when it is selected or unselected. This property can be added to the list from the drop-down menu **Properties ? Paint ? Paint**.
-  Color (Selected)                The color of the whole edge (stroke and arrows) when selected. This property can be added to the list from the drop-down menu **Properties ? Paint ? Color (Selected) ? Color (Selected)**.
-  Source Arrow Selected Paint     The selected color of the arrow on the source node end of the edge. It can be added to the list from the drop-down menu **Properties ? Paint ? Color (Selected) ? Source Arrow Selected Paint**.
-  Stroke Color (Selected)         The color of the edge line when selected. It can be added to the list from the drop-down menu **Properties ? Paint ? Color (Selected) ? Stroke Color (Selected)**.
-  Target Arrow Selected Paint     The selected color of the arrow on the target node end of the edge. It can be found in the drop-down menu **Properties ? Paint ? Color (Selected) ? Target Arrow Selected Paint**.
-  Color (Unselected)              The color of the whole edge (stroke and arrows) when it is not selected. It can be found in the drop-down menu **Properties ? Paint ? Color (Unselected) ? Color (Unselected)**.
-  Source Arrow Unselected Paint   The color of the arrow on the source node end of the edge. It can be found in the drop-down menu **Properties ? Paint ? Color (Unselected) ? Source Arrow Unselected Paint**.
-  Stroke Color (Unselected)       The color of the edge line. It can be found in the drop-down menu **Properties ? Paint ? Color (Unselected) ? Stroke Color (Unselected)**.
-  Target Arrow Unselected Paint   The color of the arrow on the target node end of the edge. It can be found in the drop-down menu **Properties ? Paint ? Color (Unselected) ? Target Arrow Unselected Paint**.
-  Label Color                     The color of the edge label. It can be found in the drop-down menu **Properties ? Paint ? Label Color**.
-  Source Arrow Shape              The shape of the arrow on the source node end of the edge.
-  Target Arrow Shape              The shape of the arrow on the target node end of the edge.
-  Tooltip                         The text of the tooltip that appears when a mouse hovers over the edge.
-  Transparency                    The opacity of the of the edge. Zero means totally transparent, and 255 means totally opaque.
-  Visible                         Hides the edge if set to *false*. By default, this value is set to *true*.
-  Width                           The width of the edge line.
-  Edge color to arrows            If *true* then **Color (Unselected)** is used for the whole edge, including its line and arrows. It can be found in the drop-down menu **Properties ? Paint ? Color (Unselected) ? Edge color to arrows**.
-  ------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<caption>Edge Properties</caption>
+<colgroup> <col style="width:200px">                                <col style="width:500px"> </colgroup>
+<tbody>
+<tr> <th>Edge Properties</th>                                       <th>Description</th></tr>
+<tr> <th class="spec ulcase">Bend</th>                              <td class="">The edge bend. Defines how the edge is rendered. Users can add multiple handles to define how to bend the edge line.</td> </tr>
+<tr> <th class="specalt ulcase">Curved</th>                         <td class="alt">If <i>Edge Bend</i> is defined, edges will be rendered as straight or curved lines. If this value is set to <i>true</i>, edges will be drawn as curved lines.</td> </tr>
+<tr> <th class="spec ulcase">Label</th>                             <td class="">The text used for the edge label.</td> </tr>
+<tr> <th class="specalt ulcase">Label Font Face</th>                <td class="alt">The font used for the edge label.</td> </tr>
+<tr> <th class="spec ulcase">Label Font Size</th>                   <td class="">The size of the font used for the edge label.</td> </tr>
+<tr> <th class="specalt ulcase">Label Transparency</th>             <td class="alt">The opacity of the color of the edge label. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
+<tr> <th class="spec ulcase">Line Type</th>                         <td class="">The type of stoke used to render the line (solid, dashed, etc.)</td> </tr>
+<tr> <th class="specalt ulcase">Paint</th>                          <td class="alt">The color of the whole edge (including the stroke and arrows) when it is selected or unselected. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Color (Selected)</th>                  <td class="">The color of the whole edge (stroke and arrows) when selected. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Color (Selected) ? Color (Selected)</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Source Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the source node end of the edge. It can be added to the list from the drop-down menu <b>Properties ? Paint ? Color (Selected) ? Source Arrow Selected Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Stroke Color (Selected)</th>           <td class="">The color of the edge line when selected. It can be added to the list from the drop-down menu <b>Properties ? Paint ? Color (Selected) ? Stroke Color (Selected)</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Target Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Selected) ? Target Arrow Selected Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Color (Unselected)</th>                <td class="">The color of the whole edge (stroke and arrows) when it is not selected. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Unselected) ? Color (Unselected)</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Source Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the source node end of the edge. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Unselected) ? Source Arrow Unselected Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Stroke Color (Unselected)</th>         <td class="">The color of the edge line. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Unselected) ? Stroke Color (Unselected)</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Target Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Unselected) ? Target Arrow Unselected Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Label Color</th>                       <td class="">The color of the edge label. It can be found in the drop-down menu <b>Properties ? Paint ? Label Color</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Source Arrow Shape</th>             <td class="alt">The shape of the arrow on the source node end of the edge.</td> </tr>
+<tr> <th class="spec ulcase">Target Arrow Shape</th>                <td class="">The shape of the arrow on the target node end of the edge.</td> </tr>
+<tr> <th class="specalt ulcase">Tooltip</th>                        <td class="alt">The text of the tooltip that appears when a mouse hovers over the edge.</td> </tr>
+<tr> <th class="spec ulcase">Transparency</th>                      <td class="">The opacity of the of the edge. Zero means totally transparent, and 255 means totally opaque.</td> </tr>
+<tr> <th class="specalt ulcase">Visible</th>                        <td class="alt">Hides the edge if set to <i>false</i>. By default, this value is set to <i>true</i>.</td> </tr>
+<tr> <th class="spec ulcase">Width</th>                             <td class="">The width of the edge line.</td> </tr>
+<tr> <th class="specalt ulcase">Edge color to arrows</th>           <td class="alt">If <i>true</i> then <b>Color (Unselected)</b> is used for the whole edge, including its line and arrows. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Unselected) ? Edge color to arrows</b>.</td> </tr>
+</tbody>
+</table>
+<br>
 
-  ------------------------ ----------------------------------------------------------------------------------------------------------------------
-  **Network Properties**   **Description**
-  Background Paint         The background color of the network view.
-  Center X Location        The X location of network view center.
-  Center Y Location        The Y location of network view center.
-  Edge Selection           Edges are selectable or not. If this is *false*, users cannot select edges.
-  Node Selection           Nodes are selectable or not. If this is *false*, users cannot select nodes.
-  Scale Factor             The zoom level of the network view.
-  Size                     The size (width and height) of the network view. It can be found in the drop-down menu **Properties ? Size ? Size**.
-  Height                   The height of the network view. It can be found in the drop-down menu **Properties ? Size ? Height**.
-  Width                    The width of the network view. It can be found in the drop-down menu **Properties ? Size ? Width**.
-  Title                    The title of the network view.
-  ------------------------ ----------------------------------------------------------------------------------------------------------------------
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<caption>Network Properties</caption>
+<colgroup> <col style="width:200px">                    <col style="width:500px"> </colgroup>
+<tbody>
+<tr> <th>NetworkProperties</th>                         <th>Description</th></tr>
+<tr> <th class="spec ulcase">Background Paint</th>      <td class="">The background color of the network view.</td> </tr>
+<tr> <th class="specalt ulcase">Center X Location</th>  <td class="alt">The X location of network view center.</td> </tr>
+<tr> <th class="spec ulcase">Center Y Location</th>     <td class="">The Y location of network view center.</td> </tr>
+<tr> <th class="specalt ulcase">Edge Selection</th>     <td class="alt">Edges are selectable or not. If this is <i>false</i>, users cannot select edges.</td> </tr>
+<tr> <th class="spec ulcase">Node Selection</th>        <td class="">Nodes are selectable or not. If this is <i>false</i>, users cannot select nodes.</td> </tr>
+<tr> <th class="specalt ulcase">Scale Factor</th>       <td class="alt">The zoom level of the network view.</td> </tr>
+<tr> <th class="spec ulcase">Size</th>                  <td class="">The size (width and height) of the network view. It can be found in the drop-down menu <b>Properties ? Size ? Size</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Height</th>             <td class="alt">The height of the network view. It can be found in the drop-down menu <b>Properties ? Size ? Height</b>.</td> </tr>
+<tr> <th class="spec ulcase">Width</th>                 <td class="">The width of the network view. It can be found in the drop-down menu <b>Properties ? Size ? Width</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Title</th>              <td class="alt">The title of the network view.</td> </tr>
+</tbody>
+</table>
+<br>
 
 ### Available Shapes and Line Styles
 
-  -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------
-  **Available Shapes and Line Styles**   **Sample**
-  *Node Shapes*                          ![NodeShapeOptions.png](Images/Styles/NodeShapeOptions.png)
-  *Line Types*                           ![BorderLineOptions.png](Images/Styles/BorderLineOptions.png)
-  *Arrow Shapes*                         ![ArrowShapeOptions.png](Images/Styles/ArrowShapeOptions.png)
-  -------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<caption>Available Shapes and Line Styles</caption>
+<colgroup> <col style="width:200px">                    <col style="width:500px"> </colgroup>
+<tbody>
+<tr> <th>Available Shapes and Line Styles</th>          <th>Sample</th></tr>
+<tr> <th class="spec ulcase"><i>Node Shapes</i></th>    <td class="">![NodeShapeOptions.png](Images/Styles/NodeShapeOptions.png)</td> </tr>
+<tr> <th class="specalt ulcase"><i>Line Types</i></th>  <td class="alt">![BorderLineOptions.png](Images/Styles/BorderLineOptions.png)</td> </tr>
+<tr> <th class="spec ulcase"><i>Arrow Shapes</i></th>   <td class="">![ArrowShapeOptions.png](Images/Styles/ArrowShapeOptions.png)</td> </tr>
+</tbody>
+<br>
 
 ### How Mappings Work
 
@@ -306,63 +320,78 @@ The table below shows mapping support for each property.
 
 **Legend**
 
-  ------------ -----------------------------------------------------------------------------------------------------------------------------
-  **Symbol**   **Description**
-  -            Mapping is not supported for the specified property.
-  +            Mapping is fully supported for the specified property.
-  o            Mapping is partially supported for the specified property. Support for "continuous to continuous" mapping is not supported.
-  ------------ -----------------------------------------------------------------------------------------------------------------------------
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<caption>Legend</caption>
+<colgroup> <col style="width:75px">            <col style="width:625px"> </colgroup>
+<tbody>
+<tr> <th>Symbol</th>                           <th>Description</th></tr>
+<tr> <th class="spec ulcase center">-</th>     <td class="">Mapping is not supported for the specified property.</td> </tr>
+<tr> <th class="specalt ulcase center">+</th>  <td class="alt">Mapping is fully supported for the specified property.</td> </tr>
+<tr> <th class="spec ulcase center">o</th>     <td class="">Mapping is partially supported for the specified property. Support for "continuous to continuous" mapping is not supported.</td> </tr>
+</tbody>
+</table>
+<br>
 
 **Node Mappings**
 
-  -------------------------------- ------------------------- ---------------------- ------------------------ ---
-  **Node Property**                **Passthrough Mapping**   **Discrete Mapping**   **Continuous Mapping**
-  Color                            *Fill Color*              +                      +                        +
-  *Transparency*                   +                         +                      +
-  *Border Paint*                   +                         +                      +
-  *Border Transparency*            +                         +                      +
-  *Label Color*                    +                         +                      +
-  *Label Transparency*             +                         +                      +
-  Numeric                          *Size/Width/Height*       +                      +                        +
-  *Label Font Size*                +                         +                      +
-  *Border Width*                   +                         +                      +
-  *Label Width*                    +                         +                      +
-  *Padding (Compound Node)*        +                         +                      +
-  *Image/Chart Size*               +                         +                      +
-  Other                            *Border Line Type*        +                      +                        o
-  *Shape*                          +                         +                      o
-  *Shape (Compound Node)*          +                         +                      o
-  *Label*                          +                         +                      o
-  *Tooltip*                        +                         +                      o
-  *Label Font Face*                +                         +                      o
-  *Label Position*                 -                         +                      o
-  *Nested Network Image Visible*   +                         +                      o
-  *Image/Chart*                    o                         +                      o
-  *Image/Chart Position*           -                         +                      o
-  -------------------------------- ------------------------- ---------------------- ------------------------ ---
+<table cellspacing="0" style="table-layout: fixed; width: 600px">
+<caption>Node Mappings</caption>
+<colgroup> <col style="width:80px">                   <col style="width:170px">                                           <col style="width:150px">                   <col style="width:150px">                <col style="width:150px">                  </colgroup>
+<tbody>
+<tr> <th class="center" colspan="2">Node Property</th>                                                                    <th class="center">Passthrough Mapping</th> <th class="center">Discrete Mapping</th> <th class="center">Continuous Mapping</th> </tr>
+<tr> <th class="spec ulcase" rowspan="6">Color</th>   <th class="spec ulcase"><i>Fill Color</i></th>                      <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
+<tr>                                                  <th class="specalt ulcase"><i>Transparency</i></th>                 <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>              </tr>
+<tr>                                                  <th class="spec ulcase"><i>Border Paint</i></th>                    <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
+<tr>                                                  <th class="specalt ulcase"><i>Border Transparency</i></th>          <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>              </tr>
+<tr>                                                  <th class="spec ulcase"><i>Label Color</i></th>                     <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
+<tr>                                                  <th class="specalt ulcase"><i>Label Transparency</i></th>           <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>              </tr>
+<tr> <th class="spec ulcase" rowspan="6">Numeric</th> <th class="spec ulcase"><i>Size/Width/Height</i></th>               <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
+<tr>                                                  <th class="specalt ulcase"><i>Label Font Size</i></th>              <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>              </tr>
+<tr>                                                  <th class="spec ulcase"><i>Border Width</i></th>                    <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
+<tr>                                                  <th class="specalt ulcase"><i>Label Width</i></th>                  <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>              </tr>
+<tr>                                                  <th class="spec ulcase"><i>Padding (Compound Node)</i></th>         <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
+<tr>                                                  <th class="specalt ulcase"><i>Image/Chart Size</i></th>             <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>              </tr>
+<tr> <th class="spec ulcase" rowspan="10">Other</th>  <th class="spec ulcase"><i>Border Line Type</i></th>                <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
+<tr>                                                  <th class="specalt ulcase"><i>Shape</i></th>                        <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
+<tr>                                                  <th class="spec ulcase"><i>Shape (Compound Node)</i></th>           <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
+<tr>                                                  <th class="specalt ulcase"><i>Label</i></th>                        <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
+<tr>                                                  <th class="spec ulcase"><i>Tooltip</i></th>                         <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
+<tr>                                                  <th class="specalt ulcase"><i>Label Font Face</i></th>              <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
+<tr>                                                  <th class="spec ulcase"><i>Label Position</i></th>                  <td class="center">-</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
+<tr>                                                  <th class="specalt ulcase"><i>Nested Network Image Visible</i></th> <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
+<tr>                                                  <th class="spec ulcase"><i>Image/Chart</i></th>                     <td class="center">o</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
+<tr>                                                  <th class="specalt ulcase"><i>Image/Chart Position</i></th>         <td class="alt center">-</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
+</tbody>
+</table>
+<br>
 
 **Edge Mappings**
 
-  ---------------------- ------------------------- ---------------------- ------------------------ ---
-  **Edge Properties**    **Passthrough Mapping**   **Discrete Mapping**   **Continuous Mapping**
-  Color                  *Color*                   +                      +                        +
-  *Transparency*         +                         +                      +
-  *Target Arrow Color*   +                         +                      +
-  *Source Arrow Color*   +                         +                      +
-  *Label Color*          +                         +                      +
-  *Label Transparency*   +                         +                      +
-  Numeric                *Width*                   +                      +                        +
-  *Label Font Size*      +                         +                      +
-  *Label Width*          +                         +                      +
-  Other                  *Line Type*               +                      +                        o
-  *Bend*                 -                         +                      o
-  *Curved*               +                         +                      o
-  *Source Arrow Shape*   +                         +                      o
-  *Target Arrow Shape*   +                         +                      o
-  *Label*                +                         +                      o
-  *Tooltip*              +                         +                      o
-  *Label Font Face*      -                         +                      o
-  ---------------------- ------------------------- ---------------------- ------------------------ ---
+<table cellspacing="0" style="table-layout: fixed; width: 600px">
+<caption>Edge Mappings</caption>
+<colgroup> <col style="width:80px">   <col style="width:170px">  <col style="width:150px">   <col style="width:150px">    <col style="width:150px"> </colgroup>
+<tbody>
+<tr> <th class="center" colspan="2">Edge Property</th>                                                              <th class="center">Passthrough Mapping</th> <th class="center">Discrete Mapping</th> <th class="center">Continuous Mapping</th> </tr>
+<tr> <th class="spec ulcase" rowspan="6">Color</th>    <th class="spec ulcase"><i>Color</i></th>                 <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                     </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Transparency</i></th>       <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>                 </tr>
+<tr>                                                   <th class="spec ulcase"><i>Target Arrow Color</i></th>    <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                     </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Source Arrow Color</i></th> <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>                 </tr>
+<tr>                                                   <th class="spec ulcase"><i>Label Color</i></th>           <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                     </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Label Transparency</i></th> <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>                 </tr>
+<tr> <th class="spec ulcase" rowspan="3">Numeric</th>  <th class="spec ulcase"><i>Width</i></th>                 <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                     </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Label Font Size</i></th>    <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>                 </tr>
+<tr>                                                   <th class="spec ulcase"><i>Label Width</i></th>           <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                     </tr>
+<tr> <th class="specalt ulcase" rowspan="8">Other</th> <th class="specalt ulcase"><i>Line Type</i></th>          <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>                 </tr>
+<tr>                                                   <th class="spec ulcase"><i>Bend</i></th>                  <td class="center">-</th>                   <td class="center">+</th>                <td class="center">o</td>                     </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Curved</i></th>             <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>                 </tr>
+<tr>                                                   <th class="spec ulcase"><i>Source Arrow Shape</i></th>    <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                     </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Target Arrow Shape</i></th> <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>                 </tr>
+<tr>                                                   <th class="spec ulcase"><i>Label</i></th>                 <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                     </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Tooltip</i></th>            <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>                 </tr>
+<tr>                                                   <th class="spec ulcase"><i>Label Font Face</i></th>       <td class="center">-</th>                   <td class="center">+</th>                <td class="center">o</td>                     </tr>
+</tbody>
+</table>
+<br>
 
 #### Text Passthrough Mapping
 
@@ -989,12 +1018,17 @@ up and you can enter the new value for the selected rows.
 There are three kinds of **Continuous Mapping Editors**. Each of them
 are associated with a specific property type:
 
-  ---------------------------------- ------------------------- ----------------------------------------
-  **Editor Type**                    **Supported Data Type**   **Properties**
-  **Color Gradient Editor**          Color                     node/edge/border/label colors
-  **Continuous-Continuous Editor**   Numbers                   size/width/transparency
-  **Continuous-Discrete Editor**     All others                font/shape/text/graphics/position/etc.
-  ---------------------------------- ------------------------- ----------------------------------------
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<caption>Editor Type</caption>
+<colgroup> <col style="width:230px">   <col style="width:150px">  <col style="width:320px"> </colgroup>
+<tbody>
+<tr> <th>Editor Type</th>                                                <th class="center">Supported Data Type</th> <th class="center">Properties</th>                       </tr>
+<tr> <th class="spec ulcase"><b>Color Gradient Editor</b></th>           <td class="center">Color</th>               <td class="">node/edge/border/label colors</td>          </tr>
+<tr> <th class="specalt ulcase"><b>Continuous-Continuous Editor</b></th> <td class="alt center">Numbers</th>         <td class="alt">size/width/transparency</td>             </tr>
+<tr> <th class="spec ulcase"><b>Continuous-Discrete Editor</b></th>      <td class="center">All others</th>          <td class="">font/shape/text/graphics/position/etc.</td> </tr>
+</tbody>
+</table>
+<br>
 
 #### Range Settings Panel
 
