@@ -5,7 +5,7 @@ What is Level of Detail (LOD)?
 ------------------------------
 
 Cytoscape 3.0 retains the rendering engine found in version 2.8. It is
-to be able to display large networks (&gt;10,000 nodes), yet retain
+to be able to display large networks (> 10,000 nodes), yet retain
 interactive speed. To accomplish this goal, a technique involving
 **level of detail (LOD)** is being used. Based on the number of objects
 (nodes and edges) being rendered, an appropriate **level of detail** is
@@ -24,10 +24,14 @@ Preferences ? Properties...**.
 
 **Low LOD vs High LOD**
 
-  ------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------
-  Network with **Low** LOD                                                                                                       Network with **High** LOD
-  ![LowLOD.png](_static/images/Rendering_Engine/LowLOD.png)   ![HighLOD.png](_static/images/Rendering_Engine/HighLOD.png)
-  ------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------
+<table cellspacing="0">
+<caption>Levels of Detail</caption>
+<tbody>
+<tr> <th class="center">Network with <b>Low</b> LOD</th>                      <th class="center">Network with <b>High</b> LOD</th></tr>
+<tr> <td class="center left"><img src="_static/images/Rendering_Engine/LowLOD.png" height="589" width="336" /></td> <td class="center"><img src="_static/images/Rendering_Engine/HighLOD.png" height="589" width="336" /></td> </tr>
+</tbody>
+</table>
+<br>
 
 With low LOD values, all nodes are displayed as square and anti-aliasing
 is turned off. With high LOD values, anti-aliasing is turned on and
