@@ -272,14 +272,14 @@ are summarized in the tables below.
 <colgroup> <col style="width:140px">                           <col style="width:300px"> </colgroup>
 <tbody>
 <tr> <th class="center">Available Shapes and Line Styles</th>  <th>Sample</th></tr>
-<tr> <th class="spec ulcase center"><i>Node Shapes</i></th>    <td class="">f00</td> </tr>
-<tr> <th class="specalt ulcase center"><i>Line Types</i></th>  <td class="alt">f11</td> </tr>
-<tr> <th class="spec ulcase center"><i>Arrow Shapes</i></th>   <td class="">f22</td> </tr>
+<tr> <th class="spec ulcase center"><i>Node Shapes</i></th>    <td class=""><img src="Images/Styles/NodeShapeOptions.png"></td> </tr>
+<tr> <th class="specalt ulcase center"><i>Line Types</i></th>  <td class="alt"><img src="Images/Styles/BorderLineOptions.png"></td> </tr>
+<tr> <th class="spec ulcase center"><i>Arrow Shapes</i></th>   <td class=""><img src="Images/Styles/ArrowShapeOptions.png"></td> </tr>
 </tbody>
 </table>
 <br>
 
-<img src="Images/Styles/NodeShapeOptions.png">
+<img src="http://www.w3schools.com/images/colorpicker.gif">
 <img src="Images/Styles/BorderLineOptions.png">
 <img src="Images/Styles/ArrowShapeOptions.png">
 
