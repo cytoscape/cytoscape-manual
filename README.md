@@ -1,5 +1,5 @@
 # cytoscape-manual
-###Development version of Cytoscape user manual
+###Development version of Cytoscape user manual 
 
 This project is the working copy of the Cytoscape user manual. It will become the permanent manual once we have created a feature-complete and format-complete version. The outstanding issues are:
 
