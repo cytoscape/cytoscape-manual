@@ -1,7 +1,7 @@
 Preamble
 ========
 
-[My Link[(#mylink)
+[My Link](#mylink)
 
 
 ---
