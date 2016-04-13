@@ -6,7 +6,7 @@ and Mac OS X platforms. Although not officially supported, other UNIX
 platforms such as Solaris or FreeBSD may run Cytoscape if Java version 8
 or later is available for the platform.
 
-<a name="Quick_Tour"></a>
+<a name="mylink"/>
 System requirements
 -------------------
 

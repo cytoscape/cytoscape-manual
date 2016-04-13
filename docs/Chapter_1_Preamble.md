@@ -1,7 +1,8 @@
 Preamble
 ========
 
-XXX
+[My Link[(#mylink)
+
 
 ---
 date: '2012-02-17 12:35:55'
