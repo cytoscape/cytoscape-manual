@@ -1,7 +1,7 @@
 Preamble
 ========
 
-[My Link](#mylink)
+[My Link](Chapter_3_Launching_Cytoscape.html#mylink)
 
 
 ---
