@@ -30,6 +30,8 @@ Simple tables can be represented in Markdown, but high quality formatting requir
 
 Note that GitHub displays files containing Markdown with reasonably good quality. However, it only approximates the look of tables created via HTML. For an accurate view of a table, you must look at a document rendered by ReadTheDocs.
 
+Note that a full (browsable) link to a location has the form: "http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_3_Launching_Cytoscape.html#mylink" where "http://cytoscape-working-copy.readthedocs.org/en/latest/" is the full URL, "Chapter_3_Launching_Cytoscape" is the root name of the file containing the target link, and "mylink" is a named section (e.g., <a name="mylink">System requirements</a>. A link between chapters in the document has the form [My Link](Chapter_3_Launching_Cytoscape.html#mylink), and a link within the same chapter has the form [My Link](#mylink).
+
 ## Rebuilding the Manual
 The manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that I installed per http://docs.readthedocs.org/en/latest/webhooks.html). 
 
