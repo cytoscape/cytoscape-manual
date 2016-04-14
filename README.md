@@ -5,9 +5,9 @@ This project is the working copy of the Cytoscape user manual. It will become th
 
 1. Table formatting using centralized CSS (mostly done)
 
-2. Links within the document resolving properly
+2. Links within the document resolving properly (see notes below)
  
-3. Links from outside of the document resolving properly
+3. Links from outside of the document resolving properly (see notes below)
 
 4. A proper placement of First pages, Table of Contents, and Document body
  
