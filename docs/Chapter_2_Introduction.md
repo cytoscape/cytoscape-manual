@@ -13,3 +13,5 @@ all the latest changes.
 thorough understanding of Cytoscape and its ecosystem, we highly
 recommend reading the **Welcome Letter** accessible on the
 [](http://cytoscape.org) website.*
+
+[System Requirements Link](Chapter_3_Launching_Cytoscape.html#system_requirements)
