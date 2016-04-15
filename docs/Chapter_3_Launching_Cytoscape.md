@@ -1,5 +1,5 @@
-Launching Cytoscape
-===================
+<a id="launching_cytoscape"> </a>
+# Launching Cytoscape
 
 Cytoscape is a Java application verified to run on the Linux, Windows,
 and Mac OS X platforms. Although not officially supported, other UNIX
@@ -7,8 +7,7 @@ platforms such as Solaris or FreeBSD may run Cytoscape if Java version 8
 or later is available for the platform.
 
 <a id="system_requirements"> </a>
-System requirements
--------------------
+## System requirements
 
 The system requirements for Cytoscape depend on the size of the networks
 you want to load, view and manipulate.
@@ -34,9 +33,10 @@ loadable by prior Cytoscape versions on the same memory configuration.*
 apply to each platform, as described in the **Release Notes** available
 on the [](http://cytoscape.org) website.*
 
-Getting Started
----------------
+<a id="getting_started"> </a>
+## Getting Started
 
+<a id="install_java"> </a>
 ### Install Java
 
 **Cytoscape requires Java 8 or later.**
@@ -60,8 +60,10 @@ Getting Started
 For additional information, select the Release Notes button on the
 Cytoscape web site ([](http://cytoscape.org)).
 
+<a id="install_cytoscape"> </a>
 ### Install Cytoscape
 
+<a id="downloading_and_installing"> </a>
 #### Downloading and installing
 
 There are a number of options for downloading and installing Cytoscape.
@@ -134,6 +136,7 @@ If you have a previous Cytoscape installation you have two options:
     don't mind reinstalling your apps. The core apps will not be
     affected by this step.
 
+<a id="launch_the_application"> </a>
 ### Launch the application
 
 As with any application, launch Cytoscape by double-clicking on the icon
@@ -149,6 +152,7 @@ After launching Cytoscape a window will appear that looks like this:
 may be required. Consult the **Release Notes** available on the
 [](http://cytoscape.org) website.*
 
+<a id="note_on_memory_consumption"> </a>
 ### Note on Memory Consumption
 
 For most regular users, Cytoscape will estimate and reserve the proper
