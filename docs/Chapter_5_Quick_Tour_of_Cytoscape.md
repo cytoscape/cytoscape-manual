@@ -1,8 +1,8 @@
-Quick Tour of Cytoscape
-=======================
+<a id="quick_tour_of_cytoscape"> </a>
+# Quick Tour of Cytoscape
 
-Welcome Screen
---------------
+<a id="welcome_screen"> </a>
+## Welcome Screen
 
 When you start Cytoscape, you can access basic functions from the
 **Welcome Screen**:
@@ -28,8 +28,8 @@ Also, a news panel always display latest information for users. For
 information on user privacy, see the **[Cytoscape Privacy
 Policy](#Privacy)**.
 
-Basic Features
---------------
+<a id="basic_features"> </a>
+## Basic Features
 
 When a network is loaded, Cytoscape will look similar to the image
 below:
@@ -83,6 +83,7 @@ on the panels in Cytoscape, see the
 **[Panels](#Panels)**
 section.
 
+<a id="network_editing"> </a>
 ### Network Editing
 
 Cytoscape also has an edit functionality that enables you to build and
@@ -99,9 +100,10 @@ section.
 
 -   ![AddNodeMenu.png](_static/images/Quick_Tour/AddNodeMenu.png)
 
-The Menus
----------
+<a id="the_menus"> </a>
+## The Menus
 
+<a id="file"> </a>
 ### File
 
 The File menu contains most basic file functionality: **File ? Open**
@@ -118,6 +120,7 @@ file to run, and **File ? Print Current Network...** allows printing.
 
 -   ![FileMenu.png](_static/images/Quick_Tour/FileMenu.png)
 
+<a id="edit"> </a>
 ### Edit
 
 The **Edit** menu contains **Cut**, **Copy** and **Paste** functions, as
@@ -144,6 +147,7 @@ can be found
 
 -   ![EditMenu.png](_static/images/Quick_Tour/EditMenu.png)
 
+<a id="view"> </a>
 ### View
 
 The **View** menu allows you to display or hide the **Control Panel**,
@@ -152,6 +156,7 @@ provides the control of other view-related functionality.
 
 -   ![ViewMenu.png](_static/images/Quick_Tour/ViewMenu.png)
 
+<a id="select"> </a>
 ### Select
 
 The **Select** menu contains different options for selecting nodes and
@@ -159,6 +164,7 @@ edges.
 
 -   ![SelectMenu.png](_static/images/Quick_Tour/SelectMenu.png)
 
+<a id="layout"> </a>
 ### Layout
 
 The **Layout** menu has an array of features for visually organizing the
@@ -170,6 +176,7 @@ automatically lay a network out.
 
 -   ![LayoutMenu.png](_static/images/Quick_Tour/LayoutMenu.png)
 
+<a id="apps"> </a>
 ### Apps
 
 The **Apps** menu gives you access to the **App Manager** (**Apps ? App
@@ -188,6 +195,7 @@ apps.
 In previous versions of Cytoscape, apps were called plugins and served a
 similar function.
 
+<a id="tools"> </a>
 ### Tools
 
 The **Tools** menu contains advanced features like the **[Command Line Dialog](#Command_Tool)**,
@@ -197,6 +205,7 @@ and **Workflow**.
 
 -   ![ToolsMenu.png](_static/images/Quick_Tour/ToolsMenu.png)
 
+<a id="help"> </a>
 ### Help
 
 The **Help** menu allows you to launch the online help viewer and browse
@@ -217,8 +226,8 @@ networks available on the **Welcome** screen to the latest version.
 The **Help** menu also allows you to connect directly to Cytoscape Help
 Desk and the Bug Report interface.
 
-Network Management
-------------------
+<a id="network_management"> </a>
+## Network Management
 
 Cytoscape allows multiple networks to be loaded at a time, either with
 or without a view. A network stores all the nodes and edges that are
@@ -254,6 +263,7 @@ windows in the network view window. You can maximize, minimize, and
 destroy network views by using the normal window controls for your
 operating system.
 
+<a id="arrange_network_windows"> </a>
 ### Arrange Network Windows
 
 When you work on multiple networks, you can arrange the network view
@@ -267,8 +277,8 @@ windows under **View ? Arrange Network Windows**.
 
 -   ![MultipleNetworks\_Grid.png](_static/images/Quick_Tour/MultipleNetworks_Grid.png)
 
-The Network Overview Window
----------------------------
+<a id="the_network_overview_window"> </a>
+## The Network Overview Window
 
 The network overview window shows an overview (or "bird's eye view") of
 the network. It can be used to navigate around a large network view. The

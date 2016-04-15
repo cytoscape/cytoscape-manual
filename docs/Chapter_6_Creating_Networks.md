@@ -1,5 +1,5 @@
-Creating Networks
-=================
+<a id="creating_networks"> </a>
+# Creating Networks
 
 There are 4 different ways of creating networks in Cytoscape:
 
@@ -11,8 +11,8 @@ There are 4 different ways of creating networks in Cytoscape:
 
 4.  Creating an empty network and manually adding nodes and edges.
 
-Import Fixed-Format Network Files
----------------------------------
+<a id="import_fixed_format_network_files"> </a>
+## Import Fixed-Format Network Files
 
 Network files can be specified in any of the formats described in the
 **[Supported Network
@@ -22,6 +22,7 @@ Import ? Network menu**. The network file can either be located directly
 on the local computer, or found on a remote computer (in which case it
 will be referenced with a URL).
 
+<a id="load_networks_from_local_computer"> </a>
 ### Load Networks from Local Computer
 
 In order to load a network from a local file you can select **File ?
@@ -42,6 +43,7 @@ to map the new network to the existing network collection.
 Network files in SIF, GML, and XGMML formats may also be loaded directly
 from the command line using the -N option.
 
+<a id="load_networks_from_a_remote_computer_url_import"> </a>
 ### Load Networks from a Remote Computer (URL import)
 
 To load a network from a remote file, you can select **File ? Import ?
@@ -64,8 +66,8 @@ further described in the
 **[Preferences](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_User_Manual/Preferences#)**
 section.
 
-Import Networks from Unformatted Table Files
---------------------------------------------
+<a id="import_networks_from_unformatted_table_files"> </a>
+## Import Networks from Unformatted Table Files
 
 Cytoscape supports the import of networks from delimited text files and
 Excel workbooks using **File ? Import ? Network ? File...**. An
@@ -79,6 +81,7 @@ interaction type.
 
 ![ImportNetworkDialog2.png](_static/images/Creating_Networks/ImportNetworkDialog2.png)
 
+<a id="supported_files"> </a>
 ### Supported Files
 
 The **Import Network from Table** function supports delimited text files
@@ -183,6 +186,7 @@ from External
 Database](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_User_Manual/ImportingNetworksFromWebServices#)**
 for more detail.
 
+<a id="advanced_options"> </a>
 ### Advanced Options
 
 ![ImportFromTable\_Advanced.png](_static/images/Creating_Networks/ImportFromTable_Advanced.png)
@@ -207,6 +211,7 @@ button in the main import interface.
     not be imported. This option can be used to skip comment lines in
     text files.
 
+<a id="modify_column_name_type"> </a>	
 ### Modify Column Name/Type
 
 In the **Import Network from Table** interface, you can change the name
@@ -237,13 +242,14 @@ overridden by selecting the appropriate data type from the radio buttons
 provided. For lists, a global delimiter must be specified (i.e., all
 cells in the table must use the same delimiter).
 
-Import Networks from Public Databases
--------------------------------------
+<a id="import_networks_from_public_databases"> </a>
+## Import Networks from Public Databases
 
 Cytoscape has a feature called **Import Network from Public Databases**.
 Users can access various kinds of databases through this function,
 **File ? Import ? Network ? Public Databases...**.
 
+<a id="what_is_a_web_service"> </a>
 ### What is a Web Service?
 
 A web service is a standardized, platform-independent mechanism for
@@ -266,16 +272,16 @@ using this framework. Cytoscape supports many web services including:
 The following sections describe how to import network from external
 databases.
 
-Getting Started
----------------
+<a id="getting_started"> </a>
+## Getting Started
 
 To get started, select **File ? Import ? Network ? Public
 Databases...**.
 
 ![psi1\_2.png](_static/images/Creating_Networks/psi1_2.png)
 
-Example: Retrieving Protein-Protein Interaction Networks from Multiple Databases
---------------------------------------------------------------------------------
+<a id="example:_retrieving_protein_protein_interaction_networks_from_multiple_databases"> </a>
+## Example: Retrieving Protein-Protein Interaction Networks from Multiple Databases
 
 -   Select **File ? Import ? Network ? Public Databases...**.
 
@@ -305,6 +311,7 @@ public interaction database...**. For example, in the screenshot, we
 have loaded the BRCA1 network from IntAct, and have chosen to merge this
 node's neighbors into the existing network.
 
+<a id="psicquic_options"> </a>
 ### PSICQUIC Options
 
 PSICQUIC Web Service Client has three search modes:
@@ -324,14 +331,15 @@ functions, this is the powerful query language to filter the result. The
 last option is for importing all interactions for the species (i.e.,
 interactome).
 
-Create a New Network Manually
------------------------------
+<a id="create_a_new_network_manually"> </a>
+## Create a New Network Manually
 
 A new, empty network can also be created and nodes and edges manually
 added. To create an empty network, go to **File ? New ? Network ? Empty
 Network**, and then manually add network components by right clicking on
 the network canvas or on a node.
 
+<a id="adding_a_node"> </a>
 ### Adding a Node
 
 To add a new node, right-click on an empty space of the network view
@@ -339,6 +347,7 @@ panel. Select **Add ? Node** item from the pop-up menu.
 
 ![AddNodeMenu.png](_static/images/Creating_Networks/AddNodeMenu.png)
 
+<a id="adding_an_edge"> </a>
 ### Adding an Edge
 
 To add an edge to connect nodes, right-click on the source node. Select
@@ -359,7 +368,8 @@ edges from the **Edit** menu, under **Edit ? Delete Selected Nodes and
 Edges...**. You can recover any nodes and edges deleted from a network
 by going to **Edit ? Undo**.
 
-### Grouping nodes
+<a id="grouping_nodes"> </a>
+### Grouping Nodes
 
 Any number of nodes can be grouped together and displayed as either one
 group node or as the individual nodes. To create a group, select two or
@@ -377,6 +387,7 @@ on the group node or any of its children to toggle back and forth.
 
 -   ![GroupExpanded2.png](_static/images/Creating_Networks/GroupExpanded2.png)
 
+<a id="adding_network_annotations"> </a>
 ### Adding Network Annotations
 
 Annotations in the form of text, images or shapes can be added to the
