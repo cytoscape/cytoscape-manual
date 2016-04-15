@@ -1,5 +1,5 @@
-Supported Network File Formats
-==============================
+<a id="supported_network_file_formats"> </a>
+# Supported Network File Formats
 
 Cytoscape can read network/pathway files written in the following
 formats:
@@ -38,8 +38,8 @@ XGMML format for interaction with other systems. All file types listed
 (except Excel) are text files and you can edit and view them in a
 regular text editor.
 
-SIF Format
-----------
+<a id="sif_format"> </a>
+## SIF Format
 
 The simple interaction format is convenient for building a graph from a
 list of interactions. It also makes it easy to combine different
@@ -119,6 +119,7 @@ Some less common interaction types used are:
       pm .................. protein-metabolite interaction
       mp .................. metabolite-protein interaction
 
+<a id="delimiters"> </a>
 ### Delimiters
 
 Whitespace (space or tab) is used to delimit the names in the simple
@@ -139,8 +140,9 @@ Networks in simple interactions format are often stored in files with a
 `.sif` extension, and Cytoscape recognizes this extension when browsing
 a directory for files of this type.
 
-NNF
----
+<a id="nnf"> </a>
+## NNF
+
 
 The NNF format is a very simple format that unlike SIF allows the
 optional assignment of single nested network per node. No other node
@@ -171,6 +173,7 @@ backslashes in a name, you must escape it by preceding it with a
 backslash, so that, e.g. an embedded backslash becomes two backslashes,
 an embedded space a backslash followed by a space etc.
 
+<a id="examples"> </a>
 ### Examples
 
 #### Example 1
@@ -225,8 +228,8 @@ A pp M2\*/ /\* Example\_4 B pp M3 Example\_4 M2 pp B
     M1             A
     M4             C         pp        D
 
-GML Format
-----------
+<a id="gml_format"> </a>	
+## GML Format
 
 In contrast to SIF, GML is a rich graph format language supported by
 many other network visualization packages. The GML file format
@@ -240,8 +243,8 @@ layout is preserved by saving to and loading from GML. Properties
 specified in a GML file will result in a new style named
 `Filename.style` when that GML file is loaded.
 
-XGMML Format
-------------
+<a id="xgmml_format"> </a>
+## XGMML Format
 
 XGMML is the XML evolution of GML and is based on the GML definition. In
 addition to network data, XGMML contains node/edge/network column data.
@@ -262,16 +265,16 @@ due improperly encoded ampersands, as it slows down the reading process,
 but this is still preferable to attempting to fix such files using
 manual editing.
 
-SBML (Systems Biology Markup Language) Format
----------------------------------------------
+<a id="sbml_systems_biology_markup_language_format"> </a>
+## SBML (Systems Biology Markup Language) Format
 
 The Systems Biology Markup Language (SBML) is an XML format to describe
 biochemical networks. SBML file format specification is available at:
 
 [](http://sbml.org/documents/)
 
-BioPAX (Biological PAthways eXchange) Format
---------------------------------------------
+<a id="biopax_biological_pathways_exchange_format"> </a>
+## BioPAX (Biological PAthways eXchange) Format
 
 BioPAX is an OWL (Web Ontology Language) document designed to exchange
 biological pathways data. The complete set of documents for this format
@@ -279,8 +282,8 @@ is available at:
 
 [](http://www.biopax.org/)
 
-PSI-MI Format
--------------
+<a id="psi_mi_format"> </a>
+## PSI-MI Format
 
 The PSI-MI format is a data exchange format for protein-protein
 interactions. It is an XML format used to describe PPI and associated
@@ -288,8 +291,8 @@ data. PSI-MI XML format specification is available at:
 
 [](http://psidev.sourceforge.net/mi/xml/doc/user/)
 
-GraphML
--------
+<a id="graphml"> </a>
+## GraphML
 
 GraphML is a comprehensive and easy-to-use file format for graphs. It is
 based on XML. The complete set of documents for this format is available
@@ -297,8 +300,8 @@ at:
 
 [](http://graphml.graphdrawing.org/)
 
-Delimited Text Table and Excel Workbook
----------------------------------------
+<a id="delimited_text_table_and_excel_workbook"> </a>
+## Delimited Text Table and Excel Workbook
 
 Cytoscape has native support for Microsoft Excel files (.xls, .xlsx) and
 delimited text files. The tables in these files can have network data
@@ -312,8 +315,8 @@ Tables section of the **[Creating
 Networks](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual#Creating_Networks)**
 section.
 
-Cytoscape.js JSON
------------------
+<a id="cytoscape_js_json"> </a>
+## Cytoscape.js JSON
 
 From Cytoscape 3.1.0 on, Cytoscape supports
 [Cytoscape.js](http://cytoscape.github.io/cytoscape.js/) JSON files. You
@@ -511,6 +514,7 @@ And this is a sample visualization in Cytoscape.js:
 
 ![JSON2.png](_static/images/Network_Formats/JSON2.png)
 
+<a id="important_note"> </a>
 ### Important Note
 
 Export network and table to Cytoscape.js feature in Cytoscape creates a

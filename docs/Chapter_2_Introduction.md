@@ -1,5 +1,5 @@
-Introduction
-============
+<a id="introduction"> </a>
+# Introduction
 
 Cytoscape |version| is the latest version of Cytoscape, building upon
 the new architecture, developer API and set of user controls established
@@ -14,4 +14,4 @@ thorough understanding of Cytoscape and its ecosystem, we highly
 recommend reading the **Welcome Letter** accessible on the
 [](http://cytoscape.org) website.*
 
-[System Requirements Link](Chapter_3_Launching_Cytoscape.html#system_requirements)
+

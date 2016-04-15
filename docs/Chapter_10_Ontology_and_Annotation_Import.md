@@ -1,5 +1,5 @@
-Ontology and Annotation Import
-==============================
+<a id="ontology_and_annotation_import"> </a>
+# Ontology and Annotation Import
 
 Annotations in Cytoscape are stored as a set of ontologies (e.g. the
 Gene Ontology, or GO). An ontology consists of a set of controlled
@@ -32,8 +32,8 @@ annotation terms to nodes and edges in a network. Cytoscape 2.4 now has
 an enhanced GUI for loading ontology and associated annotation, enabling
 you to load both local and remote files.
 
-Ontology and Annotation File Format
------------------------------------
+<a id="ontology_and_annotation_file_format"> </a>
+## Ontology and Annotation File Format
 
 The standard file formats used in the **Cytoscape Ontology Server** are
 OBO and Gene Association. The GO website details these file formats:
@@ -44,8 +44,8 @@ Ontologies and Definitions:
 Current Annotations:
 [](http://www.geneontology.org/GO.current.annotations.shtml)
 
-Default List of Ontologies
---------------------------
+<a id="default_list_of_ontologies"> </a>
+## Default List of Ontologies
 
 Cytoscape provides a list of ontologies available in OBO format. If an
 Internet connection is available, Cytoscape will import ontology and
@@ -79,8 +79,8 @@ Association files, you cannot use a combination of the human Disease
 Ontology file and human Gene Association files, because the Gene
 Association file is only compatible with GO.
 
-Gene Association File
----------------------
+<a id="gene_association_file"> </a>
+## Gene Association File
 
 The **Gene Association** files provide annotation only for the Gene
 Ontology. It is a species-specific annotation file for GO terms. Gene
@@ -98,8 +98,8 @@ for yeast):
 </tbody>
 </table>
 
-Import Ontology and Annotation
-------------------------------
+<a id="import_ontology_and_annotation"> </a>
+## Import Ontology and Annotation
 
 ![AnnotationImport.png](_static/images/Annotation/AnnotationImport.png)
 

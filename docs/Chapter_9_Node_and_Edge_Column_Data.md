@@ -1,5 +1,5 @@
-Node and Edge Column Data
-=========================
+<a id="node_and_edge_column_data"> </a>
+# Node and Edge Column Data
 
 Interaction networks are useful as stand-alone models. However, they are
 most powerful for answering scientific questions when integrated with
@@ -13,8 +13,8 @@ section on
 **[Styles](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Styles#)**
 discusses this in greater detail.
 
-Import Data Table Files
------------------------
+<a id="import_data_table_files"> </a>
+## Import Data Table Files
 
 Cytoscape offers support for importing data from delimited text and MS
 Excel data tables.
@@ -37,6 +37,7 @@ data column. The maximum number of data columns is unlimited. The
 data as column names. Alternatively, you can specify each column name
 from the **File ? Import ? Table ? File...** user interface.
 
+<a id="basic_operation"> </a>
 ### Basic Operation
 
 -   ![ImportColumnsFromTable.png](_static/images/Columns/ImportColumnsFromTable.png)
@@ -79,8 +80,8 @@ database. This feature allows the data to be automatically linked to any
 network that is applicable, without having to load the data for each
 network.
 
-Legacy Cytoscape Attributes Format
-----------------------------------
+<a id="legacy_cytoscape_attributes_format"> </a>
+## Legacy Cytoscape Attributes Format
 
 In addition to tabular data, the simple attribute file format used in
 previous versions of Cytoscape is still supported. Node and edge data
@@ -125,6 +126,7 @@ independent of networks. Data values for a given node or edge will be
 applied to all copies of that node or edge in all loaded network files,
 regardless of whether the data file or network file is imported first.
 
+<a id="detailed_file_format_advanced_users"> </a>
 ### Detailed file format (Advanced users)
 
 Every data file has one header line that gives the name of the data
@@ -215,6 +217,7 @@ parentheses), and each element is of the same class. Again, the class
 will be inferred if it is not specified in the header line. Lists are
 not supported by Styles and so can't be mapped to network properties.
 
+<a id="newline_feature"> </a>
 ### Newline Feature
 
 Sometimes it is desirable to for data values to include linebreaks, such
@@ -224,6 +227,7 @@ inserting into the data value. For example:
     newlineDataColumn
     YJL157C = This is a long\nline for a label.
 
+<a id="advanced_options"> </a>
 ### Advanced Options
 
 Is this still relevant?
@@ -252,6 +256,7 @@ importing.
 
 ![attribute\_table\_import\_alias.png](_static/images/Columns/attribute_table_import_alias.png)
 
+<a id="table_panel"> </a>
 ### Table Panel
 
 ![TablePanel\_withData.png](_static/images/Columns/TablePanel_withData.png)
@@ -305,13 +310,14 @@ specified attribute at once. For example, if you want to create a new
 attribute called *Modules* and set module names for each group of
 selected nodes, you can use *Set* command from this editor.
 
-Import Data Table from Public Databases
----------------------------------------
+<a id="import_data_table_from_public_databases"> </a>
+## Import Data Table from Public Databases
 
 It is also possible to import node data columns from public databases
 via web services, for example from
 [BioMart](http://wiki.cytoscape.org/Cytoscape_3/UserManual/BioMart#).
 
+<a id="basic_operation"> </a>
 ### Basic Operation
 
 1.  Load a network, for example galFiltered.sif.

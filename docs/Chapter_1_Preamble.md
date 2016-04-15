@@ -1,14 +1,12 @@
-Preamble
-========
+# Preamble
 
 ---
 date: '2012-02-17 12:35:55'
 title: 'Cytoscape\_3/UserManual'
 ...
 
-<a name="TitlePage"></a>
-[Cytoscape @version@ User Manual] 
-====================================================================================================================
+<a name="cytoscape_user_manual"></a>
+# Cytoscape @version@ User Manual 
 
 The Cytoscape User Manual copyright is owned by The Cytoscape
 Consortium, and is made available under the same GPL license as

@@ -1,5 +1,5 @@
-Nested Networks
-===============
+<a id="nested_networks"> </a>
+# Nested Networks
 
 Cytoscape has the ability to associate a **Nested Network** with any
 node. A nested network is any other network currently defined in
@@ -9,8 +9,8 @@ plugins make use of nested networks in the overview network that they
 generate. There each node representing a module contains a nested
 network.
 
-Creating Nested Networks
-------------------------
+<a id="creating_nested_networks"> </a>
+## Creating Nested Networks
 
 There are currently two ways in which a user can create nested networks.
 
@@ -23,8 +23,8 @@ There are currently two ways in which a user can create nested networks.
     **[Nested Network Node Context
     Menu](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Navigation_Layout#NestedNetwork)**).
 
-Visualization of Nested Networks
---------------------------------
+<a id="visualization_of_nested_networks"> </a>	
+## Visualization of Nested Networks
 
 Nodes containing nested networks that are zoomed in sufficiently display
 an image for the nested network. If no current network view exists for
