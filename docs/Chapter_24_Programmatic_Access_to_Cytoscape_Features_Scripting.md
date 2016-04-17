@@ -38,8 +38,8 @@ The Command feature allows you to script a number of Cytoscape commands
 and menu items, and commands can have parameter values that would
 normally be provided by a user via Cytoscape dialog box. For example,
 *session open file="C:\\myfile.cys"* loads a session from a file
-similarly to the **File ? Open** menu item. You can create a command
-script file that Cytoscape can execute via the **Tools ? Execute Command
+similarly to the **File | Open** menu item. You can create a command
+script file that Cytoscape can execute via the **Tools | Execute Command
 File** menu item or on the Cytoscape command line at startup.
 
 The RESTful API feature allows you to access Cytoscape from a separate

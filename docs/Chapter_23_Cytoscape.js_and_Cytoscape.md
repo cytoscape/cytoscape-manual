@@ -91,7 +91,7 @@ other standard files such as SIF.
 Cytoscape.js stores network data (graph) and its data table in the same
 object. Cytoscape writes such data complex as JSON, i.e., both network
 and data tables will be exported as a single JSON file. You can select a
-network and export it from **File ? Export ? Network**.
+network and export it from **File | Export | Network**.
 
 Cytoscape only supports one of the Cytoscape.js supported JSON formats,
 which is:
@@ -141,7 +141,7 @@ Cytoscape and Cytoscape.js are sharing a concept called **Style**. This
 is a collection of mappings from data point to network property.
 oCytoscape can export its Styles into CSS-based Cytoscape.js JSON.
 
-You can export *all Styles into one JSON file* from **File ? Export ?
+You can export *all Styles into one JSON file* from **File | Export |
 Style** and select Cytoscape.js JSON as its format.
 
 #### Limitations
@@ -179,7 +179,7 @@ features in Cytoscape.js.
 ### Import Cytoscape.js data into Cytoscape
 
 Cytoscape.js network JSON files can be loaded from standard Cytoscape
-file menu: **File ? Import ? Network ?**. Both File and URL are
+file menu: **File | Import | Network |**. Both File and URL are
 supported.
 
 <a id="build_your_own_web_application_with_cytoscape_js"> </a>

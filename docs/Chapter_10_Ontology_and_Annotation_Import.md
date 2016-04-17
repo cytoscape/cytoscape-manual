@@ -109,7 +109,7 @@ and annotation files at the same time.
 **Note:** All data sources in the preset list are remote URLs, meaning a
 network connection is required.
 
--   Select **File ? Import ? Ontology and Annotation...** to open the
+-   Select **File | Import | Ontology and Annotation...** to open the
     "Import Ontology and Annotation" interface. From the **Annotation**
     drop-down list, select a gene association file for your network. For
     example, if you want to annotate the yeast network, select "Gene

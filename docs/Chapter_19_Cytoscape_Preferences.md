@@ -4,7 +4,7 @@
 <a id="managing_properties"> </a>
 ## Managing Properties
 
-The Cytoscape properties editor, accessed via **Edit ? Preferences ?
+The Cytoscape properties editor, accessed via **Edit | Preferences |
 Properties...**, is used to specify default properties. Any changes made
 to these properties will be saved in .props files under the
 `CytoscapeConfiguration` subdirectory of the user's home directory.
@@ -28,7 +28,7 @@ storing them in the `CytoscapeConfiguration` directory.
 Cytoscape contains a pre-defined list of bookmarks, which point to
 sample network files located on the Cytoscape web server. Users may add,
 modify, and delete bookmarks through the Bookmark manager, accessed by
-going to **Edit ? Preferences ? Bookmarks...**.
+going to **Edit | Preferences | Bookmarks...**.
 
 -   ![Preferences\_bookmarks.png](_static/images/Preferences/Preferences_bookmarks.png)
 
@@ -42,7 +42,7 @@ table files.
 ## Managing Proxy Servers
 
 You can define and configure a proxy server for Cytoscape by going to
-**Edit ? Preferences ? Proxy Settings...**.
+**Edit | Preferences | Proxy Settings...**.
 
 -   ![Preferences\_proxy.png](_static/images/Preferences/Preferences_proxy.png)
 
@@ -62,6 +62,6 @@ set the Proxy type to "direct" and click the OK button.
 ## Managing Group View
 
 The configuration of Cytoscape group view may also be edited through
-**Edit ? Preferences ? Group Preferences...**.
+**Edit | Preferences | Group Preferences...**.
 
 -   ![Preferences\_groups.png](_static/images/Preferences/Preferences_groups.png)

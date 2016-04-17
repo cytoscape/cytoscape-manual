@@ -17,16 +17,16 @@ There are 4 different ways of creating networks in Cytoscape:
 Network files can be specified in any of the formats described in the
 **[Supported Network
 Formats](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_8_Supported_Network_File_Formats.html#supported-network-file-formats)**
-section. Networks are imported into Cytoscape through the **File ?
-Import ? Network menu**. The network file can either be located directly
+section. Networks are imported into Cytoscape through the **File |
+Import | Network menu**. The network file can either be located directly
 on the local computer, or found on a remote computer (in which case it
 will be referenced with a URL).
 
 <a id="load_networks_from_local_computer"> </a>
 ### Load Networks from Local Computer
 
-In order to load a network from a local file you can select **File \rhd
-Import ? Network ? File...** or click on
+In order to load a network from a local file you can select **File |
+Import | Network | File...** or click on
 ![Cy3\_icon\_net\_file\_import.png](_static/images/Creating_Networks/Cy3_icon_net_file_import.png)
 on the tool bar. Choose the correct file in the file chooser dialog and
 press Open. Some sample network files of different types have been
@@ -46,8 +46,8 @@ from the command line using the -N option.
 <a id="load_networks_from_a_remote_computer_url_import"> </a>
 ### Load Networks from a Remote Computer (URL import)
 
-To load a network from a remote file, you can select **File ? Import ?
-Network ? URL...**. In the import network dialog, insert the appropriate
+To load a network from a remote file, you can select **File | Import |
+Network | URL...**. In the import network dialog, insert the appropriate
 URL, either manually or using URL bookmarks. Bookmarked URLs can be
 accessed by clicking on the arrow to the right of the text field (see
 the Bookmark Manager in
@@ -61,7 +61,7 @@ the OK button to load the network.
 Another issue for network import is the presence of firewalls, which can
 affect which files are accessible to a computer. To work around this
 problem, Cytoscape supports the use of proxy servers. To configure a
-proxy server, go to **Edit ? Preferences? Proxy Settings...**. This is
+proxy server, go to **Edit | Preferences | Proxy Settings...**. This is
 further described in the
 **[Preferences](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_19_Cytoscape_Preferences.html#cytoscape-preferences)**
 section.
@@ -70,7 +70,7 @@ section.
 ## Import Networks from Unformatted Table Files
 
 Cytoscape supports the import of networks from delimited text files and
-Excel workbooks using **File ? Import ? Network ? File...**. An
+Excel workbooks using **File | Import | Network | File...**. An
 interactive GUI allows users to specify parsing options for specified
 files. The screen provides a preview that shows how the file will be
 parsed given the current configuration. As the configuration changes,
@@ -148,7 +148,7 @@ files are available at [](http://wiki.cytoscape.org/Data_Sets/)
 
 To import network from text/Excel tables, please follow these steps:
 
-1.  Select **File ? Import ? Network ? File...** or click on
+1.  Select **File | Import | Network | File...** or click on
     ![Cy3\_icon\_net\_file\_import.png](_static/images/Creating_Networks/Cy3_icon_net_file_import.png)
     on the tool bar.
 
@@ -247,7 +247,7 @@ cells in the table must use the same delimiter).
 
 Cytoscape has a feature called **Import Network from Public Databases**.
 Users can access various kinds of databases through this function,
-**File ? Import ? Network ? Public Databases...**.
+**File | Import | Network | Public Databases...**.
 
 <a id="what_is_a_web_service"> </a>
 ### What is a Web Service?
@@ -275,7 +275,7 @@ databases.
 <a id="getting_started"> </a>
 ## Getting Started
 
-To get started, select **File ? Import ? Network ? Public
+To get started, select **File | Import | Network | Public
 Databases...**.
 
 ![psi1\_2.png](_static/images/Creating_Networks/psi1_2.png)
@@ -283,7 +283,7 @@ Databases...**.
 <a id="example:_retrieving_protein_protein_interaction_networks_from_multiple_databases"> </a>
 ## Example: Retrieving Protein-Protein Interaction Networks from Multiple Databases
 
--   Select **File ? Import ? Network ? Public Databases...**.
+-   Select **File | Import | Network | Public Databases...**.
 
 -   From the pull-down menu, select the **Interaction databases
     Universal Client**.
@@ -306,7 +306,7 @@ will be imported and visualized.
 
 **Tip: Expanding the Network:** Several of the Cytoscape web services
 provide additional options in the node context menu. To access these
-options, right-click on a node and select **Apps ? Extend Network by
+options, right-click on a node and select **Apps | Extend Network by
 public interaction database...**. For example, in the screenshot, we
 have loaded the BRCA1 network from IntAct, and have chosen to merge this
 node's neighbors into the existing network.
@@ -335,7 +335,7 @@ interactome).
 ## Create a New Network Manually
 
 A new, empty network can also be created and nodes and edges manually
-added. To create an empty network, go to **File ? New ? Network ? Empty
+added. To create an empty network, go to **File | New | Network | Empty
 Network**, and then manually add network components by right clicking on
 the network canvas or on a node.
 
@@ -343,7 +343,7 @@ the network canvas or on a node.
 ### Adding a Node
 
 To add a new node, right-click on an empty space of the network view
-panel. Select **Add ? Node** item from the pop-up menu.
+panel. Select **Add | Node** item from the pop-up menu.
 
 ![AddNodeMenu.png](_static/images/Creating_Networks/AddNodeMenu.png)
 
@@ -351,11 +351,11 @@ panel. Select **Add ? Node** item from the pop-up menu.
 ### Adding an Edge
 
 To add an edge to connect nodes, right-click on the source node. Select
-**Edit ? Add Edge** from the pop-up menu. Next, click on the target
+**Edit | Add Edge** from the pop-up menu. Next, click on the target
 node. The Images below show the two steps for drawing an edge between
 two nodes. You can abort the drawing of the edge by pressing Esc key.
 You can also select two or more nodes to connect and in the right-click
-menu select **Add ? Edges Connecting Selected Nodes** to create edges
+menu select **Add | Edges Connecting Selected Nodes** to create edges
 connecting all selected nodes.
 
 ![AddEdgeMenu.png](_static/images/Creating_Networks/AddEdgeMenu.png)
@@ -363,17 +363,17 @@ connecting all selected nodes.
 ![AddEdge-2.png](_static/images/Creating_Networks/AddEdge-2.png)
 
 You can delete nodes and edges by selecting a number of nodes and edges,
-then selecting **Edit ? Cut**. You can also delete selected nodes and
-edges from the **Edit** menu, under **Edit ? Delete Selected Nodes and
+then selecting **Edit | Cut**. You can also delete selected nodes and
+edges from the **Edit** menu, under **Edit | Delete Selected Nodes and
 Edges...**. You can recover any nodes and edges deleted from a network
-by going to **Edit ? Undo**.
+by going to **Edit | Undo**.
 
 <a id="grouping_nodes"> </a>
 ### Grouping Nodes
 
 Any number of nodes can be grouped together and displayed as either one
 group node or as the individual nodes. To create a group, select two or
-more nodes and right-click to select **Group ? Group Selected Nodes**.
+more nodes and right-click to select **Group | Group Selected Nodes**.
 You will be prompted to select a name for the group node. Once a group
 is created, you can use the right-click menu to collapse or expand the
 group. You can also quickly collapse/expand a group by double-clicking

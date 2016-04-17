@@ -35,14 +35,14 @@ The data table file should contain a primary key column and at least one
 data column. The maximum number of data columns is unlimited. The
 **Alias** column is an optional feature, as is using the first row of
 data as column names. Alternatively, you can specify each column name
-from the **File ? Import ? Table ? File...** user interface.
+from the **File | Import | Table | File...** user interface.
 
 <a id="basic_operation"> </a>
 ### Basic Operation
 
 -   ![ImportColumnsFromTable.png](_static/images/Columns/ImportColumnsFromTable.png)
 
-1.  Select **File ? Import ? Table ? File...**.
+1.  Select **File | Import | Table | File...**.
 
 2.  Select a data file. The file can be either a text or
     Excel (.xls/.xlsx) file.
@@ -115,7 +115,7 @@ reversed, though the nodes involved are the same).
 Each data column is stored in a separate file. Node and edge data files
 use the same format, and have the suffix ".attrs".
 
-Node and edge data may be loaded via the **File ? Import ? Table** menu,
+Node and edge data may be loaded via the **File | Import | Table** menu,
 just as data table files are.
 
 When expression data is loaded using an expression matrix, it is
@@ -263,7 +263,7 @@ importing.
 
 When Cytoscape is started, the **Table Panel** appears in the bottom
 right of the main Cytoscape window. This browser can be hidden and
-restored using the F5 key or the **View ? Show/Hide Table Panel** menu
+restored using the F5 key or the **View | Show/Hide Table Panel** menu
 option. Like other Panels, the browser can be undocked by pressing the
 little icon in the top right corner.
 
@@ -322,7 +322,7 @@ via web services, for example from
 
 1.  Load a network, for example galFiltered.sif.
 
-2.  Select **File ? Import ? Table ? Public Databases...**.
+2.  Select **File | Import | Table | Public Databases...**.
 
 3.  You will first be asked to select from a set of web services. For
     this example, we will choose **ENSEMBL GENES 73 (SANGER UK)**.

@@ -23,7 +23,7 @@ or within Cytoscape. In this section, we'll talk about installing apps
 through Cytoscape. You can learn how to install apps through the App
 Store [here](http://apps3.nrnb.org/help/getstarted_app_install).
 
-To install apps within Cytoscape, go to the menu bar and choose **Apps ?
+To install apps within Cytoscape, go to the menu bar and choose **Apps |
 App Manager**. At the top of the **App Manager** window, make sure you
 have the **Install** tab selected.
 

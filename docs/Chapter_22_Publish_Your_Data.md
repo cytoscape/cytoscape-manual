@@ -37,7 +37,7 @@ same time, as unpredictable results may occur.
 ### As a Static Image
 
 Cytoscape can generate publication-quality images from network views. By
-selecting ***File ? Export ? Network View as Graphics...***, you can
+selecting ***File | Export | Network View as Graphics...***, you can
 export the current network view into the following formats:
 
 -   JPG
@@ -130,11 +130,11 @@ preloaded with your network for anyone to see.
 To use
 [CyNetShare](http://idekerlab.github.io/cy-net-share/):
 
-1.  Select ***File ? Export ? Network and View...*** to export your
+1.  Select ***File | Export | Network and View...*** to export your
     network to a public directory. Choose the *Cytoscape.js
     JSON (\*.cyjs)* export file format.
 
-2.  Optionally, select ***File ? Export ? Style...*** to export your
+2.  Optionally, select ***File | Export | Style...*** to export your
     style settings. Choose the *Style for cytoscape.js (\*.json)* export
     file format.
 
@@ -221,13 +221,13 @@ browser on PCs and tablets.
 
 ![web\_export\_full.png](_static/images/Publish/web_export_full.png)
 
-To generate an entire web page as a zip archive, select ***File ? Export
-? Network View(s) as Web Page ...***.
+To generate an entire web page as a zip archive, select ***File | Export
+| Network View(s) as Web Page ...***.
 
 To view the web page, unzip the archive into a folder on your PC or web
 server. The folder will contain an ***index.html*** file, the network
 data, and other files. You can open the ***index.html*** file in your
-browser (usually from your browser's ***File ? Open*** menu item.)
+browser (usually from your browser's ***File | Open*** menu item.)
 
 Depending on your browser's security settings, you may not be able to
 open the ***index.html*** file directly if it is stored on your PC --
@@ -276,8 +276,8 @@ custom viewer by customizing this code.
 
 ![web\_export\_simple.png](_static/images/Publish/web_export_simple.png)
 
-To generate an entire web page as a zip archive, select ***File ? Export
-? Network View(s) as Web Page ...***, and choose the *Simple viewer for
+To generate an entire web page as a zip archive, select ***File | Export
+| Network View(s) as Web Page ...***, and choose the *Simple viewer for
 current network only* format.
 
 For instructions on testing the customized web application, see

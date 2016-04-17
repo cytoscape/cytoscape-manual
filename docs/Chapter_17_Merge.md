@@ -2,13 +2,13 @@
 # Merge
 
 Cytoscape allows for merging of both network and table data, through
-**Tools ? Merge**.
+**Tools | Merge**.
 
 <a id="merge_networks"> </a>
 ## Merge Networks
 
-The **Advanced Network Merge** interface is available from **Tools ?
-Merge ? Networks...** and allows for merging of two or more networks.
+The **Advanced Network Merge** interface is available from **Tools |
+Merge | Networks...** and allows for merging of two or more networks.
 
 ![Advanced Network
 Merge](_static/images/Merge/AdvancedNetworkMerge.png)

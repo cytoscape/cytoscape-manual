@@ -126,7 +126,7 @@ started. To examine a few styles, try out the following example:
 **Step 1. Load some sample data**
 
 -   Load a sample session file: From the main menu, select **File
-    ? Open...**, and select the file *sampleData/galFiltered.cys*.
+    | Open...**, and select the file *sampleData/galFiltered.cys*.
 
 -   The session file includes a network, some annotations, and
     sample styles. By default, the style **galFiltered Style**
@@ -164,8 +164,8 @@ modify the network graphics by editing the *Default Value* for any
 property.
 
 Additional sample styles are available in the `sampleStyles.xml` file in
-the *sampleData* directory. You can import the sample file from **File ?
-Import ? Styles...**.
+the *sampleData* directory. You can import the sample file from **File |
+Import | Styles...**.
 
 <a id="list_of_node_edge_and_network_properties"> </a>
 ### List of Node, Edge and Network Properties
@@ -189,21 +189,21 @@ are summarized in the tables below.
 <tr> <th class="spec ulcase">Label Width</th>                     <td class="">The maximum width of the node label. If the node label is wider than the specified width, Cytoscape will automatically wrap the label on space characters. Cytoscape will not hyphenate words, meaning that if a single word (i.e. no spaces) is longer than maximum width, the word will be displayed beyond the maximum width.</td> </tr>
 <tr> <th class="specalt ulcase">Nested Network Image Visible</th> <td class="alt">A boolean value that indicates whether a nested network should be visualized (assuming a nested network is present for the specified node).</td> </tr>
 <tr> <th class="spec ulcase">Padding (Compound Node)</th>         <td class="">Internal padding of the compound node (a node that contains other nodes).</td> </tr>
-<tr> <th class="specalt ulcase">Paint</th>                        <td class="alt">The color of the whole node, including its border, label and selected paint. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Border Paint</th>                    <td class="">The color of the border of the node. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Border Paint</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Image/Chart <i>1-9</i></th>       <td class="alt">A user-defined graphic (image, chart or gradient) that is displayed on the node. These properties (maximum of nine) can be added to the list from the drop-down menu <b>Properties ? Paint ? Custom Paint <i>n</i> ? Image/Chart <i>n</i></b>.</td> </tr>
-<tr> <th class="spec ulcase">Image/Chart Position <i>1-9</i></th> <td class="">The position of each graphic (image, chart or gradient). These properties (maximum of nine) can be added to the list from the drop-down menu <b>Properties ? Paint ? Custom Paint <i>n</i> ? Image/Chart Position <i>n</i></b>.</td> </tr>
-<tr> <th class="specalt ulcase">Fill Color</th>                   <td class="alt">The color of the node. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Fill Color</b>.</td> </tr>
-<tr> <th class="spec ulcase">Label Color</th>                     <td class="">The color of the node label. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Label Color</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Selected Paint</th>               <td class="alt">The fill color of the node when selected. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Selected Paint</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Paint</th>                        <td class="alt">The color of the whole node, including its border, label and selected paint. This property can be added to the list from the drop-down menu <b>Properties | Paint | Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Border Paint</th>                    <td class="">The color of the border of the node. This property can be added to the list from the drop-down menu <b>Properties | Paint | Border Paint</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Image/Chart <i>1-9</i></th>       <td class="alt">A user-defined graphic (image, chart or gradient) that is displayed on the node. These properties (maximum of nine) can be added to the list from the drop-down menu <b>Properties | Paint | Custom Paint <i>n</i> | Image/Chart <i>n</i></b>.</td> </tr>
+<tr> <th class="spec ulcase">Image/Chart Position <i>1-9</i></th> <td class="">The position of each graphic (image, chart or gradient). These properties (maximum of nine) can be added to the list from the drop-down menu <b>Properties | Paint | Custom Paint <i>n</i> | Image/Chart Position <i>n</i></b>.</td> </tr>
+<tr> <th class="specalt ulcase">Fill Color</th>                   <td class="alt">The color of the node. This property can be added to the list from the drop-down menu <b>Properties | Paint | Fill Color</b>.</td> </tr>
+<tr> <th class="spec ulcase">Label Color</th>                     <td class="">The color of the node label. This property can be added to the list from the drop-down menu <b>Properties | Paint | Label Color</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Selected Paint</th>               <td class="alt">The fill color of the node when selected. This property can be added to the list from the drop-down menu <b>Properties | Paint | Selected Paint</b>.</td> </tr>
 <tr> <th class="spec ulcase">Shape</th>                           <td class="">The shape of the node.</td> </tr>
 <tr> <th class="specalt ulcase">Shape (Compound Node)</th>        <td class="alt">The shape of the compound node (a node that contains other nodes).</td> </tr>
-<tr> <th class="spec ulcase">Size</th>                            <td class="">The size of the node. Width and height will be equal. This property is mutually exclusive of <i>Node Height</i> and <i>Node Width</i>. It can be added to the list from the drop-down menu <b>Properties ? Size ? Size</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Image/Chart Size <i>1-9</i></th>  <td class="alt">The size of the related node <i>Image/Chart</i>. It can be added to the list from the drop-down menu <b>Properties ? Size ? Image/Chart Size <i>n</i></b>.</td> </tr>
-<tr> <th class="spec ulcase">Height</th>                          <td class="">The height of the node. Height will be independent of width. This property is mutually exclusive of <i>Node Size</i>. It can be added to the list from the drop-down menu <b>Properties ? Size ? Height</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Width</th>                        <td class="alt">The width of the node. Width will be independent of height. This property is mutually exclusive of <i>Node Size</i>. It can be added to the list from the drop-down menu <b>Properties ? Size ? Width</b>.</td> </tr>
-<tr> <th class="spec ulcase">Fit Custom Graphics to node</th>     <td class="">Toggle to fit Image/Chart size to node size. It can be added to the list from the drop-down menu <b>Properties ? Size ? Fit Custom Graphics to node</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Lock node width and height</th>   <td class="alt">Toggle to ignore <i>Width</i> and <i>Height</i>, and to use <i>Size</i> for both values. It can be added to the list from the drop-down menu <b>Properties ? Size ? Lock node width and height</b>.</td> </tr>
+<tr> <th class="spec ulcase">Size</th>                            <td class="">The size of the node. Width and height will be equal. This property is mutually exclusive of <i>Node Height</i> and <i>Node Width</i>. It can be added to the list from the drop-down menu <b>Properties | Size | Size</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Image/Chart Size <i>1-9</i></th>  <td class="alt">The size of the related node <i>Image/Chart</i>. It can be added to the list from the drop-down menu <b>Properties | Size | Image/Chart Size <i>n</i></b>.</td> </tr>
+<tr> <th class="spec ulcase">Height</th>                          <td class="">The height of the node. Height will be independent of width. This property is mutually exclusive of <i>Node Size</i>. It can be added to the list from the drop-down menu <b>Properties | Size | Height</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Width</th>                        <td class="alt">The width of the node. Width will be independent of height. This property is mutually exclusive of <i>Node Size</i>. It can be added to the list from the drop-down menu <b>Properties | Size | Width</b>.</td> </tr>
+<tr> <th class="spec ulcase">Fit Custom Graphics to node</th>     <td class="">Toggle to fit Image/Chart size to node size. It can be added to the list from the drop-down menu <b>Properties | Size | Fit Custom Graphics to node</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Lock node width and height</th>   <td class="alt">Toggle to ignore <i>Width</i> and <i>Height</i>, and to use <i>Size</i> for both values. It can be added to the list from the drop-down menu <b>Properties | Size | Lock node width and height</b>.</td> </tr>
 <tr> <th class="spec ulcase">Tooltip</th>                         <td class="">The text of the tooltip that appears when a mouse hovers over the node.</td> </tr>
 <tr> <th class="specalt ulcase">Transparency</th>                 <td class="alt">The opacity of the color of the node. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
 <tr> <th class="spec ulcase">Visible</th>                         <td class="">Hides the node if set to <i>false</i>. By default, this value is set to <i>true</i>.</td> </tr>
@@ -226,23 +226,23 @@ are summarized in the tables below.
 <tr> <th class="spec ulcase">Label Font Size</th>                   <td class="">The size of the font used for the edge label.</td> </tr>
 <tr> <th class="specalt ulcase">Label Transparency</th>             <td class="alt">The opacity of the color of the edge label. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
 <tr> <th class="spec ulcase">Line Type</th>                         <td class="">The type of stoke used to render the line (solid, dashed, etc.)</td> </tr>
-<tr> <th class="specalt ulcase">Paint</th>                          <td class="alt">The color of the whole edge (including the stroke and arrows) when it is selected or unselected. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Color (Selected)</th>                  <td class="">The color of the whole edge (stroke and arrows) when selected. This property can be added to the list from the drop-down menu <b>Properties ? Paint ? Color (Selected) ? Color (Selected)</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Source Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the source node end of the edge. It can be added to the list from the drop-down menu <b>Properties ? Paint ? Color (Selected) ? Source Arrow Selected Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Stroke Color (Selected)</th>           <td class="">The color of the edge line when selected. It can be added to the list from the drop-down menu <b>Properties ? Paint ? Color (Selected) ? Stroke Color (Selected)</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Target Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Selected) ? Target Arrow Selected Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Color (Unselected)</th>                <td class="">The color of the whole edge (stroke and arrows) when it is not selected. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Unselected) ? Color (Unselected)</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Source Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the source node end of the edge. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Unselected) ? Source Arrow Unselected Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Stroke Color (Unselected)</th>         <td class="">The color of the edge line. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Unselected) ? Stroke Color (Unselected)</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Target Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Unselected) ? Target Arrow Unselected Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Label Color</th>                       <td class="">The color of the edge label. It can be found in the drop-down menu <b>Properties ? Paint ? Label Color</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Paint</th>                          <td class="alt">The color of the whole edge (including the stroke and arrows) when it is selected or unselected. This property can be added to the list from the drop-down menu <b>Properties | Paint | Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Color (Selected)</th>                  <td class="">The color of the whole edge (stroke and arrows) when selected. This property can be added to the list from the drop-down menu <b>Properties | Paint | Color (Selected) | Color (Selected)</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Source Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the source node end of the edge. It can be added to the list from the drop-down menu <b>Properties | Paint | Color (Selected) | Source Arrow Selected Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Stroke Color (Selected)</th>           <td class="">The color of the edge line when selected. It can be added to the list from the drop-down menu <b>Properties | Paint | Color (Selected) | Stroke Color (Selected)</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Target Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties | Paint | Color (Selected) | Target Arrow Selected Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Color (Unselected)</th>                <td class="">The color of the whole edge (stroke and arrows) when it is not selected. It can be found in the drop-down menu <b>Properties | Paint | Color (Unselected) | Color (Unselected)</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Source Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the source node end of the edge. It can be found in the drop-down menu <b>Properties | Paint | Color (Unselected) | Source Arrow Unselected Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Stroke Color (Unselected)</th>         <td class="">The color of the edge line. It can be found in the drop-down menu <b>Properties | Paint | Color (Unselected) | Stroke Color (Unselected)</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Target Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties | Paint | Color (Unselected) | Target Arrow Unselected Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Label Color</th>                       <td class="">The color of the edge label. It can be found in the drop-down menu <b>Properties | Paint | Label Color</b>.</td> </tr>
 <tr> <th class="specalt ulcase">Source Arrow Shape</th>             <td class="alt">The shape of the arrow on the source node end of the edge.</td> </tr>
 <tr> <th class="spec ulcase">Target Arrow Shape</th>                <td class="">The shape of the arrow on the target node end of the edge.</td> </tr>
 <tr> <th class="specalt ulcase">Tooltip</th>                        <td class="alt">The text of the tooltip that appears when a mouse hovers over the edge.</td> </tr>
 <tr> <th class="spec ulcase">Transparency</th>                      <td class="">The opacity of the of the edge. Zero means totally transparent, and 255 means totally opaque.</td> </tr>
 <tr> <th class="specalt ulcase">Visible</th>                        <td class="alt">Hides the edge if set to <i>false</i>. By default, this value is set to <i>true</i>.</td> </tr>
 <tr> <th class="spec ulcase">Width</th>                             <td class="">The width of the edge line.</td> </tr>
-<tr> <th class="specalt ulcase">Edge color to arrows</th>           <td class="alt">If <i>true</i> then <b>Color (Unselected)</b> is used for the whole edge, including its line and arrows. It can be found in the drop-down menu <b>Properties ? Paint ? Color (Unselected) ? Edge color to arrows</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Edge color to arrows</th>           <td class="alt">If <i>true</i> then <b>Color (Unselected)</b> is used for the whole edge, including its line and arrows. It can be found in the drop-down menu <b>Properties | Paint | Color (Unselected) | Edge color to arrows</b>.</td> </tr>
 </tbody>
 </table>
 <br>
@@ -258,9 +258,9 @@ are summarized in the tables below.
 <tr> <th class="specalt ulcase">Edge Selection</th>     <td class="alt">Edges are selectable or not. If this is <i>false</i>, users cannot select edges.</td> </tr>
 <tr> <th class="spec ulcase">Node Selection</th>        <td class="">Nodes are selectable or not. If this is <i>false</i>, users cannot select nodes.</td> </tr>
 <tr> <th class="specalt ulcase">Scale Factor</th>       <td class="alt">The zoom level of the network view.</td> </tr>
-<tr> <th class="spec ulcase">Size</th>                  <td class="">The size (width and height) of the network view. It can be found in the drop-down menu <b>Properties ? Size ? Size</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Height</th>             <td class="alt">The height of the network view. It can be found in the drop-down menu <b>Properties ? Size ? Height</b>.</td> </tr>
-<tr> <th class="spec ulcase">Width</th>                 <td class="">The width of the network view. It can be found in the drop-down menu <b>Properties ? Size ? Width</b>.</td> </tr>
+<tr> <th class="spec ulcase">Size</th>                  <td class="">The size (width and height) of the network view. It can be found in the drop-down menu <b>Properties | Size | Size</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Height</th>             <td class="alt">The height of the network view. It can be found in the drop-down menu <b>Properties | Size | Height</b>.</td> </tr>
+<tr> <th class="spec ulcase">Width</th>                 <td class="">The width of the network view. It can be found in the drop-down menu <b>Properties | Size | Width</b>.</td> </tr>
 <tr> <th class="specalt ulcase">Title</th>              <td class="alt">The title of the network view.</td> </tr>
 </tbody>
 </table>
@@ -454,7 +454,7 @@ set used in this section is created by Database Center for Life Science
 <a id="managing_images"> </a>
 ### Managing Images
 
-The **Image Manager** is available under the menu option **View ? Open
+The **Image Manager** is available under the menu option **View | Open
 Image Manager...**:
 
 -   ![cgManager1.png](_static/images/Styles/cgManager1.png)
@@ -522,7 +522,7 @@ Node graphics are used and defined like any other property, through the
 
 -   To add a graphic, first add one **Image/Chart** property to the
     properties list in the **Style** interface (on the **Node** tab,
-    select **Properties ? Paint ? Custom Paint *n* ? Image/Chart *n***).
+    select **Properties | Paint | Custom Paint *n* | Image/Chart *n***).
     Next, click the **Default Value** column of the **Image/Chart**
     property to bring up the **Graphics** dialog. Select an image, a
     chart or a gradient and then click **Apply**.
@@ -574,8 +574,8 @@ automatically. There are two types of saving:
 
 2.  Automatic saving to `CytoscapeConfiguration/images3` directory
 
-    -   When you select **File ? Quit** (Windows and Linux) or
-        **Cytoscape ? Quit Cytoscape** (Mac OS X), all of the images in
+    -   When you select **File | Quit** (Windows and Linux) or
+        **Cytoscape | Quit Cytoscape** (Mac OS X), all of the images in
         the Image Manager will be saved automatically to your Cytoscape
         settings directory. Usually, they are saved in
         `YOUR_HOME_DIRECTORY/CytoscapeConfiguration/images3`.
@@ -596,13 +596,13 @@ features. Each tutorial is independent of the others.
 The goal of this tutorial is to learn how to create a new Style and set
 some default values.
 
-1.  **Load a sample network:** From the main menu, select **File ?
-    Import ? Network ? File...**, and select
+1.  **Load a sample network:** From the main menu, select **File |
+    Import | Network | File...**, and select
     `sampleData/galFiltered.sif`.
 
 2.  **Create some node/edge statistics:** The **Network Analyzer**
     calculates some basic statistics for nodes and edges. From the main
-    menu, select **Tools ? Network Analyzer ? Network Analysis ? Analyze
+    menu, select **Tools | Network Analyzer | Network Analysis | Analyze
     Network**, and click **OK**. Once the result is displayed, simply
     close the window. All statistics are stored as regular table data.
 
@@ -643,7 +643,7 @@ protein-protein interactions as solid lines.
 1.  **Find the property:** In the Edge tab of the Style panel, find the
     **Stroke Color (Unselected)** property. If it is not already visible
     in the properties sheet, add it by selecting the drop-down item
-    **Properties ? Paint ? Color (Unselected) ? Stroke
+    **Properties | Paint | Color (Unselected) | Stroke
     Color (Unselected)**.
 
 2.  **Choose a data column to map to:** Expand the entry for **Stroke
@@ -687,7 +687,7 @@ network and display it along a color gradient.
 1.  **Find the property:** In the Node tab of the Style panel, find the
     **Fill Color** property. If it is not already visible in the
     properties sheet, add it by selecting the drop-down item
-    **Properties ? Paint ? Fill Color**.
+    **Properties | Paint | Fill Color**.
 
 2.  **Set the node table column:** Expand the entry for **Fill Color**
     by clicking the arrow icon on the right. Click the **Column** entry
@@ -744,7 +744,7 @@ for discrete mappings.
     the controlling property.
 
 3.  Right-click the **Fill Color** cell, then select **Mapping Value
-    Generators ? Rainbow**. Cytoscape will automatically generate
+    Generators | Rainbow**. Cytoscape will automatically generate
     different colors for all the property values as shown below:
 
     ![RainbowDiscreteMapping.png](_static/images/Styles/RainbowDiscreteMapping.png)
@@ -754,10 +754,10 @@ for discrete mappings.
     (**Column** field).
 
 5.  Right-click the **Label Font Size** cell, then select **Mapping
-    Value Generators ? Number Series**. Type **3** for the first value
+    Value Generators | Number Series**. Type **3** for the first value
     and click OK. Enter *3* for increment.
 
-6.  Apply **Layout ? yFiles Layouts ? Organic**. The final view is shown
+6.  Apply **Layout | yFiles Layouts | Organic**. The final view is shown
     below:
 
     ![Tutorial4-final.png](_static/images/Styles/Tutorial4-final.png)
@@ -781,7 +781,7 @@ assign up to nine images per node as a part of a Style.
 
 2.  If you are continuing from the previous tutorials, skip to the
     next step. Otherwise, load a network and run the Network Analyzer
-    (**Tools ? Network Analyzer ? Network Analysis ?
+    (**Tools | Network Analyzer | Network Analysis |
     Analyze Network...**). This creates several new table columns
     (statistics for nodes and edges).
 
@@ -789,8 +789,8 @@ assign up to nine images per node as a part of a Style.
     **Solid** style.
 
 4.  If the property **Image/Chart 1** is not in the properties sheet
-    yet, add it from the drop-down **Properties ? Paint ? Custom Paint 1
-    ? Image/Chart 1**.
+    yet, add it from the drop-down **Properties | Paint | Custom Paint 1
+    | Image/Chart 1**.
 
     ![ImageChart1-Add.png](_static/images/Styles/ImageChart1-Add.png)
 
@@ -816,7 +816,7 @@ assign up to nine images per node as a part of a Style.
 
     ![CustomGraphicsNodes.png](_static/images/Styles/CustomGraphicsNodes.png)
 
-11. Open the Image Manager under **View ? Open Image Manager...**. Drag
+11. Open the Image Manager under **View | Open Image Manager...**. Drag
     and Drop this
     ![sampleImage.png](_static/images/Styles/sampleImage.png)
     icon to the image list which automatically adds it to the manager.
@@ -838,7 +838,7 @@ assign up to nine images per node as a part of a Style.
     ![cgTutorial5.png](_static/images/Styles/cgTutorial5.png)
 
 14. Add the property **Image/Chart Position 2** from the drop-down
-    option **Properties ? Paint ? Custom Paint 2 ? Image/Chart Position
+    option **Properties | Paint | Custom Paint 2 | Image/Chart Position
     2**. Click its **Default Value** cell to move the position of the
     graphics to upper left.
 
@@ -857,13 +857,13 @@ The goal of this tutorial is to learn how to create and customize node
 charts from data stored in the Node tables.
 
 1.  Start a new session and load a sample network. From the main menu,
-    select **File ? Import ? Network ? File...**, and select
+    select **File | Import | Network | File...**, and select
     `sampleData/galFiltered.sif`.
 
 2.  Create some node/edge statistics using the **Network Analyzer**.
     Network Analyzer calculates some basic statistics for nodes
-    and edges. From the main menu, select **Tools ? Network Analyzer ?
-    Network Analysis ? Analyze Network...**, and click **OK**. Once the
+    and edges. From the main menu, select **Tools | Network Analyzer |
+    Network Analysis | Analyze Network...**, and click **OK**. Once the
     result is displayed, simply close the window. All statistics are
     stored as regular table data.
 
@@ -875,8 +875,8 @@ charts from data stored in the Node tables.
     new style when prompted.
 
 5.  If the property **Image/Chart 1** is not in the properties sheet
-    yet, add it from the drop-down **Properties ? Paint ? Custom Paint 1
-    ? Image/Chart 1**.
+    yet, add it from the drop-down **Properties | Paint | Custom Paint 1
+    | Image/Chart 1**.
 
     ![ImageChart1-Add.png](_static/images/Styles/ImageChart1-Add.png)
 
@@ -1028,7 +1028,7 @@ below).
 
 You can set multiple values at once. First, you need to select discrete
 mapping rows in which you want to change values then right-click and
-select **Edit ? Edit Selected Discrete Mapping Values**. A dialog pops
+select **Edit | Edit Selected Discrete Mapping Values**. A dialog pops
 up and you can enter the new value for the selected rows.
 
 ![EditSelectedMappingValues.png](_static/images/Styles/EditSelectedMappingValues.png)
@@ -1133,7 +1133,7 @@ Styles are automatically saved with the session they were created in.
 Before Cytoscape exits, you will be prompted to make sure you save the
 session before quitting. It is also possible to save your styles in a
 file separate from the session file. To do this, navigate to the menu
-option **File ? Export ? Styles...**, and save the selected styles to a
+option **File | Export | Styles...**, and save the selected styles to a
 file. This feature can be used to share styles with other users.
 
 ![ExportStylesDialog.png](_static/images/Styles/ExportStylesDialog.png)
@@ -1178,11 +1178,11 @@ on the track.
 <a id="importing_styles"> </a>
 ### Importing Styles
 
-To import existing styles, navigate to the menu option **File ? Import ?
+To import existing styles, navigate to the menu option **File | Import |
 Styles...** and select a `styles.xml` (Cytoscape 3 format) file.
 Imported properties will supplement existing properties or override
 existing ones if the properties have the same name. You can also specify
 a style file using the -V command line option. Properties loaded from
 the command line will override any default properties. Note that legacy
-`.props` files can only be loaded via the **File ? Import ? Styles...**
+`.props` files can only be loaded via the **File | Import | Styles...**
 menu, but not by command line.

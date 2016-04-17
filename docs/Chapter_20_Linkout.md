@@ -10,7 +10,7 @@ internal to Cytoscape. The defaults include a number of links such as
 Entrez, SGD, iHOP, and Google, as well as a number of species-specific
 links. In addition to the default links, users can customize the
 **External Links** menu and add (or remove) links by editing the linkout
-properties (found under **Edit ? Preferences ? Properties...**).
+properties (found under **Edit | Preferences | Properties...**).
 
 External links are listed as *'key'-'value'* pairs in the
 `linkout.props` file where *key* specifies the name of the link and
@@ -60,7 +60,7 @@ The default links are defined in a `linkout.props` file contained inside
 the Linkout JAR bundle under the
 framework/system/org/cytoscape/linkout-impl subdirectory of the
 Cytoscape installation. These links are normal Java properties and can
-be edited by going to **Edit ? Preferences ? Properties...** and
+be edited by going to **Edit | Preferences | Properties...** and
 selecting linkout from the box (shown below). Linkouts can be modified,
 added or removed using this dialog; however, note that the modifications
 would not be stored in the file. To change a URL permanently, you would
@@ -87,6 +87,6 @@ will add this menu item:
 ![Figure3\_linkout26.png](_static/images/Linkout/Figure3_linkout26.png)
 
 To remove a link from the menu, simply delete the property using **Edit
-? Preferences ? Properties...** and selecting **commandline**. Linkouts
+| Preferences | Properties...** and selecting **commandline**. Linkouts
 added in the command line will be available for the running instance of
 Cytoscape.
