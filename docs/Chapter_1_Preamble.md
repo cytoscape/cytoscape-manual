@@ -6,7 +6,7 @@ title: 'Cytoscape\_3/UserManual'
 ...
 
 <a name="cytoscape_user_manual"></a>
-# Cytoscape @version@ User Manual 
+# Cytoscape |version| User Manual 
 
 The Cytoscape User Manual copyright is owned by The Cytoscape
 Consortium, and is made available under the same GPL license as
