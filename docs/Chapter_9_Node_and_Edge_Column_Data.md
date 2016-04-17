@@ -10,7 +10,7 @@ confidence values in a protein-protein interaction. These column data
 can then be visualized in a user-defined way by setting up a mapping
 from columns to network properties (colors, shapes, and so on). The
 section on
-**[Styles](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Styles#)**
+**[Styles](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_14_Styles.html#styles#)**
 discusses this in greater detail.
 
 <a id="import_data_table_files"> </a>
@@ -315,7 +315,7 @@ selected nodes, you can use *Set* command from this editor.
 
 It is also possible to import node data columns from public databases
 via web services, for example from
-[BioMart](http://wiki.cytoscape.org/Cytoscape_3/UserManual/BioMart#).
+[BioMart](http://www.biomart.org/#).
 
 <a id="basic_operation"> </a>
 ### Basic Operation

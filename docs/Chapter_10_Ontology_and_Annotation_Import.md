@@ -26,7 +26,7 @@ GO 8150 biological\_process
 
 Cytoscape can use this ontology DAG (Directed Acyclic Graph) to annotate
 objects in networks. The Ontology Server (originally called
-"[BioDataServer](http://wiki.cytoscape.org/Cytoscape_3/UserManual/BioDataServer#)")
+"[BioDataServer](http://www.ncbi.nlm.nih.gov/pubmed/12066840)")
 is a Cytoscape feature which allows you to load, navigate, and assign
 annotation terms to nodes and edges in a network. Cytoscape 2.4 now has
 an enhanced GUI for loading ontology and associated annotation, enabling
