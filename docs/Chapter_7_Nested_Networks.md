@@ -21,7 +21,7 @@ There are currently two ways in which a user can create nested networks.
 -   By manually constructing networks and assigning nested networks to
     individual nodes through the right-click node context menu. (See
     **[Nested Network Node Context
-    Menu](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Navigation_Layout#NestedNetwork)**).
+    Menu](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_13_Navigation_and_Layout.html#nested-network-node-context-menu)**).
 
 <a id="visualization_of_nested_networks"> </a>	
 ## Visualization of Nested Networks
@@ -31,27 +31,4 @@ an image for the nested network. If no current network view exists for
 the nested network the image will be a default icon, otherwise it will
 be a low-resolution rendering of the nested network's current layout.
 
-![Nested Network visualization](_static/images/Nested_Networks/NestedNetwork.png)
-
 ![NestedNetwork2.png](_static/images/Nested_Networks/NestedNetwork2.png)
-
-Programmatically Manipulating Nested Networks
----------------------------------------------
-
-The giny.model.node interface defines two methods:
-
-```
-   public void setNestedNetwork(final
-    [GraphPerspective](http://wiki.cytoscape.org/Cytoscape_3/UserManual/GraphPerspective#)
-    graphPerspective); This will assign a "network"
-    ([GraphPerspective](http://wiki.cytoscape.org/Cytoscape_3/UserManual/GraphPerspective#))
-    to a Node or replace the assigned network at a node if there was a
-    prior existing one. In order to remove a nested network, please pass
-    null to this method.
-
-    public
-    [GraphPerspective](http://wiki.cytoscape.org/Cytoscape_3/UserManual/GraphPerspective#)
-    getNestedNetwork(); If a Node has an associated nested network, it
-    will be returned by this method. If no associated nested network
-    exists, null will be returned instead.
-```
