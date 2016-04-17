@@ -48,7 +48,7 @@ There are several ways to pan the network:
     then drag.
 
 -   Dragging Box on **[Network
-    Overview](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Quick_Tour#NetworkOverview)** -
+    Overview](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_5_Quick_Tour_of_Cytoscape.html#the-network-overview-window)** -
     You can also pan the image by holding down the left mouse button
     over the blue box in the overview panel in the lower part of the
     Network tab in the Control Panel.
@@ -125,7 +125,7 @@ menu.
     for the nested network not exist, it will be created.
 
 More information about nested networks can be found in the **[Nested
-Networks](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Nested_Networks#)**
+Networks](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_7_Nested_Networks.html#nested-networks)**
 section.
 
 <a id="automatic_layout_algorithms"> </a>
@@ -348,7 +348,7 @@ in the **Tool Panel**. This function will scale the position of the
 entire network or of the selected portion of the network. Note that only
 the position of the nodes will be scaled, not the node sizes. Node size
 can be adjusted using
-**[Styles](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Styles#)**.
+**[Styles](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_14_Styles.html#styles)**.
 The image below shows selected nodes scaled.
 
 Before
