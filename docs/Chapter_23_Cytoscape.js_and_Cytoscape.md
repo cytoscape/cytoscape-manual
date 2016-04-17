@@ -112,7 +112,7 @@ web site](http://cytoscape.github.io/cytoscape.js/).
 Cytoscape creates JSON file directly from data table and tries to
 extract as much data as possible from the original table. However, since
 table column names will be directly converted into
-[JavaScript](http://wiki.cytoscape.org/Cytoscape_3/UserManual/JavaScript#)
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 variable names, invalid characters will be replaced by underscore (\_):
 
 -   Original Data Table Column Names:
@@ -128,7 +128,7 @@ variable names, invalid characters will be replaced by underscore (\_):
 You should be careful when you plan to use this feature for data
 roundtrip: from Cytoscape to Cytoscape.js back to Cytoscape. For such
 use cases, **we strongly recommend to use
-[JavaScript](http://wiki.cytoscape.org/Cytoscape_3/UserManual/JavaScript#)-safe
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)-safe
 characters only in your table column names**. Naming your columns only
 with alphanumeric characters and underscore (\_) is the best practice.
 (For actual data entries, all characters are allowed. This restriction
@@ -187,7 +187,7 @@ supported.
 
 Although Cytoscape can export networks, tables, and Style as
 Cytoscape.js-compatible JSON, users have to write some
-[JavaScript](http://wiki.cytoscape.org/Cytoscape_3/UserManual/JavaScript#)
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 code to visualize the data files with Cytoscape.js. Details of web
 application development with Cytoscape.js is beyond the scope of this
 document. If you need examples and tutorials about web application
