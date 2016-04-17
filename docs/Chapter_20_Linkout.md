@@ -1,5 +1,5 @@
-Linkout
-=======
+<a id="linkout"> </a>
+# Linkout
 
 Linkout provides a mechanism to link nodes and edges to external web
 resources within Cytoscape. Right-clicking on a node or edge in
@@ -53,8 +53,8 @@ in an incorrect link. It is the user's responsibility to ensure that the
 node label that is used as the search term in the URL link will result
 in a meaningful link.
 
-Adding and Removing Links
--------------------------
+<a id="adding_and_removing_links"> </a>
+## Adding and Removing Links
 
 The default links are defined in a `linkout.props` file contained inside
 the Linkout JAR bundle under the

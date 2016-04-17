@@ -1,8 +1,8 @@
-Rendering Engine
-================
+<a id="rendering_engine"> </a>
+# Rendering Engine
 
-What is Level of Detail (LOD)?
-------------------------------
+<a id="what_is_level_of_detail_lod"> </a>
+## What is Level of Detail (LOD)?
 
 Cytoscape 3.0 retains the rendering engine found in version 2.8. It is
 to be able to display large networks (> 10,000 nodes), yet retain
@@ -37,6 +37,7 @@ With low LOD values, all nodes are displayed as square and anti-aliasing
 is turned off. With high LOD values, anti-aliasing is turned on and
 nodes are displayed as actual shape user specified in the Style.
 
+<a id="parameters_for_controlling_lod"> </a>
 ### Parameters for Controlling LOD
 
 **NOTE:** *The greater these thresholds become, the slower performance
@@ -59,6 +60,7 @@ When printing networks or exporting to formats such as PostScript, the
 highest level of detail is always chosen, regardless of what is
 currently being displayed on the screen.
 
+<a id="force_to_display_detail"> </a>
 ### Force to Display Detail
 
 If you want to display every detail of the network regardless of LOD

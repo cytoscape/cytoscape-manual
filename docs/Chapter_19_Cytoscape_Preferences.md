@@ -1,8 +1,8 @@
-Cytoscape Preferences
-=====================
+<a id="cytoscape_preferences"> </a>
+# Cytoscape Preferences
 
-Managing Properties
--------------------
+<a id="managing_properties"> </a>
+## Managing Properties
 
 The Cytoscape properties editor, accessed via **Edit ? Preferences ?
 Properties...**, is used to specify default properties. Any changes made
@@ -22,8 +22,8 @@ storing them in the `CytoscapeConfiguration` directory.
 
 -   ![Preferences\_linkout.png](_static/images/Preferences/Preferences_Linkout.png)
 
-Managing Bookmarks
-------------------
+<a id="managing_bookmarks"> </a>
+## Managing Bookmarks
 
 Cytoscape contains a pre-defined list of bookmarks, which point to
 sample network files located on the Cytoscape web server. Users may add,
@@ -38,8 +38,8 @@ pointing to Cytoscape network files. These are normal networks that can
 be loaded into Cytoscape. Table bookmarks are URLs pointing to data
 table files.
 
-Managing Proxy Servers
-----------------------
+<a id="managing_proxy_servers"> </a>
+## Managing Proxy Servers
 
 You can define and configure a proxy server for Cytoscape by going to
 **Edit ? Preferences ? Proxy Settings...**.
@@ -58,8 +58,8 @@ an opportunity to change your proxy settings.
 If you no longer need to use a proxy to connect to the Internet, simply
 set the Proxy type to "direct" and click the OK button.
 
-Managing Group View
--------------------
+<a id="managing_group_view"> </a>
+## Managing Group View
 
 The configuration of Cytoscape group view may also be edited through
 **Edit ? Preferences ? Group Preferences...**.

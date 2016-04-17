@@ -1,11 +1,11 @@
-Column Data Functions and Equations
-===================================
+<a id="column_data_functions_and_equations"> </a>
+# Column Data Functions and Equations
 
-Column Formulas
----------------
+<a id="column_formulas"> </a>
+## Column Formulas
 
-Introduction
-------------
+<a id="introduction"> </a>
+### Introduction
 
 Column data values may be formulas. A typical example is
 **=ABS(\$otherColumn + LOG(10.2))**. Formulas are modeled after
@@ -32,8 +32,8 @@ of the Excel(tm) **INT** function. Parentheses can be used for grouping
 and to change evaluation order. The operator precedence rules follow
 those of standard arithmetic.
 
-Operators
----------
+<a id="operators"> </a>
+### Operators
 
 Currently supported operators are the four basic arithmetic operators
 and the **\^** exponentiation operator. **+**, **-**, **\***, and
@@ -42,12 +42,12 @@ concatenation operator is **&**. Supported boolean or logical operators
 are the comparison operators **<**, **>**, **<=**, **>=**,
 **=**, and **<>** (not equal).
 
-Supported Functions
--------------------
+<a id="supported_functions"> </a>
+### Supported Functions
 
 Currently we support the following functions:
 
-### Cytoscape-specific functions
+#### Cytoscape-specific functions
 
 -   Degree -- the degree of a node.
 
@@ -59,7 +59,7 @@ Currently we support the following functions:
 
 -   TargetID -- the ID of the target of an edge.
 
-### Numeric Functions
+#### Numeric Functions
 
 -   Abs -- Returns the absolute value of a number.
 
@@ -111,7 +111,7 @@ Currently we support the following functions:
 
 -   Trunc -- Truncates a number.
 
-### String Functions
+#### String Functions
 
 -   Concatenate -- Concatenates two or more pieces of text.
 
@@ -134,7 +134,7 @@ Currently we support the following functions:
 
 -   Value -- Converts a string to a number.
 
-### Logical/Boolean Functions
+#### Logical/Boolean Functions
 
 -   And -- Returns the logical conjunction of any number of
     boolean values.
@@ -144,7 +144,7 @@ Currently we support the following functions:
 -   Or -- Returns the logical disjunction of any number of
     boolean values.
 
-### List Functions
+#### List Functions
 
 -   First -- Returns the first entry in a list.
 
@@ -152,7 +152,7 @@ Currently we support the following functions:
 
 -   Nth -- Returns the n-th entry in a list.
 
-### Statistical Functions
+#### Statistical Functions
 
 -   Largest -- the kth largest value in a list.
 
@@ -171,7 +171,7 @@ Currently we support the following functions:
 
 -   Var -- sample variance.
 
-### Miscellaneous Functions
+#### Miscellaneous Functions
 
 -   Combin - Returns the number of combinations for a given number
     of objects.
@@ -184,8 +184,8 @@ Currently we support the following functions:
 
 -   Today -- returns a string representation of the current date.
 
-Pitfalls
---------
+<a id="pitfalls"> </a>
+### Pitfalls
 
 The possibly biggest problem is the referencing of other columns that
 have null values. This is not allowed and leads to errors. In order to
@@ -198,14 +198,14 @@ name! The other potential problem is when there are circular column
 reference dependencies. Circular dependencies will be detected at
 formula evaluation time and lead to a run-time error.
 
-Useful Tips
------------
+<a id="useful_tips"> </a>
+### Useful Tips
 
 When working with formulas it can be very helpful to open the
 Developer's Log Console. Formula evaluation errors will be logged there.
 
-The Formula Builder
--------------------
+<a id="the_formula_builder"> </a>
+## The Formula Builder
 
 In order to ease the creation of formulas as well as to facilitate
 discovery of built-in functions we provide a **Function Builder** in the
@@ -238,8 +238,8 @@ major shortcoming at this time is that the Formula Builder won't let you
 compose functions with function calls as arguments. If you need the most
 general functionality, please type the expression directly into a cell.
 
-A Note for App Writers
-----------------------
+<a id="a_note_for_app_writers"> </a>
+## A Note for App Writers
 
 It is relatively easy to add your own built-in formula functions. A
 simple function can probably be implemented in 15 to 20 minutes. It can

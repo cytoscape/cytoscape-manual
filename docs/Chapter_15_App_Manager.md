@@ -1,8 +1,8 @@
-App Manager
-===========
+<a id="app_manager"> </a>
+# App Manager
 
-What are apps?
---------------
+<a id="what_are_apps"> </a>
+## What are Apps?
 
 Cytoscape's capabilities are not fixed. They can be expanded with
 **apps**. They can extend Cytoscape in a variety of ways. One app can
@@ -15,8 +15,8 @@ If you're familiar with Cytoscape 2.x, you probably know that Cytoscape
 apps were called **plugins**. Starting in Cytoscape 3.0, we are calling
 them **apps**. Cytoscape 2.x plugins cannot be used in Cytoscape 3.0.
 
-Installing Apps
----------------
+<a id="installing_apps"> </a>
+## Installing Apps
 
 You can install apps through [the App Store](http://apps.cytoscape.org)
 or within Cytoscape. In this section, we'll talk about installing apps
@@ -53,8 +53,8 @@ bottom-right. If you want to go ahead and install the app, click the
 If you've downloaded an app to your computer, you can install it by
 clicking the **Install from File** button on the bottom-left.
 
-Managing your Installed Apps
-----------------------------
+<a id="managing_your_installed_apps"> </a>
+## Managing your Installed Apps
 
 You can see a list of all apps you have installed by clicking the
 **Currently Installed** tab at the top. When you click on an app in the

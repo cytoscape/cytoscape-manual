@@ -1,8 +1,8 @@
-Cytoscape.js and Cytoscape
-==========================
+<a id="cytoscape_js_and_cytoscape"> </a>
+# Cytoscape.js and Cytoscape
 
-What is Cytoscape.js?
----------------------
+<a id="what_is_cytoscape_js"> </a>
+## What is Cytoscape.js?
 
 ![jsWebSite.png](_static/images/CytoscapeJs/jsWebSite.png)
 
@@ -13,6 +13,7 @@ application. If you have network data sets and want to share
 visualizations created with Cytoscape, you can build your own website
 using Cytoscape.js and this new **Export to Cytoscape.js** feature.
 
+<a id="examples"> </a>
 ### Examples
 
 -   A network visualized with Cytoscape 3.1.0
@@ -27,6 +28,7 @@ using Cytoscape.js and this new **Export to Cytoscape.js** feature.
 -   [Interactive example (galFiltered.sif rendered with
     Cytoscape.js 2.0.3)](http://chianti.ucsd.edu/~kono/dist/)
 
+<a id="differences_and_shared_concepts"> </a>
 ### Differences and Shared Concepts
 
 Although Cytoscape and Cytoscape.js are two completely independent
@@ -74,8 +76,8 @@ as the first step Cytoscape now supports reading and writing
 Cytoscape.js network/table JSON files. In addition, Cytoscape can
 convert *Styles* to Cytoscape.js Style object.
 
-Data Exchange between Cytoscape and Cytoscape.js
-------------------------------------------------
+<a id="data_exchange_between_cytoscape_and_cytoscape_js"> </a>
+## Data Exchange between Cytoscape and Cytoscape.js
 
 Since Cytoscape.js is a JavaScript library, its basic data exchange
 format is [JSON (JavaScript Object Notation)](http://www.json.org/). All
@@ -83,6 +85,7 @@ of these import/export functions are part of standard Cytoscape user
 interface, and you can read/write Cytoscape.js JSON files just like
 other standard files such as SIF.
 
+<a id="export_network_and_table_to_cytoscape_js"> </a>
 ### Export Network and Table to Cytoscape.js
 
 Cytoscape.js stores network data (graph) and its data table in the same
@@ -131,11 +134,12 @@ with alphanumeric characters and underscore (\_) is the best practice.
 (For actual data entries, all characters are allowed. This restriction
 is only for table column names.)
 
-### Export Styles to Cytoscape.js
+#<a id="export_styles_to_cytoscape_js"> </a>
+## Export Styles to Cytoscape.js
 
 Cytoscape and Cytoscape.js are sharing a concept called **Style**. This
 is a collection of mappings from data point to network property.
-Cytoscape can export its Styles into CSS-based Cytoscape.js JSON.
+oCytoscape can export its Styles into CSS-based Cytoscape.js JSON.
 
 You can export *all Styles into one JSON file* from **File ? Export ?
 Style** and select Cytoscape.js JSON as its format.
@@ -171,14 +175,15 @@ features in Cytoscape.js.
 [![small.png](_static/images/CytoscapeJs/CS-web_vs_CS-1.png)](_static/images/CS-web_vs_CS-1_small.png)
 [![small.png](_static/images/CytoscapeJs/CS-web_vs_CS-2.png)](_static/images/CS-web_vs_CS-2_small.png)
 
+<a id="import_cytoscape.js_data_into_cytoscape"> </a>
 ### Import Cytoscape.js data into Cytoscape
 
 Cytoscape.js network JSON files can be loaded from standard Cytoscape
 file menu: **File ? Import ? Network ?**. Both File and URL are
 supported.
 
-Build Your Own Web Application with Cytoscape.js
-------------------------------------------------
+<a id="build_your_own_web_application_with_cytoscape_js"> </a>
+## Build Your Own Web Application with Cytoscape.js
 
 Although Cytoscape can export networks, tables, and Style as
 Cytoscape.js-compatible JSON, users have to write some
@@ -190,6 +195,7 @@ development with Cytoscape.js, please visit the following web site:
 
 -   [](https://github.com/cytoscape/cyjs-sample/wiki)
 
+<a id="questions"> </a>
 ### Questions?
 
 If you have questions and comments about web application development

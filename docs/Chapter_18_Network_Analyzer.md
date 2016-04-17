@@ -1,5 +1,5 @@
-NetworkAnalyzer
-===============
+<a id="networkanalyzer"> </a>
+# NetworkAnalyzer
 
 NetworkAnalyzer computes a comprehensive set of topological parameters
 for undirected and directed networks, including:
@@ -19,9 +19,10 @@ NetworkAnalyzer also constructs the intersection, union and difference
 of two networks. It supports the extraction of connected components as
 separate networks and the removal of self-loops.
 
-Network Analysis
-----------------
+<a id="network_analysis"> </a>
+## Network Analysis
 
+<a id="analyze_network"> </a>
 ### Analyze Network
 
 To run NetworkAnalyzer, select **Tools ? NetworkAnalyzer ? Network
@@ -64,6 +65,7 @@ found
 You can also save the statistics for later use by using the **Save
 Statistics** button.
 
+<a id="analyze_subset_of_nodes"> </a>
 ### Analyze Subset of Nodes
 
 An exhaustive topological analysis of very large networks can be a time
@@ -81,6 +83,7 @@ by the selected nodes is analyzed. Moreover, only local parameters are
 computed. Shared neighbors distribution and shortest path lengths
 distribution, among others, are not displayed in the results.
 
+<a id="batch_analysis"> </a>
 ### Batch Analysis
 
 The **Batch Analysis** option is used to perform topological analysis on
@@ -113,12 +116,14 @@ simple steps:
     network name and on statistics file name, the user can load the
     network and topology analysis results, respectively.
 
+<a id="load_network_statistics"> </a>
 ### Load Network Statistics
 
 Existing network statistics can be loaded from a file saved previously
 in
 [NetworkAnalyzer](http://wiki.cytoscape.org/Cytoscape_3/UserManual/NetworkAnalyzer#).
 
+<a id="plot_parameters"> </a>
 ### Plot Parameters
 
 The **Plot Parameters** dialog offers a possibility to plot two
@@ -128,6 +133,7 @@ the values for the domain/category axis, and the **Table Column 2** menu
 specifies the values for the range/value axis. The plot is updated each
 time a different parameter is selected in one of the menus.
 
+<a id="generate_style_from_statistics"> </a>
 ### Generate Style from Statistics
 
 NetworkAnalyzer computed parameters can be visualized as node/edge size
@@ -162,6 +168,7 @@ parameters.
 
 ![NetworkAnalyzer\_VisualizeParameters.png](_static/images/Network_Analyzer/NetworkAnalyzer_VisualizeParameters.png)
 
+<a id="networkanalyzer_settings"> </a>
 ### NetworkAnalyzer Settings
 
 The following settings can be configured by the user:
@@ -209,8 +216,8 @@ The following settings can be configured by the user:
     page for NetworkAnalyzer. This also enables the local download and
     storage of this help page.
 
-Subnetwork Creation
--------------------
+<a id="subnetwork_creation"> </a>
+## Subnetwork Creation
 
 NetworkAnalyzer allows for the creation of sub-networks of connected
 components. The user selects a number of connected components from a

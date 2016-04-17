@@ -1,15 +1,15 @@
-Programmatic Access to Cytoscape Features (Scripting)
-=====================================================
+<a id="programmatic_access_to_cytoscape_features_scripting"> </a>
+# Programmatic Access to Cytoscape Features (Scripting)
 
-Programmatic Access to Cytoscape Features
------------------------------------------
+<a id="programmatic_access_to_cytoscape_features"> </a>
+## Programmatic Access to Cytoscape Features
 
 In this chapter, you will learn how to use Cytoscape from the command
 line and scripts. These features replace the ***Scripting*** module in
 past versions of Cytoscape.
 
-Topics
-------
+<a id="topics"> </a>
+## Topics
 
 -   ***Commands***
 
@@ -19,8 +19,8 @@ Topics
 
     -   **cyREST**
 
-Background
-----------
+<a id="background"> </a>
+## Background
 
 Cytoscape's intuitive graphical user interface is useful for
 *interactive* network data integration, analysis, and visualization. It
@@ -53,6 +53,7 @@ The Command feature is useful for executing sequences of commands,
 whereas the RESTful API feature is useful when Cytoscape is to be used
 as a service relative to an application.
 
+<a id="commands"> </a>
 ### Commands
 
 -   ![CommandTool.png](_static/images/ProgrammaticAccess/CommandTool.png)
@@ -64,6 +65,7 @@ section:
 -   [Command
     Tool](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Command_Tool#)
 
+<a id="restful_api"> </a>
 ### RESTful API
 
 In some cases, you may need to use fully featured programming languages,

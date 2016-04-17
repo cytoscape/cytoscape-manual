@@ -1,5 +1,5 @@
-Cytoscape |version| User Manual
-===============================
+<a id="cytoscape_user_manual"> </a>
+# Cytoscape |version| User Manual
 
 The Cytoscape User Manual copyright is owned by The Cytoscape
 Consortium, and is made available under the same GPL license as
@@ -9,8 +9,8 @@ http://www.gnu.org/licenses/lgpl-2.1.html
 
 Copyright (c) 2001-2016 The Cytoscape Consortium
 
-Introduction
-============
+<a id="introduction"> </a>
+# Introduction
 
 Cytoscape |version| is the latest version of Cytoscape, building upon
 the new architecture, developer API and set of user controls established
@@ -25,8 +25,8 @@ thorough understanding of Cytoscape and its ecosystem, we highly
 recommend reading the **Welcome Letter** accessible on the
 http://cytoscape.org website.
 
-TOC
-===
+<a id="toc"> </a>
+# TOC
 
 My intro section should be below ... because of Preamble and Introduction
 

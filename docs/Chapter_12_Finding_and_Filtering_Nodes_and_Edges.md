@@ -1,8 +1,8 @@
-Finding and Filtering Nodes and Edges
-=====================================
+<a id="finding_and_filtering_nodes_and_edges"> </a>
+# Finding and Filtering Nodes and Edges
 
-Search Bar
-----------
+<a id="search_bar"> </a>
+## Search Bar
 
 You can search for nodes and edges by column value directly through
 Cytoscape's tool bar. For example, to select nodes or edges with a
@@ -35,8 +35,8 @@ characters is:
 currently does not work for column-specific searching. This will be
 fixed in a future release.
 
-Filters
--------
+<a id="filters"> </a>
+## Filters
 
 Cytoscape 3 provides a new user interface for filtering nodes and edges.
 These tools can be found in the **Select** panel:
@@ -47,6 +47,7 @@ There are two types of filters. On the **Filter** tab are *narrowing*
 filters, which can be combined into a tree. On the **Chain** tab are
 *chainable* filters, which can be combined in a linear chain.
 
+<a id="narrowing_filters"> </a>
 ### Narrowing Filters
 
 Narrowing filters are applied to the entire network, and are used to
@@ -62,6 +63,7 @@ with the mouse and drag and drop the filter on its intended destination.
 Dropping a filter on top of another filter will group the filters into a
 composite filter.
 
+<a id="interactive_filter_application_mode"> </a>
 #### Interactive Filter Application Mode
 
 Due to the nature of narrowing filters, Cytoscape can apply them to a
@@ -76,6 +78,7 @@ button:
 
 Cytoscape comes packaged with the following narrowing filters:
 
+<a id="column_filter"> </a>
 #### Column Filter
 
 This filter will match nodes or edges that have particular column
@@ -98,6 +101,7 @@ following regular expression: "(?-i)ABC".
 Cytoscape uses [Java regular expression
 syntax](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html).
 
+<a id="degree_filter"> </a>
 #### Degree Filter
 
 The degree filter matches nodes with a degree that falls within the
@@ -105,6 +109,7 @@ given minimum and maximum values, inclusive. You can choose whether the
 filter operates on the in-degree, out-degree or overall (in + out)
 degree.
 
+<a id="topology_filter"> </a>
 #### Topology Filter
 
 The topology filter matches nodes having a certain number of neighbors
@@ -115,6 +120,7 @@ independently, and the sub-filter is applied to each such neighbor node.
 The topology filter will successfully match a node if the sub-filter
 matches against the required number of neighbor nodes.
 
+<a id="grouping_and_organizing_filters"> </a>
 #### Grouping and Organizing Filters
 
 By default, nodes and edges need to satisfy the constraints of all your
@@ -140,6 +146,7 @@ group's matching behavior to **Match any**:
 You can also reorder filters by dropping them in-between existing
 filters.
 
+<a id="chainable_filters"> </a>
 ### Chainable Filters
 
 Chainable filters are combined in an ordered list. The nodes and edges
@@ -160,6 +167,7 @@ dropping it between existing filters.
 
 Cytoscape currently bundles the following chainable filters:
 
+<a id="edge_interaction_transformer"> </a>
 #### Edge Interaction Transformer
 
 This transformer will go through all the input edges and selectively add
@@ -179,6 +187,7 @@ Output options:
 A sub-filter may be added as well. When a sub-filter is present the
 source/target nodes must match the filter to be included in the output.
 
+<a id="node_adjacency_transformer"> </a>
 #### Node Adjacency Transformer
 
 This transformer is used to add nodes and edges that are adjacent to the
@@ -232,6 +241,7 @@ Sub-filter options. (Available when a sub-filter has been added.):
     and a node at the same time it should be a compound filter that is
     set to "Match any (OR)".
 
+<a id="working_with_narrowing_and_chainable_filters"> </a>
 ### Working with Narrowing and Chainable Filters
 
 The name of active filter appears in the drop-down box at the top of
@@ -246,8 +256,8 @@ will re-apply the active filter. On the opposite side of the progress
 bar is the cancel button, which will let you interrupt a long-running
 filter.
 
-The Select Menu
----------------
+<a id="the_select_menu"> </a>
+## The Select Menu
 
 The **Select ? Nodes** and **Select ? Edges** menus provide several
 mechanisms for selecting nodes and edges. Most options are fairly

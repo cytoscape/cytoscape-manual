@@ -1,5 +1,5 @@
-Command Tool
-============
+<a id="command_tool"> </a>
+# Command Tool
 
 The **Command Line Tool** provides a simple command-line interface to
 Cytoscape using the Commands API. Any app that registers commands will

@@ -1,8 +1,8 @@
-Styles
-======
+<a id="styles"> </a>
+# Styles
 
-What are Styles?
-----------------
+<a id="what_are_styles"> </a>
+## What are Styles?
 
 One of Cytoscape's strengths in network visualization is the ability to
 allow users to encode any table data (name, type, degree, weight,
@@ -68,8 +68,8 @@ applied to the *galFiltered.sif* network :
 ![ripple\_style.png](_static/images/Styles/ripple_style.png)
 ![universe\_style.png](_static/images/Styles/universe_style.png)
 
-Introduction to the Style interface
------------------------------------
+<a id="introduction_to_the_style_interface"> </a>
+## Introduction to the Style Interface
 
 The **Style** interface is located under the **Style** panel of the
 **Control Panel**.
@@ -117,8 +117,8 @@ all or a subset of nodes/edges, depending on how the mapping is defined.
 A **Bypass** on a specific set of nodes/edges will bypass and override
 both the default value and defined mapping.
 
-Introduction to Style
----------------------
+<a id="introduction_to_style"> </a>
+## Introduction to Style
 
 The Cytoscape distribution includes several predefined styles to get you
 started. To examine a few styles, try out the following example:
@@ -167,6 +167,7 @@ Additional sample styles are available in the `sampleStyles.xml` file in
 the *sampleData* directory. You can import the sample file from **File ?
 Import ? Styles...**.
 
+<a id="list_of_node_edge_and_network_properties"> </a>
 ### List of Node, Edge and Network Properties
 
 Cytoscape allows a wide variety of properties to be controlled. These
@@ -265,6 +266,7 @@ are summarized in the tables below.
 </table>
 <br>
 
+<a id="available_shapes_and_line_styles"> </a>
 ### Available Shapes and Line Styles
 
 <table cellspacing="0" style="table-layout: fixed; width: 440px">
@@ -280,6 +282,7 @@ are summarized in the tables below.
 <br>
 
 
+<a id="how_mappings_work"> </a>
 ### How Mappings Work
 
 For each property, you can specify a default value or define a dynamic
@@ -395,6 +398,7 @@ The table below shows mapping support for each property.
 </table>
 <br>
 
+<a id="text_passthrough_mapping"> </a>
 #### Text Passthrough Mapping
 
 In Cytoscape 2.8.0 and later versions, the Passthrough Mapping can
@@ -432,8 +436,8 @@ types are supported:
     -   ![CustomGraphicsPassthrough.png](_static/images/Styles/CustomGraphicsPassthrough.png)
         ![cglorPt2.png](_static/images/Styles/cglorPt2.png)
 
-Images, Charts and Gradients
-----------------------------
+<a id="images_charts_and_gradients"> </a>
+## Images, Charts and Gradients
 
 Cytoscape allows you to set custom graphics to nodes. Using the Style
 interface, you can map **Image/Chart** properties to nodes like any
@@ -447,6 +451,7 @@ set used in this section is created by Database Center for Life Science
 (DBCLS) and is distributed under Creative Commons License ([CC BY
 2.1.](http://creativecommons.org/licenses/by/2.1/jp/deed.en))
 
+<a id="managing_images"> </a>
 ### Managing Images
 
 The **Image Manager** is available under the menu option **View ? Open
@@ -479,6 +484,7 @@ Image Manager...**:
     width-height ratio is always synchronized. You can resize the image
     to the original size by pressing the **Original** button.
 
+<a id="using_graphics_in_styles"> </a>
 ### Using Graphics in Styles
 
 -   ![CustomGraphicsVizMapper.png](_static/images/Styles/CustomGraphicsVizMapper.png)
@@ -529,6 +535,7 @@ Node graphics are used and defined like any other property, through the
 
 -   ![CustomGraphicsSelector.png](_static/images/Styles/CustomGraphicsSelector.png)
 
+<a id="graphics_positions"> </a>
 #### Graphics Positions
 
 Each **Image/Chart** property is associated with a position. You can
@@ -540,12 +547,14 @@ position of **Image/Chart 2**.
 -   **Note:** Setting graphics positions for *Linear* or *Radial*
     gradients has no effect, as they are always centered on the node.
 
+<a id="z-ordering"> </a>
 #### Z-Ordering
 
 The number that appears with the **Image/Chart** property represents an
 ordering of layers. Basic node color and shape are always rendered
 first, then node Image/Chart 1, 2, ..., through 9.
 
+<a id="saving_and_loading_images"> </a>
 ### Saving and Loading Images
 
 In general, saving and loading images is automatic. When you quit
@@ -575,12 +584,13 @@ In any case, images will be saved automatically to your system or
 session and will be restored when you restart Cytoscape or load a
 session.
 
-Styles Tutorials
-----------------
+<a id="styles_tutorials"> </a>
+## Styles Tutorials
 
 The following tutorials demonstrate some of the basic **Style**
 features. Each tutorial is independent of the others.
 
+<a id="tutorial_1_creating_a_basic_style_and_setting_default_values"> </a>
 ### Tutorial 1: Creating a Basic Style and Setting Default Values
 
 The goal of this tutorial is to learn how to create a new Style and set
@@ -622,6 +632,7 @@ mappings for all properties.
 
     ![Tutorial1-final.png](_static/images/Styles/Tutorial1-final.png)
 
+<a id="tutorial_2_creating_a_new_style_with_a_discrete_mapping"> </a>
 ### Tutorial 2: Creating a New Style with a Discrete Mapping
 
 Now you have a network with a new Style. The following section
@@ -664,6 +675,7 @@ Now your network should show "pd" interactions as dashed green lines and
 
 ![Tutorial2-final.png](_static/images/Styles/Tutorial2-final.png)
 
+<a id="tutorial_3_creating_a_new_style_with_a_continuous_mapping"> </a>
 ### Tutorial 3: Creating a New Style with a Continuous Mapping
 
 At this point, you have a network with some edge mappings. Next, let's
@@ -716,6 +728,7 @@ screenshot below).
 
     ![Tutorial3-EdgeThickness.png](_static/images/Styles/Tutorial3-EdgeThickness.png)
 
+<a id="tutorial_4_setting_automatic_values_to_a_discrete_mapping"> </a>
 ### Tutorial 4: Setting Automatic Values to a Discrete Mapping
 
 The goal of this section is to learn how to generate automatic values
@@ -755,6 +768,7 @@ to node color.
 
 -   ![tutorial4\_sample.png](_static/images/Styles/tutorial4_sample.png)
 
+<a id="tutorial_5_using_images_in_styles"> </a>
 ### Tutorial 5: Using Images in Styles
 
 This tutorial is a quick introduction to the node image feature. You can
@@ -836,6 +850,7 @@ assign up to nine images per node as a part of a Style.
 
     ![CustomGraphicsNodes2.png](_static/images/Styles/CustomGraphicsNodes2.png)
 
+<a id="tutorial_6_creating_node_charts"> </a>
 ### Tutorial 6: Creating Node Charts
 
 The goal of this tutorial is to learn how to create and customize node
@@ -968,9 +983,10 @@ charts from data stored in the Node tables.
 
     ![BarChartsNode\_6\_3.png](_static/images/Styles/BarChartsNode_6_3.png)
 
-Advanced Topics
----------------
+<a id="advanced_topics"> </a>
+## Advanced Topics
 
+<a id="discrete_mappings"> </a>
 ### Discrete Mappings
 
 Several utility functions are available for Discrete Mappings. You can
@@ -979,6 +995,7 @@ below).
 
 ![MappingValueGenerators.png](_static/images/Styles/MappingValueGenerators.png)
 
+<a id="automatic_value_generators"> </a>
 #### Automatic Value Generators
 
 -   **Mapping Value Generators** - Functions in this menu category are
@@ -1006,6 +1023,7 @@ below).
 
         -   ![NodeLabelFit.png](_static/images/Styles/NodeLabelFit.png)
 
+<a id="edit_selected_values_at_once"> </a>
 #### Edit Selected Values at Once
 
 You can set multiple values at once. First, you need to select discrete
@@ -1015,6 +1033,7 @@ up and you can enter the new value for the selected rows.
 
 ![EditSelectedMappingValues.png](_static/images/Styles/EditSelectedMappingValues.png)
 
+<a id="working_with_continuous_mapping_editors"> </a>
 ### Working with Continuous Mapping Editors
 
 There are three kinds of **Continuous Mapping Editors**. Each of them
@@ -1032,6 +1051,7 @@ are associated with a specific property type:
 </table>
 <br>
 
+<a id="range_settings_panel"> </a>
 #### Range Settings Panel
 
 ![RangeSetting26.png](_static/images/Styles/RangeSetting26.png)
@@ -1056,6 +1076,7 @@ buttons.
 5.  *Handle Value* (e.g. **Node Fill Color**) - Click this button to
     edit the value (e.g. a color) assigned to the selected handle.
 
+<a id="gradient_editor"> </a>
 #### Gradient Editor
 
 ![GradientEditorSample26.png](_static/images/Styles/GradientEditorSample26.png)
@@ -1075,6 +1096,7 @@ only when the editor has two or more handles (see the example below).
 </table>
 <br>
 
+<a id="continuous-continuous_editor"> </a>
 #### Continuous-Continuous Editor
 
 ![C2CEditor26.png](_static/images/Styles/C2CEditor26.png)
@@ -1085,6 +1107,7 @@ change the value assigned on the Y-axis (the property shown in the
 example above is edge **Width**), drag the small squares or double-click
 them to directly type an exact value.
 
+<a id="continuous-discrete_editor"> </a>
 #### Continuous-Discrete Editor
 
 ![C2DEditor26.png](_static/images/Styles/C2DEditor26.png)
@@ -1094,8 +1117,8 @@ column values to discrete properties, such as fonts, shapes, or line
 styles. To edit a value for a specific region, double-click the icon on
 the track.
 
-Managing Styles
----------------
+<a id="managing_styles"> </a>
+## Managing Styles
 
 All Cytoscape Style settings are initially loaded from a default file
 that cannot be altered by users. When users make changes to the
@@ -1103,6 +1126,7 @@ properties, a `session_syle.xml` file is saved in the session file. This
 means that if you save your session, you will not lose your properties.
 No other style files are saved during normal operation.
 
+<a id="saving_styles"> </a>
 ### Saving Styles
 
 Styles are automatically saved with the session they were created in.
@@ -1123,6 +1147,7 @@ file to your `CytoscapeConfiguration` directory (found in your home
 directory). These styles will then be loaded each time Cytoscape is
 started.
 
+<a id="style_file_formats"> </a>
 #### Style File Formats
 
 The Cytoscape-native Style format is *Style XML*. If you want to share
@@ -1150,6 +1175,7 @@ data values to discrete properties, such as fonts, shapes, or line
 styles. To edit a value for a specific region, double-click on the icon
 on the track.
 
+<a id="importing_styles"> </a>
 ### Importing Styles
 
 To import existing styles, navigate to the menu option **File ? Import ?

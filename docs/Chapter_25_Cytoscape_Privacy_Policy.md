@@ -1,5 +1,5 @@
-Cytoscape Privacy Policy
-========================
+<a id="cytoscape_privacy_policy"> </a>
+# Cytoscape Privacy Policy
 
 We respect the privacy of all Cytoscape users, and we do not collect any
 information on Cytoscape users except in the situations listed below. In
