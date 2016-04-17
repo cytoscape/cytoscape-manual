@@ -25,7 +25,7 @@ will be referenced with a URL).
 <a id="load_networks_from_local_computer"> </a>
 ### Load Networks from Local Computer
 
-In order to load a network from a local file you can select **File &#x890;
+In order to load a network from a local file you can select **File \rhd
 Import ? Network ? File...** or click on
 ![Cy3\_icon\_net\_file\_import.png](_static/images/Creating_Networks/Cy3_icon_net_file_import.png)
 on the tool bar. Choose the correct file in the file chooser dialog and
