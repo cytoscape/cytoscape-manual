@@ -5,17 +5,19 @@ This project is the working copy of the Cytoscape user manual. It will become th
 
 1. Table formatting using centralized CSS (mostly done)
 
-2. Links within the document resolving properly (see notes below)
+2. Links within the document resolving properly (done)
  
 3. Links from outside of the document resolving properly (see notes below)
 
 4. A proper placement of First pages, Table of Contents, and Document body
  
-5. Typos introduced by the conversion process
+5. Typos introduced by the conversion process (mostly done)
 
 4. A properly formatted PDF file
 
 5. Incorporating the PDF file into the Cytoscape build process
+
+6. Comparison of existing manual and new manual
 
 While the manual sources are maintained in GitHub, the document is actually assembled, formatted, and staged by the ReadTheDocs.org site. ReadTheDocs presents online and PDF versions, and we will use both.
 
