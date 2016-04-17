@@ -93,7 +93,7 @@ defined in SIF format, node names should be unique, as identically named
 nodes will be treated as identical nodes. The name of each node will be
 the name in this file by default (unless another string is mapped to
 display on the node using styles). This is discussed in the section on
-**[Styles](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Styles#)**.
+**[Styles](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_14_Styles.html#styles)**.
 The name of each edge will be formed from the name of the source and
 target nodes plus the interaction type: for example,
 `sourceName (edgeType) targetName`.
@@ -312,7 +312,7 @@ Some of the other network analysis tools, such as igraph
 as simple text files. Cytoscape can read these text files and build
 networks from them. For more detail, please read the Import Free-Format
 Tables section of the **[Creating
-Networks](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual#Creating_Networks)**
+Networks](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_6_Creating_Networks.html#creating-networks)**
 section.
 
 <a id="cytoscape_js_json"> </a>
