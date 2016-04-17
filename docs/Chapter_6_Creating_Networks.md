@@ -16,7 +16,7 @@ There are 4 different ways of creating networks in Cytoscape:
 
 Network files can be specified in any of the formats described in the
 **[Supported Network
-Formats](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_User_Manual/Network_Formats#)**
+Formats](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_8_Supported_Network_File_Formats.html#supported-network-file-formats)**
 section. Networks are imported into Cytoscape through the **File ?
 Import ? Network menu**. The network file can either be located directly
 on the local computer, or found on a remote computer (in which case it
@@ -51,7 +51,7 @@ Network ? URL...**. In the import network dialog, insert the appropriate
 URL, either manually or using URL bookmarks. Bookmarked URLs can be
 accessed by clicking on the arrow to the right of the text field (see
 the Bookmark Manager in
-[Preferences](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_User_Manual/Preferences#)
+[Preferences](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_19_Cytoscape_Preferences.html#cytoscape-preferences)
 for more details on bookmarks). Also, you can drag and drop links from a
 web browser to the URL text box. Once a URL has been specified, click on
 the OK button to load the network.
@@ -63,7 +63,7 @@ affect which files are accessible to a computer. To work around this
 problem, Cytoscape supports the use of proxy servers. To configure a
 proxy server, go to **Edit ? Preferences? Proxy Settings...**. This is
 further described in the
-**[Preferences](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_User_Manual/Preferences#)**
+**[Preferences](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_19_Cytoscape_Preferences.html#cytoscape-preferences)**
 section.
 
 <a id="import_networks_from_unformatted_table_files"> </a>
@@ -136,7 +136,7 @@ can be imported as edge data.
 The network import function cannot import node table columns - only edge
 table columns. To import node table columns from this table, please see
 the **[Node and Edge Column
-Data](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Columns#)**
+Data](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_9_Node_and_Edge_Column_Data.html#node-and-edge-column-data)**
 section of this manual.
 
 Note (1): This data is taken from the *A merged human interactome*
@@ -183,7 +183,7 @@ select only a source column, it creates a network without interactions.
 This feature is useful with the node expansion function available from
 some web service clients. Please read the section **[Importing Networks
 from External
-Database](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_User_Manual/ImportingNetworksFromWebServices#)**
+Database](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_6_Creating_Networks.html?highlight=external%20database#import-networks-from-public-databases)**
 for more detail.
 
 <a id="advanced_options"> </a>

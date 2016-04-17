@@ -143,7 +143,7 @@ selected network.
 Editing preferences for properties and apps is found under **Edit ?
 Preferences ? Properties...**. More details on how to edit preferences
 can be found
-[here](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Cytoscape_3/UserManual/Preferences#).
+[here](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_19_Cytoscape_Preferences.html#cytoscape-preferences).
 
 -   ![EditMenu.png](_static/images/Quick_Tour/EditMenu.png)
 
