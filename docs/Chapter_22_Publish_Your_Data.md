@@ -113,22 +113,22 @@ information, see the **Export Styles to Cytoscape.js** section below.
 <a id="sharing_via_cynetshare"> </a>
 #### Sharing via CyNetShare
 
-[CyNetShare](http://cynetshare.ucsd.edu/#/)
+[CyNetShare](http://idekerlab.github.io/cy-net-share/)
 is a browser-based web application that renders JSON-formatted networks
 and attributes saved in public directories. Optionally, you can specify
 visual styles that the web application will use to draw your network as
 it appears in Cytoscape.
-[CyNetShare](http://cynetshare.ucsd.edu/#/)
+[CyNetShare](http://idekerlab.github.io/cy-net-share/)
 is similar to Google Maps in that once you have loaded your network and
 have tweaked its appearance to suit, you can have
-[CyNetShare](http://cynetshare.ucsd.edu/#/)
+[CyNetShare](http://idekerlab.github.io/cy-net-share/)
 generate a new URL that you can e-mail or post as a link on your own web
 site. That URL will bring up
-[CyNetShare](http://cynetshare.ucsd.edu/#/)
+[CyNetShare](http://idekerlab.github.io/cy-net-share/)
 preloaded with your network for anyone to see.
 
 To use
-[CyNetShare](http://cynetshare.ucsd.edu/#/):
+[CyNetShare](http://idekerlab.github.io/cy-net-share/):
 
 1.  Select ***File ? Export ? Network and View...*** to export your
     network to a public directory. Choose the *Cytoscape.js
@@ -150,16 +150,16 @@ To use
 7.  Click the ***Visualize*** button.
 
 The
-[CyNetShare](http://cynetshare.ucsd.edu/#/)
+[CyNetShare](http://idekerlab.github.io/cy-net-share/)
 User Guide is provided on the
-[CyNetShare](http://cynetshare.ucsd.edu/#/)
+[CyNetShare](http://idekerlab.github.io/cy-net-share/)
 web page:
 
 -   [CyNetShare](http://idekerlab.github.io/cy-net-share/)
 
 Note that if you specify a style URL, the style is added to the list of
 styles available in
-[CyNetShare](http://cynetshare.ucsd.edu/#/)'s
+[CyNetShare](http://idekerlab.github.io/cy-net-share/)'s
 Visual Style dropdown, and you can apply the style by selecting it in
 the list.
 
@@ -167,11 +167,11 @@ Note that the mechanics of generating a URL for a file in a public
 directory system is a fast moving topic. Until recently, systems like
 Dropbox (and others) allowed users to create a URL that resolved
 directly to a file -- a "direct" URL would be appropriate for use with
-[CyNetShare](http://cynetshare.ucsd.edu/#/).
+[CyNetShare](http://idekerlab.github.io/cy-net-share/).
 As of this writing, some public directory systems (e.g., Dropbox)
 generate "shareable" URLs instead, which resolve to a web page that
 allows file download -- a "shareable" URL makes
-[CyNetShare](http://cynetshare.ucsd.edu/#/)
+[CyNetShare](http://idekerlab.github.io/cy-net-share/)
 hang. Systems that offer "shareable" URLs may offer "direct" URLs as
 part of their premium (or Pro) package. To tell if your public directory
 system generates a "direct" URL, have it generate a URL for a file, then
@@ -203,7 +203,7 @@ shareable document having a "direct" URL. To try this:
     address field
 
 7.  Use that URL with
-    [CyNetShare](http://cynetshare.ucsd.edu/#/)
+    [CyNetShare](http://idekerlab.github.io/cy-net-share/)
 
 <a id="generating_a_full_web_application"> </a>
 #### Generating a Full Web Application
@@ -214,7 +214,7 @@ application](http://en.wikipedia.org/wiki/Single-page_application).
 Cytoscape creates a zip archive containing a complete
 [JavaScript](https://en.wikipedia.org/wiki/JavaScript)-based
 web application that works as a basic viewer (like
-[CyNetShare](http://cynetshare.ucsd.edu/#/))
+[CyNetShare](http://idekerlab.github.io/cy-net-share/))
 for Cytoscape-generated network visualizations. You can unzip the
 archive onto a web server (or your PC) and view the network via a web
 browser on PCs and tablets.

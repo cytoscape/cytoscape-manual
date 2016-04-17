@@ -63,14 +63,14 @@ workflow as simple script. You can learn more about this feature in this
 section:
 
 -   [Command
-    Tool](http://wiki.cytoscape.org/Cytoscape_3/UserManual/Command_Tool#)
+    Tool](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_16_Command_Tool.html#command-tool)
 
 <a id="restful_api"> </a>
 ### RESTful API
 
 In some cases, you may need to use fully featured programming languages,
 such as Python, R, Ruby, or
-[JavaScript](http://wiki.cytoscape.org/Cytoscape_3/UserManual/JavaScript#)
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 to script your workflow. Such languages enable complex control and data
 structures, and Cytoscape would be called as a service. For such use
 cases, accessing Cytoscape via REST API is the right option.
@@ -90,7 +90,7 @@ Commands, please follow these steps:
 
 1.  Open a terminal session:
 
-    -   [PowerShell](http://wiki.cytoscape.org/Cytoscape_3/UserManual/PowerShell#)
+    -   [PowerShell](https://en.wikipedia.org/wiki/Windows_PowerShell)
         or Command (For windows)
 
     -   Terminal or [iTerm2](https://www.iterm2.com/) (For Mac)
