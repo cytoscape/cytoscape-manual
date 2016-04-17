@@ -6,7 +6,6 @@ date: '2012-02-17 12:35:55'
 title: 'Cytoscape\_3/UserManual'
 ...
 
-<a name="cytoscape_user_manual"></a>
 Cytoscape |version| User Manual
 ===============================
 

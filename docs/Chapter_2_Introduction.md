@@ -1,9 +1,8 @@
 <a id="introduction"> </a>
 # Introduction
 
-Cytoscape |version| is the latest version of Cytoscape, building upon
-the new architecture, developer API and set of user controls established
-in the 3.x series. If you're familiar with former versions of Cytoscape,
+This version of Cytoscape builds upon
+the new 3.x architecture, developer API and set of user controls established. If you're familiar with former versions of Cytoscape,
 this version will feel completely familiar and you'll be all set to go.
 In future releases, we will continue to tweak and improve both the
 software and the documentation. This manual will be updated to reflect
