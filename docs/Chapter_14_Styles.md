@@ -1044,9 +1044,9 @@ are associated with a specific property type:
 <colgroup> <col style="width:230px">                                     <col style="width:150px">                   <col style="width:320px">                                </colgroup>
 <tbody>
 <tr> <th>Editor Type</th>                                                <th class="center">Supported Data Type</th> <th class="center">Properties</th>                       </tr>
-<tr> <th class="spec ulcase"><b>Color Gradient Editor</b></th>           <td class="center">Color</th>               <td class="">node/edge/border/label colors</td>          </tr>
-<tr> <th class="specalt ulcase"><b>Continuous-Continuous Editor</b></th> <td class="alt center">Numbers</th>         <td class="alt">size/width/transparency</td>             </tr>
-<tr> <th class="spec ulcase"><b>Continuous-Discrete Editor</b></th>      <td class="center">All others</th>          <td class="">font/shape/text/graphics/position/etc.</td> </tr>
+<tr> <th class="spec ulcase"><b>Color Gradient Editor</b></th>           <td class="center">Color</td>               <td class="">node/edge/border/label colors</td>          </tr>
+<tr> <th class="specalt ulcase"><b>Continuous-Continuous Editor</b></th> <td class="alt center">Numbers</td>         <td class="alt">size/width/transparency</td>             </tr>
+<tr> <th class="spec ulcase"><b>Continuous-Discrete Editor</b></th>      <td class="center">All others</td>          <td class="">font/shape/text/graphics/position/etc.</td> </tr>
 </tbody>
 </table>
 <br>
