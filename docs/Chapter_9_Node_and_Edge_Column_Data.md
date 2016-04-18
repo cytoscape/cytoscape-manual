@@ -268,15 +268,6 @@ them, simply unselect the column using the **Select Columns**
 ![ShowColumns.png](_static/images/Columns/ShowColumns.png)
 button.
 
-#### Column Batch Editor
-
-![attribute\_editor26.png](_static/images/Columns/attribute_editor26.png)
-The Attribute Browser has an **Attribute Batch Editor**. This enables
-you to set and modify attribute values for selected nodes or edges of a
-specified attribute at once. For example, if you want to create a new
-attribute called *Modules* and set module names for each group of
-selected nodes, you can use *Set* command from this editor.
-
 <a id="import_data_table_from_public_databases"> </a>
 ## Import Data Table from Public Databases
 
