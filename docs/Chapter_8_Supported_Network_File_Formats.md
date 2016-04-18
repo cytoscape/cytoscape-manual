@@ -210,15 +210,9 @@ an embedded space a backslash followed by a space etc.
     M2             A        pp        B
     M3             B        pp        C
 
-==== Example 4 ====
-![NNFExample4.png](_static/images/Network_Formats/NNFExample4.png)
-Example\_4 M1\*/ /\* root M3\*/ /\* M1 A pp B M1 B pp A Example\_4 C pp
-B M3 M2 M2 D M3 E pp F M3 D pp F M3 D pp E Example\_4 D pp C Example\_4
-A pp M2\*/ /\* Example\_4 B pp M3 Example\_4 M2 pp B
+#### Example 4
 
-#### Example 5
-
-![NNFExample5\_2.png](_static/images/Network_Formats/NNFExample5_2.png)
+![NNFExample4\_2.png](_static/images/Network_Formats/NNFExample4_2.png)
 
     Example_5      M4
     M4             D
