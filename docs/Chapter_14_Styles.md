@@ -15,48 +15,48 @@ example, you can:
 
 **Specify a default color and shape for all nodes.**
 
--   ![NodeShape.png](_static/images/Styles/NodeShape.png)
+![NodeShape.png](_static/images/Styles/NodeShape.png)
 
 **Set node sizes based on the degree of connectivity of the nodes. You
 can visually see the hub of a network...**
 
--   ![DegreeSize.png](_static/images/Styles/DegreeSize.png)
+![DegreeSize.png](_static/images/Styles/DegreeSize.png)
 
 **...or, set the font size of the node labels instead.**
 
--   ![DegreeLabelSize.png](_static/images/Styles/DegreeLabelSize.png)
+![DegreeLabelSize.png](_static/images/Styles/DegreeLabelSize.png)
 
 **Visualize gene expression data along a color gradient.**
 
--   ![ColorGradient.png](_static/images/Styles/ColorGradient.png)
+![ColorGradient.png](_static/images/Styles/ColorGradient.png)
 
 **Encode specific physical entities as different node shapes.**
 
--   ![NodeShapeMapping.png](_static/images/Styles/NodeShapeMapping.png)
+![NodeShapeMapping.png](_static/images/Styles/NodeShapeMapping.png)
 
 **Use specific line types to indicate different types of interactions.**
 
--   ![edge\_types.png](_static/images/Styles/edge_types.png)
+![edge\_types.png](_static/images/Styles/edge_types.png)
 
 **Control edge transparency (opacity) using edge weights.**
 
--   ![OpacityForEdges.png](_static/images/Styles/OpacityForEdges.png)
+![OpacityForEdges.png](_static/images/Styles/OpacityForEdges.png)
 
 **Control multiple edge properties using edge score.**
 
--   ![MultipleEdgeMapping.png](_static/images/Styles/MultipleEdgeMapping.png)
+![MultipleEdgeMapping.png](_static/images/Styles/MultipleEdgeMapping.png)
 
 **Browse extremely-dense networks by controlling the opacity of nodes.**
 
--   ![OpacityForNodesAndEdges.png](_static/images/Styles/OpacityForNodesAndEdges.png)
+![OpacityForNodesAndEdges.png](_static/images/Styles/OpacityForNodesAndEdges.png)
 
 **Show highly-connected region by edge bundling and opacity.**
 
--   ![Bundling.png](_static/images/Styles/Bundling.png)
+![Bundling.png](_static/images/Styles/Bundling.png)
 
 **Add photo/image/graphics on top of nodes.**
 
--   ![CustomGraphics1.png](_static/images/Styles/CustomGraphics1.png)
+![CustomGraphics1.png](_static/images/Styles/CustomGraphics1.png)
     ![CustomGraphics4.png](_static/images/Styles/CustomGraphics4.png)
     ![CustomGraphics5.png](_static/images/Styles/CustomGraphics5.png)
 
@@ -74,7 +74,7 @@ applied to the *galFiltered.sif* network :
 The **Style** interface is located under the **Style** panel of the
 **Control Panel**.
 
--   ![StylesInterface.png](_static/images/Styles/StylesInterface.png)
+![StylesInterface.png](_static/images/Styles/StylesInterface.png)
 
 This interface allows you to create/delete/view/switch between different
 styles using the Current Style options. The panel displays the mapping
@@ -139,7 +139,7 @@ started. To examine a few styles, try out the following example:
     the node) and you can see the hubs of the network as larger nodes.
     See the sample screenshot below:
 
--   ![galFilteredSessionDefault.png](_static/images/Styles/galFilteredSessionDefault.png)
+![galFilteredSessionDefault.png](_static/images/Styles/galFilteredSessionDefault.png)
 
 **Step 2. Switch between different styles**
 
@@ -153,11 +153,11 @@ If you zoom in closer, you can see that protein-DNA interactions
 protein-protein interactions (specified with the label "pp") are drawn
 with solid edges (see sample screenshot below).
 
--   ![VizMapperSample1Style26.png](_static/images/Styles/VizMapperSample1Style26.png)
+![VizMapperSample1Style26.png](_static/images/Styles/VizMapperSample1Style26.png)
 
 Finally, if you select **Solid**, you can see the graphics below:
 
--   ![VizMapperSolidStyle.png](_static/images/Styles/VizMapperSolidStyle.png)
+![VizMapperSolidStyle.png](_static/images/Styles/VizMapperSolidStyle.png)
 
 This style does not have mappings except node/edge labels, but you can
 modify the network graphics by editing the *Default Value* for any
@@ -423,17 +423,17 @@ types are supported:
 
 1.  Color Passthrough Mapping
 
-    -   ![ColorPassthrough.png](_static/images/Styles/ColorPassthrough.png)
+    ![ColorPassthrough.png](_static/images/Styles/ColorPassthrough.png)
         ![colorPt2.png](_static/images/Styles/colorPt2.png)
 
 2.  Node Size Passthrough Mapping
 
-    -   ![SizePassthrough.png](_static/images/Styles/SizePassthrough.png)
+    ![SizePassthrough.png](_static/images/Styles/SizePassthrough.png)
         ![sizePt2.png](_static/images/Styles/sizePt2.png)
 
 3.  Image Passthrough Mapping
 
-    -   ![CustomGraphicsPassthrough.png](_static/images/Styles/CustomGraphicsPassthrough.png)
+    ![CustomGraphicsPassthrough.png](_static/images/Styles/CustomGraphicsPassthrough.png)
         ![cglorPt2.png](_static/images/Styles/cglorPt2.png)
 
 <a id="images_charts_and_gradients"> </a>
@@ -457,7 +457,7 @@ set used in this section is created by Database Center for Life Science
 The **Image Manager** is available under the menu option **View | Open
 Image Manager...**:
 
--   ![cgManager1.png](_static/images/Styles/cgManager1.png)
+![cgManager1.png](_static/images/Styles/cgManager1.png)
 
 -   You can add images by drag-and-drop of image files and URLs. If you
     want to add images from a web browser or local file system, you can
@@ -473,7 +473,7 @@ Image Manager...**:
     button on the bottom of the Image Manager window and then select the
     images you want to add.
 
--   ![add\_custom\_graphics.png](_static/images/Styles/add_custom_graphics.png)
+![add\_custom\_graphics.png](_static/images/Styles/add_custom_graphics.png)
 
 -   To remove images from the current session's image library, simply
     select one or more images from the list and press the **Remove
@@ -487,7 +487,7 @@ Image Manager...**:
 <a id="using_graphics_in_styles"> </a>
 ### Using Graphics in Styles
 
--   ![CustomGraphicsVizMapper.png](_static/images/Styles/CustomGraphicsVizMapper.png)
+![CustomGraphicsVizMapper.png](_static/images/Styles/CustomGraphicsVizMapper.png)
     ![CustomGraphicsNodes.png](_static/images/Styles/CustomGraphicsNodes.png)
 
 Node graphics are used and defined like any other property, through the
@@ -533,7 +533,7 @@ Node graphics are used and defined like any other property, through the
 -   To remove an image, chart or gradient, click the **Remove Graphics**
     button on the **Graphics** dialog.
 
--   ![CustomGraphicsSelector.png](_static/images/Styles/CustomGraphicsSelector.png)
+![CustomGraphicsSelector.png](_static/images/Styles/CustomGraphicsSelector.png)
 
 <a id="graphics_positions"> </a>
 #### Graphics Positions
@@ -718,7 +718,7 @@ with degree *1* will be set to white, and all values between *1* and
 *18* will be painted with a white/green color gradient (see the sample
 screenshot below).
 
--   ![Tutorial3-final.png](_static/images/Styles/Tutorial3-final.png)
+![Tutorial3-final.png](_static/images/Styles/Tutorial3-final.png)
 
 -   **Repeat for other properties:** You can create more continuous
     mappings for other numeric table data. For example, edge data table
@@ -766,7 +766,7 @@ This mapping generator utility is useful for categorical data. The
 following example shows a discrete mapping that maps the species column
 to node color.
 
--   ![tutorial4\_sample.png](_static/images/Styles/tutorial4_sample.png)
+![tutorial4\_sample.png](_static/images/Styles/tutorial4_sample.png)
 
 <a id="tutorial_5_using_images_in_styles"> </a>
 ### Tutorial 5: Using Images in Styles
@@ -1005,7 +1005,7 @@ below).
     -   **Rainbow** and **Rainbow OSC** - These functions try to assign
         as diverse a set of colors as possible for each data value.
 
-        -   ![RainbowMapper.png](_static/images/Styles/RainbowMapper.png)
+        ![RainbowMapper.png](_static/images/Styles/RainbowMapper.png)
 
     -   **Random Numbers** and **Random Colors** - Randomized numbers
         and colors.
@@ -1013,7 +1013,7 @@ below).
     -   **Number Series** - Set a series of numbers to the
         specified mapping. Requires a starting number and increment.
 
-        -   ![NumberSeriesNodeSize.png](_static/images/Styles/NumberSeriesNodeSize.png)
+        ![NumberSeriesNodeSize.png](_static/images/Styles/NumberSeriesNodeSize.png)
 
     -   **Fit label width** - This function is only for node **Width**
         and **Size**. When a discrete mapping for node **Width** or
@@ -1021,7 +1021,7 @@ below).
         label automatically by selecting this function. See the example
         below:
 
-        -   ![NodeLabelFit.png](_static/images/Styles/NodeLabelFit.png)
+        ![NodeLabelFit.png](_static/images/Styles/NodeLabelFit.png)
 
 <a id="edit_selected_values_at_once"> </a>
 #### Edit Selected Values at Once

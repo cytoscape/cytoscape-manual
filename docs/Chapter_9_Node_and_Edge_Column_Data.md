@@ -40,7 +40,7 @@ from the **File | Import | Table | File...** user interface.
 <a id="basic_operation"> </a>
 ### Basic Operation
 
--   ![ImportColumnsFromTable.png](_static/images/Columns/ImportColumnsFromTable.png)
+![ImportColumnsFromTable.png](_static/images/Columns/ImportColumnsFromTable.png)
 
 1.  Select **File | Import | Table | File...**.
 

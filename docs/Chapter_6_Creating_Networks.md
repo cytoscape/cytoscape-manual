@@ -159,7 +159,7 @@ To import network from text/Excel tables, please follow these steps:
     Interaction Type. Clicking on any column header will bring up the
     interface for selecting source, interaction and target:
 
-    -   ![ImportNetworkDialogDetails.png](_static/images/Creating_Networks/ImportNetworkDialogDetails.png)
+    ![ImportNetworkDialogDetails.png](_static/images/Creating_Networks/ImportNetworkDialogDetails.png)
 
 4.  (Optional) Define edge table columns, if applicable. Network table
     files can have edge table columns in addition to network data.
@@ -168,7 +168,7 @@ To import network from text/Excel tables, please follow these steps:
         by selecting the \[attachment:disablecolumn.png\] symbol in the
         column editor.
 
-        -   ![Cy3\_network\_table\_sample2.png](_static/images/Creating_Networks/Cy3_network_table_sample2.png)
+        ![Cy3\_network\_table\_sample2.png](_static/images/Creating_Networks/Cy3_network_table_sample2.png)
 
     -   Change Column Name and Data Types: You can also modify the
         column name and data type in the column editor. For more detail,
@@ -381,11 +381,11 @@ on the group node or any of its children to toggle back and forth.
 
 **Collapsed group**
 
--   ![GroupCollapsed2.png](_static/images/Creating_Networks/GroupCollapsed2.png)
+![GroupCollapsed2.png](_static/images/Creating_Networks/GroupCollapsed2.png)
 
 **Expanded group**
 
--   ![GroupExpanded2.png](_static/images/Creating_Networks/GroupExpanded2.png)
+![GroupExpanded2.png](_static/images/Creating_Networks/GroupExpanded2.png)
 
 <a id="adding_network_annotations"> </a>
 ### Adding Network Annotations
@@ -397,5 +397,5 @@ of your own, choose from a shapes library or add either plain or bounded
 text. Shapes and text are customizable and any added annotations can be
 edited from the right-click context menu.
 
--   ![Add Network
+![Add Network
     Annotations](_static/images/Creating_Networks/AddNetworkAnnotations.png)

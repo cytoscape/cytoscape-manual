@@ -26,7 +26,7 @@ Cytoscape including:
 
 Also, a news panel always display latest information for users. For
 information on user privacy, see the **[Cytoscape Privacy
-Policy](#Privacy)**.
+Policy](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_25_Cytoscape_Privacy_Policy.html#cytoscape-privacy-policy)**.
 
 <a id="basic_features"> </a>
 ## Basic Features
@@ -75,7 +75,7 @@ have two Cytoscape windows, the main window, and a new window labeled
 Table Panel, similar to the one shown below. A popup will be displayed
 when you put the mouse pointer on a cell.
 
--   ![TablePanel.png](_static/images/Quick_Tour/TablePanel.png)
+![TablePanel.png](_static/images/Quick_Tour/TablePanel.png)
 
 Note that Table Panel now has a Dock Window control. If you click this
 control, the window will dock onto the main window. For more information
@@ -98,7 +98,7 @@ software. Detailed information on network editing can be found in the
 **[Editing Networks](#Network_Editor)**
 section.
 
--   ![AddNodeMenu.png](_static/images/Quick_Tour/AddNodeMenu.png)
+![AddNodeMenu.png](_static/images/Quick_Tour/AddNodeMenu.png)
 
 <a id="the_menus"> </a>
 ## The Menus
@@ -118,7 +118,7 @@ network in either JPEG, PDF, PNG, Post Script or SVG format.
 quick access. **File | Run** allows you to specify a Cytoscape script
 file to run, and **File | Print Current Network...** allows printing.
 
--   ![FileMenu.png](_static/images/Quick_Tour/FileMenu.png)
+![FileMenu.png](_static/images/Quick_Tour/FileMenu.png)
 
 <a id="edit"> </a>
 ### Edit
@@ -145,7 +145,7 @@ Preferences | Properties...**. More details on how to edit preferences
 can be found
 [here](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_19_Cytoscape_Preferences.html#cytoscape-preferences).
 
--   ![EditMenu.png](_static/images/Quick_Tour/EditMenu.png)
+![EditMenu.png](_static/images/Quick_Tour/EditMenu.png)
 
 <a id="view"> </a>
 ### View
@@ -154,7 +154,7 @@ The **View** menu allows you to display or hide the **Control Panel**,
 **Table Panel**, **Tool Panel** and the **Result Panel**. It also
 provides the control of other view-related functionality.
 
--   ![ViewMenu.png](_static/images/Quick_Tour/ViewMenu.png)
+![ViewMenu.png](_static/images/Quick_Tour/ViewMenu.png)
 
 <a id="select"> </a>
 ### Select
@@ -162,7 +162,7 @@ provides the control of other view-related functionality.
 The **Select** menu contains different options for selecting nodes and
 edges.
 
--   ![SelectMenu.png](_static/images/Quick_Tour/SelectMenu.png)
+![SelectMenu.png](_static/images/Quick_Tour/SelectMenu.png)
 
 <a id="layout"> </a>
 ### Layout
@@ -174,7 +174,7 @@ Distribute**) are tools for manipulating the network visualization. The
 bottom section of the menu lists a variety of layout algorithms which
 automatically lay a network out.
 
--   ![LayoutMenu.png](_static/images/Quick_Tour/LayoutMenu.png)
+![LayoutMenu.png](_static/images/Quick_Tour/LayoutMenu.png)
 
 <a id="apps"> </a>
 ### Apps
@@ -186,11 +186,9 @@ are loaded, the apps that you see may be different than what appear
 here. The below picture shows a Cytoscape installation without installed
 apps.
 
--   ![AppsMenu.png](_static/images/Quick_Tour/AppsMenu.png)
+![AppsMenu.png](_static/images/Quick_Tour/AppsMenu.png)
 
-  ------------------------------------------------------------------------------------------------------------------
-  Note: A list of available Cytoscape apps with descriptions is available online at: [](http://apps.cytoscape.org)
-  ------------------------------------------------------------------------------------------------------------------
+**Note: A list of available Cytoscape apps with descriptions is available online at: [http://apps.cytoscape.org](http://apps.cytoscape.org)**
 
 In previous versions of Cytoscape, apps were called plugins and served a
 similar function.
@@ -198,12 +196,12 @@ similar function.
 <a id="tools"> </a>
 ### Tools
 
-The **Tools** menu contains advanced features like the **[Command Line Dialog](#Command_Tool)**,
-**[Network Analyzer](#Network_Analyzer)**,
-**[Network Merge](#Merge)**
+The **Tools** menu contains advanced features like the **[Command Line Dialog](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_16_Command_Tool.html#command-tool)**,
+**[Network Analyzer](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_18_Network_Analyzer.html#networkanalyzer)**,
+**[Network Merge](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_17_Merge.html#merge)**
 and **Workflow**.
 
--   ![ToolsMenu.png](_static/images/Quick_Tour/ToolsMenu.png)
+![ToolsMenu.png](_static/images/Quick_Tour/ToolsMenu.png)
 
 <a id="help"> </a>
 ### Help
@@ -211,14 +209,14 @@ and **Workflow**.
 The **Help** menu allows you to launch the online help viewer and browse
 the table of contents for this manual (**Contents**).
 
--   ![HelpMenu.png](_static/images/Quick_Tour/HelpMenu.png)
+![HelpMenu.png](_static/images/Quick_Tour/HelpMenu.png)
 
 The **Citations** option displays the main literature citation for
 Cytoscape, as well as a list of literature citations for installed apps.
 The list will be different depending on the set of apps you have
 installed.
 
--   ![Citations.png](_static/images/Quick_Tour/Citations.png)
+![Citations.png](_static/images/Quick_Tour/Citations.png)
 
 The **Update Organism Preset Networks** option updates the preset
 networks available on the **Welcome** screen to the latest version.
@@ -271,11 +269,11 @@ windows under **View | Arrange Network Windows**.
 
 **Vertical**
 
--   ![MultipleNetworks\_Vertical.png](_static/images/Quick_Tour/MultipleNetworks_Vertical.png)
+![MultipleNetworks\_Vertical.png](_static/images/Quick_Tour/MultipleNetworks_Vertical.png)
 
 **Grid**
 
--   ![MultipleNetworks\_Grid.png](_static/images/Quick_Tour/MultipleNetworks_Grid.png)
+![MultipleNetworks\_Grid.png](_static/images/Quick_Tour/MultipleNetworks_Grid.png)
 
 <a id="the_network_overview_window"> </a>
 ## The Network Overview Window
@@ -287,4 +285,4 @@ in the network view window, and it can be dragged with the mouse to view
 other portions of the network. Zooming in will cause the rectangle to
 appear smaller and vice versa.
 
--   ![network\_overview\_30.png](_static/images/Quick_Tour/network_overview_30.png)
+![network\_overview\_30.png](_static/images/Quick_Tour/network_overview_30.png)

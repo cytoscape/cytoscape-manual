@@ -20,10 +20,10 @@ In future releases, we will continue to tweak and improve both the
 software and the documentation. This manual will be updated to reflect
 all the latest changes.
 
-*This manual describes the installation and use of Cytoscape. For a more
+<i>This manual describes the installation and use of Cytoscape. For a more
 thorough understanding of Cytoscape and its ecosystem, we highly
-recommend reading the **Welcome Letter** accessible on the
-http://cytoscape.org website.*
+recommend reading the <b>Welcome Letter</b> accessible on the
+[http://cytoscape.org](http://cytoscape.org) website.</i>
 
 Table of Contents
 =================

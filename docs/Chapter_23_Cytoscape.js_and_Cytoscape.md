@@ -18,12 +18,12 @@ using Cytoscape.js and this new **Export to Cytoscape.js** feature.
 
 -   A network visualized with Cytoscape 3.1.0
 
-    -   ![sampleOriginal.png](_static/images/CytoscapeJs/sampleOriginal.png)
+    ![sampleOriginal.png](_static/images/CytoscapeJs/sampleOriginal.png)
 
 -   Same network exported to Cytoscape.js (Rendered with Google Chrome
     and Cytoscape.js 2.0.3)
 
-    -   ![sampleExport.png](_static/images/CytoscapeJs/sampleExport.png)
+    ![sampleExport.png](_static/images/CytoscapeJs/sampleExport.png)
 
 -   [Interactive example (galFiltered.sif rendered with
     Cytoscape.js 2.0.3)](http://chianti.ucsd.edu/~kono/dist/)

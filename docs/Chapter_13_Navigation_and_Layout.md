@@ -148,7 +148,7 @@ layout algorithms are:
 <a id="grid_layout"> </a>
 ### Grid Layout
 
--   ![grid\_layout.png](_static/images/Navigation_Layout/grid_layout.png)
+![grid\_layout.png](_static/images/Navigation_Layout/grid_layout.png)
 
 The grid layout is a simple layout the arranges all of the nodes in a
 square grid. This is the default layout and is always available as part
@@ -158,7 +158,7 @@ Layout**. A sample screen shot is shown above.
 <a id="edge-weighted_spring-embedded_layout"> </a>
 ### Edge-weighted Spring-Embedded Layout
 
--   ![spring.png](_static/images/Navigation_Layout/spring.png)
+![spring.png](_static/images/Navigation_Layout/spring.png)
 
 The spring-embedded layout is based on a "force-directed" paradigm as
 implemented by Kamada and Kawai (1988). Network nodes are treated like
@@ -174,7 +174,7 @@ Embedded**.
 <a id="attribute_circle_layout"> </a>
 ### Attribute Circle Layout
 
--   ![attribute\_circle\_layout.png](_static/images/Navigation_Layout/attribute_circle_layout.png)
+![attribute\_circle\_layout.png](_static/images/Navigation_Layout/attribute_circle_layout.png)
 
 The **Attribute Circle** layout is a quick, useful layout, particularly
 for small networks, that will locate all of the nodes in the network
@@ -188,7 +188,7 @@ subset of the galFiltered network organized by node degree.
 <a id="group_attributes_layout"> </a>
 ### Group Attributes Layout
 
--   ![group\_by\_attributes\_layout.png](_static/images/Navigation_Layout/group_by_attributes_layout.png)
+![group\_by\_attributes\_layout.png](_static/images/Navigation_Layout/group_by_attributes_layout.png)
 
 The **Group Attributes** layout is similar to the **Attribute Circle**
 layout described above except that instead of a single circle with all
@@ -200,7 +200,7 @@ Attributes Layout | taxonomy**.
 <a id="prefuse_force_directed_layout"> </a>
 ### Prefuse Force Directed Layout
 
--   ![force\_layout.png](_static/images/Navigation_Layout/force_layout.png)
+![force\_layout.png](_static/images/Navigation_Layout/force_layout.png)
 
 The force-directed layout is a layout based on the "force-directed"
 paradigm. This layout is based on the algorithm implemented as part of
@@ -227,7 +227,7 @@ Settings...**). The main layout algorithms provided by yFiles are:
 <a id="yfiles_organic_layout"> </a>
 ### yFiles Organic Layout
 
--   ![yOrganic.png](_static/images/Navigation_Layout/yOrganic.png)
+![yOrganic.png](_static/images/Navigation_Layout/yOrganic.png)
 
 The organic layout algorithm is a kind of spring-embedded algorithm that
 combines elements of the other algorithms to show the clustered
@@ -237,7 +237,7 @@ structure of a graph. This algorithm is available by selecting **Layout
 <a id="yfiles_circular_layout"> </a>
 ### yFiles Circular Layout
 
--   ![yCircular.png](_static/images/Navigation_Layout/yCircular.png)
+![yCircular.png](_static/images/Navigation_Layout/yCircular.png)
 
 This algorithm produces layouts that emphasize group and tree structures
 within a network. It partitions the network by analyzing its
@@ -249,7 +249,7 @@ Circular**.
 <a id="yfiles_hierarchical_layout"> </a>
 ### yFiles Hierarchical Layout
 
--   ![yHir.png](_static/images/Navigation_Layout/yHir.png)
+![yHir.png](_static/images/Navigation_Layout/yHir.png)
 
 The hierarchical layout algorithm is good for representing main
 direction or "flow" within a network. Nodes are placed in hierarchically
@@ -323,7 +323,7 @@ will be moved together.
 <a id="rotate"> </a>
 ### Rotate
 
--   ![rotate\_dialog.png](_static/images/Navigation_Layout/rotate_dialog.png)
+![rotate\_dialog.png](_static/images/Navigation_Layout/rotate_dialog.png)
 
 Selecting the **Layout | Rotate** option will show the **Rotate** window
 in the **Tool Panel**. This function will either rotate the entire
@@ -332,16 +332,16 @@ network with selected nodes rotated.
 
 Before
 
--   ![rotate\_networkA.png](_static/images/Navigation_Layout/rotate_networkA.png)
+![rotate\_networkA.png](_static/images/Navigation_Layout/rotate_networkA.png)
 
 After
 
--   ![rotate\_networkB.png](_static/images/Navigation_Layout/rotate_networkB.png)
+![rotate\_networkB.png](_static/images/Navigation_Layout/rotate_networkB.png)
 
 <a id="scale"> </a>
 ### Scale
 
--   ![scale\_dialog.png](_static/images/Navigation_Layout/scale_dialog.png)
+![scale\_dialog.png](_static/images/Navigation_Layout/scale_dialog.png)
 
 Selecting the **Layout | Scale** option will open the **Scale** window
 in the **Tool Panel**. This function will scale the position of the
@@ -353,16 +353,16 @@ The image below shows selected nodes scaled.
 
 Before
 
--   ![scale\_networkA.png](_static/images/Navigation_Layout/scale_networkA.png)
+![scale\_networkA.png](_static/images/Navigation_Layout/scale_networkA.png)
 
 After
 
--   ![scale\_networkB.png](_static/images/Navigation_Layout/scale_networkB.png)
+![scale\_networkB.png](_static/images/Navigation_Layout/scale_networkB.png)
 
 <a id="align_distribute_and_stack"> </a>
 ### Align, Distribute and Stack
 
--   ![align\_distribute\_dialog.png](_static/images/Navigation_Layout/align_distribute_dialog.png)
+![align\_distribute\_dialog.png](_static/images/Navigation_Layout/align_distribute_dialog.png)
 
 Selecting the **Layout | Align/Distribute** option will open the **Align
 and Distribute** window in the **Tool Panel**. **Align** provides
