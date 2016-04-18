@@ -7,7 +7,7 @@ platforms such as Solaris or FreeBSD may run Cytoscape if Java version 8
 or later is available for the platform.
 
 <a id="system_requirements"> </a>
-## System requirements
+## System Requirements
 
 The system requirements for Cytoscape depend on the size of the networks
 you want to load, view and manipulate.
@@ -31,7 +31,7 @@ loadable by prior Cytoscape versions on the same memory configuration.*
 
 *Specific system requirements, limitations, and configuration options
 apply to each platform, as described in the **Release Notes** available
-on the [](http://cytoscape.org) website.*
+on the [http://cytoscape.org](http://cytoscape.org) website.*
 
 <a id="getting_started"> </a>
 ## Getting Started
@@ -58,13 +58,13 @@ on the [](http://cytoscape.org) website.*
 -   We currently recommend only Java 8.
 
 For additional information, select the Release Notes button on the
-Cytoscape web site ([](http://cytoscape.org)).
+[Cytoscape web site]http://cytoscape.org)).
 
 <a id="install_cytoscape"> </a>
 ### Install Cytoscape
 
 <a id="downloading_and_installing"> </a>
-#### Downloading and installing
+#### Downloading and Installing
 
 There are a number of options for downloading and installing Cytoscape.
 See the download page at the [](http://cytoscape.org) website for all
@@ -112,7 +112,7 @@ central file server. `user.home` can be set by adding the following
 option to the Cytoscape.vmoptions file or the \_JAVA\_OPTIONS
 environment variable, substituting the desired path as appropriate:
 
--   ***-Duser.home=/path/to/desired/home***
+    ***-Duser.home=/path/to/desired/home***
 
 Your operating system may have other mechanisms for setting environment
 variables -- see your operating system documentation for further
@@ -137,7 +137,7 @@ If you have a previous Cytoscape installation you have two options:
     affected by this step.
 
 <a id="launch_the_application"> </a>
-### Launch the application
+### Launch the Application
 
 As with any application, launch Cytoscape by double-clicking on the icon
 created by the installer, by running `cytoscape.sh` from the command
@@ -150,7 +150,7 @@ After launching Cytoscape a window will appear that looks like this:
 
 *If your Cytoscape window does not resemble this, further configuration
 may be required. Consult the **Release Notes** available on the
-[](http://cytoscape.org) website.*
+[http://cytoscape.org](http://cytoscape.org) website.*
 
 <a id="note_on_memory_consumption"> </a>
 ### Note on Memory Consumption
@@ -193,7 +193,7 @@ and use up to a maximum of 4GB, edit the Cytoscape.vmoptions file to
 contain the following lines (... do not forget the linefeed at the end
 of each line, and an extra linefeed at the end of the file!):
 
--   ***-Xms2GB***
+    ***-Xms2GB***
 
     ***-Xmx4GB***
 
