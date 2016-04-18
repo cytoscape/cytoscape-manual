@@ -1,5 +1,5 @@
 <a id="panels"> </a>
-# What are Panels?
+# Panels
 
 **Panels** are floatable/dockable panels designed to cut down on the number of pop-up windows within Cytoscape 
 and to create a more unified user experience. They are named based on their functions -- **Control Panel**, 
