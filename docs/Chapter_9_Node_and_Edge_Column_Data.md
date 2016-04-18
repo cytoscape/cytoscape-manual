@@ -185,9 +185,7 @@ Edge names are all of the form:
 
 Specifically, that is
 
-  -----------------------------------------------------------------
-  sourceName space openParen edgeType closeParen space targetName
-  -----------------------------------------------------------------
+`sourceName space openParen edgeType closeParen space targetName`
 
 Note that tabs are not allowed in edge names. Tabs can be used to
 separate the edge name from the "=" delimiter, but not within the edge
@@ -199,9 +197,7 @@ SIF entry for the previous interaction would look like
 
 or
 
-  ------------------------------------------------------
-  sourceName whiteSpace edgeType whiteSpace targetName
-  ------------------------------------------------------
+`sourceName whiteSpace edgeType whiteSpace targetName`
 
 To specify lists of values, use the following syntax:
 
