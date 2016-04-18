@@ -325,7 +325,7 @@ PSICQUIC Web Service Client has three search modes:
 By default, search mode is set to **Search by ID**. You can search all
 databases by ID, such as gene symbol, Uniprot ID, or NCBI gene ID. If
 the search mode is set to MIQL, you can use
-[MIQL](https://code.google.com/p/psicquic/wiki/MiqlReference27) for
+[MIQL (https://code.google.com/p/psicquic/wiki/MiqlReference27)](https://code.google.com/p/psicquic/wiki/MiqlReference27) for
 search. If you want to search interactions by keywords or specific
 functions, this is the powerful query language to filter the result. The
 last option is for importing all interactions for the species (i.e.,

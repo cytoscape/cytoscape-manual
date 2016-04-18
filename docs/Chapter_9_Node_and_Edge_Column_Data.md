@@ -273,7 +273,7 @@ button.
 
 It is also possible to import node data columns from public databases
 via web services, for example from
-[BioMart](http://www.biomart.org/#).
+[BioMart (http://www.biomart.org)](http://www.biomart.org/#).
 
 <a id="basic_operation"> </a>
 ### Basic Operation

@@ -102,7 +102,7 @@ details for a given style and is used to edit these details as well.
         the property. Clicking on the **Mapping** column for any
         property expands the property entry to show the interface for
         editing the mapping. Details on the mapping types provided
-        [here](#mappers).
+        [here](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_14_Styles.html#how-mappings-work).
 
     -   **Bypass** displays any style bypass for a selected node
         or edge. Note that a node/edge or subset of nodes/edges must be
@@ -446,7 +446,7 @@ your own images in the **Image Manager**, as well as remove or modify
 existing ones.
 
 [Taxonomy
-Icon](http://biosciencedbc.jp/taxonomy_icon/taxonomy_icon.cgi?lng=en)
+Icon (http://biosciencedbc.jp/taxonomy_icon/taxonomy_icon.cgi?lng=en)](http://biosciencedbc.jp/taxonomy_icon/taxonomy_icon.cgi?lng=en)
 set used in this section is created by Database Center for Life Science
 (DBCLS) and is distributed under Creative Commons License ([CC BY
 2.1.](http://creativecommons.org/licenses/by/2.1/jp/deed.en))
