@@ -142,7 +142,7 @@ section of this manual.
 Note (1): This data is taken from the *A merged human interactome*
 datasets by Andrew Garrow, Yeyejide Adeleye and Guy Warner (Unilever,
 Safety and Environmental Assurance Center, 12 October 2006). Actual data
-files are available at [http://wiki.cytoscape.org/Data_Sets/](http://wiki.cytoscape.org/Data_Sets/)
+files are available at [http://wiki.cytoscape.org/Data_Sets/](http://wiki.cytoscape.org/Data_Sets/).
 
 ### Basic Operations
 
@@ -183,7 +183,7 @@ select only a source column, it creates a network without interactions.
 This feature is useful with the node expansion function available from
 some web service clients. Please read the section **[Importing Networks
 from External
-Database](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_6_Creating_Networks.html?highlight=external%20database#import-networks-from-public-databases)**
+Database](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_6_Creating_Networks.html?highlight=Web%20Service#what-is-a-web-service)**
 for more detail.
 
 <a id="advanced_options"> </a>

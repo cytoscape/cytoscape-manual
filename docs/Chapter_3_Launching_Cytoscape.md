@@ -67,7 +67,7 @@ For additional information, select the Release Notes button on the
 #### Downloading and Installing
 
 There are a number of options for downloading and installing Cytoscape.
-See the download page at the [](http://cytoscape.org) website for all
+See the download page at the [http://cytoscape.org](http://cytoscape.org) website for all
 options.
 
 -   Automatic installation packages exist for Windows, Mac OS X, and

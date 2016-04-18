@@ -121,7 +121,7 @@ Commands, please follow these steps:
 
 #### 2. cyREST
 
-![](_static/images/ProgrammaticAccess/logo300.png)
+![_static/images/ProgrammaticAccess/logo300.png](_static/images/ProgrammaticAccess/logo300.png)
 
 **[cyREST](http://apps.cytoscape.org/apps/cyrest) is a
 language-agnostic, programmer-friendly RESTful API module for

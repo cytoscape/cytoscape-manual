@@ -39,10 +39,10 @@ The standard file formats used in the **Cytoscape Ontology Server** are
 OBO and Gene Association. The GO website details these file formats:
 
 Ontologies and Definitions:
-[](http://www.geneontology.org/GO.downloads.shtml#ont)
+[http://www.geneontology.org/GO.downloads.shtml#ont](http://www.geneontology.org/GO.downloads.shtml#ont)
 
 Current Annotations:
-[](http://www.geneontology.org/GO.current.annotations.shtml)
+[http://www.geneontology.org/GO.current.annotations.shtml](http://www.geneontology.org/GO.current.annotations.shtml)
 
 <a id="default_list_of_ontologies"> </a>
 ## Default List of Ontologies

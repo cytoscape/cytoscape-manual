@@ -235,7 +235,7 @@ In contrast to SIF, GML is a rich graph format language supported by
 many other network visualization packages. The GML file format
 specification is available at:
 
-[](http://www.infosun.fmi.uni-passau.de/Graphlet/GML/)
+[http://www.infosun.fmi.uni-passau.de/Graphlet/GML/](http://www.infosun.fmi.uni-passau.de/Graphlet/GML/)
 
 It is generally not necessary to modify the content of a GML file
 directly. Once a network is built in SIF format and then laid out, the
@@ -250,7 +250,7 @@ XGMML is the XML evolution of GML and is based on the GML definition. In
 addition to network data, XGMML contains node/edge/network column data.
 The XGMML file format specification is available at:
 
-[](http://cgi5.cs.rpi.edu/research/groups/pb/punin/public_html/XGMML/)
+[http://cgi5.cs.rpi.edu/research/groups/pb/punin/public_html/XGMML/](http://cgi5.cs.rpi.edu/research/groups/pb/punin/public_html/XGMML/)
 
 XGMML is now preferred to GML because it offers the flexibility
 associated with all XML document types. If you're unsure about which to
@@ -271,7 +271,7 @@ manual editing.
 The Systems Biology Markup Language (SBML) is an XML format to describe
 biochemical networks. SBML file format specification is available at:
 
-[](http://sbml.org/documents/)
+[http://sbml.org/documents/](http://sbml.org/documents/)
 
 <a id="biopax_biological_pathways_exchange_format"> </a>
 ## BioPAX (Biological PAthways eXchange) Format
@@ -280,7 +280,7 @@ BioPAX is an OWL (Web Ontology Language) document designed to exchange
 biological pathways data. The complete set of documents for this format
 is available at:
 
-[](http://www.biopax.org/)
+[http://www.biopax.org/](http://www.biopax.org/)
 
 <a id="psi_mi_format"> </a>
 ## PSI-MI Format
@@ -289,7 +289,7 @@ The PSI-MI format is a data exchange format for protein-protein
 interactions. It is an XML format used to describe PPI and associated
 data. PSI-MI XML format specification is available at:
 
-[](http://psidev.sourceforge.net/mi/xml/doc/user/)
+[http://psidev.sourceforge.net/mi/xml/doc/user/](http://psidev.sourceforge.net/mi/xml/doc/user/)
 
 <a id="graphml"> </a>
 ## GraphML
@@ -298,7 +298,7 @@ GraphML is a comprehensive and easy-to-use file format for graphs. It is
 based on XML. The complete set of documents for this format is available
 at:
 
-[](http://graphml.graphdrawing.org/)
+[http://graphml.graphdrawing.org/](http://graphml.graphdrawing.org/)
 
 <a id="delimited_text_table_and_excel_workbook"> </a>
 ## Delimited Text Table and Excel Workbook
@@ -308,7 +308,7 @@ delimited text files. The tables in these files can have network data
 and edge columns. Users can specify columns containg source nodes,
 target nodes, interaction types, and edge columns during file import.
 Some of the other network analysis tools, such as igraph
-([](http://cneurocvs.rmki.kfki.hu/igraph/)), has feature to export graph
+([http://cneurocvs.rmki.kfki.hu/igraph/](http://cneurocvs.rmki.kfki.hu/igraph/)), has feature to export graph
 as simple text files. Cytoscape can read these text files and build
 networks from them. For more detail, please read the Import Free-Format
 Tables section of the **[Creating
