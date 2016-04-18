@@ -520,4 +520,4 @@ And this is a sample visualization in Cytoscape.js:
 Export network and table to Cytoscape.js feature in Cytoscape creates a
 JSON file **WITHOUT** style. This means that you need to export the
 style in a separate JSON file if you apply style to your network. Please
-read Style section for more details.
+read the [Style](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_14_Styles.html#styles) section for more details.
