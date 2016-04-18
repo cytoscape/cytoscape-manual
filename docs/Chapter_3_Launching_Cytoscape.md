@@ -207,5 +207,5 @@ of memory* error. To avoid this, you can set a larger heap size for
 Cytoscape tasks by using the ***taskStackSize*** option in the
 `cytoscape3.props` file (located in the `CytoscapeConfiguration`
 directory). This can be edited within Cytoscape using the Preferences
-Editor (Edit-Preferences-Properties...) - look for taskStackSize. The
+Editor (**Edit | Preferences | Properties...***) - look for taskStackSize. The
 value should be specified in bytes.

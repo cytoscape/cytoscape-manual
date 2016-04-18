@@ -142,7 +142,7 @@ section of this manual.
 Note (1): This data is taken from the *A merged human interactome*
 datasets by Andrew Garrow, Yeyejide Adeleye and Guy Warner (Unilever,
 Safety and Environmental Assurance Center, 12 October 2006). Actual data
-files are available at [](http://wiki.cytoscape.org/Data_Sets/)
+files are available at [http://wiki.cytoscape.org/Data_Sets/](http://wiki.cytoscape.org/Data_Sets/)
 
 ### Basic Operations
 
@@ -257,9 +257,9 @@ computers to interact over the internet. These days, many major
 biological databases publish their data with a web service API:
 
 -   List of Biological Web Services:
-    [](http://taverna.sourceforge.net/services)
+    [http://taverna.sourceforge.net/services](http://taverna.sourceforge.net/services)
 
--   Web Services at the EBI: [](http://www.ebi.ac.uk/Tools/webservices/)
+-   Web Services at the EBI: [http://www.ebi.ac.uk/Tools/webservices/](http://www.ebi.ac.uk/Tools/webservices/)
 
 Cytoscape core developer team have developed several web service clients
 using this framework. Cytoscape supports many web services including:
