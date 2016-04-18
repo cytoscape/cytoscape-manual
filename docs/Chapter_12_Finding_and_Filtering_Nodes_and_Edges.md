@@ -259,11 +259,11 @@ filter.
 <a id="the_select_menu"> </a>
 ## The Select Menu
 
-The **Select | Nodes** and **Select | Edges** menus provide several
+The **Select → Nodes** and **Select → Edges** menus provide several
 mechanisms for selecting nodes and edges. Most options are fairly
 straightforward; however, some need extra explanation.
 
-**Select | Nodes | From ID List File...** selects nodes based on node
+**Select → Nodes → From ID List File...** selects nodes based on node
 identifiers found in a specified file. The file format is simply one
 node id per line:
 

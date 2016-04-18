@@ -5,7 +5,7 @@
 and to create a more unified user experience. They are named based on their functions -- **Control Panel**, 
 **Table Panel**, **Tool Panel** and **Result Panel**. The following screenshot shows the file `galFiltered.sif` 
 loaded into Cytoscape, with a force-directed layout, **Rotate** tools showing in the **Tool Panel**, and with 
-results from Network Analyzer (**Tools | Network Analysis | Analyze Network**). The **Control Panel** (at the 
+results from Network Analyzer (**Tools → Network Analysis → Analyze Network**). The **Control Panel** (at the 
 left-hand side of the screen) contains the Network Manager, Network Overview, Styles and Select tabs. On the 
 bottom of the panel, there is another panel called **Tool Panel**. In the **Table Panel**, the **Node Table** 
 is shown. In addition, analysis results from Network Analyzer are shown in **Result Panel** (at the right-hand side). 
@@ -26,7 +26,7 @@ By default, only the **Control Panel** and the **Data Panel** will appear. The *
 depending on the mix of Cytoscape apps that you currently have installed. The **Tool Panel** will appear when 
 you select the following commands under the **Layout** menu: **Rotate**, **Scale**, and **Align and Distribute**.
 
-All panels can be shown or hidden using the **View | Show/Hide** functions.
+All panels can be shown or hidden using the **View → Show/Hide** functions.
 
 ![cytopanel-menu-items.png](_static/images/Panels/cytopanel-menu-items.png)
 

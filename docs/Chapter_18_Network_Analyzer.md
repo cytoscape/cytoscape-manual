@@ -25,8 +25,8 @@ separate networks and the removal of self-loops.
 <a id="analyze_network"> </a>
 ### Analyze Network
 
-To run NetworkAnalyzer, select **Tools | NetworkAnalyzer | Network
-Analysis | Analyze Network**.
+To run NetworkAnalyzer, select **Tools → NetworkAnalyzer → Network
+Analysis → Analyze Network**.
 
 ![NetworkAnalyzer.png](_static/images/Network_Analyzer/NetworkAnalyzer.png)
 

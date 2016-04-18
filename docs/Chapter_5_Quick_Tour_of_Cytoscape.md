@@ -67,7 +67,7 @@ window again, click the **Dock Window** icon
 ![DockWindow.png](_static/images/Quick_Tour/DockWindow.png).
 Clicking the **Hide Panel** icon
 ![HideWindow.png](_static/images/Quick_Tour/HideWindow.png)
-will hide the panel; this can be shown again by choosing **View | Show**
+will hide the panel; this can be shown again by choosing **View → Show**
 and selecting the relevant panel.
 
 If you click this control, for example on the Table Panel, you will now
@@ -89,8 +89,8 @@ section.
 Cytoscape also has an edit functionality that enables you to build and
 modify networks interactively within the network canvas. To edit a
 network, just right-click on the open space of network window, select
-the menu item **Add | Node**, a new node will be added to the canvas. To
-add an edge, right click on a node, choose the menu item **Edit | Add
+the menu item **Add → Node**, a new node will be added to the canvas. To
+add an edge, right click on a node, choose the menu item **Edit → Add
 Edge**. Then select the target node, a new edge will be added between
 the two nodes. In a similar way annotation objects can be added;
 pictures, shapes or textboxes; much like in MS PowerPoint or similar
@@ -106,17 +106,17 @@ section.
 <a id="file"> </a>
 ### File
 
-The File menu contains most basic file functionality: **File | Open**
-for opening a Cytoscape session file; **File | New** for creating a new
-network, either blank for editing, or from an existing network; **File |
-Save** for saving a session file; **File | Import** for importing data
-such as networks and data; and **File | Export** for exporting data and
-images. **File | Export | Network View as Graphics** lets you export the
+The File menu contains most basic file functionality: **File → Open**
+for opening a Cytoscape session file; **File → New** for creating a new
+network, either blank for editing, or from an existing network; **File →
+Save** for saving a session file; **File → Import** for importing data
+such as networks and data; and **File → Export** for exporting data and
+images. **File → Export → Network View as Graphics** lets you export the
 network in either JPEG, PDF, PNG, Post Script or SVG format.
 
-**File | Recent Session** will list recently opened session files for
-quick access. **File | Run** allows you to specify a Cytoscape script
-file to run, and **File | Print Current Network...** allows printing.
+**File → Recent Session** will list recently opened session files for
+quick access. **File → Run** allows you to specify a Cytoscape script
+file to run, and **File → Print Current Network...** allows printing.
 
 ![FileMenu.png](_static/images/Quick_Tour/FileMenu.png)
 
@@ -131,7 +131,7 @@ There are also options for creating and destroying views (graphical
 representations of a network) and networks (the raw network data - not
 yet visualized), as well as an option for deleting selected nodes and
 edges from the current network. All deleted nodes and edges can be
-restored to the network via **Edit | Undo**.
+restored to the network via **Edit → Undo**.
 
 There are also other editing options; **Remove Duplicated Edges** will
 delete edges that are complete duplicates, keeping one edge, **Remove
@@ -140,8 +140,8 @@ and **Delete Selected Nodes and Edges...** deletes a selected subset of
 the network. **Rename Network...** allows you to rename the currently
 selected network.
 
-Editing preferences for properties and apps is found under **Edit |
-Preferences | Properties...**. More details on how to edit preferences
+Editing preferences for properties and apps is found under **Edit →
+Preferences → Properties...**. More details on how to edit preferences
 can be found
 [here](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_19_Cytoscape_Preferences.html#cytoscape-preferences).
 
@@ -179,7 +179,7 @@ automatically lay a network out.
 <a id="apps"> </a>
 ### Apps
 
-The **Apps** menu gives you access to the **App Manager** (**Apps | App
+The **Apps** menu gives you access to the **App Manager** (**Apps → App
 Manager**) for managing (install/update/delete) your apps and may have
 options added by apps that have been installed. Depending on which apps
 are loaded, the apps that you see may be different than what appear
@@ -253,7 +253,7 @@ the network manager or by choosing the appropriate option in the
 Certain operations in Cytoscape will create new networks. If a new
 network is created from an old network, for example by selecting a set
 of nodes in one network and copying these nodes to a new network (via
-the **File | New | Network** option), it will be shown immediately
+the **File → New → Network** option), it will be shown immediately
 follows the network that it was derived from.
 
 The available network views are also arranged as multiple overlapping
@@ -265,7 +265,7 @@ operating system.
 ### Arrange Network Windows
 
 When you work on multiple networks, you can arrange the network view
-windows under **View | Arrange Network Windows**.
+windows under **View → Arrange Network Windows**.
 
 **Vertical**
 
