@@ -26,7 +26,7 @@ Cytoscape including:
 
 Also, a news panel always display latest information for users. For
 information on user privacy, see the **[Cytoscape Privacy
-Policy](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_25_Cytoscape_Privacy_Policy.html#cytoscape-privacy-policy)**.
+Policy](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_26_Cytoscape_Privacy_Policy.html#cytoscape-privacy-policy)**.
 
 <a id="basic_features"> </a>
 ## Basic Features

@@ -51,11 +51,11 @@ Table of Contents
    Chapter_18_Network_Analyzer
    Chapter_19_Cytoscape_Preferences
    Chapter_20_Linkout
-   Chapter_21_Rendering_Engine
-   Chapter_22_Publish_Your_Data
-   Chapter_23_Cytoscape.js_and_Cytoscape
-   Chapter_24_Programmatic_Access_to_Cytoscape_Features_Scripting
-   Chapter_25_Cytoscape_Privacy_Policy
+   Chapter_22_Rendering_Engine
+   Chapter_23_Publish_Your_Data
+   Chapter_24_Cytoscape.js_and_Cytoscape
+   Chapter_25_Programmatic_Access_to_Cytoscape_Features_Scripting
+   Chapter_26_Cytoscape_Privacy_Policy
 ..   
    
 
