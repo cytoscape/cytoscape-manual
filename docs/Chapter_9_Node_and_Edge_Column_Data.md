@@ -223,35 +223,6 @@ inserting into the data value. For example:
     newlineDataColumn
     YJL157C = This is a long\nline for a label.
 
-<a id="advanced_options"> </a>
-### Advanced Options
-
-Is this still relevant?
-
-#### Annotation File to Table Mapping
-
-Formerly, Cytoscape only supported mapping between node/edge IDs and the
-primary keys in data files. With the introduction of Cytoscape 2.4, this
-limitation has been removed, and now both IDs and data columns with
-primitive data types (string, boolean, floating point, and integer) can
-be selected as the Key Attribute using the drop-down list provided.
-Complex attributes such as lists are not supported.
-
-![attribute\_table\_import\_keyattr.png](_static/images/Columns/attribute_table_import_keyattr.png)
-
-#### Aliases
-
-Cytoscape uses a simple mechanism to manage aliases of objects. Both
-nodes and edges can have aliases. If an attribute is loaded as an alias,
-it is treated as a special attribute called "alias". This will be used
-when mapping attributes. If the primary key and key attribute for an
-object do not match, Cytoscape will search for a match between aliases
-and the key attribute. To define an alias column in the attribute table,
-just click on the checkboxes to the left of the column name while
-importing.
-
-![attribute\_table\_import\_alias.png](_static/images/Columns/attribute_table_import_alias.png)
-
 <a id="table_panel"> </a>
 ### Table Panel
 

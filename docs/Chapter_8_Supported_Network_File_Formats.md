@@ -214,7 +214,7 @@ an embedded space a backslash followed by a space etc.
 
 ![NNFExample4\_2.png](_static/images/Network_Formats/NNFExample4_2.png)
 
-    Example_5      M4
+    Example_4      M4
     M4             D
     M4             M3
     M3             M2        pp        C
