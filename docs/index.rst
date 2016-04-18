@@ -51,6 +51,7 @@ Table of Contents
    Chapter_18_Network_Analyzer
    Chapter_19_Cytoscape_Preferences
    Chapter_20_Linkout
+   Chapter_21_Panels
    Chapter_22_Rendering_Engine
    Chapter_23_Publish_Your_Data
    Chapter_24_Cytoscape.js_and_Cytoscape
