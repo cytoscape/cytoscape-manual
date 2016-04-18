@@ -80,7 +80,7 @@ when you put the mouse pointer on a cell.
 Note that Table Panel now has a Dock Window control. If you click this
 control, the window will dock onto the main window. For more information
 on the panels in Cytoscape, see the
-**[Panels](#Panels)**
+**[Panels](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_21_Panels.html#what-are-panels)**
 section.
 
 <a id="network_editing"> </a>
@@ -95,7 +95,7 @@ Edge**. Then select the target node, a new edge will be added between
 the two nodes. In a similar way annotation objects can be added;
 pictures, shapes or textboxes; much like in MS PowerPoint or similar
 software. Detailed information on network editing can be found in the
-**[Editing Networks](#Network_Editor)**
+**[Editing Networks](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_6_Creating_Networks.html#create_or_edit_a_new_network_manually)**
 section.
 
 ![AddNodeMenu.png](_static/images/Quick_Tour/AddNodeMenu.png)
