@@ -11,6 +11,6 @@ all the latest changes.
 *This manual describes the installation and use of Cytoscape. For a more
 thorough understanding of Cytoscape and its ecosystem, we highly
 recommend reading the **Welcome Letter** accessible on the
-[](http://cytoscape.org) website.*
+[http://cytoscape.org](http://cytoscape.org) website.*
 
 

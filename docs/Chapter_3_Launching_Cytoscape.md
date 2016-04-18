@@ -58,7 +58,7 @@ on the [http://cytoscape.org](http://cytoscape.org) website.*
 -   We currently recommend only Java 8.
 
 For additional information, select the Release Notes button on the
-[Cytoscape web site]http://cytoscape.org)).
+[Cytoscape web site](http://cytoscape.org).
 
 <a id="install_cytoscape"> </a>
 ### Install Cytoscape
@@ -112,7 +112,7 @@ central file server. `user.home` can be set by adding the following
 option to the Cytoscape.vmoptions file or the \_JAVA\_OPTIONS
 environment variable, substituting the desired path as appropriate:
 
-    ***-Duser.home=/path/to/desired/home***
+   **-Duser.home=/path/to/desired/home**
 
 Your operating system may have other mechanisms for setting environment
 variables -- see your operating system documentation for further
@@ -193,9 +193,9 @@ and use up to a maximum of 4GB, edit the Cytoscape.vmoptions file to
 contain the following lines (... do not forget the linefeed at the end
 of each line, and an extra linefeed at the end of the file!):
 
-    ***-Xms2GB***
+   **-Xms2GB**
 
-    ***-Xmx4GB***
+   **-Xmx4GB**
 
 #### Stack Size
 
