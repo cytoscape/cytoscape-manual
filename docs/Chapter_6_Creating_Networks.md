@@ -331,8 +331,8 @@ functions, this is the powerful query language to filter the result. The
 last option is for importing all interactions for the species (i.e.,
 interactome).
 
-<a id="create_or_edit_a_new_network_manually"> </a>
-## Create or Edit a New Network Manually
+<a id="create_a_new_network_or_edit_one_manually"> </a>
+## Create a New Network or Edit One Manually
 
 A new, empty network can also be created and nodes and edges manually
 added. To create an empty network, go to **File → New → Network → Empty

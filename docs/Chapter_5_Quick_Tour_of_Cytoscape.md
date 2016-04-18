@@ -95,7 +95,7 @@ Edge**. Then select the target node, a new edge will be added between
 the two nodes. In a similar way annotation objects can be added;
 pictures, shapes or textboxes; much like in MS PowerPoint or similar
 software. Detailed information on network editing can be found in the
-**[Editing Networks](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_6_Creating_Networks.html#create_or_edit_a_new_network_manually)**
+**[Editing Networks](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_6_Creating_Networks.html#create_a_new_network_or_edit_one_manually)**
 section.
 
 ![AddNodeMenu.png](_static/images/Quick_Tour/AddNodeMenu.png)
