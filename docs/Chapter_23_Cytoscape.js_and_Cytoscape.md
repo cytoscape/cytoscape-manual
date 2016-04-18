@@ -134,7 +134,7 @@ with alphanumeric characters and underscore (\_) is the best practice.
 (For actual data entries, all characters are allowed. This restriction
 is only for table column names.)
 
-#<a id="export_styles_to_cytoscape_js"> </a>
+<a id="export_styles_to_cytoscape_js"> </a>
 ## Export Styles to Cytoscape.js
 
 Cytoscape and Cytoscape.js are sharing a concept called **Style**. This

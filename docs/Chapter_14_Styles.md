@@ -57,8 +57,8 @@ can visually see the hub of a network...**
 **Add photo/image/graphics on top of nodes.**
 
 ![CustomGraphics1.png](_static/images/Styles/CustomGraphics1.png)
-    ![CustomGraphics4.png](_static/images/Styles/CustomGraphics4.png)
-    ![CustomGraphics5.png](_static/images/Styles/CustomGraphics5.png)
+![CustomGraphics4.png](_static/images/Styles/CustomGraphics4.png)
+![CustomGraphics5.png](_static/images/Styles/CustomGraphics5.png)
 
 Cytoscape 3 has several sample styles. Below are a few examples of these
 applied to the *galFiltered.sif* network :
@@ -621,7 +621,7 @@ Since no mappings are set up yet, only default values are defined for
 some of the properties. From this panel, you can create node/edge
 mappings for all properties.
 
-1.  **Change the default node color and shape:** To set the default node
+5.  **Change the default node color and shape:** To set the default node
     shape to triangles, click the **Default Value** column for the
     **Shape** property. A list of available node shapes will be shown.
     Select the **Triangle** item and click the **Apply** button. You can

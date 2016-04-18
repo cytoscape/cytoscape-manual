@@ -46,16 +46,19 @@ Similarly, the help for the "network import file" example from above is:
 
     help network import file
      network import file arguments:
-     dataTypeList=<String>: List of column data types ordered by column index (e.g. "string,int,long,double,boolean,intlist" or just "s,i,l,d,b,il")
+     dataTypeList=<String>: List of column data types ordered by column index 
+	   (e.g. "string,int,long,double,boolean,intlist" or just "s,i,l,d,b,il")
      defaultInteraction=<String>: Default interaction type
      delimiters=<ListMultipleSelection [,,;, ,\t]>: Text Delimiters
-     delimitersForDataList=<ListSingleSelection (\||\|/|,)>: Text Delimiters for data list type
+     delimitersForDataList=<ListSingleSelection (\||\|/|,)>: 
+	   Text Delimiters for data list type
      file=<File>: Data Table file
      firstRowAsColumnNames=true|false: First row used for column names
      indexColumnSourceInteraction=<int>: Column for source interaction
      indexColumnTargetInteraction=<int>: Column for target interaction
      indexColumnTypeInteraction=<int>: Column for interaction type
      NetworkViewRendererList=<ListSingleSelection ()>: Network View Renderer
-     RootNetworkList=<ListSingleSelection (-- Create new network collection --|Network)>: Network Collection
+     RootNetworkList=<ListSingleSelection (-- Create new network collection 
+	   --|Network)>: Network Collection
      startLoadRow=<int>: Start Load Row
      TargetColumnList=<ListSingleSelection ()>: Node Identifier Mapping Column
