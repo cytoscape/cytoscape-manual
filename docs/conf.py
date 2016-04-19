@@ -11,7 +11,7 @@ version = '3.4-milestone3'
 release = '3.4-milestone3'
 language = None
 
-exclude_patterns = ['_build', 'Chapter_1_Preamble', 'Chapter_2_Introduction']
+exclude_patterns = ['_build']
 pygments_style = 'sphinx'
 
 import sphinx_rtd_theme
