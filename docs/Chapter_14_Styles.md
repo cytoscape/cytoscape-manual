@@ -426,15 +426,19 @@ types are supported:
 <img src="_static/images/Styles/ColorPassthrough.png" width="325" />
 <img src="_static/images/Styles/colorPt2.png" width="325" />
 
-    ![ColorPassthrough.png](_static/images/Styles/ColorPassthrough.png)
-        ![colorPt2.png](_static/images/Styles/colorPt2.png)
-
 2.  Node Size Passthrough Mapping
+
+<img src="_static/images/Styles/SizePassthrough.png" width="325" />
+<img src="_static/images/Styles/sizePt2.png" width="325" />
 
     ![SizePassthrough.png](_static/images/Styles/SizePassthrough.png)
         ![sizePt2.png](_static/images/Styles/sizePt2.png)
 
 3.  Image Passthrough Mapping
+
+<img src="_static/images/Styles/CustomGraphicsPassthrough" width="325" />
+<img src="_static/images/Styles/cglorPt2.png" width="325" />
+
 
     ![CustomGraphicsPassthrough.png](_static/images/Styles/CustomGraphicsPassthrough.png)
         ![cglorPt2.png](_static/images/Styles/cglorPt2.png)
