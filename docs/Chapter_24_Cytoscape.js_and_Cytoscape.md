@@ -178,7 +178,7 @@ supported in the web browser are ignored. A complete compatibility list is avail
 ### Import Cytoscape.js data into Cytoscape
 
 Cytoscape.js network JSON files can be loaded from standard Cytoscape
-file menu: **File | Import | Network |**. Both File and URL are
+file menu: **File | Import | Network ...**. Both File and URL are
 supported.
 
 <a id="build_your_own_web_application_with_cytoscape_js"> </a>

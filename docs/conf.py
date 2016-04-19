@@ -3,12 +3,12 @@ templates_path = ['_templates']
 
 master_doc = 'index'
 
-project = u'Test'
-copyright = u'2015, Test'
-author = u'Test'
+project = u'Cytscape User Manual'
+copyright = u'2016, The Cytoscape Consortium'
+author = u'The Cytoscape Consortium'
 
-version = 'test'
-release = 'test'
+version = '3.4-milestone3'
+release = '3.4-milestone3'
 language = None
 
 exclude_patterns = ['_build']
@@ -24,6 +24,8 @@ def setup(app):
 html_static_path = ['_static']
 html_show_sourcelink = True
 htmlhelp_basename = 'Testdoc'
+html_logo = '_static/images/cytoscape3-icon-trans-128x128.png'
+html_favicon = '_static/images/cytoscape3-icon.ico'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
