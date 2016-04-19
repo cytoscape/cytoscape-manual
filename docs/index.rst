@@ -30,6 +30,7 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 2
+   :numbered: 2
 
    Chapter_1_Preamble
    Chapter_2_Introduction
