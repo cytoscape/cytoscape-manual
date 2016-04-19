@@ -167,13 +167,12 @@ Cytoscape.js JSON:
 
 #### Cytoscape.js and Cytoscape compatibility charts
 
-The following two charts detail the compatibility of specific Cytoscape
-features in Cytoscape.js.
+Cytoscape’s network rendering system is designed for desktop use, while the browser-based renderer 
+incorporates web technologies (e.g., cytoscape.js and Cascaded Style Sheets). As a result, most but 
+not all networks will render the same in the browser as in Cytoscape. Cytoscape visual styles not 
+supported in the web browser are ignored. A complete compatibility list is available 
+[here](https://docs.google.com/spreadsheets/d/1iTDKGjro1-L7HGz1ftozqDKRxjQVSPF28jQLt7XGrSg/edit#gid=0).
 
-************** Is this broken ??? *******************
-
-[![small.png](_static/images/CytoscapeJs/CS-web_vs_CS-1.png)](_static/images/CS-web_vs_CS-1_small.png)
-[![small.png](_static/images/CytoscapeJs/CS-web_vs_CS-2.png)](_static/images/CS-web_vs_CS-2_small.png)
 
 <a id="import_cytoscape.js_data_into_cytoscape"> </a>
 ### Import Cytoscape.js data into Cytoscape

@@ -241,6 +241,6 @@ NetworkAnalyzer also contains extra functionality, for instance, for constructin
 
 The NetworkAnalyzer plugin and a comprehensive online documentation with a tutorial are available at [http://med.bioinf.mpi-inf.mpg.de/networkanalyzer/](http://med.bioinf.mpi-inf.mpg.de/networkanalyzer/).
 
-**__Data keywords__**: network, graph, topology
+**Data keywords**: network, graph, topology
 
-**__Cytoscape keywords__**: Network Analysis
+**Cytoscape keywords**: Network Analysis
