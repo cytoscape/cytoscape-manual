@@ -3,7 +3,7 @@ templates_path = ['_templates']
 
 master_doc = 'index'
 
-project = u'Cytscape User Manual'
+project = u'Cytoscape User Manual'
 copyright = u'2016, The Cytoscape Consortium'
 author = u'The Cytoscape Consortium'
 
@@ -26,6 +26,7 @@ html_show_sourcelink = True
 htmlhelp_basename = 'Testdoc'
 html_logo = '_static/images/cytoscape3-icon-trans-128x128.png'
 html_favicon = '_static/images/cytoscape3-icon.ico'
+html_title = 'experiment'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
