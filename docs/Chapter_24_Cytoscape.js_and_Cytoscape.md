@@ -165,7 +165,7 @@ Cytoscape.js JSON:
 
 -   Arrow Colors (they are always same as edge color)
 
-#### Cytoscape.js and Cytoscape compatibility charts
+#### Cytoscape.js and Cytoscape Compatibility 
 
 Cytoscape’s network rendering system is designed for desktop use, while the browser-based renderer 
 incorporates web technologies (e.g., cytoscape.js and Cascaded Style Sheets). As a result, most but 
