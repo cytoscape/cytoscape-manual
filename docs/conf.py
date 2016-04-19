@@ -2,6 +2,7 @@ extensions = []
 templates_path = ['_templates']
 
 master_doc = 'index'
+exclude_patterns = ['Chapter_1_Preamble', 'Chapter_2_Introduction']
 
 project = u'Cytoscape User Manual'
 copyright = u'2016, The Cytoscape Consortium'
@@ -26,7 +27,6 @@ html_show_sourcelink = True
 htmlhelp_basename = 'Testdoc'
 html_logo = '_static/images/cytoscape3-icon-trans-128x128.png'
 html_favicon = '_static/images/cytoscape3-icon.ico'
-html_last_updated_fmt = 'xxx'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
