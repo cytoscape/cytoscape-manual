@@ -424,6 +424,7 @@ types are supported:
 1.  Color Passthrough Mapping
 
 <img src="_static/images/Styles/ColorPassthrough.png" width="200" height="200" />
+<img src="_static/images/Styles/colorPt2.png" width="200" height="200" />
 
     ![ColorPassthrough.png](_static/images/Styles/ColorPassthrough.png)
         ![colorPt2.png](_static/images/Styles/colorPt2.png)
