@@ -10,8 +10,7 @@ http://www.gnu.org/licenses/lgpl-2.1.html.
 Copyright (c) 2001-2016 The Cytoscape Consortium
 
 
-Table of Contents
-=================
+<h1>Table of Contents</h1>
 
 .. toctree::
    :maxdepth: 2
