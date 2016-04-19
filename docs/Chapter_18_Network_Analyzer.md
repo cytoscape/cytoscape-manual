@@ -75,7 +75,7 @@ parameters. Examples of local parameters are node degree, neighborhood
 connectivity, topological and clustering coefficients. Betweenness and
 closeness centralities, as well as stress, are global parameters.
 
-[NetworkAnalyzer](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_18_Network_Analyzer.html#networkanalyzer)
+[NetworkAnalyzer](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_18_Network_Analyzer.html#networkanalyzerdemo)
 provides the **Analyze Subset of Nodes** option for computing local
 parameters for a subset of nodes. If one or more nodes in the network
 are selected before starting an analysis, only the sub-network induced
@@ -121,7 +121,7 @@ simple steps:
 
 Existing network statistics can be loaded from a file saved previously
 in
-[NetworkAnalyzer](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_18_Network_Analyzer.html#networkanalyzer).
+[NetworkAnalyzer](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_18_Network_Analyzer.html#networkanalyzerdemo).
 
 <a id="plot_parameters"> </a>
 ### Plot Parameters
@@ -224,3 +224,23 @@ components. The user selects a number of connected components from a
 list and each selected components is visualized as a sub-network.
 
 ![NetworkAnalyzer\_ConnectedComponents.png](_static/images/Network_Analyzer/NetworkAnalyzer_ConnectedComponents.png)
+
+<a id="networkanalyzerdemo"> </a>
+## NetworkAnalyzerDemo: Computation and Visualization of Topological Parameters and Centrality Measures for Biological Networks
+**Yassen Assenov<sup>1</sup>, Nadezhda Doncheva<sup>1</sup>, Thomas Lengauer<sup>1</sup>, and Mario Albrecht<sup>1</sup>**
+
+*1 Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Campus E1.4, 66123 Saarbrücken, Germany*
+
+NetworkAnalyzer is a versatile and highly customizable Cytoscape plugin that requires no expert knowledge 
+in graph theory from the user. It computes and displays a comprehensive set of topological parameters and 
+centrality measures for undirected and directed networks, which includes the number of nodes, edges, and 
+connected components, the network diameter, radius, density, centralization, heterogeneity, clustering 
+coefficient, and the characteristic path length. In addition, NetworkAnalyzer shows charts of the distribution 
+of node degrees, neighborhood connectivities, average clustering coefficients, and shortest path lengths. 
+NetworkAnalyzer also contains extra functionality, for instance, for constructing the intersection or union of two networks.
+
+The NetworkAnalyzer plugin and a comprehensive online documentation with a tutorial are available at [http://med.bioinf.mpi-inf.mpg.de/networkanalyzer/](http://med.bioinf.mpi-inf.mpg.de/networkanalyzer/).
+
+**__Data keywords__**: network, graph, topology
+
+**__Cytoscape keywords__**: Network Analysis
