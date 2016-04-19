@@ -423,7 +423,7 @@ types are supported:
 
 1.  Color Passthrough Mapping
 
-    ![ColorPassthrough.png](_static/images/Styles/ColorPassthrough.png)
+    ![ColorPassthrough.png](_static/images/Styles/ColorPassthrough.png =100x100)
         ![colorPt2.png](_static/images/Styles/colorPt2.png)
 
 2.  Node Size Passthrough Mapping
