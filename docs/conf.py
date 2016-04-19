@@ -2,7 +2,6 @@ extensions = []
 templates_path = ['_templates']
 
 master_doc = 'index'
-exclude_patterns = ['Chapter_1_Preamble', 'Chapter_2_Introduction']
 
 project = u'Cytoscape User Manual'
 copyright = u'2016, The Cytoscape Consortium'
@@ -12,7 +11,7 @@ version = '3.4-milestone3'
 release = '3.4-milestone3'
 language = None
 
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', 'Chapter_1_Preamble', 'Chapter_2_Introduction']
 pygments_style = 'sphinx'
 
 import sphinx_rtd_theme
