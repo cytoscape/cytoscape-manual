@@ -3,23 +3,7 @@
 
 This project is the working copy of the Cytoscape user manual. It will become the permanent manual once we have created a feature-complete and format-complete version. 
 
-The outstanding issues are identified as GitHub Issues, with discussion as below:
-
-1. Table formatting using centralized CSS (mostly done)
-
-2. Links within the document resolving properly (done)
- 
-3. Links from outside of the document resolving properly (see notes below)
-
-4. A proper placement of First pages, Table of Contents, and Document body
- 
-5. Typos introduced by the conversion process (mostly done)
-
-4. A properly formatted PDF file
-
-5. Incorporating the PDF file into the Cytoscape build process
-
-6. Comparison of existing manual and new manual
+The outstanding issues are identified as GitHub Issues. The main outstanding issues are getting document (including tables) to format properly (or at all) in PDF.
 
 While the manual sources are maintained in GitHub, the document is actually assembled, formatted, and staged by the ReadTheDocs.org site. ReadTheDocs presents online and PDF versions, and we will use both.
 
@@ -30,11 +14,11 @@ All document components are in the "docs" directory. Each chapter is contained i
 
 Images are stored in the "docs/_static/images" directory, organized into subdirectories by chapter. For high quality images, vector graphic files produce best results (e.g., .png).
 
-Simple tables can be represented in Markdown, but high quality formatting requires direct HTML coding. By convention, we encode tables as tagged data, but do not specify visual attributes and layout inline. Instead, we use preset table styles contained in "docs/_static/css" for formatting. Note that additional CSS files can be added, but must be accounted for in "_templates/layout.html" and "conf.py".
+Simple tables can be represented in Markdown, but high quality formatting requires direct HTML coding. By convention, we encode tables as HTML-tagged data, but do not specify visual attributes and layout inline. Instead, we use preset table styles contained in "docs/_static/css" for formatting -- we do not use Markdown's table formatting. Note that additional CSS files can be added, but must be accounted for in "_templates/layout.html" and "conf.py".
 
 Note that GitHub displays files containing Markdown with reasonably good quality. However, it only approximates the look of tables created via HTML. For an accurate view of a table, you must look at a document rendered by ReadTheDocs.
 
-Note that a full (browsable) link to a location has the form: "http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_3_Launching_Cytoscape.html#mylink" where "http://cytoscape-working-copy.readthedocs.org/en/latest/" is the full URL, "Chapter_3_Launching_Cytoscape" is the root name of the file containing the target link, and "mylink" is a named section (e.g., <a name="mylink">System requirements</a>). A link between chapters in the document has the form [My Link](Chapter_3_Launching_Cytoscape.html#mylink), and a link within the same chapter has the form [My Link](#mylink).
+Note that a full (browsable) link to a location has the form: "http://cytoscape-working-copy.readthedocs.org/en/latest/Launching_Cytoscape.html#mylink" where "http://cytoscape-working-copy.readthedocs.org/en/latest/" is the full URL, "Launching_Cytoscape" is the root name of the file containing the target link, and "mylink" is a named section (e.g., <a name="mylink">System requirements</a>). A link between chapters in the document has the form [My Link](Launching_Cytoscape.html#mylink), and a link within the same chapter has the form [My Link](#mylink). For sanity's sake, I always use the full link, and do not bother shorter link forms.
 
 ## Rebuilding the Manual
 The manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that I installed per http://docs.readthedocs.org/en/latest/webhooks.html). 
