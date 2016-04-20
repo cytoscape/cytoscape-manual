@@ -16,12 +16,12 @@ There are currently two ways in which a user can create nested networks.
 
 -   By importing a Nested Network Format (NNF) file. (See: **[NNF
     Network
-    Format](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_8_Supported_Network_File_Formats.html#nnf)**).
+    Format](http://cytoscape-working-copy.readthedocs.org/en/latest/Supported_Network_File_Formats.html#nnf)**).
 	
 -   By manually constructing networks and assigning nested networks to
     individual nodes through the right-click node context menu. (See
     **[Nested Network Node Context
-    Menu](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_13_Navigation_and_Layout.html#nested-network-node-context-menu)**).
+    Menu](http://cytoscape-working-copy.readthedocs.org/en/latest/Navigation_and_Layout.html#nested-network-node-context-menu)**).
 
 <a id="visualization_of_nested_networks"> </a>	
 ## Visualization of Nested Networks

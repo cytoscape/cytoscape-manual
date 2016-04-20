@@ -74,7 +74,7 @@ library, and so enable not only viewing but also Cytoscape-style
 interactive browsing of networks and attributes.
 
 The simplest choice is
-[CyNetShare](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_23_Publish_Your_Data.html#sharing-via-cynetshare),
+[CyNetShare](http://cytoscape-working-copy.readthedocs.org/en/latest/Publish_Your_Data.html#sharing-via-cynetshare),
 where you save your network (and optionally a style) on a public file
 system, then interactively view the network in a browser. Like Google
 Maps, you can generate and publish a URL that allows collaborators to

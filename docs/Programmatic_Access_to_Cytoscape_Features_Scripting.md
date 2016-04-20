@@ -63,7 +63,7 @@ workflow as simple script. You can learn more about this feature in this
 section:
 
 -   [Command
-    Tool](http://cytoscape-working-copy.readthedocs.org/en/latest/Chapter_16_Command_Tool.html#command-tool)
+    Tool](http://cytoscape-working-copy.readthedocs.org/en/latest/Command_Tool.html#command-tool)
 
 <a id="restful_api"> </a>
 ### RESTful API
