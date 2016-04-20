@@ -42,18 +42,18 @@ latex_elements = {
 }
 
 latex_documents = [
-  (master_doc, 'Test.tex', u'Test Documentation',
-   u'Test', 'manual'),
+  (master_doc, 'Test.tex', u'Cytoscape User Manual',
+   u'The Cytoscape Consortium', 'manual'),
 ]
 
 man_pages = [
-    (master_doc, 'test', u'Test Documentation',
+    (master_doc, 'test', u'Cytoscape User Manual',
      [author], 1)
 ]
 
 texinfo_documents = [
-  (master_doc, 'Test', u'Test Documentation',
-   author, 'Test', 'One line description of project.',
+  (master_doc, 'Test', u'Cytoscape User Manual',
+   author, 'Test', 'Cytoscape User Manual',
    'Miscellaneous'),
 ]
 
