@@ -221,7 +221,8 @@ The following settings can be configured by the user:
 
 NetworkAnalyzer allows for the creation of sub-networks of connected
 components. The user selects a number of connected components from a
-list and each selected components is visualized as a sub-network.
+list and each selected component is visualized as a sub-network. To create 
+sub-networks from connected components, select **Tools → NetworkAnalyzer → Subnetwork Creation → Extract Connected Components**.
 
 ![NetworkAnalyzer\_ConnectedComponents.png](_static/images/Network_Analyzer/NetworkAnalyzer_ConnectedComponents.png)
 
