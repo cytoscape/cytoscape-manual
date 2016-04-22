@@ -68,5 +68,12 @@ The configuration of Cytoscape group view may also be edited through
 
 ## Managing OpenCL Settings
 
+You can choose between one or more OpenCL drivers installed on your system by going to
+**Edit → Preferences → OpenCL Settings...**.
+
 ![Preferences\_opencl.png](_static/images/Preferences/Preferences_opencl.png)
+
+OpenCL is a library that enables Cytoscape to use your system's graphics processing unit (GPU)
+to accelerate certain layouts and other calculations. If no choices are presented, consult
+the support web page for your system's graphics card.
 
