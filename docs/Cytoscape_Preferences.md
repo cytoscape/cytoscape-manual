@@ -65,3 +65,8 @@ The configuration of Cytoscape group view may also be edited through
 **Edit → Preferences → Group Preferences...**.
 
 ![Preferences\_groups.png](_static/images/Preferences/Preferences_groups.png)
+
+## Managing OpenCL Settings
+
+![Preferences\_opencl.png](_static/images/Preferences/Preferences_opencl.png)
+
