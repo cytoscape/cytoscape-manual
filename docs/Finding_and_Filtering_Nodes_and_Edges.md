@@ -71,7 +71,7 @@ network efficiently and interactively. Some filters even provide slider
 controls to quickly explore different thresholds. This is the default
 behavior on smaller networks. For larger networks, Cytoscape
 automatically disables this interactivity. You can override this by
-manually checking the **Apply Automatically** box above the **Apply**
+manually checking the **Apply when filter changes** box above the **Apply**
 button:
 
 ![apply-automatically.png](_static/images/Filters/apply-automatically.png)
