@@ -179,6 +179,10 @@ paste the URL into the address field of a browser and observe whether
 the browser displays the file itself (good!) or a download page for the
 file (bad!).
 
+Hint: if Dropbox generates a "shareable" link that looks like 
+`https://www.dropbox.com/s/w5e7towcchuvdeu/cynetworm.cyjs?dl=0`, 
+you may be able to create a "direct" link by changing the "dl=0" to "dl=1": `https://www.dropbox.com/s/w5e7towcchuvdeu/cynetworm.cyjs?dl=1`.
+
 A simple strategy for always getting a "direct" URL is to store your
 file in a public directory served up by a web server, if you have access
 to one -- a URL served by a web server might appear as:
