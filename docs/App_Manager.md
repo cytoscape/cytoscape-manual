@@ -29,26 +29,31 @@ have the **Install** tab selected.
 
 ![AppManager](_static/images/AppManager/AppManager.png)
 
-There are three ways you can find apps:
+There are four ways you can find apps:
 
 -   If you know the name of an app you're looking for, enter it in the
     **Search** field. The App Manager will list the apps whose names or
     descriptions match the **Search** field in the middle panel.
 
--   If you have a general idea of what sort of app you're looking for,
-    double-click on the **apps by tag** folder, then click on one of the
-    tags that interests you. The apps with that tag are listed in the
-    middle panel.
-
 -   If you're not sure what sort of app you and want to see everything,
     click the **all apps** folder. In the middle pane, you will see a
     list of all the apps.
 
-When you click on an app in the middle panel, the App Manager shows its
-short description and icon in the right panel. If you want more
-information about the app, click the **View on App Store** button on the
-bottom-right. If you want to go ahead and install the app, click the
-**Install** button.
+-   If you want to install a collection of apps for a specific use case,
+    click on the **collections** folder. This will display the available
+    collections in the middle pane. A collection is simply an app that 
+    installs other apps for a specific use case.
+    
+-   If you have a general idea of what sort of app you're looking for,
+    double-click on the **apps by tag** folder, then click on one of the
+    tags that interests you. The apps with that tag are listed in the
+    middle pane.
+
+When you click on an app (or collection) in the middle panel, the 
+App Manager shows its short description and icon in the right panel. 
+If you want more information, click the **View on App Store** 
+button on the bottom-right. If you want to go ahead and install, 
+click the **Install** button.
 
 If you've downloaded an app to your computer, you can install it by
 clicking the **Install from File** button on the bottom-left.
@@ -70,3 +75,5 @@ you'll see a couple buttons where you can:
     on your computer, but Cytoscape does not load it. You can enable the
     app by first selecting the disabled app in the list, then click
     **Enable**.
+
+Note that uninstalling or disabling a collection will not uninstall or disable any apps installed by the collection.
