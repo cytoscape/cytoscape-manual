@@ -23,7 +23,9 @@ Note that a full (browsable) link to a location has the form: "http://cytoscape-
 ## Rebuilding the Manual
 The manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that I installed per http://docs.readthedocs.org/en/latest/webhooks.html). 
 
-The rebuild can be observed by logging into the ReadTheDocs account (see me for credentials) and choosing the "Cytoscape Working Copy" project. To see the build log, click on the grey Builds button. You can watch the progress of the build by manually refreshing your browser window until the build status shows either Passed or Failed. If it shows Passed, you can view the build result by clicking on the green View Docs button. 
+The rebuild can be observed by logging into the ReadTheDocs account (see me for credentials) and choosing the "Cytoscape User Manual" project. To see the build log, click on the grey Builds button. You can watch the progress of the build by manually refreshing your browser window until the build status shows either Passed or Failed - a build can take anywhere from 3 minutes to 10 minutes, depending on how busy the build server is. When the build is complete, if the status shows Passed, you can view the build result by clicking on the green View Docs button. 
+
+The document will also be available via [http://manual.cytoscape.org](http://manual.cytoscape.org).
 
 Note that many errors (e.g., missing chapter files) fail silently. It's always best to verify recent changes by viewing them in the built document.
 
