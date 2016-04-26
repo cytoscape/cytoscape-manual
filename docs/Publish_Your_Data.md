@@ -161,7 +161,9 @@ Note that if you specify a style URL, the style is added to the list of
 styles available in
 [CyNetShare](http://idekerlab.github.io/cy-net-share/)'s
 Visual Style dropdown, and you can apply the style by selecting it in
-the list.
+the list. CyNetShare's initial display uses the visual style named "default" -- 
+use the Visual Style dropdown to choose the style in effect when Cytoscape
+generated the .cyjs and .json files. 
 
 Note that the mechanics of generating a URL for a file in a public
 directory system is a fast moving topic. Until recently, systems like
