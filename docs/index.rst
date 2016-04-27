@@ -16,7 +16,7 @@ Copyright (c) 2001-2016 The Cytoscape Consortium
    :numbered: 2
 
    Introduction
-   Launching_Cytoscape
+   Launching_Cytoscape.md
    Command_Line_Arguments
    Quick_Tour_of_Cytoscape
    Creating_Networks
