@@ -256,24 +256,24 @@ of nodes in one network and copying these nodes to a new network (via
 the **File → New → Network** option), it will be shown immediately
 follows the network that it was derived from.
 
-The available network views are also arranged as multiple overlapping
-windows in the network view window. You can maximize, minimize, and
-destroy network views by using the normal window controls for your
-operating system.
+Network views can also be detached (undocked) from the main Cytoscape window. When detached, a view window can be dragged to another monitor, resized, maximized and minimized by using the normal window controls for your operating system. Notice, however, that closing a view window does not destroy it, but simply reattaches it to the Cytoscape window.
 
 <a id="arrange_network_windows"> </a>
 ### Arrange Network Windows
 
-When you work on multiple networks, you can arrange the network view
-windows under **View → Arrange Network Windows**.
-
-**Vertical**
-
-![MultipleNetworks\_Vertical.png](_static/images/Quick_Tour/MultipleNetworks_Vertical.png)
+When you have detached network view windows, you can arrange them by selecting one of these options under **View → Arrange Network Windows**:
 
 **Grid**
 
 ![MultipleNetworks\_Grid.png](_static/images/Quick_Tour/MultipleNetworks_Grid.png)
+
+**Cascade**
+
+**Vertical Stack**
+
+**Side by Side**
+
+![MultipleNetworks\_Vertical.png](_static/images/Quick_Tour/MultipleNetworks_Vertical.png)
 
 <a id="the_network_overview_window"> </a>
 ## The Network Overview Window
