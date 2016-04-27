@@ -1,7 +1,7 @@
 # cytoscape-manual
 ###Cytoscape User manual
 
-This project contains the complete user manual for Cytoscape 3. It has tags identifying the material that goes into the user manual for each version. A tag is formatted according to semantic versioning rules (e.g., 3.3)
+This project contains the complete user manual for Cytoscape 3. It has tags identifying the material that goes into the user manual for each version. A tag is formatted according to semantic versioning rules (e.g., 3.3).
 
 The outstanding issues are identified as GitHub Issues. The main outstanding issues are getting document (including tables) to format properly (or at all) in PDF.
 
