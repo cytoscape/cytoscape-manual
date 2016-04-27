@@ -93,7 +93,7 @@ defined in SIF format, node names should be unique, as identically named
 nodes will be treated as identical nodes. The name of each node will be
 the name in this file by default (unless another string is mapped to
 display on the node using styles). This is discussed in the section on
-**[Styles](http://cytoscape-working-copy.readthedocs.org/en/latest/Styles.html#styles)**.
+**[Styles](Styles.html#styles)**.
 The name of each edge will be formed from the name of the source and
 target nodes plus the interaction type: for example,
 `sourceName (edgeType) targetName`.
@@ -306,7 +306,7 @@ Some of the other network analysis tools, such as igraph
 as simple text files. Cytoscape can read these text files and build
 networks from them. For more detail, please read the Import Free-Format
 Tables section of the **[Creating
-Networks](http://cytoscape-working-copy.readthedocs.org/en/latest/Creating_Networks.html#creating-networks)**
+Networks](Creating_Networks.html#creating-networks)**
 section.
 
 <a id="cytoscape_js_json"> </a>
@@ -514,4 +514,4 @@ And this is a sample visualization in Cytoscape.js:
 Export network and table to Cytoscape.js feature in Cytoscape creates a
 JSON file **WITHOUT** style. This means that you need to export the
 style in a separate JSON file if you apply style to your network. Please
-read the [Style](http://cytoscape-working-copy.readthedocs.org/en/latest/Styles.html#styles) section for more details.
+read the [Style](Styles.html#styles) section for more details.

@@ -75,7 +75,7 @@ parameters. Examples of local parameters are node degree, neighborhood
 connectivity, topological and clustering coefficients. Betweenness and
 closeness centralities, as well as stress, are global parameters.
 
-[NetworkAnalyzer](http://cytoscape-working-copy.readthedocs.org/en/latest/Network_Analyzer.html#networkanalyzerdemo)
+[NetworkAnalyzer](Network_Analyzer.html#networkanalyzerdemo)
 provides the **Analyze Subset of Nodes** option for computing local
 parameters for a subset of nodes. If one or more nodes in the network
 are selected before starting an analysis, only the sub-network induced
@@ -121,7 +121,7 @@ simple steps:
 
 Existing network statistics can be loaded from a file saved previously
 in
-[NetworkAnalyzer](http://cytoscape-working-copy.readthedocs.org/en/latest/Network_Analyzer.html#networkanalyzerdemo).
+[NetworkAnalyzer](Network_Analyzer.html#networkanalyzerdemo).
 
 <a id="plot_parameters"> </a>
 ### Plot Parameters
@@ -155,7 +155,7 @@ parameters.
     large sizes. The smallest node size is set to 10 and the largest one
     to 100. Regarding edges, size reflects the edge line width and
     varies between 1 and 8. Refer to the
-    **[Styles](http://cytoscape-working-copy.readthedocs.org/en/latest/Styles.html#styles)**
+    **[Styles](Styles.html#styles)**
     section for details.
 
 -   Map to node / edge color: A computed parameter is mapped to the

@@ -51,7 +51,7 @@ Network → URL...**. In the import network dialog, insert the appropriate
 URL, either manually or using URL bookmarks. Bookmarked URLs can be
 accessed by clicking on the arrow to the right of the text field (see
 the Bookmark Manager in
-[Preferences](http://manual.cytoscape.org/en/stable/Cytoscape_Preferences.html#cytoscape-preferences)
+[Preferences](Cytoscape_Preferences.html#cytoscape-preferences)
 for more details on bookmarks). Also, you can drag and drop links from a
 web browser to the URL text box. Once a URL has been specified, click on
 the OK button to load the network.
@@ -63,7 +63,7 @@ affect which files are accessible to a computer. To work around this
 problem, Cytoscape supports the use of proxy servers. To configure a
 proxy server, go to **Edit → Preferences → Proxy Settings...**. This is
 further described in the
-**[Preferences](http://manual.cytoscape.org/en/stable/Cytoscape_Preferences.html#cytoscape-preferences)**
+**[Preferences](Cytoscape_Preferences.html#cytoscape-preferences)**
 section.
 
 <a id="import_networks_from_unformatted_table_files"> </a>
@@ -136,7 +136,7 @@ can be imported as edge data.
 The network import function cannot import node table columns - only edge
 table columns. To import node table columns from this table, please see
 the **[Node and Edge Column
-Data](http://manual.cytoscape.org/en/stable/Node_and_Edge_Column_Data.html#node-and-edge-column-data)**
+Data](Node_and_Edge_Column_Data.html#node-and-edge-column-data)**
 section of this manual.
 
 Note (1): This data is taken from the *A merged human interactome*
@@ -183,7 +183,7 @@ select only a source column, it creates a network without interactions.
 This feature is useful with the node expansion function available from
 some web service clients. Please read the section **[Importing Networks
 from External
-Database](http://manual.cytoscape.org/en/stable/Creating_Networks.html?highlight=Web%20Service#what-is-a-web-service)**
+Database](Creating_Networks.html?highlight=Web%20Service#what-is-a-web-service)**
 for more detail.
 
 <a id="advanced_options"> </a>
