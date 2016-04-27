@@ -14,8 +14,9 @@ allows users to move the focus of a screen to different parts of a view.
 <a id="zoom"> </a>
 ### Zoom
 
-Cytoscape provides two mechanisms for zooming: toolbar buttons and the
-scroll wheel. Use the zooming buttons located on the toolbar to zoom in
+Cytoscape provides four mechanisms for zooming: toolbar buttons, menu options, keyboard shortcuts and the scroll wheel.
+
+Use the zooming buttons located on the toolbar to zoom in
 and out of the interaction network shown in the current network display.
 Zoom icons are detailed below:
 
@@ -23,13 +24,29 @@ Zoom icons are detailed below:
 
 From Left to Right:
 
--   Zoom In
+-   **Zoom In**
 
--   Zoom Out
+  - Menu option: **View → Zoom In**
+  - Keyboard shortcut: ``Ctrl-Plus`` (``Command-Plus`` on Mac OS X)
 
--   Zoom Out to Display all of Current Network
 
--   Zoom Selected Region
+-   **Zoom Out**
+
+  - Menu option: **View → Zoom Out**
+  - Keyboard shortcut: ``Ctrl-Minus`` (``Command-Minus`` on Mac OS X)
+
+
+-   **Zoom Out to Display all of Current Network**
+
+  - Menu option: **View → Fit Content**
+  - Keyboard shortcut: ``Ctrl-0`` (``Command-0`` on Mac OS X)
+
+
+-   **Zoom Selected Region**
+
+  - Menu option: **View → Fit Selected**
+  - Keyboard shortcut: ``Ctrl-9`` (``Command-9`` on Mac OS X)
+
 
 Using the scroll wheel, you can zoom in by scrolling up and zoom out by
 scrolling downwards. These directions are reversed on Macs with natural
@@ -38,20 +55,13 @@ scrolling enabled (the default for Mac OS X Lion and newer versions).
 <a id="pan"> </a>
 ### Pan
 
-There are several ways to pan the network:
+There are two ways to pan the network:
 
--   Middle Click and Drag - You can pan the network image by holding
-    down the middle mouse button and moving the mouse.
-
--   Command Key + Drag (Mac only) - If you use Mac without middle
-    button, you can pan the view by holding down Command key and
-    then drag.
+-   Left-Click and Drag - You can pan the network view by holding down the left mouse button and moving the mouse.
 
 -   Dragging Box on **[Network
     Overview](Quick_Tour_of_Cytoscape.html#the-network-overview-window)** -
-    You can also pan the image by holding down the left mouse button
-    over the blue box in the overview panel in the lower part of the
-    Network tab in the Control Panel.
+    You can also pan the view by left-clicking and dragging the blue box in the overview panel in the lower part of the view.
 
 <a id="other_mouse_behaviors"> </a>
 ## Other Mouse Behaviors
@@ -59,10 +69,9 @@ There are several ways to pan the network:
 <a id="select"> </a>
 ### Select
 
-Click the left mouse button on a node or edge to select that object. You
-can hold down the Shift key (or Ctrl key on PCs) to select more than one
-node/edge or you can hold down the left mouse button and drag the mouse
-to select groups of nodes/edges.
+- Click the left mouse button on a node or edge to select that element.
+- Hold down the ``Shift`` or ``Ctrl`` key (``Command`` on Macs) and left-click a node or edge to add it to the selection. Doing the same on a selected element unselects it.
+- Hold down the left mouse button on the canvas background and drag the mouse while holding down the ``Shift`` or ``Ctrl`` key (``Command`` on Macs) to select groups of nodes/edges.
 
 <a id="context"> </a>
 ### Context
