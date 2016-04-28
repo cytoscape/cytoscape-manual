@@ -289,4 +289,4 @@ in the network view window, and it can be dragged with the mouse to view
 other portions of the network. Zooming in will cause the rectangle to
 appear smaller and vice versa.
 
-![network\_overview\_30.png](_static/images/Quick_Tour/network_overview_30.png)
+![network\_overview\_34.png](_static/images/Quick_Tour/network_overview_34.png)
