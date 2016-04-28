@@ -269,11 +269,15 @@ When you have detached network view windows, you can arrange them by selecting o
 
 **Cascade**
 
+![MultipleNetworks\_Cascade.png](_static/images/Quick_Tour/MultipleNetworks_Cascade.png)
+
 **Vertical Stack**
+
+![MultipleNetworks\_VerticalStack.png](_static/images/Quick_Tour/MultipleNetworks_VerticalStack.png)
 
 **Side by Side**
 
-![MultipleNetworks\_Vertical.png](_static/images/Quick_Tour/MultipleNetworks_Vertical.png)
+![MultipleNetworks\_SidebySide.png](_static/images/Quick_Tour/MultipleNetworks_SidebySide.png)
 
 <a id="the_network_overview_window"> </a>
 ## The Network Overview Window
