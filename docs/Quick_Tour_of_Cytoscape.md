@@ -280,13 +280,13 @@ When you have detached network view windows, you can arrange them by selecting o
 ![MultipleNetworks\_SidebySide.png](_static/images/Quick_Tour/MultipleNetworks_SidebySide.png)
 
 <a id="the_network_overview_window"> </a>
-## The Network Overview Window
+## The View Navigator
 
-The network overview window shows an overview (or "bird's eye view") of
-the network. It can be used to navigate around a large network view. The
+The View Navigator (or "bird's eye view")  is a control that shows an overview of the network. 
+It can be used to navigate around a large network view. The
 blue rectangle indicates the portion of the network currently displayed
 in the network view window, and it can be dragged with the mouse to view
 other portions of the network. Zooming in will cause the rectangle to
-appear smaller and vice versa.
+appear smaller and vice versa. You can show or hide it by clicking the "Show/Hide Navigator" button ![ViewNavigatorControl.png](_static/images/Quick_Tour/ViewNavigatorControl.png) or pressing the key "N".
 
 ![network\_overview\_34.png](_static/images/Quick_Tour/network_overview_34.png)
