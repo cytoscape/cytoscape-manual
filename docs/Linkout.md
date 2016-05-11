@@ -14,7 +14,7 @@ in the *linkout* group).
 
 External links are listed as *'key'-'value'* pairs in the
 editor where *Property Name* specifies the name of the link and
-*Value* is the search URL. LinkOut menus are organized in a
+*Value* is the search URL. Linkout menus are organized in a
 hierarchical structure that is specified as part of the key. Linkout key terms
 specific to nodes start with the keyword `nodelinkouturl`; for edges
 this is `edgelinkouturl`.
@@ -56,10 +56,10 @@ in a meaningful link.
 <a id="adding_and_removing_links"> </a>
 ## Adding and Removing Links
 
-The default links are defined in a `linkout.props` file contained in the 
+The default links are defined in the `linkout.props` file contained in the 
 [CytoscapeConfiguration directory](http://manual.cytoscape.org/en/3.4.0/Launching_Cytoscape.html?highlight=cytoscapeconfiguration#downloading-and-installing). These links are normal Java properties and can
 be edited directly via text editor or by using the Cytoscape Configuration Editor (**Edit → Preferences → Properties...**) and
-selecting *linkout* from the box (shown below). 
+selecting *linkout* (shown below). 
 
 ![Figure2\_linkout26.png](_static/images/Linkout/Figure2_linkout26.png)
 
@@ -68,7 +68,7 @@ command line by specifying individual properties. The formatting of the
 command is ` cytoscape.sh -P [context_menu_definition]=[link] `.
 *context\_menu\_definition* specifies the context menu for showing the
 linkout menu item. The structure of this definition is *nodelinkouturl* or *edgelinkouturl* followed by
-"." and followed by the the "."-separated menu hierarchy.
+"." and followed by the "."-separated menu hierarchy.
 
 For instance this command:
 
