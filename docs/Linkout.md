@@ -82,4 +82,3 @@ To remove a link from the menu, simply delete the property using **Edit
 → Preferences → Properties...** and selecting *commandline*. Linkouts
 added in the command line will be available for the running instance of
 Cytoscape.
-.
