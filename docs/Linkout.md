@@ -5,8 +5,7 @@ Linkout provides a mechanism to link nodes and edges to external web
 resources within Cytoscape. Right-clicking on a node or edge in
 Cytoscape opens a popup menu with a list of web links.
 
-The external links are specified in a `linkout.props` file which is
-internal to Cytoscape. The defaults include a number of links such as
+By default, Cytoscape includes a number of links such as
 Entrez, SGD and Google, as well as a number of species-specific
 links. In addition to the default links, users can customize the
 **External Links** menu and add (or remove) links by using the Cytoscape
@@ -59,7 +58,7 @@ in a meaningful link.
 
 The default links are defined in a `linkout.props` file contained in the 
 [CytoscapeConfiguration directory](http://manual.cytoscape.org/en/3.4.0/Launching_Cytoscape.html?highlight=cytoscapeconfiguration#downloading-and-installing). These links are normal Java properties and can
-be edited by using the Cytoscape Configuration Editor (**Edit → Preferences → Properties...**) and
+be edited directly via text editor or by using the Cytoscape Configuration Editor (**Edit → Preferences → Properties...**) and
 selecting *linkout* from the box (shown below). 
 
 ![Figure2\_linkout26.png](_static/images/Linkout/Figure2_linkout26.png)
