@@ -11,7 +11,7 @@ Entrez, SGD and Google, as well as a number of species-specific
 links. In addition to the default links, users can customize the
 **External Links** menu and add (or remove) links by using the Cytoscape
 Preferences Editor (found under **Edit → Preferences → Properties...** 
-and selecting *linkout*).
+in the *linkout* group).
 
 External links are listed as *'key'-'value'* pairs in the
 editor where *Property Name* specifies the name of the link and
