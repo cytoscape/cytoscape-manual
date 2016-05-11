@@ -9,14 +9,15 @@ The external links are specified in a `linkout.props` file which is
 internal to Cytoscape. The defaults include a number of links such as
 Entrez, SGD, iHOP, and Google, as well as a number of species-specific
 links. In addition to the default links, users can customize the
-**External Links** menu and add (or remove) links by editing the linkout
-properties (found under **Edit → Preferences → Properties...**).
+**External Links** menu and add (or remove) links by using the Cytoscape
+Preferences Editor (found under **Edit → Preferences → Properties...** 
+and selecting *linkout*).
 
 External links are listed as *'key'-'value'* pairs in the
-`linkout.props` file where *key* specifies the name of the link and
-*value* is the search URL. The LinkOut menus are organized in a
-hierarchical structure that is specified in the key. Linkout key terms
-specific for nodes start with the keyword `nodelinkouturl`, for edges
+editor where *Property Name* specifies the name of the link and
+*Value* is the search URL. LinkOut menus are organized in a
+hierarchical structure that is specified as part of the key. Linkout key terms
+specific to nodes start with the keyword `nodelinkouturl`; for edges
 this is `edgelinkouturl`.
 
 For example, the following entry:
