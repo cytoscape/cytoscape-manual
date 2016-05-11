@@ -57,7 +57,7 @@ in a meaningful link.
 ## Adding and Removing Links
 
 The default links are defined in the `linkout.props` file contained in the 
-[CytoscapeConfiguration directory](http://manual.cytoscape.org/en/3.4.0/Launching_Cytoscape.html?highlight=cytoscapeconfiguration#downloading-and-installing). These links are normal Java properties and can
+[CytoscapeConfiguration directory](Launching_Cytoscape.html?highlight=cytoscapeconfiguration#downloading-and-installing). These links are normal Java properties and can
 be edited directly via text editor or by using the Cytoscape Configuration Editor (**Edit → Preferences → Properties...**) and
 selecting *linkout* (shown below). 
 
@@ -82,3 +82,4 @@ To remove a link from the menu, simply delete the property using **Edit
 → Preferences → Properties...** and selecting *commandline*. Linkouts
 added in the command line will be available for the running instance of
 Cytoscape.
+.
