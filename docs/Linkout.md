@@ -57,15 +57,10 @@ in a meaningful link.
 <a id="adding_and_removing_links"> </a>
 ## Adding and Removing Links
 
-The default links are defined in a `linkout.props` file contained inside
-the Linkout JAR bundle under the
-framework/system/org/cytoscape/linkout-impl subdirectory of the
-Cytoscape installation. These links are normal Java properties and can
-be edited by going to **Edit → Preferences → Properties...** and
-selecting linkout from the box (shown below). Linkouts can be modified,
-added or removed using this dialog; however, note that the modifications
-would not be stored in the file. To change a URL permanently, you would
-need to edit the linkout.props file directly.
+The default links are defined in a `linkout.props` file contained in the 
+[CytoscapeConfiguration directory](http://manual.cytoscape.org/en/3.4.0/Launching_Cytoscape.html?highlight=cytoscapeconfiguration#downloading-and-installing). These links are normal Java properties and can
+be edited by using the Cytoscape Configuration Editor (**Edit → Preferences → Properties...**) and
+selecting *linkout* from the box (shown below). 
 
 ![Figure2\_linkout26.png](_static/images/Linkout/Figure2_linkout26.png)
 
@@ -73,11 +68,8 @@ In addition, new links can be defined when starting Cytoscape from
 command line by specifying individual properties. The formatting of the
 command is ` cytoscape.sh -P [context_menu_definition]=[link] `.
 *context\_menu\_definition* specifies the context menu for showing the
-linkout menu item. The structure of this definition is "." separated and
-the first item needs to be either *nodelinkouturl* or *edgelinkouturl*.
-The former will add the linkout item as a node context menu and the
-latter will add it as an edge context menu. The rest of the definition
-would define the hierarchy of the menu.
+linkout menu item. The structure of this definition is *nodelinkouturl* or *edgelinkouturl* followed by
+"." and followed by the the "."-separated menu hierarchy.
 
 For instance this command:
 
@@ -88,6 +80,6 @@ will add this menu item:
 ![Figure3\_linkout26.png](_static/images/Linkout/Figure3_linkout26.png)
 
 To remove a link from the menu, simply delete the property using **Edit
-→ Preferences → Properties...** and selecting **commandline**. Linkouts
+→ Preferences → Properties...** and selecting *commandline*. Linkouts
 added in the command line will be available for the running instance of
 Cytoscape.
