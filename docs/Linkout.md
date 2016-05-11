@@ -7,7 +7,7 @@ Cytoscape opens a popup menu with a list of web links.
 
 The external links are specified in a `linkout.props` file which is
 internal to Cytoscape. The defaults include a number of links such as
-Entrez, SGD, and Google, as well as a number of species-specific
+Entrez, SGD and Google, as well as a number of species-specific
 links. In addition to the default links, users can customize the
 **External Links** menu and add (or remove) links by using the Cytoscape
 Preferences Editor (found under **Edit → Preferences → Properties...** 
