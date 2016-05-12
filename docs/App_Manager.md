@@ -24,8 +24,8 @@ through Cytoscape. You can learn how to install apps through the App
 Store [here](http://apps.cytoscape.org/help/getstarted_app_install).
 
 To install apps within Cytoscape, go to the menu bar and choose **Apps →
-App Manager**. At the top of the **App Manager** window, make sure you
-have the **Install** tab selected.
+App Manager...**. At the top of the **App Manager** window, make sure you
+have the **Install Apps** tab selected.
 
 ![AppManager](_static/images/AppManager/AppManager.png)
 
@@ -35,7 +35,7 @@ There are four ways you can find apps:
     **Search** field. The App Manager will list the apps whose names or
     descriptions match the **Search** field in the middle panel.
 
--   If you're not sure what sort of app you and want to see everything,
+-   If you're not sure what sort of app you need and want to see everything,
     click the **all apps** folder. In the middle pane, you will see a
     list of all the apps.
 
@@ -68,8 +68,8 @@ you'll see a couple buttons where you can:
 
 -   **Uninstall** an app. This deletes the app from your computer. If
     you want to reinstall the app, you will have to find it again in the
-    **Install from App Store** tab or in the App Store site and
-    reinstall it there.
+    **Install Apps** tab or find it in the App Store site and
+    reinstall it from there.
 
 -   **Disable** an app. This temporarily disables the app. The app stays
     on your computer, but Cytoscape does not load it. You can enable the
