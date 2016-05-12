@@ -13,7 +13,7 @@ is shown. In addition, analysis results from Network Analyzer are shown in **Res
 ![DockWindow-v3_3_3.png](_static/images/Panels/DockWindow-v3_3_3.png)
 
 The user can then choose to resize, hide or float Panels. For example, in the screenshot below, the Network, Table 
-and Results panels are floating and the Tool Panel is hidden:
+and Results panels are floating:
 
 ![FloatPanels-v3_3_3.png](_static/images/Panels/FloatPanels-v3_3_3.png)
 
@@ -35,7 +35,7 @@ In addition, Panels can be floated or docked using icon buttons at the top right
 The **Float Window** control 
 ![FloatWindow-v31.png](_static/images/Panels/FloatWindow-v31.png)
 will undock any panel which is useful when 
-you want assign the network panel as much screen space as possible. To dock the window again, click the 
+you want assign the network as much screen space as possible. To dock the window again, click the 
 **Dock Window** icon 
 ![DockWindow.png](_static/images/Panels/DockWindow.png)
 . Clicking the **Hide Panel** 
