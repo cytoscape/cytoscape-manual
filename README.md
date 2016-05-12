@@ -31,7 +31,7 @@ The rebuild can be observed by logging into the ReadTheDocs account (see me for 
 
 The document will also be available via [http://manual.cytoscape.org/en/latest](http://manual.cytoscape.org/en/latest).
 
-Note that the "stable" version of the manual is the build for the most recent release tag (e.g., "3.3") according to semantic versioning rules. This is the version that should be reference from the cytoscape.org web site's Documentation page. Note, too, that for testing, we can set a tag (e.g., "3.4") and have ReadTheDocs build from the tagged GitHub files. It will be available at http://manual.cytoscape.org/en/3.4 ... and as we refine the document, we can use GitHub to move the tag to the appropriate latest checkin. This is useful for testing with a candidate 3.4 that will eventually stop being re-tagged.
+Note that the "stable" version of the manual is the build for the most recent release tag (e.g., "3.3") according to semantic versioning rules. This is the version that should be reference from the cytoscape.org web site's Documentation page. Note, too, that for testing, we can set a tag (e.g., "3.4.0") and have ReadTheDocs build from the tagged GitHub files. It will be available at http://manual.cytoscape.org/en/3.4.0 ... and as we refine the document, we can use GitHub to move the tag to the appropriate latest checkin. This is useful for testing with a candidate 3.4.0 that will eventually stop being re-tagged.
 
 Note that many errors (e.g., missing chapter files) fail silently. It's always best to verify recent changes by viewing them in the built document.
 
