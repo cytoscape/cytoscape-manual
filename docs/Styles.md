@@ -1068,8 +1068,9 @@ buttons.
     of this editor. The first time you open the editor, the *Min* and
     *Max* values are set by the range of the data column you
     selected (i.e. the minimum and maximum values of the mapped column).
-    Once you change this, you can restore the default numbers by clicking
-    *Reset* button.
+    In the pop-up dialog you can manually enter the Min and Max values, 
+    or they can be set to the current minimum and maximum values of the 
+    data column by clicking the *Reset* button.
 
 3.  **Add** - Adds a new handle to the editor.
 
