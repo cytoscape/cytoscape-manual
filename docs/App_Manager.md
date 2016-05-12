@@ -21,7 +21,7 @@ them **apps**. Cytoscape 2.x plugins cannot be used in Cytoscape 3.0.
 You can install apps through [the App Store](http://apps.cytoscape.org)
 or within Cytoscape. In this section, we'll talk about installing apps
 through Cytoscape. You can learn how to install apps through the App
-Store [here](http://apps3.nrnb.org/help/getstarted_app_install).
+Store [here](http://apps.cytoscape.org/help/getstarted_app_install).
 
 To install apps within Cytoscape, go to the menu bar and choose **Apps →
 App Manager**. At the top of the **App Manager** window, make sure you
