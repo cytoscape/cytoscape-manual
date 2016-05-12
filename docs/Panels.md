@@ -3,12 +3,12 @@
 
 **Panels** are floatable/dockable panels designed to cut down on the number of pop-up windows within Cytoscape 
 and to create a more unified user experience. They are named based on their functions -- **Control Panel**, 
-**Table Panel**, **Tool Panel** and **Result Panel**. The following screenshot shows the file `galFiltered.sif` 
+**Table Panel**, **Tool Panel** and **Resulst Panel**. The following screenshot shows the file `galFiltered.sif` 
 loaded into Cytoscape, with a force-directed layout, **Rotate** tools showing in the **Tool Panel**, and with 
 results from Network Analyzer (**Tools → Network Analysis → Analyze Network**). The **Control Panel** (at the 
 left-hand side of the screen) contains the Network Manager, Network Overview, Styles and Select tabs. On the 
 bottom of the panel, there is another panel called **Tool Panel**. In the **Table Panel**, the **Node Table** 
-is shown. In addition, analysis results from Network Analyzer are shown in **Result Panel** (at the right-hand side). 
+is shown. In addition, analysis results from Network Analyzer are shown in **Results Panel** (at the right-hand side). 
 
 ![DockWindow-v3_3_3.png](_static/images/Panels/DockWindow-v3_3_3.png)
 
@@ -21,8 +21,8 @@ and Results panels are floating:
 ## Basic Usage
 
 Cytoscape includes four Panels: the **Control Panel** on the left, **Tool Panel** on the bottom of 
-the **Control Panel**, the **Table Panel** on the bottom right, and the **Result Panel** on the right. 
-By default, only the **Control Panel** and the **Data Panel** will appear. The **Result Panel** may appear, 
+the **Control Panel**, the **Table Panel** on the bottom right, and the **Results Panel** on the right. 
+By default, only the **Control Panel** and the **Data Panel** will appear. The **Results Panel** may appear, 
 depending on the mix of Cytoscape apps that you currently have installed. The **Tool Panel** will appear when 
 you select the following commands under the **Layout** menu: **Rotate**, **Scale**, and **Align and Distribute**.
 
