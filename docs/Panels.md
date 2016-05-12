@@ -12,7 +12,7 @@ is shown. In addition, analysis results from Network Analyzer are shown in **Res
 
 ![DockWindow-v3_3_3.png](_static/images/Panels/DockWindow-v3_3_3.png)
 
-The user can then choose to resize, hide or float Panels. For example, in the screenshot below, the Network/Control, Table 
+The user can then choose to resize, hide or float Panels. For example, in the screenshot below, the Control, Table 
 and Results panels are floating:
 
 ![FloatPanels-v3_3_3.png](_static/images/Panels/FloatPanels-v3_3_3.png)
