@@ -3,7 +3,7 @@
 
 **Panels** are floatable/dockable panels designed to cut down on the number of pop-up windows within Cytoscape 
 and to create a more unified user experience. They are named based on their functions -- **Control Panel**, 
-**Table Panel**, **Tool Panel** and **Resulst Panel**. The following screenshot shows the file `galFiltered.sif` 
+**Table Panel**, **Tool Panel** and **Results Panel**. The following screenshot shows the file `galFiltered.sif` 
 loaded into Cytoscape, with a force-directed layout, **Rotate** tools showing in the **Tool Panel**, and with 
 results from Network Analyzer (**Tools → Network Analysis → Analyze Network**). The **Control Panel** (at the 
 left-hand side of the screen) contains the Network Manager, Network Overview, Styles and Select tabs. On the 
