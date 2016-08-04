@@ -142,7 +142,7 @@ is a collection of mappings from data point to network property.
 oCytoscape can export its Styles into CSS-based Cytoscape.js JSON.
 
 You can export *all Styles into one JSON file* from **File | Export |
-Style** and select Cytoscape.js JSON as its format.
+Styles** and select Cytoscape.js JSON as its format.
 
 #### Limitations
 
