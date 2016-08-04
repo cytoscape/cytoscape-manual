@@ -37,7 +37,7 @@ same time, as unpredictable results may occur.
 ### As a Static Image
 
 Cytoscape can generate publication-quality images from network views. By
-selecting ***File | Export | Network View as Graphics...***, you can
+selecting ***File | Export as Image...***, you can
 export the current network view into the following formats:
 
 -   JPG
@@ -57,7 +57,7 @@ such as Adobe Illustrator.
 <a id="known_issues"> </a>
 #### Known Issues
 
-For PDF export, there is an option to ***Export Texts as Fonts***.
+For PDF export, there is an option to ***Export text as font***.
 **This option does not work for two-byte characters such as Chinese or
 Japanese**. To avoid corrupted texts in the exported images, please
 uncheck this option when you publish networks including those
@@ -130,7 +130,7 @@ preloaded with your network for anyone to see.
 To use
 [CyNetShare](http://idekerlab.github.io/cy-net-share/):
 
-1.  Select ***File | Export | Network and View...*** to export your
+1.  Select ***File | Export | Network...*** to export your
     network to a public directory. Choose the *Cytoscape.js
     JSON (\*.cyjs)* export file format.
 
@@ -227,8 +227,8 @@ browser on PCs and tablets.
 
 ![web\_export\_full.png](_static/images/Publish/web_export_full.png)
 
-To generate an entire web page as a zip archive, select ***File | Export
-| Network View(s) as Web Page ...***.
+To generate an entire web page as a zip archive, select ***File | Export 
+as Web Page...***.
 
 To view the web page, unzip the archive into a folder on your PC or web
 server. The folder will contain an ***index.html*** file, the network
@@ -282,8 +282,8 @@ custom viewer by customizing this code.
 
 ![web\_export\_simple.png](_static/images/Publish/web_export_simple.png)
 
-To generate an entire web page as a zip archive, select ***File | Export
-| Network View(s) as Web Page ...***, and choose the *Simple viewer for
+To generate an entire web page as a zip archive, select ***File | Export 
+as Web Page ...***, and choose the *Simple viewer for
 current network only* format.
 
 For instructions on testing the customized web application, see
