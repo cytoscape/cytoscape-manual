@@ -287,8 +287,9 @@ browser on PCs and tablets.
 
 ![web\_export\_full.png](_static/images/Export/web_export_full.png)
 
-To generate an entire web page as a zip archive, select ***File | Export 
-as Web Page...***. The following dialog will appear:
+To generate an entire web page for all networks in the session as a zip
+archive, select ***File | Export as Web Page...***. The following dialog
+will appear:
 
 ![web\_export\_full\_dialog.png](_static/images/Export/web_export_full_dialog.png)
 
@@ -352,9 +353,9 @@ custom viewer by customizing this code.
 
 ![web\_export\_simple.png](_static/images/Export/web_export_simple.png)
 
-To generate an entire web page as a zip archive, select ***File | Export 
-as Web Page ...*** as before, and this time choose the *Simple viewer for
-current network only* format as below:
+To generate a web page for a single network view as a zip archive, selec
+***File | Export as Web Page ...*** as before, but this time choose the
+*Simple viewer for current network only* format as below:
 
 ![web\_export\_simple\_dialog.png](_static/images/Export/web_export_simple_dialog.png)
 
