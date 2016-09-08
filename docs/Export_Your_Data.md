@@ -290,7 +290,7 @@ browser on PCs and tablets.
 To generate an entire web page as a zip archive, select ***File | Export 
 as Web Page...***. The following dialog will appear:
 
-![web\_export\_dialog.png](_static/images/Export/web_export_dialog.png)
+![web\_export\_full\_dialog.png](_static/images/Export/web_export_full_dialog.png)
 
  This simple dialog has only two options - the file name and the type of
  web export (full, simple network view, or JSON). For full web application,
@@ -354,9 +354,12 @@ custom viewer by customizing this code.
 
 To generate an entire web page as a zip archive, select ***File | Export 
 as Web Page ...*** as before, and this time choose the *Simple viewer for
-current network only* format. Everything else works as before, though this
-time the viewer will only include the current network. Press OK to proceed
-with the export.
+current network only* format as below:
+
+![web\_export\_simple\_dialog.png](_static/images/Export/web_export_simple_dialog.png)
+
+Everything else works as before, though this time the viewer will only
+include the current network. Press OK to proceed with the export.
 
 For instructions on testing the customized web application, see
 *Generating a Full Web Application* above.
