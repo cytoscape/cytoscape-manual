@@ -3,13 +3,12 @@
 
 ## Raw Data Export
 
+![export\_menu.png](_static/images/Export/export_menu.png)
+
 To use data from Cytoscape networks in an external application, the data has to be exported.
 As a Cytoscape network consists of a number of different types of data, there are options 
 in Cytoscape for each exportable data type. These options can be found on the
-***File | Export*** submenu. 
-
-![export\_menu.png](_static/images/Export/export_menu.png)
-
+***File | Export*** submenu (shown above). 
 
 ### Network
 
