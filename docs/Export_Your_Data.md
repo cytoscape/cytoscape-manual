@@ -5,6 +5,9 @@
 
 To use data from Cytoscape networks in an external application, the data has to be exported. As a Cytoscape network consists of a number of different types of data, there are options in Cytoscape for each exportable data type. These options can be found on the ***File | Export*** submenu. 
 
+![export\_menu.png](_static/images/Export/export_menu.png)
+
+
 ### Network
 
 The first option on the Export menu is Network, which can be used to export network data. Netowkr data includes the nodes and edges in the network, and also will include data attributes and visual information if the chosen format supports it (like XGMML).  This data can be exported in a number of formats, including:
@@ -125,11 +128,11 @@ and are described in sections below.
 
 For example, here is a network in Cytoscape:
 
-![WebExportOriginal\_v3\_3\_3.png](_static/images/Publish/WebExportOriginal_v3_3_3.png)
+![WebExportOriginal\_v3\_3\_3.png](_static/images/Export/WebExportOriginal_v3_3_3.png)
 
 Here is the same network as an interactive web visualization:
 
-![web\_export\_fullexport.png](_static/images/Publish/web_export_fullexport.png)
+![web\_export\_fullexport.png](_static/images/Export/web_export_fullexport.png)
 
 Note that web browsers can render small networks (e.g., 1000 nodes)
 quickly and effectively, but attempting to render large ones (e.g., 5000
@@ -255,7 +258,7 @@ for Cytoscape-generated network visualizations. You can unzip the
 archive onto a web server (or your PC) and view the network via a web
 browser on PCs and tablets.
 
-![web\_export\_full.png](_static/images/Publish/web_export_full.png)
+![web\_export\_full.png](_static/images/Export/web_export_full.png)
 
 To generate an entire web page as a zip archive, select ***File | Export 
 as Web Page...***.
@@ -289,7 +292,7 @@ Here is an example exported file from Cytoscape:
 
 -   [Archive file](http://cl.ly/XjMs/cytoscape_full_export.zip)
 
-![web\_export\_full2.png](_static/images/Publish/web_export_full2.png)
+![web\_export\_full2.png](_static/images/Export/web_export_full2.png)
 
 Note that because Cytoscape uses the latest HTML5-based web
 technologies, it cannot support older or non-conformant web browsers
@@ -310,7 +313,7 @@ web application based on the cytoscape.js library and including simple
 "boilerplate" code and the current network view. The user can create a
 custom viewer by customizing this code.
 
-![web\_export\_simple.png](_static/images/Publish/web_export_simple.png)
+![web\_export\_simple.png](_static/images/Export/web_export_simple.png)
 
 To generate an entire web page as a zip archive, select ***File | Export 
 as Web Page ...***, and choose the *Simple viewer for
@@ -330,7 +333,7 @@ If you are a web application developer, you can change the application
 code generated for **all** exports by editing HTML5 template code
 resource files in your ***\~/CytoscapeConfiguration/web*** directory:
 
-![web\_folder.png](_static/images/Publish/web_folder.png)
+![web\_folder.png](_static/images/Export/web_folder.png)
 
 In this folder, you can find ***full*** and ***simple*** sub directories
 corresponding to Full Web Application and the Simple Network View
