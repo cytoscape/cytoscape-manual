@@ -3,14 +3,22 @@
 
 ## Raw Data Export
 
-To use data from Cytoscape networks in an external application, the data has to be exported. As a Cytoscape network consists of a number of different types of data, there are options in Cytoscape for each exportable data type. These options can be found on the ***File | Export*** submenu. 
+To use data from Cytoscape networks in an external application, the data has to be exported.
+As a Cytoscape network consists of a number of different types of data, there are options 
+in Cytoscape for each exportable data type. These options can be found on the
+***File | Export*** submenu. 
 
 ![export\_menu.png](_static/images/Export/export_menu.png)
 
 
 ### Network
 
-The first option on the Export menu is Network, which can be used to export network data. Netowkr data includes the nodes and edges in the network, and also will include data attributes and visual information if the chosen format supports it (like XGMML).  This data can be exported in a number of formats, including:
+![network\_export\_dialog.png](_static/images/Export/network_export_dialog.png)
+
+The first option on the Export menu is Network, which can be used to export 
+network data. Netowkr data includes the nodes and edges in the network, and also
+will include data attributes and visual information if the chosen format supports it
+(like XGMML).  This data can be exported in a number of formats, including:
 
 * SIF (Simple Interaction Format)
 * NNF (Nested Network Format)
@@ -19,15 +27,30 @@ The first option on the Export menu is Network, which can be used to export netw
 * PSI-MI Level 1 and 2.5
 * Cytoscape.js JSON (can be used with Cytoscape.js, a tool described in future sections)
 
-The default format is SIF, which is a simple tab-delimited network format that provides node names and edge interactions only. You can choose the format using the dialog drop-down box. A file name is automatically suggested based on the network name and selected format with the path defaulting to the current working directory. You can change the suggested file name/path using the text box or Browse button. Press OK to export with the selected options.
+The default format is SIF, which is a simple tab-delimited network format that provides
+node names and edge interactions only. You can choose the format using the dialog drop-down box.
+A file name is automatically suggested based on the network name and selected format with the path
+defaulting to the current working directory. You can change the suggested file name/path using the
+text box or Browse button. Press OK to export with the selected options.
 
 ### Table
 
-The Table option can be used to export any of the data tables that are available in the current Cytoscape session. This includes the node, edge, and network tables that can be seen in the Table Browser, as well as any unassigned tables. The only currently-supported file format for export is CSV (comma-separated value). 
+![table\_export\_dialog.png](_static/images/Export/table_export_dialog.png)
 
-The export dialog for Table has only two selectable options - the table to export and the file name (file type is always CSV). A file name is suggested based on the name of the selected table with the path defaulting to the current working directory. As in Network, the suggested file name can be changed using the Browse button or the text field. Press OK to export the selected table with the given file name.
+The Table option can be used to export any of the data tables that are available
+in the current Cytoscape session. This includes the node, edge, and network tables
+that can be seen in the Table Browser, as well as any unassigned tables. The only
+currently-supported file format for export is CSV (comma-separated value). 
+
+The export dialog for Table has only two selectable options - the table to export
+and the file name (file type is always CSV). A file name is suggested based on the
+name of the selected table with the path defaulting to the current working directory.
+As in Network, the suggested file name can be changed using the Browse button or the
+text field. Press OK to export the selected table with the given file name.
 
 ### Styles
+
+![styles\_export\_dialog.png](_static/images/Export/styles_export_dialog.png)
 
 The Styles option can be used to export one or more visual styles available in the current Cytoscape session. Supported formats include Style XML (which can be imported by 3.x versions of Cytoscape) or Cytoscape.js JSON (which can be used with Cytoscape.js, described in future sections).
 
@@ -69,6 +92,8 @@ same time, as unpredictable results may occur.
 <a id="as_a_static_image"> </a>
 ### As a Static Image
 
+![image\_export\_dialog.png](_static/images/Export/image_export_dialog.png)
+
 Cytoscape can generate publication-quality images from network views. By
 selecting ***File | Export as Image...***, you can
 export the current network view into the following formats:
@@ -82,6 +107,8 @@ export the current network view into the following formats:
 -   SVG
 
 -   PDF
+
+The image export dialog has a variable number of options based on the file format selected, with file type and file name always being selectable. PNG and JPEG have options for scaling, while other formats only have a single option, Export Text as Font. The file name is suggested based on the name of the selected table with the path defaulting to the current working directory. As in raw data export, the suggested file name can be changed using the Browse button or the text field. Press OK to export an image with the given file name and parameters.
 
 We recommend using **PDF** for publications because it is a standard
 vector graphics format, and it is easy to edit in other applications
@@ -261,7 +288,17 @@ browser on PCs and tablets.
 ![web\_export\_full.png](_static/images/Export/web_export_full.png)
 
 To generate an entire web page as a zip archive, select ***File | Export 
-as Web Page...***.
+as Web Page...***. The following dialog will appear:
+
+![web\_export\_dialog.png](_static/images/Export/web_export_dialog.png)
+
+ This simple dialog has only two options - the file name and the type of
+ web export (full, simple network view, or JSON). For full web application,
+ we use the default. The file name is suggested based on the name of the
+ selected table with the path defaulting to the current working directory.
+ As in raw data export, the suggested file name can be changed using the
+ Browse button or the text field. Press OK to export a web archive with 
+ the given file name.
 
 To view the web page, unzip the archive into a folder on your PC or web
 server. The folder will contain an ***index.html*** file, the network
@@ -316,8 +353,10 @@ custom viewer by customizing this code.
 ![web\_export\_simple.png](_static/images/Export/web_export_simple.png)
 
 To generate an entire web page as a zip archive, select ***File | Export 
-as Web Page ...***, and choose the *Simple viewer for
-current network only* format.
+as Web Page ...*** as before, and this time choose the *Simple viewer for
+current network only* format. Everything else works as before, though this
+time the viewer will only include the current network. Press OK to proceed
+with the export.
 
 For instructions on testing the customized web application, see
 *Generating a Full Web Application* above.
