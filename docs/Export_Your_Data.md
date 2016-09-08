@@ -1,8 +1,38 @@
-<a id="publish_your_data"> </a>
-# Publish Your Data
+<a id="export_your_data"> </a>
+# Export Your Data
 
-<a id="publish_your_visualizations"> </a>
-## Publish Your Visualizations
+## Raw Data Export
+
+To use data from Cytoscape networks in an external application, the data has to be exported. As a Cytoscape network consists of a number of different types of data, there are options in Cytoscape for each exportable data type. These options can be found on the ***File | Export*** submenu. 
+
+### Network
+
+The first option on the Export menu is Network, which can be used to export network data. Netowkr data includes the nodes and edges in the network, and also will include data attributes and visual information if the chosen format supports it (like XGMML).  This data can be exported in a number of formats, including:
+
+* SIF (Simple Interaction Format)
+* NNF (Nested Network Format)
+* XGMML
+* GraphML
+* PSI-MI Level 1 and 2.5
+* Cytoscape.js JSON (can be used with Cytoscape.js, a tool described in future sections)
+
+The default format is SIF, which is a simple tab-delimited network format that provides node names and edge interactions only. You can choose the format using the dialog drop-down box. A file name is automatically suggested based on the network name and selected format with the path defaulting to the current working directory. You can change the suggested file name/path using the text box or Browse button. Press OK to export with the selected options.
+
+### Table
+
+The Table option can be used to export any of the data tables that are available in the current Cytoscape session. This includes the node, edge, and network tables that can be seen in the Table Browser, as well as any unassigned tables. The only currently-supported file format for export is CSV (comma-separated value). 
+
+The export dialog for Table has only two selectable options - the table to export and the file name (file type is always CSV). A file name is suggested based on the name of the selected table with the path defaulting to the current working directory. As in Network, the suggested file name can be changed using the Browse button or the text field. Press OK to export the selected table with the given file name.
+
+### Styles
+
+The Styles option can be used to export one or more visual styles available in the current Cytoscape session. Supported formats include Style XML (which can be imported by 3.x versions of Cytoscape) or Cytoscape.js JSON (which can be used with Cytoscape.js, described in future sections).
+
+Style export has three options - the export format (as described above), the style(s) to export, and the file name (a suggestion will based on the current directory and file type). As in Network/Table, the suggested file name can be changed using the Browse button or the text field. The list or styles is a multiple-selection list - one or more can be selected using Ctrl/Cmd-click (to select multiple discontiguous elements) or Shift-click (to select a contiguous element range). Press OK to export all selected styles with the given file path.
+
+
+<a id="exporting_for_publication"> </a>
+## Exporting for Publication
 
 When you finish your data analysis and visualization, you need to
 publish your data to share the results. Cytoscape has several options to
