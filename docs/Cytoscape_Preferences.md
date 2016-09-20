@@ -68,6 +68,26 @@ The configuration of Cytoscape group view may also be edited through
 
 Note that Group Preferences apply to [node groups](Creating_Networks.html#grouping-nodes) established after the group preferences are set. They do not apply to groups that already exist. 
 
+There are two interacting settings involved in the group interaction and visualization:
+* what happens when a node is double-clicked
+* how an expanded group appears
+
+If you set the Double-Click action to something other than Expand/Contract, the groups won't collapse on double-click, which may be appropriate for displaying group nodes that contain other nodes (i.e., the so-called Compound Node style).
+
+The following node visualization options are available:
+
+-   None: No specific visualization -- just do expand/contract, but don't treat the expanded group special in any way
+    
+-   Compound Node: Show the group node as an area surrounding the member nodes, but position it behind the member nodes to allow direct selection of each of the members.  If you move a node within this area, you may need to resize the area to encompass the newly positioned member node. Moving the group node will cause all member nodes to move with it.  There are [visual styles](Styles.html#styles) that allow you to change the color, shape and padding for the compound node. 
+    
+-   Show Group Node: When the group is expanded, show the group node as an additional node and add "member edges" between the group node and each of the member nodes.  This is useful for complexes where it may be important to show a group node at the same time as group member nodes.
+    
+-   Single Node:  Show the group node as an area surrounding the member nodes, but put it in front of the member nodes so that the member nodes can not be selected or moved individually.
+
+### Grouping Tips ###
+
+The **Show collapsed node as a Nested Network** checkbox determines the contents of a grouping node when its member nodes are hidden. If it is checked, the group node contains a graphic of the laid out member nodes. For the Compound Node visualization, this box should remain unchecked so the grouping node can appear as a background to member nodes.
+
 ## Managing OpenCL Settings
 
 You can choose between one or more OpenCL drivers installed on your system by going to
