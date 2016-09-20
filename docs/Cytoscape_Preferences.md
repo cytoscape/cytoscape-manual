@@ -66,7 +66,7 @@ The configuration of Cytoscape group view may also be edited through
 
 ![Preferences\_groups.png](_static/images/Preferences/Preferences_groups.png)
 
-Note that Group Preferences apply to [node groups](Creating_Networks.html?highlight=group#grouping-nodes) established after the group preferences are set. They do not apply to groups that already exist. 
+Note that Group Preferences apply to [node groups](Creating_Networks.html#grouping-nodes) established after the group preferences are set. They do not apply to groups that already exist. 
 
 ## Managing OpenCL Settings
 
