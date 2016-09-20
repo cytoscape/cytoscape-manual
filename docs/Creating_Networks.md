@@ -388,6 +388,25 @@ on the group node or any of its children to toggle back and forth.
 
 ![GroupExpanded2.png](_static/images/Creating_Networks/GroupExpanded2.png)
 
+The appearance and behavior of grouped nodes depends on the [group settings](Cytoscape_Preferences.html?#managing-group-view) in effect when the group is created. Settings can be managed for the entire Cytoscape session (via **Edit → Preferences → Group Preferences...**) or for a specific group (right-click **Preferences → Group Preferences...**).
+
+There are two interacting settings involved in the group interaction and visualization:
+* what happens when a node is double-clicked
+* how an expanded group appears
+
+If you set the Double-Click action to something other than Expand/Contract, the groups won't collapse on double-click, which may be appropriate for displaying group nodes that contain other nodes (i.e., the so-called Compound Node style).
+
+The following node visualization options are available:
+
+    *None:* No specific visualization -- just do expand/contract, but don't treat the expanded group special in any way
+    
+    *Compound Node:* Show the group node as an area surrounding the member nodes, but position it behind the member nodes to allow direct selection of each of the members.  If you move a node within this area, you may need to resize the area to encompass the newly positioned member node. Moving the group node will cause all member nodes to move with it.  There are [visual styles](Styles.html#styles) that allow you to change the color, shape and padding for the compound node. 
+    
+    *Show Group Node:* When the group is expanded, show the group node as an additional node and add "member edges" between the group node and each of the member nodes.  This is useful for complexes where it may be important to show a group node at the same time as group member nodes.
+    
+    *Single Node:*  Show the group node as an area surrounding the member nodes, but put it in front of the member nodes so that the member nodes can not be selected or moved individually.
+
+
 <a id="adding_network_annotations"> </a>
 ### Adding Network Annotations
 
