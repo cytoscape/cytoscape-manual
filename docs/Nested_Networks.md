@@ -9,6 +9,10 @@ plugins make use of nested networks in the overview network that they
 generate. There each node representing a module contains a nested
 network.
 
+Note that **Nested Networks** are similar in concept to [**Groups**](Creating_Networks.html#grouping-nodes), but with very different consequences. A Nested Network incorporates an independent network that does not share nodes or attributes with the current network -- it can be edited only as a separate network collection or in a separate Cytoscape session. Its nodes cannot be connected to nodes in the current network and cannot be found or filtered using Cytoscape functions or apps. Conversely, nodes in a Group are part of the current network, can have edges to nodes outside of the group, and can be found or filtered using Cytoscape functions or apps. 
+
+**Most often, [Groups](Creating_Networks.html#grouping-nodes) are more functional and easier to use.**
+
 <a id="creating_nested_networks"> </a>
 ## Creating Nested Networks
 
