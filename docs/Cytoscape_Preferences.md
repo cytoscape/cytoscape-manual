@@ -68,10 +68,11 @@ The configuration of Cytoscape group view may also be edited through
 
 Note that Group Preferences apply to [node groups](Creating_Networks.html#grouping-nodes) established after the group preferences are set. They do not apply to groups that already exist. 
 
-The **Group Preferences** dialog provides access to two **Group View Settings** and all of the **Attribute Aggregation Settings**.
+The **Group Preferences** dialog provides access to three **Group View Settings** and all of the **Attribute Aggregation Settings**.
 There are two interacting settings involved in the group view and group interaction:
 * how an expanded group appears
 * what happens when a node (group member or group node) is double-clicked
+* what appears inside of a group node when it is collapsed
 
 ### Group View Settings ###
 The following node visualization options are available:
@@ -88,15 +89,15 @@ If you set the Double-Click action to something other than **Expand/Contract**, 
 
 ### Attribute Aggregation Settings ###
 
-Attribute aggregation provides an automated way for a group to aggregate all of the attributes of it's children.  Since the columns in a Cytoscape network must all be of the same type, a group can't simply create a list of integers to aggregate the integer columns of it's members, and the right approach to aggregating the attributes of group members will obviously depend on the application.  Cytoscape allows you to set the default aggregation approach for each type of column: Integer, Long, Double, String, Boolean, String List, Integer List, Long List, or Double List in the **Default Aggregation Settings** section.  In general, the user is provided with a list of some common aggregations.  For example, Integer aggregations include Average,  Minimum Value, Maximum Value, Median Value, or Sum.  
+Attribute aggregation provides an automated way for a group to aggregate all of the attributes of its children.  Since the columns in a Cytoscape network must all be of the same type, a group can't simply create a list of integers to aggregate the integer columns of its members -- the right approach to aggregating the attributes of group members will obviously depend on the application.  Cytoscape allows you to set the default aggregation approach for each type of column: Integer, Long, Double, String, Boolean, String List, Integer List, Long List, or Double List in the **Default Aggregation Settings** section.  In general, the user is provided with a list of some common aggregations.  For example, Integer aggregations include Average,  Minimum Value, Maximum Value, Median Value or Sum.  
 
-In addition, users can indicate that a specific column should use an aggregation approach difference from the default by looking at **Aggregation Overrides**.  
+In addition, users can indicate that a specific column should use an aggregation approach different from the default by looking at **Aggregation Overrides**.  
 
 ### Grouping Tips ###
 
 The **Show collapsed node as a Nested Network** checkbox determines the contents of a grouping node when its member nodes are hidden. If it is checked, the group node contains a graphic of the laid out member nodes. For the Compound Node visualization, this box should remain unchecked so the grouping node can appear as a background to member nodes.
 
-Attribute aggregation only occurs when the group is collapsed or when the group visualization is changed (e.g. from **Single Node** to **Compound Node**).
+Attribute aggregation only occurs when the group is collapsed or when the group visualization is changed (e.g., from **Single Node** to **Compound Node**).
 
 ## Managing OpenCL Settings
 
