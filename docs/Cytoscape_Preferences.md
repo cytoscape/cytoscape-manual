@@ -59,7 +59,7 @@ If you no longer need to use a proxy to connect to the Internet, simply
 set the Proxy type to "direct" and click the OK button.
 
 <a id="managing_group_view"> </a>
-## Managing Group View
+## Managing Group Settings
 
 The configuration of Cytoscape group view may also be edited through
 **Edit → Preferences → Group Preferences...**.
@@ -68,25 +68,35 @@ The configuration of Cytoscape group view may also be edited through
 
 Note that Group Preferences apply to [node groups](Creating_Networks.html#grouping-nodes) established after the group preferences are set. They do not apply to groups that already exist. 
 
-There are two interacting settings involved in the group interaction and visualization:
-* what happens when a node is double-clicked
+The **Group Preferences** dialog provides access to two **Group View Settings** and all of the **Attribute Aggregation Settings**.
+There are two interacting settings involved in the group view and group interaction:
 * how an expanded group appears
+* what happens when a node (group member or group node) is double-clicked
 
-If you set the Double-Click action to something other than Expand/Contract, the groups won't collapse on double-click, which may be appropriate for displaying group nodes that contain other nodes (i.e., the so-called Compound Node style).
-
+### Group View Settings ###
 The following node visualization options are available:
 
 -   None: No specific visualization -- just do expand/contract, but don't treat the expanded group special in any way
     
 -   Compound Node: Show the group node as an area surrounding the member nodes, but position it behind the member nodes to allow direct selection of each of the members.  If you move a node within this area, you may need to resize the area to encompass the newly positioned member node. Moving the group node will cause all member nodes to move with it.  There are [visual styles](Styles.html#styles) that allow you to change the color, shape and padding for the compound node. 
     
--   Show Group Node: When the group is expanded, show the group node as an additional node and add "member edges" between the group node and each of the member nodes.  This is useful for complexes where it may be important to show a group node at the same time as group member nodes.
+-   Show Group Node: When the group is expanded, show the group node as an additional node and add "member edges" between the group node and each of the member nodes.  This is useful, for example, for complexes where it may be important to show a group node (the entire complex) at the same time as group member nodes (each individual protein).
     
 -   Single Node:  Show the group node as an area surrounding the member nodes, but put it in front of the member nodes so that the member nodes can not be selected or moved individually.
+
+If you set the Double-Click action to something other than **Expand/Contract**, the groups won't collapse on double-click, which may be appropriate for displaying group nodes that contain other nodes (i.e., the **Compound Node** visualization or **Single Node** visualization).
+
+### Attribute Aggregation Settings ###
+
+Attribute aggregation provides an automated way for a group to aggregate all of the attributes of it's children.  Since the columns in a Cytoscape network must all be of the same type, a group can't simply create a list of integers to aggregate the integer columns of it's members, and the right approach to aggregating the attributes of group members will obviously depend on the application.  Cytoscape allows you to set the default aggregation approach for each type of column: Integer, Long, Double, String, Boolean, String List, Integer List, Long List, or Double List in the **Default Aggregation Settings** section.  In general, the user is provided with a list of some common aggregations.  For example, Integer aggregations include Average,  Minimum Value, Maximum Value, Median Value, or Sum.  
+
+In addition, users can indicate that a specific column should use an aggregation approach difference from the default by looking at **Aggregation Overrides**.  
 
 ### Grouping Tips ###
 
 The **Show collapsed node as a Nested Network** checkbox determines the contents of a grouping node when its member nodes are hidden. If it is checked, the group node contains a graphic of the laid out member nodes. For the Compound Node visualization, this box should remain unchecked so the grouping node can appear as a background to member nodes.
+
+Attribute aggregation only occurs when the group is collapsed or when the group visualization is changed (e.g. from **Single Node** to **Compound Node**).
 
 ## Managing OpenCL Settings
 
