@@ -63,6 +63,10 @@ if it contains a file called `disable-opencl.dummy` remove it and start Cytoscap
 from the system console (using cytoscape.bat or cytoscape.sh). 
 Check console output for additional information. 
 
+### No OpenCL devices are available
+
+**Diagnosis and treament:** See [Setup and configuartion](#cytoscape_gpu_configuration) above.
+
 ### The Cytoscape console says "Could not find OpenCL.dll"
 
 **Treatment:** Make sure your OS directory containing OpenCL.dll is listed in the 
