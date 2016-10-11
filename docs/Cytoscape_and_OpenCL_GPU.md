@@ -67,9 +67,9 @@ Check console output for additional information.
 
 ### The Cytoscape console says "Could not find OpenCL.dll"
 
-**Treatment:** Make sure your OS directory containing OpenCL.dll is listed in the 
+**Treatment:** Make sure your Windows OS directory containing OpenCL.dll is listed in the 
 value of the Java system property `java.library.path` 
-(For Windows, OpenCL.dll can usually be found in `%windir\SysWOW64%` or `%windir%\system32`).
+(OpenCL.dll can usually be found in `%windir\SysWOW64%` or `%windir%\system32`).
 You can modify `java.library.path` by adding a line of the form 
 `-Djava.library.path=path1;path2` to the `Cytoscape.vmoptions` file.
 `Cytoscape.vmoptions` can be found in the Cytoscape installation directory.
