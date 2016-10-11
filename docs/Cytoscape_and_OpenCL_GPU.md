@@ -91,4 +91,4 @@ Microsoft also has [documentation for the registry keys that need to changed](ht
 
 ### My problem is not listed here
 If this does not help you, ask for help in the 
-[Cytoscape helpdesk mailing list](https://groups.google.com/forum/#!forum/cytoscape-helpdesk)
+[Cytoscape helpdesk mailing list](https://groups.google.com/forum/#!forum/cytoscape-helpdesk).
