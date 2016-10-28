@@ -7,17 +7,17 @@
 
 To use data from Cytoscape networks in an external application, the data has to be exported.
 As a Cytoscape network consists of a number of different types of data, there are options 
-in Cytoscape for each exportable data type. These options can be found on the
+in Cytoscape for each exportable data type. These options (Network, Table, Styles) can be found on the
 ***File | Export*** submenu (shown above). 
 
 ### Network
 
 ![network\_export\_dialog.png](_static/images/Export/network_export_dialog.png)
 
-The first option on the Export menu is Network, which can be used to export 
-network data. Netowkr data includes the nodes and edges in the network, and also
+The first option on the Export menu is Network, which is used to export 
+network data. Network data includes the nodes and edges in the network, and also
 will include data attributes and visual information if the chosen format supports it
-(like XGMML).  This data can be exported in a number of formats, including:
+(like XGMML). Network data can be exported in a number of formats, including:
 
 * SIF (Simple Interaction Format)
 * NNF (Nested Network Format)
@@ -28,7 +28,7 @@ will include data attributes and visual information if the chosen format support
 
 The default format is SIF, which is a simple tab-delimited network format that provides
 node names and edge interactions only. You can choose the format using the dialog drop-down box.
-A file name is automatically suggested based on the network name and selected format with the path
+A file name is automatically suggested based on the network name and selected format, with the file path
 defaulting to the current working directory. You can change the suggested file name/path using the
 text box or Browse button. Press OK to export with the selected options.
 
@@ -36,10 +36,10 @@ text box or Browse button. Press OK to export with the selected options.
 
 ![table\_export\_dialog.png](_static/images/Export/table_export_dialog.png)
 
-The Table option can be used to export any of the data tables that are available
+The Table option is used to export any of the data tables that are available
 in the current Cytoscape session. This includes the node, edge, and network tables
 that can be seen in the Table Browser, as well as any unassigned tables. The only
-currently-supported file format for export is CSV (comma-separated value). 
+currently supported file format currently for export is CSV (comma-separated value). 
 
 The export dialog for Table has only two selectable options - the table to export
 and the file name (file type is always CSV). A file name is suggested based on the
@@ -51,19 +51,19 @@ text field. Press OK to export the selected table with the given file name.
 
 ![styles\_export\_dialog.png](_static/images/Export/styles_export_dialog.png)
 
-The Styles option can be used to export one or more visual styles available in the current Cytoscape session. Supported formats include Style XML (which can be imported by 3.x versions of Cytoscape) or Cytoscape.js JSON (which can be used with Cytoscape.js, described in future sections).
+The Styles option is used to export one or more visual styles available in the current Cytoscape session. Supported formats include Style XML (which can be imported by 3.x versions of Cytoscape) or Cytoscape.js JSON (which can be used with Cytoscape.js, described in future sections).
 
-Style export has three options - the export format (as described above), the style(s) to export, and the file name (a suggestion will based on the current directory and file type). As in Network/Table, the suggested file name can be changed using the Browse button or the text field. The list or styles is a multiple-selection list - one or more can be selected using Ctrl/Cmd-click (to select multiple discontiguous elements) or Shift-click (to select a contiguous element range). Press OK to export all selected styles with the given file path.
+Style export has three options - the export format (as described above), the style(s) to export, and the file name (a suggestion will be made based on the current directory and file type). As in Network/Table, the suggested file name can be changed using the Browse button or the text field. The list of styles is a multiple-selection list - one or more can be selected using Ctrl/Cmd-click (to select multiple discontiguous elements) or Shift-click (to select a contiguous element range). Press OK to export all selected styles with the given file path.
 
 
 <a id="exporting_for_publication"> </a>
 ## Exporting for Publication
 
-When you finish your data analysis and visualization, you need to
+When you finish your data analysis and visualization, you can
 publish your data to share the results. Cytoscape has several options to
-do it, with most options suitable for Cytoscape users and other options
+do this, with most options suitable for Cytoscape users and other options
 suitable for programmers wanting to create unusual or complex network
-viewers. They're further explained below.
+viewers. These are further explained below.
 
 -   A session file
 
@@ -82,9 +82,9 @@ viewers. They're further explained below.
 
 The easiest way to share your results with others is simply saving
 everything as a session file (which is a zipped session archive). You
-can save your current session by clicking ***Save Session*** icon. You
+can save your current session by clicking the ***Save Session*** icon. You
 can save to a thumb drive, a shared file system, or even a cloud drive
-directory such as Dropbox -- if you save to a shared drive, beware not
+directory such as Dropbox. If you save to a shared drive, beware not
 to have two people work on the same session file with Cytoscape at the
 same time, as unpredictable results may occur.
 
@@ -164,7 +164,7 @@ Note that web browsers can render small networks (e.g., 1000 nodes)
 quickly and effectively, but attempting to render large ones (e.g., 5000
 nodes) will take a very long time.
 
-**A word about exporting styles styles to interactive web
+**A word about exporting styles to interactive web
 applications:** Our web applications are based on the cytoscape.js
 display library, which renders a subset of Cytoscape styles. For more
 information, see the **Export Styles to Cytoscape.js** section below.
@@ -179,7 +179,7 @@ visual styles that the web application will use to draw your network as
 it appears in Cytoscape.
 [CyNetShare](http://idekerlab.github.io/cy-net-share/)
 is similar to Google Maps in that once you have loaded your network and
-have tweaked its appearance to suit, you can have
+have tweaked its appearance to suit your needs, you can have
 [CyNetShare](http://idekerlab.github.io/cy-net-share/)
 generate a new URL that you can e-mail or post as a link on your own web
 site. That URL will bring up
@@ -231,9 +231,8 @@ directly to a file -- a "direct" URL would be appropriate for use with
 [CyNetShare](http://idekerlab.github.io/cy-net-share/).
 As of this writing, some public directory systems (e.g., Dropbox)
 generate "shareable" URLs instead, which resolve to a web page that
-allows file download -- a "shareable" URL makes
-[CyNetShare](http://idekerlab.github.io/cy-net-share/)
-hang. Systems that offer "shareable" URLs may offer "direct" URLs as
+allows file download -- a "shareable" URL doesn't work with
+[CyNetShare](http://idekerlab.github.io/cy-net-share/). Systems that offer "shareable" URLs may offer "direct" URLs as
 part of their premium (or Pro) package. To tell if your public directory
 system generates a "direct" URL, have it generate a URL for a file, then
 paste the URL into the address field of a browser and observe whether
@@ -352,7 +351,7 @@ custom viewer by customizing this code.
 
 ![web\_export\_simple.png](_static/images/Export/web_export_simple.png)
 
-To generate a web page for a single network view as a zip archive, selec
+To generate a web page for a single network view as a zip archive, select
 ***File | Export as Web Page ...*** as before, but this time choose the
 *Simple viewer for current network only* format as below:
 
