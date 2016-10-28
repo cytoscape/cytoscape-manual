@@ -8,7 +8,7 @@
 To use data from Cytoscape networks in an external application, the data has to be exported.
 As a Cytoscape network consists of a number of different types of data, there are options 
 in Cytoscape for each exportable data type. These options (Network, Table, Styles) can be found on the
-***File | Export*** submenu (shown above). 
+**File → Export** submenu (shown above). 
 
 ### Network
 
@@ -94,7 +94,7 @@ same time, as unpredictable results may occur.
 ![image\_export\_dialog.png](_static/images/Export/image_export_dialog.png)
 
 Cytoscape can generate publication-quality images from network views. By
-selecting ***File | Export as Image...***, you can
+selecting **File → Export as Image...**, you can
 export the current network view into the following formats:
 
 -   JPG
@@ -116,7 +116,7 @@ such as Adobe Illustrator.
 <a id="known_issues"> </a>
 #### Known Issues
 
-For PDF export, there is an option to ***Export text as font***.
+For PDF export, there is an option to **Export text as font**.
 **This option does not work for two-byte characters such as Chinese or
 Japanese**. To avoid corrupted texts in the exported images, please
 uncheck this option when you publish networks including those
@@ -189,11 +189,11 @@ preloaded with your network for anyone to see.
 To use
 [CyNetShare](http://idekerlab.github.io/cy-net-share/):
 
-1.  Select ***File | Export | Network...*** to export your
+1.  Select **File → Export → Network...** to export your
     network to a public directory. Choose the *Cytoscape.js
     JSON (\*.cyjs)* export file format.
 
-2.  Optionally, select ***File | Export | Style...*** to export your
+2.  Optionally, select **File → Export → Style...** to export your
     style settings. Choose the *Style for cytoscape.js (\*.json)* export
     file format.
 
@@ -206,7 +206,7 @@ To use
 
 6.  Optionally, enter the style's URL.
 
-7.  Click the ***Visualize*** button.
+7.  Click the **Visualize** button.
 
 The
 [CyNetShare](http://idekerlab.github.io/cy-net-share/)
@@ -261,9 +261,9 @@ shareable document having a "direct" URL. To try this:
 
 4.  Paste the contents into a Gist document
 
-5.  Select ***Create public Gist***
+5.  Select **Create public Gist**
 
-6.  Select ***Raw*** to place the "direct" URL into your browser's
+6.  Select **Raw** to place the "direct" URL into your browser's
     address field
 
 7.  Use that URL with
@@ -286,7 +286,7 @@ browser on PCs and tablets.
 ![web\_export\_full.png](_static/images/Export/web_export_full.png)
 
 To generate an entire web page for all networks in the session as a zip
-archive, select ***File | Export as Web Page...***. The following dialog
+archive, select **File → Export as Web Page...**. The following dialog
 will appear:
 
 ![web\_export\_full\_dialog.png](_static/images/Export/web_export_full_dialog.png)
@@ -300,12 +300,12 @@ will appear:
  the given file name.
 
 To view the web page, unzip the archive into a folder on your PC or web
-server. The folder will contain an ***index.html*** file, the network
-data, and other files. You can open the ***index.html*** file in your
-browser (usually from your browser's ***File | Open*** menu item.)
+server. The folder will contain an **index.html** file, the network
+data, and other files. You can open the **index.html** file in your
+browser (usually from your browser's **File → Open** menu item.)
 
 Depending on your browser's security settings, you may not be able to
-open the ***index.html*** file directly if it is stored on your PC --
+open the **index.html** file directly if it is stored on your PC --
 you may need to start a web server on your PC. An easy way to set up a
 local web server is by running the Python simple HTTP server. If you
 have Python installed on your machine, just go into the web archive
@@ -352,7 +352,7 @@ custom viewer by customizing this code.
 ![web\_export\_simple.png](_static/images/Export/web_export_simple.png)
 
 To generate a web page for a single network view as a zip archive, select
-***File | Export as Web Page ...*** as before, but this time choose the
+**File → Export as Web Page ...** as before, but this time choose the
 *Simple viewer for current network only* format as below:
 
 ![web\_export\_simple\_dialog.png](_static/images/Export/web_export_simple_dialog.png)
@@ -372,11 +372,11 @@ directly modify this code yourself to create your own page design or add
 new features, the modifications will apply to a single exported network.
 If you are a web application developer, you can change the application
 code generated for **all** exports by editing HTML5 template code
-resource files in your ***\~/CytoscapeConfiguration/web*** directory:
+resource files in your **\~/CytoscapeConfiguration/web** directory:
 
 ![web\_folder.png](_static/images/Export/web_folder.png)
 
-In this folder, you can find ***full*** and ***simple*** sub directories
+In this folder, you can find **full** and **simple** sub directories
 corresponding to Full Web Application and the Simple Network View
 described above.
 
