@@ -14,7 +14,7 @@ in Cytoscape for each exportable data type. These options (Network, Table, Style
 
 ![network\_export\_dialog.png](_static/images/Export/network_export_dialog.png)
 
-The first option on the Export menu is Network, which is used to export 
+The first option on the Export menu is **Network**, which is used to export 
 network data. Network data includes the nodes and edges in the network, and also
 will include data attributes and visual information if the chosen format supports it
 (like XGMML). Network data can be exported in a number of formats, including:
@@ -36,7 +36,7 @@ text box or Browse button. Press OK to export with the selected options.
 
 ![table\_export\_dialog.png](_static/images/Export/table_export_dialog.png)
 
-The Table option is used to export any of the data tables that are available
+The **Table** option is used to export any of the data tables that are available
 in the current Cytoscape session. This includes the node, edge, and network tables
 that can be seen in the Table Browser, as well as any unassigned tables. The only
 currently supported file format currently for export is CSV (comma-separated value). 
@@ -51,9 +51,9 @@ text field. Press OK to export the selected table with the given file name.
 
 ![styles\_export\_dialog.png](_static/images/Export/styles_export_dialog.png)
 
-The Styles option is used to export one or more visual styles available in the current Cytoscape session. Supported formats include Style XML (which can be imported by 3.x versions of Cytoscape) or Cytoscape.js JSON (which can be used with Cytoscape.js, described in future sections).
+The **Styles** option is used to export one or more visual styles available in the current Cytoscape session. Supported formats include Style XML (which can be imported by 3.x versions of Cytoscape) or Cytoscape.js JSON (which can be used with Cytoscape.js, described in future sections).
 
-Style export has three options - the export format (as described above), the style(s) to export, and the file name (a suggestion will be made based on the current directory and file type). As in Network/Table, the suggested file name can be changed using the Browse button or the text field. The list of styles is a multiple-selection list - one or more can be selected using Ctrl/Cmd-click (to select multiple discontiguous elements) or Shift-click (to select a contiguous element range). Press OK to export all selected styles with the given file path.
+Style export has three options - the export format (as described above), the style(s) to export, and the file name (a suggestion will be made based on the current directory and file type). As in Network → Table, the suggested file name can be changed using the Browse button or the text field. The list of styles is a multiple-selection list - one or more can be selected using Ctrl/Cmd-click (to select multiple discontiguous elements) or Shift-click (to select a contiguous element range). Press OK to export all selected styles with the given file path.
 
 
 <a id="exporting_for_publication"> </a>
@@ -82,7 +82,7 @@ viewers. These are further explained below.
 
 The easiest way to share your results with others is simply saving
 everything as a session file (which is a zipped session archive). You
-can save your current session by clicking the ***Save Session*** icon. You
+can save your current session by clicking the **Save Session** icon. You
 can save to a thumb drive, a shared file system, or even a cloud drive
 directory such as Dropbox. If you save to a shared drive, beware not
 to have two people work on the same session file with Cytoscape at the
