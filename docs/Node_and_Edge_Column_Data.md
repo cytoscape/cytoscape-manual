@@ -307,3 +307,22 @@ When import is complete, you can see the newly imported data columns in
 the Table Panel.
 
 ![table\_webservice\_final.png](_static/images/Columns/table_webservice_final.png)
+
+## Mapping Identifiers
+
+A common problem in integrating multiple data sources is differences in terminology.  Standardized identifiers have many dialects. Some databases are specific to a particular organism or genome.  Others span those boundaries.  [**BridgeDB**](http://www.bridgedb.org) is a web service devoted to solving the id mapping problem. Cytoscape contains simple access to BridgeDB.  If you need more esoteric species or data sources, there is an [installable BridgeDB app](http://apps.cytoscape.org/apps/bridgedb) to access a fuller feature set.  
+
+[**Ensembl**](http://www.ensembl.org/) is used as the canonical taxonomy.  A translation between two arbitrary data sources is generally achieved by mapping each through Ensembl.
+
+To map an identifier from one source to another, right click on the column header of your identifier.  Select the option to **Map Column…**
+
+![table\_webservice\_final.png](_static/images/Columns/idMapping.png)
+
+A. The mapping is always constrained by species to prevent senseless matches across species.  You must choose a species (once) for this feature to function properly.   The choices for the Data Source and Target are determined by the species.
+ 
+B. Based on the items in the column you chose we can make a reasonable assumption as to the database as to use as the source for your mapping.  If this is not the source, you can override it in the Map from field.
+ 
+C. The target database of the identifier mapping.  This list is filtered by species and curated down to the most common options.  A full list of supported targets is [here](http://webservice.bridgedb.org/Human/targetDataSources).
+ 
+D. In some cases where there are multiple answers, the **Force Single** option limits the result to the first answer returned by the service.  If the option is off, a list of results will appear in the column.
+
