@@ -316,7 +316,7 @@ A common problem in integrating multiple data sources is differences in terminol
 
 To map an identifier from one source to another, right click on the column header of your identifier.  Select the option to **Map Column…**
 
-![table\_webservice\_final.png](_static/images/Columns/idMapping.png)
+[](_static/images/Columns/idMapping.png)
 
 A. The mapping is always constrained by species to prevent senseless matches across species.  You must choose a species (once) for this feature to function properly.   The choices for the Data Source and Target are determined by the species.
  
