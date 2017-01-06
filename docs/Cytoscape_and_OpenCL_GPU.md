@@ -41,9 +41,9 @@ To use OpenCL on a CPU (i.e. on any desktop computer) or a Xeon Phi,
 you need to install the drivers separately from 
 the web page of the manufacturer of your CPU.
 
-As of 2016-10-10, drivers for Intel CPUs can be downloaded at 
-[http://software.intel.com/en-us/articles/opencl-drivers](http://software.intel.com/en-us/articles/opencl-drivers) - 
-look for "runtime-only". AMD's drivers can be found at [http://support.amd.com/en-us/kb-articles/Pages/OpenCL2-Driver.aspx](http://software.intel.com/en-us/articles/opencl-drivers).
+As of 2017-01-06, drivers for Intel CPUs can be downloaded at 
+[https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime](https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime) - 
+look for "runtime-only". AMD's drivers can be found at [http://support.amd.com/en-us/kb-articles/Pages/OpenCL2-Driver.aspx](http://support.amd.com/en-us/kb-articles/Pages/OpenCL2-Driver.aspx).
 
 **Warning:** After you have just installed drivers for your OpenCL device, 
 Cytoscape may require restarting to be able to "see" the device.
@@ -92,5 +92,6 @@ Microsoft also has [documentation for the registry keys that need to changed](ht
 
 
 ### My problem is not listed here
+Try to install drivers for your CPU and run on the CPU platform (see links above). CPU platforms offer lower performance, but are generally more reliable.
 If this does not help you, ask for help in the 
 [Cytoscape helpdesk mailing list](https://groups.google.com/forum/#!forum/cytoscape-helpdesk)
