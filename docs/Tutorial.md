@@ -144,7 +144,7 @@ Your network contains a combination of protein-protein (pp) and protein-DNA (pd)
 - It is sometimes useful to create a new network from selected nodes. Do this by selecting the menu **File → New → Network → From Selected Nodes, All Edges**.
 - With some layout and zooming, this new network should appear similar to the one shown:
 
-![Final_subnetwork3.png](_static/images/Tutorials/Final_subnetwork3.png)
+![1600px-Final_subnetwork3.png](_static/images/Tutorials/1600px-Final_subnetwork3.png)
 
 ### Exploring Nodes
 - Right click on the node GAL4.
