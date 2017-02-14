@@ -13,7 +13,7 @@ Cytoscape is an open source software platform for integrating, visualizing, and 
 - By default, the "Prefuse Force Directed Layout" is applied to organize the layout of the nodes. The default layout may be changed in the **Layout → Settings** menu.
 - Cytoscape should now look similar to this:
 
-![800px-GalFilteredLoaded3.png](_static/images/Styles/800px-GalFilteredLoaded3.png)
+![800px-GalFilteredLoaded3.png](_static/images/Tutorials/800px-GalFilteredLoaded3.png)
 
 ## Loading expression data
 - Using your favorite text editor, open the file galExpData.csv. The first few lines of the file are as follows:
@@ -37,15 +37,15 @@ You should note the following information about the file:
 - The default settings are usually correct, although you may need to change the Key column to indicate which column will be used to match with the network key column.
 - Click the "OK" button to import the data.
 
-![800px-LoadGalExp3.png](_static/images/Styles/800px-LoadGalExp3.png)
+![800px-LoadGalExp3.png](_static/images/Tutorials/800px-LoadGalExp3.png)
 
 Now we will use the **Node Table** to browse through the expression data, as follows:
 
 - Select a node on the Cytoscape canvas by clicking on it.
-- In the **Node Table**, You can limit the columns shown by going to the **Show Columns** button ![Title](_static/images/Styles/Select3.png), and select the attributes gal1RGexp, gal4RGexp, and gal80Rexp by clicking on the checkbox.
+- In the **Node Table**, You can limit the columns shown by going to the **Show Columns** button ![Title](_static/images/Tutorials/Select3.png), and select the attributes gal1RGexp, gal4RGexp, and gal80Rexp by clicking on the checkbox.
 - Under the **Node Table**, you should see your node listed with their expression values, as shown.
 
-![799px-Galbrowse3.png](_static/images/Styles/799px-Galbrowse3.png)
+![799px-Galbrowse3.png](_static/images/Tutorials/799px-Galbrowse3.png)
 
 ## Visualizing Expression Data
 Probably the most common use of expression data in Cytoscape is to set the visual attributes of the nodes in a network according to expression data. This creates a powerful visualization, portraying functional relation and experimental response at the same time. Here, we will walk through the steps for doing this.
@@ -78,7 +78,7 @@ Define the node color of this visual style:
 - This should produce a Blue-White-Yellow Color gradient like the image below, with min and max extremes colored black and green, respectively.
 - Click 'OK' to save the gradient adjustment dialog and verify that the nodes in the network reflect the new coloring scheme.
 
-![Node_color_gradient3.png](_static/images/Styles/Node_color_gradient3.png)
+![Node_color_gradient3.png](_static/images/Tutorials/Node_color_gradient3.png)
 
 ### Set the default node color
 Note that the default node color of pale blue falls within this spectrum. A useful trick is to choose a color outside this spectrum to distinguish nodes with no defined expression value and those with slight repression.
@@ -97,7 +97,7 @@ We imported both expression measurement values and significance values for those
 - This will create an empty icon in the "Current Mapping" row of the **Shape** section. Click on this icon.
 - This action will pop-up a continuous shape selection dialog.
 
-![Node_shape_editor3.png](_static/images/Styles/Node_shape_editor3.png)
+![Node_shape_editor3.png](_static/images/Tutorials/Node_shape_editor3.png)
 
 - Click the **Add** button.
 - This action will split the range of values with a slider down the middle with a node shape icon to either side of the slider.
@@ -110,7 +110,7 @@ We imported both expression measurement values and significance values for those
 
 The network should now look like this:
 
-![1600px-Galfiltered-visualization3.png](_static/images/Styles/1600px-Galfiltered-visualization3.png)
+![1600px-Galfiltered-visualization3.png](_static/images/Tutorials/1600px-Galfiltered-visualization3.png)
 
 ## A biological analysis scenario
 This section presents one scenario of how expression data can be combined with network data to tell a biological story.
@@ -134,7 +134,7 @@ Your network contains a combination of protein-protein (pp) and protein-DNA (pd)
 - Select the menu **Layout → Cytoscape Layouts → Prefuse Force-Directed Layout** to clean up the network visualization.
 - The largest component of the final filtered and cleaned up network should look like this:
 
-![1600px-Final_network3.png](_static/images/Styles/1600px-Final_network3.png)
+![1600px-Final_network3.png](_static/images/Tutorials/1600px-Final_network3.png)
 
 ### Observe the Network
 *Notice that three bright green (highly induced) nodes are in the same region of the graph. Zoom into the graph to see more details.*
@@ -144,7 +144,7 @@ Your network contains a combination of protein-protein (pp) and protein-DNA (pd)
 - It is sometimes useful to create a new network from selected nodes. Do this by selecting the menu **File → New → Network → From Selected Nodes, All Edges**.
 - With some layout and zooming, this new network should appear similar to the one shown:
 
-![Final_subnetwork3.png](_static/images/Styles/Final_subnetwork3.png)
+![Final_subnetwork3.png](_static/images/Tutorials/Final_subnetwork3.png)
 
 ### Exploring Nodes
 - Right click on the node GAL4.
@@ -170,10 +170,10 @@ In addition to coloring the nodes, Cytoscape also provides the ability to draw c
 - Move the three columns containing the expression data (gal1RGexp, gal4RGexp, gal80Rexp) from "Available Columns:" to "Selected Columns:" by selecting the rows and clicking the right arrow. This indicates that we're going to use the data from these three columns to create our chart.
 - Now select "Heat Strips" for the type of bar chart.
 
-![1524px-ChartDialog.png](_static/images/Styles/1524px-ChartDialog.png)
+![1524px-ChartDialog.png](_static/images/Tutorials/1524px-ChartDialog.png)
 
 - Click on "Options" if you want to add labels to the graphs, change the default coloring, etc.
 - Click **Apply** to see the resulting charts.
 
-![1599px-GalWithCharts.png](_static/images/Styles/1599px-GalWithCharts.png)
+![1599px-GalWithCharts.png](_static/images/Tutorials/1599px-GalWithCharts.png)
 
