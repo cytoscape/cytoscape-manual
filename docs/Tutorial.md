@@ -146,4 +146,34 @@ Your network contains a combination of protein-protein (pp) and protein-DNA (pd)
 
 ![Final_subnetwork3.png](_static/images/Styles/Final_subnetwork3.png)
 
+### Exploring Nodes
+- Right click on the node GAL4.
+- Select the menu **External Links → Sequences and Proteins → Entrez Gene**.
+- This action will pop-up a browser window and search the Entrez Gene database for the term "YPL248C", the id of the node.
+- In the results in the browser the first entry should be labeled GAL4. Click on this entry.
+- The description of GAL4 tells us that it is repressed by GAL80.
+- Our data show precisely this:
+  - Both nodes (GAL4 and GAL11) show fairly small changes in expression, and neither change is statistically significant: they are rendered as light-colored circles. These slight changes in expression suggest that the critical change affecting the black nodes might be somewhere else in the network, and not either of these nodes.
+  - GAL4 interacts with GAL80 (YML051W), which shows a significant level of repression: it is depicted as a red square.
+  - Note that while GAL80 shows evidence of significant repression, most nodes interacting with GAL4 show significant levels of induction: they are rendered as green squares.
+  - GAL11 is a general transcription co-factor with many interactions.
+- Putting all of this together, we see that the transcriptional activation activity of Gal4 is repressed by Gal80. So, repression of Gal80 increases the transcriptional activation activity of Gal4. Even though the expression of Gal4 itself did not change much, the Gal4 transcripts were much more likely to be active transcription factors when Gal80 was repressed. This explains why there is so much up-regulation in the vicinity of Gal4.
+
+### Fun with Charts
+In addition to coloring the nodes, Cytoscape also provides the ability to draw charts and graphs on each node. For example, suppose we wanted to display a bar chart showing all of the expression values on each of our nodes?
+
+- To reset things a little, remove the mapping for **Fill Color** by doing a Right-Click over the **Fill Color** row and selecting **Edit → Remove Mappings from Selected Visual Properties**
+- Now change the default value to a lighter shade of grey so we can see our chart.
+- Near the top of the panel, select **Properties** and choose **Paint → Custom Paint 1 → Image/Chart 1**. This will add a new row in our list of Node Visual Properties called Image/Chart 1.
+- Select the **Def.** (leftmost) cell in the **Image/Chart 1** row to bring up the Graphics dialog.
+- Select the **Charts** tab.
+- Move the three columns containing the expression data (gal1RGexp, gal4RGexp, gal80Rexp) from "Available Columns:" to "Selected Columns:" by selecting the rows and clicking the right arrow. This indicates that we're going to use the data from these three columns to create our chart.
+- Now select "Heat Strips" for the type of bar chart.
+
+![1524px-ChartDialog.png](_static/images/Styles/1524px-ChartDialog.png)
+
+- Click on "Options" if you want to add labels to the graphs, change the default coloring, etc.
+- Click **Apply** to see the resulting charts.
+
+![1599px-GalWithCharts.png](_static/images/Styles/1599px-GalWithCharts.png)
 
