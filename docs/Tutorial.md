@@ -78,7 +78,7 @@ Define the node color of this visual style:
 - This should produce a Blue-White-Yellow Color gradient like the image below, with min and max extremes colored black and green, respectively.
 - Click 'OK' to save the gradient adjustment dialog and verify that the nodes in the network reflect the new coloring scheme.
 
-![Node_color_gradient3.png](_static/images/Tutorials/Node_color_gradient3.png)
+![500px-Node_color_gradient3.png](_static/images/Tutorials/500px-Node_color_gradient3.png)
 
 ### Set the default node color
 Note that the default node color of pale blue falls within this spectrum. A useful trick is to choose a color outside this spectrum to distinguish nodes with no defined expression value and those with slight repression.
