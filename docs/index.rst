@@ -41,9 +41,6 @@ Copyright (c) 2001-2016 The Cytoscape Consortium
    Cytoscape.js_and_Cytoscape
    Programmatic_Access_to_Cytoscape_Features_Scripting
    Cytoscape_Privacy_Policy
-=================
-This is a heading
-=================
    Tutorial
 ..   
    
