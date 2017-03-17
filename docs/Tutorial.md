@@ -39,7 +39,7 @@ You should note the following information about the file:
 - Under the **File** menu, select **Import → Table → File....**
 - Select the file galExpData.csv.
 - The default settings are usually correct, although you may need to change the Key column to indicate which column will be used to match with the network key column.
-- Click the "OK" button to import the data.
+- Click the **OK** button to import the data.
 
 ![800px-LoadGalExp3.png](_static/images/Tutorials/800px-LoadGalExp3.png)
 
@@ -58,54 +58,54 @@ Probably the most common use of expression data in Cytoscape is to set the visua
 - Open the **Styles** by selecting its tab in the "Control Panel" (the leftmost panel).
 - Use the "Common" name attribute to give the nodes useful names.
 - Zoom in on the network so that node labels are visible.
-- Click the second column of the "Label" row in the **Styles** panel. This should produce a drop-down panel with "Column" and "Mapping Type"
-- Change the "Column" to **COMMON** by clicking on the field to the right of the "Column" label. This should bring up a list of columns. Select **COMMON**.
+- Click the second column of the "Label" row in the **Styles** panel. This should produce a drop-down panel with **Column** and **Mapping Type**
+- Change the "Column" to **COMMON** by clicking on the field to the right of the **Column** label. This should bring up a list of columns. Select **COMMON**.
 - Verify that the node labels on the network have changed to their common names.
-- By default, the "Mapping Type" is **Passthrough Mapping**, which is what we want to use. Other options are **Discrete Mapping** and **Continuous Mapping**.
+- By default, the **Mapping Type** is **Passthrough Mapping**, which is what we want to use. Other options are **Discrete Mapping** and **Continuous Mapping**.
 
 ### Color the nodes
 Define the node color of this visual style:
 
 - Click on the middle square (**Map.**) next to the **Fill Color** row in the **Styles** panel.
-- Click the "-- select value --" cell in the **Column** section.
+- Click the **-- select value --** cell in the **Column** section.
 - This will produce a drop-down menu of available column names. Select "gal80Rexp".
-- Click the "-- select value--" cell in the **Mapping Type** section.
-- This will produce a drop-down menu of available mapping types. Select "Continuous Mapping".
+- Click the **-- select value--** cell in the **Mapping Type** section.
+- This will produce a drop-down menu of available mapping types. Select **Continuous Mapping**.
 - This action will produce a basic black to white color gradient.
 - Click on the color gradient to change the colors. This will pop-up a gradient editing dialog.
 - We're going to build a basic blue-white-yellow gradient for our expression values.
 - Drag the left-most, black inverted triangle handle along the top of the gradient. Drag it to an value of approx. -1.2. Double-click on the handle and set a color in the blue range.
-- Drag the white inverted triangle handle to approx 0.5. You can type the value in the Handle Position section to be more precise.
+- Drag the white inverted triangle handle to approx 0.5. You can type the value in the **Handle Position** section to be more precise.
 - Add a new handle by clicking **Add**, and drag that handle to 2.5. Set the color to yellow.
-- Finally, set the Maximum Color by double-clicking on the white, left-pointing triangle. Set it to gree.
-- You can also change the color of each handle by double-clicking or using the Node Fill Color selector button in the Handle Settings section.
+- Finally, set the **Maximum Color** by double-clicking on the white, left-pointing triangle. Set it to green.
+- You can also change the color of each handle by double-clicking or using the **Node Fill Color** selector button in the **Handle Settings** section.
 - This should produce a Blue-White-Yellow Color gradient like the image below, with min and max extremes colored black and green, respectively.
-- Click 'OK' to save the gradient adjustment dialog and verify that the nodes in the network reflect the new coloring scheme.
+- Click **OK** to save the gradient adjustment dialog and verify that the nodes in the network reflect the new coloring scheme.
 
 ![500px-Node_color_gradient3.png](_static/images/Tutorials/500px-Node_color_gradient3.png)
 
 ### Set the default node color
 Note that the default node color of pale blue falls within this spectrum. A useful trick is to choose a color outside this spectrum to distinguish nodes with no defined expression value and those with slight repression.
 
-- Click the **Def.** (leftmost) square next to "Fill Color" and choose a dark gray color.
+- Click the **Def.** (leftmost) square next to **Fill Color** and choose a dark gray color.
 - Zoom out on the network view to verify that a few nodes have been colored gray.
 
 ### Set the Node Shape
 We imported both expression measurement values and significance values for those measurements. We can use the significance values to change the shape of the nodes so that measurements we have confidence in appear as squares while potentially bad measurements appear as circles.
 
-- Click the **Map**. cell next to the **Shape** row in the **Style** Panel.
-- Click the "-- select value --" cell next to **Column**.
+- Click the **Map**. cell next to the **Shape** row in the **Style** panel.
+- Click the **-- select value --** cell next to **Column**.
 - This will produce a drop-down menu of available column names. Select "gal80Rsig".
-- Click the "-- select value --" cell next to **Mapping Type**.
-- This will produce a drop-down menu of available mapping types. Select "Continuous Mapping".
-- This will create an empty icon in the "Current Mapping" row of the **Shape** section. Click on this icon.
+- Click the **-- select value --** cell next to **Mapping Type**.
+- This will produce a drop-down menu of available mapping types. Select **Continuous Mapping**.
+- This will create an empty icon in the **Current Mapping** row of the **Shape** section. Click on this icon.
 - This action will pop-up a continuous shape selection dialog.
 
 ![Node_shape_editor3.png](_static/images/Tutorials/Node_shape_editor3.png)
 
 - Click the **Add** button.
 - This action will split the range of values with a slider down the middle with a node shape icon to either side of the slider.
-- Double-Click on the left node icon (a circle).
+- Double-click on the left node icon (a circle).
 - This will pop-up a node shape selection dialog.
 - Choose the **Rectangle** shape and click the **Apply** button.
 - The continuous shape selection dialog should now show both a square and a circle node shape icon.
@@ -119,12 +119,12 @@ The network should now look like this:
 ### Filter Interactions
 Your network contains a combination of protein-protein (pp) and protein-DNA (pd) interactions. Here, we shall filter out the protein-protein interactions to focus on the protein-DNA interactions.
 
-- Click the **Select** tab in the **Control Panel**.
+- Click the **Select** tab in the **Control** panel.
 - Click the + icon Plus icon.png and select **Column Filter**.
 - Select the drop-down list and choose **Edge: interaction**.
 - This action will create a text search box entry in the filter.
 - Type the letters "pp" into the text search box. This indicates that we're searching for all edge interaction attributes that match the string "pp".
-- For reasonably sized networks, the filter will automatically be applied. For larger networks, you may need to click the **Apply** button at the bottom of the Select panel.
+- For reasonably sized networks, the filter will automatically be applied. For larger networks, you may need to click the **Apply** button at the bottom of the **Select** panel.
 
 
 - You should now see many edges in the network selected (i.e. colored red).
@@ -163,15 +163,15 @@ In addition to coloring the nodes, Cytoscape also provides the ability to draw c
 
 - To reset things a little, remove the mapping for **Fill Color** by doing a Right-Click over the **Fill Color** row and selecting **Edit → Remove Mappings from Selected Visual Properties**
 - Now change the default value to a lighter shade of grey so we can see our chart.
-- Near the top of the panel, select **Properties** and choose **Paint → Custom Paint 1 → Image/Chart 1**. This will add a new row in our list of Node Visual Properties called Image/Chart 1.
-- Select the **Def.** (leftmost) cell in the **Image/Chart 1** row to bring up the Graphics dialog.
+- Near the top of the panel, select **Properties** and choose **Paint → Custom Paint 1 → Image/Chart 1**. This will add a new row in our list of **Node Visual Properties** called **Image/Chart 1**.
+- Select the **Def.** (leftmost) cell in the **Image/Chart 1** row to bring up the **Graphics** dialog.
 - Select the **Charts** tab.
-- Move the three columns containing the expression data (gal1RGexp, gal4RGexp, gal80Rexp) from "Available Columns:" to "Selected Columns:" by selecting the rows and clicking the right arrow. This indicates that we're going to use the data from these three columns to create our chart.
-- Now select "Heat Strips" for the type of bar chart.
+- Move the three columns containing the expression data (gal1RGexp, gal4RGexp, gal80Rexp) from **Available Columns:** to **Selected Columns:** by selecting the rows and clicking the right arrow. This indicates that we're going to use the data from these three columns to create our chart.
+- Now select **Heat Strips** for the type of bar chart.
 
 ![1524px-ChartDialog.png](_static/images/Tutorials/1524px-ChartDialog.png)
 
-- Click on "Options" if you want to add labels to the graphs, change the default coloring, etc.
+- Click on **Options** if you want to add labels to the graphs, change the default coloring, etc.
 - Click **Apply** to see the resulting charts.
 
 ![1599px-GalWithCharts.png](_static/images/Tutorials/1599px-GalWithCharts.png)
