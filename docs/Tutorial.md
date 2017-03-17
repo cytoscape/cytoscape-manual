@@ -1,12 +1,14 @@
 <a id="test-tutorial"> </a>
 # Basic Expression Analysis in Cytoscape 3
 
-Cytoscape is an open source software platform for integrating, visualizing, and analyzing measurement data in the context of networks. This tutorial will introduce you to:
+Cytoscape is an open source software platform for integrating, visualizing, and analyzing measurement data in the context of networks.
+
+This tutorial presents one scenario of how expression data can be combined with network data to tell a biological story and includes the following concepts:
 
 - Visualizing networks using expression data.
 - Filtering networks based on expression data.
 - Assessing expression data in the context of a biological network.
-  
+
 ## Loading Network
 
 - Start Cytoscape and load the network galFiltered.sif using **File → Import → Network->File....**
@@ -17,6 +19,8 @@ Cytoscape is an open source software platform for integrating, visualizing, and 
 
     
 ## Loading expression data
+To beging with, here is some background on your data. You are working with yeast, and the genes Gal1, Gal4, and Gal80 are all yeast transcription factors. Your expression experiments all involve some perturbation of these transcription factor genes. Gal1, Gal4, and Gal80 are also represented in your interaction network, where they are labeled according to yeast locus tags: Gal1 corresponds to YBR020W, Gal4 to YPL248C, and Gal80 to YML051W.
+
 Using your favorite text editor, open the file galExpData.csv. The first few lines of the file are as follows:
 
     GENE,COMMON,gal1RGexp,gal4RGexp,gal80Rexp,gal1RGsig,gal4RGsig,gal80Rsig
@@ -111,11 +115,6 @@ We imported both expression measurement values and significance values for those
 The network should now look like this:
 
 ![1600px-Galfiltered-visualization3.png](_static/images/Tutorials/1600px-Galfiltered-visualization3.png)
-
-## A biological analysis scenario
-This section presents one scenario of how expression data can be combined with network data to tell a biological story.
-
-First, here is some background on your data. You are working with yeast, and the genes Gal1, Gal4, and Gal80 are all yeast transcription factors. Your expression experiments all involve some perturbation of these transcription factor genes. Gal1, Gal4, and Gal80 are also represented in your interaction network, where they are labeled according to yeast locus tags: Gal1 corresponds to YBR020W, Gal4 to YPL248C, and Gal80 to YML051W.
 
 ### Filter Interactions
 Your network contains a combination of protein-protein (pp) and protein-DNA (pd) interactions. Here, we shall filter out the protein-protein interactions to focus on the protein-DNA interactions.
