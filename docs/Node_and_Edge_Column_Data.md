@@ -226,7 +226,7 @@ inserting into the data value. For example:
 <a id="table_panel"> </a>
 ### Table Panel
 
-![TablePanel\_withData.png](_static/images/Columns/TablePanel_withData.png)
+![800px-TablePanel\_withData.png](_static/images/Columns/800px-TablePanel_withData.png)
 
 When Cytoscape is started, the **Table Panel** appears in the bottom
 right of the main Cytoscape window. This browser can be hidden and
