@@ -15,7 +15,7 @@ This tutorial presents one scenario of how expression data can be combined with 
 - By default, the "Prefuse Force Directed Layout" is applied to organize the layout of the nodes. The default layout may be changed in the **Layout → Settings** menu.
 - Cytoscape should now look similar to this:
 
-![800px-GalFilteredLoaded3.png](_static/images/Tutorials/800px-GalFilteredLoaded3.png)
+![1000px-GalFilteredLoaded3.png](_static/images/Tutorials/1000px-GalFilteredLoaded3.png)
 
     
 ## Loading expression data
@@ -41,7 +41,7 @@ You should note the following information about the file:
 - The default settings are usually correct, although you may need to change the Key column to indicate which column will be used to match with the network key column.
 - Click the **OK** button to import the data.
 
-![800px-LoadGalExp3.png](_static/images/Tutorials/800px-LoadGalExp3.png)
+![700px-LoadGalExp3.png](_static/images/Tutorials/700px-LoadGalExp3.png)
 
 Now we will use the **Node Table** to browse through the expression data, as follows:
 
@@ -49,7 +49,7 @@ Now we will use the **Node Table** to browse through the expression data, as fol
 - In the **Node Table**, You can limit the columns shown by going to the **Show Columns** button ![Title](_static/images/Tutorials/Select3.png), and select the attributes gal1RGexp, gal4RGexp, and gal80Rexp by clicking on the checkbox.
 - Under the **Node Table**, you should see your node listed with their expression values, as shown.
 
-![799px-Galbrowse3.png](_static/images/Tutorials/799px-Galbrowse3.png)
+![700px-Galbrowse3.png](_static/images/Tutorials/700px-Galbrowse3.png)
 
 ## Visualizing Expression Data
 Probably the most common use of expression data in Cytoscape is to set the visual attributes of the nodes in a network according to expression data. This creates a powerful visualization, portraying functional relation and experimental response at the same time. Here, we will walk through the steps for doing this.
