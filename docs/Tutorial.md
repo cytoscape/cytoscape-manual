@@ -169,7 +169,7 @@ In addition to coloring the nodes, Cytoscape also provides the ability to draw c
 - Move the three columns containing the expression data (gal1RGexp, gal4RGexp, gal80Rexp) from **Available Columns:** to **Selected Columns:** by selecting the rows and clicking the right arrow. This indicates that we're going to use the data from these three columns to create our chart.
 - Now select **Heat Strips** for the type of bar chart.
 
-![700px-ChartDialog.png](_static/images/Tutorials/700px-ChartDialog.png)
+![600px-ChartDialog.png](_static/images/Tutorials/600px-ChartDialog.png)
 
 - Click on **Options** if you want to add labels to the graphs, change the default coloring, etc.
 - Click **Apply** to see the resulting charts.
