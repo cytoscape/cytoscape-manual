@@ -8,7 +8,7 @@ In future releases, we will continue to tweak and improve both the
 software and the documentation. This manual will be updated to reflect
 all the latest changes.
 
-If you would prefer to learn by doing, consider starting with the [Basic Expression Analysis Tutorial](basic_expression_analysis_tutorial) chapter.
+If you would prefer to learn by doing, consider starting with the [Basic Expression Analysis Tutorial](Basic_Expression_Analysis_Tutorial.html#basic-expression-analysis-tutorial) chapter.
 
 *This manual describes the installation and use of Cytoscape. For a more
 thorough understanding of Cytoscape and its ecosystem, we highly
