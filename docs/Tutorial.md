@@ -19,7 +19,7 @@ This tutorial presents one scenario of how expression data can be combined with 
 
     
 ## Loading expression data
-To beging with, here is some background on your data. You are working with yeast, and the genes Gal1, Gal4, and Gal80 are all yeast transcription factors. Your expression experiments all involve some perturbation of these transcription factor genes. Gal1, Gal4, and Gal80 are also represented in your interaction network, where they are labeled according to yeast locus tags: Gal1 corresponds to YBR020W, Gal4 to YPL248C, and Gal80 to YML051W.
+To begin with, here is some background on your data. You are working with yeast, and the genes Gal1, Gal4, and Gal80 are all yeast transcription factors. Your expression experiments all involve some perturbation of these transcription factor genes. Gal1, Gal4, and Gal80 are also represented in your interaction network, where they are labeled according to yeast locus tags: Gal1 corresponds to YBR020W, Gal4 to YPL248C, and Gal80 to YML051W.
 
 Using your favorite text editor, open the file galExpData.csv. The first few lines of the file are as follows:
 
@@ -58,7 +58,7 @@ Probably the most common use of expression data in Cytoscape is to set the visua
 - Open the **Styles** by selecting its tab in the "Control Panel" (the leftmost panel).
 - Use the "Common" name attribute to give the nodes useful names.
 - Zoom in on the network so that node labels are visible.
-- Click the second column of the "Label" row in the **Styles** panel. This should produce a drop-down panel with **Column** and **Mapping Type**
+- Click the second column of the "Label" row in the **Styles** panel. This should produce a drop-down panel with **Column** and **Mapping Type**.
 - Change the "Column" to **COMMON** by clicking on the field to the right of the **Column** label. This should bring up a list of columns. Select **COMMON**.
 - Verify that the node labels on the network have changed to their common names.
 - By default, the **Mapping Type** is **Passthrough Mapping**, which is what we want to use. Other options are **Discrete Mapping** and **Continuous Mapping**.
@@ -127,7 +127,7 @@ Your network contains a combination of protein-protein (pp) and protein-DNA (pd)
 - For reasonably sized networks, the filter will automatically be applied. For larger networks, you may need to click the **Apply** button at the bottom of the **Select** panel.
 
 
-- You should now see many edges in the network selected (i.e. colored red).
+- You should now see many edges in the network selected (i.e., colored red).
 - Since we're only interested in the protein-DNA edges, we can delete the protein-protein edges we've just selected.
 - Select the menu **Edit → Delete Selected Nodes and Edge**. You should now see many unconnected nodes in the network.
 - Select the menu **Layout → Cytoscape Layouts → Prefuse Force-Directed Layout** to clean up the network visualization.
@@ -161,7 +161,7 @@ Your network contains a combination of protein-protein (pp) and protein-DNA (pd)
 ### Fun with Charts
 In addition to coloring the nodes, Cytoscape also provides the ability to draw charts and graphs on each node. For example, suppose we wanted to display a bar chart showing all of the expression values on each of our nodes?
 
-- To reset things a little, remove the mapping for **Fill Color** by doing a Right-Click over the **Fill Color** row and selecting **Edit → Remove Mappings from Selected Visual Properties**
+- To reset things a little, remove the mapping for **Fill Color** by doing a Right-Click over the **Fill Color** row and selecting **Edit → Remove Mappings from Selected Visual Properties**.
 - Now change the default value to a lighter shade of grey so we can see our chart.
 - Near the top of the panel, select **Properties** and choose **Paint → Custom Paint 1 → Image/Chart 1**. This will add a new row in our list of **Node Visual Properties** called **Image/Chart 1**.
 - Select the **Def.** (leftmost) cell in the **Image/Chart 1** row to bring up the **Graphics** dialog.
