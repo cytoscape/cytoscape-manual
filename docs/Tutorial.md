@@ -1,4 +1,4 @@
-<a id="Basic_Expression_Analysis_Tutorial"> </a>
+<a id="basic-expression-analysis-tutorial"> </a>
 # Basic Expression Analysis Tutorial
 
 Cytoscape is an open source software platform for integrating, visualizing, and analyzing measurement data in the context of networks.
@@ -9,6 +9,7 @@ This tutorial presents one scenario of how expression data can be combined with 
 - Filtering networks based on expression data.
 - Assessing expression data in the context of a biological network.
 
+<a id="loading-network"> </a>
 ## Loading Network
 
 - Start Cytoscape and load the network galFiltered.sif using **File → Import → Network->File....**
@@ -18,7 +19,8 @@ This tutorial presents one scenario of how expression data can be combined with 
 ![1400px-GalFilteredLoaded3.png](_static/images/Tutorials/1400px-GalFilteredLoaded3.png)
 
     
-## Loading expression data
+<a id="loading-expression-data"> </a>
+## Loading Expression Data
 To begin with, here is some background on your data. You are working with yeast, and the genes Gal1, Gal4, and Gal80 are all yeast transcription factors. Your expression experiments all involve some perturbation of these transcription factor genes. Gal1, Gal4, and Gal80 are also represented in your interaction network, where they are labeled according to yeast locus tags: Gal1 corresponds to YBR020W, Gal4 to YPL248C, and Gal80 to YML051W.
 
 Using your favorite text editor, open the file galExpData.csv. The first few lines of the file are as follows:
@@ -51,9 +53,11 @@ Now we will use the **Node Table** to browse through the expression data, as fol
 
 ![600px-Galbrowse3.png](_static/images/Tutorials/600px-Galbrowse3.png)
 
+<a id="vizualizing-expression-data"> </a>
 ## Visualizing Expression Data
 Probably the most common use of expression data in Cytoscape is to set the visual attributes of the nodes in a network according to expression data. This creates a powerful visualization, portraying functional relation and experimental response at the same time. Here, we will walk through the steps for doing this.
 
+<a id="label-the-nodes"> </a>
 ### Label the Nodes
 - Open the **Styles** by selecting its tab in the "Control Panel" (the leftmost panel).
 - Use the "Common" name attribute to give the nodes useful names.
@@ -63,6 +67,7 @@ Probably the most common use of expression data in Cytoscape is to set the visua
 - Verify that the node labels on the network have changed to their common names.
 - By default, the **Mapping Type** is **Passthrough Mapping**, which is what we want to use. Other options are **Discrete Mapping** and **Continuous Mapping**.
 
+<a id="color-the-nodes"> </a>
 ### Color the nodes
 Define the node color of this visual style:
 
@@ -84,12 +89,14 @@ Define the node color of this visual style:
 
 ![500px-Node_color_gradient3_v2.png](_static/images/Tutorials/500px-Node_color_gradient3_v2.png)
 
-### Set the default node color
+<a id="set-the-default-node-color"> </a>
+### Set the Default Node Color
 Note that the default node color of pale blue falls within this spectrum. A useful trick is to choose a color outside this spectrum to distinguish nodes with no defined expression value and those with slight repression.
 
 - Click the **Def.** (leftmost) square next to **Fill Color** and choose a dark gray color.
 - Zoom out on the network view to verify that a few nodes have been colored gray.
 
+<a id="set-the-node-shape"> </a>
 ### Set the Node Shape
 We imported both expression measurement values and significance values for those measurements. We can use the significance values to change the shape of the nodes so that measurements we have confidence in appear as squares while potentially bad measurements appear as circles.
 
@@ -116,6 +123,7 @@ The network should now look like this:
 
 ![1600px-Galfiltered-visualization3.png](_static/images/Tutorials/1600px-Galfiltered-visualization3.png)
 
+<a id="filter-interactions"> </a>
 ### Filter Interactions
 Your network contains a combination of protein-protein (pp) and protein-DNA (pd) interactions. Here, we shall filter out the protein-protein interactions to focus on the protein-DNA interactions.
 
@@ -135,6 +143,7 @@ Your network contains a combination of protein-protein (pp) and protein-DNA (pd)
 
 ![1600px-Final_network3.png](_static/images/Tutorials/1600px-Final_network3.png)
 
+<a id="observe-the-network"> </a>
 ### Observe the Network
 *Notice that three bright green (highly induced) nodes are in the same region of the graph. Zoom into the graph to see more details.*
 
@@ -145,6 +154,7 @@ Your network contains a combination of protein-protein (pp) and protein-DNA (pd)
 
 ![1600px-Final_subnetwork3.png](_static/images/Tutorials/1600px-Final_subnetwork3.png)
 
+<a id="exploring-nodes"> </a>
 ### Exploring Nodes
 - Right click on the node GAL4.
 - Select the menu **External Links → Sequences and Proteins → Entrez Gene**.
@@ -158,6 +168,7 @@ Your network contains a combination of protein-protein (pp) and protein-DNA (pd)
   - GAL11 is a general transcription co-factor with many interactions.
 - Putting all of this together, we see that the transcriptional activation activity of Gal4 is repressed by Gal80. So, repression of Gal80 increases the transcriptional activation activity of Gal4. Even though the expression of Gal4 itself did not change much, the Gal4 transcripts were much more likely to be active transcription factors when Gal80 was repressed. This explains why there is so much up-regulation in the vicinity of Gal4.
 
+<a id="fun-with-charts"> </a>
 ### Fun with Charts
 In addition to coloring the nodes, Cytoscape also provides the ability to draw charts and graphs on each node. For example, suppose we wanted to display a bar chart showing all of the expression values on each of our nodes?
 
