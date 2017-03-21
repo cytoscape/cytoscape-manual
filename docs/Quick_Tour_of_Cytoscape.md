@@ -1,6 +1,8 @@
 <a id="quick_tour_of_cytoscape"> </a>
 # Quick Tour of Cytoscape
 
+This chapter describes the basic layout and mechanics of using Cytoscape. If you would prefer to learn by doing, consider starting with the [Basic Expression Analysis Tutorial](Basic_Expression_Analysis_Tutorial.html#basic-expression-analysis-tutorial) chapter.
+
 <a id="welcome_screen"> </a>
 ## Welcome Screen
 
