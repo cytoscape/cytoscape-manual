@@ -355,8 +355,6 @@ After
 <a id="rotate"> </a>
 ### Rotate
 
-![rotate\_dialog.png](_static/images/Navigation_Layout/rotate_dialog.png)
-
 The Rotate function will change the orientation of the entire
 network or a selected portion of the network. The image below shows a
 network with selected nodes rotated.
