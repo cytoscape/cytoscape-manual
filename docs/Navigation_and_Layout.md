@@ -347,7 +347,7 @@ It contains several **Node Layout Tools** that can help to automate or fine tune
 Adjust the Scale slider to change the length of edges.  The position of the nodes will be scaled, not the node sizes. 
 Node size can be adjusted using
 **[Styles](Styles.html#styles)**.
-The image below shows selected nodes scaled to 50% of the default value.
+The images below show selected (yellow) nodes scaled to 50% of the default value.
 
 **Before**
 ![scale\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
@@ -358,7 +358,7 @@ The image below shows selected nodes scaled to 50% of the default value.
 ### Rotate
 
 The Rotate function will change the orientation of the entire
-network or a selected portion of the network. The image below shows a
+network or a selected portion of the network. The images below show a
 network with selected nodes rotated 90 degrees.
 
 **Before**
