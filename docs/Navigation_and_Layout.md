@@ -439,5 +439,5 @@ position, Cytoscape now has the ability to move nodes using the arrow
 keys on the keyboard. By selecting one or more nodes using the mouse and
 clicking one of the arrow keys (←, ↑, →, ↓) the selected nodes will move
 one pixel in the chosen direction. If an arrow key is pressed while
-holding the Shift key down, the selected nodes will 15 pixels in the
+holding the Shift key down, the selected nodes will move 15 pixels in the
 chosen direction.
