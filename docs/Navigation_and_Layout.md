@@ -328,23 +328,29 @@ get proper result.
 The simplest method to manually organize a network is to click on a node
 and drag it. All of the selected nodes are moved together.
 
+<a id="node_movement_and_placement"> </a>
+## Node Movement and Placement
+
+In addition to the ability to click on a node and drag it to a new
+position, Cytoscape now has the ability to move nodes using the arrow
+keys on the keyboard. By selecting one or more nodes using the mouse and
+clicking one of the arrow keys (←, ↑, →, ↓) the selected nodes will move
+one pixel in the chosen direction. If an arrow key is pressed while
+holding the Shift key down, the selected nodes will move 15 pixels in the
+chosen direction.
 
 <a id="scale"> </a>
 ### Scale
-
-![scale\_dialog.png](_static/images/Navigation_Layout/scale_dialog.png)
-
+In the Tool Window is a Node Layout Tools panel.
 Adjust the Scale slider to change the length of edges.  The position of the nodes will be scaled, not the node sizes. 
 Node size can be adjusted using
 **[Styles](Styles.html#styles)**.
 The image below shows selected nodes scaled.
 
 Before
-
 ![scale\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
 
 After
-
 ![scale\_networkB.png](_static/images/Navigation_Layout/NodeToolsScaled.png)
 <a id="rotate"> </a>
 ### Rotate
@@ -356,21 +362,18 @@ network or a selected portion of the network. The image below shows a
 network with selected nodes rotated.
 
 Before
-
 ![rotate\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
 
 After
-
 ![rotate\_networkB.png](_static/images/Navigation_Layout/NodeToolsRotated.png)
 
 
 <a id="align_distribute_and_stack"> </a>
 ### Align, Distribute and Stack
 
-![align\_distribute\_dialog.png](_static/images/Navigation_Layout/align_distribute_dialog.png)
+![align\_distribute\_dialog.png](_static/images/Navigation_Layout/NodeTools1.png)
 
-Selecting the **Layout → Align/Distribute** option will open the **Align
-and Distribute** window in the **Tool Panel**. **Align** provides
+The **Tool Panel** contains buttons to set relative postions of nodes. **Align** provides
 different options for either vertically or horizontally aligning
 selected nodes against a line. The differences are in what part of the
 node gets aligned, e.g. the center of the node, the top of the node, the
@@ -427,13 +430,3 @@ of what each button does.
 </table>
 <br>
 
-<a id="node_movement_and_placement"> </a>
-## Node Movement and Placement
-
-In addition to the ability to click on a node and drag it to a new
-position, Cytoscape now has the ability to move nodes using the arrow
-keys on the keyboard. By selecting one or more nodes using the mouse and
-clicking one of the arrow keys (←, ↑, →, ↓) the selected nodes will move
-one pixel in the chosen direction. If an arrow key is pressed while
-holding the Shift key down, the selected nodes will move 15 pixels in the
-chosen direction.
