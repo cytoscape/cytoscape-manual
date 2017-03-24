@@ -338,8 +338,9 @@ chosen direction.
 
 <a id="node_layout_tools"> </a>
 ## Node Layout Tools
-The Tool Panel is available via the menu command:  **View → Show Tool Panel**
-This contains several **Node Layout Tools** that can help to automate or fine tune a layout.  
+The Tool Panel is available via the menu command:  **View → Show Tool Panel**.
+
+It contains several **Node Layout Tools** that can help to automate or fine tune a layout.  
 
 <a id="scale"> </a>
 ### Scale
