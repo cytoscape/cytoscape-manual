@@ -326,47 +326,43 @@ get proper result.
 ## Manual Layout
 
 The simplest method to manually organize a network is to click on a node
-and drag it. If you select multiple nodes, all of the selected nodes
-will be moved together.
+and drag it. All of the selected nodes are moved together.
 
-<a id="rotate"> </a>
-### Rotate
-
-![rotate\_dialog.png](_static/images/Navigation_Layout/rotate_dialog.png)
-
-Selecting the **Layout → Rotate** option will show the **Rotate** window
-in the **Tool Panel**. This function will either rotate the entire
-network or a selected portion of the network. The image below shows a
-network with selected nodes rotated.
-
-Before
-
-![rotate\_networkA.png](_static/images/Navigation_Layout/rotate_networkA.png)
-
-After
-
-![rotate\_networkB.png](_static/images/Navigation_Layout/rotate_networkB.png)
 
 <a id="scale"> </a>
 ### Scale
 
 ![scale\_dialog.png](_static/images/Navigation_Layout/scale_dialog.png)
 
-Selecting the **Layout → Scale** option will open the **Scale** window
-in the **Tool Panel**. This function will scale the position of the
-entire network or of the selected portion of the network. Note that only
-the position of the nodes will be scaled, not the node sizes. Node size
-can be adjusted using
+Adjust the Scale slider to change the length of edges.  The position of the nodes will be scaled, not the node sizes. 
+Node size can be adjusted using
 **[Styles](Styles.html#styles)**.
 The image below shows selected nodes scaled.
 
 Before
 
-![scale\_networkA.png](_static/images/Navigation_Layout/scale_networkA.png)
+![scale\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
 
 After
 
-![scale\_networkB.png](_static/images/Navigation_Layout/scale_networkB.png)
+![scale\_networkB.png](_static/images/Navigation_Layout/NodeToolsScaled.png)
+<a id="rotate"> </a>
+### Rotate
+
+![rotate\_dialog.png](_static/images/Navigation_Layout/rotate_dialog.png)
+
+The Rotate function will change the orientation of the entire
+network or a selected portion of the network. The image below shows a
+network with selected nodes rotated.
+
+Before
+
+![rotate\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
+
+After
+
+![rotate\_networkB.png](_static/images/Navigation_Layout/NodeToolsRotated.png)
+
 
 <a id="align_distribute_and_stack"> </a>
 ### Align, Distribute and Stack
