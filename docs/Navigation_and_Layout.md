@@ -328,9 +328,6 @@ get proper result.
 The simplest method to manually organize a network is to click on a node
 and drag it. All of the selected nodes are moved together.
 
-<a id="node_movement_and_placement"> </a>
-## Node Movement and Placement
-
 In addition to the ability to click on a node and drag it to a new
 position, Cytoscape now has the ability to move nodes using the arrow
 keys on the keyboard. By selecting one or more nodes using the mouse and
@@ -339,9 +336,13 @@ one pixel in the chosen direction. If an arrow key is pressed while
 holding the Shift key down, the selected nodes will move 15 pixels in the
 chosen direction.
 
+<a id="node_layout_tools"> </a>
+## Node Layout Tools
+The Tool Panel is available via the menu command:  **View → Show Tool Panel**
+This contains several **Node Layout Tools** that can help to automate or fine tune a layout.  
+
 <a id="scale"> </a>
 ### Scale
-In the Tool Window is a Node Layout Tools panel.
 Adjust the Scale slider to change the length of edges.  The position of the nodes will be scaled, not the node sizes. 
 Node size can be adjusted using
 **[Styles](Styles.html#styles)**.
@@ -368,8 +369,6 @@ After
 
 <a id="align_distribute_and_stack"> </a>
 ### Align, Distribute and Stack
-
-![align\_distribute\_dialog.png](_static/images/Navigation_Layout/NodeTools1.png)
 
 The **Tool Panel** contains buttons to set relative postions of nodes. **Align** provides
 different options for either vertically or horizontally aligning
