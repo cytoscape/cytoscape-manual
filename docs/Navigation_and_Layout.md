@@ -347,31 +347,33 @@ It contains several **Node Layout Tools** that can help to automate or fine tune
 Adjust the Scale slider to change the length of edges.  The position of the nodes will be scaled, not the node sizes. 
 Node size can be adjusted using
 **[Styles](Styles.html#styles)**.
-The image below shows selected nodes scaled.
+The image below shows selected nodes scaled to 50% of the default value.
 
-Before
+**Before**
 ![scale\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
 
-After
+**After**
 ![scale\_networkB.png](_static/images/Navigation_Layout/NodeToolsScaled.png)
 <a id="rotate"> </a>
 ### Rotate
 
 The Rotate function will change the orientation of the entire
 network or a selected portion of the network. The image below shows a
-network with selected nodes rotated.
+network with selected nodes rotated 90 degrees.
 
-Before
+**Before**
 ![rotate\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
 
-After
+**After**
 ![rotate\_networkB.png](_static/images/Navigation_Layout/NodeToolsRotated.png)
 
 
 <a id="align_distribute_and_stack"> </a>
 ### Align, Distribute and Stack
 
-The **Tool Panel** contains buttons to set relative postions of nodes. **Align** provides
+The **Tool Panel** contains buttons to set relative postions of nodes.
+
+**Align** provides
 different options for either vertically or horizontally aligning
 selected nodes against a line. The differences are in what part of the
 node gets aligned, e.g. the center of the node, the top of the node, the
