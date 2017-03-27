@@ -40,6 +40,9 @@ to map the new network to the existing network collection.
 
 ![ImportNetwork.png](_static/images/Creating_Networks/ImportNetwork.png)
 
+Alternatively, you can simply drag and drop a network file into the _Network_ list 
+(**Control Panel**), rather than selecting the file from the menu option.
+
 Network files in SIF, GML, and XGMML formats may also be loaded directly
 from the command line using the -N option.
 
