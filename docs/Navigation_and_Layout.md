@@ -224,6 +224,19 @@ the edge column you want to use as a weight. A sample screen shot
 showing a portion of the galFiltered network provided in sample data is
 provided above.
 
+<a id="compound_spring_embedder_layout"> </a>
+### Compound Spring Embedder Layout
+
+![cose\_layout.png](_static/images/Navigation_Layout/cose_layout.png)
+
+The [Compound Spring Embedder (CoSE)](http://www.sciencedirect.com/science/article/pii/S0020025508004799)
+layout is based on the traditional force-directed
+layout algorithm with extensions to handle multi-level nesting (compound nodes),
+edges between nodes of arbitrary nesting levels and varying node sizes.
+It is the suggested Cytoscape layout for compound graphs,
+although it also works very well with noncompound graphs.
+It is available by selecting **Layout → Compound Spring Embedder (CoSE)**.
+
 <a id="yfiles_layouts"> </a>
 ## yFiles Layouts
 
