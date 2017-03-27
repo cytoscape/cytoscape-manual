@@ -46,6 +46,7 @@ from the **File → Import → Table → File...** user interface.
 
 2.  Select a data file. The file can be either a text or
     Excel (.xls/.xlsx) file.
+    Alternatively, you can simply drag and drop the file into the **Table Panel**.
 
 3.  In the **Target Table Data** section, choose where to import the
     data to. You can choose an existing network collection, a specific
