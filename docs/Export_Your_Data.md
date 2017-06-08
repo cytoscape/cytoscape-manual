@@ -305,9 +305,13 @@ data, and other files. You can open the **index.html** file in your
 browser (usually from your browser's **File → Open** menu item.)
 
 Depending on your browser's security settings, you may not be able to
-open the **index.html** file directly if it is stored on your PC --
-you may need to start a web server on your PC. An easy way to set up a
-local web server is by running the Python simple HTTP server. If you
+open the **index.html** file directly if it is stored on your PC.
+Attempting to do so may result in an empty browser window. To display 
+the web page on your PC, you can download the CyWebrowser app, then 
+view the **index.html** file inside of its browser window.
+
+Alternately, you can start a local web server on your PC. An easy way 
+to do this is by running the Python simple HTTP server. If you
 have Python installed on your machine, just go into the web archive
 folder and type:
 
