@@ -80,44 +80,30 @@ cyREST. REST Commands uses a REST interface to issue script commands.
 cyREST uses a REST interface to access the Cytoscape data model as a
 document via a formal API.
 
-#### 1. REST API for Commands
+#### 1. Configuring Automation
 
-In addition to running Command scripts, Command module has REST API to
-enable command execution from another program.
+While Cytoscape is running, a REST server listens for HTTP requests on a preconfigured port. By default, this port is 1234, but this can be manually configured in two ways.
 
-By default, this feature is disabled. To enable the REST API server for
-Commands, please follow these steps:
+1.  When starting Cytoscape:
 
-1.  Open a terminal session:
-
-    -   [PowerShell](https://en.wikipedia.org/wiki/Windows_PowerShell)
+    -   Use [PowerShell](https://en.wikipedia.org/wiki/Windows_PowerShell)
         or Command (For windows)
 
-    -   Terminal or [iTerm2](https://www.iterm2.com/) (For Mac)
+    -   Start cytoscape by typing the command ```./cytoscape.sh -R 8888``` to start Cytoscape with its REST server listening on port 8888. You can replace 8888 with any valid port number.
 
-    -   Terminal (For Linux)
+2.  From the Cytoscape Preferences Editor:
 
-2.  Start Cytoscape from command-line. You must specify a TCP/IP port
-    number as a parameter -- in this example, port 8888 will be opened
-    for Command:
+    -   From the Cytoscape main menu, select Edit --> Preferences --> Properties.
+    
+    -   In the Cytoscape Preferences Editor, find the Property Name 'rest.port' and set the Value field to your new port number.
+    
+    -   Restart Cytoscape for this change to take effect.
 
-    -   For Mac/Linux
+To test your settings, in your web browser, go to the address ```http://localhost:8888/``` (replace 8888 with your port number if necessary). You should see a JSON list of all available API versions, which should look similar to the one below:
 
-            ./cytoscape.sh -R 8888
-
-        For Windows
-
-            ./cytoscape.bat -R 8888
-
-3.  To test the Command interface, open the following URL with your web
-    browser:
-
-    -   http://localhost:8888/v1/commands
-
-4.  If you see list of available commands, you are ready to use Command
-    API
-
-    ![CommandAPI.png](_static/images/ProgrammaticAccess/CommandAPI.png)
+```json
+{"availableApiVersions":["v1"]}
+```
 
 #### 2. cyREST
 
@@ -134,10 +120,7 @@ with Cytoscape.
 
 ![jupyter.png](_static/images/ProgrammaticAccess/jupyter.png)
 
-(Sample [Jupyter
-Notebook](http://nbviewer.ipython.org/github/idekerlab/py2cytoscape/blob/develop/examples/New_wrapper_api_sample.ipynb)
-written with cyREST and
-[py2cytoscape](https://github.com/idekerlab/py2cytoscape))
+You can find useful scripts for learning to automate Cytoscape in R and Python in the [Cytoscape Automation for Script Writers](https://github.com/cytoscape/cytoscape-automation/tree/master/for-scripters) repository.
 
 Currently, cyREST is available as an App for Cytoscape 3.2.1 and later,
 and requires the Java 8 (or later) virtual machine. As of Cytoscape
