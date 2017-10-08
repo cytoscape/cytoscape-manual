@@ -137,6 +137,114 @@ More information about nested networks can be found in the **[Nested
 Networks](Nested_Networks.html#nested-networks)**
 section.
 
+<a id="manual_layout"> </a>
+## Manual Layout
+
+The simplest method to manually organize a network is to click on a node
+and drag it. All of the selected nodes are moved together.
+
+In addition to the ability to click on a node and drag it to a new
+position, Cytoscape now has the ability to move nodes using the arrow
+keys on the keyboard. By selecting one or more nodes using the mouse and
+clicking one of the arrow keys (←, ↑, →, ↓) the selected nodes will move
+one pixel in the chosen direction. If an arrow key is pressed while
+holding the Shift key down, the selected nodes will move 15 pixels in the
+chosen direction.
+
+<a id="node_layout_tools"> </a>
+## Node Layout Tools
+The Tool Panel is available via the menu command:  **View → Show Tool Panel**.
+
+It contains several **Node Layout Tools** that can help to automate or fine tune a layout.  
+
+<a id="scale"> </a>
+### Scale
+Adjust the Scale slider to change the length of edges.  The position of the nodes will be scaled, not the node sizes. 
+Node size can be adjusted using
+**[Styles](Styles.html#styles)**.
+The images below show selected (yellow) nodes scaled to 50% of the default value.
+
+**Before**
+![scale\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
+
+**After**
+![scale\_networkB.png](_static/images/Navigation_Layout/NodeToolsScaled.png)
+<a id="rotate"> </a>
+### Rotate
+
+The Rotate function will change the orientation of the entire
+network or a selected portion of the network. The images below show a
+network with selected nodes rotated 90 degrees.
+
+**Before**
+![rotate\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
+
+**After**
+![rotate\_networkB.png](_static/images/Navigation_Layout/NodeToolsRotated.png)
+
+
+<a id="align_distribute_and_stack"> </a>
+### Align, Distribute and Stack
+
+The **Tool Panel** contains buttons to set relative postions of nodes.
+
+**Align** provides
+different options for either vertically or horizontally aligning
+selected nodes against a line. The differences are in what part of the
+node gets aligned, e.g. the center of the node, the top of the node, the
+left side of the node. **Distribute** evenly distributes selected nodes
+between the two most distant nodes along either the vertical or
+horizontal axis. The differences are again a function what part of the
+node is used as a reference point for the distribution. **Stack**
+vertically or horizontally stacks selected nodes with the full
+complement of alignment options. The table below provides a description
+of what each button does.
+
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<caption>Align Options</caption>
+<colgroup> <col style="width:80px">                                                                 <col style="width:90px">                                                                         <col style="width:100px">                                                                                   <col style="width:420px"> </colgroup>
+<tbody>
+<tr> <th class="center">Button</th>                                                                 <th class="center">Before</th>                                                                   <th class="center">After</th>                                                                               <th>Description of Align Options</th> </tr>
+<tr> <td class="center "><img src="_static/images/Navigation_Layout/V_ALIGN_TOP.gif" /></td>        <td class="center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></td>     <td class="center"><img src="_static/images/Navigation_Layout/small.align_vertical_top.png" /></td>         <td class="">Vertical Align Top - The tops of the selected nodes are aligned with the top-most node.</td> </tr>
+<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/V_ALIGN_CENTER.gif" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></td> <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_vertical_center.png" /></td>  <td class="alt">Vertical Align Center - The centers of the selected nodes are aligned along a line defined by the midpoint between the top and bottom-most nodes.</td> </tr>
+<tr> <td class="center"><img src="_static/images/Navigation_Layout/V_ALIGN_BOTTOM.gif" /></td>      <td class="center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></th>     <td class="center"><img src="_static/images/Navigation_Layout/small.align_vertical_bottom.png" /></td>      <td class="">Vertical Align Bottom - The bottoms of the selected nodes are aligned with the bottom-most node.</td> </tr>
+<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_ALIGN_LEFT.gif" /></td>    <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></td> <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_horizontal_left.png" /></td>  <td class="alt">Horizontal Align Left - The left hand sides of the selected nodes are aligned with the left-most node.</td> </tr>
+<tr> <td class="center"><img src="_static/images/Navigation_Layout/H_ALIGN_CENTER.gif" /></td>      <td class="center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></th>     <td class="center"><img src="_static/images/Navigation_Layout/small.align_horizontal_center.png" /></td>    <td class="">Horizontal Align Center - The centers of the selected nodes are aligned along a line defined by the midpoint between the left and right-most nodes.</td> </tr>
+<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_ALIGN_RIGHT.gif" /></td>   <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></td> <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_horizontal_right.png" /></td> <td class="alt">Horizontal Align Right - The right hand sides of the selected nodes are aligned with the right-most node.</td> </tr>
+</tbody>
+</table>
+<br>
+
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<caption>Distribute Options</caption>
+<colgroup> <col style="width:80px">                                                                <col style="width:90px">                                                                                          <col style="width:100px">                                                                                        <col style="width:420px"> </colgroup>
+<tbody>
+<tr> <th class="center">Button</th>                                                                <th class="center">Before</th>                                                                                    <th class="center">After</th>                                                                                    <th>Description of Align Options</th> </tr>
+<tr> <td class="center "><img src="_static/images/Navigation_Layout/V_DIST_TOP.gif" /></td>        <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_begin_vertical.png" /></td>        <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_vertical_top.png" /></td>         <td class="">Vertical Distribute Top - The tops of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.</td> </tr>
+<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/V_DIST_CENTER.gif" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_begin_vertical.png" /></td>    <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_vertical_center.png" /></td>  <td class="alt">Vertical Distribute Center - The centers of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.</td>             </tr>
+<tr> <td class="center"><img src="_static/images/Navigation_Layout/V_DIST_BOTTOM.gif" /></td>      <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_begin_vertical.png" /></th>        <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_vertical_bottom.png" /></td>      <td class="">Vertical Distribute Bottom - The bottoms of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.</td> </tr>
+<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_DIST_LEFT.gif" /></td>    <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_begin_horizontal.png" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_horizontal_left.png" /></td>  <td class="alt">Horizontal Distribute Left - The left hand sides of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.</td>             </tr>
+<tr> <td class="center"><img src="_static/images/Navigation_Layout/H_DIST_CENTER.gif" /></td>      <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_begin_horizontal.png" /></th>      <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_horizontal_center.png" /></td>    <td class="">Horizontal Distribute Center - The centers of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.</td> </tr>
+<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_DIST_RIGHT.gif" /></td>   <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_begin_horizontal.png" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_horizontal_right.png" /></td> <td class="alt">Horizontal Distribute Right - The right hand sides of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.</td>             </tr>
+</tbody>
+</table>
+<br>
+
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<caption>Stack Options</caption>
+<colgroup> <col style="width:80px">                                                                 <col style="width:90px">                                                                                     <col style="width:100px">                                                                                    <col style="width:420px"> </colgroup>
+<tbody>
+<tr> <th class="center">Button</th>                                                                 <th class="center">Before</th>                                                                               <th class="center">After</th>                                                                                <th>Description of Align Options</th>                       </tr>
+<tr> <td class="center "><img src="_static/images/Navigation_Layout/V_STACK_LEFT.gif" /></td>       <td class="center"><img src="_static/images/Navigation_Layout/small.stack_vertical_begin.png" /></td>        <td class="center"><img src="_static/images/Navigation_Layout/small.stack_vertical_left.png" /></td>         <td class="">Vertical Stack Left - Vertically stacked below top-most node with the left-hand sides of the selected nodes aligned.</td>          </tr>
+<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/V_STACK_CENTER.gif" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_vertical_begin.png" /></td>    <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_vertical_center.png" /></td>   <td class="alt">Vertical Stack Center - Vertically stacked below top-most node with the centers of selected nodes aligned.</td>             </tr>
+<tr> <td class="center"><img src="_static/images/Navigation_Layout/V_STACK_RIGHT.gif" /></td>       <td class="center"><img src="_static/images/Navigation_Layout/small.stack_vertical_begin.png" /></th>        <td class="center"><img src="_static/images/Navigation_Layout/small.stack_vertical_right.png" /></td>        <td class="">Vertical Stack Right - Vertically stacked below top-most node with the right-hand sides of the selected nodes aligned.</td> </tr>
+<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_STACK_TOP.gif" /></td>     <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_begin.png" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_top.png" /></td>    <td class="alt">Horizontal Stack Top - Horizontally stacked to the right of the left-most node with the tops of the selected nodes aligned.</td>             </tr>
+<tr> <td class="center"><img src="_static/images/Navigation_Layout/H_STACK_CENTER.gif" /></td>      <td class="center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_begin.png" /></th>      <td class="center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_center.png" /></td>     <td class="">Horizontal Stack Center - Horizontally stacked to the right of the left-most node with the centers of selected nodes aligned.</td> </tr>
+<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_STACK_BOTTOM.gif" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_begin.png" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_bottom.png" /></td> <td class="alt">Horizontal Stack Bottom - Horizontal Stack Center - Horizontally stacked to the right of the left-most node with the bottoms of the selected nodes aligned.</td>             </tr>
+</tbody>
+</table>
+<br>
+
 <a id="automatic_layout_algorithms"> </a>
 ## Automatic Layout Algorithms
 
@@ -312,112 +420,4 @@ function to bundle all or selected edges automatically.
 Note: The handle locations will be optimized for current location of
 nodes. If you move node positions, you need to run the function again to
 get proper result.
-
-<a id="manual_layout"> </a>
-## Manual Layout
-
-The simplest method to manually organize a network is to click on a node
-and drag it. All of the selected nodes are moved together.
-
-In addition to the ability to click on a node and drag it to a new
-position, Cytoscape now has the ability to move nodes using the arrow
-keys on the keyboard. By selecting one or more nodes using the mouse and
-clicking one of the arrow keys (←, ↑, →, ↓) the selected nodes will move
-one pixel in the chosen direction. If an arrow key is pressed while
-holding the Shift key down, the selected nodes will move 15 pixels in the
-chosen direction.
-
-<a id="node_layout_tools"> </a>
-## Node Layout Tools
-The Tool Panel is available via the menu command:  **View → Show Tool Panel**.
-
-It contains several **Node Layout Tools** that can help to automate or fine tune a layout.  
-
-<a id="scale"> </a>
-### Scale
-Adjust the Scale slider to change the length of edges.  The position of the nodes will be scaled, not the node sizes. 
-Node size can be adjusted using
-**[Styles](Styles.html#styles)**.
-The images below show selected (yellow) nodes scaled to 50% of the default value.
-
-**Before**
-![scale\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
-
-**After**
-![scale\_networkB.png](_static/images/Navigation_Layout/NodeToolsScaled.png)
-<a id="rotate"> </a>
-### Rotate
-
-The Rotate function will change the orientation of the entire
-network or a selected portion of the network. The images below show a
-network with selected nodes rotated 90 degrees.
-
-**Before**
-![rotate\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
-
-**After**
-![rotate\_networkB.png](_static/images/Navigation_Layout/NodeToolsRotated.png)
-
-
-<a id="align_distribute_and_stack"> </a>
-### Align, Distribute and Stack
-
-The **Tool Panel** contains buttons to set relative postions of nodes.
-
-**Align** provides
-different options for either vertically or horizontally aligning
-selected nodes against a line. The differences are in what part of the
-node gets aligned, e.g. the center of the node, the top of the node, the
-left side of the node. **Distribute** evenly distributes selected nodes
-between the two most distant nodes along either the vertical or
-horizontal axis. The differences are again a function what part of the
-node is used as a reference point for the distribution. **Stack**
-vertically or horizontally stacks selected nodes with the full
-complement of alignment options. The table below provides a description
-of what each button does.
-
-<table cellspacing="0" style="table-layout: fixed; width: 700px">
-<caption>Align Options</caption>
-<colgroup> <col style="width:80px">                                                                 <col style="width:90px">                                                                         <col style="width:100px">                                                                                   <col style="width:420px"> </colgroup>
-<tbody>
-<tr> <th class="center">Button</th>                                                                 <th class="center">Before</th>                                                                   <th class="center">After</th>                                                                               <th>Description of Align Options</th> </tr>
-<tr> <td class="center "><img src="_static/images/Navigation_Layout/V_ALIGN_TOP.gif" /></td>        <td class="center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></td>     <td class="center"><img src="_static/images/Navigation_Layout/small.align_vertical_top.png" /></td>         <td class="">Vertical Align Top - The tops of the selected nodes are aligned with the top-most node.</td> </tr>
-<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/V_ALIGN_CENTER.gif" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></td> <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_vertical_center.png" /></td>  <td class="alt">Vertical Align Center - The centers of the selected nodes are aligned along a line defined by the midpoint between the top and bottom-most nodes.</td> </tr>
-<tr> <td class="center"><img src="_static/images/Navigation_Layout/V_ALIGN_BOTTOM.gif" /></td>      <td class="center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></th>     <td class="center"><img src="_static/images/Navigation_Layout/small.align_vertical_bottom.png" /></td>      <td class="">Vertical Align Bottom - The bottoms of the selected nodes are aligned with the bottom-most node.</td> </tr>
-<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_ALIGN_LEFT.gif" /></td>    <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></td> <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_horizontal_left.png" /></td>  <td class="alt">Horizontal Align Left - The left hand sides of the selected nodes are aligned with the left-most node.</td> </tr>
-<tr> <td class="center"><img src="_static/images/Navigation_Layout/H_ALIGN_CENTER.gif" /></td>      <td class="center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></th>     <td class="center"><img src="_static/images/Navigation_Layout/small.align_horizontal_center.png" /></td>    <td class="">Horizontal Align Center - The centers of the selected nodes are aligned along a line defined by the midpoint between the left and right-most nodes.</td> </tr>
-<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_ALIGN_RIGHT.gif" /></td>   <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_begin.png" /></td> <td class="alt center"><img src="_static/images/Navigation_Layout/small.align_horizontal_right.png" /></td> <td class="alt">Horizontal Align Right - The right hand sides of the selected nodes are aligned with the right-most node.</td> </tr>
-</tbody>
-</table>
-<br>
-
-<table cellspacing="0" style="table-layout: fixed; width: 700px">
-<caption>Distribute Options</caption>
-<colgroup> <col style="width:80px">                                                                <col style="width:90px">                                                                                          <col style="width:100px">                                                                                        <col style="width:420px"> </colgroup>
-<tbody>
-<tr> <th class="center">Button</th>                                                                <th class="center">Before</th>                                                                                    <th class="center">After</th>                                                                                    <th>Description of Align Options</th> </tr>
-<tr> <td class="center "><img src="_static/images/Navigation_Layout/V_DIST_TOP.gif" /></td>        <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_begin_vertical.png" /></td>        <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_vertical_top.png" /></td>         <td class="">Vertical Distribute Top - The tops of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.</td> </tr>
-<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/V_DIST_CENTER.gif" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_begin_vertical.png" /></td>    <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_vertical_center.png" /></td>  <td class="alt">Vertical Distribute Center - The centers of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.</td>             </tr>
-<tr> <td class="center"><img src="_static/images/Navigation_Layout/V_DIST_BOTTOM.gif" /></td>      <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_begin_vertical.png" /></th>        <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_vertical_bottom.png" /></td>      <td class="">Vertical Distribute Bottom - The bottoms of the selected nodes are distributed evenly between the top-most and bottom-most nodes, which should stay stationary.</td> </tr>
-<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_DIST_LEFT.gif" /></td>    <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_begin_horizontal.png" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_horizontal_left.png" /></td>  <td class="alt">Horizontal Distribute Left - The left hand sides of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.</td>             </tr>
-<tr> <td class="center"><img src="_static/images/Navigation_Layout/H_DIST_CENTER.gif" /></td>      <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_begin_horizontal.png" /></th>      <td class="center"><img src="_static/images/Navigation_Layout/small.distribute_horizontal_center.png" /></td>    <td class="">Horizontal Distribute Center - The centers of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.</td> </tr>
-<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_DIST_RIGHT.gif" /></td>   <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_begin_horizontal.png" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.distribute_horizontal_right.png" /></td> <td class="alt">Horizontal Distribute Right - The right hand sides of the selected nodes are distributed evenly between the left-most and right-most nodes, which should stay stationary.</td>             </tr>
-</tbody>
-</table>
-<br>
-
-<table cellspacing="0" style="table-layout: fixed; width: 700px">
-<caption>Stack Options</caption>
-<colgroup> <col style="width:80px">                                                                 <col style="width:90px">                                                                                     <col style="width:100px">                                                                                    <col style="width:420px"> </colgroup>
-<tbody>
-<tr> <th class="center">Button</th>                                                                 <th class="center">Before</th>                                                                               <th class="center">After</th>                                                                                <th>Description of Align Options</th>                       </tr>
-<tr> <td class="center "><img src="_static/images/Navigation_Layout/V_STACK_LEFT.gif" /></td>       <td class="center"><img src="_static/images/Navigation_Layout/small.stack_vertical_begin.png" /></td>        <td class="center"><img src="_static/images/Navigation_Layout/small.stack_vertical_left.png" /></td>         <td class="">Vertical Stack Left - Vertically stacked below top-most node with the left-hand sides of the selected nodes aligned.</td>          </tr>
-<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/V_STACK_CENTER.gif" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_vertical_begin.png" /></td>    <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_vertical_center.png" /></td>   <td class="alt">Vertical Stack Center - Vertically stacked below top-most node with the centers of selected nodes aligned.</td>             </tr>
-<tr> <td class="center"><img src="_static/images/Navigation_Layout/V_STACK_RIGHT.gif" /></td>       <td class="center"><img src="_static/images/Navigation_Layout/small.stack_vertical_begin.png" /></th>        <td class="center"><img src="_static/images/Navigation_Layout/small.stack_vertical_right.png" /></td>        <td class="">Vertical Stack Right - Vertically stacked below top-most node with the right-hand sides of the selected nodes aligned.</td> </tr>
-<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_STACK_TOP.gif" /></td>     <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_begin.png" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_top.png" /></td>    <td class="alt">Horizontal Stack Top - Horizontally stacked to the right of the left-most node with the tops of the selected nodes aligned.</td>             </tr>
-<tr> <td class="center"><img src="_static/images/Navigation_Layout/H_STACK_CENTER.gif" /></td>      <td class="center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_begin.png" /></th>      <td class="center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_center.png" /></td>     <td class="">Horizontal Stack Center - Horizontally stacked to the right of the left-most node with the centers of selected nodes aligned.</td> </tr>
-<tr> <td class="alt center"><img src="_static/images/Navigation_Layout/H_STACK_BOTTOM.gif" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_begin.png" /></td>  <td class="alt center"><img src="_static/images/Navigation_Layout/small.stack_horizontal_bottom.png" /></td> <td class="alt">Horizontal Stack Bottom - Horizontal Stack Center - Horizontally stacked to the right of the left-most node with the bottoms of the selected nodes aligned.</td>             </tr>
-</tbody>
-</table>
-<br>
 
