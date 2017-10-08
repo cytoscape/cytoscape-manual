@@ -146,7 +146,6 @@ groups of nodes, and adjusting the size of the network. Cytoscape
 layouts have three different sources, which are reflected in the
 **Layout** menu.
 
-With the exception of the **yFiles** layouts (explained below),
 Cytoscape Layouts have the option to operate on only the selected nodes,
 and all provide a **Settings...** panel to change the parameters of the
 algorithm. Most of the Cytoscape layouts also partition the graph before
@@ -237,27 +236,8 @@ It is the suggested Cytoscape layout for compound graphs,
 although it also works very well with noncompound graphs.
 It is available by selecting **Layout → Compound Spring Embedder (CoSE)**.
 
-<a id="yfiles_layouts"> </a>
-## yFiles Layouts
-
-**yFiles** layouts are a set of commercial layout algorithms which are
-provided courtesy of [yWorks (http://www.yworks.com)](http://www.yworks.com). Due to license
-restrictions, the detailed parameters for these layouts are not
-available (there are no **yFiles** entries in the **Layout →
-Settings...**). The main layout algorithms provided by yFiles are:
-
-<a id="yfiles_organic_layout"> </a>
-### yFiles Organic Layout
-
-![yOrganic.png](_static/images/Navigation_Layout/yOrganic.png)
-
-The organic layout algorithm is a kind of spring-embedded algorithm that
-combines elements of the other algorithms to show the clustered
-structure of a graph. This algorithm is available by selecting **Layout
-→ yFiles Layouts → Organic**.
-
 <a id="yfiles_circular_layout"> </a>
-### yFiles Circular Layout
+### Circular Layout
 
 ![yCircular.png](_static/images/Navigation_Layout/yCircular.png)
 
@@ -265,11 +245,10 @@ This algorithm produces layouts that emphasize group and tree structures
 within a network. It partitions the network by analyzing its
 connectivity structure, and arranges the partitions as separate circles.
 The circles themselves are arranged in a radial tree layout fashion.
-This algorithm is available by selecting **Layout → yFiles Layouts →
-Circular**.
+This algorithm is available by selecting **Layout → Circular Layout**.
 
 <a id="yfiles_hierarchical_layout"> </a>
-### yFiles Hierarchical Layout
+### Hierarchical Layout
 
 ![yHir.png](_static/images/Navigation_Layout/yHir.png)
 
@@ -277,8 +256,7 @@ The hierarchical layout algorithm is good for representing main
 direction or "flow" within a network. Nodes are placed in hierarchically
 arranged layers and the ordering of the nodes within each layer is
 chosen in such a way that minimizes the number of edge crossings. This
-algorithm is available by selecting **Layout → yFiles Layouts →
-Hierarchical**.
+algorithm is available by selecting **Layout → Hierarchical Layout**.
 
 <a id="layout_parameters"> </a>
 ## Layout Parameters
