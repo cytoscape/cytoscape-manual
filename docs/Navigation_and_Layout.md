@@ -245,6 +245,49 @@ of what each button does.
 </table>
 <br>
 
+<a id="edge_bend_and_automatic_edge_bundling"> </a>
+## Edge Bend and Automatic Edge Bundling
+
+From Cytoscape 3.0, **Edge Bend** is a regular edge property and can be
+used as a part of a **Style**. Just like any other edge property, you
+can select a Default Value, a Mapping and use Bypass for select nodes.
+In the Styles tab, select the **Bend** property from the **Properties**
+drop-down and click on either the Default Value, Mapping or Bypass cell
+to bring up the **Edge Bend Editor**. In the editor, you can add as many
+handles as you want to the edge using Alt-Click on Windows, Option-Click
+on Mac, or Ctrl-Alt-Click on Linux.
+
+![edbeBend1.png](_static/images/Navigation_Layout/edbeBend1.png)
+
+![bundle1.png](_static/images/Navigation_Layout/bundle1.png)
+
+To clear all edge bends, select **Layout → Clear All Edge Bends**.
+
+In addition to adding handles manually, you can use the **Bundle Edges**
+function to bundle all or selected edges automatically.
+
+![bundle2.png](_static/images/Navigation_Layout/bundle2.png)
+
+1.  Select **Layout → Bundle Edges → All Nodes and Edges**.
+
+2.  Set parameters.
+
+    -   Details of the algorithm is described in [this
+        paper (http://www.win.tue.nl/~dholten/papers/forcebundles_eurovis.pdf)](http://www.win.tue.nl/~dholten/papers/forcebundles_eurovis.pdf).
+
+3.  Press OK to run. Edge bundling may take a long time if the number of
+    edges is large.
+
+    -   If it takes too long, try decreasing **Maximum Iterations.**
+
+    -   For large, dense networks, try setting **Maximum iterations** in
+        the range of 500 - 1000.
+
+Note: The handle locations will be optimized for current location of
+nodes. If you move node positions, you need to run the function again to
+get proper result.
+
+
 <a id="automatic_layout_algorithms"> </a>
 ## Automatic Layout Algorithms
 
@@ -378,46 +421,4 @@ drop-down menu at the top of the dialog. Once you've modified a
 parameter, clicking the **Execute Layout** button will apply the layout.
 
 ![layout\_settings\_dialog.png](_static/images/Navigation_Layout/layout_settings_dialog.png)
-
-<a id="edge_bend_and_automatic_edge_bundling"> </a>
-## Edge Bend and Automatic Edge Bundling
-
-From Cytoscape 3.0, **Edge Bend** is a regular edge property and can be
-used as a part of a **Style**. Just like any other edge property, you
-can select a Default Value, a Mapping and use Bypass for select nodes.
-In the Styles tab, select the **Bend** property from the **Properties**
-drop-down and click on either the Default Value, Mapping or Bypass cell
-to bring up the **Edge Bend Editor**. In the editor, you can add as many
-handles as you want to the edge using Alt-Click on Windows, Option-Click
-on Mac, or Ctrl-Alt-Click on Linux.
-
-![edbeBend1.png](_static/images/Navigation_Layout/edbeBend1.png)
-
-![bundle1.png](_static/images/Navigation_Layout/bundle1.png)
-
-To clear all edge bends, select **Layout → Clear All Edge Bends**.
-
-In addition to adding handles manually, you can use the **Bundle Edges**
-function to bundle all or selected edges automatically.
-
-![bundle2.png](_static/images/Navigation_Layout/bundle2.png)
-
-1.  Select **Layout → Bundle Edges → All Nodes and Edges**.
-
-2.  Set parameters.
-
-    -   Details of the algorithm is described in [this
-        paper (http://www.win.tue.nl/~dholten/papers/forcebundles_eurovis.pdf)](http://www.win.tue.nl/~dholten/papers/forcebundles_eurovis.pdf).
-
-3.  Press OK to run. Edge bundling may take a long time if the number of
-    edges is large.
-
-    -   If it takes too long, try decreasing **Maximum Iterations.**
-
-    -   For large, dense networks, try setting **Maximum iterations** in
-        the range of 500 - 1000.
-
-Note: The handle locations will be optimized for current location of
-nodes. If you move node positions, you need to run the function again to
-get proper result.
 
