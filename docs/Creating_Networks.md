@@ -267,7 +267,7 @@ biological databases publish their data with a web service API:
 Cytoscape core developer team have developed several web service clients
 using this framework. Cytoscape supports many web services including:
 
--   [PSICQUIC](http://code.google.com/p/psicquic/): Standard web service
+-   [PSICQUIC](https://psicquic.github.io/): Standard web service
     for biological interaction data sets. The full list of
     PSICQUIC-compatible databases is available
     [here](http://www.ebi.ac.uk/Tools/webservices/psicquic/registry/registry?action=STATUS).
