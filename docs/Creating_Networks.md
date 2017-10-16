@@ -276,7 +276,7 @@ The following sections describe how to import network from external
 databases.
 
 <a id="getting_started"> </a>
-## Getting Started
+### Getting Started
 
 To get started, select **File → Import → Network → Public
 Databases...**.
@@ -284,7 +284,7 @@ Databases...**.
 ![psi1\_2.png](_static/images/Creating_Networks/psi1_2.png)
 
 <a id="example:_retrieving_protein_protein_interaction_networks_from_multiple_databases"> </a>
-## Example: Retrieving Protein-Protein Interaction Networks from Multiple Databases
+### Example: Retrieving Protein-Protein Interaction Networks from Multiple Databases
 
 -   Select **File → Import → Network → Public Databases...**.
 
@@ -315,7 +315,7 @@ have loaded the BRCA1 network from IntAct, and have chosen to merge this
 node's neighbors into the existing network.
 
 <a id="psicquic_options"> </a>
-### PSICQUIC Options
+#### PSICQUIC Options
 
 PSICQUIC Web Service Client has three search modes:
 
