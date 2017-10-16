@@ -50,9 +50,11 @@ components:
     pointer over an icon and wait momentarily for a description to
     appear as a tooltip.
 
--   The Network Panel (Network tab of the Control Panel, top left). This
+-   The Network Panel (Network tab of the Control Panel, top left). 
+    At the top of the Network Panel is a Search bar, with direct access 
+    to multiple external resources. The network panel also
     contains an optional network overview pane (shown at the
-    bottom left).
+    bottom left).  
 
 -   The main Network View Window, which displays the network.
 
