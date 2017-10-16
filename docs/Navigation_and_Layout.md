@@ -88,6 +88,8 @@ typically shows:
 
 -   Add
 
+-   Diffuse
+
 -   Edit
 
 -   Select
@@ -104,13 +106,19 @@ typically shows:
 
 Edges usually have the following menu:
 
+-   Add
+
+-   Delete
+
+-   Diffuse
+
 -   Edit
 
 -   Select
 
--   Apps
+-   Group
 
--   External Links
+-   Apps
 
 -   Preferences
 
