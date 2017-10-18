@@ -276,12 +276,14 @@ using this framework. Cytoscape supports many web services including:
     for biological interaction data sets. The full list of
     PSICQUIC-compatible databases is available
     [here](http://www.ebi.ac.uk/Tools/webservices/psicquic/registry/registry?action=STATUS).
+    
+-   [Pathway Commons](http://www.pathwaycommons.org/): Integrated data from pathway
+    and network resources. The full list of supposrted resources is 
+    available [here](http://www.pathwaycommons.org/pc2/datasources).
 
--   Pathway Commons
+-   [STITCH](http://stitch.embl.de/) and [STRING](https://string-db.org/)
 
--   STITCH/STRING
-
--   WikiPathways
+STRING is a database of known and predicted protein-protein interactions.STITCH is a database of known and predicted interactions between chemicals and proteins. 
 
 The following sections describe how to import network from external
 databases.
