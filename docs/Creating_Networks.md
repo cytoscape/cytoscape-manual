@@ -276,42 +276,39 @@ using this framework. Cytoscape supports many web services including:
     for biological interaction data sets. The full list of
     PSICQUIC-compatible databases is available
     [here](http://www.ebi.ac.uk/Tools/webservices/psicquic/registry/registry?action=STATUS).
+    PSICQUIC is available from the **Search bar**.
     
 -   [Pathway Commons](http://www.pathwaycommons.org/): Integrated data from pathway
     and network resources. The full list of supposrted resources is 
-    available [here](http://www.pathwaycommons.org/pc2/datasources).
+    available [here](http://www.pathwaycommons.org/pc2/datasources). Pathway Commons is
+    available from **File → Import → Network → Public Databases...**.
 
--   [STITCH](http://stitch.embl.de/) and [STRING](https://string-db.org/)
-
-STRING is a database of known and predicted protein-protein interactions.STITCH is a database of known and predicted interactions between chemicals and proteins. 
+-   [STITCH](http://stitch.embl.de/) and [STRING](https://string-db.org/): STITCH is 
+    a database of known and predicted interactions between chemicals and proteins. 
+    STRING is a database of known and predicted protein-protein interactions. STITCH and STRING
+    are available from the **Search bar** and from **File → Import → Network → Public Databases...**.
+    
+-   [NDEx](http://www.ndexbio.org/): The NDEx Project provides an open-source framework 
+    where scientists and organizations can share, store, manipulate, and publish 
+    biological network knowledge. NDEx is available from the **Search bar**.
 
 The following sections describe how to import network from external
 databases.
 
-<a id="getting_started"> </a>
-### Getting Started
-
-To get started, select **File → Import → Network → Public
-Databases...**.
-
-![psi1\_2.png](_static/images/Creating_Networks/psi1_2.png)
-
 <a id="example:_retrieving_protein_protein_interaction_networks_from_multiple_databases"> </a>
 ### Example: Retrieving Protein-Protein Interaction Networks from Multiple Databases
 
--   Select **File → Import → Network → Public Databases...**.
+-   In the **Search bar**, select PSICQUIC from the drop-down menu and type in one or more 
+    search terms, such as BRCA1.
 
--   From the pull-down menu, select the **Interaction databases
-    Universal Client**.
-
--   Enter one or more search terms, such as BRCA1.
-
--   Click the **Search** button to start the search.
+-   Click **Enter** to start the search.
 
 -   Select databases from the hits. This selection will be saved as your
     default database list.
 
--   Click the **Import** button to import selected network data.
+![PSICQUIC-search.png](_static/images/Creating_Networks/PSICQUIC-search.png)
+
+-   Click the **Import** button to import selected network data. 
 
 ![psi2.png](_static/images/Creating_Networks/psi2.png)
 
