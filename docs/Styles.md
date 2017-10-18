@@ -757,7 +757,7 @@ for discrete mappings.
     Value Generators → Number Series**. Type **3** for the first value
     and click OK. Enter *3* for increment.
 
-6.  Apply **Layout → yFiles Layouts → Organic**. The final view is shown
+6.  Apply **Layout → yFiles Organic Layout**. The final view is shown
     below:
 
     ![Tutorial4-final.png](_static/images/Styles/Tutorial4-final.png)
