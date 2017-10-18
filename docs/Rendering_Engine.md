@@ -65,7 +65,7 @@ currently being displayed on the screen.
 
 If you want to display every detail of the network regardless of LOD
 values, you can toggle to full details mode by **View | Show Graphics
-Details (or CTR+SHIFT+F on Windows/Linux, Command+SHIFT+F for Mac)**.
+Details (or CTR+SHIFT+D on Windows/Linux, Command+SHIFT+D for Mac)**.
 This option forces the display of all graphics details. If the network
 is large, this option slows down rendering speed. To hide details,
 select the menu item again (**View | Hide Graphics Details**).
