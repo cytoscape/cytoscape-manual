@@ -199,7 +199,7 @@ button in the main import interface.
 
 -   Delimiter: You can select multiple delimiters for text tables. By
     default, Tab and Space are selected as delimiters.
-
+    
 -   Default Interaction
 
 -   Transfer first line as column names: Selecting this option will
@@ -303,8 +303,7 @@ databases.
 
 -   Click **Enter** to start the search.
 
--   Select databases from the hits. This selection will be saved as your
-    default database list.
+-   Select databases from the hits.
 
 ![PSICQUIC-search.png](_static/images/Creating_Networks/PSICQUIC-search.png)
 
