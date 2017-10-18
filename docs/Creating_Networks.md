@@ -343,6 +343,11 @@ functions, this is the powerful query language to filter the result. The
 last option is for importing all interactions for the species (i.e.,
 interactome).
 
+<a id="example:_retrieving_networks_from_ndex"> </a>
+### Example: Retrieving Networks from NDEx
+
+To-Do: NDEx section goes here
+
 <a id="create_a_new_network_or_edit_one_manually"> </a>
 ## Create a New Network or Edit One Manually
 
