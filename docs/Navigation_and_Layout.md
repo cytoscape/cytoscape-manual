@@ -173,10 +173,12 @@ Node size can be adjusted using
 The images below show selected (yellow) nodes scaled to 50% of the default value.
 
 **Before**
-![scale\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
+
+![NodeTools1.png](_static/images/Navigation_Layout/NodeTools1.png)
 
 **After**
-![scale\_networkB.png](_static/images/Navigation_Layout/NodeToolsScaled.png)
+
+![NodeToolsScaled.png](_static/images/Navigation_Layout/NodeToolsScaled.png)
 <a id="rotate"> </a>
 ### Rotate
 
@@ -185,10 +187,12 @@ network or a selected portion of the network. The images below show a
 network with selected nodes rotated 90 degrees.
 
 **Before**
-![rotate\_networkA.png](_static/images/Navigation_Layout/NodeTools1.png)
+
+![NodeTools1.png](_static/images/Navigation_Layout/NodeTools1.png)
 
 **After**
-![rotate\_networkB.png](_static/images/Navigation_Layout/NodeToolsRotated.png)
+
+![NodeToolsRotated.png](_static/images/Navigation_Layout/NodeToolsRotated.png)
 
 
 <a id="align_distribute_and_stack"> </a>
