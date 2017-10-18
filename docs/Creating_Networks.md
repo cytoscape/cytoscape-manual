@@ -249,8 +249,13 @@ cells in the table must use the same delimiter).
 ## Import Networks from Public Databases
 
 Cytoscape has a feature called **Import Network from Public Databases**.
-Users can access various kinds of databases through this function,
-**File → Import → Network → Public Databases...**.
+Users can access various kinds of databases through this function, under
+**File → Import → Network → Public Databases...**. As of Cytoscape 3.6, a
+new **Search bar** is also available at the top of the **Network** panel in the 
+**Control Panel**. From the search bar, you can direclty access several public 
+databases.
+
+![SearchBar.png](_static/images/Creating_Networks/SearchBar.png)
 
 <a id="what_is_a_web_service"> </a>
 ### What is a Web Service?
@@ -271,6 +276,12 @@ using this framework. Cytoscape supports many web services including:
     for biological interaction data sets. The full list of
     PSICQUIC-compatible databases is available
     [here](http://www.ebi.ac.uk/Tools/webservices/psicquic/registry/registry?action=STATUS).
+
+-   Pathway Commons
+
+-   STITCH/STRING
+
+-   WikiPathways
 
 The following sections describe how to import network from external
 databases.
