@@ -16,7 +16,7 @@ This tutorial presents one scenario of how expression data can be combined with 
 - By default, the "Prefuse Force Directed Layout" is applied to organize the layout of the nodes. The default layout may be changed in the **Layout → Settings** menu.
 - Cytoscape should now look similar to this:
 
-![1400px-GalFilteredLoaded3.png](_static/images/Tutorials/1400px-GalFilteredLoaded3.png)
+![NetworkLoaded.png](_static/images/Tutorials/NetworkLoaded.png)
 
     
 <a id="loading-expression-data"> </a>
