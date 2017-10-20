@@ -140,7 +140,7 @@ edges from the current network. All deleted nodes and edges can be
 restored to the network via **Edit → Undo**.
 
 There are also other editing options; **Remove Duplicated Edges** will
-delete edges that are complete duplicates, keeping one edge, **Remove
+delete edges that are duplicates (having the same source and target nodes), keeping one edge, **Remove
 Self-Loops** removes edges that have the same source and target node,
 and **Delete Selected Nodes and Edges...** deletes a selected subset of
 the network. **Rename Network...** allows you to rename the currently
