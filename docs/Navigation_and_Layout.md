@@ -421,6 +421,43 @@ arranged layers and the ordering of the nodes within each layer is
 chosen in such a way that minimizes the number of edge crossings. This
 algorithm is available by selecting **Layout → Hierarchical Layout**.
 
+## yFiles Layouts
+
+Cytoscape offers a set of layout algorithms based on the yFiles library. As of
+Cytoscape 3.6, the yFiles algorithms are not installed by default. To install them,
+go to **Layout → Install yFiles**. This will direct you to the 
+[Cytoscape App Store](http://apps.cytoscape.org/). Click the **Install** 
+button to proceed. You will be directed to a license agreement, and once yFiles is 
+installed, the yFiles layouts will be visible in the **Layout** menu. 
+
+The layout algorithms included in yFiles are:
+
+-   Circular Layout
+
+-   Hierarchic Layout
+
+-   Hierarchic Layout Selected Nodes
+
+-   Organic Layout
+
+-   Orthogonal Layout
+
+-   Radial Layout
+
+-   Tree Layout
+
+-   Orthogonal Edge Router
+
+-   Organic Edge Router
+
+Below are a few examples of yFiles layouts in Cytoscape.
+
+![yFilesOrganic.png](_static/images/Navigation_Layout/yFilesOrganic.png)
+
+![yFilesHierarchic.png](_static/images/Navigation_Layout/yFilesHierarchic.png)
+
+![yFilesTree.png](_static/images/Navigation_Layout/yFilesTree.png)
+
 <a id="layout_parameters"> </a>
 ## Layout Parameters
 
