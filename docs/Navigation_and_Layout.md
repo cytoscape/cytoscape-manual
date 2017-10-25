@@ -421,6 +421,7 @@ arranged layers and the ordering of the nodes within each layer is
 chosen in such a way that minimizes the number of edge crossings. This
 algorithm is available by selecting **Layout → Hierarchical Layout**.
 
+<a id="yFiles"> </a>
 ## yFiles Layouts
 
 Cytoscape offers a set of layout algorithms based on the yFiles library. As of
