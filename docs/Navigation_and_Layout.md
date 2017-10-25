@@ -452,10 +452,13 @@ The layout algorithms included in yFiles are:
 
 Below are a few examples of yFiles layouts in Cytoscape.
 
+### yFiles Organic Layout
 ![yFilesOrganic.png](_static/images/Navigation_Layout/yFilesOrganic.png)
 
+### yFiles Hierarchic Layout
 ![yFilesHierarchic.png](_static/images/Navigation_Layout/yFilesHierarchic.png)
 
+### yFiles Tree Layout
 ![yFilesTree.png](_static/images/Navigation_Layout/yFilesTree.png)
 
 <a id="layout_parameters"> </a>
