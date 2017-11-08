@@ -7,26 +7,14 @@ This chapter describes the basic layout and mechanics of using Cytoscape. If you
 ## Welcome Screen
 
 When you start Cytoscape, you can access basic functions from the
-**Welcome Screen**:
+**Starter Panel**:
 
 ![Welcome\_33.png](_static/images/Quick_Tour/Welcome_36.png)
 
-The **Welcome Screen** is designed to access commonly used features of
-Cytoscape including:
+The **Starter Panel** is designed to give you quick access to a set of sample session files,
+as well as tutorials and Cytoscape news:
 
--   Create new network
-
--   Import network
-
-    -   From file
-
-    -   From public database
-
--   Import interactome for model organisms
-
--   Open recently used session file
-
-Also, a news panel always display latest information for users. For
+For
 information on user privacy, see the **[Cytoscape Privacy
 Policy](Cytoscape_Privacy_Policy.html#cytoscape-privacy-policy)**.
 
