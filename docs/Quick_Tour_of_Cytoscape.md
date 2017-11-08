@@ -12,7 +12,11 @@ When you start Cytoscape, you can access basic functions from the
 ![Welcome\_33.png](_static/images/Quick_Tour/Welcome_36.png)
 
 The **Starter Panel** is designed to give you quick access to a set of sample session files,
-as well as tutorials and Cytoscape news:
+as well as tutorials and Cytoscape news. Once you start loading session files, the **Starter Panel**
+will also present your most recent sessions for quick access.
+
+When you load a session file, the **Starter Panel** will disappear. You can display it at any 
+time by choosing **View → Show Starter Panel**.
 
 For
 information on user privacy, see the **[Cytoscape Privacy
