@@ -12,13 +12,9 @@ Cytoscape.
 -   On the Cytoscape download web page, we log the date, time, browser
     signature, and IP address to which we deliver Cytoscape.
 
--   For a news feed fetched for display on the Cytoscape Welcome screen,
-    we log the date and time the news was fetched, the browser
-    signature, and the IP address for the workstation running Cytoscape.
-
 This policy may change from time to time, and if it does, we will notify
-you via the Cytoscape Welcome screen news feed and via our normal mass
-notification media. We will also update this section of the user manual.
+you via our normal mass notification media. We will also update this 
+section of the user manual.
 
 Note that some internal Cytoscape Apps and Apps available through the
 Cytoscape App Store connect with third party services via the Internet.
