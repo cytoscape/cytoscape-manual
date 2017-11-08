@@ -11,6 +11,17 @@ Cytoscape.
 
 -   On the Cytoscape download web page, we log the date, time, browser
     signature, and IP address to which we deliver Cytoscape.
+    
+-   When Cytoscape starts, it fetches news and version information
+    from a Cytoscape server. We log the date, time, and IP address
+    of the workstation running Cytoscape.
+    
+-   During Cytoscape execution, we log usage statistics tagged with the date, 
+    time, and IP address of the workstation running Cytoscape. This
+    logging can be turned off during Cytoscape installation or by
+    setting the installoptions.shareStatistics property to false using
+    the Cytoscape Preferences Editor.
+    
 
 This policy may change from time to time, and if it does, we will notify
 you via our normal mass notification media. We will also update this 
