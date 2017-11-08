@@ -9,7 +9,7 @@ This chapter describes the basic layout and mechanics of using Cytoscape. If you
 When you start Cytoscape, you can access basic functions from the
 **Welcome Screen**:
 
-![Welcome\_33.png](_static/images/Quick_Tour/Welcome_33.png)
+![Welcome\_33.png](_static/images/Quick_Tour/Welcome_36.png)
 
 The **Welcome Screen** is designed to access commonly used features of
 Cytoscape including:
