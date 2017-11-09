@@ -26,6 +26,8 @@ formats:
 
 -   [Cytoscape.js
     JSON](http://cytoscape.github.io/cytoscape.js/#notation/elements-json)
+    
+-   [Cytoscape CX]()    
 
 The SIF format specifies nodes and interactions only, while other
 formats store additional information about network layout and allow
@@ -515,3 +517,33 @@ Export network and table to Cytoscape.js feature in Cytoscape creates a
 JSON file **WITHOUT** style. This means that you need to export the
 style in a separate JSON file if you apply style to your network. Please
 read the [Style](Styles.html#styles) section for more details.
+
+<a id="cytoscape_cx"> </a>
+##Cytoscape CX
+CX is a transfer format that enables diverse services to exchange networks while preserving all network-related information.
+It is designed for flexibility, modularity, and extensibility, and as a message payload in common REST protocols. It enables applications to standardize on core aspects of networks, coordinate on more specific standards within CX, and to ignore or omit irrelevant aspects. It is not intended as an optimized format for storage or for specific functionality in applications.
+ 
+CX is an Aspect-Oriented Network Interchange Format, where the base information is a list of nodes. Independent data structures (called aspects) organize and elaborate on nodes and each other. The core of CX defines five aspects: 
+
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<colgroup> <col style="width:200px">                              <col style="width:500px"> </colgroup>
+<tbody>
+<tr> <th>Aspect</th>                                 <th>Purpose</th></tr>
+<tr> <th class="spec ulcase">networkAttributes</th>  <td class="">element specify name-value pairs describing the network</td> </tr>
+<tr> <th class="specalt ulcase">nodes</th>           <td class="alt">elements specify the identifiers for nodes in a network, optionally specifying a node name</td> </tr>
+<tr> <th class="spec ulcase">edges</th>              <td class="">elements specify edges that connect nodes, optionally specifying a interaction</td> </tr>
+<tr> <th class="specalt ulcase">nodeAttributes</th>  <td class="alt">elements specify name-value pairs describing nodes</td> </tr>
+<tr> <th class="spec ulcase">edgeAttributes</th>     <td class="">elements specify name-value pairs describing edges</td> </tr>
+</tbody>
+</table>
+<br>
+
+The “nodes” and “edges” contain no other information about the network, simply the identifiers of the network's nodes and the edges that connect them. 
+
+Other aspects are defined as modules. Aspects can refer to nodes and edges - and other elements - by their aspect-unique IDs, annotating them with properties determined by the domain of the aspect. Aspects may also be self-contained data structures that annotate the network itself and do not refer to other elements.
+
+Critically, applications are free to add and maintain their own aspects without coordinating or negotiating with disintrested applications.
+
+
+
+
