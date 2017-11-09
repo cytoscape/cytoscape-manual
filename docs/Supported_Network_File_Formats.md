@@ -544,6 +544,6 @@ Other aspects are defined as modules. Aspects can refer to nodes and edges - and
 
 Critically, applications are free to add and maintain their own aspects without coordinating or negotiating with disintrested applications.
 
-
+![cx_example.png](_static/images/Network_Formats/cx_example.png)
 
 
