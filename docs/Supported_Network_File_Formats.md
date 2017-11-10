@@ -27,7 +27,7 @@ formats:
 -   [Cytoscape.js
     JSON](http://cytoscape.github.io/cytoscape.js/#notation/elements-json)
     
--   [Cytoscape CX]()    
+-   [Cytoscape CX](https://github.com/CyComponent/CyWiki/blob/master/docs/CX/CX.md)    
 
 The SIF format specifies nodes and interactions only, while other
 formats store additional information about network layout and allow
@@ -521,7 +521,7 @@ read the [Style](Styles.html#styles) section for more details.
 <a id="cytoscape_cx"> </a>
 ## Cytoscape CX
 
-CX is a transfer format that enables diverse Cytoscape Cyberinfrastructure (CI) services to exchange networks while preserving all network-related information.
+CX is a JSON-based transfer format that enables diverse Cytoscape Cyberinfrastructure (CI) services to exchange networks while preserving all network-related information.
 It is designed for flexibility, modularity, and extensibility, and as a message payload in common CI REST protocols. It enables applications to standardize on core aspects of networks, coordinate on more specific or unique standards, and to ignore or omit irrelevant aspects. It is not intended as an optimized format for storage or for specific functionality in applications.
  
 CX is an Aspect-Oriented Network Interchange Format, where the base information is a list of nodes. Independent data structures (called aspects) organize and elaborate on nodes and each other. The core of CX defines five aspects, though a more comprehensive [CX document](https://github.com/CyComponent/CyWiki/blob/master/docs/CX/CX.md) describes many more aspects.
@@ -543,8 +543,17 @@ The “nodes” aspect contains only the identifiers of the network's nodes, The
 
 Critically, applications are free to add and maintain their own aspects without coordinating or negotiating with disinterested applications.
 
-As an illustration using the picture below, a three node network can be described as a list of nodes ("nodes Aspect") and edges that link them ("edges Aspect"). If the network has been laid out, a separate aspect ("cartesianLayout Aspect") can describe the position of each node. More concretely, a CX encoding would have three nodes in the "nodes Aspect", each with unique IDs. The "edges Aspect" references each node by ID, with each edge having its own ID. Finally, the "cartesianLayout Aspect" ties coordinates to nodes by ID. In fact, a network may have many aspects, describing node and edge attributes, subnetworks, visual properties, groups and so on. 
+As an illustration using the picture below, a three node network can be described as a list of nodes ("nodes Aspect") and edges that link them ("edges Aspect"). If the network has been laid out, a separate aspect ("cartesianLayout Aspect") can describe the position of each node. More concretely, a CX encoding would have three nodes in the "nodes Aspect", each with unique IDs. The "edges Aspect" references each node by ID, with each edge having its own ID. Finally, the "cartesianLayout Aspect" ties coordinates to nodes by ID. In fact, a network may have many aspects, describing node and edge attributes, subnetworks, visual properties, groups and so on.
 
 ![cx_example.png](_static/images/Network_Formats/cx_example.png)
 
+The actual JSON encoding for a CX stream is described in the [CX document](https://github.com/CyComponent/CyWiki/blob/master/docs/CX/CX.md). It would appear something like this:
 
+    {
+      "nodes": [{"@id": 1}, {"@id": 2}, {"@id": 3}],
+      "edges": [{"s": 1, "@id": 4, "t": 2}, 
+                {"s": 2, "@id": 5, "t": 3}],
+      "cartesianLayout": [{"x": 100, "node": 1, "y": 100}, 
+                          {"x": 200, "node": 2, "y": 200},
+                          {"x": 100, "node": 3, "y": 200}]
+    }
