@@ -519,9 +519,10 @@ style in a separate JSON file if you apply style to your network. Please
 read the [Style](Styles.html#styles) section for more details.
 
 <a id="cytoscape_cx"> </a>
-##Cytoscape CX
-CX is a transfer format that enables diverse services to exchange networks while preserving all network-related information.
-It is designed for flexibility, modularity, and extensibility, and as a message payload in common REST protocols. It enables applications to standardize on core aspects of networks, coordinate on more specific standards within CX, and to ignore or omit irrelevant aspects. It is not intended as an optimized format for storage or for specific functionality in applications.
+## Cytoscape CX
+
+CX is a transfer format that enables diverse Cytoscape Cyberinfrastructure (CI) services to exchange networks while preserving all network-related information.
+It is designed for flexibility, modularity, and extensibility, and as a message payload in common CI REST protocols. It enables applications to standardize on core aspects of networks, coordinate on more specific or unique standards, and to ignore or omit irrelevant aspects. It is not intended as an optimized format for storage or for specific functionality in applications.
  
 CX is an Aspect-Oriented Network Interchange Format, where the base information is a list of nodes. Independent data structures (called aspects) organize and elaborate on nodes and each other. The core of CX defines five aspects: 
 
@@ -538,11 +539,11 @@ CX is an Aspect-Oriented Network Interchange Format, where the base information 
 </table>
 <br>
 
-The “nodes” and “edges” contain no other information about the network, simply the identifiers of the network's nodes and the edges that connect them. 
-
-Other aspects are defined as modules. Aspects can refer to nodes and edges - and other elements - by their aspect-unique IDs, annotating them with properties determined by the domain of the aspect. Aspects may also be self-contained data structures that annotate the network itself and do not refer to other elements.
+The “nodes” and “edges” aspects contain no other information about the network, simply the identifiers of the network's nodes and the edges that connect them. The "networkAttributes", "nodeAttributes" and "edgeAttributes" aspects contain name-value pairs attached to the network, specific nodes and specific edges.
 
 Critically, applications are free to add and maintain their own aspects without coordinating or negotiating with disintrested applications.
+
+Using the example below, a three node network can be described as a list of nodes ("nodes Aspect") and edges that link them ("edges Aspect"). If the network has been laid out, a separate aspect ("cartesianLayout Aspect") can describe the position of each node. More concretely, a CX encoding would have three nodes in the "nodes Aspect", each with unique IDs. The "edges Aspect" references each node by ID, with each edge having its own ID. Finally, the "cartesianLayout Aspect" ties coordinates to nodes by ID, too. In fact, a network may have many aspects, describing node and edge attributes, subnetworks, visual properties, groups and so on. A more comprehensive [CX document](https://github.com/CyComponent/CyWiki/blob/master/docs/CX/CX.md) explains CX in more detail.
 
 ![cx_example.png](_static/images/Network_Formats/cx_example.png)
 
