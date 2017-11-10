@@ -357,15 +357,15 @@ interactome).
 
 You can browse networks in a number of ways:
 
--   Sort by column (via the **Sort by** dropdown) and ordering (via the **Descending/Ascending** dropdown)
+-   Sort by column (via the **Sort by** dropdown) or order the sorted column (via the **Descending/Ascending** dropdown)
 
 -   Use your NDEx user account to enable searching within your network list
 
--      Create an NDEx account at [http://ndexbio.org](http://ndexbio.org)
+    -   Create an NDEx account at [http://ndexbio.org](http://ndexbio.org)
 
--      Add a profile to the CyNDEx2 Browser (by filling out a profile form, reachable by clicking on the *Anonymous* credential in the upper right)
+    -   Add a profile to the CyNDEx2 Browser (by filling out the profile form reachable by clicking on the *Anonymous* credential in the upper right)
 
--      Click on the **My Networks** checkbox at the top of the network table
+    -   Click on the **My Networks** checkbox at the top of the network table
 
 -   Enter a new query into the search bar at the top of the dialog
 
