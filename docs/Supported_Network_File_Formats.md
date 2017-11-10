@@ -547,7 +547,7 @@ As an illustration using the picture below, a three node network can be describe
 
 ![cx_example.png](_static/images/Network_Formats/cx_example.png)
 
-The actual JSON encoding for a CX stream is described in the [CX document](https://github.com/CyComponent/CyWiki/blob/master/docs/CX/CX.md). It would appear something like this:
+The actual JSON encoding for a CX stream is described in the [CX document](https://github.com/CyComponent/CyWiki/blob/master/docs/CX/CX.md). It would appear something like this: 
 
     {
       "nodes": [{"@id": 1}, {"@id": 2}, {"@id": 3}],
