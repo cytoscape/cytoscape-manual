@@ -346,7 +346,36 @@ interactome).
 <a id="example:_retrieving_networks_from_ndex"> </a>
 ### Example: Retrieving Networks from NDEx
 
-To-Do: NDEx section goes here
+-   In the **Search bar**, select CyNDEx-2 from the drop-down menu and type in one or more 
+    search terms, such as BRCA1.
+
+-   Click **Enter** to start the search.
+
+-   In the CyNDEx2 Browser dialog, click a network's **Import** button to load it into Cytoscape. When you have finished loading networks, dismiss the dialog box.
+
+![ndex_table.png](_static/images/Creating_Networks/ndex_table.png)
+
+You can browse networks in a number of ways:
+
+-   Sort by column (via the **Sort by** dropdown) and ordering (via the **Descending/Ascending** dropdown)
+
+-   Use your NDEx user account to enable searching within your network list
+
+-      Create an NDEx account at [http://ndexbio.org](http://ndexbio.org)
+
+-      Add a profile to the CyNDEx2 Browser (by filling out a profile form, reachable by clicking on the *Anonymous* credential in the upper right)
+
+-      Click on the **My Networks** checkbox at the top of the network table
+
+-   Enter a new query into the search bar at the top of the dialog
+
+-      To find a network via a UUID sent to you, use the *uuid:* selector in your search (e.g., uuid:50e3dff7-133e-11e6-a039-06603eb7f303)
+
+-   View network images by clicking the Cards button at the top of the network table
+
+![ndex_cards.png](_static/images/Creating_Networks/ndex_cards.png)
+
+
 
 <a id="create_a_new_network_or_edit_one_manually"> </a>
 ## Create a New Network or Edit One Manually
