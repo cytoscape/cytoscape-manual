@@ -4,7 +4,7 @@
 Cytoscape is a Java application verified to run on the Linux, Windows,
 and Mac OS X platforms. Although not officially supported, other UNIX
 platforms such as Solaris or FreeBSD may run Cytoscape if Java version 8
-or later is available for the platform.
+is available for the platform.
 
 <a id="system_requirements"> </a>
 ## System Requirements
@@ -39,7 +39,7 @@ on the [http://cytoscape.org](http://cytoscape.org) website.*
 <a id="install_java"> </a>
 ### Install Java
 
-**Cytoscape requires Java 8 or later.**
+**Cytoscape requires Java 8.**
 
 -   While Cytoscape versions prior to v3.2 run on Java 6, Oracle and
     other JVM suppliers have dropped Java 6 support. Consequently,
@@ -75,10 +75,20 @@ options.
 
 -   You can install Cytoscape from a compressed archive distribution.
 
--   You can build Cytoscape from the source code.
-
--   You can check out the latest and greatest software from our [Git
+-   You can build Cytoscape from the source code. You can check out the latest and greatest software from our [Git
     repository (https://github.com/cytoscape/cytoscape)](https://github.com/cytoscape/cytoscape).
+
+<a id="Unattended Installation"> </a>
+#### Unattended Installation
+
+The easiest and most common way to install Cytoscape is by executing an [automatic installation package](downloading_and_installing) downloaded from the Cytoscape web site. This will bring up a wizard that will lead you through the process, presenting choices for the installation directory, license agreement, file associations and privacy settings. 
+
+The installation process can be automated and made silent by executing the installation package with the "-q" command parameter (e.g., "Cytoscape_3_6_0-RC1_windows_64bit.exe -q") from a command line or script. For this to succeed, your execution environment must already have sufficient privileges to install software (e.g., for Windows: administrator priveleges). With a "-q" parameter, the installation package will automatically choose all default settings. 
+
+More automation flexibility is available using other settings and pre-programmed response files, as described in Appendix A of the Install4j manual (http://resources.ej-technologies.com/install4j/help/doc/help.pdf).
+
+<a id="cytoscape_directories"> </a>
+#### Cytoscape Directories
 
 Cytoscape installations (regardless of platform) containing the
 following files and directories:
