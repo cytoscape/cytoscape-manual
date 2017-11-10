@@ -377,6 +377,8 @@ You can browse networks in a number of ways:
 
 CyNDEx-2 uses the same network search language as the NDEx web site. You can learn more at [http://www.home.ndexbio.org/finding-and-querying-networks/](http://www.home.ndexbio.org/finding-and-querying-networks/).
 
+Note that you can networks back to the NDEx database by using [**Export** options](Export_Your_Data.html#export_ndex).
+
 <a id="create_a_new_network_or_edit_one_manually"> </a>
 ## Create a New Network or Edit One Manually
 
