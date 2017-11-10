@@ -13,17 +13,21 @@ in Cytoscape for each exportable data type. These options (Network, Table, Style
 <a id="export_ndex"> </a>
 ### NDEx Public Network Database
 
-The **Network to NDEx** and **Collection to NDEx** options are used to store a network on a public NDEx server. You can use an NDEx server as cloud-based store for your networks, as a means of sharing networks with collaborators, or to archive networks for publication. To store a network, you must have an NDEx account, which you can create at the main [NDEx web site (http://ndexbio.org)](http://ndexbio.org). 
+The **Network to NDEx** and **Collection to NDEx** options are used to store a network on a public NDEx server. You can use an NDEx server as a cloud-based store for your networks, as a means of sharing networks with collaborators, or to archive networks for publication. To store a network, you must have an NDEx account, which you can create at the main [NDEx web site (http://ndexbio.org)](http://ndexbio.org). 
 
-The **Network to NDEx** option saves only the currently selected network to your NDEx account. Such networks are suitable for processing by other applications and web services, as they contain only the nodes and edges in the selected network -- other networks and the nodes and edges specific to them are not written. If you import this network using the Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex), only the single network will be loaded.
+The **Network to NDEx** option saves only the currently selected network to your NDEx account. Such networks are suitable for processing by other applications and web services, as they contain only the nodes and edges in the selected network -- other networks and the nodes and edges unique to them are not written. If you import this network using the Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex), only the single network will be loaded.
 
-The **Collection to NDEx** option saves all networks in the collection containing the currently selected network. If you import this collection using the Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex), all networks in the collection will be loaded. This option is closest to saving an entire Cytoscape session, except only the current collection is saved.
+The **Collection to NDEx** option saves all networks in the collection containing the currently selected network. If you import this collection using the Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex), the entire collection will be loaded. This option is closest to saving an entire Cytoscape session, except that only the current collection is saved.
 
 When you select either option, the CyNDEx2 Browser dialog will appear and enable you to provide metadata that will be displayed during subsequent NDEx searches. To save a network, you must add an NDEx account profile to the CyNDEx2 Browser (by filling out the profile form reachable by clicking on the *Anonymous* credential in the upper right), and then make it current.
 
-![network\_export\ndex_save.png](_static/images/Export/ndex_save.png)
+![ndex\_save.png](_static/images/Export/ndex_save.png)
 
 You can set the name of your network by editing the **Network Name** attribute at the bottom. The **Save as a New Network** option enables you to create a new network instead of overwriting an existing NDEx network of the same name. If you choose to make your network public, you must fill in the **Version** and **Description** attributes. 
+
+When the export to NDEx is complete, you will be given an opportunity to capture the network's UUID in your clipboard. The UUID is suitable for e-mailing to colleagues so they can load your network via their Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex).
+
+![ndex\_save\_done.png](_static/images/Export/ndex_save_done.png)
 
 Further information on NDEx is available at the [NDEx web site (http://ndexbio.org)](http://ndexbio.org).
 
