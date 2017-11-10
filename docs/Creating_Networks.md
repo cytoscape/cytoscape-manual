@@ -369,13 +369,13 @@ You can browse networks in a number of ways:
 
 -   Enter a new query into the search bar at the top of the dialog
 
-    -   To find a network via a UUID sent to you, use the *uuid:* selector in your search (e.g., uuid:50e3dff7-133e-11e6-a039-06603eb7f303)
+    -   Find a network via a UUID sent to you by using the *uuid:* selector in your search (e.g., uuid:50e3dff7-133e-11e6-a039-06603eb7f303)
 
 -   View network images by clicking the **Cards** button at the top of the network table
 
 ![ndex_cards.png](_static/images/Creating_Networks/ndex_cards.png)
 
-
+CyNDEx-2 uses the same network search language as the NDEx web site. You can learn more at [http://www.home.ndexbio.org/finding-and-querying-networks/](http://www.home.ndexbio.org/finding-and-querying-networks/).
 
 <a id="create_a_new_network_or_edit_one_manually"> </a>
 ## Create a New Network or Edit One Manually
