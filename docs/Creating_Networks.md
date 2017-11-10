@@ -351,7 +351,7 @@ interactome).
 
 -   Click **Enter** to start the search.
 
--   In the CyNDEx2 Browser dialog, click a network's **Import** button to load it into Cytoscape. When you have finished loading networks, dismiss the dialog box.
+-   In the CyNDEx2 Browser dialog, click a network's **Import** button to load it into Cytoscape and visualize it. When you have finished loading networks, dismiss the dialog box.
 
 ![ndex_table.png](_static/images/Creating_Networks/ndex_table.png)
 
@@ -369,9 +369,9 @@ You can browse networks in a number of ways:
 
 -   Enter a new query into the search bar at the top of the dialog
 
--      To find a network via a UUID sent to you, use the *uuid:* selector in your search (e.g., uuid:50e3dff7-133e-11e6-a039-06603eb7f303)
+    -   To find a network via a UUID sent to you, use the *uuid:* selector in your search (e.g., uuid:50e3dff7-133e-11e6-a039-06603eb7f303)
 
--   View network images by clicking the Cards button at the top of the network table
+-   View network images by clicking the **Cards** button at the top of the network table
 
 ![ndex_cards.png](_static/images/Creating_Networks/ndex_cards.png)
 
