@@ -425,11 +425,11 @@ algorithm is available by selecting **Layout → Hierarchical Layout**.
 ## yFiles Layouts
 
 Cytoscape offers a set of layout algorithms based on the yFiles library. As of
-Cytoscape 3.6, the yFiles algorithms are not installed by default. To install them,
+Cytoscape 3.6, the yFiles algorithms are available directly through the Cytoscape App Store. To install them,
 go to **Layout → Install yFiles**. This will direct you to the 
 [Cytoscape App Store](http://apps.cytoscape.org/). Click the **Install** 
 button to proceed. You will be directed to a license agreement, and once yFiles is 
-installed, the yFiles layouts will be visible in the **Layout** menu. 
+installed, the yFiles layouts will be available in the **Layout** menu. 
 
 The layout algorithms included in yFiles are:
 
