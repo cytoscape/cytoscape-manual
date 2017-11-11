@@ -451,7 +451,7 @@ The layout algorithms included in yFiles are:
 
 -   Organic Edge Router
 
-Below are a few examples of yFiles layouts in Cytoscape.
+Below are a few examples of yFiles layouts in Cytoscape, with more available on the [yFiles web page](http://www.yworks.com/products/yfiles-layout-algorithms-for-cytoscape).
 
 ### yFiles Organic Layout
 ![yFilesOrganic.png](_static/images/Navigation_Layout/yFilesOrganic.png)
