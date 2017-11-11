@@ -424,9 +424,9 @@ algorithm is available by selecting **Layout → Hierarchical Layout**.
 <a id="yFiles"> </a>
 ## yFiles Layouts
 
-Cytoscape offers a set of layout algorithms based on the yFiles library. As of
+Cytoscape offers a set of layout algorithms based on the [yFiles library](http://www.yworks.com/products/yfiles-layout-algorithms-for-cytoscape). As of
 Cytoscape 3.6, the yFiles algorithms are available directly through the [Cytoscape App Store](http://apps.cytoscape.org/). To install them,
-go to **Layout → Install yFiles**. This will direct you to the 
+go to **Layout → Install yFiles**, which will direct you to the 
 App Store. Click the **Install** 
 button to proceed. You will be directed to a license agreement, and once yFiles is 
 installed, the yFiles layouts will be available in the **Layout** menu. 
