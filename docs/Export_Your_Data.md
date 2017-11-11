@@ -13,7 +13,7 @@ in Cytoscape for each exportable data type. These options (Network, Table, Style
 <a id="export_ndex"> </a>
 ### NDEx Public Network Database
 
-The **Network to NDEx** and **Collection to NDEx** options are used to store a network on a public NDEx server. You can use an NDEx server as a cloud-based store for your networks, as a means of sharing networks with collaborators, or to archive networks for publication. To store a network, you must have an NDEx account, which you can create at the main [NDEx web site (http://ndexbio.org)](http://ndexbio.org). 
+The **Network to NDEx** and **Collection to NDEx** options are used to store a network on a public NDEx server. You can use an NDEx server as a cloud-based store for your networks, as a means of [sharing networks](Export_Your_Data.html#as_an_ndex_network) with collaborators, or to [archive networks](Export_Your_Data.html#as_an_ndex_network) for publication. To store a network, you must have an NDEx account, which you can create at the main [NDEx web site (http://ndexbio.org)](http://ndexbio.org).
 
 The **Network to NDEx** option saves only the currently selected network to your NDEx account. Such networks are suitable for processing by other applications and web services, as they contain only the nodes and edges in the selected network -- other networks and the nodes and edges unique to them are not written. If you import this network (using the Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex)), only the single network will be loaded.
 
@@ -46,7 +46,7 @@ will include data attributes and visual information if the chosen format support
 * GraphML
 * PSI-MI Level 1 and 2.5
 * Cytoscape.js JSON (can be used with Cytoscape.js, a tool described in future sections)
-* CX (for Cytoscape Cyberinfrastructure network exchange)
+* CX JSON (for Cytoscape Cyberinfrastructure network exchange)
 
 The default format is SIF, which is a simple tab-delimited network format that provides
 node names and edge interactions only. You can choose the format using the dialog drop-down box.
@@ -86,6 +86,8 @@ do this, with most options suitable for Cytoscape users and other options
 suitable for programmers wanting to create unusual or complex network
 viewers. These are further explained below.
 
+-   An NDEx network
+
 -   A session file
 
 -   A static image
@@ -98,10 +100,23 @@ viewers. These are further explained below.
 
     -   Simple network view (for web application developers)
 
+<a id="as_an_ndex_network"> </a>
+### As an NDEx Network
+
+The easiest way to share your results with others is to save your network in the NDEx public network database by using the [Network to NDEx](Export_Your_Data.html#export_ndex) or [Collection to NDEx](Export_Your_Data.html#export_ndex) options. When you save your network, you will receive a UUID (e.g., 50e3dff7-133e-11e6-a039-06603eb7f303), which you can e-mail to collaborators for use in their own Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex). 
+
+NDEx also has options enabling you to:
+
+-   generate a DOI suitable for use in publications
+-   create a document link (similar to a Google Doc shared link)
+-   create interest groups and specific sharing within NDEx
+
+For more information on NDEx sharing, see the [NDEx web site (http://ndexbio.org)](http://ndexbio.org).
+
 <a id="as_a_session_file"> </a>
 ### As a Session File
 
-The easiest way to share your results with others is simply saving
+Another easy way to share your results with others is simply saving
 everything as a session file (which is a zipped session archive). You
 can save your current session by clicking the **Save Session** icon. You
 can save to a thumb drive, a shared file system, or even a cloud drive
