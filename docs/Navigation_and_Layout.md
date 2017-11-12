@@ -427,6 +427,8 @@ algorithm is available by selecting **Layout → Hierarchical Layout**.
 The Copycat layout uses node positions in one network to lay out nodes in another network. Selecting **Layout → Copycat Layout** 
 displays a dialog box that allows you to select the source network (which is already laid out) and the target network (which needs layout). By default, Copycat matches nodes in the source and target networks by node name, but you can choose any node attribute for this match. 
 
+![copycat.png](_static/images/Navigation_Layout/copycat.png)
+
 As options, you can use **Select unmapped nodes** to cause Copycat to select target nodes that were not matched by nodes in the source network. This allows you to move them and possibly lay them out using other layout algorithms. You can use the **Layout unmapped nodes in a grid** option to preemptively move the unpatched nodes away from the laid out network.
 
 
