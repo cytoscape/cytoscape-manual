@@ -429,7 +429,7 @@ displays a dialog box that allows you to select the source network (which is alr
 
 ![copycat.png](_static/images/Navigation_Layout/copycat.png)
 
-As options, you can use **Select unmapped nodes** to cause Copycat to select target nodes that were not matched by nodes in the source network. This allows you to move them and possibly lay them out using other layout algorithms. You can use the **Layout unmapped nodes in a grid** option to preemptively move the unpatched nodes away from the laid out network.
+As options, you can use **Select unmapped nodes** to cause Copycat to select target nodes that were not matched by nodes in the source network. This allows you to move them and possibly lay them out using other layout algorithms. You can use the **Layout unmapped nodes in a grid** option to preemptively move the unmatched target nodes away from the laid out target network.
 
 
 <a id="yFiles"> </a>
