@@ -256,6 +256,25 @@ will re-apply the active filter. On the opposite side of the progress
 bar is the cancel button, which will let you interrupt a long-running
 filter.
 
+<a id="diffusion"> </a>
+## Diffusion
+
+Cytoscape's Diffusion algorithm attempts to use a set of nodes and an entire interaction network to find the most important nodes.
+Conceptually, Diffusion applies heat to each node in the set, and lets the heat flow to through connecting edges to adjacent nodes. 
+It then produces a list of nodes ranked by the heat they accumulated. A node with many connections to it will tend to have a higher
+ranking, and isolated nodes will tend to be low. In fact, nodes from the original set may become ranked very low if it is isolated but other nodes are closely connected. 
+
+By default, Diffusion uses the set of selected nodes as the heat sources, with each node having the same initial heat. At the end of a Diffusion, Cytoscape leaves the top 90th percentile of hot nodes selected. It allows you to use the Results panel to select a higher or 
+lower percentile dynamically. It also stores the node's initial heat as a node attribute in the "diffusion_input" column, and returns the heat and ranking values in the "diffusion_output_heat" and "diffusion_output_rank" columns.
+
+An advanced Diffusion option allows you to specify initial heat values for each node via its "diffusion_input" attribute.
+
+This figure shows the result of selecting the PHO4, GCR1 and ICL1 genes (via the [search bar](Finding_and_Filtering_Nodes_and_Edges.html#search_bar)) and performing a Diffusion by either **Tools → Diffuse → Selected Nodes** or right-click **Diffuse → Selected Nodes**. Diffusion calculated the heat ranking of all 331 nodes in the network, and then selected the top 33. 
+
+![after_diffusion.png](_static/images/Filters/after_diffusion.png)
+
+To select more than 33, move the Node Rank slider in the Diffusion Output Results Panel to the right or enter a number greater than 33 in the Current Rank field. You can also select nodes by a heat value cutoff by using the Range Column to select a heat value column. Finally, you can use the Visual Style chooser and Create button to extract the selected nodes into a new network.
+
 <a id="the_select_menu"> </a>
 ## The Select Menu
 
