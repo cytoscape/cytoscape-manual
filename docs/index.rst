@@ -23,7 +23,6 @@ Copyright (c) 2001-2017 The Cytoscape Consortium
    Nested_Networks
    Supported_Network_File_Formats
    Node_and_Edge_Column_Data
-   Ontology_and_Annotation_Import
    Column_Data_Functions_and_Equations
    Finding_and_Filtering_Nodes_and_Edges
    Navigation_and_Layout
