@@ -288,7 +288,7 @@ using this framework. Cytoscape supports many web services including:
     STRING is a database of known and predicted protein-protein interactions. STITCH and STRING
     are available from the **Search bar** and from **File → Import → Network → Public Databases...**.
     
--   [NDEx](http://www.ndexbio.org/): The NDEx Project provides an open-source framework 
+-   [NDEx](http://www.ndexbio.org/): The Network Data Exchange (NDEx) Project provides an open-source framework 
     where scientists and organizations can share, store, manipulate, and publish 
     biological network knowledge. NDEx is available from the **Search bar**.
 
@@ -361,7 +361,7 @@ You can browse networks in a number of ways:
 
 -   Use your NDEx user account to enable searching within your network list
 
-    -   Create an NDEx account at [http://ndexbio.org](http://ndexbio.org)
+    -   Create an NDEx account by visiting the [NDEx Public Server](http://ndexbio.org) website
 
     -   Add a profile to the CyNDEx2 Browser (by filling out the profile form reachable by clicking on the *Anonymous* credential in the upper right)
 
@@ -375,7 +375,7 @@ You can browse networks in a number of ways:
 
 ![ndex_cards.png](_static/images/Creating_Networks/ndex_cards.png)
 
-CyNDEx-2 uses the same network search language as the NDEx web site. You can learn more at [http://apps.cytoscape.org/apps/cyndex2](http://apps.cytoscape.org/apps/cyndex2).
+CyNDEx-2, like NDEx,  uses standard [Lucene Syntax](http://www.google.com/url?q=http%3A%2F%2Flucene.apache.org%2Fcore%2F2_9_4%2Fqueryparsersyntax.html&sa=D&sntz=1&usg=AFQjCNET2XPlP7UAXyTDJzAoMf1zsv0Ccw) as network search language. For additional information, please review [Searching Networks in NDEx](http://home.ndexbio.org/finding-and-querying-networks/). More information about the CyNDEx-2 app are available in the [CyNDEx-2 App Store](http://apps.cytoscape.org/apps/cyndex2) page.
 
 Note that you can save networks back to the NDEx database by using [**Export** options](Export_Your_Data.html#export_ndex).
 
