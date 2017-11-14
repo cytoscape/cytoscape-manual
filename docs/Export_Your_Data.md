@@ -103,7 +103,7 @@ viewers. These are further explained below.
 <a id="as_an_ndex_network"> </a>
 ### As an NDEx Network
 
-The easiest way to share your results with others is to save your network in the NDEx Public Database by using the [Network to NDEx](Export_Your_Data.html#export_ndex) or [Collection to NDEx](Export_Your_Data.html#export_ndex) options. When you save your network, you will receive a UUID (e.g., 50e3dff7-133e-11e6-a039-06603eb7f303), which you can e-mail to collaborators for use in their own Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex) (provided you exported using the **Save as Public** option -- see [Save as Public](Export_Your_Data.html#export_ndex) option.)
+The easiest way to share your results with others is to save your network in the NDEx Public Database by using the [Network to NDEx](Export_Your_Data.html#export_ndex) or [Collection to NDEx](Export_Your_Data.html#export_ndex) options. When you save your network, you will receive a UUID (e.g., 50e3dff7-133e-11e6-a039-06603eb7f303) that you can e-mail to collaborators for use in their own Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex) (provided you exported using the **Save as Public** option -- see the [Save as Public](Export_Your_Data.html#export_ndex) option.)
 
 NDEx also has options that enable you to:
 
