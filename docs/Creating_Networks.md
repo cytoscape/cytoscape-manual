@@ -375,7 +375,7 @@ You can browse networks in a number of ways:
 
 ![ndex_cards.png](_static/images/Creating_Networks/ndex_cards.png)
 
-CyNDEx-2 uses the same network search language as the NDEx web site. You can learn more at [http://www.home.ndexbio.org/finding-and-querying-networks/](http://www.home.ndexbio.org/finding-and-querying-networks/).
+CyNDEx-2 uses the same network search language as the NDEx web site. You can learn more at [http://apps.cytoscape.org/apps/cyndex2](http://apps.cytoscape.org/apps/cyndex2).
 
 Note that you can save networks back to the NDEx database by using [**Export** options](Export_Your_Data.html#export_ndex).
 
