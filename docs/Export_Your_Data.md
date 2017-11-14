@@ -111,7 +111,7 @@ NDEx also has options that enable you to:
 -   create a document link (similar to a Google Doc shared link)
 -   create interest groups and specific sharing within NDEx
 
-For more information on NDEx sharing, see the [NDEx web site (http://ndexbio.org)](http://ndexbio.org).
+For more information on NDEx sharing, see [http://apps.cytoscape.org/apps/cyndex2](http://apps.cytoscape.org/apps/cyndex2)..
 
 <a id="as_a_session_file"> </a>
 ### As a Session File
