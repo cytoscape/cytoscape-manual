@@ -23,9 +23,9 @@ When you select either option, the CyNDEx2 Browser dialog will appear and enable
 
 ![ndex\_save.png](_static/images/Export/ndex_save.png)
 
-You can set the name of your network by editing the **Network Name** attribute at the bottom. The **Save as a New Network** option enables you to create a new network instead of overwriting an existing NDEx network of the same name. If you choose to make your network public, you must fill in the **Version** and **Description** attributes. 
+You can set the name of your network by editing the **Network Name** attribute at the bottom. The **Save as a New Network** option enables you to create a new network instead of overwriting an existing NDEx network of the same name. If you choose to make your network public, you must fill in the **Version** and **Description** attributes. Choose the **Save as Public** option to enable collaborators to load your network.
 
-When the export to NDEx is complete, you will be given an opportunity to capture the network's UUID in your clipboard. The UUID is suitable for e-mailing to colleagues so they can load your network via their Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex); this will only be possible if you chose the "save as Public" option prior to completing the export process. Please note that the visibility (privacy) level of an NDEx network can always be changed by logging in to you NDEx account at the [NDEx Public Server](http://ndexbio.org) website.
+When the export to NDEx is complete, you will be given an opportunity to capture the network's UUID in your clipboard. The UUID is suitable for e-mailing to colleagues so they can load your network via their Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex) (provided you selected the **Save as Public** option). For more sharing options, see the [NDEx Public Server](http://ndexbio.org) website.
 
 ![ndex\_save\_done.png](_static/images/Export/ndex_save_done.png)
 
@@ -103,7 +103,7 @@ viewers. These are further explained below.
 <a id="as_an_ndex_network"> </a>
 ### As an NDEx Network
 
-The easiest way to share your results with others is to save your network in the NDEx Public Database by using the [Network to NDEx](Export_Your_Data.html#export_ndex) or [Collection to NDEx](Export_Your_Data.html#export_ndex) options. When you save your network, you will receive a UUID (e.g., 50e3dff7-133e-11e6-a039-06603eb7f303), which you can e-mail to collaborators for use in their own Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex). Please note that this will only be possible if you previously exported your network and chose the [Save as Public](Export_Your_Data.html#export_ndex) option 
+The easiest way to share your results with others is to save your network in the NDEx Public Database by using the [Network to NDEx](Export_Your_Data.html#export_ndex) or [Collection to NDEx](Export_Your_Data.html#export_ndex) options. When you save your network, you will receive a UUID (e.g., 50e3dff7-133e-11e6-a039-06603eb7f303), which you can e-mail to collaborators for use in their own Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex) (provided you exported using the **Save as Public** option -- see [Save as Public](Export_Your_Data.html#export_ndex) option.)
 
 NDEx also has options that enable you to:
 
