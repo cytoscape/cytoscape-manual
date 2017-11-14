@@ -19,7 +19,7 @@ The **Network to NDEx** option saves only the currently selected network to your
 
 The **Collection to NDEx** option saves all networks in the collection containing the currently selected network. If you import this collection (using the Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex)), the entire collection will be loaded. This option is closest to saving an entire Cytoscape session, except that only the current collection is saved.
 
-When you select either option, the CyNDEx2 Browser dialog will appear and enable you to provide metadata that will be displayed during subsequent NDEx searches. To save a network, you must add an NDEx account profile to the CyNDEx2 Browser (by filling out the profile form reachable by clicking on the *Anonymous* credential in the upper right), and then make it current.
+When you select either option, the CyNDEx-2 Browser dialog will appear and enable you to provide metadata that will be displayed during subsequent NDEx searches. To save a network, you must add an NDEx account profile to the CyNDEx-2 Browser (by filling out the profile form reachable by clicking on the *Anonymous* credential in the upper right), and then make it current.
 
 ![ndex\_save.png](_static/images/Export/ndex_save.png)
 
