@@ -1,4 +1,5 @@
 <a id="programmatic_access_to_cytoscape_features_scripting"> </a>
+<a id="programmatic_access_to_cytoscape_features"> </a>
 <a id="cytoscape_automation"> </a>
 # Cytoscape Automation
 
@@ -12,13 +13,6 @@ Note that for a Cytoscape app to be callable via CyREST, the app must be install
 specifically added automation functionality to it. If there is
 an app you would like to call, but which doesn't offer automation, please contact the app author and request that app functionality be 
 added. Instructions for adding automation to an app are available on the [Cytoscape Automation web page (https://github.com/cytoscape/cytoscape-automation/wiki)](https://github.com/cytoscape/cytoscape-automation/wiki).
-
-<a id="programmatic_access_to_cytoscape_features"> </a>
-## Programmatic Access to Cytoscape Features
-
-In this chapter, you will learn how to use Cytoscape from the command
-line and scripts. These features replace the ***Scripting*** module in
-past versions of Cytoscape.
 
 <a id="background"> </a>
 ## Background
@@ -97,6 +91,7 @@ You can test the new port by using your browser to surf to http://localhost:8888
 
 Note that if you expect to run more than one instance of Cytsocape on a single workstation, the CyREST port must be unique for each Cytoscape instance. You must use either the property or command line parameter technique to execute each instance with a different CyREST port.
 
+<a id="exploring_cyrest_commands_and_functions"> </a>
 #### Exploring CyREST Commands and Functions
 
 Cytoscape makes a list of available Commands and Functions available via the **Help → Automation** submenus. The **CyREST API** submenu shows available Functions, and the **CyREST Command API** shows available Commands. The **Automation Examples** leads to a web portal containing the bulk of documentation, samples and tutorials for Cytsocape Automation in general. 
@@ -119,14 +114,13 @@ Note that Swagger pages reflect the state of Cytoscape at the time it executes -
 
 #### cyREST and R/Python
 
-**[cyREST](http://apps.cytoscape.org/apps/cyrest) is a
-language-agnostic, programmer-friendly RESTful API module for
-Cytoscape**. If you want to build your own workflow with
-[R](http://www.r-project.org/), [Python](https://www.python.org/) or
-other programming languages along with Cytoscape, this is the option for
-you. You can use popular tools, including IPython/Jupyter Notebook and
-RStudio as your orchestration tool for your data visualization workflow
-with Cytoscape.
+CyREST enables access to Cytoscape Automation features from workflows written in high level languages (e.g., [R](http://www.r-project.org/) and [Python](https://www.python.org/)) and executing in separate environments (e.g., [RStudio](https://www.rstudio.com/) and [Jupyter](https://jupyter.org/)) on the Cytoscape workstation. A workflow can call Commands and Functions either directly via CyREST or via language-specific interface libraries. 
+
+To directly call CyREST Commands and Functions from a workflow, see the [mini-tutorial](Programmatic_Access_to_Cytoscape_Features_Scripting.html#exploring_cyrest_commands_and_functions). 
+
+To understand and get started using language-specific libraries, visit the [Cytoscape Automation web page (https://github.com/cytoscape/cytoscape-automation/wiki)](https://github.com/cytoscape/cytoscape-automation/wiki). The [Workflow Index page](https://github.com/cytoscape/cytoscape-automation/wiki/Workflow-Index) contains useful code samples, and the [Sample Scripts page](https://github.com/cytoscape/cytoscape-automation/tree/master/for-scripters) contains working demonstration projects.
+
+Below is a sample Jupyter-based Python script and the resulting sample output.
 
 ![jupyter.png](_static/images/ProgrammaticAccess/jupyter.png)
 
@@ -135,9 +129,3 @@ Notebook](http://nbviewer.ipython.org/github/idekerlab/py2cytoscape/blob/develop
 written with cyREST and
 [py2cytoscape](https://github.com/idekerlab/py2cytoscape))
 
-Currently, cyREST is available as an App for Cytoscape 3.2.1 and later,
-and requires the Java 8 (or later) virtual machine. As of Cytoscape
-v3.3, cyREST is installed automatically with Cytoscape. Please visit the
-link below for more information.
-
--   [cyREST App Store page](http://apps.cytoscape.org/apps/cyrest)
