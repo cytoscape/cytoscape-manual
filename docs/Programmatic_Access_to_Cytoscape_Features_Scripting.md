@@ -1,5 +1,17 @@
 <a id="programmatic_access_to_cytoscape_features_scripting"> </a>
-# Programmatic Access to Cytoscape Features (Scripting)
+<a id="cytoscape_automation"> </a>
+# Cytoscape Automation
+
+Cytoscape Automation is a collection of features that enable users to create workflows executed entirely within Cytoscape or by external tools (e.g., Jupyter, R, GenomeSpace, etc), and whose results are reproducible. This enables Cytoscape to scale to large collections of datasets and to larger more complex workflows than is practical via keyboard and mouse.
+
+Cytoscape Automation exists in two skins – the Commands interface and the Functions interface. Both can accomplish similar results, but are focused on different usage styles. Commands reprise user-initiated interactions (e.g., open session, import data, export image), whereas the Functions interface enables programmers to manipulate and operate on networks as internal Cytoscape data. Commands and Functions both call Cytoscape (and Cytoscape apps) via a REST interface known as CyREST.
+
+This chapter describes how to produce custom workflows using CyREST natively and via Python and R interface libraries. More tutorials and examples are available at the [Cytoscape Automation web page (https://github.com/cytoscape/cytoscape-automation/wiki)](https://github.com/cytoscape/cytoscape-automation/wiki).
+
+Note that for a Cytoscape app to be callable via CyREST, the app must be installed into Cytoscape and the author must have
+specifically added automation functionality to it. If there is
+an app you would like to call, but which doesn't offer automation, please contact the app author and request that app functionality be 
+added. Instructions for adding automation to an app are available on the [Cytoscape Automation web page (https://github.com/cytoscape/cytoscape-automation/wiki)](https://github.com/cytoscape/cytoscape-automation/wiki).
 
 <a id="programmatic_access_to_cytoscape_features"> </a>
 ## Programmatic Access to Cytoscape Features
@@ -7,6 +19,7 @@
 In this chapter, you will learn how to use Cytoscape from the command
 line and scripts. These features replace the ***Scripting*** module in
 past versions of Cytoscape.
+
 
 <a id="topics"> </a>
 ## Topics
@@ -31,27 +44,31 @@ same operations to hundreds of networks manually using a GUI. More
 importantly, although you can save your ***results*** as session files,
 you cannot save your ***workflows*** if you perform your data analysis
 with point-and-click GUI operations. Cytoscape has several options that
-support scripting and automating your workflows: Commands and RESTful
-API.
+support automating your workflows, all under the umbrella of Cytoscape Automation:
 
-The Command feature allows you to script a number of Cytoscape commands
-and menu items, and commands can have parameter values that would
-normally be provided by a user via Cytoscape dialog box. For example,
+![CytoscapeAutomation_3.png](_static/images/ProgrammaticAccess/CytoscapeAutomation_3.png)
+
+The **Commands** feature allows you to script a sequence of Cytoscape commands
+and menu items, where commands can have parameter values that would
+normally be provided by a user via a Cytoscape dialog box. For example,
 *session open file="C:\\myfile.cys"* loads a session from a file
-similarly to the **File | Open** menu item. You can create a command
+similarly to the **File | Open** menu item. Commands may 
+resolve to Cytoscape core functions or automation-enabled apps installed in 
+Cytoscape. You can create a command
 script file that Cytoscape can execute via the **Tools | Execute Command
-File** menu item or on the Cytoscape command line at startup.
+File** menu item or on the Cytoscape command line at startup. 
 
-The RESTful API feature allows you to access Cytoscape from a separate
-application, thereby orchestrating Cytoscape operations from that
-application. The application may be written in a general programming
-language (e.g., Python) that keeps its own data structures, performs
+The CyREST API feature allows you to access Cytoscape from a separate
+application, thereby orchestrating Cytoscape operations via HTTP-based REST calls. 
+Cytoscape and apps can execute either Commands or Functions in this way.
+
+Automation applications may be written in a general programming
+language that keeps its own data structures, performs
 complex flow control, or directly manipulates Cytoscape nodes, edges,
-attributes, and visual styles.
-
-The Command feature is useful for executing sequences of commands,
-whereas the RESTful API feature is useful when Cytoscape is to be used
-as a service relative to an application.
+attributes, and visual styles. For R and Python, we provide language-specific
+interface libraries (e.g., r2cytoscape and py2cytoscape) that present 
+Cytoscape Automation in language-friendly terms, and call Cytoscape via 
+the CyREST interface.
 
 <a id="commands"> </a>
 ### Commands
@@ -59,11 +76,8 @@ as a service relative to an application.
 ![CommandTool.png](_static/images/ProgrammaticAccess/CommandTool.png)
 
 ***Commands*** is the built-in Cytoscape feature to automate your
-workflow as simple script. You can learn more about this feature in this
-section:
-
--   [Command
-    Tool](Command_Tool.html#command-tool)
+workflow as simple script. You can learn more about Commands in the [Command Tool](Command_Tool.html#command-tool)
+section.
 
 <a id="restful_api"> </a>
 ### RESTful API
