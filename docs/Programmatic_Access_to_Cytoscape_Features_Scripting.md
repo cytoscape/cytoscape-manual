@@ -81,7 +81,7 @@ your Cytoscape workstation and surf to either http://localhost:1234/v1/ or http:
     
 The second form is a Command that returns a list of available Command namespaces:
 
-![_static/images/ProgrammaticAccess/logo300.png](_static/images/ProgrammaticAccess/logo300.png)
+    ![CommandAPI.png](_static/images/ProgrammaticAccess/CommandAPI.png)
 
 Note that the list of namespaces will vary depending on the apps you install -- some apps provide Commands in namespaces of their own.
 
