@@ -53,7 +53,7 @@ Cytoscape Automation in language-friendly terms, and call Cytoscape and apps via
 the CyREST interface.
 
 <a id="commands"> </a>
-### Commands
+## Commands
 
 ![CommandTool.png](_static/images/ProgrammaticAccess/CommandTool.png)
 
@@ -62,7 +62,7 @@ workflow as simple script. You can learn more about Commands in the [Command Too
 section.
 
 <a id="restful_api"> </a>
-### CyREST Interface Layer
+## CyREST Interface Layer
 
 In some cases, you may need to leverage the complex control and data structures available in a fully featured programming language,
 such as Python, R, Ruby, or
@@ -95,7 +95,7 @@ You can test the new port by using your browser to surf to http://localhost:8888
 Note that if you expect to run more than one instance of Cytsocape on a single workstation, the CyREST port must be unique for each Cytoscape instance. You must use either the property or command line parameter technique to execute each instance with a different CyREST port.
 
 <a id="exploring_cyrest_commands_and_functions"> </a>
-#### Exploring CyREST Commands and Functions
+### Exploring CyREST Commands and Functions
 
 Cytoscape makes a list of available Commands and Functions available via the **Help → Automation** submenus. The **CyREST API** submenu shows available Functions, and **CyREST Command API** shows available Commands. **Automation Examples** leads to a web portal containing the bulk of documentation, samples and tutorials for Cytsocape Automation in general. 
 
@@ -115,7 +115,8 @@ To find out more about how to use CyREST, visit the Cytoscape Automation [tutori
 
 Note that Swagger pages reflect functionality in Cytoscape at the time it executes, including Commands and Functions contributed by installed apps. To discover CyREST functionality in uninstalled apps, you must first install them, and then use **Help → Automation** submenus to generate the Swagger pages.
 
-#### cyREST and R/Python
+<a id="cyrest_and_rpython"> </a>
+### cyREST and R/Python
 
 CyREST enables access to Cytoscape Automation features from workflows written in high level languages (e.g., [R](http://www.r-project.org/) and [Python](https://www.python.org/)) and executing in separate environments (e.g., [RStudio](https://www.rstudio.com/) and [Jupyter](https://jupyter.org/)) on the Cytoscape workstation. A workflow can call Commands and Functions either directly via CyREST or via language-specific interface libraries. 
 
