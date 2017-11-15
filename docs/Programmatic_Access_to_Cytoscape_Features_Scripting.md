@@ -94,7 +94,7 @@ Note that if you expect to run more than one instance of Cytsocape on a single w
 <a id="exploring_cyrest_commands_and_functions"> </a>
 #### Exploring CyREST Commands and Functions
 
-Cytoscape makes a list of available Commands and Functions available via the **Help → Automation** submenus. The **CyREST API** submenu shows available Functions, and the **CyREST Command API** shows available Commands. The **Automation Examples** leads to a web portal containing the bulk of documentation, samples and tutorials for Cytsocape Automation in general. 
+Cytoscape makes a list of available Commands and Functions available via the **Help → Automation** submenus. The **CyREST API** submenu shows available Functions, and **CyREST Command API** shows available Commands. **Automation Examples** leads to a web portal containing the bulk of documentation, samples and tutorials for Cytsocape Automation in general. 
 
 ![automation_menu.png](_static/images/ProgrammaticAccess/automation_menu.png)
 
