@@ -3,7 +3,11 @@
 
 The **Command Line Tool** provides a simple command-line interface to
 Cytoscape using the Commands API. Any app that registers commands will
-be available through the Command Tool. The Command Tool provides two
+be available through the Command Tool. Commands are part of the more general
+[Cytoscape Automation](Programmatic_Access_to_Cytoscape_Features_Scripting.html#cytoscape_automation) feature, 
+which includes multiple ways of scripting Cytoscape execution.
+
+The Command Tool provides two
 main functions: first, a Command Line Dialog is available from **Tools →
 Command Line Dialog**, that allows the user to type commands into
 Cytoscape and see the results in a "Reply Log".
