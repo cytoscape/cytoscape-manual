@@ -79,13 +79,14 @@ The second form is a Command that returns a list of available Command namespaces
 
 Note that the list of namespaces will vary depending on the apps you install -- some apps provide Commands in namespaces of their own.
 
-If your workstation has port 1234 already in use, you can adjust the CyREST port in two ways:
+If your workstation has port 1234 already in use, you can specify a different CyREST port in two ways:
 
-* Use the **Edit → Preferences** menu to alter the *rest.port* property to specify a different port (e.g., 8888)
+* Use the **Edit → Preferences** menu to alter the *rest.port* property to select a different port (e.g., 8888)
 * Specify the port on the Cytoscape command line via the *R* parameter:
 
-    cytoscape.bat -R 8888 (for Windows)
-    ./cytoscape.sh -R 8888 (for Mac or Linux)
+     cytoscape.bat -R 8888 (for Windows)
+     
+     ./cytoscape.sh -R 8888 (for Mac or Linux)
 
 You can test the new port by using your browser to surf to http://localhost:8888/v1/
 
