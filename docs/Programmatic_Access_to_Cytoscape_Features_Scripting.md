@@ -40,7 +40,7 @@ Cytoscape. You can create a command
 script file that Cytoscape can execute via the **Tools | Execute Command
 File** menu item or on the Cytoscape command line at startup. 
 
-The CyREST API feature allows you to access Cytoscape from a separate
+The **CyREST API** feature allows you to access Cytoscape from a separate
 application, thereby orchestrating Cytoscape operations via HTTP-based REST calls. 
 Your workflows can execute either Commands or Functions in this way.
 
