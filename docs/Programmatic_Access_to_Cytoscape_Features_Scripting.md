@@ -104,7 +104,7 @@ The **CyREST API** and **CyREST Command API** submenus document CyREST in a Swag
 
 ![swagger_v1.png](_static/images/ProgrammaticAccess/swagger_v1.png)
 
-Note that the page contains a description, input parameters, output values, result code and the *Try it out!* button. Pressing the button executes the Function and shows the actual CyREST call and its results. *_Making good use of Swagger as a prototyping tool can greatly reduce code writing and debug time!_*
+Note that the page contains a description, input parameters, output values, result code and the *Try it out!* button. Pressing the button executes the Function and shows the actual CyREST call and its results. **Making good use of Swagger as a prototyping tool can greatly reduce code writing and debug time!**
 
 ![swagger_v1_result.png](_static/images/ProgrammaticAccess/swagger_v1_result.png)
 
