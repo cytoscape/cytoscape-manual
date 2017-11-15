@@ -42,7 +42,8 @@ components:
 -   The Tool Bar, which contains icons for commonly used functions.
     These functions are also available via the menus. Hover the mouse
     pointer over an icon and wait momentarily for a description to
-    appear as a tooltip.
+    appear as a tooltip. Right-clicking on the tool bar allows the
+    contents to be customized.
 
 -   The Network Panel (Network tab of the Control Panel, top left). 
     At the top of the Network Panel is a Search bar, with direct access 
