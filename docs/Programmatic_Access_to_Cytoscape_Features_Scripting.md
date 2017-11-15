@@ -77,11 +77,11 @@ such as Python, R, Ruby, or
 By default, the CyREST interface is enabled and available on TCP/IP port 1234. To verify this, start a web browser on 
 your Cytoscape workstation and surf to either http://localhost:1234/v1/ or http://localhost:1234/v1/commands. The first form is a Function that returns basic Cytoscape information as a JSON object:
 
-    {"apiVersion":"v1","numberOfCores":4,"memoryStatus":{"usedMemory":1518,"freeMemory":2351,"totalMemory":3870,"maxMemory":6917}}
+![FunctionAPI.png](_static/images/ProgrammaticAccess/FunctionAPI.png)
     
 The second form is a Command that returns a list of available Command namespaces:
 
-    ![CommandAPI.png](_static/images/ProgrammaticAccess/CommandAPI.png)
+![CommandAPI.png](_static/images/ProgrammaticAccess/CommandAPI.png)
 
 Note that the list of namespaces will vary depending on the apps you install -- some apps provide Commands in namespaces of their own.
 
@@ -93,51 +93,31 @@ If your workstation has port 1234 already in use, you can adjust the CyREST port
     cytoscape.bat -R 8888 (for Windows)
     ./cytoscape.sh -R 8888 (for Mac or Linux)
 
-You can test the new port by using your browser to surf to http://localhost:1234/v1/
+You can test the new port by using your browser to surf to http://localhost:8888/v1/
 
 Note that if you expect to run more than one instance of Cytsocape on a single workstation, the CyREST port must be unique for each Cytoscape instance. You must use either the property or command line parameter technique to execute each instance with a different CyREST port.
 
-#### 1. REST API for Commands
+#### Exploring CyREST Commands and Functions
 
-In addition to running Command scripts, Command module has REST API to
-enable command execution from another program.
+Cytoscape makes a list of available Commands and Functions available via the **Help → Automation** submenus. The **CyREST API** submenu shows available Functions, and the **CyREST Command API** shows available Commands. The **Automation Examples** leads to a web portal containing the bulk of documentation, samples and tutorials for Cytsocape Automation in general. 
 
-By default, this feature is disabled. To enable the REST API server for
-Commands, please follow these steps:
+![automation_menu.png](_static/images/ProgrammaticAccess/automation_menu.png)
 
-1.  Open a terminal session:
+Notably, **Automation Examples** contains a tutorial that explains how to explore CyREST Commands and Functions: [https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation](https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation).
 
-    -   [PowerShell](https://en.wikipedia.org/wiki/Windows_PowerShell)
-        or Command (For windows)
+The **CyREST API** and **CyREST Command API** submenus document CyREST in a Swagger web application, which allows you to explore CyREST entrypoints by reading about them and invoking them directly (using a *Try it out!*) button. A sample page matching the http://localhost:1234/v1/ Function is:
 
-    -   Terminal or [iTerm2](https://www.iterm2.com/) (For Mac)
+![swagger_v1.png](_static/images/ProgrammaticAccess/swagger_v1.png)
 
-    -   Terminal (For Linux)
+Note that the page contains a description, input parameters, output values, result code and the *Try it out!* button. Pressing the button executes the Function and shows the actual CyREST call and its results.
 
-2.  Start Cytoscape from command-line. You must specify a TCP/IP port
-    number as a parameter -- in this example, port 8888 will be opened
-    for Command:
+![swagger_v1_result.png](_static/images/ProgrammaticAccess/swagger_v1_result.png)
 
-    -   For Mac/Linux
+To find out more about how to use CyREST, visit the Cytoscape Automation [tutorial pages (https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation)](https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation).
 
-            ./cytoscape.sh -R 8888
+Note that Swagger pages reflect the state of Cytoscape at the time it executes -- Commands and Functions contributed by installed apps are also described. To discover CyREST functionality in uninstalled apps, you must first install them, and then use **Help → Automation** submenus to generate the Swagger pages.
 
-        For Windows
-
-            ./cytoscape.bat -R 8888
-
-3.  To test the Command interface, open the following URL with your web
-    browser:
-
-    -   http://localhost:8888/v1/commands
-
-4.  If you see list of available commands, you are ready to use Command
-    API
-
-    ![CommandAPI.png](_static/images/ProgrammaticAccess/CommandAPI.png)
-
-#### 2. cyREST
-
+#### cyREST and R/Python
 
 **[cyREST](http://apps.cytoscape.org/apps/cyrest) is a
 language-agnostic, programmer-friendly RESTful API module for
