@@ -20,18 +20,6 @@ In this chapter, you will learn how to use Cytoscape from the command
 line and scripts. These features replace the ***Scripting*** module in
 past versions of Cytoscape.
 
-
-<a id="topics"> </a>
-## Topics
-
--   ***Commands***
-
--   **RESTful API**
-
-    -   **Command REST API**
-
-    -   **cyREST**
-
 <a id="background"> </a>
 ## Background
 
@@ -60,14 +48,14 @@ File** menu item or on the Cytoscape command line at startup.
 
 The CyREST API feature allows you to access Cytoscape from a separate
 application, thereby orchestrating Cytoscape operations via HTTP-based REST calls. 
-Cytoscape and apps can execute either Commands or Functions in this way.
+Your workflows can execute either Commands or Functions in this way.
 
 Automation applications may be written in a general programming
 language that keeps its own data structures, performs
 complex flow control, or directly manipulates Cytoscape nodes, edges,
 attributes, and visual styles. For R and Python, we provide language-specific
 interface libraries (e.g., r2cytoscape and py2cytoscape) that present 
-Cytoscape Automation in language-friendly terms, and call Cytoscape via 
+Cytoscape Automation in language-friendly terms, and call Cytoscape and apps via 
 the CyREST interface.
 
 <a id="commands"> </a>
@@ -80,19 +68,34 @@ workflow as simple script. You can learn more about Commands in the [Command Too
 section.
 
 <a id="restful_api"> </a>
-### RESTful API
+### CyREST Interface Layer
 
-In some cases, you may need to use fully featured programming languages,
+In some cases, you may need to leverage the complex control and data structures available in a fully featured programming language,
 such as Python, R, Ruby, or
-[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-to script your workflow. Such languages enable complex control and data
-structures, and Cytoscape would be called as a service. For such use
-cases, accessing Cytoscape via REST API is the right option.
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript). Such languages enable complex Cytoscape-centric workflows or the integration of Cytoscape into larger workflows. Cytsocape enables progamatic access to both its Commands and Functions via its CyREST interface.
 
-Cytoscape offers two flavors of REST-style control: REST Commands and
-cyREST. REST Commands uses a REST interface to issue script commands.
-cyREST uses a REST interface to access the Cytoscape data model as a
-document via a formal API.
+By default, the CyREST interface is enabled and available on TCP/IP port 1234. To verify this, start a web browser on 
+your Cytoscape workstation and surf to either http://localhost:1234/v1/ or http://localhost:1234/v1/commands. The first form is a Function that returns basic Cytoscape information as a JSON object:
+
+    {"apiVersion":"v1","numberOfCores":4,"memoryStatus":{"usedMemory":1518,"freeMemory":2351,"totalMemory":3870,"maxMemory":6917}}
+    
+The second form is a Command that returns a list of available Command namespaces:
+
+![_static/images/ProgrammaticAccess/logo300.png](_static/images/ProgrammaticAccess/logo300.png)
+
+Note that the list of namespaces will vary depending on the apps you install -- some apps provide Commands in namespaces of their own.
+
+If your workstation has port 1234 already in use, you can adjust the CyREST port in two ways:
+
+* Use the **Edit → Preferences** menu to alter the *rest.port* property to specify a different port (e.g., 8888)
+* Specify the port on the Cytoscape command line via the *R* parameter:
+
+    cytoscape.bat -R 8888 (for Windows)
+    ./cytoscape.sh -R 8888 (for Mac or Linux)
+
+You can test the new port by using your browser to surf to http://localhost:1234/v1/
+
+Note that if you expect to run more than one instance of Cytsocape on a single workstation, the CyREST port must be unique for each Cytoscape instance. You must use either the property or command line parameter technique to execute each instance with a different CyREST port.
 
 #### 1. REST API for Commands
 
@@ -135,7 +138,6 @@ Commands, please follow these steps:
 
 #### 2. cyREST
 
-![_static/images/ProgrammaticAccess/logo300.png](_static/images/ProgrammaticAccess/logo300.png)
 
 **[cyREST](http://apps.cytoscape.org/apps/cyrest) is a
 language-agnostic, programmer-friendly RESTful API module for
