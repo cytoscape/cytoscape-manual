@@ -110,7 +110,7 @@ Note that the page contains a description, input parameters, output values, resu
 
 To find out more about how to use CyREST, visit the Cytoscape Automation [tutorial pages (https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation)](https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation).
 
-Note that Swagger pages reflect the state of Cytoscape at the time it executes -- Commands and Functions contributed by installed apps are also described. To discover CyREST functionality in uninstalled apps, you must first install them, and then use **Help → Automation** submenus to generate the Swagger pages.
+Note that Swagger pages reflect functionality in Cytoscape at the time it executes, including Commands and Functions contributed by installed apps. To discover CyREST functionality in uninstalled apps, you must first install them, and then use **Help → Automation** submenus to generate the Swagger pages.
 
 #### cyREST and R/Python
 
