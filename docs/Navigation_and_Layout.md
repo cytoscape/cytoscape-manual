@@ -435,7 +435,7 @@ As options, you can use **Select unmapped nodes** to cause Copycat to select tar
 <a id="yFiles"> </a>
 ## yFiles Layouts
 
-Cytoscape offers a set of layout algorithms based on the [yFiles library](http://www.yworks.com/products/yfiles). As of
+Cytoscape offers a set of layout algorithms based on the [yFiles library](https://www.yworks.com/products/yfiles). As of
 Cytoscape 3.6, the yFiles algorithms are available directly through the [Cytoscape App Store](http://apps.cytoscape.org/). To install them,
 go to **Layout → Install yFiles**, which will direct you to the 
 App Store. Click the **Install** 
@@ -462,7 +462,7 @@ The layout algorithms included in yFiles are:
 
 -   Organic Edge Router
 
-Below are a few examples of yFiles layouts in Cytoscape, with more available on the [yFiles web page](http://www.yworks.com/products/yfiles-layout-algorithms-for-cytoscape).
+Below are a few examples of yFiles layouts in Cytoscape, with more available on the [yFiles web page](https://www.yworks.com/products/yfiles-layout-algorithms-for-cytoscape).
 
 ### yFiles Organic Layout
 ![yFilesOrganic.png](_static/images/Navigation_Layout/yFilesOrganic.png)
