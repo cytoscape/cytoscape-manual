@@ -62,10 +62,19 @@ from the **File → Import → Table → File...** user interface.
     the delimiter in the **Advanced Options** panel. The default
     delimiter is tab. This step is not necessary for Excel Workbooks.
 
-6.  By default, the first column is designated as the primary key.
-    Change the key column if necessary.
+6.  By default, the first column is designated as the primary key, as 
+    designated by the key ![Key.png](_static/images/Columns/Key.png)
+    icon. To set another column as the key instead, click the arrow at 
+    next to the column title and select the key symbol. Make sure the 
+    column designated as key matches the key in the network.
+    
+7.  Similarly, to change the data type of a column, for example from 
+    integer to string, click the arrow next to the column title, and 
+    select the correct data type.
+    
+![ChangeDataType.png](_static/images/Columns/ChangeDataType.png)
 
-7.  Click **OK** to import.
+8.  Click **OK** to import.
 
 #### Unassigned Table
 
