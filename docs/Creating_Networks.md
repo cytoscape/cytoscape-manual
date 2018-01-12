@@ -80,7 +80,7 @@ parsed given the current configuration. As the configuration changes,
 the preview updates automatically. In addition to specifying how the
 file will be parsed, the user must also choose the columns that
 represent the source and target nodes as well as an optional edge
-interaction type.
+interaction type. For detailed instructions, see Basic Operations below.
 
 ![ImportNetworkDialog2.png](_static/images/Creating_Networks/ImportNetworkDialog2.png)
 
@@ -159,7 +159,7 @@ To import network from text/Excel tables, please follow these steps:
 
 3.  Define the interaction parameters by specifying which columns of
     data contain the Source Interaction, Target Interaction, and
-    Interaction Type. Clicking on any column header will bring up the
+    Interaction Type. Clicking on on the arrow to the right of any column header will bring up the
     interface for selecting source, interaction and target:
 
     ![ImportNetworkDialogDetails.png](_static/images/Creating_Networks/ImportNetworkDialogDetails.png)
