@@ -327,39 +327,18 @@ will appear:
 
 ![web\_export\_full\_dialog.png](_static/images/Export/web_export_full_dialog.png)
 
- This simple dialog has only two options - the file name and the type of
- web export (full, simple network view, or JSON). For full web application,
- we use the default. The file name is suggested based on the name of the
- selected table with the path defaulting to the current working directory.
- As in raw data export, the suggested file name can be changed using the
- Browse button or the text field. Press OK to export a web archive with 
- the given file name.
+This simple dialog has only two options - the file name and the type of
+web export (full, simple network view, or JSON). For full web application,
+we use the default. The file name is suggested based on the name of the
+selected table with the path defaulting to the current working directory.
+As in raw data export, the suggested file name can be changed using the
+Browse button or the text field. Press OK to export a web archive with 
+the given file name.
 
 To view the web page, unzip the archive into a folder on your PC or web
 server. The folder will contain an **index.html** file, the network
 data, and other files. You can open the **index.html** file in your
 browser (usually from your browser's **File → Open** menu item.)
-
-Note: Depending on your browser's security settings, you may not be able to
-open the **index.html** file directly if it is stored on your PC.
-Attempting to do so may result in an empty browser window. To display 
-the web page on your PC, you can install the CyWebrowser app, then 
-view the **index.html** file inside of its browser window.
-
-Alternately, you can start a local web server on your PC. An easy way 
-to do this is by running the Python simple HTTP server. If you
-have Python installed on your machine, just go into the web archive
-folder and type:
-
-    python -m SimpleHTTPServer 8000
-
-and use your browser to open:
-
-    http://localhost:8000/
-
-Testing the archive on your PC will serve as an easy test of the web
-page, but to publish it to collaborators, you should unzip your archive
-onto a web server.
 
 Here is an example exported file from Cytoscape:
 
