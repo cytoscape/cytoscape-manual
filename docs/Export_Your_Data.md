@@ -382,6 +382,36 @@ include the current network. Press OK to proceed with the export.
 For instructions on testing the customized web application, see
 *Generating a Full Web Application* above.
 
+<a id="extending_the_webpage_with_Cytoscape_JS_functionality"> </a>
+#### Extending the webpage with Cytoscape.JS functionality
+
+As of version 3.6.2 of the JSON Support core app in Cytoscape, the user
+may add custom [Cytoscape.JS events](http://js.cytoscape.org/#core/events)
+to the exported webpage.  In the web_session/scripts directory, a custom.js 
+file has been added with a designated spot for custom JS code.
+
+For example, to add linkouts to nodes in the webpage (i.e. opening a
+URL specified by the "href" node attribute when the user clicks the node), 
+the custom.js file should look like:
+
+```javascript
+// Notice that the `cy` object may only be referenced 
+// after the document has finished loading.
+
+$( document ).ready(function(){  
+  cy.on('tap', 'node', function(){
+    try { // your browser may block popups
+      window.open( this.data('href') );
+    } catch(e){ // fall back on url change
+      window.location.href = this.data('href');
+    }
+  });
+});
+```
+
+This change has to be made each time you export a web
+page. If you want to change the default export template, refer to the next section.
+
 <a id="customize_export_template_for_web_application_developers"> </a>
 #### Customize Export Template (For Web Application Developers)
 
