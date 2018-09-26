@@ -152,7 +152,7 @@ can be found
 ### View
 
 The **View** menu allows you to display or hide the **Control Panel**,
-**Table Panel**, **Tool Panel** and the **Result Panel**. It also
+**Table Panel**, **Result Panel**, **Tool Panel** and the **Automation Panel**. It also
 provides the control of other view-related functionality.
 
 ![ViewMenu37.png](_static/images/Quick_Tour/ViewMenu37.png)
@@ -170,8 +170,8 @@ edges.
 
 The **Layout** menu has an array of features for visually organizing the
 network. The features in the top portion of the network (**Bundle
-Edges**, **Clear Edge Bends**, **Rotate**, **Scale**, **Align and
-Distribute**) are tools for manipulating the network visualization. The
+Edges**, **Clear Edge Bends**, **Node Layout Tools**) are tools for 
+manipulating the network visualization. The
 bottom section of the menu lists a variety of layout algorithms which
 automatically lay a network out.
 
@@ -197,10 +197,9 @@ similar function.
 <a id="tools"> </a>
 ### Tools
 
-The **Tools** menu contains advanced features like the **[Command Line Dialog](Command_Tool.html#command-tool)**,
+The **Tools** menu contains advanced features like the **[Execute Command File...](Command_Tool.html)**,
 **[Network Analyzer](Network_Analyzer.html#networkanalyzer)**,
-**[Network Merge](Merge.html#merge)**
-and **Workflow**.
+**[Network Merge](Merge.html#merge)**, **Cytoscape Web Browser**, **Job Status Monitor**, **Run Script File...**, **Workflow** and **Diffuse**.
 
 ![ToolsMenu37.png](_static/images/Quick_Tour/ToolsMenu37.png)
 
@@ -218,9 +217,6 @@ The list will be different depending on the set of apps you have
 installed.
 
 ![Citations.png](_static/images/Quick_Tour/Citations.png)
-
-The **Update Organism Preset Networks** option updates the preset
-networks available on the **Welcome** screen to the latest version.
 
 The **Help** menu also allows you to connect directly to Cytoscape Help
 Desk and the Bug Report interface.
