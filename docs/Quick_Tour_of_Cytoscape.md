@@ -146,7 +146,7 @@ Preferences → Properties...**. More details on how to edit preferences
 can be found
 [here](Cytoscape_Preferences.html#cytoscape-preferences).
 
-![EditMenu.png](_static/images/Quick_Tour/EditMenu.png)
+![EditMenu37.png](_static/images/Quick_Tour/EditMenu37.png)
 
 <a id="view"> </a>
 ### View
@@ -155,7 +155,7 @@ The **View** menu allows you to display or hide the **Control Panel**,
 **Table Panel**, **Tool Panel** and the **Result Panel**. It also
 provides the control of other view-related functionality.
 
-![ViewMenu.png](_static/images/Quick_Tour/ViewMenu.png)
+![ViewMenu37.png](_static/images/Quick_Tour/ViewMenu37.png)
 
 <a id="select"> </a>
 ### Select
