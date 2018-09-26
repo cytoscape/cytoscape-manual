@@ -202,7 +202,7 @@ The **Tools** menu contains advanced features like the **[Command Line Dialog](C
 **[Network Merge](Merge.html#merge)**
 and **Workflow**.
 
-![ToolsMenu.png](_static/images/Quick_Tour/ToolsMenu.png)
+![ToolsMenu37.png](_static/images/Quick_Tour/ToolsMenu37.png)
 
 <a id="help"> </a>
 ### Help
