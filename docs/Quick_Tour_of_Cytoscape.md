@@ -230,7 +230,7 @@ loaded by the user and a view displays them.
 
 An example where a number of networks have been loaded is shown below:
 
-![MultipleNetworkView.png](_static/images/Quick_Tour/MultipleNetworkView.png)
+![MultipleNetworkView37.png](_static/images/Quick_Tour/MultipleNetworkView37.png)
 
 The network manager (in Control Panel) shows the networks that are
 loaded. Clicking on a network here will make that view active in the
