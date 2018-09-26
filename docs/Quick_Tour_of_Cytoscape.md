@@ -250,7 +250,7 @@ the network manager or by choosing the appropriate option in the
 Certain operations in Cytoscape will create new networks. If a new
 network is created from an old network, for example by selecting a set
 of nodes in one network and copying these nodes to a new network (via
-the **File → New → Network** option), it will be shown immediately
+the **File → New Network** option), it will be shown immediately
 follows the network that it was derived from.
 
 Network views can also be detached (undocked) from the main Cytoscape window. When detached, a view window can be dragged to another monitor, resized, maximized and minimized by using the normal window controls for your operating system. Notice, however, that closing a view window does not destroy it, but simply reattaches it to the Cytoscape window.
@@ -258,7 +258,7 @@ Network views can also be detached (undocked) from the main Cytoscape window. Wh
 <a id="arrange_network_windows"> </a>
 ### Arrange Network Windows
 
-When you have detached network view windows, you can arrange them by selecting one of these options under **View → Arrange Network Windows**:
+When you have detached network view windows, you can arrange them by selecting one of these options under **View → Arrange Detatched Views**:
 
 **Grid**
 
