@@ -163,7 +163,7 @@ provides the control of other view-related functionality.
 The **Select** menu contains different options for selecting nodes and
 edges.
 
-![SelectMenu.png](_static/images/Quick_Tour/SelectMenu.png)
+![SelectMenu37.png](_static/images/Quick_Tour/SelectMenu37.png)
 
 <a id="layout"> </a>
 ### Layout
@@ -175,7 +175,7 @@ Distribute**) are tools for manipulating the network visualization. The
 bottom section of the menu lists a variety of layout algorithms which
 automatically lay a network out.
 
-![LayoutMenu.png](_static/images/Quick_Tour/LayoutMenu.png)
+![LayoutMenu37.png](_static/images/Quick_Tour/LayoutMenu37.png)
 
 <a id="apps"> </a>
 ### Apps
