@@ -161,7 +161,7 @@ chosen direction.
 
 <a id="node_layout_tools"> </a>
 ## Node Layout Tools
-The Tool Panel is available via the menu command:  **View → Show Tool Panel**.
+The Tool Panel is available via the menu command **View → Show Tool Panel**, or via **Layout → Node Layout Tools**.
 
 It contains several **Node Layout Tools** that can help to automate or fine tune a layout.  
 
