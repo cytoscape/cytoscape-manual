@@ -30,7 +30,7 @@ Policy](Cytoscape_Privacy_Policy.html#cytoscape-privacy-policy)**.
 When a network is loaded, Cytoscape will look similar to the image
 below:
 
-![NetworkLoaded.png](_static/images/Quick_Tour/NetworkLoaded.png)
+![NetworkLoaded37.png](_static/images/Quick_Tour/NetworkLoaded37.png)
 
 Most functionalities are self-explanatory, but we'll go through a
 concise explanation for clarity. The main window here has several
@@ -74,7 +74,7 @@ have two Cytoscape windows, the main window, and a new window labeled
 Table Panel, similar to the one shown below. A popup will be displayed
 when you put the mouse pointer on a cell.
 
-![TablePanel.png](_static/images/Quick_Tour/TablePanel.png)
+![TablePanel37.png](_static/images/Quick_Tour/TablePanel37.png)
 
 Note that Table Panel now has a Dock Window control. If you click this
 control, the window will dock onto the main window. For more information
@@ -97,7 +97,7 @@ software. Detailed information on network editing can be found in the
 **[Editing Networks](Creating_Networks.html#create_a_new_network_or_edit_one_manually)**
 section.
 
-![AddNodeMenu.png](_static/images/Quick_Tour/AddNodeMenu.png)
+![AddNodeMenu37.png](_static/images/Quick_Tour/AddNodeMenu37.png)
 
 <a id="the_menus"> </a>
 ## The Menus
@@ -119,7 +119,7 @@ a single network as a Web page using Cytoscape.js.
 quick access. **File → Run** allows you to specify a Cytoscape script
 file to run, and **File → Print Current Network...** allows printing.
 
-![FileMenu.png](_static/images/Quick_Tour/FileMenu.png)
+![FileMenu37.png](_static/images/Quick_Tour/FileMenu37.png)
 
 <a id="edit"> </a>
 ### Edit
