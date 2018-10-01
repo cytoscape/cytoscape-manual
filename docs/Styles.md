@@ -700,16 +700,11 @@ network and display it along a color gradient.
 
 4. **Define a color palette.**  We encourage you to choose palette from the existing ones provided, but you can also choose the color states yourself and provide any number of intermediate colors.  Both methods are described here.
 
-  ![DefaultColorGradient.png](_static/images/Styles/redWhiteBlue.png)
+  ![redWhiteBlue.png](_static/images/Styles/redWhiteBlue.png)
 
 4A. **Choose a predefined palette from the Palette picker.**  These come from published recommendations for choosing colors in scientific and cartographic applications, such as [BrewerColors](http://colorbrewer2.org).  Click the button in the top left of the Continuous Mapping Editor to choose from a set of palettes.  Below shows the Set Palette dialog to choose a full palette.
  
-
-
-    ![DefaultColorGradient.png](_static/images/Styles/setPalette.png)
-
-
-
+    ![setPalette.png](_static/images/Styles/setPalette.png)
 
 4B.  **Define the points where colors will change:** Double-click on the
     black-and-white gradient rectangle next to **Current Mapping** to
