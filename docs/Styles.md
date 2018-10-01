@@ -698,7 +698,16 @@ network and display it along a color gradient.
 
     ![DefaultContinous.png](_static/images/Styles/DefaultContinous.png)
 
-4.  **Define the points where colors will change:** Double-click on the
+4. **Define a color palette.**  We encourage you to choose palette from the existing ones provided, but you can also choose the color states yourself and provide any number of intermediate colors.  Both methods are described here.
+
+4A. **Choose a predefined palette from the Palette picker.**  Click the button in the top left of the Continuous Mapping Editor to choose from a set of palettes.  These come from published recommendations for choosing colors in scientific and cartographic applications.
+ 
+ ![DefaultColorGradient.png](_static/images/Styles/DefaultColorGradient.png)
+
+
+- or -
+
+4B.  **Define the points where colors will change:** Double-click on the
     black-and-white gradient rectangle next to **Current Mapping** to
     open the **Continuous Mapping Editor**. Note the two smaller
     triangles at the top of the gradient.
