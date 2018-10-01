@@ -700,14 +700,16 @@ network and display it along a color gradient.
 
 4. **Define a color palette.**  We encourage you to choose palette from the existing ones provided, but you can also choose the color states yourself and provide any number of intermediate colors.  Both methods are described here.
 
-![DefaultColorGradient.png](_static/images/Styles/redWhiteBlue.png)
+  ![DefaultColorGradient.png](_static/images/Styles/redWhiteBlue.png)
 
-4A. **Choose a predefined palette from the Palette picker.**  Click the button in the top left of the Continuous Mapping Editor to choose from a set of palettes.  These come from published recommendations for choosing colors in scientific and cartographic applications.
+4A. **Choose a predefined palette from the Palette picker.**  These come from published recommendations for choosing colors in scientific and cartographic applications, such as [BrewerColors](http://colorbrewer2.org).  Click the button in the top left of the Continuous Mapping Editor to choose from a set of palettes.  Below shows the Set Palette dialog to choose a full palette.
  
-  ![DefaultColorGradient.png](_static/images/Styles/setPalette.png)
 
 
-- or -
+    ![DefaultColorGradient.png](_static/images/Styles/setPalette.png)
+
+
+
 
 4B.  **Define the points where colors will change:** Double-click on the
     black-and-white gradient rectangle next to **Current Mapping** to
@@ -856,7 +858,7 @@ assign up to nine images per node as a part of a Style.
     ![cgTutorial6.png](_static/images/Styles/cgTutorial6.png)
 
     Now the important nodes in the network (nodes with high [betweenness
-    centrality](http://en.wikipedia.org/wiki/Betweenness_centrality))
+centrality](http://en.wikipedia.org/wiki/Betweenness_centrality))
     are annotated with the icon:
 
     ![CustomGraphicsNodes2.png](_static/images/Styles/CustomGraphicsNodes2.png)
