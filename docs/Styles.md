@@ -702,7 +702,7 @@ network and display it along a color gradient.
 
 ![redWhiteBlue.png](_static/images/Styles/redWhiteBlue.png)
   
-4A. **Choose a predefined palette from the Palette picker.**  These come from published recommendations for choosing colors in scientific and cartographic applications, such as [BrewerColors](http://colorbrewer2.org).  Click the button in the top left of the Continuous Mapping Editor to choose from a set of palettes.  Below shows the **Set Palette** dialog to choose a full palette.
+4A. **Choose a predefined palette from the Palette picker.**  These come from published recommendations for choosing colors in scientific and cartographic applications, such as [BrewerColors](http://colorbrewer2.org).  Click the **Current Palette** button in the top left of the **Continuous Mapping Editor** to choose from a set of palettes.  Below shows the **Set Palette** dialog to choose a full palette.
  
 ![setPalette.png](_static/images/Styles/setPalette.png)
 
