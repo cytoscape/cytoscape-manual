@@ -371,13 +371,9 @@ You can browse networks in a number of ways:
 
     -   Find a network via a UUID sent to you by using the *uuid:* selector in your search (e.g., uuid:50e3dff7-133e-11e6-a039-06603eb7f303)
 
--   View network images by clicking the **Cards** button at the top of the network table
-
-![ndex_cards.png](_static/images/Creating_Networks/ndex_cards.png)
-
 CyNDEx-2, like NDEx,  uses standard [Lucene Syntax](http://www.google.com/url?q=http%3A%2F%2Flucene.apache.org%2Fcore%2F2_9_4%2Fqueryparsersyntax.html&sa=D&sntz=1&usg=AFQjCNET2XPlP7UAXyTDJzAoMf1zsv0Ccw) as its network search language. For additional information, see [Searching Networks in NDEx](http://home.ndexbio.org/finding-and-querying-networks/). More information about CyNDEx-2, see the [CyNDEx-2 App Store](http://apps.cytoscape.org/apps/cyndex2) page.
 
-Note that you can save networks back to the NDEx database by using [**Export** options](Export_Your_Data.html#export_ndex).
+Note that you can save networks back to the NDEx database by using [**Export** options](Export_Your_Data.md#export_ndex).
 
 <a id="create_a_new_network_or_edit_one_manually"> </a>
 ## Create a New Network or Edit One Manually
