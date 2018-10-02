@@ -27,6 +27,7 @@ Copyright (c) 2001-2017 The Cytoscape Consortium
    Finding_and_Filtering_Nodes_and_Edges
    Navigation_and_Layout
    Styles
+   Annotations
    App_Manager
    Command_Tool
    Merge
