@@ -2,13 +2,19 @@
 # Panels
 
 **Panels** are floatable/dockable panels designed to cut down on the number of pop-up windows within Cytoscape 
-and to create a more unified user experience. They are named based on their functions -- **Control Panel**, 
-**Table Panel**, **Tool Panel** and **Results Panel**. The following screenshot shows the file `galFiltered.sif` 
-loaded into Cytoscape, with a force-directed layout, **Rotate** tools showing in the **Tool Panel**, and with 
-results from Network Analyzer (**Tools → Network Analysis → Analyze Network**). The **Control Panel** (at the 
-left-hand side of the screen) contains the Network Manager, Network Overview, Styles and Select tabs. On the 
-bottom of the panel, there is another panel called **Tool Panel**. In the **Table Panel**, the **Node Table** 
-is shown. In addition, analysis results from Network Analyzer are shown in **Results Panel** (at the right-hand side). 
+and to create a more unified user experience. 
+
+There are five panels that can be visible or hidden.
+- Control Panel (left)
+- Tool Panel (bottlom left)
+- Table Panel (bottom right)
+- Results Panel (right)
+- Automation Panel (bottom)
+
+Each panel typically contains multiple tabs. For example the **Control Panel** contains at a minumum the **Network**,
+**Style**, **Select** and **Annotation** tabs. The **Table Panel** contains the **Node Table**, **Edge Table** and
+**Network Table** tabs. Analysis results from Network Analyzer (**Tools → Network Analysis → Analyze Network**) 
+are shown in **Results Panel**. Installed Apps may add additional tabs.
 
 ![DockWindow-v3_3_3.png](_static/images/Panels/DockWindow-v3_3_3.png)
 
@@ -20,16 +26,13 @@ and Results panels are floating:
 <a id="basic_usage"> </a>
 ## Basic Usage
 
-Cytoscape includes four Panels: the **Control Panel** on the left, **Tool Panel** on the bottom of 
-the **Control Panel**, the **Table Panel** on the bottom right, and the **Results Panel** on the right. 
-By default, only the **Control Panel** and the **Data Panel** will appear. The **Results Panel** may appear, 
-depending on the mix of Cytoscape apps that you currently have installed. The **Tool Panel** will appear when 
-you select the following commands under the **Layout** menu: **Rotate**, **Scale**, and **Align and Distribute**.
-
 All panels can be shown or hidden using the **View → Show/Hide** functions.
 
 ![cytopanel-menu-items.png](_static/images/Panels/cytopanel-menu-items.png)
 
+By default, only the **Control Panel** and the **Data Panel** will be shown. The **Results Panel** may appear, 
+depending on the mix of Cytoscape apps that you currently have installed. The **Tool Panel** will appear when 
+you select the following commands under the **Layout** menu: **Rotate**, **Scale**, and **Align and Distribute**.
 
 In addition, Panels can be floated or docked using icon buttons at the top right corner of each Panel. 
 The **Float Window** control 
