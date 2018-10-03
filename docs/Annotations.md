@@ -35,7 +35,7 @@ There are five types of annotations available:
 
    ![type_bounded_text.png](_static/images/Annotations/type_bounded_text.png)
 
-5. Arrows (connects two other annotations)
+5. Arrows (connects other annotations or nodes)
 
    ![type_arrow.png](_static/images/Annotations/type_arrow.png)
 
@@ -79,11 +79,11 @@ Alternatively, right click on the network canvas and select the annotation type 
 - The annotation will appear on the canvas. 
 
 ### Arrow
-- Creating an arrow annotation requires there to be two non-arrow annotations on the network canvas.
+- Creating an arrow annotation requires there to be at least one other annotation on the network canvas.
 - Click the button for arrow annotation.
 - Click on an annotation on the canvas, this will be the source annotation.
-- Click on another annotation on the canvas, this will be the destination annotation.
-- An arrow annotation appears connecting the two annotations.
+- Click on another annotation on the canvas or a node, this will be the destination.
+- An arrow annotation appears connecting the source and destination.
 
 
 ## Selecting Annotations
