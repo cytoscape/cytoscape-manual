@@ -1,24 +1,24 @@
 <a id="command_tool"> </a>
-# Command Tool
+# Automation Panel
 
-The **Command Line Tool** provides a simple command-line interface to
-Cytoscape using the Commands API. Any app that registers commands will
-be available through the Command Tool. Commands are part of the more general
+The **Automation Panel** provides a simple command-line interface to
+Cytoscape using the Commands API. It allows the user to type commands into
+Cytoscape and see the results in a **Reply Log**.
+
+Any app that registers commands will
+be available through the Automation Panel. Commands are part of the more general
 [Cytoscape Automation](Programmatic_Access_to_Cytoscape_Features_Scripting.html#cytoscape_automation) feature, 
 which includes multiple ways of scripting Cytoscape execution.
 
-The Command Tool provides two
-main functions: first, a Command Line Dialog is available from **Tools →
-Command Line Dialog**, that allows the user to type commands into
-Cytoscape and see the results in a "Reply Log".
+The Automation Panel can be opened from **View → Show/Hide Automation Panel**.
 
-![CommandTool.png](_static/images/Command_Tool/CommandTool.png)
+![AutomationPanel.png](_static/images/Command_Tool/AutomationPanel.png)
 
-Second, and arguably more useful, it will read script files and execute
-them. Each line in the script file is a command that is sent to a app.
+The Automation Panel can also be used to read and execute script files. 
+Each line in the script file is a command that is sent to a app.
 Script files may be entered on the Cytoscape command line using the "-S"
-flag to Cytoscape, through the **File → Run Script File...** menu item,
-or through **Tools → Execute Command File**.
+flag to Cytoscape, through the **Tools → Run Script File...** menu item,
+or through **Tools → Execute Command File** menu item.
 
 ![RunScriptCommands.png](_static/images/Command_Tool/RunScriptCommands.png)
 
