@@ -8,11 +8,11 @@ You can search for nodes and edges by column value directly through
 Cytoscape's tool bar. For example, to select nodes or edges with a
 column value that starts with "STE", type `ste*` in the search bar. The
 search is case-insensitive. The `*` is a wildcard character that matches
-zero or more characters, while "?" matches exactly one character. So
+zero or more characters, while `?` matches exactly one character. So
 `ste?` would match "STE2" but would not match "STE12". Searching for
 `ste*` would match both.
 
-![searchbar2.png](_static/images/Filters/searchbar2.png)
+![searchbar3.png](_static/images/Filters/searchbar3.png)
 
 To search a specific column, you can prefix your search term with the
 column name followed by a `:`. For example, to select nodes and edges
@@ -38,20 +38,20 @@ fixed in a future release.
 <a id="filters"> </a>
 ## Filters
 
-Cytoscape 3 provides a new user interface for filtering nodes and edges.
-These tools can be found in the **Select** panel:
+The **Select** tab in the **Control Panel** can be used to create selection
+expressions for selecting nodes and edges.
 
-![select-panel.png](_static/images/Filters/select-panel.png)
+![select-panel2.png](_static/images/Filters/select-panel2.png)
 
-There are two types of filters. On the **Filter** tab are *narrowing*
-filters, which can be combined into a tree. On the **Chain** tab are
-*chainable* filters, which can be combined in a linear chain.
+There are two tabs: 
+1. On the **Filter** tab are *narrowing* filters, which can be combined into a tree. 
+2. On the **Chain** tab are *chainable* transformers, which can be combined in a linear chain.
 
 <a id="narrowing_filters"> </a>
 ### Narrowing Filters
 
-Narrowing filters are applied to the entire network, and are used to
-select a subset of nodes or edges in a network based on user-specified
+Narrowing filters are applied to all the nodes and edges in the network, and are used to
+select a subset of the nodes and edges based on user-specified
 constraints. For example, you can find edges with a weight between 0 and
 5.5, or nodes with degree less than 3. A filter can contain an arbitrary
 number of sub-filters.
@@ -74,32 +74,66 @@ automatically disables this interactivity. You can override this by
 manually checking the **Apply when filter changes** box above the **Apply**
 button:
 
-![apply-automatically.png](_static/images/Filters/apply-automatically.png)
+![apply-automatically2.png](_static/images/Filters/apply-automatically2.png)
+
+The **Apply** button will re-apply the active filter. On the opposite side of the progress
+bar is the cancel button, which will let you interrupt a long-running filter.
 
 Cytoscape comes packaged with the following narrowing filters:
 
 <a id="column_filter"> </a>
 #### Column Filter
 
-This filter will match nodes or edges that have particular column
-values. For numeric columns sliders are provided to set minimum and
-maximum values, or the values may be entered manually.
+Column filters will match nodes or edges that have particular column
+values. Depending on the column data type a variety of matching options are provided:
 
-From string columns, a variety of matching options are provided:
+- **Numeric Columns**
+  - A slider is shown that represents the minimum and maximum values in the column.
+    Drag the two handles to select a range of values.
+  - The range values may also be entered manually.
+  - Options:
+    - **is**: Selects values that are inside the range.
+    - **is not**: Selects values that are outside the range.
 
-![string-column.png](_static/images/Filters/string-column.png)
+    ![column-numeric.png](_static/images/Filters/column-numeric.png)
 
-For example, column values can be checked to see if they contain or
-match exactly the text entered in the text box. More complex matching
-criteria can be specified by using a Java-style regular expression.
 
-By default string matching is case insensitive. Case sensitive matching
-requires the use of a regular expression that starts with "(?-i)". For
-example to match the text "ABC" in a case sensitive way use the
-following regular expression: "(?-i)ABC".
+- **String Columns**
+  - The text entered in the text box will be matched against the column values 
+    depending on the following options.
+  - Options:
+    - **contains**: Selects values that contain the text.
+    - **doesn't contain**: Selects values that do not contain the text.
+    - **is**: Selects values that match the text exactly (case-insensitive).
+    - **is not**: Selects values that do not match the text exactly (case-insensitive).
+    - **regex**: Selects values that match a regular expression using [Java regular expression
+      syntax](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html). This allows for much more
+      sophisticated matching than is provided by the above options.
+  - By default string matching is case insensitive. Case sensitive matching
+    requires the use of a regular expression that starts with "(?-i)". For
+    example to match the text "ABC" in a case sensitive way use the
+    following regular expression: "(?-i)ABC".
 
-Cytoscape uses [Java regular expression
-syntax](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html).
+    ![column-string.png](_static/images/Filters/column-string.png)
+
+
+- **Boolean Columns**
+  - Boolean colums can only contain three values: true, false or blank.
+  - Options:
+    - **true**: Selects values that are true.
+    - **false**: Selects values that are false.
+
+    ![column-boolean.png](_static/images/Filters/column-boolean.png)
+
+
+- **List Columns**
+  - Column filters for list columns are similar to their non-list counterparts, however
+    there is one additional option...
+    - **any element**: Matches if any value in the list matches the filter.
+    - **each element**: Matches only if all of the values in the list match the filter.
+
+    ![column-list.png](_static/images/Filters/column-list.png)
+
 
 <a id="degree_filter"> </a>
 #### Degree Filter
@@ -132,7 +166,7 @@ suppose you wanted to match nodes with column *COMMON* containing `ste`
 or `cdc`, but you only want nodes with degree 5 or more, you'd first
 construct a filter that looks like this:
 
-![sample-group2.png](_static/images/Filters/sample-group2.png)
+![group1.png](_static/images/Filters/group1.png)
 
 This filter will match nodes where **COMMON** contains `ste` **and**
 `cdc`. To change this to a logical **or** operation, drag either of the
@@ -141,31 +175,36 @@ column filters by its handle
 onto the other column filter to create a new group. Now change the
 group's matching behavior to **Match any**:
 
-![sample-group1.png](_static/images/Filters/sample-group1.png)
+![group2.png](_static/images/Filters/group2.png)
 
 You can also reorder filters by dropping them in-between existing
 filters.
 
 <a id="chainable_filters"> </a>
-### Chainable Filters
+### Chainable Transformers
+
+The input to a chainable transformer is a set of nodes and edges, either the nodes and edges
+that are currently selected in the network, or the output of a narrowing filter. Chainable
+transformers can filter out nodes/edges, or include more nodes/edges. For example a chainable
+transformer can add nodes that are neighbours of the nodes in the input. 
 
 Chainable filters are combined in an ordered list. The nodes and edges
-in the output of a filter become the input of the next filter in the
-chain. The first filter in the chain gets its input from the current
+in the output of a transformer become the input of the next transformer in the
+chain. The first transformer in the chain gets its input from the current
 selection or from a filter on the **Filter** tab. The output of the last
-filter becomes the new selection.
+transformer becomes the new selection.
 
-You can specify the input to the first filter in the chain by selecting
+You can specify the input to the first transformer in the chain by selecting
 a **Start with**, where **Current selection** refers to the nodes and
 edges currently selected. You can also choose a narrowing filter, which
 produces a different set of selected nodes and edges.
 
-![ChainFilter1.png](_static/images/Filters/ChainFilter1.png)
+![chain-filter1.png](_static/images/Filters/chain-filter1.png)
 
-Chainable filters can be reordered by dragging one by the handle and
-dropping it between existing filters.
+Chainable transformer can be reordered by dragging one by the handle and
+dropping it between existing transformer.
 
-Cytoscape currently bundles the following chainable filters:
+Cytoscape currently bundles the following chainable transformers:
 
 <a id="edge_interaction_transformer"> </a>
 #### Edge Interaction Transformer
@@ -249,12 +288,8 @@ The name of active filter appears in the drop-down box at the top of
 to rename, remove or export the active filter. It also lets you create a
 new filter, or import filters.
 
-![select-panel-options.png](_static/images/Filters/select-panel-options.png)
+![select-panel-options2.png](_static/images/Filters/select-panel-options2.png)
 
-At the bottom of the **Select** panel, there is an **Apply** button that
-will re-apply the active filter. On the opposite side of the progress
-bar is the cancel button, which will let you interrupt a long-running
-filter.
 
 <a id="diffusion"> </a>
 ## Diffusion
