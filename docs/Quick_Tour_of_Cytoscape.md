@@ -1,7 +1,7 @@
 <a id="quick_tour_of_cytoscape"> </a>
 # Quick Tour of Cytoscape
 
-This chapter describes the basic layout and mechanics of using Cytoscape. If you would prefer to learn by doing, consider starting with the [Basic Expression Analysis Tutorial](https://cytoscape.org/cytoscape-tutorials/protocols/basic-data-visualization/#/) tutorial.
+This chapter describes the basic layout and mechanics of using Cytoscape. If you would prefer to learn by doing, consider starting with the [Basic Expression Analysis Tutorial](https://cytoscape.org/cytoscape-tutorials/protocols/basic-data-visualization/#/).
 
 <a id="welcome_screen"> </a>
 ## Starter Panel
