@@ -10,7 +10,7 @@ confidence values in a protein-protein interaction. These column data
 can then be visualized in a user-defined way by setting up a mapping
 from columns to network properties (colors, shapes, and so on). The
 section on
-**[Styles](Styles.html#styles#)**
+**[Styles](Styles.md#styles#)**
 discusses this in greater detail.
 
 <a id="import_data_table_files"> </a>
@@ -290,7 +290,7 @@ via web services, for example from
 
 1.  Load a network, for example galFiltered.sif.
 
-2.  Select **File → Import → Table → Public Databases...**.
+2.  Select **File → Import → Table from Public Databases...**.
 
 3.  You will first be asked to select from a set of web services. For
     this example, we will choose **ENSEMBL GENES 73 (SANGER UK)**.
