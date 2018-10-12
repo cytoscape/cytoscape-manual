@@ -55,10 +55,10 @@ the CyREST interface.
 <a id="commands"> </a>
 ## Commands
 
-![CommandTool.png](_static/images/ProgrammaticAccess/CommandTool.png)
+![AutomationPanel.png](_static/images/Command_Tool/AutomationPanel.png)
 
 ***Commands*** is the built-in Cytoscape feature to automate your
-workflow as simple script. You can learn more about Commands in the [Command Tool](Command_Tool.html#command-tool)
+workflow as simple script. You can learn more about Commands in the [Command Tool](Command_Tool.md#command-tool)
 section.
 
 <a id="restful_api"> </a>
@@ -120,7 +120,7 @@ Note that Swagger pages reflect functionality in Cytoscape at the time it execut
 
 CyREST enables access to Cytoscape Automation features from workflows written in high level languages (e.g., [R](http://www.r-project.org/) and [Python](https://www.python.org/)) and executing in separate environments (e.g., [RStudio](https://www.rstudio.com/) and [Jupyter](https://jupyter.org/)) on the Cytoscape workstation. A workflow can call Commands and Functions either directly via CyREST or via language-specific interface libraries. 
 
-To directly call CyREST Commands and Functions from a workflow, see the [mini-tutorial](Programmatic_Access_to_Cytoscape_Features_Scripting.html#exploring_cyrest_commands_and_functions). 
+To directly call CyREST Commands and Functions from a workflow, see the [mini-tutorial](Programmatic_Access_to_Cytoscape_Features_Scripting.md#exploring_cyrest_commands_and_functions). 
 
 To understand and get started using language-specific libraries, visit the [Cytoscape Automation web page (https://github.com/cytoscape/cytoscape-automation/wiki)](https://github.com/cytoscape/cytoscape-automation/wiki). The [Workflow Index page](https://github.com/cytoscape/cytoscape-automation/wiki/Workflow-Index) contains useful code samples, and the [Sample Scripts page](https://github.com/cytoscape/cytoscape-automation/tree/master/for-scripters) contains working demonstration projects.
 
