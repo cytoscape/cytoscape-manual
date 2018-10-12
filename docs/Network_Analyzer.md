@@ -75,7 +75,7 @@ parameters. Examples of local parameters are node degree, neighborhood
 connectivity, topological and clustering coefficients. Betweenness and
 closeness centralities, as well as stress, are global parameters.
 
-[NetworkAnalyzer](Network_Analyzer.html#networkanalyzerdemo)
+NetworkAnalyzer
 provides the **Analyze Subset of Nodes** option for computing local
 parameters for a subset of nodes. If one or more nodes in the network
 are selected before starting an analysis, only the sub-network induced
@@ -120,8 +120,7 @@ simple steps:
 ### Load Network Statistics
 
 Existing network statistics can be loaded from a file saved previously
-in
-[NetworkAnalyzer](Network_Analyzer.html#networkanalyzerdemo).
+in NetworkAnalyzer.
 
 <a id="plot_parameters"> </a>
 ### Plot Parameters
