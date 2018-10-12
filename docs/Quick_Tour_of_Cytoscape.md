@@ -1,7 +1,7 @@
 <a id="quick_tour_of_cytoscape"> </a>
 # Quick Tour of Cytoscape
 
-This chapter describes the basic layout and mechanics of using Cytoscape. If you would prefer to learn by doing, consider starting with the [Basic Expression Analysis Tutorial](Basic_Expression_Analysis_Tutorial.html#basic-expression-analysis-tutorial) chapter.
+This chapter describes the basic layout and mechanics of using Cytoscape. If you would prefer to learn by doing, consider starting with the [Basic Expression Analysis Tutorial](https://cytoscape.org/cytoscape-tutorials/protocols/basic-data-visualization/#/) tutorial.
 
 <a id="welcome_screen"> </a>
 ## Starter Panel
@@ -22,7 +22,7 @@ time by choosing **View → Show Starter Panel**.
 
 For
 information on user privacy, see the **[Cytoscape Privacy
-Policy](Cytoscape_Privacy_Policy.html#cytoscape-privacy-policy)**.
+Policy](Cytoscape_Privacy_Policy.md#cytoscape-privacy-policy)**.
 
 <a id="basic_features"> </a>
 ## Basic Features
@@ -79,7 +79,7 @@ when you put the mouse pointer on a cell.
 Note that Table Panel now has a Dock Window control. If you click this
 control, the window will dock onto the main window. For more information
 on the panels in Cytoscape, see the
-**[Panels](Panels.html#what-are-panels)**
+**[Panels](Panels.md#what-are-panels)**
 section.
 
 <a id="network_editing"> </a>
@@ -94,7 +94,7 @@ Edge**. Then select the target node, a new edge will be added between
 the two nodes. In a similar way annotation objects can be added;
 pictures, shapes or textboxes; much like in MS PowerPoint or similar
 software. Detailed information on network editing can be found in the
-**[Editing Networks](Creating_Networks.html#create_a_new_network_or_edit_one_manually)**
+**[Editing Networks](Creating_Networks.md#create_a_new_network_or_edit_one_manually)**
 section.
 
 ![AddNodeMenu37.png](_static/images/Quick_Tour/AddNodeMenu37.png)
@@ -144,7 +144,7 @@ selected network.
 Editing preferences for properties and apps is found under **Edit →
 Preferences → Properties...**. More details on how to edit preferences
 can be found
-[here](Cytoscape_Preferences.html#cytoscape-preferences).
+[here](Cytoscape_Preferences.md#cytoscape-preferences).
 
 ![EditMenu37.png](_static/images/Quick_Tour/EditMenu37.png)
 
@@ -197,9 +197,9 @@ similar function.
 <a id="tools"> </a>
 ### Tools
 
-The **Tools** menu contains advanced features like the **[Execute Command File...](Command_Tool.html)**,
-**[Network Analyzer](Network_Analyzer.html#networkanalyzer)**,
-**[Network Merge](Merge.html#merge)**, **Cytoscape Web Browser**, **Job Status Monitor**, **Run Script File...**, **Workflow** and **Diffuse**.
+The **Tools** menu contains advanced features like the **[Execute Command File...](Command_Tool.md)**,
+**[Network Analyzer](Network_Analyzer.md#networkanalyzer)**,
+**[Network Merge](Merge.md#merge)**, **Cytoscape Web Browser**, **Job Status Monitor**, **Run Script File...** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.md#diffusion)**.
 
 ![ToolsMenu37.png](_static/images/Quick_Tour/ToolsMenu37.png)
 
