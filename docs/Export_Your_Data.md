@@ -3,7 +3,7 @@
 
 ## Raw Data Export
 
-![export\_menu_36.png](_static/images/Export/export_menu_36.png)
+![export\_menu_37.png](_static/images/Export/export_menu_37.png)
 
 To use data from Cytoscape networks in an external application, the data has to be exported.
 As a Cytoscape network consists of a number of different types of data, there are options 
@@ -225,7 +225,7 @@ preloaded with your network for anyone to see.
 To use
 [CyNetShare](http://idekerlab.github.io/cy-net-share/):
 
-1.  Select **File → Export → Network...** to export your
+1.  Select **File → Export → Network to File...** to export your
     network to a public directory. Choose the *Cytoscape.js
     JSON (\*.cyjs)* export file format.
 
