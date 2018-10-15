@@ -197,9 +197,9 @@ similar function.
 <a id="tools"> </a>
 ### Tools
 
-The **Tools** menu contains advanced features like **[Execute Command File...](Command_Tool.md)**,
-**[Network Analyzer](Network_Analyzer.md#networkanalyzer)**,
-**[Network Merge](Merge.md#merge)**, **Cytoscape Web Browser**, **Job Status Monitor**, **Run Script File...** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.md#diffusion)**.
+The **Tools** menu contains advanced features like **[Network Analyzer](Network_Analyzer.md#networkanalyzer)**, **Cytoscape Web Browser**, **[Network Merge](Merge.md#merge)**, **[Execute Command File...](Command_Tool.md)**, **Job Status Monitor**, **Run Script File...** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.md#diffusion)**.
+
+**Cytoscape Web Browser** allows for viewing any html page directly in Cytoscape. The web browser can be opened in a separate window or can be launched in the Results Panel. 
 
 ![ToolsMenu37.png](_static/images/Quick_Tour/ToolsMenu37.png)
 
