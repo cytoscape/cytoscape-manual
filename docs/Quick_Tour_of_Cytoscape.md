@@ -209,7 +209,7 @@ The **Tools** menu contains advanced features like **[Network Analyzer](Network_
 The **Help** menu allows you to launch the online help viewer and browse
 the table of contents for this manual (**Contents**).
 
-![HelpMenu.png](_static/images/Quick_Tour/HelpMenu.png)
+![HelpMenu37.png](_static/images/Quick_Tour/HelpMenu37.png)
 
 The **Citations** option displays the main literature citation for
 Cytoscape, as well as a list of literature citations for installed apps.
