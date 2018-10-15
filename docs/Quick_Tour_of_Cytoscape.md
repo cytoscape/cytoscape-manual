@@ -163,7 +163,7 @@ provides the control of other view-related functionality.
 The **Select** menu contains different options for selecting nodes and
 edges.
 
-![SelectMenu37.png](_static/images/Quick_Tour/SelectMenu37.png)
+![SelectMenu37.png](_static/images/Quick_Tour/SelectMenu37.png | width=100)
 
 <a id="layout"> </a>
 ### Layout
@@ -197,7 +197,7 @@ similar function.
 <a id="tools"> </a>
 ### Tools
 
-The **Tools** menu contains advanced features like the **[Execute Command File...](Command_Tool.md)**,
+The **Tools** menu contains advanced features like **[Execute Command File...](Command_Tool.md)**,
 **[Network Analyzer](Network_Analyzer.md#networkanalyzer)**,
 **[Network Merge](Merge.md#merge)**, **Cytoscape Web Browser**, **Job Status Monitor**, **Run Script File...** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.md#diffusion)**.
 
