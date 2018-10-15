@@ -40,6 +40,3 @@ how to merge the networks. The options available here are:
     merged network should be named and its data type.
 
 ![Advanced Network Merge Options](_static/images/Merge/AdvancedNetworkMergeOptions.png)
-
-<a id="merge_tables"> </a>
-## Merge Tables
