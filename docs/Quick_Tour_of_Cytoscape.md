@@ -163,7 +163,7 @@ provides the control of other view-related functionality.
 The **Select** menu contains different options for selecting nodes and
 edges.
 
-![SelectMenu37.png](_static/images/Quick_Tour/SelectMenu37.png | width=100)
+![SelectMenu37.png](_static/images/Quick_Tour/SelectMenu37.png)
 
 <a id="layout"> </a>
 ### Layout
