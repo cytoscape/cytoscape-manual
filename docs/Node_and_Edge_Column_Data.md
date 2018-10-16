@@ -288,6 +288,8 @@ which will create a namespace **compartment** with several associated columns.
 It is then possible to perform operations such as **Show/Hide** on all columns 
 in a namespace.
 
+![TablePanelNamespace.png](_static/images/Columns/TablePanelNamespace.png)
+
 <a id="import_data_table_from_public_databases"> </a>
 ## Import Data Table from Public Databases
 
