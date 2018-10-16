@@ -42,7 +42,7 @@ from the **File → Import → Table → File...** user interface.
 
 ![ImportColumnsFromTable.png](_static/images/Columns/ImportColumnsFromTable.png)
 
-1.  Select **File → Import → Table → File...**.
+1.  Select **File → Import → Table from File...**.
 
 2.  Select a data file. The file can be either a text or
     Excel (.xls/.xlsx) file.
@@ -277,6 +277,16 @@ the Table Panel!** To remove columns from the panel without deleting
 them, simply unselect the column using the **Select Columns**
 ![ShowColumns.png](_static/images/Columns/ShowColumns.png)
 button.
+
+Columns in the Table Panel can be renamed by right-clicking on the column
+header and selecting **Rename Column...**. The Table Panel supports name spaces,
+so if you have several columns with related information, you can create a namespace.
+Namespace and column name are separated by a double colon (::). For example, if the data
+includes multiple columns with cellular compartment information, you can edit the 
+column titles in the format **compartment::cytosol**, **compartment::endosome** etc, 
+which will create a namespace **compartment** with several associated columns. 
+It is then possible to perform operations such as **Show/Hide** on all columns 
+in a namespace.
 
 <a id="import_data_table_from_public_databases"> </a>
 ## Import Data Table from Public Databases
