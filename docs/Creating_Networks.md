@@ -17,8 +17,8 @@ There are 4 different ways of creating networks in Cytoscape:
 Network files can be specified in any of the formats described in the
 **[Supported Network
 Formats](Supported_Network_File_Formats.md#supported-network-file-formats)**
-section. Networks are imported into Cytoscape through the **File →
-Import → Network menu**. The network file can either be located directly
+section. Networks are imported into Cytoscape via **File →
+Import**. The network file can either be located directly
 on the local computer, or found on a remote computer (in which case it
 will be referenced with a URL).
 
@@ -26,7 +26,7 @@ will be referenced with a URL).
 ### Load Networks from Local Computer
 
 In order to load a network from a local file you can select **File →
-Import → Network → File...** or click on
+Import → Network from File...** or click on
 ![Cy3\_icon\_net\_file\_import.png](_static/images/Creating_Networks/Cy3_icon_net_file_import.png)
 on the tool bar. Choose the correct file in the file chooser dialog and
 press Open. Some sample network files of different types have been
@@ -50,7 +50,7 @@ from the command line using the -N option.
 ### Load Networks from a Remote Computer (URL import)
 
 To load a network from a remote file, you can select **File → Import →
-Network → URL...**. In the import network dialog, insert the appropriate
+Network from URL...**. In the import network dialog, insert the appropriate
 URL, either manually or using URL bookmarks. Bookmarked URLs can be
 accessed by clicking on the arrow to the right of the text field (see
 the Bookmark Manager in
@@ -73,7 +73,7 @@ section.
 ## Import Networks from Unformatted Table Files
 
 Cytoscape supports the import of networks from delimited text files and
-Excel workbooks using **File → Import → Network → File...**. An
+Excel workbooks using **File → Import → Network from File...**. An
 interactive GUI allows users to specify parsing options for specified
 files. The screen provides a preview that shows how the file will be
 parsed given the current configuration. As the configuration changes,
@@ -87,7 +87,7 @@ interaction type. For detailed instructions, see Basic Operations below.
 <a id="supported_files"> </a>
 ### Supported Files
 
-The **Import Network from Table** function supports delimited text files
+The import function supports delimited text files
 and Microsoft Excel Workbooks. For Excel Workbooks with multiple sheets,
 one sheet can be selected for import at a time. The following is a
 sample table file:
@@ -151,7 +151,7 @@ files are available at [http://wiki.cytoscape.org/Data_Sets/](http://wiki.cytosc
 
 To import network from text/Excel tables, please follow these steps:
 
-1.  Select **File → Import → Network → File...** or click on
+1.  Select **File → Import → Network from File...** or click on
     ![Cy3\_icon\_net\_file\_import.png](_static/images/Creating_Networks/Cy3_icon_net_file_import.png)
     on the tool bar.
 
@@ -248,14 +248,14 @@ cells in the table must use the same delimiter).
 <a id="import_networks_from_public_databases"> </a>
 ## Import Networks from Public Databases
 
-Cytoscape has a feature called **Import Network from Public Databases**.
+Cytoscape allows you to import networks from public databases.
 Users can access various kinds of databases through this function, under
-**File → Import → Network → Public Databases...**. As of Cytoscape 3.6, a
-new **Search bar** is also available at the top of the **Network** panel in the 
+**File → Import → Network from Public Databases...**. A **Search bar** is 
+also available at the top of the **Network** panel in the 
 **Control Panel**. From the search bar, you can direclty access several public 
 databases.
 
-![SearchBar.png](_static/images/Creating_Networks/SearchBar.png)
+![NetworkSearch.png](_static/images/Creating_Networks/NetworkSearch.png)
 
 <a id="what_is_a_web_service"> </a>
 ### What is a Web Service?
@@ -291,59 +291,7 @@ using this framework. Cytoscape supports many web services including:
 -   [NDEx](http://www.ndexbio.org/): The Network Data Exchange (NDEx) Project provides an open-source framework 
     where scientists and organizations can share, store, manipulate, and publish 
     biological network knowledge. NDEx is available from the **Search bar**.
-
-The following sections describe how to import network from external
-databases.
-
-<a id="example:_retrieving_protein_protein_interaction_networks_from_multiple_databases"> </a>
-### Example: Retrieving Protein-Protein Interaction Networks from Multiple Databases
-
--   In the **Search bar**, select PSICQUIC from the drop-down menu and type in one or more 
-    search terms, such as BRCA1.
-
--   Click **Enter** to start the search.
-
--   Select databases from the hits.
-
-![PSICQUIC-search.png](_static/images/Creating_Networks/PSICQUIC-search.png)
-
--   Click the **Import** button to import selected network data. 
-
-![psi2.png](_static/images/Creating_Networks/psi2.png)
-
-After confirming the download of interaction data, the network of BRCA1
-will be imported and visualized.
-
-![psi3.png](_static/images/Creating_Networks/psi3.png)
-
-**Tip: Expanding the Network:** Several of the Cytoscape web services
-provide additional options in the node context menu. To access these
-options, right-click on a node and select **Apps → Extend Network by
-public interaction database...**. For example, in the screenshot, we
-have loaded the BRCA1 network from IntAct, and have chosen to merge this
-node's neighbors into the existing network.
-
-<a id="psicquic_options"> </a>
-#### PSICQUIC Options
-
-PSICQUIC Web Service Client has three search modes:
-
--   Search by ID
-
--   Search by MIQL
-
--   Search by Species
-
-By default, search mode is set to **Search by ID**. You can search all
-databases by ID, such as gene symbol, Uniprot ID, or NCBI gene ID. If
-the search mode is set to MIQL, you can use
-[MIQL (https://psicquic.github.io/MiqlDefinition.html)](https://psicquic.github.io/MiqlDefinition.html) for
-search. If you want to search interactions by keywords or specific
-functions, this is the powerful query language to filter the result. The
-last option is for importing all interactions for the species (i.e.,
-interactome).
-
-<a id="example:_retrieving_networks_from_ndex"> </a>
+    
 ### Example: Retrieving Networks from NDEx
 
 -   In the **Search bar**, select CyNDEx-2 from the drop-down menu and type in one or more 
@@ -379,8 +327,8 @@ Note that you can save networks back to the NDEx database by using [**Export** o
 ## Create a New Network or Edit One Manually
 
 A new, empty network can also be created and nodes and edges manually
-added. To create an empty network, go to **File → New → Network → Empty
-Network**, and then manually add network components by right clicking on
+added. To create an empty network, go to **File → New Network → Empty**, 
+and then manually add network components by right clicking on
 the network canvas or on a node. You can edit an existing network using
 the same process.
 
