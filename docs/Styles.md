@@ -165,7 +165,7 @@ property.
 
 Additional sample styles are available in the `sampleStyles.xml` file in
 the *sampleData* directory. You can import the sample file from **File →
-Import → Styles...**.
+Import → Styles from File...**.
 
 <a id="list_of_node_edge_and_network_properties"> </a>
 ### List of Node, Edge and Network Properties
@@ -597,7 +597,7 @@ The goal of this tutorial is to learn how to create a new Style and set
 some default values.
 
 1.  **Load a sample network:** From the main menu, select **File →
-    Import → Network → File...**, and select
+    Import → Network from File...**, and select
     `sampleData/galFiltered.sif`.
 
 2.  **Create some node/edge statistics:** The **Network Analyzer**
@@ -865,7 +865,7 @@ The goal of this tutorial is to learn how to create and customize node
 charts from data stored in the Node tables.
 
 1.  Start a new session and load a sample network. From the main menu,
-    select **File → Import → Network → File...**, and select
+    select **File → Import → Network from File...**, and select
     `sampleData/galFiltered.sif`.
 
 2.  Create some node/edge statistics using the **Network Analyzer**.
@@ -1190,10 +1190,9 @@ on the track.
 ### Importing Styles
 
 To import existing styles, navigate to the menu option **File → Import →
-Styles...** and select a `styles.xml` (Cytoscape 3 format) file.
+Styles from File...** and select a `styles.xml` (Cytoscape 3 format) file.
 Imported properties will supplement existing properties or override
 existing ones if the properties have the same name. You can also specify
 a style file using the -V command line option. Properties loaded from
 the command line will override any default properties. Note that legacy
-`.props` files can only be loaded via the **File → Import → Styles...**
 menu, but not by command line.
