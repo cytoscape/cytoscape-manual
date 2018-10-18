@@ -162,7 +162,7 @@ filters. You can change this so that instead, only the constraints of at
 least one filter needs to be met in order to match a node or edge. This
 behavior is controlled by the **Match all/any** drop-down box. This
 appears once your filter has more than one sub-filter. For example,
-suppose you wanted to match nodes with column *COMMON* containing `ste`
+suppose you wanted to match nodes with column **COMMON** containing `ste`
 or `cdc`, but you only want nodes with degree 5 or more, you'd first
 construct a filter that looks like this:
 
