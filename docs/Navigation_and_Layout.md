@@ -69,9 +69,12 @@ There are two ways to pan the network:
 <a id="select"> </a>
 ### Select
 
-- Click the left mouse button on a node or edge to select that element.
-- Hold down the ``Shift`` or ``Ctrl`` key (``Command`` on Macs) and left-click a node or edge to add it to the selection. Doing the same on a selected element unselects it.
-- Hold down the left mouse button on the canvas background and drag the mouse while holding down the ``Shift`` or ``Ctrl`` key (``Command`` on Macs) to select groups of nodes/edges.
+- Click the left mouse button on a node, edge or annotation to select that element.
+- Hold down the ``Shift`` or ``Ctrl`` key (``Command`` on Macs) and left-click a node, edge or annotation to add it to the selection. Doing the same on a selected element unselects it.
+- Hold down the left mouse button on the canvas background and drag the mouse while holding down the ``Shift`` or ``Ctrl`` key (``Command`` on Macs) to select groups of nodes/edges/annotations.
+- Remember that the selection action (mouse click or drag-selection) only works if the **Selection Mode** for that element type (i.e. nodes, edges, annotations) is enabled. In order to enable or disable the selection of an element type, just toggle its corresponding button at the bottom of the network view (see image below) or use the options under the menu **Select → Mouse Drag Selects**.
+
+![SelectionModeButtons.png](_static/images/Navigation_Layout/SelectionModeButtons.png)
 
 <a id="context"> </a>
 ### Context
