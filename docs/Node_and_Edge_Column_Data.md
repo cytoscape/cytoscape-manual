@@ -35,7 +35,7 @@ The data table file should contain a primary key column and at least one
 data column. The maximum number of data columns is unlimited. The
 **Alias** column is an optional feature, as is using the first row of
 data as column names. Alternatively, you can specify each column name
-from the **File → Import → Table → File...** user interface.
+from the **File → Import → Table from File...** user interface.
 
 <a id="basic_operation"> </a>
 ### Basic Operation
