@@ -106,18 +106,17 @@ section.
 ### File
 
 The File menu contains most basic file functionality: **File → Open**
-for opening a Cytoscape session file; **File → New** for creating a new
+for opening a Cytoscape session file; **File → New Network** for creating a new
 network, either blank for editing, or from an existing network; **File →
 Save** for saving a session file; **File → Import** for importing data
 such as networks and tables; and **File → Export** for exporting data. 
-**File → Export as Image** lets you export the
+**File → Export Network to Image** lets you export the
 network in either JPEG, PDF, PNG, PostScript or SVG format.
-**File → Export as Web Page** lets you export the entire session or
+**File → Export Network to Web Page** lets you export the entire session or
 a single network as a Web page using Cytoscape.js.
 
 **File → Recent Session** will list recently opened session files for
-quick access. **File → Run** allows you to specify a Cytoscape script
-file to run, and **File → Print Current Network...** allows printing.
+quick access. **File → Print...** allows printing.
 
 ![FileMenu37.png](_static/images/Quick_Tour/FileMenu37.png)
 
