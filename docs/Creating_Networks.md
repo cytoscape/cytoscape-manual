@@ -294,7 +294,7 @@ using this framework. Cytoscape supports many web services including:
     
 ### Example: Retrieving Networks from NDEx
 
--   In the **Search bar**, select CyNDEx-2 from the drop-down menu and type in one or more 
+-   In the **Search bar**, select NDEx from the drop-down menu and type in one or more 
     search terms, such as BRCA1.
 
 -   Click **Enter** to start the search.
@@ -322,6 +322,10 @@ You can browse networks in a number of ways:
 CyNDEx-2, like NDEx,  uses standard [Lucene Syntax](http://www.google.com/url?q=http%3A%2F%2Flucene.apache.org%2Fcore%2F2_9_4%2Fqueryparsersyntax.html&sa=D&sntz=1&usg=AFQjCNET2XPlP7UAXyTDJzAoMf1zsv0Ccw) as its network search language. For additional information, see [Searching Networks in NDEx](http://home.ndexbio.org/finding-and-querying-networks/). More information about CyNDEx-2, see the [CyNDEx-2 App Store](http://apps.cytoscape.org/apps/cyndex2) page.
 
 Note that you can save networks back to the NDEx database by using [**Export** options](Export_Your_Data.md#export_ndex).
+
+It is also possible to access the NDEx browse and save dialogs via the NDEx button in the main Cytoscape toolbar, which will display two menu actions on click.
+
+![ndex_toolbar.png](_static/images/Creating_Networks/ndex_toolbar.png)
 
 <a id="create_a_new_network_or_edit_one_manually"> </a>
 ## Create a New Network or Edit One Manually
