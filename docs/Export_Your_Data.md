@@ -23,7 +23,11 @@ When you select either option, the CyNDEx-2 Browser dialog will appear and enabl
 
 ![ndex\_save.png](_static/images/Export/ndex_save.png)
 
-You can set the name of your network by editing the **Network Name** attribute at the bottom. The **Save as a New Network** option enables you to create a new network instead of overwriting an existing NDEx network of the same name. If you choose to make your network public, you must fill in the **Version** and **Description** attributes. Choose the **Save as Public** option to enable collaborators to load your network.
+You can set the name of your network by editing the **Network Name** attribute at the bottom. The **Update Existing Network** option enables you to overwrite an existing NDEx network if you have permission. If you choose to make your network public, you must fill in the **Version** and **Description** attributes. Choose the **Save as Public** option to enable collaborators to load your network.
+
+Menu actions have also been added to the network and collection context menus in the Cytoscape Network panel, as another method of accessing the network save dialog.
+
+![ndex\_context\_menus.png](_static/images/Export/ndex_context_menus.png)
 
 When the export to NDEx is complete, you will be given an opportunity to capture the network's UUID in your clipboard. The UUID is suitable for e-mailing to colleagues so they can load your network via their Cytoscape [**Search bar**](Creating_Networks.md#example-retrieving-networks-from-ndex) (provided you selected the **Save as Public** option). For more sharing options, see the [NDEx Public Server](http://ndexbio.org) website.
 
