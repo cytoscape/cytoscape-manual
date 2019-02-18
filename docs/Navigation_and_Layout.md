@@ -376,7 +376,7 @@ Attributes Layout → taxonomy**.
 
 The force-directed layout is a layout based on the "force-directed"
 paradigm. This layout is based on the algorithm implemented as part of
-the [prefuse toolkit (http://www.prefuse.org/)](http://www.prefuse.org/) provided by Jeff Heer.
+the prefuse toolkit <!--[prefuse toolkit (http://www.prefuse.org/)](http://www.prefuse.org/)-->provided by Jeff Heer.
 The algorithm is very fast and with the right parameters can provide a
 very visually pleasing layout. The **Force Directed Layout** will also
 accept a numeric edge column to use as a weight for the length of the
