@@ -102,7 +102,7 @@ details for a given style and is used to edit these details as well.
         the property. Clicking on the **Mapping** column for any
         property expands the property entry to show the interface for
         editing the mapping. Details on the mapping types provided
-        [here](Styles.md#how-mappings-work).
+        [here](Styles.html#how-mappings-work).
 
     -   **Bypass** displays any style bypass for a selected node
         or edge. Note that a node/edge or subset of nodes/edges must be
