@@ -66,7 +66,7 @@ The configuration of Cytoscape group view may also be edited through
 
 ![Preferences\_groups.png](_static/images/Preferences/Preferences_groups.png)
 
-Note that Group Preferences apply to [node groups](Creating_Networks.md#grouping-nodes) established after the group preferences are set. They do not apply to groups that already exist. 
+Note that Group Preferences apply to [node groups](Creating_Networks.html#grouping-nodes) established after the group preferences are set. They do not apply to groups that already exist. 
 
 The **Group Preferences** dialog provides access to three **Group View Settings** and all of the **Attribute Aggregation Settings**.
 There are two interacting settings involved in the group view and group interaction:
