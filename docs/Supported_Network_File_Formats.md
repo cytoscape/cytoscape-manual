@@ -27,7 +27,7 @@ formats:
 -   [Cytoscape.js
     JSON](http://cytoscape.github.io/cytoscape.js/#notation/elements-json)
     
--   [Cytoscape CX](https://github.com/CyComponent/CyWiki/blob/master/docs/CX/CX.md)    
+-   [Cytoscape CX](https://github.com/CyComponent/CyWiki)    
 
 The SIF format specifies nodes and interactions only, while other
 formats store additional information about network layout and allow
@@ -524,7 +524,7 @@ read the [Style](Styles.html#styles) section for more details.
 CX is a JSON-based transfer format that enables diverse Cytoscape Cyberinfrastructure (CI) services to exchange networks while preserving all network-related information.
 It is designed for flexibility, modularity, and extensibility, and as a message payload in common CI REST protocols. It enables applications to standardize on core aspects of networks, coordinate on more specific or unique standards, and to ignore or omit irrelevant aspects. It is not intended as an optimized format for storage or for specific functionality in applications.
  
-CX is an Aspect-Oriented Network Interchange Format, where the base information is a list of nodes. Independent data structures (called aspects) organize and elaborate on nodes and each other. The core of CX defines five aspects, though a more comprehensive [CX document](https://github.com/CyComponent/CyWiki/blob/master/docs/CX/CX.md) describes many more aspects.
+CX is an Aspect-Oriented Network Interchange Format, where the base information is a list of nodes. Independent data structures (called aspects) organize and elaborate on nodes and each other. The core of CX defines five aspects, though a more comprehensive [CX document](https://github.com/CyComponent/CyWiki) describes many more aspects.
 
 <table cellspacing="0" style="table-layout: fixed; width: 700px">
 <colgroup> <col style="width:200px">                              <col style="width:500px"> </colgroup>
@@ -547,7 +547,7 @@ As an illustration using the picture below, a three node network can be describe
 
 ![cx_example.png](_static/images/Network_Formats/cx_example.png)
 
-The actual JSON encoding for a CX stream is described in the [CX document](https://github.com/CyComponent/CyWiki/blob/master/docs/CX/CX.md). It would appear something like this: 
+The actual JSON encoding for a CX stream is described in the [CX document](https://github.com/CyComponent/CyWiki). It would appear something like this: 
 
     {
       "nodes": [{"@id": 1}, {"@id": 2}, {"@id": 3}],
