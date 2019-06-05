@@ -14,10 +14,9 @@ There are 4 different ways of creating networks in Cytoscape:
 <a id="import_fixed_format_network_files"> </a>
 ## Import Fixed-Format Network Files
 
-Network files can be specified in any of the formats described in the
-**[Supported Network
-Formats](Supported_Network_File_Formats.html#supported-network-file-formats)**
-section. Networks are imported into Cytoscape via **File →
+Network files can be specified in any of the formats described on the
+**[Supported Network Formats](Supported_Network_File_Formats.html)**
+page. Networks are imported into Cytoscape via **File →
 Import**. The network file can either be located directly
 on the local computer, or found on a remote computer (in which case it
 will be referenced with a URL).
