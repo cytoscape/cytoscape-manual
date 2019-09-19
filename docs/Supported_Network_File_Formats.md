@@ -16,8 +16,6 @@ formats:
 
 -   BioPAX
 
--   PSI-MI Level 1 and 2.5
-
 -   GraphML
 
 -   Delimited text
@@ -277,15 +275,6 @@ biological pathways data. The complete set of documents for this format
 is available at:
 
 [http://www.biopax.org/](http://www.biopax.org/)
-
-<a id="psi_mi_format"> </a>
-## PSI-MI Format
-
-The PSI-MI format is a data exchange format for protein-protein
-interactions. It is an XML format used to describe PPI and associated
-data. PSI-MI XML format specification is available at:
-
-[http://psidev.sourceforge.net/mi/xml/doc/user/](http://psidev.sourceforge.net/mi/xml/doc/user/)
 
 <a id="graphml"> </a>
 ## GraphML
