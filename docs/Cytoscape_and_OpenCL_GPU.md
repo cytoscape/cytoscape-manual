@@ -91,5 +91,5 @@ Microsoft also has [documentation for the registry keys that need to changed](ht
 
 ### My problem is not listed here
 Try to install drivers for your CPU and run on the CPU platform (see links above). CPU platforms offer lower performance, but are generally more reliable.
-If this does not help you, ask for help in the 
-[Cytoscape helpdesk mailing list](https://groups.google.com/forum/#!forum/cytoscape-helpdesk).
+If this does not help you, ask for help in a 
+[Cytoscape-tagged StackOverflow post](https://stackoverflow.com/questions/tagged/cytoscape?sort=newest).
