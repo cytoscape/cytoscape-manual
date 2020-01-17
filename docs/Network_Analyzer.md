@@ -24,13 +24,13 @@ for undirected and directed networks, including:
 
 To run Analyzer, select **Tools → Analyze Network**.
 
-![NetworkAnalyzer.png](_static/images/Network_Analyzer/NetworkAnalyzer.png)
+![Analyzer.png](_static/images/Network_Analyzer/Analyzer.png)
 
 Analyzer will run different statistics depending on whether the network is directed or undirected.  The app will guess which type of network it is based on the definition of a target arrow style, but since this is not 
 
 When results are calculated, they will appear in the **Results Panel**.
 
-![NetworkAnalyzerResults.png](_static/images/Network_Analyzer/NetworkAnalyzerResults.png)
+![AnalyzerResults.png](_static/images/Network_Analyzer/AnalyzerResults.png)
 
 The results have multiple tabs. Details on the network parameters can be
 found
