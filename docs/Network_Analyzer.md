@@ -30,7 +30,7 @@ Analyzer will run different statistics depending on whether the network is direc
 
 When results are calculated, they will appear in the **Results Panel**.
 
-![AnalyzerResultsPanel.png](_static/images/Network_Analyzer/AnalyzerResults.png)
+![AnalyzerResultsPanel.png](_static/images/Network_Analyzer/AnalyzerResultsPanel.png)
 
 The results have multiple tabs. Details on the network parameters can be
 found
