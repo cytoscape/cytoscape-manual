@@ -38,7 +38,7 @@ fixed in a future release.
 <a id="filters"> </a>
 ## Filters
 
-The **Select** tab in the **Control Panel** can be used to create selection
+The **Filter** tab in the **Control Panel** can be used to create selection
 expressions for selecting nodes and edges.
 
 ![select-panel2.png](_static/images/Filters/select-panel2.png)
@@ -78,6 +78,10 @@ button:
 
 The **Apply** button will re-apply the active filter. On the opposite side of the progress
 bar is the cancel button, which will let you interrupt a long-running filter.
+
+You also have the option to use the filter to show only the selected nodes by checking 
+the **show** button. The **select** button is checked by default and simply selects nodes
+that pass the filter.
 
 Cytoscape comes packaged with the following narrowing filters:
 
