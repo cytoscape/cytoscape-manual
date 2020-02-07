@@ -156,7 +156,7 @@ Program Launch icon (Windows).
 
 After launching Cytoscape a window will appear that looks like this:
 
-![Welcome\_37.png](_static/images/Quick_Tour/Welcome37.png)
+![Welcome\_38.png](_static/images/Launching_Cytoscape/Welcome_38.png)
 
 *If your Cytoscape window does not resemble this, further configuration
 may be required. Consult the **Release Notes** available on the
