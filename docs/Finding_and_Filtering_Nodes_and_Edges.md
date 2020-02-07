@@ -53,7 +53,7 @@ There are two tabs:
 Narrowing filters are applied to all the nodes and edges in the network, and are used to
 select a subset of the nodes and edges based on user-specified
 constraints. For example, you can find edges with a weight between 0 and
-5.5, or nodes with degree less than 3. A filter can contain an arbitrary
+5.5, or nodes with degree less than 3 (connecting to 3 or less edges). A filter can contain an arbitrary
 number of sub-filters.
 
 To add a filter click on the "+" button. To delete a filter (and all its
