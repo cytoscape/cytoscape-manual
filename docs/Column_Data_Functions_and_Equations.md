@@ -49,7 +49,7 @@ Currently we support the following functions:
 
 #### Cytoscape-specific functions
 
--   Degree -- the degree of a node.
+-   Degree -- the degree of a node, meaning how many edges connect to it.
 
 -   InDegree -- the indegree of a node.
 
