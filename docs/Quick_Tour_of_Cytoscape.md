@@ -30,7 +30,7 @@ Policy](Cytoscape_Privacy_Policy.html#cytoscape-privacy-policy)**.
 When a network is loaded, Cytoscape will look similar to the image
 below:
 
-![NetworkLoaded37.png](_static/images/Quick_Tour/NetworkLoaded37.png)
+![NetworkLoaded38.png](_static/images/Quick_Tour/NetworkLoaded38.png)
 
 Most functionalities are self-explanatory, but we'll go through a
 concise explanation for clarity. The main window here has several
@@ -45,7 +45,7 @@ components:
     appear as a tooltip. Right-clicking on the tool bar allows the
     contents to be customized.
 
--   The Network Panel (Network tab of the Control Panel, top left). 
+-   The Network Panel (Network tab of the Control Panel). 
     At the top of the Network Panel is a Search bar, with direct access 
     to multiple external resources. The network panel also
     contains an optional network overview pane (shown at the
@@ -74,7 +74,7 @@ have two Cytoscape windows, the main window, and a new window labeled
 Table Panel, similar to the one shown below. A popup will be displayed
 when you put the mouse pointer on a cell.
 
-![TablePanel37.png](_static/images/Quick_Tour/TablePanel37.png)
+![TablePanel38.png](_static/images/Quick_Tour/TablePanel38.png)
 
 Note that Table Panel now has a Dock Window control. If you click this
 control, the window will dock onto the main window. For more information
