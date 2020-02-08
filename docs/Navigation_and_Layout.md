@@ -264,7 +264,7 @@ of what each button does.
 From Cytoscape 3.0, **Edge Bend** is a regular edge property and can be
 used as a part of a **Style**. Just like any other edge property, you
 can select a Default Value, a Mapping and use Bypass for select nodes.
-In the Styles tab, select the **Bend** property from the **Properties**
+In the Style tab, select the **Bend** property from the **Properties**
 drop-down and click on either the Default Value, Mapping or Bypass cell
 to bring up the **Edge Bend Editor**. In the editor, you can add as many
 handles as you want to the edge using Alt-Click on Windows, Option-Click
