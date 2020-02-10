@@ -59,15 +59,17 @@ components:
 
 The Network Panel and Table Panel are dockable tabbed Panels. You can
 undock any of these panels by clicking on the **Float Window** control
-![FloatWindow-v31.png](_static/images/Quick_Tour/FloatWindow-v31.png)
+![FloatWindow.png](_static/images/Quick_Tour/FloatWindow.png)
 in the upper-right corner of the CytoPanel. This is useful when you want
 assign the network panel as much screen space as possible. To dock the
 window again, click the **Dock Window** icon
 ![DockWindow.png](_static/images/Quick_Tour/DockWindow.png).
-Clicking the **Hide Panel** icon
-![HideWindow.png](_static/images/Quick_Tour/HideWindow.png)
-will hide the panel; this can be shown again by choosing **View → Show**
-and selecting the relevant panel.
+Clicking the **Minimize** icon
+![Minimize.png](_static/images/Quick_Tour/Minimize.png)
+will minimize the panel; the panel can be shown again by choosing **View → Show**
+and selecting the relevant panel, or by clicking on one of the tabs in the 
+minimized panel, for example **Network** or **Node Table**, and then clicking 
+the **Dock** icon.
 
 If you click this control, for example on the Table Panel, you will now
 have two Cytoscape windows, the main window, and a new window labeled
