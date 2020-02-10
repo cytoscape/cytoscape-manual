@@ -61,27 +61,23 @@ The Network Panel and Table Panel are dockable tabbed Panels. You can
 undock any of these panels by clicking on the **Float Window** control
 ![FloatWindow.png](_static/images/Quick_Tour/FloatWindow.png)
 in the upper-right corner of the CytoPanel. This is useful when you want
-assign the network panel as much screen space as possible. To dock the
-window again, click the **Dock Window** icon
+assign the network panel as much screen space as possible. You will now
+have two Cytoscape windows, the main window, and a new window labeled
+Table Panel, similar to the one shown below. A popup will be displayed
+when you put the mouse pointer on a cell.
+
+To dock the window again, click the **Dock Window** icon
 ![DockWindow.png](_static/images/Quick_Tour/DockWindow.png).
-Clicking the **Minimize** icon
-![Minimize.png](_static/images/Quick_Tour/Minimize.png)
+
+Clicking the **Minimize** icon ![Minimize.png](_static/images/Quick_Tour/Minimize.png)
 will minimize the panel; the panel can be shown again by choosing **View → Show**
 and selecting the relevant panel, or by clicking on one of the tabs in the 
 minimized panel, for example **Network** or **Node Table**, and then clicking 
 the **Dock** icon.
 
-If you click this control, for example on the Table Panel, you will now
-have two Cytoscape windows, the main window, and a new window labeled
-Table Panel, similar to the one shown below. A popup will be displayed
-when you put the mouse pointer on a cell.
-
 ![TablePanel38.png](_static/images/Quick_Tour/TablePanel38.png)
 
-Note that Table Panel now has a Dock Window control. If you click this
-control, the window will dock onto the main window. For more information
-on the panels in Cytoscape, see the
-**[Panels](Panels.html#what-are-panels)**
+For more information on the panels in Cytoscape, see the **[Panels](Panels.html#what-are-panels)**
 section.
 
 <a id="network_editing"> </a>
@@ -147,7 +143,7 @@ Preferences → Properties...**. More details on how to edit preferences
 can be found
 [here](Cytoscape_Preferences.html#cytoscape-preferences).
 
-![EditMenu37.png](_static/images/Quick_Tour/EditMenu37.png)
+![EditMenu.png](_static/images/Quick_Tour/EditMenu.png)
 
 <a id="view"> </a>
 ### View
@@ -231,7 +227,7 @@ loaded by the user and a view displays them.
 
 An example where a number of networks have been loaded is shown below:
 
-![MultipleNetworkView37.png](_static/images/Quick_Tour/MultipleNetworkView37.png)
+![MultipleNetworkView.png](_static/images/Quick_Tour/MultipleNetworkView.png)
 
 The network manager (in Control Panel) shows the networks that are
 loaded. Clicking on a network here will make that view active in the
@@ -287,4 +283,4 @@ in the network view window, and it can be dragged with the mouse to view
 other portions of the network. Zooming in will cause the rectangle to
 appear smaller and vice versa. You can show or hide it by clicking the "Show/Hide Navigator" button ![ViewNavigatorControl.png](_static/images/Quick_Tour/ViewNavigatorControl.png) or pressing the key "N".
 
-![network\_overview\_34.png](_static/images/Quick_Tour/network_overview_34.png)
+![NetworkOverview.png](_static/images/Quick_Tour/NetworkOverview.png)
