@@ -113,7 +113,7 @@ network in either JPEG, PDF, PNG, PostScript or SVG format.
 **File → Export Network to Web Page** lets you export the entire session or
 a single network as a Web page using Cytoscape.js.
 
-**File → Recent Session** will list recently opened session files for
+**File → Open Recent** will list recently opened session files for
 quick access. **File → Print...** allows printing.
 
 ![FileMenu37.png](_static/images/Quick_Tour/FileMenu37.png)
@@ -131,14 +131,17 @@ yet visualized), as well as an option for deleting selected nodes and
 edges from the current network. All deleted nodes and edges can be
 restored to the network via **Edit → Undo**.
 
-There are also other editing options; **Remove Duplicated Edges** will
+Other editing options include; **Remove Duplicated Edges** will
 delete edges that are duplicates (having the same source and target nodes), keeping one edge, **Remove
 Self-Loops** removes edges that have the same source and target node,
 and **Delete Selected Nodes and Edges...** deletes a selected subset of
 the network. **Rename Network...** allows you to rename the currently
 selected network.
 
-Editing preferences for properties and apps is found under **Edit →
+A set of functions for bringing annotations forward, backward etc, and pushing/pulling
+them to the foreground vs background layer are also available in the Edit menu.
+
+Editing preferences for properties and apps are found under **Edit →
 Preferences → Properties...**. More details on how to edit preferences
 can be found
 [here](Cytoscape_Preferences.html#cytoscape-preferences).
@@ -148,9 +151,10 @@ can be found
 <a id="view"> </a>
 ### View
 
-The **View** menu allows you to display or hide the **Control Panel**,
-**Table Panel**, **Result Panel**, **Tool Panel** and the **Automation Panel**. It also
-provides the control of other view-related functionality.
+The **View** menu allows you to display or hide panels, including the **Control Panel**,
+**Table Panel**, **Result Panel**, **Tool Panel** and the **Automation Panel**. In addition, it
+also provides a means for viewing the **Starter Panel**. 
+It also provides the control of other view-related functionality.
 
 ![ViewMenu37.png](_static/images/Quick_Tour/ViewMenu37.png)
 
@@ -194,19 +198,21 @@ similar function.
 <a id="tools"> </a>
 ### Tools
 
-The **Tools** menu contains advanced features like **[Network Analyzer](Network_Analyzer.html#networkanalyzer)**, **Cytoscape Web Browser**, **[Network Merge](Merge.html#merge)**, **[Execute Command File...](Command_Tool.html)**, **Job Status Monitor**, **Run Script File...** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.html#diffusion)**.
+The **Tools** menu contains advanced features like **cyCharts**, **[Network Analyzer](Network_Analyzer.html#networkanalyzer)**, **Cytoscape Web Browser**, **[Network Merge](Merge.html#merge)**, **[Execute Command File...](Command_Tool.html)**, **Job Status Monitor**, **Run Script File...** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.html#diffusion)**.
 
 **Cytoscape Web Browser** allows for viewing any html page directly in Cytoscape. The web browser can be opened in a separate window or can be launched in the Results Panel. 
 
-![ToolsMenu37.png](_static/images/Quick_Tour/ToolsMenu37.png)
+![ToolsMenu.png](_static/images/Quick_Tour/ToolsMenu.png)
 
 <a id="help"> </a>
 ### Help
 
-The **Help** menu allows you to launch the online help viewer and browse
-the table of contents for this manual (**Contents**).
+The **Help** menu allows you to launch the online help viewer and browse and search this manual.
+It also provides direct access to a **Tour of Cytoscape**, as well as a full listing
+of Cytoscape tutorials. Tutorial content opens automatically in the **Cytoscape Web Browser**. 
+Video demos are also linked to direclty from the Help menu. 
 
-![HelpMenu37.png](_static/images/Quick_Tour/HelpMenu37.png)
+![HelpMenu.png](_static/images/Quick_Tour/HelpMenu.png)
 
 The **Citations** option displays the main literature citation for
 Cytoscape, as well as a list of literature citations for installed apps.
