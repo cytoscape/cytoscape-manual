@@ -12,7 +12,7 @@ to these properties will be saved in .props files under the
 Cytoscape properties are configurable using the Add, Modify and Delete
 buttons as seen below.
 
-![Preferences\_cy3.png](_static/images/Preferences/Preferences_cy3.png)
+![](_static/images/Preferences/Preferences_cy3.png)
 
 App properties may also be edited in the same way as editing Cytoscape
 properties. For example, to edit the properties of Linkout, select
@@ -20,7 +20,7 @@ properties. For example, to edit the properties of Linkout, select
 store properties inside session files in addition to (or instead of)
 storing them in the `CytoscapeConfiguration` directory.
 
-![Preferences\_linkout.png](_static/images/Preferences/Preferences_Linkout.png)
+![](_static/images/Preferences/Preferences_Linkout.png)
 
 <a id="managing_bookmarks"> </a>
 ## Managing Bookmarks
@@ -30,7 +30,7 @@ sample network files located on the Cytoscape web server. Users may add,
 modify, and delete bookmarks through the Bookmark manager, accessed by
 going to **Edit → Preferences → Bookmarks...**.
 
-![Preferences\_bookmarks.png](_static/images/Preferences/Preferences_bookmarks.png)
+![](_static/images/Preferences/Preferences_bookmarks.png)
 
 There are currently several types of bookmarks (based on data
 categories), including network and table. Network bookmarks are URLs
@@ -44,7 +44,7 @@ table files.
 You can define and configure a proxy server for Cytoscape by going to
 **Edit → Preferences → Proxy Settings...**.
 
-![Preferences\_proxy.png](_static/images/Preferences/Preferences_proxy.png)
+![](_static/images/Preferences/Preferences_proxy.png)
 
 After the proxy server is set, all network traffic related to loading a
 network from URL will pass through the proxy server. Cytoscape apps use
@@ -64,7 +64,7 @@ set the Proxy type to "direct" and click the OK button.
 The configuration of Cytoscape group view may also be edited through
 **Edit → Preferences → Group Preferences...**.
 
-![Preferences\_groups.png](_static/images/Preferences/Preferences_groups.png)
+![](_static/images/Preferences/Preferences_groups.png)
 
 Note that Group Preferences apply to [node groups](Creating_Networks.html#grouping-nodes) established after the group preferences are set. They do not apply to groups that already exist. 
 
@@ -104,7 +104,7 @@ Attribute aggregation only occurs when the group is collapsed or when the group 
 You can choose between one or more OpenCL drivers installed on your system by going to
 **Edit → Preferences → OpenCL Settings...**.
 
-![Preferences\_opencl.png](_static/images/Preferences/Preferences_opencl.png)
+![](_static/images/Preferences/Preferences_opencl.png)
 
 OpenCL is a library that enables Cytoscape to use your system's graphics processing unit (GPU)
 to accelerate certain layouts and other calculations. If no choices are presented, consult
