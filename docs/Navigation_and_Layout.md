@@ -20,7 +20,7 @@ Use the zooming buttons located on the toolbar to zoom in
 and out of the interaction network shown in the current network display.
 Zoom icons are detailed below:
 
-![image049.png](_static/images/Navigation_Layout/image049.png)
+![](_static/images/Navigation_Layout/image049.png)
 
 From Left to Right:
 
@@ -73,10 +73,10 @@ There are two ways to pan the network:
 - Hold down the ``Shift`` or ``Ctrl`` key (``Command`` on Macs) and left-click a node, edge or annotation to add it to the selection. Doing the same on a selected element unselects it.
 - Hold down the left mouse button on the canvas background and drag the mouse while holding down the ``Shift`` or ``Ctrl`` key (``Command`` on Macs) to select groups of nodes/edges/annotations.
 - Remember that the selection action (mouse click or drag-selection) only works if the **Selection Mode** for that element type (i.e. nodes, edges, annotations) is enabled. In order to enable or disable the selection of an element type, just toggle its corresponding button at the bottom of the network view (see image below) or use the options under the menu **Select → Mouse Drag Selects**.
-![SelectionModeButtons.png](_static/images/Navigation_Layout/SelectionModeButtons.png)
-  - So if you don't want any **nodes** to be selected, toggle the button ![selection-mode-nodes.png](_static/images/Navigation_Layout/selection-mode-nodes.png) off.
-  - And if you don't want any **edges** to be selected, toggle the button ![selection-mode-edges.png](_static/images/Navigation_Layout/selection-mode-edges.png) off.
-  - Likewise, if you don't want any **annotations** to be selected, toggle the button ![selection-mode-annotations.png](_static/images/Navigation_Layout/selection-mode-annotations.png) off.
+![](_static/images/Navigation_Layout/SelectionModeButtons.png)
+  - So if you don't want any **nodes** to be selected, toggle the button ![](_static/images/Navigation_Layout/selection-mode-nodes.png) off.
+  - And if you don't want any **edges** to be selected, toggle the button ![](_static/images/Navigation_Layout/selection-mode-edges.png) off.
+  - Likewise, if you don't want any **annotations** to be selected, toggle the button ![](_static/images/Navigation_Layout/selection-mode-annotations.png) off.
 
 <a id="context"> </a>
 ### Context
@@ -175,11 +175,11 @@ The images below show selected (yellow) nodes scaled to 50% of the default value
 
 **Before**
 
-![NodeTools1.png](_static/images/Navigation_Layout/NodeTools1.png)
+![](_static/images/Navigation_Layout/NodeTools1.png)
 
 **After**
 
-![NodeToolsScaled.png](_static/images/Navigation_Layout/NodeToolsScaled.png)
+![](_static/images/Navigation_Layout/NodeToolsScaled.png)
 <a id="rotate"> </a>
 ### Rotate
 
@@ -189,11 +189,11 @@ network with selected nodes rotated 90 degrees.
 
 **Before**
 
-![NodeTools1.png](_static/images/Navigation_Layout/NodeTools1.png)
+![](_static/images/Navigation_Layout/NodeTools1.png)
 
 **After**
 
-![NodeToolsRotated.png](_static/images/Navigation_Layout/NodeToolsRotated.png)
+![](_static/images/Navigation_Layout/NodeToolsRotated.png)
 
 
 <a id="align_distribute_and_stack"> </a>
@@ -270,16 +270,16 @@ to bring up the **Edge Bend Editor**. In the editor, you can add as many
 handles as you want to the edge using Alt-Click on Windows, Option-Click
 on Mac, or Ctrl-Alt-Click on Linux.
 
-![edbeBend1.png](_static/images/Navigation_Layout/edbeBend1.png)
+![](_static/images/Navigation_Layout/edbeBend1.png)
 
-![bundle1.png](_static/images/Navigation_Layout/bundle1.png)
+![](_static/images/Navigation_Layout/bundle1.png)
 
 To clear all edge bends, select **Layout → Clear All Edge Bends**.
 
 In addition to adding handles manually, you can use the **Bundle Edges**
 function to bundle all or selected edges automatically.
 
-![bundle2.png](_static/images/Navigation_Layout/bundle2.png)
+![](_static/images/Navigation_Layout/bundle2.png)
 
 1.  Select **Layout → Bundle Edges → All Nodes and Edges**.
 
@@ -320,7 +320,7 @@ layout algorithms are:
 <a id="grid_layout"> </a>
 ### Grid Layout
 
-![grid\_layout.png](_static/images/Navigation_Layout/grid_layout.png)
+![](_static/images/Navigation_Layout/grid_layout.png)
 
 The grid layout is a simple layout the arranges all of the nodes in a
 square grid. This is the default layout and is always available as part
@@ -330,7 +330,7 @@ Layout**. A sample screen shot is shown above.
 <a id="edge-weighted_spring-embedded_layout"> </a>
 ### Edge-weighted Spring-Embedded Layout
 
-![spring.png](_static/images/Navigation_Layout/spring.png)
+![](_static/images/Navigation_Layout/spring.png)
 
 The spring-embedded layout is based on a "force-directed" paradigm as
 implemented by Kamada and Kawai (1988). Network nodes are treated like
@@ -346,7 +346,7 @@ Embedded**.
 <a id="attribute_circle_layout"> </a>
 ### Attribute Circle Layout
 
-![attribute\_circle\_layout.png](_static/images/Navigation_Layout/attribute_circle_layout.png)
+![](_static/images/Navigation_Layout/attribute_circle_layout.png)
 
 The **Attribute Circle** layout is a quick, useful layout, particularly
 for small networks, that will locate all of the nodes in the network
@@ -360,7 +360,7 @@ subset of the galFiltered network organized by node degree.
 <a id="group_attributes_layout"> </a>
 ### Group Attributes Layout
 
-![group\_by\_attributes\_layout.png](_static/images/Navigation_Layout/group_by_attributes_layout.png)
+![](_static/images/Navigation_Layout/group_by_attributes_layout.png)
 
 The **Group Attributes** layout is similar to the **Attribute Circle**
 layout described above except that instead of a single circle with all
@@ -372,7 +372,7 @@ Attributes Layout → taxonomy**.
 <a id="prefuse_force_directed_layout"> </a>
 ### Prefuse Force Directed Layout
 
-![force\_layout.png](_static/images/Navigation_Layout/force_layout.png)
+![](_static/images/Navigation_Layout/force_layout.png)
 
 The force-directed layout is a layout based on the "force-directed"
 paradigm. This layout is based on the algorithm implemented as part of
@@ -390,7 +390,7 @@ provided above.
 <a id="compound_spring_embedder_layout"> </a>
 ### Compound Spring Embedder Layout
 
-![cose\_layout.png](_static/images/Navigation_Layout/cose_layout.png)
+![](_static/images/Navigation_Layout/cose_layout.png)
 
 The [Compound Spring Embedder (CoSE)](http://www.sciencedirect.com/science/article/pii/S0020025508004799)
 layout is based on the traditional force-directed
@@ -403,7 +403,7 @@ It is available by selecting **Layout → Compound Spring Embedder (CoSE)**.
 <a id="yfiles_circular_layout"> </a>
 ### Circular Layout
 
-![yCircular.png](_static/images/Navigation_Layout/yCircular.png)
+![](_static/images/Navigation_Layout/yCircular.png)
 
 This algorithm produces layouts that emphasize group and tree structures
 within a network. It partitions the network by analyzing its
@@ -414,7 +414,7 @@ This algorithm is available by selecting **Layout → Circular Layout**.
 <a id="yfiles_hierarchical_layout"> </a>
 ### Hierarchical Layout
 
-![yHir.png](_static/images/Navigation_Layout/yHir.png)
+![](_static/images/Navigation_Layout/yHir.png)
 
 The hierarchical layout algorithm is good for representing main
 direction or "flow" within a network. Nodes are placed in hierarchically
@@ -428,7 +428,7 @@ algorithm is available by selecting **Layout → Hierarchical Layout**.
 The Copycat layout uses node positions in one network to lay out nodes in another network. Selecting **Layout → Copycat Layout** 
 displays a dialog box that allows you to select the source network (which is already laid out) and the target network (which needs layout). By default, Copycat matches nodes in the source and target networks by node name, but you can choose any node attribute for this match. 
 
-![copycat.png](_static/images/Navigation_Layout/copycat.png)
+![](_static/images/Navigation_Layout/copycat.png)
 
 As options, you can use **Select unmapped nodes** to cause Copycat to select target nodes that were not matched by nodes in the source network. This allows you to move them and possibly lay them out using other layout algorithms. You can use the **Layout unmapped nodes in a grid** option to preemptively move the unmatched target nodes away from the laid out target network.
 
@@ -466,13 +466,13 @@ The layout algorithms included in yFiles are:
 Below are a few examples of yFiles layouts in Cytoscape, with more available on the [yFiles web page](https://www.yworks.com/products/yfiles-layout-algorithms-for-cytoscape).
 
 ### yFiles Organic Layout
-![yFilesOrganic.png](_static/images/Navigation_Layout/yFilesOrganic.png)
+![](_static/images/Navigation_Layout/yFilesOrganic.png)
 
 ### yFiles Hierarchic Layout
-![yFilesHierarchic.png](_static/images/Navigation_Layout/yFilesHierarchic.png)
+![](_static/images/Navigation_Layout/yFilesHierarchic.png)
 
 ### yFiles Tree Layout
-![yFilesTree.png](_static/images/Navigation_Layout/yFilesTree.png)
+![](_static/images/Navigation_Layout/yFilesTree.png)
 
 <a id="layout_parameters"> </a>
 ## Layout Parameters
@@ -485,5 +485,5 @@ algorithms that allow access to their parameters will appear in the
 drop-down menu at the top of the dialog. Once you've modified a
 parameter, clicking the **Execute Layout** button will apply the layout.
 
-![layout\_settings\_dialog.png](_static/images/Navigation_Layout/layout_settings_dialog.png)
+![](_static/images/Navigation_Layout/layout_settings_dialog.png)
 
