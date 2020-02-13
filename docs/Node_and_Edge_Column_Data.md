@@ -40,7 +40,7 @@ from the **File → Import → Table from File...** user interface.
 <a id="basic_operation"> </a>
 ### Basic Operation
 
-![ImportColumnsFromTable.png](_static/images/Columns/ImportColumnsFromTable.png)
+![](_static/images/Columns/ImportColumnsFromTable.png)
 
 1.  Select **File → Import → Table from File...**.
 
@@ -72,7 +72,7 @@ from the **File → Import → Table from File...** user interface.
     integer to string, click the arrow next to the column title, and 
     select the correct data type.
     
-![ChangeDataType.png](_static/images/Columns/ChangeDataType.png)
+![](_static/images/Columns/ChangeDataType.png)
 
 8.  Click **OK** to import.
 
@@ -236,7 +236,7 @@ inserting into the data value. For example:
 <a id="table_panel"> </a>
 ### Table Panel
 
-![800px-TablePanel\_withData.png](_static/images/Columns/800px-TablePanel_withData.png)
+![](_static/images/Columns/800px-TablePanel_withData.png)
 
 When Cytoscape is started, the **Table Panel** appears in the bottom
 right of the main Cytoscape window. This browser can be hidden and
@@ -249,10 +249,10 @@ tabs on the bottom of the Table Panel. By default, the Table Panel
 displays columns for all nodes and edges in the selected network. To
 display columns for only selected nodes/edges, click the **Change Table
 Mode** button
-![TableMode.png](_static/images/Columns/TableMode.png)
+![](_static/images/Columns/TableMode.png)
 at the top left. To change the columns that are displayed, click the
 **Show Column**
-![ShowColumns.png](_static/images/Columns/ShowColumns.png)
+![](_static/images/Columns/ShowColumns.png)
 button and choose the columns that are to be displayed (select various
 columns by clicking on them, and then click elsewhere on the screen to
 close the column list).
@@ -267,15 +267,15 @@ undo any changes.
 Rows in the panel can be sorted alphabetically by specific column by
 clicking on a column heading. A new column can be created using the
 **Create New column**
-![NewColumn.png](_static/images/Columns/NewColumn.png)
+![](_static/images/Columns/NewColumn.png)
 button, and must be one of four types - integer, string, real number
 (floating point), or boolean. Columns can be deleted using the **Delete
 Columns...**
-![DeleteColumns.png](_static/images/Columns/DeleteColumns.png)
+![](_static/images/Columns/DeleteColumns.png)
 button. **NOTE: Deleting columns removes them from Cytoscape, not just
 the Table Panel!** To remove columns from the panel without deleting
 them, simply unselect the column using the **Select Columns**
-![ShowColumns.png](_static/images/Columns/ShowColumns.png)
+![](_static/images/Columns/ShowColumns.png)
 button.
 
 Columns in the Table Panel can be renamed by right-clicking on the column
@@ -288,7 +288,7 @@ which will create a namespace **compartment** with several associated columns.
 It is then possible to perform operations such as **Show/Hide** on all columns 
 in a namespace.
 
-![TablePanelNamespace.png](_static/images/Columns/TablePanelNamespace.png)
+![](_static/images/Columns/TablePanelNamespace.png)
 
 <a id="import_data_table_from_public_databases"> </a>
 ## Import Data Table from Public Databases
@@ -307,7 +307,7 @@ via web services, for example from
 3.  You will first be asked to select from a set of web services. For
     this example, we will choose **ENSEMBL GENES 73 (SANGER UK)**.
 
-![select\_services.png](_static/images/Columns/select_services.png)
+![](_static/images/Columns/select_services.png)
 
 1.  In the **Import Data Table from Web Services** dialog, select a
     **Data Source**. Since galFiltered.sif is a yeast network, select
@@ -319,7 +319,7 @@ via web services, for example from
 The type of identifier selected under **Data Type** must match what is
 used in the selected **Column** in the network.
 
-![table\_webservice.png](_static/images/Columns/table_webservice.png)
+![](_static/images/Columns/table_webservice.png)
 
 1.  Select the data columns you want to import.
 
@@ -328,7 +328,7 @@ used in the selected **Column** in the network.
 When import is complete, you can see the newly imported data columns in
 the Table Panel.
 
-![table\_webservice\_final.png](_static/images/Columns/table_webservice_final.png)
+![](_static/images/Columns/table_webservice_final.png)
 
 ## Mapping Identifiers
 
@@ -338,7 +338,7 @@ A common problem in integrating multiple data sources is differences in terminol
 
 To map an identifier from one source to another, right click on the column header of your identifier.  Select the option to **Map Column…**
 
-![idMapping.png](_static/images/Columns/idMapping.png)
+![](_static/images/Columns/idMapping.png)
 
 A. The mapping is always constrained by species to prevent senseless matches across species.  You must choose a species (once) for this feature to function properly.   The choices for the Data Source and Target are determined by the species.
  
