@@ -28,7 +28,7 @@ you cannot save your ***workflows*** if you perform your data analysis
 with point-and-click GUI operations. Cytoscape has several options that
 support automating your workflows, all under the umbrella of Cytoscape Automation:
 
-![CytoscapeAutomation_3.png](_static/images/ProgrammaticAccess/CytoscapeAutomation_3.png)
+![](_static/images/ProgrammaticAccess/CytoscapeAutomation_3.png)
 
 The **Commands** feature allows you to script a sequence of Cytoscape commands
 and menu items, where commands can have parameter values that would
@@ -55,7 +55,7 @@ the CyREST interface.
 <a id="commands"> </a>
 ## Commands
 
-![AutomationPanel.png](_static/images/Command_Tool/AutomationPanel.png)
+![](_static/images/Command_Tool/AutomationPanel.png)
 
 ***Commands*** is the built-in Cytoscape feature to automate your
 workflow as simple script. You can learn more about Commands in the [Command Tool](Command_Tool.html#command-tool)
@@ -71,11 +71,11 @@ such as [R](http://www.r-project.org/), [Python](https://www.python.org/), [Ruby
 By default, the CyREST interface is enabled and available on TCP/IP port 1234. To verify this, start a web browser on 
 your Cytoscape workstation and surf to either http://localhost:1234/v1/ or http://localhost:1234/v1/commands. The first form is a Function that returns basic Cytoscape information as a JSON object:
 
-![FunctionAPI.png](_static/images/ProgrammaticAccess/FunctionAPI.png)
+![](_static/images/ProgrammaticAccess/FunctionAPI.png)
     
 The second form is a Command that returns a list of available Command namespaces:
 
-![CommandAPI.png](_static/images/ProgrammaticAccess/CommandAPI.png)
+![](_static/images/ProgrammaticAccess/CommandAPI.png)
 
 Note that the list of namespaces will vary depending on the apps you install -- some apps provide Commands in namespaces of their own.
 
@@ -99,17 +99,17 @@ Note that if you expect to run more than one instance of Cytsocape on a single w
 
 Cytoscape makes a list of available Commands and Functions available via the **Help → Automation** submenus. The **CyREST API** submenu shows available Functions, and **CyREST Command API** shows available Commands. **Automation Examples** leads to a web portal containing the bulk of documentation, samples and tutorials for Cytsocape Automation in general. 
 
-![automation_menu.png](_static/images/ProgrammaticAccess/automation_menu.png)
+![](_static/images/ProgrammaticAccess/automation_menu.png)
 
 Notably, **Automation Examples** contains a tutorial that explains how to explore CyREST Commands and Functions: [https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation](https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation).
 
 The **CyREST API** and **CyREST Command API** submenus document CyREST in a Swagger web application, which allows you to explore CyREST entrypoints by reading about them and invoking them directly (using a *Try it out!*) button. A sample page matching the http://localhost:1234/v1/ Function is:
 
-![swagger_v1.png](_static/images/ProgrammaticAccess/swagger_v1.png)
+![](_static/images/ProgrammaticAccess/swagger_v1.png)
 
 Note that the page contains a description, input parameters, output values, result code and the *Try it out!* button. Pressing the button executes the Function and shows the actual CyREST call and its results. **Making good use of Swagger as a prototyping tool can greatly reduce code writing and debug time!**
 
-![swagger_v1_result.png](_static/images/ProgrammaticAccess/swagger_v1_result.png)
+![](_static/images/ProgrammaticAccess/swagger_v1_result.png)
 
 To find out more about how to use CyREST, visit the Cytoscape Automation [tutorial pages (https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation)](https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation).
 
@@ -126,7 +126,7 @@ To understand and get started using language-specific libraries, visit the [Cyto
 
 Below is a sample Jupyter-based Python script and the resulting sample output.
 
-![jupyter.png](_static/images/ProgrammaticAccess/jupyter.png)
+![](_static/images/ProgrammaticAccess/jupyter.png)
 
 (Sample [Jupyter
 Notebook](http://nbviewer.ipython.org/github/idekerlab/py2cytoscape/blob/develop/examples/New_wrapper_api_sample.ipynb)
