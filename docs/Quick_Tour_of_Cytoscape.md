@@ -9,7 +9,7 @@ This chapter describes the basic layout and mechanics of using Cytoscape. If you
 When you start Cytoscape, you can access basic functions from the
 **Starter Panel**:
 
-![Starter Panel](_static/images/Launching_Cytoscape/Welcome_38.png)
+![](_static/images/Launching_Cytoscape/Welcome_38.png)
 
 The **Starter Panel** is designed to give you quick access to a set of sample session files,
 as well as tutorials and Cytoscape news. The sample session files include a broad range of networks
@@ -30,7 +30,7 @@ Policy](Cytoscape_Privacy_Policy.html#cytoscape-privacy-policy)**.
 When a network is loaded, Cytoscape will look similar to the image
 below:
 
-![NetworkLoaded38.png](_static/images/Quick_Tour/NetworkLoaded38.png)
+![](_static/images/Quick_Tour/NetworkLoaded38.png)
 
 Most functionalities are self-explanatory, but we'll go through a
 concise explanation for clarity. The main window here has several
@@ -59,7 +59,7 @@ components:
 
 The Network Panel and Table Panel are dockable tabbed Panels. You can
 undock any of these panels by clicking on the **Float Window** control
-![FloatWindow.png](_static/images/Quick_Tour/FloatWindow.png)
+![](_static/images/Quick_Tour/FloatWindow.png)
 in the upper-right corner of the CytoPanel. This is useful when you want
 assign the network panel as much screen space as possible. You will now
 have two Cytoscape windows, the main window, and a new window labeled
@@ -67,15 +67,15 @@ Table Panel, similar to the one shown below. A popup will be displayed
 when you put the mouse pointer on a cell.
 
 To dock the window again, click the **Dock Window** icon
-![DockWindow.png](_static/images/Quick_Tour/DockWindow.png).
+![](_static/images/Quick_Tour/DockWindow.png).
 
-Clicking the **Minimize** icon ![Minimize.png](_static/images/Quick_Tour/Minimize.png)
+Clicking the **Minimize** icon ![](_static/images/Quick_Tour/Minimize.png)
 will minimize the panel; the panel can be shown again by choosing **View → Show**
 and selecting the relevant panel, or by clicking on one of the tabs in the 
 minimized panel, for example **Network** or **Node Table**, and then clicking 
 the **Dock** icon.
 
-![TablePanel38.png](_static/images/Quick_Tour/TablePanel38.png)
+![](_static/images/Quick_Tour/TablePanel38.png)
 
 For more information on the panels in Cytoscape, see the **[Panels](Panels.html#what-are-panels)**
 section.
@@ -95,7 +95,7 @@ software. Detailed information on network editing can be found in the
 **[Editing Networks](Creating_Networks.html#create_a_new_network_or_edit_one_manually)**
 section.
 
-![AddNodeMenu37.png](_static/images/Quick_Tour/AddNodeMenu37.png)
+![](_static/images/Quick_Tour/AddNodeMenu37.png)
 
 <a id="the_menus"> </a>
 ## The Menus
@@ -116,7 +116,7 @@ a single network as a Web page using Cytoscape.js.
 **File → Open Recent** will list recently opened session files for
 quick access. **File → Print...** allows printing.
 
-![FileMenu37.png](_static/images/Quick_Tour/FileMenu37.png)
+![](_static/images/Quick_Tour/FileMenu37.png)
 
 <a id="edit"> </a>
 ### Edit
@@ -146,7 +146,7 @@ Preferences → Properties...**. More details on how to edit preferences
 can be found
 [here](Cytoscape_Preferences.html#cytoscape-preferences).
 
-![EditMenu.png](_static/images/Quick_Tour/EditMenu.png)
+![](_static/images/Quick_Tour/EditMenu.png)
 
 <a id="view"> </a>
 ### View
@@ -156,7 +156,7 @@ The **View** menu allows you to display or hide panels, including the **Control 
 also provides a means for viewing the **Starter Panel**. 
 It also provides the control of other view-related functionality.
 
-![ViewMenu37.png](_static/images/Quick_Tour/ViewMenu37.png)
+![](_static/images/Quick_Tour/ViewMenu37.png)
 
 <a id="select"> </a>
 ### Select
@@ -164,7 +164,7 @@ It also provides the control of other view-related functionality.
 The **Select** menu contains different options for selecting nodes and
 edges.
 
-![SelectMenu37.png](_static/images/Quick_Tour/SelectMenu37.png)
+![](_static/images/Quick_Tour/SelectMenu37.png)
 
 <a id="layout"> </a>
 ### Layout
@@ -176,7 +176,7 @@ manipulating the network visualization. The
 bottom section of the menu lists a variety of layout algorithms which
 automatically lay a network out.
 
-![LayoutMenu37.png](_static/images/Quick_Tour/LayoutMenu37.png)
+![](_static/images/Quick_Tour/LayoutMenu37.png)
 
 <a id="apps"> </a>
 ### Apps
@@ -188,7 +188,7 @@ are loaded, the apps that you see may be different than what appear
 here. The below picture shows a Cytoscape installation without installed
 apps.
 
-![AppsMenu.png](_static/images/Quick_Tour/AppsMenu.png)
+![](_static/images/Quick_Tour/AppsMenu.png)
 
 **Note: A list of available Cytoscape apps with descriptions is available online at: [http://apps.cytoscape.org](http://apps.cytoscape.org)**
 
@@ -202,7 +202,7 @@ The **Tools** menu contains advanced features like **cyCharts**, **[Network Anal
 
 **Cytoscape Web Browser** allows for viewing any html page directly in Cytoscape. The web browser can be opened in a separate window or can be launched in the Results Panel. 
 
-![ToolsMenu.png](_static/images/Quick_Tour/ToolsMenu.png)
+![](_static/images/Quick_Tour/ToolsMenu.png)
 
 <a id="help"> </a>
 ### Help
@@ -212,14 +212,14 @@ It also provides direct access to a **Tour of Cytoscape**, as well as a full lis
 of Cytoscape tutorials. Tutorial content opens automatically in the **Cytoscape Web Browser**. 
 Video demos are also linked to direclty from the Help menu. 
 
-![HelpMenu.png](_static/images/Quick_Tour/HelpMenu.png)
+![](_static/images/Quick_Tour/HelpMenu.png)
 
 The **Citations** option displays the main literature citation for
 Cytoscape, as well as a list of literature citations for installed apps.
 The list will be different depending on the set of apps you have
 installed.
 
-![Citations.png](_static/images/Quick_Tour/Citations.png)
+![](_static/images/Quick_Tour/Citations.png)
 
 The **Help** menu also allows you to connect directly to Cytoscape Help
 Desk and the Bug Report interface.
@@ -233,7 +233,7 @@ loaded by the user and a view displays them.
 
 An example where a number of networks have been loaded is shown below:
 
-![MultipleNetworkView.png](_static/images/Quick_Tour/MultipleNetworkView.png)
+![](_static/images/Quick_Tour/MultipleNetworkView.png)
 
 The network manager (in Control Panel) shows the networks that are
 loaded. Clicking on a network here will make that view active in the
@@ -265,19 +265,19 @@ When you have detached network view windows, you can arrange them by selecting o
 
 **Grid**
 
-![MultipleNetworks\_Grid.png](_static/images/Quick_Tour/MultipleNetworks_Grid.png)
+![](_static/images/Quick_Tour/MultipleNetworks_Grid.png)
 
 **Cascade**
 
-![MultipleNetworks\_Cascade.png](_static/images/Quick_Tour/MultipleNetworks_Cascade.png)
+![](_static/images/Quick_Tour/MultipleNetworks_Cascade.png)
 
 **Vertical Stack**
 
-![MultipleNetworks\_VerticalStack.png](_static/images/Quick_Tour/MultipleNetworks_VerticalStack.png)
+![](_static/images/Quick_Tour/MultipleNetworks_VerticalStack.png)
 
 **Side by Side**
 
-![MultipleNetworks\_SidebySide.png](_static/images/Quick_Tour/MultipleNetworks_SidebySide.png)
+![](_static/images/Quick_Tour/MultipleNetworks_SidebySide.png)
 
 <a id="the_network_overview_window"> </a>
 ## The View Navigator
@@ -289,4 +289,4 @@ in the network view window, and it can be dragged with the mouse to view
 other portions of the network. Zooming in will cause the rectangle to
 appear smaller and vice versa. You can show or hide it by clicking the "Show/Hide Navigator" button ![ViewNavigatorControl.png](_static/images/Quick_Tour/ViewNavigatorControl.png) or pressing the key "N".
 
-![NetworkOverview.png](_static/images/Quick_Tour/NetworkOverview.png)
+![](_static/images/Quick_Tour/NetworkOverview.png)
