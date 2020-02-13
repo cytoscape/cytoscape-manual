@@ -12,11 +12,11 @@ There are five panels that can be visible or hidden:
 - Automation Panel (bottom)
 
 Each panel typically contains multiple tabs. For example the **Control Panel** contains at a minimum the **Network**,
-**Style**, **Select** and **Annotation** tabs. The **Table Panel** contains the **Node Table**, **Edge Table** and
-**Network Table** tabs. Analysis results from Network Analyzer (**Tools → Network Analysis → Analyze Network**) 
+**Style**, **Filter** and **Annotation** tabs. The **Table Panel** contains the **Node Table**, **Edge Table** and
+**Network Table** tabs. Analysis results from _Analyzer_ (**Tools → Analyze Network**) 
 are shown in **Results Panel**. Installed Apps may add additional tabs.
 
-![DockWindow-v3_7_0.png](_static/images/Panels/DockWindow-v3_7_0.png)
+![DockWindow-v3_8_0.png](_static/images/Panels/DockWindow-v3_8_0.png)
 
 These panels can compete for valuable screen real-estate (e.g. by making the network view too small), so it is important to manage each panel's state and size properly and acconding to the user's needs.
 The user can take advantage of these 5 panel states in order to manage the available screen real-estate:
