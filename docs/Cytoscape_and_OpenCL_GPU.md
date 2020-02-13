@@ -27,7 +27,7 @@ lets you see the available OpenCL devices and configure your preferred device fo
 To see the device list and configure your preferred device, 
 select **Edit → Preferences → OpenCL Settings...** 
 
-![OpenCL configuration dialog](_static/images/Cytoscape_and_OpenCL_GPU/open_cl_settings.png)
+![](_static/images/Cytoscape_and_OpenCL_GPU/open_cl_settings.png)
 
 In most cases, you want your preferred device to be your GPU (if you have one).
 If you do not see the device you intend to use (or any device at all) 
