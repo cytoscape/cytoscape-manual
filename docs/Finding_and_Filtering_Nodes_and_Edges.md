@@ -12,7 +12,7 @@ zero or more characters, while `?` matches exactly one character. So
 `ste?` would match "STE2" but would not match "STE12". Searching for
 `ste*` would match both.
 
-![searchbar3.png](_static/images/Filters/searchbar3.png)
+![](_static/images/Filters/searchbar3.png)
 
 To search a specific column, you can prefix your search term with the
 column name followed by a `:`. For example, to select nodes and edges
@@ -41,7 +41,7 @@ fixed in a future release.
 The **Filter** tab in the **Control Panel** can be used to create selection
 expressions for selecting nodes and edges.
 
-![select-panel2.png](_static/images/Filters/select-panel2.png)
+![](_static/images/Filters/select-panel2.png)
 
 There are two tabs: 
 1. On the **Filter** tab are *narrowing* filters, which can be combined into a tree. 
@@ -58,7 +58,7 @@ number of sub-filters.
 
 To add a filter click on the "+" button. To delete a filter (and all its
 sub-filters) click the "x" button. To move a filter grab the handle
-![filterhandle.png](_static/images/Filters/filterhandle.png)
+![](_static/images/Filters/filterhandle.png)
 with the mouse and drag and drop the filter on its intended destination.
 Dropping a filter on top of another filter will group the filters into a
 composite filter.
@@ -74,7 +74,7 @@ automatically disables this interactivity. You can override this by
 manually checking the **Apply when filter changes** box above the **Apply**
 button:
 
-![apply-automatically2.png](_static/images/Filters/apply-automatically2.png)
+![](_static/images/Filters/apply-automatically2.png)
 
 The **Apply** button will re-apply the active filter. On the opposite side of the progress
 bar is the cancel button, which will let you interrupt a long-running filter.
@@ -99,7 +99,7 @@ values. Depending on the column data type a variety of matching options are prov
     - **is**: Selects values that are inside the range.
     - **is not**: Selects values that are outside the range.
 
-    ![column-numeric.png](_static/images/Filters/column-numeric.png)
+    ![](_static/images/Filters/column-numeric.png)
 
 
 - **String Columns**
@@ -118,7 +118,7 @@ values. Depending on the column data type a variety of matching options are prov
     example to match the text "ABC" in a case sensitive way use the
     following regular expression: "(?-i)ABC".
 
-    ![column-string.png](_static/images/Filters/column-string.png)
+    ![](_static/images/Filters/column-string.png)
 
 
 - **Boolean Columns**
@@ -127,7 +127,7 @@ values. Depending on the column data type a variety of matching options are prov
     - **true**: Selects values that are true.
     - **false**: Selects values that are false.
 
-    ![column-boolean.png](_static/images/Filters/column-boolean.png)
+    ![](_static/images/Filters/column-boolean.png)
 
 
 - **List Columns**
@@ -136,7 +136,7 @@ values. Depending on the column data type a variety of matching options are prov
     - **any element**: Matches if any value in the list matches the filter.
     - **each element**: Matches only if all of the values in the list match the filter.
 
-    ![column-list.png](_static/images/Filters/column-list.png)
+    ![](_static/images/Filters/column-list.png)
 
 
 <a id="degree_filter"> </a>
@@ -170,16 +170,16 @@ suppose you wanted to match nodes with column **COMMON** containing `ste`
 or `cdc`, but you only want nodes with degree 5 or more, you'd first
 construct a filter that looks like this:
 
-![group1.png](_static/images/Filters/group1.png)
+![](_static/images/Filters/group1.png)
 
 This filter will match nodes where **COMMON** contains `ste` **and**
 `cdc`. To change this to a logical **or** operation, drag either of the
 column filters by its handle
-![filterhandle.png](_static/images/Filters/filterhandle.png)
+![](_static/images/Filters/filterhandle.png)
 onto the other column filter to create a new group. Now change the
 group's matching behavior to **Match any**:
 
-![group2.png](_static/images/Filters/group2.png)
+![](_static/images/Filters/group2.png)
 
 You can also reorder filters by dropping them in-between existing
 filters.
@@ -203,7 +203,7 @@ a **Start with**, where **Current selection** refers to the nodes and
 edges currently selected. You can also choose a narrowing filter, which
 produces a different set of selected nodes and edges.
 
-![chain-filter1.png](_static/images/Filters/chain-filter1.png)
+![](_static/images/Filters/chain-filter1.png)
 
 Chainable transformer can be reordered by dragging one by the handle and
 dropping it between existing transformer.
@@ -292,7 +292,7 @@ The name of active filter appears in the drop-down box at the top of
 to rename, remove or export the active filter. It also lets you create a
 new filter, or import filters.
 
-![select-panel-options2.png](_static/images/Filters/select-panel-options2.png)
+![](_static/images/Filters/select-panel-options2.png)
 
 
 <a id="diffusion"> </a>
@@ -310,7 +310,7 @@ An advanced Diffusion option allows you to specify initial heat values for each 
 
 This figure shows the result of selecting the PHO4, GCR1 and ICL1 genes (via the [search bar](Finding_and_Filtering_Nodes_and_Edges.html#search_bar)) and performing a Diffusion by either selecting **Tools → Diffuse → Selected Nodes** or right-clicking to **Diffuse → Selected Nodes**. Diffusion calculated the heat ranking of all 331 nodes in the network, and then selected the top 33. 
 
-![after_diffusion.png](_static/images/Filters/after_diffusion.png)
+![](_static/images/Filters/after_diffusion.png)
 
 To select more than 33 nodes, move the **Node Rank** slider in the Diffusion Output Results Panel to the right or enter a number greater than 33 in the **Current Rank** field. You can also select nodes using a heat value cutoff by using the **Range Column** to select a column containing heat values. Finally, you can use the **Visual Style** chooser and **Create** button to extract the selected nodes into a new network.
 
