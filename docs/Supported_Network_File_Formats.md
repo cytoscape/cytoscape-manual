@@ -178,7 +178,7 @@ an embedded space a backslash followed by a space etc.
 
 #### Example 1
 
-![NNFExample1\_2.png](_static/images/Network_Formats/NNFExample1_2.png)
+![](_static/images/Network_Formats/NNFExample1_2.png)
 
     Example_1      C
     Example_1      network1
@@ -188,7 +188,7 @@ an embedded space a backslash followed by a space etc.
 
 #### Example 2
 
-![NNFExample2\_2.png](_static/images/Network_Formats/NNFExample2_2.png)
+![](_static/images/Network_Formats/NNFExample2_2.png)
 
     Example_2      M1
     Example_2      M2
@@ -199,7 +199,7 @@ an embedded space a backslash followed by a space etc.
 
 #### Example 3
 
-![NNFExample3\_2.png](_static/images/Network_Formats/NNFExample3_2.png)
+![](_static/images/Network_Formats/NNFExample3_2.png)
 
     Example_3      M1       im        M2
     Example_3      M3       im        M1
@@ -212,7 +212,7 @@ an embedded space a backslash followed by a space etc.
 
 #### Example 4
 
-![NNFExample4\_2.png](_static/images/Network_Formats/NNFExample4_2.png)
+![](_static/images/Network_Formats/NNFExample4_2.png)
 
     Example_4      M4
     M4             D
@@ -310,7 +310,7 @@ browsers. Cytoscape.js has two ways to represent network data, and
 currently both reader and writer support only the array style graph
 notation. For example, this network in Cytoscape:
 
-![JSON1.png](_static/images/Network_Formats/JSON1.png)
+![](_static/images/Network_Formats/JSON1.png)
 
 will be exported to this JSON:
 
@@ -497,7 +497,7 @@ will be exported to this JSON:
 
 And this is a sample visualization in Cytoscape.js:
 
-![JSON2.png](_static/images/Network_Formats/JSON2.png)
+![](_static/images/Network_Formats/JSON2.png)
 
 <a id="important_note"> </a>
 ### Important Note
@@ -534,7 +534,7 @@ Critically, applications are free to add and maintain their own aspects without 
 
 As an illustration using the picture below, a three node network can be described as a list of nodes ("nodes Aspect") and edges that link them ("edges Aspect"). If the network has been laid out, a separate aspect ("cartesianLayout Aspect") can describe the position of each node. More concretely, a CX encoding would have three nodes in the "nodes Aspect", each with unique IDs. The "edges Aspect" references each node by ID, with each edge having its own ID. Finally, the "cartesianLayout Aspect" ties coordinates to nodes by ID. In fact, a network may have many aspects, describing node and edge attributes, subnetworks, visual properties, groups and so on.
 
-![cx_example.png](_static/images/Network_Formats/cx_example.png)
+![](_static/images/Network_Formats/cx_example.png)
 
 The actual JSON encoding for a CX stream is described in the [CX document](https://github.com/CyComponent/CyWiki). It would appear something like this: 
 
