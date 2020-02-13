@@ -35,4 +35,4 @@ an image for the nested network. If no current network view exists for
 the nested network the image will be a default icon, otherwise it will
 be a low-resolution rendering of the nested network's current layout.
 
-![NestedNetwork2.png](_static/images/Nested_Networks/NestedNetwork2.png)
+![](_static/images/Nested_Networks/NestedNetwork2.png)
