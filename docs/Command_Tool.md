@@ -12,7 +12,7 @@ which includes multiple ways of scripting Cytoscape execution.
 
 The Automation Panel can be opened from **View → Show/Hide Automation Panel**.
 
-![AutomationPanel.png](_static/images/Command_Tool/AutomationPanel.png)
+![](_static/images/Command_Tool/AutomationPanel.png)
 
 The Automation Panel can also be used to read and execute script files. 
 Each line in the script file is a command that is sent to a app.
@@ -20,7 +20,7 @@ Script files may be entered on the Cytoscape command line using the "-S"
 flag to Cytoscape, through the **Tools → Run Script File...** menu item,
 or through **Tools → Execute Command File** menu item.
 
-![RunScriptCommands.png](_static/images/Command_Tool/RunScriptCommands.png)
+![](_static/images/Command_Tool/RunScriptCommands.png)
 
 Cytoscape commands consist of three parts: a command class, or
 namespace; a command within that namespace; and a series of arguments or
