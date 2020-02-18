@@ -18,8 +18,12 @@ are shown in **Results Panel**. Installed Apps may add additional tabs.
 
 ![](_static/images/Panels/DockWindow-v3_8_0.png)
 
+<a id="managing_panels"> </a>
+## Managing Panels
+
 These panels can compete for valuable screen real-estate (e.g. by making the network view too small), so it is important to manage each panel's state and size properly and acconding to the user's needs.
 You can take advantage of these 5 panel states in order to manage the available screen real-estate:
+
 - **Hidden:** A panel can be totally removed from the screen if you find it unnecessary. To do that, just uncheck the corresponding option under the **View** menu (e.g. uncheck **View → Show Results Panel** to hide the _Results Panel_). When a panel is hidden, its tabs no long appear in the sidebar, so in order to show the panel again, you have to check the same menu option.
 
   Alternatively, you can right-click an empty space on any sidebar to hide/show a panel:
@@ -37,6 +41,8 @@ You can take advantage of these 5 panel states in order to manage the available 
   In the screenshot below, all panels are docked, except _Results_ and _Automation_, which are hidden:
   
   ![](_static/images/Panels/ExampleDocked.png)
+  
+  
 
 - **Undocked:** A panel is undocked when the **Undock** icon ![](_static/images/Panels/UndockIcon.png) is clicked or a minimized panel is shown again by clicking one of its tabs on the sidebar. In this state, the panel is displayed over other panels but is still anchored to one of Cytoscape corners. That allows it to be resized more freely (vertically and horizontally) whithout affecting the size of other panels. You can also double-click the undocked panel's title bar to quickly maximize it. And double-clicking the title bar of a maximized panel again will restore it to its previous size. To temporarily hide an undocked panel, just click the **Minimize** icon ![](_static/images/Panels/MinimizeIcon.png). Notice that an undocked panel will also be automatically minimized when other panels or components outside the undocked panel are clicked.
 
@@ -44,8 +50,27 @@ You can take advantage of these 5 panel states in order to manage the available 
 
   ![](_static/images/Panels/ExampleUndocked.png)
 
-- **Floating:** Use the **Float** icon ![](_static/images/Panels/FloatIcon.png) to completely detach a panel from the Cytoscape desktop. A floating panel has its own window that can be resized, maximized and minimized just like any other application window and it can also be moved to another monitor in a multi-monitor setup. When a panel is floating, its tabs are not removed from the corresponding sidebar in the main desktop window, but you can also use the drop-down in the floating panel's title bar to show another tab's content.
+- **Floating:** Use the **Float** icon ![](_static/images/Panels/FloatIcon.png) to completely detach a panel from the Cytoscape desktop. A floating panel has its own window that can be resized, maximized and minimized just like any other application window and it can also be moved to another monitor in a multi-monitor setup.
+
+  When a panel is floating, its tabs are not removed from the corresponding sidebar in the main desktop window, but you can also use the drop-down in the floating panel's title bar to show another tab's content:
+  
+   ![](_static/images/Panels/TabsDropDown.png)
 
   In the image below, the _Control_, _Table_ and _Tool_ panels are floating:
   
   ![](_static/images/Panels/ExampleFloating.png)
+
+<a id="other_panel_features"> </a>
+## Other Features
+
+- **Hide Sidebar Labels:**
+
+  When you install and use Cytoscape apps, those apps may add their own tabs to the Cytoscape panels, which sometimes can lead to very busy sidebars. In order to make the sidebars cleaner and easier to use, Cytoscape allows you to hide all the tabs labels and show only their icons. You can try this by righ-clicking anywhere on a sidebar and unchecking the context-menu option **Show Labels**.
+
+  In the example below, notice how the left sidebar is crowded with many tabs:
+  
+  ![](_static/images/Panels/ShowSidebarLabels.png)
+  
+  In the next example, the tab labels have been hidden:
+  
+  ![](_static/images/Panels/HideSidebarLabels.png)
