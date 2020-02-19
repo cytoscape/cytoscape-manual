@@ -77,16 +77,16 @@ The **Style** interface is located under the **Style** panel of the
 ![](_static/images/Styles/StylesInterface.png)
 
 This interface allows you to create/delete/view/switch between different
-styles using the Current Style options. The panel displays the mapping
+styles using the **Current Style** options. The panel displays the mapping
 details for a given style and is used to edit these details as well.
 
--   At the top of the interface, there is a drop-down menu for selecting
+-   At the top of the interface, there is a drop-down list (**Current Style**) for selecting
     a pre-defined style. There is also an **Options** drop-down with
     options to rename, remove, create and copy a Style, and an option to
     create a legend for the selected Style.
 
--   The main area of the interface is composed of three tabs, for Node,
-    Edge and Network.
+-   The main area of the interface is composed of three tabs, for **Node**,
+    **Edge** and **Network** properties.
 
 -   Each tab contains a list of properties relevant to the
     current style. At the top of the list a **Properties** drop-down
