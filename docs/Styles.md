@@ -1143,7 +1143,7 @@ Styles are automatically saved with the session they were created in.
 Before Cytoscape exits, you will be prompted to make sure you save the
 session before quitting. It is also possible to save your styles in a
 file separate from the session file. To do this, navigate to the menu
-option **File → Export → Styles...**, and save the selected styles to a
+option **File → Export → Styles to File...**, and save the selected styles to a
 file. This feature can be used to share styles with other users.
 
 ![](_static/images/Styles/ExportStylesDialog.png)
