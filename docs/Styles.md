@@ -251,17 +251,20 @@ are summarized in the tables below.
 <caption>Network Properties</caption>
 <colgroup> <col style="width:200px">                    <col style="width:500px"> </colgroup>
 <tbody>
-<tr> <th>NetworkProperties</th>                         <th>Description</th></tr>
-<tr> <th class="spec ulcase">Background Paint</th>      <td class="">The background color of the network view.</td> </tr>
-<tr> <th class="specalt ulcase">Center X Location</th>  <td class="alt">The X location of network view center.</td> </tr>
-<tr> <th class="spec ulcase">Center Y Location</th>     <td class="">The Y location of network view center.</td> </tr>
-<tr> <th class="specalt ulcase">Edge Selection</th>     <td class="alt">Edges are selectable or not. If this is <i>false</i>, users cannot select edges.</td> </tr>
-<tr> <th class="spec ulcase">Node Selection</th>        <td class="">Nodes are selectable or not. If this is <i>false</i>, users cannot select nodes.</td> </tr>
-<tr> <th class="specalt ulcase">Scale Factor</th>       <td class="alt">The zoom level of the network view.</td> </tr>
-<tr> <th class="spec ulcase">Size</th>                  <td class="">The size (width and height) of the network view. It can be found in the drop-down menu <b>Properties → Size → Size</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Height</th>             <td class="alt">The height of the network view. It can be found in the drop-down menu <b>Properties → Size → Height</b>.</td> </tr>
-<tr> <th class="spec ulcase">Width</th>                 <td class="">The width of the network view. It can be found in the drop-down menu <b>Properties → Size → Width</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Title</th>              <td class="alt">The title of the network view.</td> </tr>
+<tr><th>Network Properties</th>                        <th>Description</th></tr>
+<tr><th class="spec ulcase">Background Paint</th>       <td class="">The background color of the network view.</td></tr>
+<tr><th class="specalt ulcase">Center X Location</th>   <td class="alt">The X location of network view center.</td></tr>
+<tr><th class="spec ulcase">Center Y Location</th>      <td class="">The Y location of network view center.</td></tr>
+<tr><th class="specalt ulcase">Annotation Selection</th><td class="">Whether or not annotations are selectable. If this is <i>false</i>, users cannot select annotations. Avoid changing this property directly through the Style panel.</td></tr>
+<tr><th class="spec ulcase">Edge Selection</th>         <td class="alt">Whether or not edges are selectable. If this is <i>false</i>, users cannot select edges. Avoid changing this property directly through the Style panel.</td></tr>
+<tr><th class="specalt ulcase">Node Selection</th>      <td class="">Whether or not nodes are selectable. If this is <i>false</i>, users cannot select nodes. Avoid changing this property directly through the Style panel.</td></tr>
+<tr><th class="specalt ulcase">Node Label Selection</th><td class="">Whether or not node labels can be selected and repositioned manually. Avoid changing this property directly through the Style panel.</td></tr>
+ <tr><th class="spec ulcase">Force High Detail</th>     <td class="alt">The Level of Detail policy for a network view. If this is <i>true</i>, the view elements will always be rendered in high detail. If <i>false</i>, Cytoscape will choose when it's best to lower the level of detail to improve performance.</td></tr>
+<tr><th class="specalt ulcase">Scale Factor</th>        <td class="alt">The zoom level of the network view.</td></tr>
+<tr><th class="spec ulcase">Size</th>                   <td class="">The size (width and height) of the network view. It can be found in the drop-down menu <b>Properties → Size → Size</b>.</td></tr>
+<tr><th class="specalt ulcase">Height</th>              <td class="alt">The height of the network view. It can be found in the drop-down menu <b>Properties → Size → Height</b>.</td></tr>
+<tr><th class="spec ulcase">Width</th>                  <td class="">The width of the network view. It can be found in the drop-down menu <b>Properties → Size → Width</b>.</td></tr>
+<tr><th class="specalt ulcase">Title</th>               <td class="alt">The title of the network view.</td></tr>
 </tbody>
 </table>
 <br>
