@@ -73,11 +73,13 @@ A scatter chart is a two dimensional plot with a dot drawn for each row in the t
 
 Create the Scatter chart by right-clicking on the header of the column you want as your X axis.
 
-![](_static/images/Filters/plotScater.png)
+![](_static/images/Filters/plotScatter.png)
 
 There is a Regression check box, which will add a regression line through the data.  The regression is calculated with the linear least squares method.  The slope, intercept and measure of the fit are shown with the line.
 
 As with Histograms, the Scatter Chart has a check box to set whether the selection of nodes in your graph will update whenever the mouse moves, or only upon release.  If there is annoying flicker when dragging your selection, your should turn off the Interactive mode.
+
+![](_static/images/Filters/scatter1.png)
 
 ### Volcano Plots
 
