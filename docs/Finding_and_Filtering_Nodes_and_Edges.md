@@ -61,9 +61,9 @@ The footer is used to set the axes of the chart, and to show the status of the s
 
 ![](_static/images/Filters/histogramFooter.png)
 
-Note:  the first invocation of the axis popups may take several seconds to respond.  Subsequent clicks will be more responsive.]
+**[Note:  the first invocation of the axis popups may take several seconds to respond.  Subsequent clicks will be more responsive.]**
 
-[Note: Logarithmic axes should be supported, but are not enabled in this release.]
+**[Note: Logarithmic axes should be supported, but are not enabled in this release.]**
 
 Regardless of the experiment size, the histogram is divided into 100 bins, smoothed, and plotted such that the Y value on the line is the number of nodes (edges) within that range.   The bins have equal width (as opposed to equal area).    This is a simplification of statistical rules to determine the number of bins in the sampling of the data, but is not unreasonable in the context where you are setting the ranges manually.  
 
@@ -79,10 +79,11 @@ There is a Regression check box, which will add a regression line through the da
 
 As with Histograms, the Scatter Chart has a check box to set whether the selection of nodes in your graph will update whenever the mouse moves, or only upon release.  If there is annoying flicker when dragging your selection, your should turn off the Interactive mode.
 
-Volcano plots are charts where the X axis is an expression level, and the range is the significance of the measurement.  These plots have the interesting characteristic that you are often interested in both positive and negative values, with a high value for the significance.  In this case,  it is useful to be able to select areas of a scatter chart symmetrically around the axis.    This is done by holding the option key, as you drag.  (This feature is only enabled when the X axis spans across 0, so if you don’t see it appear, confirm that your table column has negative and positive values.)
+### Volcano Plots
 
+Volcano plots are domain specific type of scatter chart, where the X axis is an expression level, and the range is the significance of the measurement.  These plots have the interesting characteristic that you are often interested in both positive and negative values, with a high value for the significance.  In this case,  it is useful to be able to select areas of a scatter chart symmetrically around the axis.    This is done by holding the option key, as you drag.  (This feature is only enabled when the X axis spans across 0, so if you don’t see it appear, confirm that your table column has negative and positive values.)
 
-
+![](_static/images/Filters/volcanoPlot.png)
 
 <a id="filters"> </a>
 ## Filters
