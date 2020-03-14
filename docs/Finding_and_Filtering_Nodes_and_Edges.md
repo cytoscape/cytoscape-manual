@@ -73,7 +73,7 @@ A scatter chart is a two dimensional plot with a dot drawn for each row in the t
 
 Create the Scatter chart by right-clicking on the header of the column you want as your X axis.
 
-![](_static/images/Filters/plotScatter.png)
+![](_static/images/Filters/plotScater.png)
 
 There is a Regression check box, which will add a regression line through the data.  The regression is calculated with the linear least squares method.  The slope, intercept and measure of the fit are shown with the line.
 
