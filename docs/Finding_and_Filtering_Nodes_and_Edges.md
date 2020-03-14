@@ -35,6 +35,55 @@ characters is:
 currently does not work for column-specific searching. This will be
 fixed in a future release.
 
+<a id="cycharts"> </a>
+## CyCharts
+CyChart is a charting package newly available as a core app in Cytoscape 3.8.  
+
+You can select nodes and edges by numerical column on a chart.  CyCharts provides simple 1D and 2D plots of numerical attributes in the node or edge tables.   Selection in the chart will reciprocally select nodes or edges  in the graph.  This improves visualization of your data.   
+
+### Histograms
+
+A histogram in an approximation of the distribution of a variable over its range.   It shows the user where the most common values are, and whether the values are distributed uniformly (flat line), normally (the bell curve) or have strong modes (hills and valleys).   This can be particularly useful for finding pockets of the data that express similar ranges, such as positively and negatively expressed genes.
+
+To create a CyChart, open the right-click on the header of a numeric column in the Node or Edge Table. Select the command **Plot Histogram…**
+
+![](_static/images/Filters/plotHistogram.png)
+
+The structure of the CyChart window has a header with common functions and settings, the content of the chart, and a footer with the selections status and the controls to set the axes.
+
+![](_static/images/Filters/histogram1.png)
+
+To select a range within a histogram, click in the chart and with the button down, drag left or right.  You should see a color change in the background of the data.   To edit an existing selection, drag in the middle of the selection to move the entire selection, or on either edge of the selection to edit just the start or end of the range.  To clear the selection, click outside of the range.
+
+If the chart is in its interactive mode, you can see the main graph view changing its selection as the chart changes.  However, in large networks this will over-stress the computer and become sluggish in the interface.  Therefore, there is a check box in the header of CyChart to control whether selection is recomputed whenever the mouse moves, or occurs only at the end of your drag.
+
+The footer is used to set the axes of the chart, and to show the status of the selection.  Click on the popup choice box to see the list of available dimensions.  The chart will be regenerated whenever you change either dimension.  The current selection is lost when either axis changes.
+
+![](_static/images/Filters/histogramFooter.png)
+
+Note:  the first invocation of the axis popups may take several seconds to respond.  Subsequent clicks will be more responsive.]
+
+[Note: Logarithmic axes should be supported, but are not enabled in this release.]
+
+Regardless of the experiment size, the histogram is divided into 100 bins, smoothed, and plotted such that the Y value on the line is the number of nodes (edges) within that range.   The bins have equal width (as opposed to equal area).    This is a simplification of statistical rules to determine the number of bins in the sampling of the data, but is not unreasonable in the context where you are setting the ranges manually.  
+
+### Scatter Charts
+
+A scatter chart is a two dimensional plot with a dot drawn for each row in the table.  Per standard, the domain is the horizontal (X) axis and the range is the vertical (Y) axis.  Similar to the histograms, click-dragging within the chart will select a rectangle of dots, and change the current selection in your graph.  You can edit the size of the selection by dragging any of the corners, or edit the position by clicking inside the rectangle.
+
+Create the Scatter chart by right-clicking on the header of the column you want as your X axis.
+
+![](_static/images/Filters/plotScatter.png)
+
+There is a Regression check box, which will add a regression line through the data.  The regression is calculated with the linear least squares method.  The slope, intercept and measure of the fit are shown with the line.
+
+As with Histograms, the Scatter Chart has a check box to set whether the selection of nodes in your graph will update whenever the mouse moves, or only upon release.  If there is annoying flicker when dragging your selection, your should turn off the Interactive mode.
+
+Volcano plots are charts where the X axis is an expression level, and the range is the significance of the measurement.  These plots have the interesting characteristic that you are often interested in both positive and negative values, with a high value for the significance.  In this case,  it is useful to be able to select areas of a scatter chart symmetrically around the axis.    This is done by holding the option key, as you drag.  (This feature is only enabled when the X axis spans across 0, so if you don’t see it appear, confirm that your table column has negative and positive values.)
+
+
+
+
 <a id="filters"> </a>
 ## Filters
 
