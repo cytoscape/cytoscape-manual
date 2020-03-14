@@ -87,6 +87,7 @@ Volcano plots are domain specific type of scatter chart, where the X axis is an 
 
 ![](_static/images/Filters/volcanoPlot.png)
 
+
 <a id="filters"> </a>
 ## Filters
 
