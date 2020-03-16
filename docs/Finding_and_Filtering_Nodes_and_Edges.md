@@ -37,15 +37,13 @@ fixed in a future release.
 
 <a id="cycharts"> </a>
 ## CyCharts
-CyChart is a charting package newly available as a core app in Cytoscape 3.8.  
-
-You can select nodes and edges by numerical column on a chart.  CyCharts provides simple 1D and 2D plots of numerical attributes in the node or edge tables.   Selection in the chart will reciprocally select nodes or edges  in the graph.  This improves visualization of your data.   
+CyChart is a charting package available as a core app in Cytoscape. CyCharts provides simple 1D and 2D plots of numerical values from node or edge tables. Selection in the chart will reciprocally select nodes or edges in the network.  This provides another way to visualize and interact with your data in Cytoscape.   
 
 ### Histograms
 
-A histogram in an approximation of the distribution of a variable over its range.   It shows the user where the most common values are, and whether the values are distributed uniformly (flat line), normally (the bell curve) or have strong modes (hills and valleys).   This can be particularly useful for finding pockets of the data that express similar ranges, such as positively and negatively expressed genes.
+A histogram shows the distribution of a variable in bins over a range.   It shows the user where the most common values are and whether the values are distributed uniformly (flat line), normally (the bell curve) or have strong modes (hills and valleys).   This can be particularly useful for finding pockets of the data that express similar ranges, such as positively and negatively expressed genes.
 
-To create a CyChart, open the right-click on the header of a numeric column in the Node or Edge Table. Select the command **Plot Histogram…**
+To create a histogram using CyCharts, open the right-click on the header of a numeric column in the Node or Edge Table, and select the command **Plot Histogram…**
 
 ![](_static/images/Filters/plotHistogram.png)
 
@@ -53,7 +51,7 @@ The structure of the CyChart window has a header with common functions and setti
 
 ![](_static/images/Filters/histogram1.png)
 
-To select a range within a histogram, click in the chart and with the button down, drag left or right.  You should see a color change in the background of the data.   To edit an existing selection, drag in the middle of the selection to move the entire selection, or on either edge of the selection to edit just the start or end of the range.  To clear the selection, click outside of the range.
+To select a range within a histogram, click and drag left or right.  You should see a color change in the background of the data.   To edit an existing selection, drag in the middle of the selection to move the entire selection, or on either edge of the selection to edit just the start or end of the range.  To clear the selection, click outside of the range.
 
 If the chart is in its interactive mode, you can see the main graph view changing its selection as the chart changes.  However, in large networks this will over-stress the computer and become sluggish in the interface.  Therefore, there is a check box in the header of CyChart to control whether selection is recomputed whenever the mouse moves, or occurs only at the end of your drag.
 
@@ -63,15 +61,15 @@ The footer is used to set the axes of the chart, and to show the status of the s
 
 **[Note:  the first invocation of the axis popups may take several seconds to respond.  Subsequent clicks will be more responsive.]**
 
-**[Note: Logarithmic axes should be supported, but are not enabled in this release.]**
+**[Note: Logarithmic axes will be enabled in a future release.]**
 
 Regardless of the experiment size, the histogram is divided into 100 bins, smoothed, and plotted such that the Y value on the line is the number of nodes (edges) within that range.   The bins have equal width (as opposed to equal area).    This is a simplification of statistical rules to determine the number of bins in the sampling of the data, but is not unreasonable in the context where you are setting the ranges manually.  
 
 ### Scatter Charts
 
-A scatter chart is a two dimensional plot with a dot drawn for each row in the table.  Per standard, the domain is the horizontal (X) axis and the range is the vertical (Y) axis.  Similar to the histograms, click-dragging within the chart will select a rectangle of dots, and change the current selection in your graph.  You can edit the size of the selection by dragging any of the corners, or edit the position by clicking inside the rectangle.
+A scatter chart is a two dimensional plot with a dot drawn for each row in the table.  Per standard, the domain is the horizontal (X) axis and the range is the vertical (Y) axis.  Similar to the histograms, clicking and dragging within the chart will select a rectangle of dots, and change the current selection in your graph.  You can edit the size of the selection by dragging any of the corners, or edit the position by clicking inside the rectangle.
 
-Create the Scatter chart by right-clicking on the header of the column you want as your X axis.
+Create the scatter chart by right-clicking on the header of the column you want as your X axis and select the command **Plot Scatter…**
 
 ![](_static/images/Filters/plotScatter.png)
 
@@ -83,7 +81,7 @@ As with Histograms, the Scatter Chart has a check box to set whether the selecti
 
 ### Volcano Plots
 
-Volcano plots are domain specific type of scatter chart, where the X axis is an expression level, and the range is the significance of the measurement.  These plots have the interesting characteristic that you are often interested in both positive and negative values, with a high value for the significance.  In this case,  it is useful to be able to select areas of a scatter chart symmetrically around the axis.    This is done by holding the option key, as you drag.  (This feature is only enabled when the X axis spans across 0, so if you don’t see it appear, confirm that your table column has negative and positive values.)
+Volcano plots are a domain-specific type of scatter chart, where the X axis is an expression level, and the range is the significance of the measurement.  These plots have the interesting characteristic that you are often interested in both positive and negative values, with a high value for the significance.  In this case,  it is useful to be able to select areas of a scatter chart symmetrically around the axis.    This is done by holding the option key, as you drag.  (This feature is only enabled when the X axis spans across 0, so if you don’t see it appear, confirm that your table column has negative and positive values.)
 
 ![](_static/images/Filters/volcanoPlot.png)
 
