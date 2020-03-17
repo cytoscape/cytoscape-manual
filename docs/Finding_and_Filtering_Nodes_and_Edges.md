@@ -41,7 +41,7 @@ CyChart is a charting package available as a core app in Cytoscape. CyCharts pro
 
 ### Histograms
 
-A histogram shows the distribution of a variable in bins over a range.   It shows the user where the most common values are and whether the values are distributed uniformly (flat line), normally (the bell curve) or have strong modes (hills and valleys).   This can be particularly useful for finding pockets of the data that express similar ranges, such as positively and negatively expressed genes.
+A histogram shows the distribution of a variable in bins over a range.   It shows the user where the most common values are and whether the values are distributed uniformly (flat line), normally (the bell curve) or have strong modes (hills and valleys).  This can be particularly useful for finding pockets of the data that express similar ranges, such as positively and negatively expressed genes.
 
 To create a histogram using CyCharts, open the right-click on the header of a numeric column in the Node or Edge Table, and select the command **Plot Histogram…**
 
@@ -73,9 +73,9 @@ Create the scatter chart by right-clicking on the header of the column you want 
 
 ![](_static/images/Filters/plotScatter.png)
 
-There is a Regression check box, which will add a regression line through the data.  The regression is calculated with the linear least squares method.  The slope, intercept and measure of the fit are shown with the line.
+There is a **Regression** check box, which will add a regression line through the data.  The regression is calculated with the linear least squares method.  The slope, intercept and measure of the fit are shown with the line.
 
-As with Histograms, the Scatter Chart has a check box to set whether the selection of nodes in your graph will update whenever the mouse moves, or only upon release.  If there is annoying flicker when dragging your selection, your should turn off the Interactive mode.
+As with Histograms, the **Scatter Chart** has a check box to set whether the selection of nodes in your graph will update whenever the mouse moves, or only upon release.  If there is annoying flicker when dragging your selection, your should turn off the Interactive mode.
 
 ![](_static/images/Filters/scatter1.png)
 
