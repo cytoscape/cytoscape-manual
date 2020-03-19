@@ -109,7 +109,7 @@ The **CyREST API** and **CyREST Command API** submenus document CyREST in a Swag
 
 Note that the page contains a description, input parameters, output values, result code and the *Try it out!* button. Pressing the button executes the Function and shows the actual CyREST call and its results. **Making good use of Swagger as a prototyping tool can greatly reduce code writing and debug time!**
 
-![](_static/images/ProgrammaticAccess/swagger_results.png)
+![](_static/images/ProgrammaticAccess/swagger_result.png)
 
 To find out more about how to use CyREST, visit the Cytoscape Automation [tutorial pages (https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation)](https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation).
 
