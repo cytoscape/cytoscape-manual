@@ -3,7 +3,7 @@
 
 ## Raw Data Export
 
-![export\_menu_37.png](_static/images/Export/export_menu_37.png)
+![](_static/images/Export/export_menu_37.png)
 
 To use data from Cytoscape networks in an external application, the data has to be exported.
 As a Cytoscape network consists of a number of different types of data, there are options 
@@ -21,23 +21,23 @@ The **Collection to NDEx** option saves all networks in the collection containin
 
 When you select either option, the CyNDEx-2 Browser dialog will appear and enable you to provide metadata that will be displayed during subsequent NDEx searches. To save a network, you must add an NDEx account profile to the CyNDEx-2 Browser (by filling out the profile form reachable by clicking on the *Anonymous* credential in the upper right), and then make it current.
 
-![ndex\_save.png](_static/images/Export/ndex_save.png)
+![](_static/images/Export/ndex_save.png)
 
 You can set the name of your network by editing the **Network Name** attribute at the bottom. The **Update Existing Network** option enables you to overwrite an existing NDEx network if you have permission. If you choose to make your network public, you must fill in the **Version** and **Description** attributes. Choose the **Save as Public** option to enable collaborators to load your network.
 
 Menu actions have also been added to the network and collection context menus in the Cytoscape Network panel, as another method of accessing the network save dialog.
 
-![ndex\_context\_menus.png](_static/images/Export/ndex_context_menus.png)
+![](_static/images/Export/ndex_context_menus.png)
 
 When the export to NDEx is complete, you will be given an opportunity to capture the network's UUID in your clipboard. The UUID is suitable for e-mailing to colleagues so they can load your network via their Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex) (provided you selected the **Save as Public** option). For more sharing options, see the [NDEx Public Server](http://ndexbio.org) website.
 
-![ndex\_save\_done.png](_static/images/Export/ndex_save_done.png)
+![](_static/images/Export/ndex_save_done.png)
 
 Further information on NDEx is available at the [NDEx Informational/Doc website](http://home.ndexbio.org).
 
 ### Network
 
-![network\_export\_dialog.png](_static/images/Export/network_export_dialog.png)
+![](_static/images/Export/network_export_dialog.png)
 
 The **Network** option is used to export 
 network data. Network data includes the nodes and edges in the network, and also
@@ -60,7 +60,7 @@ text box or Browse button. Press OK to export with the selected options.
 
 ### Table
 
-![table\_export\_dialog.png](_static/images/Export/table_export_dialog.png)
+![](_static/images/Export/table_export_dialog.png)
 
 The **Table** option is used to export any of the data tables that are available
 in the current Cytoscape session. This includes the node, edge, and network tables
@@ -75,7 +75,7 @@ text field. Press OK to export the selected table with the given file name.
 
 ### Styles
 
-![styles\_export\_dialog.png](_static/images/Export/styles_export_dialog.png)
+![](_static/images/Export/styles_export_dialog.png)
 
 The **Styles** option is used to export one or more visual styles available in the current Cytoscape session. Supported formats include Style XML (which can be imported by 3.x versions of Cytoscape) or Cytoscape.js JSON (which can be used with Cytoscape.js, described in future sections).
 
@@ -131,7 +131,7 @@ same time, as unpredictable results may occur.
 <a id="as_a_static_image"> </a>
 ### As a Static Image
 
-![image\_export\_dialog.png](_static/images/Export/image_export_dialog.png)
+![](_static/images/Export/image_export_dialog.png)
 
 Cytoscape can generate publication-quality images from network views. By
 selecting **File → Export as Image...**, you can
@@ -194,11 +194,11 @@ and are described in sections below.
 
 For example, here is a network in Cytoscape:
 
-![WebExportOriginal\_v3\_3\_3.png](_static/images/Export/WebExportOriginal_v3_3_3.png)
+![](_static/images/Export/WebExportOriginal_v3_3_3.png)
 
 Here is the same network as an interactive web visualization:
 
-![web\_export\_fullexport.png](_static/images/Export/web_export_fullexport.png)
+![](_static/images/Export/web_export_fullexport.png)
 
 Note that web browsers can render small networks (e.g., 1000 nodes)
 quickly and effectively, but attempting to render large ones (e.g., 5000
@@ -323,13 +323,13 @@ for Cytoscape-generated network visualizations. You can unzip the
 archive onto a web server (or your PC) and view the network via a web
 browser on PCs and tablets.
 
-![web\_export\_full.png](_static/images/Export/web_export_full.png)
+![](_static/images/Export/web_export_full.png)
 
 To generate an entire web page for all networks in the session as a zip
 archive, select **File → Export as Web Page...**. The following dialog
 will appear:
 
-![web\_export\_full\_dialog.png](_static/images/Export/web_export_full_dialog.png)
+![](_static/images/Export/web_export_full_dialog.png)
 
 This simple dialog has only two options - the file name and the type of
 web export (full, simple network view, or JSON). For full web application,
@@ -351,7 +351,7 @@ Here is an example exported file from Cytoscape:
 
 -   [Archive file](http://cl.ly/XjMs/cytoscape_full_export.zip)
 
-![web\_export\_full2.png](_static/images/Export/web_export_full2.png)
+![](_static/images/Export/web_export_full2.png)
 
 Note that because Cytoscape uses the latest HTML5-based web
 technologies, it cannot support older or non-conformant web browsers
@@ -372,13 +372,13 @@ web application based on the cytoscape.js library and including simple
 "boilerplate" code and the current network view. The user can create a
 custom viewer by customizing this code.
 
-![web\_export\_simple.png](_static/images/Export/web_export_simple.png)
+![](_static/images/Export/web_export_simple.png)
 
 To generate a web page for a single network view as a zip archive, select
 **File → Export as Web Page ...** as before, but this time choose the
 *Simple viewer for current network only* format as below:
 
-![web\_export\_simple\_dialog.png](_static/images/Export/web_export_simple_dialog.png)
+![](_static/images/Export/web_export_simple_dialog.png)
 
 Everything else works as before, though this time the viewer will only
 include the current network. Press OK to proceed with the export.
@@ -427,7 +427,7 @@ If you are a web application developer, you can change the application
 code generated for **all** exports by editing HTML5 template code
 resource files in your **\~/CytoscapeConfiguration/web** directory:
 
-![web\_folder.png](_static/images/Export/web_folder.png)
+![](_static/images/Export/web_folder.png)
 
 In this folder, you can find **full** and **simple** sub directories
 corresponding to Full Web Application and the Simple Network View

@@ -105,11 +105,11 @@ Notably, **Automation Examples** contains a tutorial that explains how to explor
 
 The **CyREST API** and **CyREST Command API** submenus document CyREST in a Swagger web application, which allows you to explore CyREST entrypoints by reading about them and invoking them directly (using a *Try it out!*) button. A sample page matching the http://localhost:1234/v1/ Function is:
 
-![](_static/images/ProgrammaticAccess/swagger_v1.png)
+![](_static/images/ProgrammaticAccess/swagger.png)
 
 Note that the page contains a description, input parameters, output values, result code and the *Try it out!* button. Pressing the button executes the Function and shows the actual CyREST call and its results. **Making good use of Swagger as a prototyping tool can greatly reduce code writing and debug time!**
 
-![](_static/images/ProgrammaticAccess/swagger_v1_result.png)
+![](_static/images/ProgrammaticAccess/swagger_results.png)
 
 To find out more about how to use CyREST, visit the Cytoscape Automation [tutorial pages (https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation)](https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation).
 

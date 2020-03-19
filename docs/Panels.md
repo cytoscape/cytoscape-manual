@@ -30,14 +30,14 @@ You can take advantage of these 5 panel states in order to manage the available 
 
 - **Minimized:** Use the **Minimize** icon ![](_static/images/Panels/MinimizeIcon.png) at the top-right corner of a panel to quickly hide it. The tabs from a minimized panel still appear on the sidebar, and by clicking a tab the panel will be shown again as undocked. Some panels (e.g. _Tool Panel_) may be minimized by default.
 
-  In the example below, the _Control_ and _Tool_ panels are minimized (_Results_ and _Automation_ are hidden):
+  In the example below, the _Control_ and _Tool_ panels are minimized (_Results_ and _Command_ are hidden):
   
   ![](_static/images/Panels/ExampleMinimized.png)
   
 
 - **Docked:** The most used panels (e.g. _Control_, _Table_) are initially docked by default. When docked, a panel takes the space that could be used by its adjacent panels and by resizing it, those adjacent panels are resized as well (e.g. by resizing the "Control" panel horizontally, the "View" panel is also resized). If a panel is undocked or floating, use the **Dock** icon ![](_static/images/Panels/DockIcon.png) to make it docked.
 
-  In the screenshot below, all panels are docked, except _Results_ and _Automation_, which are hidden:
+  In the screenshot below, all panels are docked, except _Results_ and _Command_, which are hidden:
   
   ![](_static/images/Panels/ExampleDocked.png)
   

@@ -24,13 +24,13 @@ for undirected and directed networks, including:
 
 To run Analyzer, select **Tools → Analyze Network**.
 
-![Analyzer.png](_static/images/Network_Analyzer/Analyzer.png)
+![](_static/images/Network_Analyzer/Analyzer.png)
 
 Analyzer will run different statistics depending on whether the network is directed or undirected.  The app will guess which type of network it is based on the definition of a target arrow style, but since this is not 
 
 When results are calculated, they will appear in the **Results Panel**.
 
-![AnalyzerResultsPanel.png](_static/images/Network_Analyzer/AnalyzerResultsPanel.png)
+![](_static/images/Network_Analyzer/AnalyzerResultsPanel.png)
 
 The results have multiple tabs. Details on the network parameters can be
 found
@@ -58,11 +58,11 @@ found
 
 ### Analyze Subset of Nodes
 
-Prior versions of this tool offered the option of analyzing all nodes or only a selected subset.   This is no longer supported directly in the program.  Instead, if you want to analyzer a subnetwork, you must first use the command **File → New Network → From Selected Nodes, All Edges** to create the desired subnetwork.
+Prior versions of this tool offered the option of analyzing all nodes or only a selected subset.   This is no longer supported directly in the program.  Instead, if you want to analyze a subnetwork, you must first use the command **File → New Network → From Selected Nodes, All Edges** to create the desired subnetwork.
 <a id="plot_parameters"> </a>
 ### Plot Parameters
 
-Once the Analyzer is run, several additional columns are added to the Node Table (and EdgeBetweenness is added to the Edge Table).  To plot any of these new columns, right-click on the column header and select **Plot Histogram...** for a single parameter distribution, or **Plot Scatter...** for a bivariate plot of the data.  Within either of these charts it is possible to select a section of the data, and select the nodes (edges) in the main graph window corresponding to the region selected on the chart.
+Once the Analyzer is run, several additional columns are added to the Node Table (and an EdgeBetweenness column is added to the Edge Table).  To plot any of these new columns, right-click on the column header and select **Plot Histogram...** for a single parameter distribution, or **Plot Scatter...** for a bivariate plot of the data.  Within either of these charts it is possible to select a section of the data, and select the nodes (edges) in the main graph window corresponding to the region selected on the chart.
 <a id="networkanalyzer_settings"> </a>
 
 <a id="networkanalyzerdemo"> </a>
