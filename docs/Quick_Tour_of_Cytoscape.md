@@ -51,7 +51,8 @@ components:
     contains an optional network overview pane (shown at the
     bottom left).  
 
--   The main Network View Window, which displays the network.
+-   The main Network View Window, which displays the network. At the bottom
+    of the network view are a set of network view tools. 
 
 -   The Table Panel (bottom right panel), which displays columns of
     selected nodes and edges and enables you to modify the values of
@@ -280,13 +281,30 @@ When you have detached network view windows, you can arrange them by selecting o
 ![](_static/images/Quick_Tour/MultipleNetworks_SidebySide.png)
 
 <a id="the_network_overview_window"> </a>
-## The View Navigator
+## Network View Tools
 
-The View Navigator (or "bird's eye view")  is a control that shows an overview of the network. 
-It can be used to navigate around a large network view. The
-blue rectangle indicates the portion of the network currently displayed
-in the network view window, and it can be dragged with the mouse to view
-other portions of the network. Zooming in will cause the rectangle to
-appear smaller and vice versa. You can show or hide it by clicking the "Show/Hide Navigator" button ![ViewNavigatorControl.png](_static/images/Quick_Tour/ViewNavigatorControl.png) or pressing the key "N".
+At the bottom of the Network View Window is a set of network tools:
+
+![](_static/images/Quick_Tour/NetworkTools.png)
+
+-   **Show Grid** will arrange all loaded networks as a grid.
+
+-   **Show Network** will show the currently selected network.
+
+-   **Export to File...** gives you options to export the network or image.
+
+-   **Always Show Graphics Detail** forces the rendering of graphics details. It is turned off by default.
+
+-   **Toggle Node Selection** allows you to turn off/on node selection. It is turned on by default.
+    
+-   **Toggle Edge Selection** allows you to turn off/on edge selection. It is turned on by default.
+
+-   **Toggle Annotation Selection** allows you to turn off/on annotation selection. It is turned off by default.
+
+-   **Toggle Node Label Selection** allows you to turn off/on node label selection. It is turned off by default.
+
+-   **Hide Navigator** lets you hide the Navigator ("bird's eye view").
+
+The **Navigator** (or "bird's eye view") shows an overview of the network. It can be used to navigate around a large network view. The blue rectangle indicates the portion of the network currently displayed in the network view window, and it can be dragged with the mouse to view other portions of the network. Zooming in will cause the rectangle to appear smaller and vice versa. You can show or hide it by clicking the "Show/Hide Navigator" button ![](_static/images/Quick_Tour/ViewNavigatorControl.png) or pressing the key "N".
 
 ![](_static/images/Quick_Tour/NetworkOverview.png)
