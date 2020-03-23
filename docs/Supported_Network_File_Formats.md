@@ -241,10 +241,10 @@ specified in a GML file will result in a new style named
 ## XGMML Format
 
 XGMML is the XML evolution of GML and is based on the GML definition. In
-addition to network data, XGMML contains node/edge/network column data.
-The XGMML file format specification is available at:
+addition to network data, XGMML contains node/edge/network column data. More
+information on Wikipedia:
 
-[http://cgi5.cs.rpi.edu/research/groups/pb/punin/public_html/XGMML/](http://cgi5.cs.rpi.edu/research/groups/pb/punin/public_html/XGMML/)
+[https://en.wikipedia.org/wiki/XGMML](https://en.wikipedia.org/wiki/XGMML)
 
 XGMML is now preferred to GML because it offers the flexibility
 associated with all XML document types. If you're unsure about which to
