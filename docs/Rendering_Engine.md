@@ -4,12 +4,11 @@
 <a id="what_is_level_of_detail_lod"> </a>
 ## What is Level of Detail (LOD)?
 
-Cytoscape 3.0 retains the rendering engine found in version 2.8. It is
-to be able to display large networks (> 10,000 nodes), yet retain
-interactive speed. To accomplish this goal, a technique involving
-**level of detail (LOD)** is being used. Based on the number of objects
-(nodes and edges) being rendered, an appropriate **level of detail** is
-chosen. For example, by default, node labels (if present) are only
+Cytoscape is able to display large networks (> 10,000 nodes) while 
+maintaining interactive speed. To accomplish this goal the 
+**level of detail (LOD)** used to display the network is 
+chosen based on the number of nodes and edges currently being displayed. 
+For example, by default, node labels (if present) are only
 rendered when less than 200 nodes are visible because drawing text is a
 relatively expensive operation. This can create some unusual behavior.
 If the screen currently contains 198 nodes, node labels will be
@@ -18,9 +17,14 @@ displayed, the node labels will disappear. As another example, if the
 sum of rendered edges and rendered nodes is greater than or equal to a
 default value of 4000, a very coarse level of detail is chosen, where
 edges are always straight lines, nodes are always rectangles, and no
-anti-aliasing is done. The default values used to determine these
-thresholds can be changed by setting properties under **Edit |
-Preferences | Properties...**.
+anti-aliasing is done. 
+
+Additionally Cytoscape may temporarily lower the **level of detail** even
+more while the network is being interacted with (eg. panning, 
+zooming, moving a node). For example edges and charts may not be displayed
+during interaction. When the network is no longer being interacted 
+with it will be displayed again in higher detail. 
+
 
 **Low LOD vs High LOD**
 
@@ -37,13 +41,33 @@ With low LOD values, all nodes are displayed as square and anti-aliasing
 is turned off. With high LOD values, anti-aliasing is turned on and
 nodes are displayed as actual shape user specified in the Style.
 
+
+<a id="force_to_display_detail"> </a>
+### Force to Display Detail
+
+If you want to display every detail of the network at all times regardless of LOD
+values, you can toggle to full details mode by **View | Show Graphics
+Details (or CTR+SHIFT+D on Windows/Linux, Command+SHIFT+D for Mac)**.
+This option forces the display of all graphics details. If the network
+is large, this option slows down rendering speed. To hide details,
+select the menu item again (**View | Hide Graphics Details**).
+
+
 <a id="parameters_for_controlling_lod"> </a>
 ### Parameters for Controlling LOD
+
+The default values used to determine level of detail
+can be changed by setting properties under **Edit | Preferences | Properties...**.
 
 **NOTE:** *The greater these thresholds become, the slower performance
 will become.* If you work with small networks (a few hundred nodes),
 this shouldn't be a problem, but for large networks it will produce
 noticeable slowing. The various thresholds are described below.
+
+**NOTE:** Since Cytoscape 3.8 interactivity will always be maintained
+even when a high level of detail is chosen. It is generally safe
+to increase the level of detail or to force full graphics details even
+for very large networks.
 
 <table cellspacing="0">
 <caption>LOD Thresholds</caption>
@@ -60,12 +84,4 @@ When printing networks or exporting to formats such as PostScript, the
 highest level of detail is always chosen, regardless of what is
 currently being displayed on the screen.
 
-<a id="force_to_display_detail"> </a>
-### Force to Display Detail
 
-If you want to display every detail of the network regardless of LOD
-values, you can toggle to full details mode by **View | Show Graphics
-Details (or CTR+SHIFT+D on Windows/Linux, Command+SHIFT+D for Mac)**.
-This option forces the display of all graphics details. If the network
-is large, this option slows down rendering speed. To hide details,
-select the menu item again (**View | Hide Graphics Details**).
