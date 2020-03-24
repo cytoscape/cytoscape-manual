@@ -3,7 +3,7 @@
 
 ## Raw Data Export
 
-![](_static/images/Export/export_menu_37.png)
+![](_static/images/Export/export_menu_38.png)
 
 To use data from Cytoscape networks in an external application, the data has to be exported.
 As a Cytoscape network consists of a number of different types of data, there are options 
@@ -13,27 +13,35 @@ in Cytoscape for each exportable data type. These options (Network, Table, Style
 <a id="export_ndex"> </a>
 ### Network Data Exchange (NDEx) Public Database
 
-The **Network to NDEx** and **Collection to NDEx** options are used to store a network on a public NDEx server. You can use an NDEx server as a cloud-based store for your networks, as a means of [sharing networks](Export_Your_Data.html#as_an_ndex_network) with collaborators, or to [archive networks](Export_Your_Data.html#as_an_ndex_network) for publication. To store a network, you must have an NDEx account, which you can create by visiting the [NDEx Public Server](http://ndexbio.org) website.
+The **Network to NDEx** and **Collection to NDEx** options are used to store a network on the public NDEx server. You can use the NDEx public server to store your networks on the cloud, to share them [sharing networks](Export_Your_Data.html#as_an_ndex_network) with collaborators, or to [archive networks](Export_Your_Data.html#as_an_ndex_network) for publication. To store a network, you must first create a free NDEx account, which you can easily do by visiting the [NDEx Public Server](http://ndexbio.org) website.
 
-The **Network to NDEx** option saves only the currently selected network to your NDEx account. Such networks are suitable for processing by other applications and web services, as they contain only the nodes and edges in the selected network -- other networks and the nodes and edges unique to them are not written. If you import this network (using the Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex)), only the single network will be loaded.
+The **Network to NDEx** option saves only the currently selected network to your NDEx account. Such networks are suitable for processing by other applications and web services, as they contain only the nodes and edges in the selected network -- other views and the nodes and edges unique to them are not written. If you later re-import this network (using the Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex)), only the single network you saved will be loaded.
 
-The **Collection to NDEx** option saves all networks in the collection containing the currently selected network. If you import this collection (using the Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex)), the entire collection will be loaded. This option is closest to saving an entire Cytoscape session, except that only the current collection is saved.
+The **Collection to NDEx** option saves all networks in the collection containing the currently selected network. If you later re-import this collection (using the Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex)), the entire collection will be loaded. This option is closest to saving an entire Cytoscape session.
 
-When you select either option, the CyNDEx-2 Browser dialog will appear and enable you to provide metadata that will be displayed during subsequent NDEx searches. To save a network, you must add an NDEx account profile to the CyNDEx-2 Browser (by filling out the profile form reachable by clicking on the *Anonymous* credential in the upper right), and then make it current.
+When you select either option, the CyNDEx-2 Browser dialog will appear and enable you to provide metadata to annotate the network and make it findable in subsequent NDEx searches. You can set the name of your network by editing the **Network Name** attribute. The **Update Existing Network** option enables you to overwrite the existing copy of the network (if you have permission to do so). We recommend to provide as much metadata as possible, and always provide at least **Version** and **Description** attributes.
 
-![](_static/images/Export/ndex_save.png)
+To export your network, you must first associate your NDEx account credentials with the CyNDEx-2 Browser by filling out the profile form (red oval in screenshot below)
 
-You can set the name of your network by editing the **Network Name** attribute at the bottom. The **Update Existing Network** option enables you to overwrite an existing NDEx network if you have permission. If you choose to make your network public, you must fill in the **Version** and **Description** attributes. Choose the **Save as Public** option to enable collaborators to load your network.
+![](_static/images/Export/ndex_save1.png)
 
-Menu actions have also been added to the network and collection context menus in the Cytoscape Network panel, as another method of accessing the network save dialog.
+Once the profile is created, you are allowed to export your network to NDEx
+
+![](_static/images/Export/ndex_save2.png)
+
+Export commands have also been added to the network and collection context menus in the Cytoscape Network panel, as another method of accessing the network save dialog.
 
 ![](_static/images/Export/ndex_context_menus.png)
 
-When the export to NDEx is complete, you will be given an opportunity to capture the network's UUID in your clipboard. The UUID is suitable for e-mailing to colleagues so they can load your network via their Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex) (provided you selected the **Save as Public** option). For more sharing options, see the [NDEx Public Server](http://ndexbio.org) website.
+Finally, the NDEx button in the toolbar provides an additional convenient way to both Import and Export to NDEx
+
+![](_static/images/Export/ndex_toolbar_button.png)
+
+When the export operation is complete, a confirmation dialog will be displayed as shown below. If you want to share your network with external collaborators or for more sharing options, please refer to the guide for [Uploading and Sharing Networks](https://home.ndexbio.org/sharing-and-accessing-networks/) in NDEx.
 
 ![](_static/images/Export/ndex_save_done.png)
 
-Further information on NDEx is available at the [NDEx Informational/Doc website](http://home.ndexbio.org).
+Further information on NDEx is available at the [NDEx Informational/Doc website](https://home.ndexbio.org/quick-start/).
 
 ### Network
 
@@ -107,15 +115,16 @@ viewers. These are further explained below.
 <a id="as_an_ndex_network"> </a>
 ### As an NDEx Network
 
-The easiest way to share your results with others is to save your network in the NDEx Public Database by using the [Network to NDEx](Export_Your_Data.html#export_ndex) or [Collection to NDEx](Export_Your_Data.html#export_ndex) options. When you save your network, you will receive a UUID (e.g., 50e3dff7-133e-11e6-a039-06603eb7f303) that you can e-mail to collaborators for use in their own Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex) (provided you exported using the **Save as Public** option -- see the [Save as Public](Export_Your_Data.html#export_ndex) option.)
+The easiest way to share your results with others is to save your network in the NDEx Public Database by using the [Network to NDEx](Export_Your_Data.html#export_ndex) or [Collection to NDEx](Export_Your_Data.html#export_ndex) options. Then, visit your NDEx account and enable the "Sharable URL" (similar to a Google Doc shared link) so that your private network can be accessed by whoever you send the link to. 
 
-NDEx also has options that enable you to:
+NDEx also has additional options that enable you to:
 
--   generate a DOI suitable for use in publications
--   create an anonymous sharable link (similar to a Google Doc shared link)
--   create interest groups and specific sharing within NDEx
+-   request a DOI suitable for use in publications, grant applications or progress reports
+-   create working groups and specific sharing within NDEx.
+-   run different types of queries on your networks
+-   perform enrichment analysis on a variety of datasets, including curated pathways, large interactomes, drug-target           association networks and many more.
 
-For more information on NDEx publishing and sharing features, see the [Publishing in NDEx](http://home.ndexbio.org/publishing-in-ndex/) and [Sharing Networks in NDEx](http://home.ndexbio.org/obtaining-and-granting-access-to-a-network/) tutorials.
+For more information on NDEx publishing and sharing features, see the [Publishing in NDEx](http://home.ndexbio.org/publishing-in-ndex/) and [Sharing Networks in NDEx](http://home.ndexbio.org/obtaining-and-granting-access-to-a-network/) manuals.
 
 <a id="as_a_session_file"> </a>
 ### As a Session File
