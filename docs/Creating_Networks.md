@@ -314,7 +314,7 @@ CyNDEx-2, like NDEx,  uses standard [Lucene Syntax](http://www.google.com/url?q=
 
 Finally, It is also possible to access the NDEx Import and Export dialogs via the NDEx button in the main **Cytoscape Toolbar**, which will display the two otions on click.
 
-![ndex_toolbar.png](_static/images/Creating_Networks/ndex_toolbar.png)
+![ndex_toolbar_button.png](_static/images/Creating_Networks/ndex_toolbar_button.png)
 
 <a id="create_a_new_network_or_edit_one_manually"> </a>
 ## Create a New Network or Edit One Manually
