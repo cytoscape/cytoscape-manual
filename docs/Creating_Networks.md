@@ -290,40 +290,29 @@ using this framework. Cytoscape supports many web services including:
     
 -   [NDEx](http://www.ndexbio.org/): The Network Data Exchange (NDEx) Project provides an open-source framework 
     where scientists and organizations can share, store, manipulate, and publish 
-    biological network knowledge. NDEx is available from the **Search bar**.
+    biological network knowledge. NDEx is available from the **Search bar**, from **File → Import → Network from NDEx...** and     in the **Toolbar** via the **NDEx Button**.
     
 ### Example: Retrieving Networks from NDEx
 
--   In the **Search bar**, select NDEx from the drop-down menu and type in one or more 
-    search terms, such as BRCA1.
+-   In the **Search bar**, select NDEx from the drop-down menu and type in one or more search terms, such as BRCA1.
 
 -   Click **Enter** to start the search.
 
--   In the CyNDEx-2 Browser dialog, click a network's **Import** button to load it into Cytoscape and visualize it. When you have finished loading networks, dismiss the dialog box.
+-   The CyNDEx-2 **FInd Networks** dialog window will open and show the search results
 
-![ndex_table.png](_static/images/Creating_Networks/ndex_table.png)
+-   By default, results are returned in order of relevance based on the search terms you provided; you can change the sorting criteria by clicking on the column headers.
 
-You can browse networks in a number of ways:
+-   Mark the **My Networks** checkbox at the top of the results table to only display the results that you own (you must have an NDEx account and a profile associated to the CyNDEx Browser... see the section [**Export** options](Export_Your_Data.html#export_ndex) for more details). 
 
--   Sort by column (via the **Sort by** dropdown) or order the sorted column (via the **Descending/Ascending** dropdown)
+-   Click the **Black Arrow Icon** on the left hand side of a network to import it into Cytoscape and visualize it. When you have finished loading networks, dismiss the dialog window by clicking the **Close Dialog** button.
 
--   Use your NDEx user account to enable searching within your network list
+![ndex_find_networks.png](_static/images/Creating_Networks/ndex_find_networks.png)
 
-    -   Create an NDEx account by visiting the [NDEx Public Server](http://ndexbio.org) website
-
-    -   Add a profile to the CyNDEx-2 Browser (by filling out the profile form reachable by clicking on the *Anonymous* credential in the upper right)
-
-    -   Click on the **My Networks** checkbox at the top of the network table
-
--   Enter a new query into the search bar at the top of the dialog
-
-    -   Find a network via a UUID sent to you by using the *uuid:* selector in your search (e.g., uuid:50e3dff7-133e-11e6-a039-06603eb7f303)
+You can also find a network via its UUID by using the *uuid:* selector in your search (e.g., uuid:50e3dff7-133e-11e6-a039-06603eb7f303)
 
 CyNDEx-2, like NDEx,  uses standard [Lucene Syntax](http://www.google.com/url?q=http%3A%2F%2Flucene.apache.org%2Fcore%2F2_9_4%2Fqueryparsersyntax.html&sa=D&sntz=1&usg=AFQjCNET2XPlP7UAXyTDJzAoMf1zsv0Ccw) as its network search language. For additional information, see [Searching Networks in NDEx](http://home.ndexbio.org/finding-and-querying-networks/). More information about CyNDEx-2, see the [CyNDEx-2 App Store](http://apps.cytoscape.org/apps/cyndex2) page.
 
-Note that you can save networks back to the NDEx database by using [**Export** options](Export_Your_Data.html#export_ndex).
-
-It is also possible to access the NDEx browse and save dialogs via the NDEx button in the main Cytoscape toolbar, which will display two menu actions on click.
+Finally, It is also possible to access the NDEx Import and Export dialogs via the NDEx button in the main **Cytoscape Toolbar**, which will display the two otions on click.
 
 ![ndex_toolbar.png](_static/images/Creating_Networks/ndex_toolbar.png)
 
