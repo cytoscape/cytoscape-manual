@@ -287,25 +287,25 @@ At the bottom of the Network View Window is a set of network tools:
 
 ![](_static/images/Quick_Tour/NetworkTools.png)
 
--   **Show Grid** ![](_static/images/Quick_Tour/ShowGrid.png) will arrange all loaded networks as a grid.
+-   **Show Grid** will arrange all loaded networks as a grid.
 
--   **Show Network** ![](_static/images/Quick_Tour/ShowNetwork.png) will show the currently selected network.
+-   **Show Network** will show the currently selected network.
 
--   **Detach View** ![](_static/images/Quick_Tour/DetachView.png) detaches the network view window from the main Cytoscape window.
+-   **Detach View** detaches the network view window from the main Cytoscape window.
 
--   **Export to File...** ![](_static/images/Quick_Tour/ExportToFile.png) gives you options to export the network or image.
+-   **Export to File...** gives you options to export the network or image.
 
--   **Always Show Graphics Detail** ![](_static/images/Quick_Tour/ShowGraphicsDetail.png) forces the rendering of graphics details. It is turned off by default.
+-   **Always Show Graphics Detail** forces the rendering of graphics details. It is turned off by default.
 
--   **Toggle Node Selection** ![](_static/images/Quick_Tour/ToggleNodeSelection.png) allows you to turn off/on node selection. It is turned on by default.
+-   **Toggle Node Selection** allows you to turn off/on node selection. It is turned on by default.
     
--   **Toggle Edge Selection** ![](_static/images/Quick_Tour/ToggleEdgeSelection.png) allows you to turn off/on edge selection. It is turned on by default.
+-   **Toggle Edge Selection** allows you to turn off/on edge selection. It is turned on by default.
 
--   **Toggle Annotation Selection** ![](_static/images/Quick_Tour/ToggleAnnotationSelection.png) allows you to turn off/on annotation selection. It is turned off by default.
+-   **Toggle Annotation Selection** allows you to turn off/on annotation selection. It is turned off by default.
 
--   **Toggle Node Label Selection** ![](_static/images/Quick_Tour/ToggleNodeLabelSelection.png) allows you to turn off/on node label selection. It is turned off by default.
+-   **Toggle Node Label Selection** allows you to turn off/on node label selection. It is turned off by default.
 
--   **Hide Navigator** ![](_static/images/Quick_Tour/ViewNavigatorControl.png) lets you hide the Navigator ("bird's eye view").
+-   **Hide Navigator** lets you hide the Navigator ("bird's eye view").
 
 The **Navigator** (or "bird's eye view") shows an overview of the network. It can be used to navigate around a large network view. The blue rectangle indicates the portion of the network currently displayed in the network view window, and it can be dragged with the mouse to view other portions of the network. Zooming in will cause the rectangle to appear smaller and vice versa. 
 
