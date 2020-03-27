@@ -40,9 +40,9 @@ There are five types of annotations available:
    ![type_arrow.png](_static/images/Annotations/type_arrow.png)
 
  
-## The Annotations Panel
+## The Annotation Panel
 
-The Annotations panel shows the annotations that are currently present on the foreground and 
+The Annotation panel shows the annotations that are currently present on the foreground and 
 background layers. The panel allows you to create and delete annotations, select annotations, 
 move annotations up and down, move annotations between layers, and group annotations.
 
@@ -51,7 +51,7 @@ move annotations up and down, move annotations between layers, and group annotat
 
 ## Creating Annotations
 
-At the top of the a Annotations Panel there are five buttons for creating each type of annotation. 
+At the top of the a Annotation Panel there are five buttons for creating each type of annotation. 
 Start by clicking the button for the type of annotation you would like to add. 
 
 ![annotations_panel_buttons.png](_static/images/Annotations/annotations_panel_buttons.png)
@@ -91,7 +91,7 @@ Alternatively, right click on the network canvas and select the annotation type 
 One or more annotations can be selected in the Annotations panel by clicking on them. 
 
 To be able to select annotations in the network canvas
-**Annotation Selection Mode** must be enabled. Toggle the 
+**Toggle Annotation Selection** must be enabled. Toggle the 
 ![button_annotation_selection.png](_static/images/Annotations/button_annotation_selection.png)
 button at the bottom of the network view to enable/disable annotation selection mode.
 
@@ -114,7 +114,7 @@ are selected they can be moved and resized at the same time.
 
 ![annotations_panel_selected.png](_static/images/Annotations/annotations_panel_selected.png)
 
-The Annotations panel displays a list of annotations on the foreground layer and a list of 
+The Annotation panel displays a list of annotations on the foreground layer and a list of 
 annotations on the background layer.
 
 Annotations that are towards the top of a list are drawn above annotations lower in the list. 
@@ -130,14 +130,14 @@ button to move it to the background layer.
 
 ## Renaming Annotations
 
-Each annotation has a name that is displayed in the Annotations Panel. These names are primarily 
+Each annotation has a name that is displayed in the Annotation Panel. These names are primarily 
 for organizational purposes and do not affect how the annotation is displayed on the canvas. To 
-rename an annotation double-click the annotation in the Annotations Panel and enter the new name.
+rename an annotation double-click the annotation in the Annotation Panel and enter the new name.
 
 
 ## Editing Annotations
 
-To modify the properties of an annotation (eg, color, text) go to the Annotations panel,
+To modify the properties of an annotation (eg, color, text) go to the Annotation panel,
 right click the annotation, and select **Modify Annotation...** in the context menu.
 
 ![modify_menu.png](_static/images/Annotations/modify_menu.png)
@@ -145,7 +145,7 @@ right click the annotation, and select **Modify Annotation...** in the context m
 
 ## Deleting Annotations
 
-To delete annotations from the annotations panel select one or more annotations and click the 
+To delete annotations from the Annotation panel select one or more annotations and click the 
 ![button_trash.png](_static/images/Annotations/button_trash.png) button.
 
 To delete annotations from the network view right click an annotation and select **Edit > Cut**.
