@@ -27,7 +27,7 @@ will be referenced with a URL).
 
 In order to load a network from a local file you can select **File →
 Import → Network from File...** or click on
-![Cy3\_icon\_net\_file\_import.png](_static/images/Creating_Networks/Cy3_icon_net_file_import.png)
+![](_static/images/Creating_Networks/Cy3_icon_net_file_import.png)
 on the tool bar. Choose the correct file in the file chooser dialog and
 press Open. Some sample network files of different types have been
 included in the sampleData folder in Cytoscape.
@@ -38,7 +38,7 @@ network, or load the new network into an existing network collection.
 When you choose the latter, make sure to choose the right mapping column
 to map the new network to the existing network collection. 
 
-![ImportNetwork.png](_static/images/Creating_Networks/ImportNetwork.png)
+![](_static/images/Creating_Networks/ImportNetwork.png)
 
 Alternatively, you can simply drag and drop a network file from the desktop into the _Network_ list 
 (**Control Panel**), rather than selecting the file from the menu option.
@@ -59,7 +59,7 @@ for more details on bookmarks). Also, you can drag and drop links from a
 web browser to the URL text box. Once a URL has been specified, click on
 the OK button to load the network.
 
-![ImportNetworkFromURL.png](_static/images/Creating_Networks/ImportNetworkFromURL.png)
+![](_static/images/Creating_Networks/ImportNetworkFromURL.png)
 
 Another issue for network import is the presence of firewalls, which can
 affect which files are accessible to a computer. To work around this
@@ -82,7 +82,7 @@ file will be parsed, the user must also choose the columns that
 represent the source and target nodes as well as an optional edge
 interaction type. For detailed instructions, see Basic Operations below.
 
-![ImportNetworkDialog2.png](_static/images/Creating_Networks/ImportNetworkDialog2.png)
+![](_static/images/Creating_Networks/ImportNetworkDialog2.png)
 
 <a id="supported_files"> </a>
 ### Supported Files
@@ -127,7 +127,7 @@ those columns by clicking on the column header in the preview window.
 This function is useful when importing a data table like the following
 (1):
 
-![sampleTableData1.png](_static/images/Creating_Networks/sampleTableData1.png)
+![](_static/images/Creating_Networks/sampleTableData1.png)
 
 This data file is a tab-delimited text file and contains network data
 (interactions), edge data, and node data. To import network and edge
@@ -152,7 +152,7 @@ files are available at [http://wiki.cytoscape.org/Data_Sets/](http://wiki.cytosc
 To import network from text/Excel tables, please follow these steps:
 
 1.  Select **File → Import → Network from File...** or click on
-    ![Cy3\_icon\_net\_file\_import.png](_static/images/Creating_Networks/Cy3_icon_net_file_import.png)
+    ![](_static/images/Creating_Networks/Cy3_icon_net_file_import.png)
     on the tool bar.
 
 2.  Select a table file in the file chooser dialog.
@@ -162,16 +162,16 @@ To import network from text/Excel tables, please follow these steps:
     Interaction Type. Clicking on on the arrow to the right of any column header will bring up the
     interface for selecting source, interaction and target:
 
-    ![ImportNetworkDialogDetails.png](_static/images/Creating_Networks/ImportNetworkDialogDetails.png)
+    ![](_static/images/Creating_Networks/ImportNetworkDialogDetails.png)
 
 4.  (Optional) Define edge table columns, if applicable. Network table
     files can have edge table columns in addition to network data.
 
     -   Enable/Disable Table Columns: You can enable/disable column data
-        by selecting the \[attachment:disablecolumn.png\] symbol in the
+        by selecting the ![](_static/images/Creating_Networks/NotImported.png) symbol in the
         column editor.
 
-        ![Cy3\_network\_table\_sample2.png](_static/images/Creating_Networks/Cy3_network_table_sample2.png)
+        ![](_static/images/Creating_Networks/Cy3_network_table_sample2.png)
 
     -   Change Column Name and Data Types: You can also modify the
         column name and data type in the column editor. For more detail,
@@ -192,7 +192,7 @@ for more detail.
 <a id="advanced_options"> </a>
 ### Advanced Options
 
-![ImportFromTable\_Advanced.png](_static/images/Creating_Networks/ImportFromTable_Advanced.png)
+![](_static/images/Creating_Networks/ImportFromTable_Advanced.png)
 
 You can select several options by clicking the **Advanced Options**
 button in the main import interface.
@@ -220,7 +220,7 @@ button in the main import interface.
 In the **Import Network from Table** interface, you can change the name
 and data type of column by clicking on any column header:
 
-![ImportNetworkDialogDetails.png](_static/images/Creating_Networks/ImportNetworkDialogDetails.png)
+![](_static/images/Creating_Networks/ImportNetworkDialogDetails.png)
 
 Column names and data types can be modified here.
 
@@ -255,7 +255,7 @@ also available at the top of the **Network** panel in the
 **Control Panel**. From the search bar, you can direclty access several public 
 databases.
 
-![NetworkSearch.png](_static/images/Creating_Networks/NetworkSearch.png)
+![](_static/images/Creating_Networks/NetworkSearch.png)
 
 <a id="what_is_a_web_service"> </a>
 ### What is a Web Service?
@@ -306,7 +306,7 @@ using this framework. Cytoscape supports many web services including:
 
 -   Click the **Black Arrow Icon** on the left hand side of a network to import it into Cytoscape and visualize it. When you have finished loading networks, dismiss the dialog window by clicking the **Close Dialog** button.
 
-![ndex_find_networks.png](_static/images/Creating_Networks/ndex_find_networks.png)
+![](_static/images/Creating_Networks/ndex_find_networks.png)
 
 You can also find a network via its UUID by using the *uuid:* selector in your search (e.g., uuid:50e3dff7-133e-11e6-a039-06603eb7f303)
 
@@ -314,7 +314,7 @@ CyNDEx-2, like NDEx,  uses standard [Lucene Syntax](http://www.google.com/url?q=
 
 Finally, It is also possible to access the NDEx Import and Export dialogs via the NDEx button in the main **Cytoscape Toolbar**, which will display the two otions on click.
 
-![ndex_toolbar_button.png](_static/images/Creating_Networks/ndex_toolbar_button.png)
+![](_static/images/Creating_Networks/ndex_toolbar_button.png)
 
 <a id="create_a_new_network_or_edit_one_manually"> </a>
 ## Create a New Network or Edit One Manually
@@ -331,7 +331,7 @@ the same process.
 To add a new node, right-click on an empty space of the network view
 panel. Select **Add → Node** item from the pop-up menu.
 
-![AddNodeMenu.png](_static/images/Creating_Networks/AddNodeMenu.png)
+![](_static/images/Creating_Networks/AddNodeMenu.png)
 
 <a id="adding_an_edge"> </a>
 ### Adding an Edge
@@ -344,9 +344,9 @@ You can also select two or more nodes to connect and in the right-click
 menu select **Add → Edges Connecting Selected Nodes** to create edges
 connecting all selected nodes.
 
-![AddEdgeMenu.png](_static/images/Creating_Networks/AddEdgeMenu.png)
+![](_static/images/Creating_Networks/AddEdgeMenu.png)
 
-![AddEdge-2.png](_static/images/Creating_Networks/AddEdge-2.png)
+![](_static/images/Creating_Networks/AddEdge-2.png)
 
 You can delete nodes and edges by selecting a number of nodes and edges,
 then selecting **Edit → Cut**. You can also delete selected nodes and
@@ -367,11 +367,11 @@ on the group node or any of its children to toggle back and forth.
 
 **Collapsed group**
 
-![GroupCollapsed2.png](_static/images/Creating_Networks/GroupCollapsed2.png)
+![](_static/images/Creating_Networks/GroupCollapsed2.png)
 
 **Expanded group**
 
-![GroupExpanded2.png](_static/images/Creating_Networks/GroupExpanded2.png)
+![](_static/images/Creating_Networks/GroupExpanded2.png)
 
 The appearance and behavior of grouped nodes depends on the [group settings](Cytoscape_Preferences.html?#managing-group-view) in effect when the group is created. Settings can be managed for the entire Cytoscape session (via **Edit → Preferences → Group Preferences...**) or for a specific group (right-click **Preferences → Group Preferences...**).
 
@@ -385,5 +385,4 @@ of your own, choose from a shapes library or add either plain or bounded
 text. Shapes and text are customizable and any added annotations can be
 edited from the right-click context menu.
 
-![Add Network
-    Annotations](_static/images/Creating_Networks/AddNetworkAnnotations.png)
+![](_static/images/Creating_Networks/AddNetworkAnnotations.png)
