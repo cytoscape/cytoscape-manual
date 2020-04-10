@@ -30,6 +30,7 @@ Copyright (c) 2001-2020 The Cytoscape Consortium
    Annotations
    App_Manager
    Command_Tool
+   CyBrowser
    Merge
    Network_Analyzer
    Cytoscape_Preferences
