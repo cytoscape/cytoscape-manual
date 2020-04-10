@@ -21,18 +21,18 @@ the <a href="#cybrowser_results">Cytoscape Results Panel</a>.
 ![](_static/images/CyBrowser/CyBrowser.png)
 
 The main CyBrowser window provides a very rudimentary browsing interface, with
-forward/back buttons, a text field to enter a new URL, and a "Go" button to 
+forward/back buttons, a text field to enter a new URL, and a **Go** button to 
 move to the new page.  In addition, there three context menus:
-1. Selected text
+1. ***Selected text***
    The selected text menu has just one item: **Copy**, which copies the selected
    text.
-2. Link
-
-![](_static/images/CyBrowser/LinkRightClick.png)
+2. ***Link***
    Using the link menu, users can copy the link location, open the link in a new window,
    or open the link in a new tab.  They can also use this to download the link target to
    a file.
-3. Other
+![](_static/images/CyBrowser/LinkRightClick.png)
+   
+3. ***Other***
 
 ![](_static/images/CyBrowser/RightClick.png)
    If the cursor is not over a link, and no text is selected, the default menu is shown.
