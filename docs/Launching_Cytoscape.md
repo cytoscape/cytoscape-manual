@@ -39,23 +39,15 @@ on the [http://cytoscape.org](http://cytoscape.org) website.*
 <a id="install_java"> </a>
 ### Install Java
 
-**Cytoscape requires Java 8.**
+**Cytoscape requires Java 11.**
 
 -   While Cytoscape versions prior to v3.2 run on Java 6, Oracle and
     other JVM suppliers have dropped Java 6 support. Consequently,
     Cytoscape v3.2 and later don't support Java 6 either. With v3.3, we
-    have also dropped support for Java 7 for the same reason.
+    have also dropped support for Java 7 for the same reason, and with
+    the release of Cytoscape v3.8 we have now dropped support for Java 8.
 
--   We recommend a 64 bit Java Runtime Environment (JRE). While
-    Cytoscape runs with 32 bit Java versions, using a 64 bit Java allows
-    the largest networks to be loaded and enables the fastest
-    network processing. For Windows, the default JRE download provided
-    at java.com is 32 bits regardless of the Windows version. While
-    Cytoscape will run with a 32 bit JRE, it will be limited to loading
-    only small networks. We recommend downloading and installing a 64
-    bit JRE.
-
--   We currently recommend only Java 8.
+-   We recommend a 64 bit Java Runtime Environment (JRE) such as OpenJDK 11.
 
 For additional information, select the Release Notes button on the
 [Cytoscape web site](http://cytoscape.org).
