@@ -41,7 +41,7 @@ the web page of the manufacturer of your CPU.
 
 As of 2017-01-06, drivers for Intel CPUs can be downloaded at 
 [https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime](https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime) - 
-look for "runtime-only". AMD's drivers can be found at [http://support.amd.com/en-us/kb-articles/Pages/OpenCL2-Driver.aspx](http://support.amd.com/en-us/kb-articles/Pages/OpenCL2-Driver.aspx).
+look for "runtime-only". AMD requires you to [find drivers per device](https://community.amd.com/community/support-forums/drivers-software) for older hardware or use ROCm:  [https://github.com/RadeonOpenCompute/ROCm/wiki#What-Is-ROCm. ](https://github.com/RadeonOpenCompute/ROCm/wiki#What-Is-ROCm).
 
 **Warning:** After you have just installed drivers for your OpenCL device, 
 Cytoscape may require restarting to be able to "see" the device.
