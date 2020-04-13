@@ -75,7 +75,7 @@ options.
 
 The easiest and most common way to install Cytoscape is by executing an [automatic installation package](Launching_Cytoscape.html#downloading_and_installing) downloaded from the Cytoscape web site. This will bring up a wizard that will lead you through the process, presenting choices for the installation directory, license agreement, file associations and privacy settings. 
 
-The installation process can be automated and made silent by executing the installation package with the "-q" command parameter (e.g., "Cytoscape_3_6_0-RC1_windows_64bit.exe -q") from a command line or script. For this to succeed, your execution environment must already have sufficient privileges to install software (e.g., for Windows: administrator priveleges). With a "-q" parameter, the installation package will automatically choose all default settings. 
+The installation process can be automated and made silent by executing the installation package with the "-q" command parameter (e.g., "Cytoscape_3_8_0-RC1_windows_64bit.exe -q") from a command line or script. For this to succeed, your execution environment must already have sufficient privileges to install software (e.g., for Windows: administrator priveleges). With a "-q" parameter, the installation package will automatically choose all default settings. 
 
 More automation flexibility is available using other settings and pre-programmed response files, as described in Appendix A of the [Install4j manual (http://resources.ej-technologies.com/install4j/help/doc/help.pdf)](http://resources.ej-technologies.com/install4j/help/doc/help.pdf).
 
