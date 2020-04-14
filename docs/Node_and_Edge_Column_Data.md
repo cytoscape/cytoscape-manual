@@ -305,16 +305,16 @@ via web services, for example from
 2.  Select **File → Import → Table from Public Databases...**.
 
 3.  You will first be asked to select from a set of web services. For
-    this example, we will choose **ENSEMBL GENES 73 (SANGER UK)**.
+    this example, we will choose **ENSEMBL GENES 99**.
 
 ![](_static/images/Columns/select_services.png)
 
-1.  In the **Import Data Table from Web Services** dialog, select a
-    **Data Source**. Since galFiltered.sif is a yeast network, select
+1.  In the **Import Data Table from Public Databases** dialog, select a
+    **Service**. Since galFiltered.sif is a yeast network, select
     **ENSEMBL GENES - SACCHAROMYCES CEREVISIAE**.
 
-2.  For **Key Column in Cytoscape**, select *shared name* for **Column**
-    and *Ensembl Gene ID* for **Data Type**.
+2.  For **Key Column in Cytoscape**, select *COMMON* for **Column**
+    and *Gene Name(s)* for **Data Type**.
 
 The type of identifier selected under **Data Type** must match what is
 used in the selected **Column** in the network.
