@@ -20,7 +20,7 @@ Use the zooming buttons located on the toolbar to zoom in
 and out of the interaction network shown in the current network display.
 Zoom icons are detailed below:
 
-![](_static/images/Navigation_Layout/image049.png)
+![](_static/images/Navigation_Layout/zoomicons.png)
 
 From Left to Right:
 
