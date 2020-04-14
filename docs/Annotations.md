@@ -46,7 +46,7 @@ The Annotation panel shows the annotations that are currently present on the for
 background layers. The panel allows you to create and delete annotations, select annotations, 
 move annotations up and down, move annotations between layers, and group annotations.
 
-![](_static/images/Annotations/annotations_panel.png | width=500)
+![](_static/images/Annotations/annotations_panel.png)
 
 
 ## Creating Annotations
