@@ -35,6 +35,15 @@ Note that the "stable" version of the manual is the build for the most recent re
 
 Note that many errors (e.g., missing chapter files) fail silently. It's always best to verify recent changes by viewing them in the built document.
 
+### Process for updating the manual for a new CS release ###
+
+1. Make updates to docs and images at GitHub.
+2. Add any new manual sections to index.rst. 
+3. Update version number and Copyright year (if applicable) in conf.py
+4. Update Copyright year (if applicable) in index.rst
+5. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/latest/
+6. Create a new release with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.**
+
 ## Future Plan
 
 ... add info here ...
