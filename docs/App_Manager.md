@@ -13,7 +13,7 @@ users like you.
 
 If you're familiar with Cytoscape 2.x, you probably know that Cytoscape
 apps were called **plugins**. Starting in Cytoscape 3.0, we are calling
-them **apps**. Cytoscape 2.x plugins cannot be used in Cytoscape 3.0.
+them **apps**. Cytoscape 2.x plugins cannot be used in Cytoscape 3.x.
 
 <a id="installing_apps"> </a>
 ## Installing Apps
