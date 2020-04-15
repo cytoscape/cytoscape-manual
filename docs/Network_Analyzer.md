@@ -71,15 +71,7 @@ Once the Analyzer is run, several additional columns are added to the Node Table
 
 *1 Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Campus E1.4, 66123 Saarbrücken, Germany*
 
-NetworkAnalyzer is a versatile and highly customizable Cytoscape plugin that requires no expert knowledge 
-in graph theory from the user. It computes and displays a comprehensive set of topological parameters and 
-centrality measures for undirected and directed networks, which includes the number of nodes, edges, and 
-connected components, the network diameter, radius, density, centralization, heterogeneity, clustering 
-coefficient, and the characteristic path length. In addition, NetworkAnalyzer shows charts of the distribution 
-of node degrees, neighborhood connectivities, average clustering coefficients, and shortest path lengths. 
-NetworkAnalyzer also contains extra functionality, for instance, for constructing the intersection or union of two networks.
-
-The NetworkAnalyzer plugin and a comprehensive online documentation with a tutorial are available at [http://med.bioinf.mpi-inf.mpg.de/networkanalyzer/](http://med.bioinf.mpi-inf.mpg.de/networkanalyzer/).
+Comprehensive online documentation and a tutorial for NetworkAnalyzer are available at [http://med.bioinf.mpi-inf.mpg.de/networkanalyzer/](http://med.bioinf.mpi-inf.mpg.de/networkanalyzer/).
 
 **Data keywords**: network, graph, topology
 
