@@ -72,7 +72,3 @@ Once the Analyzer is run, several additional columns are added to the Node Table
 *1 Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Campus E1.4, 66123 Saarbrücken, Germany*
 
 Comprehensive online documentation and a tutorial for NetworkAnalyzer are available at [http://med.bioinf.mpi-inf.mpg.de/networkanalyzer/](http://med.bioinf.mpi-inf.mpg.de/networkanalyzer/).
-
-**Data keywords**: network, graph, topology
-
-**Cytoscape keywords**: Network Analysis
