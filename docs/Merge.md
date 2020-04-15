@@ -10,8 +10,7 @@ Cytoscape allows for merging of both network and table data, through
 The **Advanced Network Merge** interface is available from **Tools →
 Merge → Networks...** and allows for merging of two or more networks.
 
-![Advanced Network
-Merge](_static/images/Merge/AdvancedNetworkMerge.png)
+![](_static/images/Merge/AdvancedNetworkMerge.png)
 
 <a id="basic_operations"> </a>
 ### Basic Operations
@@ -39,4 +38,4 @@ how to merge the networks. The options available here are:
     the individual network columns, what the corresponding column in the
     merged network should be named and its data type.
 
-![Advanced Network Merge Options](_static/images/Merge/AdvancedNetworkMergeOptions.png)
+![](_static/images/Merge/AdvancedNetworkMergeOptions.png)
