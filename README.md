@@ -44,6 +44,13 @@ Note that many errors (e.g., missing chapter files) fail silently. It's always b
 5. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/latest/
 6. Create a new release with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.**
 
+### Troubleshooting ###
+
+If a problem with a new tagged release (and the corresponding ReadTheDocs build) is discovered, the release AND tag at GitHub have to both be removed and recreated in order to fix the ReadTheDocs build. 
+1. Delete the relevant release via the github.com UI
+2. Deleted the corresponding tag from a command line: “git push –delete origin 3.x.x”
+3. Log into ReadTheDocs and manually start a new build of the corresponding version.
+
 ## Future Plan
 
 ... add info here ...
