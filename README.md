@@ -39,17 +39,20 @@ Note that many errors (e.g., missing chapter files) fail silently. It's always b
 
 A note on timing: Since the "stable" version at ReadTheDocs is the latest tagged release (as described above), it is best to wait to produce a release/tag until right before (1 day) a scheduled release. During the manual update process, the most current changes can be viewed in the "latest" version at ReadTheDocs.
 
+**A new tag is necessary for every Cytoscape point release, otherwise the manual links fail.**
+
 1. Make updates to docs and images at GitHub.
 2. Add any new manual sections to index.rst. 
 3. Update version number and Copyright year (if applicable) in conf.py
 4. Update Copyright year (if applicable) in index.rst
 5. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/latest/
-6. Create a new release with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.**
+6. Create a new release with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.**. Do not added the "v" in front of the version number as suggested by GH. 
+7. To create the "asset" for the release, downoad the repo as zip under Code on the main page. Then unzip and rename the folder according to version number, for example rename from "cytoscape-manual-master.zip" to "cytoscape-manual-3.8.2.zip". The compress and use this as the asset when defining the release.
 
 ### Troubleshooting ###
 
 If a problem with a new tagged release (and the corresponding ReadTheDocs build) is discovered, the release AND tag at GitHub have to both be removed and recreated in order to fix the ReadTheDocs build. 
-1. Delete the relevant release via the github.com UI
+1. Delete the relevant release via the github.com UI. Go to tags (https://github.com/cytoscape/cytoscape-manual/tags), click on the title of the tag you want to delete, then click the "Delete" button in upper right. 
 2. Deleted the corresponding tag from a command line: “git push –delete origin 3.x.x”
 3. Log into ReadTheDocs and manually start a new build of the corresponding version.
 
