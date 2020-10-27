@@ -1,15 +1,29 @@
 # cytoscape-manual
-Cytoscape User Manual
+This project contains the complete user manual for Cytoscape 3. There are versions of the manual based on specific versions of Cytoscape. There is also a "stable" that links to the latest version. A "latest" link refers to the master branch. The versions are automatically built at ReadTheDocs.org from [tags of this repo](https://github.com/cytoscape/cytoscape-manual/tags), for example 3.8.2. Access to ReadTheDocs.org is restricted, Barry and Kristina have the credentials.
 
-This project contains the complete user manual for Cytoscape 3. It has tags identifying the material that goes into the user manual for each version. A tag is formatted according to semantic versioning rules (e.g., 3.3).
+**A new tag is necessary for every Cytoscape point release, otherwise the manual links from Cytoscape fail.**
 
-The outstanding issues are identified as GitHub Issues. The main outstanding issues are getting document (including tables) to format properly (or at all) in PDF.
+## Rebuilding the Manual
+The manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that Barry installed per http://docs.readthedocs.org/en/latest/webhooks.html). A build at ReadTheDocs can take anywhere from 3 minutes to 10 minutes, depending on how busy the build server is. It's always best to verify recent changes by viewing them in the built document. 
+A note on timing: Since the "stable" version at ReadTheDocs is the latest tagged release (as described above), it is best to wait to produce a release/tag until right before (1 day) a scheduled release. Otherwise stable links (from the website for example) will go to the unreleased version. 
 
-While the manual sources are maintained in GitHub, the document is actually assembled, formatted, and staged by the ReadTheDocs.org site. ReadTheDocs presents online and PDF versions, and we will use both.
+### Pre-release checks
 
-ReadTheDocs can present versions of the manual for each Cytoscape release, as identified by GitHub tags. For example, given a tag of 3.3, ReadTheDocs will produce a document containing the repository files as they were for Cytoscape 3.3, and will make it available at http://manual.cytoscape.org/en/3.3. ReadTheDocs will make a "stable" version of the manual available at http://manual.cytoscape.org/en/stable ... it will resolve to the latest tagged version (ignoring beta versions such as 3.4b1). The "latest" version of the manual will be available at http://manual.cytoscape.org/en/latest, and will contain all of the latest GitHub content, irrespective of tagging.
+1. Review updates to docs and images at GitHub.
+2. Add any new manual sections to index.rst and update Copyright year (if applicable).
+3. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/latest/
 
-Note that for a manual under developement, we should make "latest" non-public (configurable in ReadTheDocs) so it isn't indexed by Google.
+### Process for updating the manual for a new CS release ###
+ 
+1. Update version number and Copyright year (if applicable) in conf.py
+2. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.** Leave "binary attachments" emtpy. Do not added the "v" in front of the version number as suggested by GitHub. 
+3. After 3-10 minutes, verify that the version-specific link works, for example: http://manual.cytoscape.org/en/3.8.2/
+
+### Troubleshooting ###
+
+If a problem with a new tagged release (and the corresponding ReadTheDocs build) is discovered, the tag at GitHub has to both be removed and recreated in order to fix the ReadTheDocs build. 
+1. Delete the relevant release via the github.com UI. Go to tags (https://github.com/cytoscape/cytoscape-manual/tags), click on the title of the tag you want to delete, then click the "Delete" button in upper right. 
+2. Log into ReadTheDocs and manually start a new build of the corresponding version. This doesn't always work and additional steps might be required at ReadTheDocs, which are still being documented.
 
 ## Editing the Manual
 To edit manual text, you must first check out this repository and use a text editor on your workstation. (You can use GitHub's native Markdown editor, too, for small edits.)
@@ -24,61 +38,10 @@ Note that the GitHub file viewer displays Markdown files reasonably well. Howeve
 
 Note that a full (browsable) link to a location has the form: "http://manual.cytoscape.org/en/stable/Launching_Cytoscape.html#mylink" where "http://manual.cytoscape.org/en/stable/" is the full URL, "Launching_Cytoscape" is the root name of the file containing the target link, and "mylink" is a named section (e.g., <a name="mylink">System requirements</a>). A link between chapters in the document has the form [My Link](Launching_Cytoscape.html#mylink), and a link within the same chapter can have the form [My Link](#mylink). For intra-document references, best to use the Launching_Cytoscape.html#mylink form, as ReadTheDocs will append the full URL appropriate for the build (e.g., "stable", "latest", "3.3", etc).
 
-## Rebuilding the Manual
-The "latest" manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that Barry installed per http://docs.readthedocs.org/en/latest/webhooks.html). To rebuild other versions, you'll need to be in the ReadTheDocs web site on the Builds page.
+## How it works
 
-The rebuild can be observed by logging into the ReadTheDocs account (KH and BD has credentials) and choosing the "Cytoscape User Manual" project. To see the build log, click on the grey Builds button. You can watch the progress of the build by manually refreshing your browser window until the build status shows either Passed or Failed - a build can take anywhere from 3 minutes to 10 minutes, depending on how busy the build server is. When the build is complete, if the status shows Passed, you can view the build result by clicking on the green View Docs button. 
+While the manual sources are maintained in GitHub, the document is actually assembled, formatted, and staged by the ReadTheDocs.org site. ReadTheDocs presents online and PDF versions, and we will use both.
 
-The document will also be available via [http://manual.cytoscape.org/en/latest](http://manual.cytoscape.org/en/latest).
+ReadTheDocs can present versions of the manual for each Cytoscape release, as identified by GitHub tags. For example, given a tag of 3.3, ReadTheDocs will produce a document containing the repository files as they were for Cytoscape 3.3, and will make it available at http://manual.cytoscape.org/en/3.3. ReadTheDocs will make a "stable" version of the manual available at http://manual.cytoscape.org/en/stable ... it will resolve to the latest tagged version (ignoring beta versions such as 3.4b1). The "latest" version of the manual will be available at http://manual.cytoscape.org/en/latest, and will contain all of the latest GitHub content, irrespective of tagging.
 
-The "stable" version of the manual is the build for the most recent release tag (e.g., "3.3") according to semantic versioning rules. This is the version that should be referenced from the cytoscape.org web site's Documentation page. 
-
-Note that many errors (e.g., missing chapter files) fail silently. It's always best to verify recent changes by viewing them in the built document.
-
-### Process for updating the manual for a new CS release ###
-
-A note on timing: Since the "stable" version at ReadTheDocs is the latest tagged release (as described above), it is best to wait to produce a release/tag until right before (1 day) a scheduled release. During the manual update process, the most current changes can be viewed in the "latest" version at ReadTheDocs.
-
-**A new tag is necessary for every Cytoscape point release, otherwise the manual links fail.**
-
-1. Make updates to docs and images at GitHub.
-2. Add any new manual sections to index.rst. 
-3. Update version number and Copyright year (if applicable) in conf.py
-4. Update Copyright year (if applicable) in index.rst
-5. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/latest/
-6. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.**. Do not added the "v" in front of the version number as suggested by GH. 
-7. To create the zip for tag/release, downoad the repo as zip under Code on the main page. Then unzip and rename the folder according to version number, for example rename from "cytoscape-manual-master.zip" to "cytoscape-manual-3.8.2.zip". The compress and use this as the asset when defining the release.
-
-### Troubleshooting ###
-
-If a problem with a new tagged release (and the corresponding ReadTheDocs build) is discovered, the release AND tag at GitHub have to both be removed and recreated in order to fix the ReadTheDocs build. 
-1. Delete the relevant release via the github.com UI. Go to tags (https://github.com/cytoscape/cytoscape-manual/tags), click on the title of the tag you want to delete, then click the "Delete" button in upper right. 
-2. Deleted the corresponding tag from a command line: “git push –delete origin 3.x.x”
-3. Log into ReadTheDocs and manually start a new build of the corresponding version.
-
-## Future Plan
-
-... add info here ...
-
-## Process for Importation
-The existing Cytoscape user manual was ported from Moin Moin to Markdown/ReadTheDocs according to a formula laid out by Kozo Nishida. The original port is contained in the "originals" directory and are not part of the current document build. For posterity, the initial instructions were:
-
-1. Export http://wiki.cytoscape.org/Cytoscape_3/UserManual to a
-docbook xml. (https://github.com/kozo2/cytoscape3-usermanual/blob/master/UserManual.xml)
-
-2. Convert UserManual.xml to UserManual.md
-(https://github.com/kozo2/cytoscape3-usermanual/blob/master/UserManual.md)
-with ```pandoc -f docbook -t markdown -s UserManual.xml -o UserManual.md```
-
-3. Separate UserManual.md per chapter manually.
-(https://github.com/kozo2/cytoscape3-usermanual/tree/master/docs)
-
-4. Find all pictures used by each chapter and put them into the Images directory. Resolve all picture references in the text by hand.
-
-5. Build and deploy #4 with mkdocs and readthedocs.
- 
-Additionally:
-
-1. Create a new project in ReadTheManual, and create a WebHook from GitHub to ReadTheDocs via http://docs.readthedocs.org/en/latest/webhooks.html
-
-1. Note that text is processed by Sphinx, which is documented here: http://www.sphinx-doc.org/en/stable/contents.html
+Note that for a manual under developement, "latest" has been configured as non-public (configurable in ReadTheDocs) so it isn't indexed by Google.
