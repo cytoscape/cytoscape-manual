@@ -46,8 +46,8 @@ A note on timing: Since the "stable" version at ReadTheDocs is the latest tagged
 3. Update version number and Copyright year (if applicable) in conf.py
 4. Update Copyright year (if applicable) in index.rst
 5. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/latest/
-6. Create a new release with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.**. Do not added the "v" in front of the version number as suggested by GH. 
-7. To create the "asset" for the release, downoad the repo as zip under Code on the main page. Then unzip and rename the folder according to version number, for example rename from "cytoscape-manual-master.zip" to "cytoscape-manual-3.8.2.zip". The compress and use this as the asset when defining the release.
+6. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.**. Do not added the "v" in front of the version number as suggested by GH. 
+7. To create the zip for tag/release, downoad the repo as zip under Code on the main page. Then unzip and rename the folder according to version number, for example rename from "cytoscape-manual-master.zip" to "cytoscape-manual-3.8.2.zip". The compress and use this as the asset when defining the release.
 
 ### Troubleshooting ###
 
