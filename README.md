@@ -11,6 +11,9 @@ Master branch version: http://manual.cytoscape.org/en/latest
 The manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that Barry installed per http://docs.readthedocs.org/en/latest/webhooks.html). A build at ReadTheDocs can take anywhere from 3 minutes to 10 minutes, depending on how busy the build server is. It's always best to verify recent changes by viewing them in the built document. 
 A note on timing: Since the "stable" version at ReadTheDocs is the latest tagged release (as described above), it is best to wait to produce a release/tag until right before (1 day) a scheduled release. Otherwise stable links (from the website for example) will go to the unreleased version. 
 
+Note that when you're checking a new version of the manual, be sure to clear your browser's cache ... otherwise, you'll be looking at 
+a pre-build version, which will quickly become confusing.
+
 ### Pre-release checks
 
 1. Review updates to docs and images at GitHub.
