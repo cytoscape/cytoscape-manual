@@ -1,8 +1,10 @@
 # cytoscape-manual
-This project contains the complete user manual for Cytoscape 3. There are versions of the manual based on specific versions of Cytoscape. There is also a "stable" that links to the latest version. A "latest" link refers to the master branch. The versions are automatically built at ReadTheDocs.org from [tags of this repo](https://github.com/cytoscape/cytoscape-manual/tags), for example 3.8.2. Access to ReadTheDocs.org is restricted, Barry and Kristina have the credentials.
+This project contains the complete user manual for Cytoscape 3. There are versions of the manual based on specific versions of Cytoscape. There is also a "stable" that links to the latest Cytoscape version. A "latest" link refers to the master branch. The versions are automatically built at ReadTheDocs.org from [tags of this repo](https://github.com/cytoscape/cytoscape-manual/tags), for example 3.8.2. Access to ReadTheDocs.org is restricted, Barry and Kristina have the credentials.
 
-Latest version link: http://manual.cytoscape.org/en/stable
+Latest Cytoscape version link: http://manual.cytoscape.org/en/stable
+
 Version-specific link: http://manual.cytoscape.org/en/3.8.2/
+
 Master branch version: http://manual.cytoscape.org/en/latest
 
 **A new tag is necessary for every Cytoscape point release, otherwise the manual links from Cytoscape fail.**
@@ -11,19 +13,19 @@ Master branch version: http://manual.cytoscape.org/en/latest
 The manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that Barry installed per http://docs.readthedocs.org/en/latest/webhooks.html). A build at ReadTheDocs can take anywhere from 3 minutes to 10 minutes, depending on how busy the build server is. It's always best to verify recent changes by viewing them in the built document. 
 A note on timing: Since the "stable" version at ReadTheDocs is the latest tagged release (as described above), it is best to wait to produce a release/tag until right before (1 day) a scheduled release. Otherwise stable links (from the website for example) will go to the unreleased version. 
 
-Note that when you're checking a new version of the manual, be sure to clear your browser's cache ... otherwise, you'll be looking at 
-a pre-build version, which will quickly become confusing.
-
 ### Pre-release checks
 
 1. Review updates to docs and images at GitHub.
 2. Add any new manual sections to index.rst and update Copyright year (if applicable).
 3. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/latest/
 
+:warning: When you're checking a new version of the manual, be sure to clear your browser's cache ... otherwise, you'll be looking at 
+an obsolete version, which will quickly become confusing.
+
 ### Process for updating the manual for a new CS release ###
  
 1. Update version number and Copyright year (if applicable) in conf.py
-2. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.** Leave "binary attachments" emtpy. Do not added the "v" in front of the version number as suggested by GitHub. 
+2. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.** Leave "binary attachments" emtpy. Do not added the "v" in front of the version number as suggested by GitHub (i.e., use 3.8.0 instead of v3.8.0). 
 3. After 3-10 minutes, verify that the version-specific link works, for example: http://manual.cytoscape.org/en/3.8.2/
 
 ### Troubleshooting ###
@@ -52,3 +54,5 @@ While the manual sources are maintained in GitHub, the document is actually asse
 ReadTheDocs can present versions of the manual for each Cytoscape release, as identified by GitHub tags. For example, given a tag of 3.3, ReadTheDocs will produce a document containing the repository files as they were for Cytoscape 3.3, and will make it available at http://manual.cytoscape.org/en/3.3. ReadTheDocs will make a "stable" version of the manual available at http://manual.cytoscape.org/en/stable ... it will resolve to the latest tagged version (ignoring beta versions such as 3.4b1). The "latest" version of the manual will be available at http://manual.cytoscape.org/en/latest, and will contain all of the latest GitHub content, irrespective of tagging.
 
 Note that for a manual under developement, "latest" has been configured as non-public (configurable in ReadTheDocs) so it isn't indexed by Google.
+
+For anyone interested in how ReadTheDocs works, see [their documentation](https://docs.readthedocs.io/en/stable/).
