@@ -92,7 +92,7 @@ One or more annotations can be selected in the Annotations panel by clicking on 
 
 To be able to select annotations in the network canvas
 **Toggle Annotation Selection** must be enabled. Toggle the 
-![button_annotation_selection.png](_static/images/Annotations/button_annotation_selection.png)
+![](_static/images/Annotations/button_annotation_selection.png)
 button at the bottom of the network view to enable/disable annotation selection mode.
 
 ![](_static/images/Annotations/annotation_selection_mode.png)
