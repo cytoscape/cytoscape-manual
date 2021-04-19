@@ -25,7 +25,7 @@ an obsolete version, which will quickly become confusing.
 ### Process for updating the manual for a new CS release ###
  
 1. Update version number and Copyright year (if applicable) in conf.py
-2. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.** Leave "binary attachments" emtpy. Do not added the "v" in front of the version number as suggested by GitHub (i.e., use 3.8.0 instead of v3.8.0). 
+2. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.** Leave "binary attachments" emtpy. Do not add the "v" in front of the version number as suggested by GitHub (i.e., use 3.8.0 instead of v3.8.0). 
 3. After 3-10 minutes, verify that the version-specific link works, for example: http://manual.cytoscape.org/en/3.8.2/
 
 ### Troubleshooting ###
