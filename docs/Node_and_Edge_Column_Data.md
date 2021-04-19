@@ -305,7 +305,7 @@ via web services, for example from
 2.  Select **File → Import → Table from Public Databases...**.
 
 3.  You will first be asked to select from a set of web services. For
-    this example, we will choose **ENSEMBL GENES 99**.
+    this example, we will choose **ENSEMBL GENES 103**.
 
 ![](_static/images/Columns/select_services.png)
 
@@ -324,6 +324,10 @@ used in the selected **Column** in the network.
 1.  Select the data columns you want to import.
 
 2.  Select **Import**.
+
+3. In the **Import Data** interface, select select *COMMON* for **Key Column for Network**.
+
+![](_static/images/Columns/table_webservice_mapping.png)
 
 When import is complete, you can see the newly imported data columns in
 the Table Panel.
