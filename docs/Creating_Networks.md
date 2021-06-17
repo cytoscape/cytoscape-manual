@@ -49,7 +49,7 @@ from the command line using the -N option.
 <a id="load_networks_from_a_remote_computer_url_import"> </a>
 ### Load Networks from a Remote Computer (URL import)
 
-To load a network from a remote file, you can select **File → Import →
+To load a network from a remote file, select **File → Import →
 Network from URL...**. In the import network dialog, insert the appropriate
 URL, either manually or using URL bookmarks. Bookmarked URLs can be
 accessed by clicking on the arrow to the right of the text field (see
@@ -60,6 +60,26 @@ web browser to the URL text box. Once a URL has been specified, click on
 the OK button to load the network.
 
 ![](_static/images/Creating_Networks/ImportNetworkFromURL.png)
+
+For network files stored in cloud storage, the default URL does not 
+always work in Cytoscape and requires transformation before it can be used. 
+Here are examples of transofrmation of the default URL for some common cloud storage options:
+
+#### Dropbox ####
+
+* Default URL: https://www.dropbox.com/s/g4ygalz2my88c71/Get%20Started.pdf?dl=0
+* Cytoscape URL: https://dl.dropboxusercontent.com/s/g4ygalz2my88c71/Get%20Started.pdf?dl=0
+
+#### Google Drive ####
+For files smaller than 100K:
+
+* Default: https://drive.google.com/file/d/1Fk1fEs9hryxqSZ4iOrum7zw-AYagr7IS/view?usp=sharing
+* Cytoscape URL: https://drive.google.com/uc?export=download&id=1Fk1fEs9hryxqSZ4iOrum7zw-AYagr7IS
+
+#### GitHub ####
+
+* Default URL: https://github.com/bdemchak/cytoscape-jupyter/blob/main/sanity-test/data/galFiltered.sif
+* Cytoscape URL: https://raw.githubusercontent.com/bdemchak/cytoscape-jupyter/main/sanity-test/data/galFiltered.sif
 
 Another issue for network import is the presence of firewalls, which can
 affect which files are accessible to a computer. To work around this
