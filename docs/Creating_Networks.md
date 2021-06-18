@@ -67,19 +67,25 @@ Here are examples of transofrmation of the default URL for some common cloud sto
 
 #### Dropbox ####
 
-* Default URL: https://www.dropbox.com/s/g4ygalz2my88c71/Get%20Started.pdf?dl=0
-* Cytoscape URL: https://dl.dropboxusercontent.com/s/g4ygalz2my88c71/Get%20Started.pdf?dl=0
+* Default URL: https://www.dropbox.com/s/077w3i4500dxrsm/galFiltered.sif?dl=0
+* Cytoscape URL: https://dl.dropboxusercontent.com/s/077w3i4500dxrsm/galFiltered.sif?dl=0
+
+**Instructions**: Replace `www.dropbox.com` with `dl.dropboxusercontent.com`
 
 #### Google Drive ####
 For files smaller than 100K:
 
-* Default: https://drive.google.com/file/d/1Fk1fEs9hryxqSZ4iOrum7zw-AYagr7IS/view?usp=sharing
-* Cytoscape URL: https://drive.google.com/uc?export=download&id=1Fk1fEs9hryxqSZ4iOrum7zw-AYagr7IS
+* Default: https://drive.google.com/file/d/1gLuJHACwD2BTUuDWi2fE81NL5j3AfQlS/view?usp=sharing
+* Cytoscape URL: https://drive.google.com/uc?export=download&id=1gLuJHACwD2BTUuDWi2fE81NL5j3AfQlS
+
+**Instructions**: Replace `file/d/` with `/uc?export=download&id=`
 
 #### GitHub ####
 
 * Default URL: https://github.com/bdemchak/cytoscape-jupyter/blob/main/sanity-test/data/galFiltered.sif
 * Cytoscape URL: https://raw.githubusercontent.com/bdemchak/cytoscape-jupyter/main/sanity-test/data/galFiltered.sif
+
+**Instructions**: Replace `github.com` with `raw.githubusercontent.com` AND  remove `/blob`
 
 Another issue for network import is the presence of firewalls, which can
 affect which files are accessible to a computer. To work around this
