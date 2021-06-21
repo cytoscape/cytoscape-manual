@@ -68,15 +68,15 @@ Here are examples of transofrmation of the default URL for some common cloud sto
 #### Dropbox ####
 
 * Default URL: https://www.dropbox.com/s/077w3i4500dxrsm/galFiltered.sif?dl=0
-* Cytoscape URL: https://dl.dropboxusercontent.com/s/077w3i4500dxrsm/galFiltered.sif?dl=0
+* Cytoscape URL: https://dl.dropboxusercontent.com/s/077w3i4500dxrsm/galFiltered.sif
 
-**Instructions**: Replace `www.dropbox.com` with `dl.dropboxusercontent.com`
+**Instructions**: Replace `www.dropbox.com` with `dl.dropboxusercontent.com` and delete `?dl=0`
 
 #### Google Drive ####
 For files smaller than 100K:
 
-* Default: https://drive.google.com/file/d/1gLuJHACwD2BTUuDWi2fE81NL5j3AfQlS/view?usp=sharing
-* Cytoscape URL: https://drive.google.com/uc?export=download&id=1gLuJHACwD2BTUuDWi2fE81NL5j3AfQlS
+* Default: https://drive.google.com/file/d/1hHO4ErMx7HMo-_sRV_PfeoM3lnn6ZDLw/view?usp=sharing
+* Cytoscape URL: https://drive.google.com/uc?export=download&id=1hHO4ErMx7HMo-_sRV_PfeoM3lnn6ZDLw/view?usp=sharing
 
 **Instructions**: Replace `file/d/` with `uc?export=download&id=`
 
