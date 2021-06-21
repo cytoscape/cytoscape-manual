@@ -70,15 +70,18 @@ Here are examples of transofrmation of the default URL for some common cloud sto
 * Default URL: https://www.dropbox.com/s/077w3i4500dxrsm/galFiltered.sif?dl=0
 * Cytoscape URL: https://dl.dropboxusercontent.com/s/077w3i4500dxrsm/galFiltered.sif
 
-**Instructions**: Replace `www.dropbox.com` with `dl.dropboxusercontent.com` and delete `?dl=0`
+**Instructions**: Replace `www.dropbox.com` with `dl.dropboxusercontent.com` AND delete `?dl=0`
 
 #### Google Drive ####
 For files smaller than 100K:
 
 * Default: https://drive.google.com/file/d/1hHO4ErMx7HMo-_sRV_PfeoM3lnn6ZDLw/view?usp=sharing
-* Cytoscape URL: https://drive.google.com/uc?export=download&id=1hHO4ErMx7HMo-_sRV_PfeoM3lnn6ZDLw/view?usp=sharing
+* Cytoscape URL: https://drive.google.com/uc?export=download&id=1hHO4ErMx7HMo-_sRV_PfeoM3lnn6ZDLw
 
-**Instructions**: Replace `file/d/` with `uc?export=download&id=`
+**Instructions**: Replace `file/d/` with `uc?export=download&id=` AND remove `/view?usp=sharing`
+
+You may see an intermediate import window, described in the section below, where you may need to change the delimiter and define source, target and interaction.
+For this particular example, in **Advanced** change the **Delimiter** to Space, unselect **Use first line as column names** and set the first column as Source, the third column as Target and the second column as Interaction Type.
 
 #### GitHub ####
 
