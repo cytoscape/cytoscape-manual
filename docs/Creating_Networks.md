@@ -78,7 +78,7 @@ For files smaller than 100K:
 * Default: https://drive.google.com/file/d/1gLuJHACwD2BTUuDWi2fE81NL5j3AfQlS/view?usp=sharing
 * Cytoscape URL: https://drive.google.com/uc?export=download&id=1gLuJHACwD2BTUuDWi2fE81NL5j3AfQlS
 
-**Instructions**: Replace `file/d/` with `/uc?export=download&id=`
+**Instructions**: Replace `file/d/` with `uc?export=download&id=`
 
 #### GitHub ####
 
