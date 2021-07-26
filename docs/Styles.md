@@ -241,8 +241,12 @@ are summarized in the tables below.
 <tr> <th class="specalt ulcase">Tooltip</th>                        <td class="alt">The text of the tooltip that appears when a mouse hovers over the edge.</td> </tr>
 <tr> <th class="spec ulcase">Transparency</th>                      <td class="">The opacity of the of the edge. Zero means totally transparent, and 255 means totally opaque.</td> </tr>
 <tr> <th class="specalt ulcase">Visible</th>                        <td class="alt">Hides the edge if set to <i>false</i>. By default, this value is set to <i>true</i>.</td> </tr>
+<tr> <th class="spec ulcase">Stacking</th>                          <td class="">Determines how edges are visualized when there are multiple edges between a pair of nodes.</td> </tr>
+<tr> <th class="specalt ulcase">Stacking Density</th>               <td class="alt">The spacing between edges when there are multiple edges between a pair of nodes.</td> </tr>
 <tr> <th class="spec ulcase">Width</th>                             <td class="">The width of the edge line.</td> </tr>
 <tr> <th class="specalt ulcase">Edge color to arrows</th>           <td class="alt">If <i>true</i> then <b>Color (Unselected)</b> is used for the whole edge, including its line and arrows. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Edge color to arrows</b>.</td> </tr>
+<tr> <th class="spec ulcase">Z Order</th>                           <td class="">The ordering for overlapping edges. Edges with a lower value will be underneath edges with a higher value. Default value of this will be ignored. The value will be used only when mapping function is defined.</td> </tr>
+
 </tbody>
 </table>
 <br>
@@ -280,6 +284,22 @@ are summarized in the tables below.
 <tr> <th class="spec ulcase center"><i>Node Shapes</i></th>    <td class=""><img src="_static/images/Styles/NodeShapeOptions.png" /></td> </tr>
 <tr> <th class="specalt ulcase center"><i>Line Types</i></th>  <td class="alt"><img src="_static/images/Styles/BorderLineOptions.png" /></td> </tr>
 <tr> <th class="spec ulcase center"><i>Arrow Shapes</i></th>   <td class=""><img src="_static/images/Styles/ArrowShapeOptions.png" /></td> </tr>
+</tbody>
+</table>
+<br>
+
+<a id="stacking"> </a>
+### Edge Stacking
+
+The Edge Stacking property determines how edges are visualized when there are multiple edges between a pair of nodes.
+
+<table cellspacing="0" style="table-layout: fixed; width: 440px">
+<caption style="width: 440px">Edge Stacking</caption>
+<colgroup> <col style="width:140px">                           <col style="width:500px"> </colgroup>
+<tbody>
+<tr> <th class="center">Edge Stacking</th>  <th>Sample</th></tr>
+<tr> <th class="spec ulcase center">Auto Bend <img src="_static/images/Styles/Stacking-AutoBend.png" width="70" height="70"/></th>      <td class="">When Auto Bend is selected the first edge between a pair of nodes will be drawn as a straight line, then subsequent edges are drawn as bends at incrementally greater distances from the first edge. This creates a fan-out style visualization. <br><img src="_static/images/Styles/Stacking-AutoBend-Example.png" width="300"/></td> </tr>
+<tr> <th class="specalt ulcase center">Haystack <img src="_static/images/Styles/Stacking-Haystack.png" width="70" height="70"/> </th>   <td class="alt">Haystack edges are drawn as straight lines from the source node to the target node, randomly placed along some angle from each node’s centre. In this manner, many parallel haystack edges make a tight bundle, especially when semi-transparent. This makes haystack edges an effective way to visualise graphs with a high number of parallel edges. Note: When haystack edges are enabled edge arrows will not be visible. <br><img src="_static/images/Styles/Stacking-Haystack-Example.png" width="300" /></td> </tr>
 </tbody>
 </table>
 <br>
@@ -389,7 +409,7 @@ The table below shows mapping support for each property.
 <tr> <th class="spec ulcase" rowspan="3">Numeric</th>  <th class="spec ulcase"><i>Width</i></th>                 <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
 <tr>                                                   <th class="specalt ulcase"><i>Label Font Size</i></th>    <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">+</td>              </tr>
 <tr>                                                   <th class="spec ulcase"><i>Label Width</i></th>           <td class="center">+</th>                   <td class="center">+</th>                <td class="center">+</td>                  </tr>
-<tr> <th class="specalt ulcase" rowspan="8">Other</th> <th class="specalt ulcase"><i>Line Type</i></th>          <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
+<tr> <th class="specalt ulcase" rowspan="10">Other</th><th class="specalt ulcase"><i>Line Type</i></th>          <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
 <tr>                                                   <th class="spec ulcase"><i>Bend</i></th>                  <td class="center">-</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
 <tr>                                                   <th class="specalt ulcase"><i>Curved</i></th>             <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
 <tr>                                                   <th class="spec ulcase"><i>Source Arrow Shape</i></th>    <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
@@ -397,6 +417,8 @@ The table below shows mapping support for each property.
 <tr>                                                   <th class="spec ulcase"><i>Label</i></th>                 <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
 <tr>                                                   <th class="specalt ulcase"><i>Tooltip</i></th>            <td class="alt center">+</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
 <tr>                                                   <th class="spec ulcase"><i>Label Font Face</i></th>       <td class="center">-</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
+<tr>                                                   <th class="specalt ulcase"><i>Stacking</i></th>           <td class="alt center">-</th>               <td class="alt center">+</th>            <td class="alt center">o</td>              </tr>
+<tr>                                                   <th class="spec ulcase"><i>Stacking Density</i></th>      <td class="center">+</th>                   <td class="center">+</th>                <td class="center">o</td>                  </tr>
 </tbody>
 </table>
 <br>
