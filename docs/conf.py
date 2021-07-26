@@ -1,4 +1,4 @@
-extensions = []
+extensions = ['recommonmark']
 templates_path = ['_templates']
 
 master_doc = 'index'
