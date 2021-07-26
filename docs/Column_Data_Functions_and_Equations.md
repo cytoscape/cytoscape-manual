@@ -7,40 +7,109 @@
 <a id="introduction"> </a>
 ### Introduction
 
-Column data values may be formulas. A typical example is
-**=ABS(\$otherColumn + LOG(10.2))**. Formulas are modeled after
-Excel(tm) but only support references to other columns at the same node,
-edge or network. Since Cytoscape column names may contain embedded
-spaces, optional braces around the column name (required if the name is
-not simply a letter followed by one or more letters or digits) is
-allowed e.g. **\${a name with spaces}**. Backslashes, opening braces and
-dollar signs in column names have to be escaped with a leading
-backslash. For example the column name **ex\$am{p\\le** would have to be
-written as **\${ex\\\$am\\{p\\\\le}**. Finally, column names are case
-sensitive.
+Columns may contain formulas that are evaluated on-demand and result
+in a value. 
 
-String constants are written with double-quotes **"**. In order to embed
-a double-quote or a backslash in a string they have to be escaped with a
-leading backslash, therefore the string **"\\** must be written as
-**"\\"\\\\"**. Formula results must be compatible with the type of the
-column that they have been assigned to. The rules are rather lax though,
-for example anything can be interpreted as a string and all numeric
-values will be accepted for a boolean (or logical) column data where
-non-zero will be interpreted as **true** and zero as **false**. For
-integer columns, floating point values will be converted using the rules
+
+
+### Syntax
+
+#### Basic Syntax
+
+A formula always starts with an equals sign '='. This signifies that the
+value in the table cell is a formula.
+
+Example:  **=ABS(\$otherColumn + LOG(10.2))**
+
+The type of the value returned by a formula must match
+the column type, or be easily converted to the column type. For example,
+if a formula returns a numeric value in a string column, the numeric value 
+will be converted to a string. However if a formula returns a string value in
+a numeric column, the string cannot be automatically converted to a number,
+so it will result in an error being shown.
+
+All numeric values will be accepted for a boolean (or logical) column data where
+non-zero will be interpreted as **true** and zero as **false**. 
+Floating point values will be converted using the rules
 of the Excel(tm) **INT** function. Parentheses can be used for grouping
-and to change evaluation order. The operator precedence rules follow
-those of standard arithmetic.
+and to change evaluation order. 
+
+
+#### Functions
+
+Cytoscape provides a set of functions that perform specific tasks and calculations.
+A function is written as the name of the function, then an opening bracket '(',
+then an optional comma-separated list of arguments, then a closing bracket ')'.
+
+Example: **=MAX(10, 20)** <br>
+Example: **=IF($otherColumn, "UP", "DOWN")** <br>
+Example: **=NOW()** <br>
+
+#### Attributes 
+
+Attributes are named references to other columns in the same table as the formula, and
+result in the value of the column cell for the same node, edge or network.
+
+An attribute reference is written by placing the column name after a dollarsign ($).  
+
+Example: **$columnName**
+
+If the column name contains spaces, special characters or a namespace identifier 
+then the name must be placed between curly braces.  
+
+Example: **${column name with spaces}** <br>
+Example: **${namespace::columnName}**
+
+Special characters such as commas must be escaped with a leading backslash.  
+
+Example: **${name with \\, comma}**
+
+You may provide a default value that will be used if the column value is blank. 
+Place a colon (:) and the value after the column name.  
+
+Example: **${columnName:0.0}**
+
+Finally, column names are case sensitive.
 
 <a id="operators"> </a>
-### Operators
+#### Operators
 
-Currently supported operators are the four basic arithmetic operators
-and the **\^** exponentiation operator. **+**, **-**, **\***, and
-**\\** are left-associative and **\^** is right-associative. The string
-concatenation operator is **&**. Supported boolean or logical operators
-are the comparison operators **<**, **>**, **<=**, **>=**,
-**=**, and **<>** (not equal).
+An operator is written between two operands.
+
+Example: **=$x + 1** 
+
+Numeric operators: **+** addition, **-** subtraction, **\*** multiplication, **\/** division, **\^** exponentiation  
+
+Text operators: **&** string concatenation  
+
+Logical operators (operate on boolean values true/false): **<** less than, **>** greater than, **>=** greater than or equal, 
+**<=** less than or equal, **=** equal, **<>** not equal
+
+The operator precedence rules follow those of standard arithmetic.
+
+
+#### Literal Values
+
+String (text) literals are between double quotes, example: **"abc"**
+
+Numeric literals, example: **123** 
+
+Floating point literals, example: **123.45** 
+
+Boolean (logical) literals: **true, false**
+
+In order to embed a double-quote or a backslash in a string they have to be escaped with a
+leading backslash, therefore the string **"\\"** must be written as
+**"\\"\\\\"**.
+
+
+#### Conditional IF
+
+A conditional is written as a function named 'IF' with three arguments: **IF(condition, a, b)**.
+If the condition evaluates to true then the value of the **a** argument is returned, otherwise the **b** argument is returned.  
+
+Example: **IF($x = $y, "equal", "different")**
+
 
 <a id="supported_functions"> </a>
 ### Supported Functions
@@ -184,59 +253,54 @@ Currently we support the following functions:
 
 -   Today -- returns a string representation of the current date.
 
-<a id="pitfalls"> </a>
-### Pitfalls
-
-The possibly biggest problem is the referencing of other columns that
-have null values. This is not allowed and leads to errors. In order to
-mitigate this problem we support the following optional syntax for
-column references: **\${columnName:defaultValue}**. The interpretation
-is that if **columnName** is null, then the default value will be used,
-otherwise the value of the referenced value will be used instead. The
-referenced column must still be a defined column and not an arbitrary
-name! The other potential problem is when there are circular column
-reference dependencies. Circular dependencies will be detected at
-formula evaluation time and lead to a run-time error.
-
-<a id="useful_tips"> </a>
-### Useful Tips
-
-When working with formulas it can be very helpful to open the
-Developer's Log Console. Formula evaluation errors will be logged there.
 
 <a id="the_formula_builder"> </a>
 ## The Formula Builder
 
 In order to ease the creation of formulas as well as to facilitate
-discovery of built-in functions we provide a **Function Builder** in the
-Table Panel. After selecting a non-list column cell, you can invoke it
-by clicking on
-![](_static/images/Column_Formulas/fx-button.png).
-This should bring up the Function Builder which looks like this:
+discovery of built-in functions we provide a **Formula Builder** in the
+Table Panel. The Formula Builder
+is opened by clicking the
+![](_static/images/Column_Formulas/fx-button.png) button.
 
-![](_static/images/Column_Formulas/FunctionBuilder2.png)
+This should bring up the Formula Builder which looks like this:
 
-Select a function on the left hand side of the dialog - here, we've
-selected the ABS function. Next to the list of functions, you can
-specify one or more arguments. This can either be a column (selected
-from the drop-down list) or a constant specified in the box below. If
-you select a column, the value of that column (in the row containing the
-formula) will be used, and the function result will be updated
-dynamically when that value changes. Click **Add** to add an argument -
-you can add one or more depending on how many arguments the function
-accepts. At the bottom of the dialog is a preview of the current
-formula. Under **Apply to**, you can select whether the formula will
-apply to the current cell only, the cell selection, or the entire
-column. Click OK when you are satisfied with the result, or Cancel to
-discard any changes.
+![](_static/images/Column_Formulas/FunctionBuilder3.png)
 
-The Function Builder is a useful tool for discovery of the list of
-built-in functions, which has the return type matching the data type of
-the column. Arguments can either be selected from a list of named
-columns, or constant values can be entered in a text entry field. A
-major shortcoming at this time is that the Formula Builder won't let you
-compose functions with function calls as arguments. If you need the most
-general functionality, please type the expression directly into a cell.
+
+At the top is a text area called the **Formula Editor**. The text for a formula
+may be typed directly into this area. At the top-right of the text area are buttons
+for Undo and Redo.
+
+When the formula is ready click the **Insert Formula** button to insert the formula
+into the table.
+Depending on what is selected in the combo box, the formula can be inserted
+into the selected cell only, the entire column, or just the cells for nodes/edges
+that are currently selected.
+If there is a syntax error in the formula it will be reported immediately when the
+**Insert Formula** button is clicked.
+
+Normally formulas are re-evaluated on demand as needed. For example if a formula contains
+an attribute referece to another column, and the value in that column changes, then
+the formula is re-evaluated. This re-evaluation sometimes has disadvantates, for example re-evaluation
+can sometimes be slow for very large networks. Instead of inserting the formula itself
+you may click the **Evaluate and Insert Result** button. This will evaluate the formula
+immediately and just insert the result into the selected cells.
+
+Below the Formula Editor is an area used for documentation. 
+
+- The **Functions** area lists all functions that are available. Click on a function name 
+to view documentation on what the function does and how it can be used. Click the **insert**
+link in the documentation area to insert the function into the Formula Editor at the location
+of the cursor.
+
+- The **Attributes** area lists all available columns in the current table that can
+be referenced from the formula. Click the **insert**
+link in the documentation area to insert an attribute reference into the Formula Editor 
+at the location of the cursor.
+
+- The **Syntax** area provides documentation on formula syntax.
+
 
 <a id="a_note_for_app_writers"> </a>
 ## A Note for App Writers
@@ -244,5 +308,4 @@ general functionality, please type the expression directly into a cell.
 It is relatively easy to add your own built-in formula functions. A
 simple function can probably be implemented in 15 to 20 minutes. It can
 then be registered via the parser and becomes immediately available to
-the user. It will of course also show up in the drop-down list in the
-Function Builder.
+the user. It will of course also show up in the in the Function Builder.
