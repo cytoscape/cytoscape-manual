@@ -270,7 +270,7 @@ This should bring up the Formula Builder which looks like this:
 
 At the top is a text area called the **Formula Editor**. The text for a formula
 may be typed directly into this area. At the top-right of the text area are buttons
-for Undo and Redo.
+for **Undo** and **Redo**.
 
 When the formula is ready click the **Insert Formula** button to insert the formula
 into the table.
@@ -281,17 +281,17 @@ If there is a syntax error in the formula it will be reported immediately when t
 **Insert Formula** button is clicked.
 
 Normally formulas are re-evaluated on demand as needed. For example if a formula contains
-an attribute referece to another column, and the value in that column changes, then
-the formula is re-evaluated. This re-evaluation sometimes has disadvantates, for example re-evaluation
+an attribute reference to another column, and the value in that column changes, then
+the formula is re-evaluated. This re-evaluation sometimes has disadvantages, for example re-evaluation
 can sometimes be slow for very large networks. Instead of inserting the formula itself
 you may click the **Evaluate and Insert Result** button. This will evaluate the formula
 immediately and just insert the result into the selected cells.
 
-Below the Formula Editor is an area used for documentation. 
+Below the **Formula Editor** is an area used for documentation. 
 
 - The **Functions** area lists all functions that are available. Click on a function name 
 to view documentation on what the function does and how it can be used. Click the **insert**
-link in the documentation area to insert the function into the Formula Editor at the location
+link in the documentation area to insert the function into the **Formula Editor** at the location
 of the cursor.
 
 - The **Attributes** area lists all available columns in the current table that can
@@ -308,4 +308,4 @@ at the location of the cursor.
 It is relatively easy to add your own built-in formula functions. A
 simple function can probably be implemented in 15 to 20 minutes. It can
 then be registered via the parser and becomes immediately available to
-the user. It will of course also show up in the in the Function Builder.
+the user. It will be available in the in the **Formula Builder**.
