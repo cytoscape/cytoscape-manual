@@ -75,7 +75,7 @@ in the current Cytoscape session. This includes the node, edge, and network tabl
 that can be seen in the Table Browser, as well as any unassigned tables. The only
 currently supported file format currently for export is CSV (comma-separated value). 
 
-The export dialog for Table has only two selectable options - the table to export
+The export dialog for **Table** has only two selectable options - the table to export
 and the file name (file type is always CSV). A file name is suggested based on the
 name of the selected table with the path defaulting to the current working directory.
 As in Network, the suggested file name can be changed using the Browse button or the
