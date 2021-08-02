@@ -42,11 +42,11 @@ from the **File → Import → Table from File...** user interface.
 
 ![](_static/images/Columns/ImportColumnsFromTable.png)
 
-1.  Select **File → Import → Table from File...**.
+1.  Select **File → Import → Table from File...**. Alternatively, you can 
+simply drag and drop the file from the desktop into the **Table Panel**, or click the ![](_static/images/Columns/ImportTableButton.png) in the **Table Panel** interface.
 
 2.  Select a data file. The file can be either a text or
     Excel (.xls/.xlsx) file.
-    Alternatively, you can simply drag and drop the file from the desktop into the **Table Panel**.
 
 3.  In the **Target Table Data** section, choose where to import the
     data to. You can choose an existing network collection, a specific
