@@ -195,7 +195,7 @@ are summarized in the tables below.
 <tr> <th class="spec ulcase">Image/Chart Position <i>1-9</i></th> <td class="">The position of each graphic (image, chart or gradient). These properties (maximum of nine) can be added to the list from the drop-down menu <b>Properties → Paint → Custom Paint <i>n</i> → Image/Chart Position <i>n</i></b>.</td> </tr>
 <tr> <th class="specalt ulcase">Fill Color</th>                   <td class="alt">The color of the node. This property can be added to the list from the drop-down menu <b>Properties → Paint → Fill Color</b>.</td> </tr>
 <tr> <th class="spec ulcase">Label Color</th>                     <td class="">The color of the node label. This property can be added to the list from the drop-down menu <b>Properties → Paint → Label Color</b>.</td> </tr>
-<tr> <th class="spec ulcase">Node Label Rotation</th>                     <td class="">The rotation of the node label, default is 0.</td> </tr>
+<tr> <th class="spec ulcase">Label Rotation</th>                     <td class="">The rotation of the node label, default is 0.</td> </tr>
 <tr> <th class="specalt ulcase">Selected Paint</th>               <td class="alt">The fill color of the node when selected. This property can be added to the list from the drop-down menu <b>Properties → Paint → Selected Paint</b>.</td> </tr>
 <tr> <th class="spec ulcase">Shape</th>                           <td class="">The shape of the node.</td> </tr>
 <tr> <th class="specalt ulcase">Shape (Compound Node)</th>        <td class="alt">The shape of the compound node (a node that contains other nodes).</td> </tr>
