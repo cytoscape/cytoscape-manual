@@ -244,8 +244,8 @@ restored using the F5 key or the **View → Show/Hide Table Panel** menu
 option. Like other Panels, the browser can be undocked by pressing the
 little icon in the top right corner.
 
-To swap between displaying node, edge, and network Data Tables use the
-tabs on the bottom of the Table Panel. By default, the Table Panel
+To swap between displaying node, edge, and network data tables use the
+tabs on the bottom of the **Table Panel**. By default, the **Table Panel**
 displays columns for all nodes and edges in the selected network. To
 display columns for only selected nodes/edges, click the **Change Table
 Mode** button
@@ -256,6 +256,8 @@ at the top left. To change the columns that are displayed, click the
 button and choose the columns that are to be displayed (select various
 columns by clicking on them, and then click elsewhere on the screen to
 close the column list).
+
+#### Editing the Table Panel and Values
 
 Most column values can be edited by double-clicking the cell (only the
 ID cannot be edited). Newline characters can be inserted into String
@@ -278,8 +280,8 @@ them, simply unselect the column using the **Select Columns**
 ![](_static/images/Columns/ShowColumns.png)
 button.
 
-Columns in the Table Panel can be renamed by right-clicking on the column
-header and selecting **Rename Column...**. The Table Panel supports name spaces,
+Columns in the **Table Panel** can be renamed by right-clicking on the column
+header and selecting **Rename Column...**. The **Table Panel** supports name spaces,
 so if you have several columns with related information, you can create a namespace.
 Namespace and column name are separated by a double colon (::). For example, if the data
 includes multiple columns with cellular compartment information, you can edit the 
@@ -289,6 +291,15 @@ It is then possible to perform operations such as **Show/Hide** on all columns
 in a namespace.
 
 ![](_static/images/Columns/TablePanelNamespace.png)
+
+#### Export Table Panel
+
+To export the entire contents of the **Table Panel**, click the **Export Table to File...** button 
+![](_static/images/Columns/ExportTableButton.png).
+
+It is also possible to copy and paste directly between the **Table Panel** and an external application (for example Excel),
+simply by selecting a set of cells in the table by click and drag, followed by normal keyboard shortvuts for copy and paste. 
+This removes the need to export the table to a file in order to insert the data into an application such as Excel!
 
 <a id="import_data_table_from_public_databases"> </a>
 ## Import Data Table from Public Databases
