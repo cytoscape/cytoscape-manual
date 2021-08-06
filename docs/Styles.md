@@ -117,7 +117,8 @@ details for a given style and is used to edit these details as well.
         or edge. Note that a node/edge or subset of nodes/edges must be
         selected to activate the **Bypass** column. Clicking on the
         **Bypass** column for selected node(s)/edge(s) allows you to
-        enter a bypass for that property for selected node(s)/edge(s).
+        enter a bypass for that property for selected node(s)/edge(s). 
+        There is no **Bypass** option for **Node Table** styles.
 
 The **Default Value** is used when no mapping is defined for a property,
 or for nodes/edges not covered by a mapping for a particular property.
@@ -1001,7 +1002,7 @@ charts from data stored in the Node tables.
 14. The default domain labels are not very useful, so let's set better
     labels:
 
-    -   On the **Node Table** (Table Panel), create a new *List Column*
+    -   In the **Node Table** (Table Panel), create a new *List Column*
         of type *String* and name it "domain\_labels".
 
     -   Edit any of the cells of the created column (double-click it)
@@ -1022,6 +1023,17 @@ charts from data stored in the Node tables.
         drop-down button. The labels should look like this now:
 
     ![](_static/images/Styles/BarChartsNode_6_3.png)
+    
+<a id="tutorial_7_creating_node_charts"> </a>
+### Tutorial 7: Creating a Node Table Style
+
+The goal of this tutorial is to set a style for columns in the **Node Table**. The **Table** tab of the **Style** interface offers default and mapping style options for background paint and font face. There is no **Bypass** option for **Node Table** styles.
+
+1.  Open the **Yeast Perturbation** sample session from **View → Show Starter Panel**.
+2.  In the **Table** panel of the **Style** panel, select the data column you want to add style to from the drop-down at the top, in this case the **gal1RGexp** column.
+3.  In the mapping column of the **Cell Background Paint** select the **gal1RGexp** column and select a default red-blue continuous mapping. This will color the background of the cells in the corresponding column in the **Node Table**.
+
+![](_static/images/Styles/NodeTableStyle.png)
 
 <a id="advanced_topics"> </a>
 ## Advanced Topics
