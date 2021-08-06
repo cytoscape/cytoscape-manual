@@ -81,12 +81,21 @@ styles using the **Current Style** options. The panel displays the mapping
 details for a given style and is used to edit these details as well.
 
 -   At the top of the interface, there is a drop-down list (**Current Style**) for selecting
-    a pre-defined style. There is also an **Options** drop-down with
+    a pre-defined style. 
+
+![](_static/images/Styles/EditStyles.png)
+
+-   The list of available styles is searchable using the search field. 
+-   The **Show only applied style** button ![](_static/images/Styles/CuurentStyleButton.png) will filter the list to display only the applied style.
+-   The list of available styles can be edited by clicking the **Edit..** ![](_static/images/Styles/EditStylesButton.png). This will reveal a set of buttons for selecting and deleting styles.
+
+-   There is also an **Options** drop-down with
     options to rename, remove, create and copy a Style, and an option to
     create a legend for the selected Style.
 
--   The main area of the interface is composed of three tabs, for **Node**,
-    **Edge** and **Network** properties.
+-   The main area of the interface is composed of four tabs, for **Node**,
+    **Edge** and **Network** properties, and a **Table**  tab for style options for the **Node Table**. 
+    Note that style selections for the **Node Table** are not saved as part of the current style.
 
 -   Each tab contains a list of properties relevant to the
     current style. At the top of the list a **Properties** drop-down
