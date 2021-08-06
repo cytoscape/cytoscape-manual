@@ -86,7 +86,7 @@ details for a given style and is used to edit these details as well.
 ![](_static/images/Styles/EditStyles.png)
 
 -   The list of available styles is searchable using the search field. 
--   The **Show only applied style** button ![](_static/images/Styles/CuurentStyleButton.png) will filter the list to display only the applied style.
+-   The **Show only applied style** button ![](_static/images/Styles/CurrentStyleButton.png) will filter the list to display only the applied style.
 -   The list of available styles can be edited by clicking the **Edit..** ![](_static/images/Styles/EditStylesButton.png). This will reveal a set of buttons for selecting and deleting styles.
 
 -   There is also an **Options** drop-down with
