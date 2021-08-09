@@ -80,16 +80,14 @@ This interface allows you to create/delete/view/switch between different
 styles using the **Current Style** options. The panel displays the mapping
 details for a given style and is used to edit these details as well.
 
--   At the top of the interface, there is a drop-down list (**Current Style**) for selecting
-    a pre-defined style. 
-
 ![](_static/images/Styles/EditStyles.png)
-
+-   At the top of the interface, there is a drop-down for selecting
+    an pre-defined style. 
 -   The list of available styles is searchable using the search field. 
 -   The **Show only applied style** button ![](_static/images/Styles/CurrentStyleButton.png) will filter the list to display only the applied style.
 -   The list of available styles can be edited by clicking the **Edit..** ![](_static/images/Styles/EditStylesButton.png). This will reveal a set of buttons for selecting and deleting styles.
 
--   There is also an **Options** drop-down with
+-   There is also an **Options** button ![](_static/images/Styles/OptionsButton.png) with
     options to rename, remove, create and copy a Style, and an option to
     create a legend for the selected Style.
 
