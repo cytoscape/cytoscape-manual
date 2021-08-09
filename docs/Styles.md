@@ -508,7 +508,7 @@ Image Manager...**:
     button on the bottom of the Image Manager window and then select the
     images you want to add.
 
-![](_static/images/Styles/add_custom_graphics.png)
+    ![](_static/images/Styles/add_custom_graphics.png)
 
 -   To remove images from the current session's image library, simply
     select one or more images from the list and press the **Remove
@@ -523,7 +523,7 @@ Image Manager...**:
 ### Using Graphics in Styles
 
 ![](_static/images/Styles/CustomGraphicsVizMapper.png)
-    ![](_static/images/Styles/CustomGraphicsNodes.png)
+![](_static/images/Styles/CustomGraphicsNodes.png)
 
 Node graphics are used and defined like any other property, through the
 **Style** interface. There are nine **Image/Chart** properties.
@@ -552,8 +552,8 @@ Node graphics are used and defined like any other property, through the
     -   **Gradients:** You can also set *Linear* and *Radial* gradients
         to nodes.
 
-![](_static/images/Styles/BarChartEditor.png)
-![](_static/images/Styles/RadialGradientEditor.png)
+    ![](_static/images/Styles/BarChartEditor.png)
+    ![](_static/images/Styles/RadialGradientEditor.png)
 
 -   To add a graphic, first add one **Image/Chart** property to the
     properties list in the **Style** interface (on the **Node** tab,
@@ -568,7 +568,7 @@ Node graphics are used and defined like any other property, through the
 -   To remove an image, chart or gradient, click the **Remove Graphics**
     button on the **Graphics** dialog.
 
-![](_static/images/Styles/CustomGraphicsSelector.png)
+    ![](_static/images/Styles/CustomGraphicsSelector.png)
 
 <a id="graphics_positions"> </a>
 #### Graphics Positions
