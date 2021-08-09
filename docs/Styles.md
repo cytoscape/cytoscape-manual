@@ -926,7 +926,7 @@ charts from data stored in the Node tables.
 7.  Click the **Charts** tab and make sure the **Bar Chart** option
     is selected.
 
-    ![](_static/images/Styles/BarChartPanel_6_1.png)
+    ![](_static/images/Styles/BarChartPanel.png)
 
 8.  **Select data columns:** Now you have to choose the columns in the
     Node table that contains the data you want to be displayed
@@ -944,20 +944,20 @@ charts from data stored in the Node tables.
         **Available Columns** list and click the **Add
         Selected** button.
 
-        ![](_static/images/Styles/BarChartPanel_6_3.png)
+        ![](_static/images/Styles/BarChartPanel.png)
 
 9.  Click the **Apply** button to create bar charts with the selected
     data columns and default options.
 
-    ![](_static/images/Styles/BarChartPanel_6_4.png)
-    ![](_static/images/Styles/BarChartsNetwork_6_1.png)
+    ![](_static/images/Styles/BarChartsNetwork.png)
 
 10. The network view doesn't look so good yet, so let's make a few
     changes to its Style before we continue. In the example shown below,
-    the node **Shape** is set to *Rectangle*, while the node **Fill
-    Color** is set to *white*.
+    the node **Shape** is set to *Rectangle*, the node **Fill
+    Color** is set to *white*, the **Node Border** width is set to 1, 
+    and the **Node Border Paint** is a dark grey.
 
-    ![](_static/images/Styles/BarChartsNetwork_6_2.png)
+    ![](_static/images/Styles/BarChartsNetwork-final.png)
 
 11. Focus on one node to see the chart details. For example search for
     and then focus on node "YMR043W".
