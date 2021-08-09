@@ -699,13 +699,13 @@ protein-protein interactions as solid lines.
 
     ![](_static/images/Styles/EdgeColorTut2.png)
 
-Repeat step 4 for "pp" (protein-protein interactions), but select a
-darker color. Then repeat steps 3 through 4 for the *Line Type*
-property, by selecting the correct line style ("Dash" or "Solid") from
-the list.
+    Repeat step 4 for "pp" (protein-protein interactions), but select a
+    darker color. Then repeat steps 3 through 4 for the *Line Type*
+    property, by selecting the correct line style ("Dash" or "Solid") from
+    the list.
 
-Now your network should show "pd" interactions as dashed green lines and
-"pp" interactions as solid lines. A sample screenshot is provided below.
+    Now your network should show "pd" interactions as dashed green lines and
+    "pp" interactions as solid lines. A sample screenshot is provided below.
 
 ![](_static/images/Styles/Tutorial2-final.png)
 
@@ -734,11 +734,12 @@ network and display it along a color gradient.
 
 4.  **Define a color palette.**  We encourage you to choose palette from the existing ones provided, but you can also choose the color states yourself and      provide any number of intermediate colors.  Both methods are described here.
   
-4A. **Choose a predefined palette from the Palette picker.**  These come from published recommendations for choosing colors in scientific and cartographic  applications, such as [BrewerColors](http://colorbrewer2.org). Click the **Current Palette** button in the top left of the **Continuous Mapping Editor** to choose from a set of palettes. Below shows the **Set Palette** dialog to choose a full palette. For this tutorial, we are choosing the "green shades" palette. Note that any palette can also be reversed by selecting **reverse colors**.
+    **Choose a predefined palette from the Palette picker.**  These come from published recommendations for choosing colors in scientific and cartographic           applications, such as [BrewerColors](http://colorbrewer2.org). Click the **Current Palette** button in the top left of the **Continuous Mapping Editor** to     choose from a set of palettes. Below shows the **Set Palette** dialog to choose a full palette. For this tutorial, we are choosing the "green shades"      
+    palette. Note that any palette can also be reversed by selecting **reverse colors**.
  
-![](_static/images/Styles/setPalette.png)
+    ![](_static/images/Styles/setPalette.png)
 
-4B. **Define the points where colors will change:** Double-click on the
+    **Define the points where colors will change:** Double-click on the
     default gradient rectangle next to **Current Mapping** to
     open the **Continuous Mapping Editor**. Note the two smaller
     triangles at the top of the gradient.
@@ -760,7 +761,7 @@ network and display it along a color gradient.
 
     ![](_static/images/Styles/Tutorial3-final.png)
 
--   **Repeat for other properties:** You can create more continuous
+6.  **Repeat for other properties:** You can create more continuous
     mappings for other numeric table data. For example, edge data table
     column "EdgeBetweenness" is a number, so you can use it for
     continuous mapping. The following is an example visualization which
@@ -802,11 +803,11 @@ for discrete mappings.
 
     ![](_static/images/Styles/Tutorial4-final.png)
 
-This mapping generator utility is useful for categorical data. The
-following example shows a discrete mapping that maps the species column
-to node color.
+    This mapping generator utility is useful for categorical data. The
+    following example shows a discrete mapping that maps the species column
+    to node color.
 
-![](_static/images/Styles/tutorial4_sample.png)
+    ![](_static/images/Styles/tutorial4_sample.png)
 
 <a id="tutorial_5_using_images_in_styles"> </a>
 ### Tutorial 5: Using Images in Styles
@@ -884,7 +885,7 @@ assign up to nine images per node as a part of a Style.
     ![](_static/images/Styles/cgTutorial6.png)
 
     Now the important nodes in the network (nodes with high [betweenness
-centrality](http://en.wikipedia.org/wiki/Betweenness_centrality))
+    centrality](http://en.wikipedia.org/wiki/Betweenness_centrality))
     are annotated with the icon:
 
     ![](_static/images/Styles/CustomGraphicsNodes2.png)
