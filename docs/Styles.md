@@ -454,7 +454,7 @@ types are supported:
     exists there, Cytoscape automatically downloads the image and maps
     it to the node.
 
-##### Examples
+#### Examples
 
 **Color Passthrough Mapping**
 
@@ -732,20 +732,18 @@ network and display it along a color gradient.
 
     ![](_static/images/Styles/DefaultContinous.png)
 
-4. **Define a color palette.**  We encourage you to choose palette from the existing ones provided, but you can also choose the color states yourself and provide any number of intermediate colors.  Both methods are described here.
-
-![](_static/images/Styles/redWhiteBlue.png)
+4.  **Define a color palette.**  We encourage you to choose palette from the existing ones provided, but you can also choose the color states yourself and      provide any number of intermediate colors.  Both methods are described here.
   
-4A. **Choose a predefined palette from the Palette picker.**  These come from published recommendations for choosing colors in scientific and cartographic applications, such as [BrewerColors](http://colorbrewer2.org). Click the **Current Palette** button in the top left of the **Continuous Mapping Editor** to choose from a set of palettes. Below shows the **Set Palette** dialog to choose a full palette. For this tutorial, we are choosing the "green shades" palette. Note that any palette can also be reversed by selecting **reverse colors**.
+4A. **Choose a predefined palette from the Palette picker.**  These come from published recommendations for choosing colors in scientific and cartographic  applications, such as [BrewerColors](http://colorbrewer2.org). Click the **Current Palette** button in the top left of the **Continuous Mapping Editor** to choose from a set of palettes. Below shows the **Set Palette** dialog to choose a full palette. For this tutorial, we are choosing the "green shades" palette. Note that any palette can also be reversed by selecting **reverse colors**.
  
 ![](_static/images/Styles/setPalette.png)
 
-4B.  **Define the points where colors will change:** Double-click on the
+4B. **Define the points where colors will change:** Double-click on the
     default gradient rectangle next to **Current Mapping** to
     open the **Continuous Mapping Editor**. Note the two smaller
     triangles at the top of the gradient.
 
-![](_static/images/Styles/DefaultColorGradient.png)
+    ![](_static/images/Styles/DefaultColorGradient.png)
 
 5.  **Define the colors between points:** Double-click on the larger
     leftmost triangle (facing left) and a color palette will appear. Set
@@ -755,12 +753,12 @@ network and display it along a color gradient.
 
     ![](_static/images/Styles/GreenWhiteGradient.png)
 
-The color gradients will immediately appear on the network. All nodes
-with degree *1* will be set to white, and all values between *1* and
-*18* will be painted with a white/green color gradient (see the sample
-screenshot below).
+    The color gradients will immediately appear on the network. All nodes
+    with degree *1* will be set to white, and all values between *1* and
+    *18* will be painted with a white/green color gradient (see the sample
+    screenshot below).
 
-![](_static/images/Styles/Tutorial3-final.png)
+    ![](_static/images/Styles/Tutorial3-final.png)
 
 -   **Repeat for other properties:** You can create more continuous
     mappings for other numeric table data. For example, edge data table
