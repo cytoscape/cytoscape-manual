@@ -962,17 +962,17 @@ charts from data stored in the Node tables.
 11. Focus on one node to see the chart details. For example search for
     and then focus on node "YMR043W".
 
-    ![](_static/images/Styles/BarChartsNetwork_6_2b.png)
-    ![](_static/images/Styles/BarChartsNode_6_1.png)
+    ![](_static/images/Styles/BarChartsNetworkZoom.png)
+    ![](_static/images/Styles/BarChartsNodeZoomNode.png)
 
 12. **Change other chart options:** Click the **Default Value** cell of
     the **Image/Chart 1** property again in order to open the
-    **Graphics** dialog, and then select the **Options** tab on the
+    **Graphics** dialog, and then expand the **Customize** option in the
     **Bar Chart** editor.
 
     ![](_static/images/Styles/BarChartPanel_6_5.png)
 
-    On this panel, you can:
+    In this panel, you can:
 
     -   Choose another **Color Scheme** or set all the colors
         individually (just click on each color).
@@ -989,7 +989,7 @@ charts from data stored in the Node tables.
     -   Increase or reduce the separation between bars (up to 50% of the
         total chart width).
 
-    -   **Note:** Other charts provide different options.
+    -   **Note:** Other chart types provide different options.
 
 13. Check both **Show Domain Axis** and **Show Range Axis** and apply
     the graphics again. Now the node chart should look like this:
@@ -999,7 +999,7 @@ charts from data stored in the Node tables.
 14. The default domain labels are not very useful, so let's set better
     labels:
 
-    -   In the **Node Table** (Table Panel), create a new *List Column*
+    -   In the **Node Table**, create a new *List Column*
         of type *String* and name it "domain\_labels".
 
     -   Edit any of the cells of the created column (double-click it)
@@ -1009,7 +1009,7 @@ charts from data stored in the Node tables.
     -   Right-click the same cell and select the option **Apply to
         entire column**.
 
-    ![](_static/images/Styles/BarChartsNetwork_6_3.png)
+        ![](_static/images/Styles/BarChartsNetwork_6_3.png)
 
     -   Open the chart editor again and select the **Options** panel.
 
@@ -1019,7 +1019,7 @@ charts from data stored in the Node tables.
     -   Select "Up 45^o^" on the **Domain Labels Position**
         drop-down button. The labels should look like this now:
 
-    ![](_static/images/Styles/BarChartsNode_6_3.png)
+        ![](_static/images/Styles/BarChartsNode_6_3.png)
     
 <a id="tutorial_7_creating_node_charts"> </a>
 ### Tutorial 7: Creating a Node Table Style
