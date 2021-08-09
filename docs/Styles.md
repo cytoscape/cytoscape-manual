@@ -1047,30 +1047,30 @@ below).
 <a id="automatic_value_generators"> </a>
 #### Automatic Value Generators
 
--   **Mapping Value Generators** - Functions in this menu category are
-    value generators for discrete mappings. Users can set values for
-    discrete mappings automatically by selecting these functions.
+**Mapping Value Generators**: Functions in this menu category are
+value generators for discrete mappings. Users can set values for
+discrete mappings automatically by selecting these functions.
 
-    -   **Rainbow** and **Rainbow OSC** - These functions try to assign
+-   **Rainbow** and **Rainbow OSC** - These functions try to assign
         as diverse a set of colors as possible for each data value.
 
-        ![](_static/images/Styles/RainbowMapper.png)
-
-    -   **Random Numbers** and **Random Colors** - Randomized numbers
+    ![](_static/images/Styles/RainbowMapper.png)
+    
+-   **Random Numbers** and **Random Colors** - Randomized numbers
         and colors.
-
-    -   **Number Series** - Set a series of numbers to the
+        
+-   **Number Series** - Set a series of numbers to the
         specified mapping. Requires a starting number and increment.
 
-        ![](_static/images/Styles/NumberSeriesNodeSize.png)
+    ![](_static/images/Styles/NumberSeriesNodeSize.png)
 
-    -   **Fit label width** - This function is only for node **Width**
-        and **Size**. When a discrete mapping for node **Width** or
-        **Size** is available, you can fit the size of each node to its
-        label automatically by selecting this function. See the example
-        below:
+-   **Fit label width** - This function is only for node **Width**
+    and **Size**. When a discrete mapping for node **Width** or
+    **Size** is available, you can fit the size of each node to its
+    label automatically by selecting this function. See the example
+    below:
 
-        ![](_static/images/Styles/NodeLabelFit.png)
+    ![](_static/images/Styles/NodeLabelFit.png)
 
 <a id="edit_selected_values_at_once"> </a>
 #### Edit Selected Values at Once
