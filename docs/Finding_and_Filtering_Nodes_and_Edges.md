@@ -36,14 +36,14 @@ currently does not work for column-specific searching. This will be
 fixed in a future release.
 
 <a id="cycharts"> </a>
-## CyCharts
-CyChart is a charting package available as a core app in Cytoscape. CyCharts provides simple 1D and 2D plots of numerical values from node or edge tables. Selection in the chart will reciprocally select nodes or edges in the network.  This provides another way to visualize and interact with your data in Cytoscape.   
+## CyChart
+CyChart is a charting package available as a core app in Cytoscape. CyChart provides simple 1D and 2D plots of numerical values from node or edge tables. Selection in the chart will reciprocally select nodes or edges in the network.  This provides another way to visualize and interact with your data in Cytoscape.   
 
 ### Histograms
 
 A histogram shows the distribution of a variable in bins over a range.   It shows the user where the most common values are and whether the values are distributed uniformly (flat line), normally (the bell curve) or have strong modes (hills and valleys).  This can be particularly useful for finding pockets of the data that express similar ranges, such as positively and negatively expressed genes.
 
-To create a histogram using CyCharts, open the right-click on the header of a numeric column in the Node or Edge Table, and select the command **Plot Histogram…**
+To create a histogram using CyChart, open the right-click on the header of a numeric column in the Node or Edge Table, and select the command **Plot Histogram…**
 
 ![](_static/images/Filters/plotHistogram.png)
 
