@@ -736,12 +736,12 @@ network and display it along a color gradient.
 
 ![](_static/images/Styles/redWhiteBlue.png)
   
-4A. **Choose a predefined palette from the Palette picker.**  These come from published recommendations for choosing colors in scientific and cartographic applications, such as [BrewerColors](http://colorbrewer2.org).  Click the **Current Palette** button in the top left of the **Continuous Mapping Editor** to choose from a set of palettes.  Below shows the **Set Palette** dialog to choose a full palette.
+4A. **Choose a predefined palette from the Palette picker.**  These come from published recommendations for choosing colors in scientific and cartographic applications, such as [BrewerColors](http://colorbrewer2.org). Click the **Current Palette** button in the top left of the **Continuous Mapping Editor** to choose from a set of palettes. Below shows the **Set Palette** dialog to choose a full palette. For this tutorial, we are choosing the "green shades" palette. Note that any palette can also be reversed by selecting **reverse colors**.
  
 ![](_static/images/Styles/setPalette.png)
 
 4B.  **Define the points where colors will change:** Double-click on the
-    black-and-white gradient rectangle next to **Current Mapping** to
+    default gradient rectangle next to **Current Mapping** to
     open the **Continuous Mapping Editor**. Note the two smaller
     triangles at the top of the gradient.
 
