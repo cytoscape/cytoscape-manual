@@ -36,26 +36,26 @@ currently does not work for column-specific searching. This will be
 fixed in a future release.
 
 <a id="cycharts"> </a>
-## CyChart
-CyChart is a charting package available as a core app in Cytoscape. CyChart provides simple 1D and 2D plots of numerical values from node or edge tables. Selection in the chart will reciprocally select nodes or edges in the network.  This provides another way to visualize and interact with your data in Cytoscape.   
+## cyChart
+CyChart is a charting package available as a core app in Cytoscape. CyChart provides simple 1D and 2D plots of numerical values from node or edge tables. Selection in the chart will reciprocally select nodes or edges in the network. This provides another way to visualize and interact with your data in Cytoscape.   
 
 ### Histograms
 
-A histogram shows the distribution of a variable in bins over a range.   It shows the user where the most common values are and whether the values are distributed uniformly (flat line), normally (the bell curve) or have strong modes (hills and valleys).  This can be particularly useful for finding pockets of the data that express similar ranges, such as positively and negatively expressed genes.
+A histogram shows the distribution of a variable in bins over a range. It shows the user where the most common values are and whether the values are distributed uniformly (flat line), normally (the bell curve) or have strong modes (hills and valleys). This can be particularly useful for finding pockets of the data that express similar ranges, such as positively and negatively expressed genes.
 
-To create a histogram using CyChart, open the right-click on the header of a numeric column in the Node or Edge Table, and select the command **Plot Histogram…**
+To create a histogram using cyChart, open the right-click on the header of a numeric column in the Node or Edge Table, and select the command **Plot Histogram…**
 
 ![](_static/images/Filters/plotHistogram.png)
 
-The structure of the CyChart window has a header with common functions and settings, the content of the chart, and a footer with the selections status and the controls to set the axes.
+The structure of the cyChart window has a header with common functions and settings, the content of the chart, and a footer with the selections status and the controls to set the axes.
 
 ![](_static/images/Filters/histogram1.png)
 
-To select a range within a histogram, click and drag left or right.  You should see a color change in the background of the data.   To edit an existing selection, drag in the middle of the selection to move the entire selection, or on either edge of the selection to edit just the start or end of the range.  To clear the selection, click outside of the range.
+To select a range within a histogram, click and drag left or right. You should see a color change in the background of the data. To edit an existing selection, drag in the middle of the selection to move the entire selection, or on either edge of the selection to edit just the start or end of the range. To clear the selection, click outside of the range.
 
-If the chart is in its interactive mode, you can see the main graph view changing its selection as the chart changes.  However, in large networks this will over-stress the computer and become sluggish in the interface.  Therefore, there is a check box in the header of CyChart to control whether selection is recomputed whenever the mouse moves, or occurs only at the end of your drag.
+If the chart is in its interactive mode, you can see the main graph view changing its selection as the chart changes. However, in large networks this will over-stress the computer and become sluggish in the interface. Therefore, there is a check box in the header of cyChart to control whether selection is recomputed whenever the mouse moves, or occurs only at the end of your drag.
 
-The footer is used to set the axes of the chart, and to show the status of the selection.  Click on the popup choice box to see the list of available dimensions.  The chart will be regenerated whenever you change either dimension.  The current selection is lost when either axis changes.
+The footer is used to set the axes of the chart, and to show the status of the selection. Click on the popup choice box to see the list of available dimensions.  The chart will be regenerated whenever you change either dimension. The current selection is lost when either axis changes.
 
 ![](_static/images/Filters/histogramFooter.png)
 
