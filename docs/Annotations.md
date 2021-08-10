@@ -11,8 +11,8 @@ The network canvas is made up of three transparent layers:
 
 - Background layer
 
-The middle Network layer contains nodes, edges and charts. The Foreground and Background 
-layers contain Annotations.
+The middle Network layer contains nodes, edges and charts. The foreground and background 
+layers contain annotations.
 
 ![](_static/images/Annotations/layers.png)
 
@@ -42,7 +42,7 @@ There are five types of annotations available:
  
 ## The Annotation Panel
 
-The Annotation panel shows the annotations that are currently present on the foreground and 
+The **Annotation** panel shows the annotations that are currently present on the foreground and 
 background layers. The panel allows you to create and delete annotations, select annotations, 
 move annotations up and down, move annotations between layers, and group annotations.
 
@@ -51,7 +51,7 @@ move annotations up and down, move annotations between layers, and group annotat
 
 ## Creating Annotations
 
-At the top of the a Annotation Panel there are five buttons for creating each type of annotation. 
+At the top of the **Annotation** panel there are five buttons for creating each type of annotation. 
 Start by clicking the button for the type of annotation you would like to add. 
 
 ![](_static/images/Annotations/annotations_panel_buttons.png)
@@ -61,34 +61,34 @@ Alternatively, right click on the network canvas and select the annotation type 
 ![](_static/images/Annotations/add_menu.png)
 
 ### Shape, Bounded Text, Image
-- Click the button for shape, bounded text or image annotation.
-- Click the general location on the network canvas where the annotation should be placed.
-- A dialog will appear that allows editing of the annotation properties. These properties can be edited 
+1. Click the button for shape, bounded text or image annotation.
+2. Click the general location on the network canvas where the annotation should be placed.
+3. A dialog will appear that allows editing of the annotation properties. These properties can be edited 
   again after the annotation is created.
-- Click the **Ok** button in the dialog.
-- The annotation will appear on the canvas. 
-- The mouse cursor is automatically moved to the canvas and the annotation is in resize mode. 
-- Move the mouse cursor to resize the annotation. The annotation can be resized again later.
-- Click the mouse again to stop resizing.
+4. Click the **OK** button in the dialog.
+5. The annotation will appear on the canvas. 
+6. The mouse cursor is automatically moved to the canvas and the annotation is in resize mode. 
+7. Move the mouse cursor to resize the annotation. The annotation can be resized again later.
+8. Click the mouse again to stop resizing.
 
 ### Text
-- Click the button for text annotation.
-- Click the general location on the network canvas where the annotation should be placed.
-- A dialog will appear that allows editing of the text.
-- Click the **Ok** button in the dialog.
-- The annotation will appear on the canvas. 
+1. Click the button for text annotation.
+2. Click the general location on the network canvas where the annotation should be placed.
+3. A dialog will appear that allows editing of the text.
+4. Click the **OK** button in the dialog.
+5. The annotation will appear on the canvas. 
 
 ### Arrow
-- Creating an arrow annotation requires there to be at least one other annotation on the network canvas.
-- Click the button for arrow annotation.
-- Click on an annotation on the canvas, this will be the source annotation.
-- Click on another annotation on the canvas or a node, this will be the destination.
-- An arrow annotation appears connecting the source and destination.
+1. Creating an arrow annotation requires there to be at least one other annotation on the network canvas.
+2. Click the button for arrow annotation.
+3. Click on an annotation on the canvas, this will be the source annotation.
+4. Click on another annotation on the canvas or a node, this will be the destination.
+5. An arrow annotation appears connecting the source and destination.
 
 
 ## Selecting Annotations
 
-One or more annotations can be selected in the Annotations panel by clicking on them. 
+One or more annotations can be selected in the **Annotations** panel by clicking on them. 
 
 To be able to select annotations in the network canvas
 **Toggle Annotation Selection** must be enabled. Toggle the 
@@ -105,16 +105,14 @@ The annotation can be resized by clicking and dragging one of the handles.
 
 It is possible to select multiple annotations at the same time. Hold Ctrl on Windows, 
 or Command on Mac, while clicking on each of the annotations you would like to select. 
-This works both in the Annotations panel and on the network canvas. When multiple annotations 
+This works both in the **Annotations** panel and on the network canvas. When multiple annotations 
 are selected they can be moved and resized at the same time.
-
-
 
 ## Moving Annotations Backwards and Forwards
 
 ![](_static/images/Annotations/annotations_panel_selected.png)
 
-The Annotation panel displays a list of annotations on the foreground layer and a list of 
+The **Annotation** panel displays a list of annotations on the foreground layer and a list of 
 annotations on the background layer.
 
 Annotations that are towards the top of a list are drawn above annotations lower in the list. 
@@ -130,22 +128,22 @@ button to move it to the background layer.
 
 ## Renaming Annotations
 
-Each annotation has a name that is displayed in the Annotation Panel. These names are primarily 
+Each annotation has a name that is displayed in the **Annotation** Panel. These names are primarily 
 for organizational purposes and do not affect how the annotation is displayed on the canvas. To 
-rename an annotation double-click the annotation in the Annotation Panel and enter the new name.
+rename an annotation double-click the annotation in the **Annotation** panel and enter the new name.
 
 
 ## Editing Annotations
 
-To modify the properties of an annotation (eg, color, text) go to the Annotation panel,
-right click the annotation, and select **Modify Annotation...** in the context menu.
+To modify the properties of an annotation (eg, color, text) go to the **Annotation** panel,
+right click the annotation, and select **Modify Annotation...** in the context menu. Alternatively, 
+right-click on the annotation in the network and select **Modify Annotation...**. 
 
 ![](_static/images/Annotations/modify_menu.png)
 
-
 ## Deleting Annotations
 
-To delete annotations from the Annotation panel select one or more annotations and click the 
+To delete annotations from the **Annotation** panel select one or more annotations and click the 
 ![](_static/images/Annotations/button_trash.png) button.
 
 To delete annotations from the network view right click an annotation and select **Edit > Cut**.
