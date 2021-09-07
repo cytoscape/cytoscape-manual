@@ -40,25 +40,31 @@ fixed in a future release.
 
 The **Select → Nodes** and **Select → Edges** menus provide several
 mechanisms for selecting nodes and edges. Most options are fairly
-straightforward. A set of keyboard shortcuts for selecting nodes, edges 
-and annotations are also available. Note that these keyboard shortcuts are 
-available regardless of which **Selection Mode** for mouse click or drag-selection.
+straightforward and self-explanatory. 
+
+A set of keyboard shortcuts for selecting nodes, edges 
+and annotations are also available. Note that these keyboard shortcuts work
+regardless of which **Selection Mode** for mouse click or drag-selection.
 
 <table cellspacing="0" style="table-layout: fixed; width: 700px">
 <colgroup> <col style="width:100px"><col style="width:420px"> </colgroup>                                                                        <tbody>
 <tr> <th td class="alt">Keyboard shortcut</th><th class="center">Action</th>                                        
 <tr> <td td class="alt"><b>Cmd-A</b></td>        <td class="alt">Select all (nodes, edges and annotations)</td>             
 <tr> <td td class="alt"><b>Option-N</b></td>  <td class="alt">Select all nodes</td>   
-<tr> <td td class="alt"><b>Option-E</b></td>      <td class="alt">Select all edges</th>           
+<tr> <td td class="alt"><b>Option-E</b></td>      <td class="alt">Select all edges</td>           
 <tr> <td td class="alt"><b>Cmd-Shift-A</b></td>    <td class="alt">Deselect all (nodes, edges and annotations)</td>  
-<tr> <td td class="alt"><b>Option-Shift-N</b></td>      <td class="alt">Deselect all nodes</th>        
+<tr> <td td class="alt"><b>Option-Shift-N</b></td>      <td class="alt">Deselect all nodes</td>        
 <tr> <td td class="alt"><b>Option-Shift-E</b></td>   <td class="alt">Deselect all edges</td>  
 <tr> <td td class="alt"><b>Cmd-I</b></td>   <td class="alt">Invert node selection</td> 
 <tr> <td td class="alt"><b>Option-I</b></td>   <td class="alt">Invert edge selection</td>
 <tr> <td td class="alt"><b>Cmd-Option-E</b></td>   <td class="alt">Select Adjacent Edges</td> 
-<tr> <td td class="alt"><b>Cmd-Option-N</b></td>   <td class="alt">Nodes Selected by Selected Edges</td> 
+<tr> <td td class="alt"><b>Cmd-Option-N</b></td>   <td class="alt">Select Nodes by Selected Edges</td> 
 </tbody>
 </table>
+
+**Select → Mouse Drag Selects** includes the same options for **Selection Mode** 
+for mouse click or drag-selection as the current **Selection Mode** in the [Network
+    View Tools](Quick_Tour_of_Cytoscape.html#the-network-overview-window).
 
 **Select → Nodes → From ID List File...** selects nodes based on node
 identifiers found in a specified file. The file format is simply one
