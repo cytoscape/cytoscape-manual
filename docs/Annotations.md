@@ -60,31 +60,21 @@ Alternatively, right click on the network canvas and select the annotation type 
 
 ![](_static/images/Annotations/add_menu.png)
 
-### Shape, Bounded Text, Image
+### Shape, Bounded Text, Image, Text
 1. Click the button for shape, bounded text or image annotation.
-2. Click the general location on the network canvas where the annotation should be placed.
-3. A dialog will appear that allows editing of the annotation properties. These properties can be edited 
-  again after the annotation is created.
-4. Click the **OK** button in the dialog.
-5. The annotation will appear on the canvas. 
-6. The mouse cursor is automatically moved to the canvas and the annotation is in resize mode. 
-7. Move the mouse cursor to resize the annotation. The annotation can be resized again later.
-8. Click the mouse again to stop resizing.
-
-### Text
-1. Click the button for text annotation.
-2. Click the general location on the network canvas where the annotation should be placed.
-3. A dialog will appear that allows editing of the text.
-4. Click the **OK** button in the dialog.
-5. The annotation will appear on the canvas. 
+2. Click the general location on the network canvas where the annotation should be placed. The annotation will appear on the canvas.
+3. The annotation properties can be edited in the **Appearance** tab in the **Annotations** panel. The properties can be edited 
+  again after the annotation is created by selecting the annotation.
+4. To resize the annotation, click on one of the resize handles and move the mouse cursor to resize the annotation. The annotation can be resized again later.
+5. Click the mouse again to stop resizing.
 
 ### Arrow
-1. Creating an arrow annotation requires there to be at least one other annotation on the network canvas.
-2. Click the button for arrow annotation.
-3. Click on an annotation on the canvas, this will be the source annotation.
-4. Click on another annotation on the canvas or a node, this will be the destination.
+Creating an arrow annotation requires there to be at least one other annotation on the network canvas.
+1. Click the button for arrow annotation.
+2. Click on an existing annotation on the canvas; this will be the source annotation.
+4. Click on another annotation on the canvas or a node; this will be the destination.
 5. An arrow annotation appears connecting the source and destination.
-
+6. The arrow properties can be edited in the **Appearance** tab in the **Annotations** panel to select start and end arrow head, color etc.
 
 ## Selecting Annotations
 
@@ -97,9 +87,7 @@ button at the bottom of the network view to enable/disable annotation selection 
 
 ![](_static/images/Annotations/annotation_selection_mode.png)
 
-When an annotation is selected it is surrounded by a yellow selection rectangle and 8 resize 
-handles are visible. The annotation can be moved by clicking on it with the mouse and dragging. 
-The annotation can be resized by clicking and dragging one of the handles.
+When an annotation is selected, 8 resize handles are visible. The annotation can be moved by clicking on it with the mouse and dragging. The annotation can be resized by clicking and dragging one of the handles.
 
 ![](_static/images/Annotations/selected.png)
 
