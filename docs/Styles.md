@@ -76,9 +76,9 @@ The **Style** interface is located under the **Style** panel of the
 
 ![](_static/images/Styles/StylesInterface.png)
 
-This interface allows you to create/delete/view/switch between different
-styles using the **Current Style** options. The panel displays the mapping
-details for a given style and is used to edit these details as well.
+This interface allows you to create/delete/view and switch between different
+styles using the drop-down and the **Options** menu. With a specific style selected, the **Style** panel displays the
+details for a given style and is used to edit these details as well. 
 
 ![](_static/images/Styles/EditStyles.png)
 -   At the top of the interface, there is a drop-down for selecting
@@ -693,7 +693,9 @@ protein-protein interactions as solid lines.
 
 4.  **Set the mapped values:** Click the empty cell next to "pd"
     (protein-DNA interactions). On the right side of the cell, click on
-    the **...** button that appears. A popup window will appear; select
+    the **...** button that appears. A popup window will appear with 
+    all available palettes and color collections, you can select 
+    an individual color from any color palette. Select
     green or similar, and the change will immediately appear on the
     network window.
 
@@ -732,10 +734,9 @@ network and display it along a color gradient.
 
     ![](_static/images/Styles/DefaultContinous.png)
 
-4.  **Define a color palette.**  We encourage you to choose palette from the existing ones provided, but you can also choose the color states yourself and      provide any number of intermediate colors.  Both methods are described here.
+4.  **Define a color palette.** We encourage you to choose palette from the existing ones provided, but you can also choose the color states yourself and provide any number of intermediate colors. Both methods are described here.
   
-    **Choose a predefined palette from the Palette picker.**  These come from published recommendations for choosing colors in scientific and cartographic           applications, such as [BrewerColors](http://colorbrewer2.org). Click the **Current Palette** button in the top left of the **Continuous Mapping Editor** to     choose from a set of palettes. Below shows the **Set Palette** dialog to choose a full palette. For this tutorial, we are choosing the "green shades"      
-    palette. Note that any palette can also be reversed by selecting **reverse colors**.
+    **Choose a predefined palette from the Palette picker.** These come from published recommendations for choosing colors in scientific and cartographic applications, such as [BrewerColors](http://colorbrewer2.org). Click the **Current Palette** button in the top left of the **Continuous Mapping Editor** to choose from a set of palettes. Below shows the **Set Palette** dialog to choose a full palette. For this tutorial, we are choosing the "green shades" palette. Note that any palette can also be reversed by selecting **reverse colors**.
  
     ![](_static/images/Styles/setPalette.png)
 

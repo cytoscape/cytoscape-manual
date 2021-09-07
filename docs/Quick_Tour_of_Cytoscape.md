@@ -124,7 +124,8 @@ quick access. **File → Print...** allows printing.
 
 The **Edit** menu contains **Cut**, **Copy** and **Paste** functions, as
 well as **Undo** and **Redo** functions which undo and redo edits made
-in the **Table Panel**, the **Network Editor** and to layout.
+in the **Table Panel**, edits to the network and to layout. The **Undo**/**Redo**
+functions work on the last 10 tasks performed.
 
 There are also options for creating and destroying views (graphical
 representations of a network) and networks (the raw network data - not
