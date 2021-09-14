@@ -36,32 +36,32 @@ Most functionalities are self-explanatory, but we'll go through a
 concise explanation for clarity. The main window here has several
 components:
 
--   The Menu Bar at the top (see below for more information about
+-   The **Menu Bar** at the top (see below for more information about
     each menu).
 
--   The Tool Bar, which contains icons for commonly used functions.
+-   The **Tool Bar**, which contains icons for commonly used functions.
     These functions are also available via the menus. Hover the mouse
     pointer over an icon and wait momentarily for a description to
     appear as a tooltip. Right-clicking on the tool bar allows the
     contents to be customized.
 
--   The Network Panel (Network tab of the Control Panel). 
+-   The **Network Panel** (**Network** panel of the **Control Panel**). 
     At the top of the Network Panel is a Search bar, with direct access 
     to multiple external resources. The network panel also
     contains an optional network overview pane (shown at the
     bottom left).  
 
--   The main Network View Window, which displays the network. At the bottom
+-   The main **Network View Window**, which displays the network. At the bottom
     of the network view are a set of network view tools. 
 
--   The Table Panel (bottom right panel), which displays columns of
+-   The **Table Panel** (bottom right panel), which displays columns of
     selected nodes and edges and enables you to modify the values of
     column data.
 
-The Network Panel and Table Panel are dockable tabbed Panels. You can
+The **Network Panel** and **Table Panel** are dockable tabbed Panels. You can
 undock any of these panels by clicking on the **Float Window** control
 ![](_static/images/Quick_Tour/FloatWindow.png)
-in the upper-right corner of the CytoPanel. This is useful when you want
+in the upper-right corner of each panel. This is useful when you want
 assign the network panel as much screen space as possible. You will now
 have two Cytoscape windows, the main window, and a new window labeled
 Table Panel, similar to the one shown below. A popup will be displayed
@@ -104,7 +104,7 @@ section.
 <a id="file"> </a>
 ### File
 
-The File menu contains most basic file functionality: **File → Open**
+The **File** menu contains most basic file functionality: **File → Open**
 for opening a Cytoscape session file; **File → New Network** for creating a new
 network, either blank for editing, or from an existing network; **File →
 Save** for saving a session file; **File → Import** for importing data

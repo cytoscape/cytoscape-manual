@@ -172,7 +172,7 @@ It contains several **Node Layout Tools** that can help to automate or fine tune
 ### Scale
 Adjust the Scale slider to change the length of edges.  The position of the nodes will be scaled, not the node sizes. 
 Node size can be adjusted using
-**[Styles](Styles.html#styles)**.
+**[Styles](Styles.html)**.
 The images below show selected (yellow) nodes scaled to 50% of the default value.
 
 **Before**
@@ -288,7 +288,7 @@ function to bundle all or selected edges automatically.
 2.  Set parameters.
 
     -   Details of the algorithm is described in [this
-        paper (http://www.win.tue.nl/~dholten/papers/forcebundles_eurovis.pdf)](http://www.win.tue.nl/~dholten/papers/forcebundles_eurovis.pdf).
+        paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2009.01450.x).
 
 3.  Press OK to run. Edge bundling may take a long time if the number of
     edges is large.
@@ -465,7 +465,7 @@ The layout algorithms included in yFiles are:
 
 -   Organic Edge Router
 
-Below are a few examples of yFiles layouts in Cytoscape, with more available on the [yFiles web page](https://www.yworks.com/products/yfiles-layout-algorithms-for-cytoscape).
+Below are a few examples of yFiles layouts in Cytoscape, with more available from [yFiles](https://www.yworks.com/products/yfiles-layout-algorithms-for-cytoscape).
 
 ### yFiles Organic Layout
 ![](_static/images/Navigation_Layout/yFilesOrganic.png)

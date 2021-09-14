@@ -61,7 +61,7 @@ can visually see the hub of a network...**
 ![](_static/images/Styles/CustomGraphics5.png)
 
 Cytoscape 3 has several sample styles. Below are a few examples of these
-applied to the *galFiltered.sif* network :
+applied to the *galFiltered.sif* network:
 
 ![](_static/images/Styles/default_style.png)
 ![](_static/images/Styles/solid_style.png)
@@ -168,11 +168,11 @@ Finally, if you select **Solid**, you can see the graphics below:
 ![](_static/images/Styles/VizMapperSolidStyle.png)
 
 This style does not have mappings except node/edge labels, but you can
-modify the network graphics by editing the *Default Value* for any
+modify the network graphics by editing the **Default Value** for any
 property.
 
 Additional sample styles are available in the `sampleStyles.xml` file in
-the *sampleData* directory. You can import the sample file from **File →
+the **sampleData** directory. You can import the sample file from **File →
 Import → Styles from File...**.
 
 <a id="list_of_node_edge_and_network_properties"> </a>
@@ -300,7 +300,7 @@ are summarized in the tables below.
 <a id="stacking"> </a>
 ### Edge Stacking
 
-The Edge Stacking property determines how edges are visualized when there are multiple edges between a pair of nodes.
+The **Edge Stacking** property determines how edges are visualized when there are multiple edges between a pair of nodes.
 
 <table cellspacing="0" style="table-layout: fixed; width: 440px">
 <caption style="width: 440px">Edge Stacking</caption>
@@ -436,10 +436,10 @@ The table below shows mapping support for each property.
 <a id="text_passthrough_mapping"> </a>
 #### Text Passthrough Mapping
 
-In Cytoscape 2.8.0 and later versions, the Passthrough Mapping can
+In Cytoscape 2.8.0 and later versions, the **Passthrough Mapping** can
 recognize some text representations of values. This means, if you have a
 string column named *Node Size Values*, you can directly map those
-values as the Node Size by setting "Node Size Values" as controlling
+values as the node size by setting "Node Size Values" as controlling
 column with **Node Size** "Passthrough Mapping". The following value
 types are supported:
 
@@ -474,14 +474,14 @@ types are supported:
 <a id="images_charts_and_gradients"> </a>
 ## Images, Charts and Gradients
 
-Cytoscape allows you to set custom graphics to nodes. Using the Style
+Cytoscape allows you to set custom graphics to nodes. Using the **Style**
 interface, you can map **Image/Chart** properties to nodes like any
 other property. Cytoscape provides a set of images and you can also add
 your own images in the **Image Manager**, as well as remove or modify
 existing ones.
 
-[Taxonomy
-Icon (http://biosciencedbc.jp/taxonomy_icon/taxonomy_icon.cgi?lng=en)](http://biosciencedbc.jp/taxonomy_icon/taxonomy_icon.cgi?lng=en)
+The [Taxonomy
+Icon](http://biosciencedbc.jp/taxonomy_icon/taxonomy_icon.cgi?lng=en)
 set used in this section is created by Database Center for Life Science
 (DBCLS) and is distributed under Creative Commons License ([CC BY
 2.1.](http://creativecommons.org/licenses/by/2.1/jp/deed.en))
@@ -587,7 +587,7 @@ position of **Image/Chart 2**.
 
 The number that appears with the **Image/Chart** property represents an
 ordering of layers. Basic node color and shape are always rendered
-first, then node Image/Chart 1, 2, ..., through 9.
+first, then node **Image/Chart** 1, 2, ..., through 9.
 
 <a id="saving_and_loading_images"> </a>
 ### Saving and Loading Images
@@ -635,12 +635,12 @@ some default values.
     Import → Network from File...**, and select
     `sampleData/galFiltered.sif`.
 
-2.  **Create some node/edge statistics:** The _Network Analyzer_
+2.  **Create some node/edge statistics:** The **Network Analyzer**
     calculates some basic statistics for nodes and edges. From the main
     menu, select **Tools → Analyze Network**, and click **OK**.
     All statistics are stored as regular table data.
 
-3.  Select the **Style** panel in the Control Panel.
+3.  Select the **Style** panel in the **Control Panel**.
 
     ![](_static/images/Styles/StylesInterface.png)
 
@@ -661,7 +661,7 @@ mappings for all properties.
     Select the **Triangle** item and click the **Apply** button. You can
     edit other default values in the same way. In the example shown
     below, the node shape is set to **Round Rectangle**, while **Fill
-    Color** is set to white. The new Style is automatically applied to
+    Color** is set to white. The new style is automatically applied to
     the current network, as shown below.
 
     ![](_static/images/Styles/Tutorial1-final.png)
@@ -669,7 +669,7 @@ mappings for all properties.
 <a id="tutorial_2_creating_a_new_style_with_a_discrete_mapping"> </a>
 ### Tutorial 2: Creating a New Style with a Discrete Mapping
 
-Now you have a network with a new Style. The following section
+Now you have a network with a new style. The following section
 demonstrates how to create a new style that has a discrete mapping. The
 goal is to draw protein-DNA interactions as dashed lines, and
 protein-protein interactions as solid lines.
@@ -682,16 +682,16 @@ protein-protein interactions as solid lines.
 
 2.  **Choose a data column to map to:** Expand the entry for **Stroke
     Color (Unselected)** by clicking the arrow icon on the right. Click
-    the **Column** entry and select "interaction" from the drop-down
+    the **Column** entry and select _interaction_ from the drop-down
     list that appears.
 
 3.  **Set the mapping type:** Under **Mapping Type**, select
-    "Discrete Mapping". All available column values for "interaction"
+    **Discrete Mapping**. All available column values for _interaction_
     will be displayed, as shown below.
 
     ![](_static/images/Styles/DiscreteMapper.png)
 
-4.  **Set the mapped values:** Click the empty cell next to "pd"
+4.  **Set the mapped values:** Click the empty cell next to _pd_
     (protein-DNA interactions). On the right side of the cell, click on
     the **...** button that appears. A popup window will appear with 
     all available palettes and color collections, you can select 
@@ -701,13 +701,13 @@ protein-protein interactions as solid lines.
 
     ![](_static/images/Styles/EdgeColorTut2.png)
 
-    Repeat step 4 for "pp" (protein-protein interactions), but select a
-    darker color. Then repeat steps 3 through 4 for the *Line Type*
-    property, by selecting the correct line style ("Dash" or "Solid") from
+    Repeat step 4 for _pp_ (protein-protein interactions), but select a
+    darker color. Then repeat steps 3 through 4 for the **Line Type**
+    property, by selecting the correct line style (**Dash** or **Solid**) from
     the list.
 
-    Now your network should show "pd" interactions as dashed green lines and
-    "pp" interactions as solid lines. A sample screenshot is provided below.
+    Now your network should show _pd_ interactions as dashed green lines and
+    _pp_ interactions as solid lines. A sample screenshot is provided below.
 
 ![](_static/images/Styles/Tutorial2-final.png)
 
@@ -727,9 +727,9 @@ network and display it along a color gradient.
 
 2.  **Set the node table column:** Expand the entry for **Fill Color**
     by clicking the arrow icon on the right. Click the **Column** entry
-    and select "Degree" from the drop-down list that appears.
+    and select _Degree_ from the drop-down list that appears.
 
-3.  **Set the mapping type:** Set the "Continuous Mapping" option as the
+3.  **Set the mapping type:** Set the **Continuous Mapping** option as the
     **Mapping Type**. This automatically creates a default mapping.
 
     ![](_static/images/Styles/DefaultContinous.png)
@@ -764,9 +764,9 @@ network and display it along a color gradient.
 
 6.  **Repeat for other properties:** You can create more continuous
     mappings for other numeric table data. For example, edge data table
-    column "EdgeBetweenness" is a number, so you can use it for
+    column _EdgeBetweenness_ is a number, so you can use it for
     continuous mapping. The following is an example visualization which
-    mapps *Edge Width* to "EdgeBetweenness".
+    mapps **Edge Width** to _EdgeBetweenness_.
 
     ![](_static/images/Styles/Tutorial3-EdgeThickness.png)
 
@@ -776,13 +776,13 @@ network and display it along a color gradient.
 The goal of this section is to learn how to generate automatic values
 for discrete mappings.
 
-1.  Switch the Current Style to **Minimal**. Now your network looks like
+1.  Switch the **Current Style** to **Minimal**. Now your network looks like
     the following:
 
     ![](_static/images/Styles/Minimal.png)
 
 2.  Create a discrete mapping for **Fill Color**. Select
-    "AverageShortestPathLength" (generated by the _Network Analyzer_) as
+    _AverageShortestPathLength_ (generated by the **Network Analyzer**) as
     the controlling property.
 
 3.  Right-click the **Fill Color** cell, then select **Mapping Value
@@ -792,12 +792,12 @@ for discrete mappings.
     ![](_static/images/Styles/RainbowDiscreteMapping.png)
 
 4.  Create a discrete mapping for **Label Font Size**. Select
-    "AverageShortestPathLength" as controlling property
+    _AverageShortestPathLength_ as controlling property
     (**Column** field).
 
 5.  Right-click the **Label Font Size** cell, then select **Mapping
-    Value Generators → Number Series**. Type **3** for the first value
-    and click OK. Enter *3* for increment.
+    Value Generators → Number Series**. Type _3_ for the first value
+    and click **OK**. Enter *3* for increment.
 
 6.  Apply **Layout → yFiles Organic Layout**. The final view is shown
     below:
@@ -814,12 +814,12 @@ for discrete mappings.
 ### Tutorial 5: Using Images in Styles
 
 This tutorial is a quick introduction to the node image feature. You can
-assign up to nine images per node as a part of a Style.
+assign up to nine images per node as a part of a style.
 
 1.  In this first example, we will use the presets that Cytoscape 3 has.
     In general, you can use any type of bitmap graphics. User images
     should be added to the **Image Manager** before using them in
-    a Style.
+    a style.
 
 2.  If you are continuing from the previous tutorials, skip to the
     next step. Otherwise, load a network and run the _Network Analyzer_
@@ -865,9 +865,9 @@ assign up to nine images per node as a part of a Style.
     ![](_static/images/Styles/cgTutorial4.png)
 
 12. Create a Continuous Mapping for **Image/Chart 2** and select
-    "BetweennessCentrality" as its controlling property. Double-click
-    the **Current Mapping** value cell to open the Continuos
-    Mapping Editor.
+    _BetweennessCentrality_ as its controlling property. Double-click
+    the **Current Mapping** value cell to open the **Continuous
+    Mapping Editor**.
 
     ![](_static/images/Styles/cgTutorial-openCMEditor.png)
 
@@ -901,12 +901,12 @@ charts from data stored in the Node tables.
     select **File → Import → Network from File...**, and select
     `sampleData/galFiltered.sif`.
 
-2.  Create some node/edge statistics using the _Network Analyzer_.
-    The _Analyzer_ calculates some basic statistics for nodes
+2.  Create some node/edge statistics using the **Network Analyzer**.
+    The **Analyzer** calculates some basic statistics for nodes
     and edges. From the main menu, select **Tools → Analyze Network...**,
     and click **OK**. All statistics are stored as regular table data.
 
-3.  Select the **Style** panel in the Control Panel.
+3.  Select the **Style** panel in the **Control Panel**.
 
 4.  **Create a new style:** Click the **Options**
     ![](_static/images/Styles/OptionsDropDown.png)
@@ -932,7 +932,7 @@ charts from data stored in the Node tables.
 8.  **Select data columns:** Now you have to choose the columns in the
     Node table that contains the data you want to be displayed
     as charts. The **Available Columns** list displays all node columns
-    that can be used as chart data (i.e. *single* or *list* columns of
+    that can be used as chart data (i.e. single or list columns of
     numerical types).
 
     -   First click the **Remove All** button to remove the current
@@ -953,9 +953,9 @@ charts from data stored in the Node tables.
     ![](_static/images/Styles/BarChartsNetwork.png)
 
 10. The network view doesn't look so good yet, so let's make a few
-    changes to its Style before we continue. In the example shown below,
+    changes to its style before we continue. In the example shown below,
     the node **Shape** is set to *Rectangle*, the node **Fill
-    Color** is set to *white*, the **Node Border** width is set to 1, 
+    Color** is set to *white*, the **Node Border** width is set to _1_, 
     and the **Node Border Paint** is a dark grey.
 
     ![](_static/images/Styles/BarChartsNetwork-final.png)
@@ -975,10 +975,10 @@ charts from data stored in the Node tables.
 
     In this panel, you can:
 
-    -   Choose another **Color Scheme** or set all the colors
+    -   Choose another **Color Palette** or set all the colors
         individually (just click on each color).
 
-    -   Show/Hide Value and Domain **Labels** and also set the **Domain
+    -   **Show/Hide Value** and **Domain Labels** and also set the **Domain
         Label Position**.
 
     -   Change the chart **Orientation**.
@@ -1001,7 +1001,7 @@ charts from data stored in the Node tables.
     labels:
 
     -   In the **Node Table**, create a new *List Column*
-        of type *String* and name it "domain\_labels".
+        of type *String* and name it _domain\_labels_.
 
     -   Edit any of the cells of the created column (double-click it)
         and type
@@ -1014,7 +1014,7 @@ charts from data stored in the Node tables.
 
     -   Open the chart editor again and select the **Options** panel.
 
-    -   Select "domain\_labels" on the **Domain Labels Column**
+    -   Select _domain\_labels_ on the **Domain Labels Column**
         drop-down button.
 
     -   Select "Up 45^o^" on the **Domain Labels Position**
@@ -1118,9 +1118,9 @@ buttons.
     of this editor. The first time you open the editor, the *Min* and
     *Max* values are set by the range of the data column you
     selected (i.e. the minimum and maximum values of the mapped column).
-    In the pop-up dialog you can manually enter the Min and Max values, 
+    In the pop-up dialog you can manually enter the **Min** and **Max** values, 
     or they can be set to the current minimum and maximum values of the 
-    data column by clicking the *Reset* button.
+    data column by clicking the **Reset** button.
 
 3.  **Add** - Adds a new handle to the editor.
 
@@ -1134,9 +1134,9 @@ buttons.
 
 ![](_static/images/Styles/GradientEditorSample26.png)
 
-The Gradient Editor is an editor for creating continuous mappings for
+The **Gradient Editor** is an editor for creating continuous mappings for
 colors. To change the color of each region, just double-click the
-handles (small triangles on the top). A Color gradient will be created
+handles (small triangles on the top). A color gradient will be created
 only when the editor has two or more handles (see the example below).
 
 <table cellspacing="0" style="table-layout: fixed; width: 680px">
@@ -1154,7 +1154,7 @@ only when the editor has two or more handles (see the example below).
 
 ![](_static/images/Styles/C2CEditor26.png)
 
-The Continuous-Continuous Editor is for creating mappings between
+The **Continuous-Continuous Editor** is for creating mappings between
 numerical data and numerical properties (e.g. size, transparency). To
 change the value assigned on the Y-axis (the property shown in the
 example above is edge **Width**), drag the small squares or double-click
@@ -1165,7 +1165,7 @@ them to directly type an exact value.
 
 ![](_static/images/Styles/C2DEditor26.png)
 
-The Continuous-Discrete Editor is used to create mappings from numerical
+The **Continuous-Discrete Editor** is used to create mappings from numerical
 column values to discrete properties, such as fonts, shapes, or line
 styles. To edit a value for a specific region, double-click the icon on
 the track.
@@ -1173,7 +1173,7 @@ the track.
 <a id="managing_styles"> </a>
 ## Managing Styles
 
-All Cytoscape Style settings are initially loaded from a default file
+All Cytoscape style settings are initially loaded from a default file
 that cannot be altered by users. When users make changes to the
 properties, a `session_syle.xml` file is saved in the session file. This
 means that if you save your session, you will not lose your properties.
@@ -1203,8 +1203,8 @@ started.
 <a id="style_file_formats"> </a>
 #### Style File Formats
 
-The Cytoscape-native Style format is *Style XML*. If you want to share
-Style files with other Cytoscape users, you need to export them to this
+The Cytoscape-native style format is *Style XML*. If you want to share
+style files with other Cytoscape users, you need to export them to this
 format.
 
 From version 3.1.0 on, Cytoscape can also export
@@ -1223,7 +1223,7 @@ properties are not supported by the exporter:
 -   Network Background (Note: This can be set manually as standard CSS
     in Cytoscape.js)
 
-The Continuous-Discrete Editor is used to create mappings from numerical
+The **Continuous-Discrete Editor** is used to create mappings from numerical
 data values to discrete properties, such as fonts, shapes, or line
 styles. To edit a value for a specific region, double-click on the icon
 on the track.
