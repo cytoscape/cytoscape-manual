@@ -25,7 +25,7 @@ formats:
 -   [Cytoscape.js
     JSON](http://cytoscape.github.io/cytoscape.js/#notation/elements-json)
     
--   [Cytoscape CX](https://github.com/CyComponent/CyWiki)    
+-   [Cytoscape CX](https://github.com/CyComponent/CyWiki/blob/master/docs/CX/CX.md)    
 
 The SIF format specifies nodes and interactions only, while other
 formats store additional information about network layout and allow
@@ -93,7 +93,7 @@ defined in SIF format, node names should be unique, as identically named
 nodes will be treated as identical nodes. The name of each node will be
 the name in this file by default (unless another string is mapped to
 display on the node using styles). This is discussed in the section on
-**[Styles](Styles.html#styles)**.
+**[Styles](Styles.html)**.
 The name of each edge will be formed from the name of the source and
 target nodes plus the interaction type: for example,
 `sourceName (edgeType) targetName`.
@@ -229,7 +229,7 @@ In contrast to SIF, GML is a rich graph format language supported by
 many other network visualization packages. The GML file format
 specification is available at:
 
-[https://www.fim.uni-passau.de/fileadmin/files/lehrstuhl/brandenburg/projekte/gml/gml-technical-report.pdf](https://www.fim.uni-passau.de/fileadmin/files/lehrstuhl/brandenburg/projekte/gml/gml-technical-report.pdf)
+[https://http://www.graphviewer.nl/misc/gmllanguage/gml-technical-report.pdf](http://www.graphviewer.nl/misc/gmllanguage/gml-technical-report.pdf)
 
 It is generally not necessary to modify the content of a GML file
 directly. Once a network is built in SIF format and then laid out, the
