@@ -166,7 +166,7 @@ It also provides the control of other view-related functionality.
 The **Select** menu contains different options for selecting nodes and
 edges.
 
-![](_static/images/Quick_Tour/SelectMenu37.png)
+![](_static/images/Quick_Tour/SelectMenu.png)
 
 <a id="layout"> </a>
 ### Layout
