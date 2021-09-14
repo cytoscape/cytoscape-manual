@@ -29,7 +29,7 @@ In order to load a network from a local file you can select **File →
 Import → Network from File...** or click on
 ![](_static/images/Creating_Networks/Cy3_icon_net_file_import.png)
 on the tool bar. Choose the correct file in the file chooser dialog and
-press Open. Some sample network files of different types have been
+press **Open**. Some sample network files of different types have been
 included in the sampleData folder in Cytoscape.
 
 After you choose a network file, another dialog will pop up. Here, you
@@ -40,8 +40,9 @@ to map the new network to the existing network collection.
 
 ![](_static/images/Creating_Networks/ImportNetwork.png)
 
-Alternatively, you can simply drag and drop a network file from the desktop into the _Network_ list 
-(**Control Panel**), rather than selecting the file from the menu option.
+Alternatively, you can simply drag and drop a network file from the desktop 
+into the **Network** tab of the **Control Panel**, rather than selecting the 
+file from the menu option.
 
 Network files in SIF, GML, and XGMML formats may also be loaded directly
 from the command line using the -N option.
@@ -63,7 +64,7 @@ the OK button to load the network.
 
 For network files stored in cloud storage, the default URL does not 
 always work in Cytoscape and requires transformation before it can be used. 
-Here are examples of transofrmation of the default URL for some common cloud storage options:
+Here are examples of transformation of the default URL for some common cloud storage options:
 
 #### Dropbox ####
 
@@ -114,7 +115,7 @@ interaction type. For detailed instructions, see Basic Operations below.
 ![](_static/images/Creating_Networks/ImportNetworkDialog2.png)
 
 <a id="supported_files"> </a>
-### Supported Files
+### Supported File Types
 
 The import function supports delimited text files
 and Microsoft Excel Workbooks. For Excel Workbooks with multiple sheets,
@@ -160,9 +161,9 @@ This function is useful when importing a data table like the following
 
 This data file is a tab-delimited text file and contains network data
 (interactions), edge data, and node data. To import network and edge
-data from this table, choose Unique ID A as source, Unique ID B as
-target, and Interactor types as interaction type. Next, turn off columns
-used for node data (Alternative ID A, species B, etc.). Other columns
+data from this table, choose _Unique ID A_ as source, _Unique ID B_ as
+target, and _Interactor types_ as interaction type. Next, turn off columns
+used for node data (_Alt ID A_, _species B_, etc.). Other columns
 can be imported as edge data.
 
 The network import function cannot import node table columns - only edge
@@ -171,10 +172,9 @@ the **[Node and Edge Column
 Data](Node_and_Edge_Column_Data.html#node-and-edge-column-data)**
 section of this manual.
 
-Note (1): This data is taken from the *A merged human interactome*
+Note (1): This data was adapted from the *A merged human interactome*
 datasets by Andrew Garrow, Yeyejide Adeleye and Guy Warner (Unilever,
-Safety and Environmental Assurance Center, 12 October 2006). Actual data
-files are available at [http://wiki.cytoscape.org/Data_Sets/](http://wiki.cytoscape.org/Data_Sets/).
+Safety and Environmental Assurance Center, 12 October 2006).
 
 ### Basic Operations
 
@@ -187,8 +187,8 @@ To import network from text/Excel tables, please follow these steps:
 2.  Select a table file in the file chooser dialog.
 
 3.  Define the interaction parameters by specifying which columns of
-    data contain the Source Interaction, Target Interaction, and
-    Interaction Type. Clicking on on the arrow to the right of any column header will bring up the
+    data contain the _Source Interaction_, _Target Interaction_, and
+    _Interaction Type_. Clicking on on the arrow to the right of any column header will bring up the
     interface for selecting source, interaction and target:
 
     ![](_static/images/Creating_Networks/ImportNetworkDialogDetails.png)
@@ -206,7 +206,7 @@ To import network from text/Excel tables, please follow these steps:
         column name and data type in the column editor. For more detail,
         see **Modify Column Name/Type** below.
 
-5.  Click the OK button.
+5.  Click the **OK** button.
 
 #### Import List of Nodes Without Edges
 
@@ -226,20 +226,20 @@ for more detail.
 You can select several options by clicking the **Advanced Options**
 button in the main import interface.
 
--   Delimiter: You can select multiple delimiters for text tables. By
-    default, Tab and Space are selected as delimiters.
+-   **Delimiter**: You can select multiple delimiters for text tables. By
+    default, _Tab_ and _Space_ are selected as delimiters.
     
--   Default Interaction
+-   **Default Interaction**
 
--   Transfer first line as column names: Selecting this option will
+-   **Transfer first line as column names**: Selecting this option will
     cause all edge columns to be named according to the first data entry
     in that column.
 
--   Start Import Row: Set which row of the table to begin importing
+-   **Start Import Row**: Set which row of the table to begin importing
     data from. For example, if you want to skip the first 3 rows in the
     file, set 4 for this option.
 
--   Ignore lines starting with: Rows starting with this character will
+-   **Ignore lines starting with**: Rows starting with this character will
     not be imported. This option can be used to skip comment lines in
     text files.
 
@@ -253,9 +253,9 @@ and data type of column by clicking on any column header:
 
 Column names and data types can be modified here.
 
--   Modify Column Name - just enter a new column name.
+-   **Modify Column Name** - type in a new column name.
 
--   Modify Column Data Type - The following column data types are
+-   **Modify Column Data Type** - The following column data types are
     supported:
 
     -   String
@@ -327,7 +327,7 @@ using this framework. Cytoscape supports many web services including:
 
 -   Click **Enter** to start the search.
 
--   The CyNDEx-2 **FInd Networks** dialog window will open and show the search results
+-   The CyNDEx-2 **Find Networks** dialog window will open and show the search results
 
 -   By default, results are returned in order of relevance based on the search terms you provided; you can change the sorting criteria by clicking on the column headers.
 
@@ -409,7 +409,7 @@ The appearance and behavior of grouped nodes depends on the [group settings](Cyt
 
 [Annotations](Annotations.html) in the form of text, images or shapes can be added to the
 network canvas by right-clicking anywhere on the canvas and selecting
-one of the Annotation choices in the **Add** menu. You can add an image
+one of the **Annotation** choices in the **Add** menu. You can add an image
 of your own, choose from a shapes library or add either plain or bounded
 text. Shapes and text are customizable and any added annotations can be
 edited from the right-click context menu.
