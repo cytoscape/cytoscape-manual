@@ -61,7 +61,7 @@ regardless of which **Selection Mode** for mouse click or drag-selection.
 <tr> <td td class="alt"><b>Cmd-Option-N</b></td>   <td class="alt">Select Nodes by Selected Edges</td> 
 </tbody>
 </table>
-
+<br>
 **Select → Mouse Drag Selects** includes the same options for **Selection Mode** 
 for mouse click or drag-selection as the current **Selection Mode** in the [Network
     View Tools](Quick_Tour_of_Cytoscape.html#the-network-overview-window).
@@ -191,7 +191,7 @@ values. Depending on the column data type a variety of matching options are prov
     - **is not**: Selects values that are outside the range.
 
     ![](_static/images/Filters/column-numeric.png)
-
+    <br>
 
 - **String Columns**
   - The text entered in the text box will be matched against the column values 
@@ -210,7 +210,7 @@ values. Depending on the column data type a variety of matching options are prov
     following regular expression: "(?-i)ABC".
 
     ![](_static/images/Filters/column-string.png)
-
+<br>
 
 - **Boolean Columns**
   - Boolean colums can only contain three values: true, false or blank.
@@ -219,7 +219,7 @@ values. Depending on the column data type a variety of matching options are prov
     - **false**: Selects values that are false.
 
     ![](_static/images/Filters/column-boolean.png)
-
+<br>
 
 - **List Columns**
   - Column filters for list columns are similar to their non-list counterparts, however
@@ -395,7 +395,7 @@ It then produces a list of nodes ranked by the heat they accumulated. A node wit
 ranking, and an isolated node will tend to have low rank (and thus be excluded from the resulting node set).
 
 By default, Diffusion uses the set of selected nodes as the heat sources, with each node having the same initial heat. At the end of a Diffusion, Cytoscape leaves the top 90th percentile of hot nodes selected. It allows you to use the Results panel to select a higher or 
-lower percentile dynamically. It also stores the node's initial heat as a node attribute in the "diffusion_input" column, and returns the heat and ranking values in the "diffusion_output_heat" and "diffusion_output_rank" columns.
+lower percentile dynamically. It also stores the node's initial heat as a node attribute in the _diffusion_input_ column, and returns the heat and ranking values in the _diffusion_output_heat_ and _diffusion_output_rank_ columns.
 
 An advanced Diffusion option allows you to specify initial heat values for each node via its "diffusion_input" attribute.
 
@@ -405,4 +405,4 @@ This figure shows the result of selecting the PHO4, GCR1 and ICL1 genes (via the
 
 To select more than 33 nodes, move the **Node Rank** slider in the Diffusion Output Results Panel to the right or enter a number greater than 33 in the **Current Rank** field. You can also select nodes using a heat value cutoff by using the **Range Column** to select a column containing heat values. Finally, you can use the **Visual Style** chooser and **Create** button to extract the selected nodes into a new network.
 
-You can execute Diffusion multiple times on a network, thereby creating multiple heat, output_heat and output_rank columns.
+You can execute Diffusion multiple times on a network, thereby creating multiple _heat_, _output_heat_ and _output_rank_ columns.

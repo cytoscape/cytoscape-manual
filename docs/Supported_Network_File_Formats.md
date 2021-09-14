@@ -293,7 +293,7 @@ delimited text files. The tables in these files can have network data
 and edge columns. Users can specify columns containg source nodes,
 target nodes, interaction types, and edge columns during file import.
 Some of the other network analysis tools, such as igraph
-([http://cneurocvs.rmki.kfki.hu/igraph/](http://cneurocvs.rmki.kfki.hu/igraph/)), has feature to export graph
+([https://igraph.org/](https://igraph.org/)), has feature to export graph
 as simple text files. Cytoscape can read these text files and build
 networks from them. For more detail, please read the Import Free-Format
 Tables section of the **[Creating
