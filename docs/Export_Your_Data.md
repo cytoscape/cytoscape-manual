@@ -88,7 +88,7 @@ A shortcut button for **Export Table to File...** is also available in the **Tab
 
 ![](_static/images/Export/styles_export_dialog.png)
 
-The **Styles** option is used to export one or more visual styles available in the current Cytoscape session. Supported formats include Style XML (which can be imported by 3.x versions of Cytoscape) or Cytoscape.js JSON (which can be used with Cytoscape.js, described in future sections).
+The **Styles** option is used to export one or more styles available in the current Cytoscape session. Supported formats include Style XML (which can be imported by 3.x versions of Cytoscape) or Cytoscape.js JSON (which can be used with Cytoscape.js, described in future sections).
 
 Style export has three options - the export format (as described above), the style(s) to export, and the file name (a suggestion will be made based on the current directory and file type). As in Network → Table, the suggested file name can be changed using the Browse button or the text field. The list of styles is a multiple-selection list - one or more can be selected using Ctrl/Cmd-click (to select multiple discontiguous elements) or Shift-click (to select a contiguous element range). Press **OK** to export all selected styles with the given file path.
 
@@ -174,18 +174,18 @@ Japanese**. To avoid corrupted texts in the exported images, please
 uncheck this option when you publish networks including those
 non-English characters.
 
-<a id="as_an_interactive_web_application_new_in_3.2.0"> </a>
-### As an Interactive Web Application (New in 3.2.0)
+<a id="as_an_interactive_web_application"> </a>
+### As an Interactive Web Application
 
 The Web is an excellent platform for data sharing and collaboration, and
-Cytoscape provides a number of ways to publish your network on the web,
+Cytoscape (as of version 3.2.0) provides a number of ways to publish your network on the web,
 with each choice representing tradeoffs between ease, simplicity, and
 customization options. All solutions leverage the cytoscape.js drawing
 library, and so enable not only viewing but also Cytoscape-style
 interactive browsing of networks and attributes.
 
 The simplest choice is
-[CyNetShare](Publish_Your_Data.html#sharing-via-cynetshare),
+[CyNetShare](Export_Your_Data.html#sharing-via-cynetshare),
 where you save your network (and optionally a style) on a public file
 system, then interactively view the network in a browser. Like Google
 Maps, you can generate and publish a URL that allows collaborators to
@@ -201,7 +201,7 @@ customization by
 [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 programmers.
 
-These features are available as Export menu items under the File menu,
+These features are available as **Export** menu items under the **File** menu,
 and are described in sections below.
 
 For example, here is a network in Cytoscape:
@@ -227,7 +227,7 @@ information, see the **Export Styles to Cytoscape.js** section below.
 [CyNetShare](http://idekerlab.github.io/cy-net-share/)
 is a browser-based web application that renders JSON-formatted networks
 and attributes saved in public directories. Optionally, you can specify
-visual styles that the web application will use to draw your network as
+styles that the web application will use to draw your network as
 it appears in Cytoscape.
 [CyNetShare](http://idekerlab.github.io/cy-net-share/)
 is similar to Google Maps in that once you have loaded your network and
@@ -260,13 +260,9 @@ To use
 
 7.  Click the **Visualize** button.
 
-The
+The CyNetShare User Guide is provided on the
 [CyNetShare](http://idekerlab.github.io/cy-net-share/)
-User Guide is provided on the
-[CyNetShare](http://idekerlab.github.io/cy-net-share/)
-web page:
-
--   [CyNetShare](http://idekerlab.github.io/cy-net-share/)
+web page.
 
 Note that if you specify a style URL, the style is added to the list of
 styles available in
@@ -338,7 +334,7 @@ browser on PCs and tablets.
 ![](_static/images/Export/web_export_full.png)
 
 To generate an entire web page for all networks in the session as a zip
-archive, select **File → Export as Web Page...**. The following dialog
+archive, select **File → Export → Network to Web Page...**. The following dialog
 will appear:
 
 ![](_static/images/Export/web_export_full_dialog.png)
@@ -348,7 +344,7 @@ web export (full, simple network view, or JSON). For full web application,
 we use the default. The file name is suggested based on the name of the
 selected table with the path defaulting to the current working directory.
 As in raw data export, the suggested file name can be changed using the
-Browse button or the text field. Press **OK** to export a web archive with 
+**Browse** button or the text field. Press **OK** to export a web archive with 
 the given file name.
 
 To view the web page, unzip the archive into a folder on your PC or web
