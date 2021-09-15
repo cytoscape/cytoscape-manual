@@ -73,7 +73,7 @@ options.
 <a id="Unattended Installation"> </a>
 #### Unattended Installation
 
-The easiest and most common way to install Cytoscape is by executing an [automatic installation package](Launching_Cytoscape.html#downloading_and_installing) downloaded from the Cytoscape web site. This will bring up a wizard that will lead you through the process, presenting choices for the installation directory, license agreement, file associations and privacy settings. 
+The easiest and most common way to install Cytoscape is by executing an [automatic installation package](https://cytoscape.org/download.html) downloaded from the Cytoscape web site. This will bring up a wizard that will lead you through the process, presenting choices for the installation directory, license agreement, file associations and privacy settings. 
 
 The installation process can be automated and made silent by executing the installation package with the "-q" command parameter (e.g., "Cytoscape_3_8_0-RC1_windows_64bit.exe -q") from a command line or script. For this to succeed, your execution environment must already have sufficient privileges to install software (e.g., for Windows: administrator priveleges). With a "-q" parameter, the installation package will automatically choose all default settings. 
 
@@ -185,9 +185,9 @@ contains one option per line, with each line terminated by a linefeed,
 and an extra linefeed at the end of the file. Note that for the MacOS
 platform, the situation is slightly different -- if you are launching
 Cytoscape by clicking on the Cytoscape icon, you must edit the
-.../Cytoscape.app/Contents/vmoptions.txt file instead. To access this in
+_.../Cytoscape.app/Contents/vmoptions.txt_ file instead. To access this in
 Finder, you will need to right-click the Cytoscape app icon and select
-"Show Package Contents", which will display the Contents subdirectory
+**Show Package Contents**, which will display the Contents subdirectory
 that contains vmoptions.txt.
 
 For example, if you want Cytoscape to initially allocate 2GB of memory
@@ -209,5 +209,5 @@ of memory* error. To avoid this, you can set a larger heap size for
 Cytoscape tasks by using the ***taskStackSize*** option in the
 `cytoscape3.props` file (located in the `CytoscapeConfiguration`
 directory). This can be edited within Cytoscape using the Preferences
-Editor (**Edit → Preferences → Properties...***) - look for taskStackSize. The
+Editor (**Edit → Preferences → Properties...**) - look for taskStackSize. The
 value should be specified in bytes.

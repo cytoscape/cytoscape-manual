@@ -148,7 +148,7 @@ The NNF format is a very simple format that unlike SIF allows the
 optional assignment of single nested network per node. No other node
 columns can be specified. There are only 2 possible line formats:
 
--   A node "node" contained in a "network:"
+-   A node _node_ contained in a _network_:
 
 `network node`
 
@@ -528,11 +528,11 @@ CX is an Aspect-Oriented Network Interchange Format, where the base information 
 </table>
 <br>
 
-The “nodes” aspect contains only the identifiers of the network's nodes, The "edges" aspect contains identifiers for each edge along with the identifiers of the nodes the edge connects. The "networkAttributes" aspect contains name-value pairs describing the network. The "nodeAttributes" and "edgeAttributes" aspects contain name-value pairs attached to specifically identified nodes and edges.
+The **nodes** aspect contains only the identifiers of the network's nodes, The **edges** aspect contains identifiers for each edge along with the identifiers of the nodes the edge connects. The **networkAttributes** aspect contains name-value pairs describing the network. The **nodeAttributes** and "edgeAttributes" aspects contain name-value pairs attached to specifically identified nodes and edges.
 
 Critically, applications are free to add and maintain their own aspects without coordinating or negotiating with disinterested applications.
 
-As an illustration using the picture below, a three node network can be described as a list of nodes ("nodes Aspect") and edges that link them ("edges Aspect"). If the network has been laid out, a separate aspect ("cartesianLayout Aspect") can describe the position of each node. More concretely, a CX encoding would have three nodes in the "nodes Aspect", each with unique IDs. The "edges Aspect" references each node by ID, with each edge having its own ID. Finally, the "cartesianLayout Aspect" ties coordinates to nodes by ID. In fact, a network may have many aspects, describing node and edge attributes, subnetworks, visual properties, groups and so on.
+As an illustration using the picture below, a three node network can be described as a list of nodes (**nodes** aspect) and edges that link them (**edges** aspect). If the network has been laid out, a separate aspect (**cartesianLayout** aspect) can describe the position of each node. More concretely, a CX encoding would have three nodes in the **nodes** aspect, each with unique IDs. The **edges** aspect references each node by ID, with each edge having its own ID. Finally, the **cartesianLayout** aspect ties coordinates to nodes by ID. In fact, a network may have many aspects, describing node and edge attributes, subnetworks, visual properties, groups and so on.
 
 ![](_static/images/Network_Formats/cx_example.png)
 

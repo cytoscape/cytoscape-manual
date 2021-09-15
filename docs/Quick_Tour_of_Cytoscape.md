@@ -192,7 +192,7 @@ apps.
 
 ![](_static/images/Quick_Tour/AppsMenu.png)
 
-**Note: A list of available Cytoscape apps with descriptions is available online at: [http://apps.cytoscape.org](http://apps.cytoscape.org)**
+**Note**: A list of available Cytoscape apps with descriptions is available online at: [http://apps.cytoscape.org](http://apps.cytoscape.org).
 
 In previous versions of Cytoscape, apps were called plugins and served a
 similar function.
@@ -237,7 +237,7 @@ An example where a number of networks have been loaded is shown below:
 
 ![](_static/images/Quick_Tour/MultipleNetworkView.png)
 
-The network manager (in Control Panel) shows the networks that are
+The network manager (in the **Control Panel**) shows the networks that are
 loaded. Clicking on a network here will make that view active in the
 main window, if the view exists. Each network has a name and size
 (number of nodes and edges), which are shown in the network manager. If
@@ -246,7 +246,7 @@ file.
 
 Some networks are very large (thousands of nodes and edges) and can take
 a long time to display. For this reason, a network in Cytoscape may not
-contain a "view". Networks that have a view are in normal black font and
+contain a view. Networks that have a view are in normal black font and
 networks that don't have a view are highlighted in red. You can create
 or destroy a view for a network by right-clicking the network name in
 the network manager or by choosing the appropriate option in the
@@ -308,6 +308,6 @@ At the bottom of the Network View Window is a set of network tools:
 
 -   **Hide Navigator** lets you hide the Navigator ("bird's eye view").
 
-The **Navigator** (or "bird's eye view") shows an overview of the network. It can be used to navigate around a large network view. The blue rectangle indicates the portion of the network currently displayed in the network view window, and it can be dragged with the mouse to view other portions of the network. Zooming in will cause the rectangle to appear smaller and vice versa. 
+The **Navigator** (or bird's eye view) shows an overview of the network. It can be used to navigate around a large network view. The blue rectangle indicates the portion of the network currently displayed in the network view window, and it can be dragged with the mouse to view other portions of the network. Zooming in will cause the rectangle to appear smaller and vice versa. 
 
 ![](_static/images/Quick_Tour/NetworkOverview.png)

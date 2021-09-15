@@ -5,7 +5,7 @@
 Cytoscape recognizes a number of optional command line arguments,
 including run-time specification of network files, node and edge data
 files, and session files. This is the output generated when Cytoscape is
-executed with the "-h" or "--help" flag:
+executed with the _-h_ or _--help_ flag:
 
     usage: cytoscape.{sh|bat} [OPTIONS]
      -h,--help             Print this message.

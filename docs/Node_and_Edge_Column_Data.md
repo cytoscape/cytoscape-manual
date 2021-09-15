@@ -125,7 +125,7 @@ reversed, though the nodes involved are the same).
 Each data column is stored in a separate file. Node and edge data files
 use the same format, and have the suffix ".attrs".
 
-Node and edge data may be loaded via the **File → Import → Table** menu,
+Node and edge data may be loaded via the **File → Import → Table** menu options,
 just as data table files are.
 
 When expression data is loaded using an expression matrix, it is

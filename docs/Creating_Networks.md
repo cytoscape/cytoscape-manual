@@ -45,7 +45,7 @@ into the **Network** tab of the **Control Panel**, rather than selecting the
 file from the menu option.
 
 Network files in SIF, GML, and XGMML formats may also be loaded directly
-from the command line using the -N option.
+from the command line using the _-N_ option.
 
 <a id="load_networks_from_a_remote_computer_url_import"> </a>
 ### Load Networks from a Remote Computer (URL import)
@@ -82,7 +82,7 @@ For files smaller than 100K:
 **Instructions**: Replace `file/d/` with `uc?export=download&id=` AND remove `/view?usp=sharing`
 
 You may see an intermediate import window, described in the section below, where you may need to change the delimiter and define source, target and interaction.
-For this particular example, in **Advanced** change the **Delimiter** to Space, unselect **Use first line as column names** and set the first column as Source, the third column as Target and the second column as Interaction Type.
+For this particular example, in **Advanced** change the **Delimiter** to **Space**, unselect **Use first line as column names** and set the first column as **Source**, the third column as **Target** and the second column as **Interaction Type**.
 
 #### GitHub ####
 
@@ -187,8 +187,8 @@ To import network from text/Excel tables, please follow these steps:
 2.  Select a table file in the file chooser dialog.
 
 3.  Define the interaction parameters by specifying which columns of
-    data contain the _Source Interaction_, _Target Interaction_, and
-    _Interaction Type_. Clicking on on the arrow to the right of any column header will bring up the
+    data contain the **Source Interaction**, **Target Interaction**, and
+    **Interaction Type**. Clicking on on the arrow to the right of any column header will bring up the
     interface for selecting source, interaction and target:
 
     ![](_static/images/Creating_Networks/ImportNetworkDialogDetails.png)
@@ -331,13 +331,13 @@ using this framework. Cytoscape supports many web services including:
 
 -   By default, results are returned in order of relevance based on the search terms you provided; you can change the sorting criteria by clicking on the column headers.
 
--   Mark the **My Networks** checkbox at the top of the results table to only display the results that you own (you must have an NDEx account and a profile associated to the CyNDEx Browser... see the section [**Export** options](Export_Your_Data.html#export_ndex) for more details). 
+-   Mark the **My Networks** checkbox at the top of the results table to only display the results that you own (you must have an NDEx account and a profile associated to the CyNDEx Browser... see the section [Export options](Export_Your_Data.html#export_ndex) for more details). 
 
 -   Click the **Black Arrow Icon** on the left hand side of a network to import it into Cytoscape and visualize it. When you have finished loading networks, dismiss the dialog window by clicking the **Close Dialog** button.
 
 ![](_static/images/Creating_Networks/ndex_find_networks.png)
 
-You can also find a network via its UUID by using the *uuid:* selector in your search (e.g., uuid:50e3dff7-133e-11e6-a039-06603eb7f303)
+You can also find a network via its UUID by using the *uuid:* selector in your search (e.g., **uuid:50e3dff7-133e-11e6-a039-06603eb7f303**)
 
 CyNDEx-2, like NDEx,  uses standard [Lucene Syntax](http://www.google.com/url?q=http%3A%2F%2Flucene.apache.org%2Fcore%2F2_9_4%2Fqueryparsersyntax.html&sa=D&sntz=1&usg=AFQjCNET2XPlP7UAXyTDJzAoMf1zsv0Ccw) as its network search language. For additional information, see [Searching Networks in NDEx](http://home.ndexbio.org/finding-and-querying-networks/). More information about CyNDEx-2, see the [CyNDEx-2 App Store](http://apps.cytoscape.org/apps/cyndex2) page.
 
