@@ -32,7 +32,7 @@ have the **Install Apps** tab selected.
 There are four ways you can find apps:
 
 -   If you know the name of an app you're looking for, enter it in the
-    **Search** field. The App Manager will list the apps whose names or
+    **Search** field. The **App Manager** will list the apps whose names or
     descriptions match the **Search** field in the middle panel.
 
 -   If you're not sure what sort of app you need and want to see everything,
@@ -50,7 +50,7 @@ There are four ways you can find apps:
     middle pane.
 
 When you click on an app (or collection) in the middle panel, the 
-App Manager shows its short description and icon in the right panel. 
+**App Manager** shows its short description and icon in the right panel. 
 If you want more information, click the **View on App Store** 
 button on the bottom-right. If you want to go ahead and install, 
 click the **Install** button.

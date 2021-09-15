@@ -154,7 +154,7 @@ can be found
 ### View
 
 The **View** menu allows you to display or hide panels, including the **Control Panel**,
-**Table Panel**, **Result Panel**, **Tool Panel** and the **Automation Panel**. In addition, it
+**Table Panel**, **Result Panel**, **Tool Panel** and the **Command Panel**. In addition, it
 also provides a means for viewing the **Starter Panel**. 
 It also provides the control of other view-related functionality.
 

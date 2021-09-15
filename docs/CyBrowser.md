@@ -6,21 +6,21 @@ web sites from within Cytoscape.  It is also used by Cytoscape apps,
 link outs, displaying the user manual, and displaying interactive
 tutorials.  Typically the browser is activated automatically, but you
 can bring up a browser window yourself by using
-**Tools → Cytoscape Web Browser**, or clicking on the 
+**Tools → Open web page**, or clicking on the **Cytoscape Web Browser**
 ![](_static/images/CyBrowser/WebIcon.png)
 icon in the tool bar.
 
-The initial CyBrowser dialog provides a field to type in a web site address
+The initial **Cytoscape Web Browser** dialog provides a field to type in a web site address
 and a checkbox to indicate whether the browser window should be opened in
 the <a href="#cybrowser_results">Cytoscape Results Panel</a>.
 
 ![](_static/images/CyBrowser/CyBrowserDialog.png)
 
-## CyBrowser Window
+## Cytoscape Web Browser Window
 
 ![](_static/images/CyBrowser/CyBrowser.png)
 
-The main CyBrowser window provides a very rudimentary browsing interface, with
+The main **Cytoscape Web Browser** window provides a very rudimentary browsing interface, with
 forward/back buttons, a text field to enter a new URL, and a **Go** button to 
 move to the new page.  In addition, there three context menus:
 1. **Selected text**
@@ -40,20 +40,20 @@ move to the new page.  In addition, there three context menus:
 ![](_static/images/CyBrowser/RightClick.png)
    
 <a id="cybrowser_results"></a>
-## CyBrowser in Results Panel
+## Cytoscape Web Browser in Results Panel
 
 ![](_static/images/CyBrowser/CyBrowserResults.png)
 
 In addition to being able to open web pages as a separate window, a web page may
-also be opened in the results panel.  This provides many of the same functions as the browser
+also be opened in the results panel. This provides many of the same functions as the browser
 window except that the interface to go forward and backwards is gone, and you can't open 
 links in different tabs.
 
 <a id="cybrowser_why"></a>
-## Why CyBrowser?
+## Why Cytoscape Web Browser?
 
-CyBrowser is not a Chrome or Firefox replacement, but it provides a very quick way to view Cytoscape-specific
+**Cytoscape Web Browser** is not a Chrome or Firefox replacement, but it provides a very quick way to view Cytoscape-specific
 web pages and provides a level of integration with Cytoscape that is more difficult to provide in all of
-the various browsers provided by all of the platforms Cytoscape runs on.  In particular, CyBrowser supports
-special links that are actually just Cytoscape commands.  For javascript implementers, CyBrowser also provides
+the various browsers provided by all of the platforms Cytoscape runs on. In particular, **Cytoscape Web Browser** supports
+special links that are actually just Cytoscape commands. For javascript implementers, **Cytoscape Web Browser** also provides
 "hooks" to listen to node and edge selection in Cytoscape.

@@ -6,13 +6,13 @@ resources within Cytoscape. Right-clicking on a node or edge in
 Cytoscape opens a popup menu with a list of web links.
 
 By default, Cytoscape includes a number of links such as
-Entrez, SGD and Google, as well as a number of species-specific
+Entrez(NCBI), SGD and Google, as well as a number of species-specific
 links. In addition to the default links, users can customize the
 **External Links** menu and add (or remove) links by using the Cytoscape
 Preferences Editor (found under **Edit → Preferences → Properties...** 
-in the *linkout* group).
+in the **linkout** group).
 
-External links are listed as *'key'-'value'* pairs in the
+External links are listed as **key-value** pairs in the
 editor where *Property Name* specifies the name of the link and
 *Value* is the search URL. Linkout menus are organized in a
 hierarchical structure that is specified as part of the key. Linkout key terms
@@ -23,7 +23,7 @@ For example, the following entry:
 
     nodelinkouturl.Model Organism DB.SGD (yeast)=http://www.yeastgenome.org/cgi-bin/locus.fpl?locus=%ID%
 
-places the SGD link under the Model Organism DB submenu. This link will
+places the SGD link under the **Model Organism DB** submenu. This link will
 appear in Cytoscape as:
 
 ![](_static/images/Linkout/Figure1_linkout_Cy3.png)
@@ -38,7 +38,7 @@ protein is:
     http://www.yeastgenome.org/cgi-bin/locus.fpl?locus=YNL050C
 
 If you want to query based on a different column, you need to specify a
-different node label using Styles.
+different node label using **Styles**.
 
 For edges the mechanism is much the same; however here the placeholders
 **`%ID1%`** and **`%ID2%`** reflect the source and target node label
@@ -79,6 +79,6 @@ will add this menu item:
 ![](_static/images/Linkout/Figure3_linkout26.png)
 
 To remove a link from the menu, simply delete the property using **Edit
-→ Preferences → Properties...** and selecting *commandline*. Linkouts
+→ Preferences → Properties...** and selecting **commandline**. Linkouts
 added in the command line will be available for the running instance of
 Cytoscape.
