@@ -46,25 +46,27 @@ nodes are displayed as actual shape user specified in the Style.
 ### Force to Display Detail
 
 If you want to display every detail of the network at all times regardless of LOD
-values, you can toggle to full details mode by **View | Show Graphics
-Details (or CTR+SHIFT+D on Windows/Linux, Command+SHIFT+D for Mac)**.
+values, you can toggle to full details mode by **View → Always Show Graphics
+Details** (or CTR+SHIFT+D on Windows/Linux, Command+SHIFT+D for Mac), or click the 
+**Always Show Graphics
+Details** button ![](_static/images/Rendering_Engine/lod-button.png) in the **Network View Tools**.
 This option forces the display of all graphics details. If the network
 is large, this option slows down rendering speed. To hide details,
-select the menu item again (**View | Hide Graphics Details**).
+unselect the menu item (**View → Always Show Graphics Details**).
 
 
 <a id="parameters_for_controlling_lod"> </a>
 ### Parameters for Controlling LOD
 
 The default values used to determine level of detail
-can be changed by setting properties under **Edit | Preferences | Properties...**.
+can be changed by setting properties under **Edit → Preferences → Properties...**.
 
 **NOTE:** *The greater these thresholds become, the slower performance
 will become.* If you work with small networks (a few hundred nodes),
 this shouldn't be a problem, but for large networks it will produce
 noticeable slowing. The various thresholds are described below.
 
-**NOTE:** Since Cytoscape 3.8 interactivity will always be maintained
+**NOTE:** Since Cytoscape 3.9 interactivity will always be maintained
 even when a high level of detail is chosen. It is generally safe
 to increase the level of detail or to force full graphics details even
 for very large networks.

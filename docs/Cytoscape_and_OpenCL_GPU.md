@@ -63,7 +63,7 @@ Check console output for additional information.
 
 ### No OpenCL devices are available
 
-**Diagnosis and treament:** See [Setup and configuartion](#cytoscape_gpu_configuration) above.
+**Diagnosis and treament:** See [Setup and configuration](#cytoscape_gpu_configuration) above.
 
 ### The Cytoscape console says "Could not find OpenCL.dll"
 

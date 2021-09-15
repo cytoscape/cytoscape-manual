@@ -19,12 +19,13 @@ using Cytoscape.js and this new **Export to Cytoscape.js** feature.
 -   A network visualized with Cytoscape 3.1.0
 
     ![](_static/images/CytoscapeJs/sampleOriginal.png)
+    <br>
 
 -   Same network exported to Cytoscape.js (Rendered with Google Chrome
     and Cytoscape.js 2.0.3)
 
     ![](_static/images/CytoscapeJs/sampleExport.png)
-
+    <br>
 -   [Interactive example (galFiltered.sif rendered with
     Cytoscape.js 2.0.3)](http://chianti.ucsd.edu/~kono/dist/)
 
@@ -91,7 +92,7 @@ other standard files such as SIF.
 Cytoscape.js stores network data (graph) and its data table in the same
 object. Cytoscape writes such data complex as JSON, i.e., both network
 and data tables will be exported as a single JSON file. You can select a
-network and export it from **File | Export | Network**.
+network and export it from **File → Export → Network to File...** and select **Cytoscape.js JSON (*.cyjs)** as the file type.
 
 Cytoscape only supports one of the Cytoscape.js supported JSON formats,
 which is:
@@ -141,8 +142,8 @@ Cytoscape and Cytoscape.js are sharing a concept called **Style**. This
 is a collection of mappings from data point to network property.
 oCytoscape can export its Styles into CSS-based Cytoscape.js JSON.
 
-You can export *all Styles into one JSON file* from **File | Export |
-Styles** and select Cytoscape.js JSON as its format.
+You can export all styles into one JSON file from **File → Export → 
+Styles to File...** and select **Style for cytoscape.js (*json)** as its format.
 
 #### Limitations
 
@@ -168,7 +169,7 @@ Cytoscape.js JSON:
 #### Cytoscape.js and Cytoscape Compatibility 
 
 Cytoscape’s network rendering system is designed for desktop use, while the browser-based renderer 
-incorporates web technologies (e.g., cytoscape.js and Cascaded Style Sheets). As a result, most but 
+incorporates web technologies (e.g., cytoscape.js and Cascading Style Sheets). As a result, most but 
 not all networks will render the same in the browser as in Cytoscape. Cytoscape visual styles not 
 supported in the web browser are ignored. A complete compatibility list is available 
 [here](https://docs.google.com/spreadsheets/d/1iTDKGjro1-L7HGz1ftozqDKRxjQVSPF28jQLt7XGrSg/edit#gid=0).
@@ -178,7 +179,7 @@ supported in the web browser are ignored. A complete compatibility list is avail
 ### Import Cytoscape.js data into Cytoscape
 
 Cytoscape.js network JSON files can be loaded from standard Cytoscape
-file menu: **File | Import | Network ...**. Both File and URL are
+file menu: **File → Import → Network ...**. Both File and URL are
 supported.
 
 <a id="build_your_own_web_application_with_cytoscape_js"> </a>

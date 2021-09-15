@@ -21,11 +21,11 @@ The **Collection to NDEx** option saves all networks in the collection containin
 
 When you select either option, the CyNDEx-2 Browser dialog will appear and enable you to provide various **metadata** to annotate the network and make it findable in subsequent NDEx searches. You can set the name of your network by editing the **Network Name** attribute. The **Update Existing Network** option enables you to overwrite the existing copy of the network (if you have permission to do so). We recommend to provide as much metadata as possible, and always provide at least **Version** and **Description** attributes.
 
-To export your network, you must first associate your NDEx account credentials with the CyNDEx-2 Browser by filling out the profile form (red oval in screenshot below)
+To export your network, you must first associate your NDEx account credentials with the CyNDEx-2 Browser by filling out the profile form (red oval in screenshot below).
 
 ![](_static/images/Export/ndex_save1.png)
 
-Once the profile is created, you are allowed to export your network to NDEx
+Once the profile is created, you are allowed to export your network to NDEx.
 
 ![](_static/images/Export/ndex_save2.png)
 
@@ -33,7 +33,7 @@ Export commands have also been added to the network and collection context menus
 
 ![](_static/images/Export/ndex_context_menus.png)
 
-Finally, the NDEx button in the toolbar provides an additional convenient way to both Import and Export to NDEx
+Finally, the NDEx button in the toolbar provides an additional convenient way to both Import and Export to NDEx.
 
 ![](_static/images/Export/ndex_toolbar_button.png)
 
@@ -64,7 +64,7 @@ The default format is SIF, which is a simple tab-delimited network format that p
 node names and edge interactions only. You can choose the format using the dialog drop-down box.
 A file name is automatically suggested based on the network name and selected format, with the file path
 defaulting to the current working directory. You can change the suggested file name/path using the
-text box or Browse button. Press OK to export with the selected options.
+text box or Browse button. Press **OK** to export with the selected options.
 
 ### Table
 
@@ -79,7 +79,7 @@ The export dialog for **Table** has only two selectable options - the table to e
 and the file name (file type is always CSV). A file name is suggested based on the
 name of the selected table with the path defaulting to the current working directory.
 As in Network, the suggested file name can be changed using the Browse button or the
-text field. Press OK to export the selected table with the given file name.
+text field. Press **OK** to export the selected table with the given file name.
 
 A shortcut button for **Export Table to File...** is also available in the **Table Panel** 
 ![](_static/images/Columns/ExportTableButton.png).
@@ -90,7 +90,7 @@ A shortcut button for **Export Table to File...** is also available in the **Tab
 
 The **Styles** option is used to export one or more visual styles available in the current Cytoscape session. Supported formats include Style XML (which can be imported by 3.x versions of Cytoscape) or Cytoscape.js JSON (which can be used with Cytoscape.js, described in future sections).
 
-Style export has three options - the export format (as described above), the style(s) to export, and the file name (a suggestion will be made based on the current directory and file type). As in Network → Table, the suggested file name can be changed using the Browse button or the text field. The list of styles is a multiple-selection list - one or more can be selected using Ctrl/Cmd-click (to select multiple discontiguous elements) or Shift-click (to select a contiguous element range). Press OK to export all selected styles with the given file path.
+Style export has three options - the export format (as described above), the style(s) to export, and the file name (a suggestion will be made based on the current directory and file type). As in Network → Table, the suggested file name can be changed using the Browse button or the text field. The list of styles is a multiple-selection list - one or more can be selected using Ctrl/Cmd-click (to select multiple discontiguous elements) or Shift-click (to select a contiguous element range). Press **OK** to export all selected styles with the given file path.
 
 <a id="exporting_for_publication"> </a>
 ## Exporting for Publication
@@ -109,11 +109,11 @@ viewers. These are further explained below.
 
 -   An interactive web application
 
-    -   [CyNetShare](http://idekerlab.github.io/cy-net-share/)
+-   [CyNetShare](http://idekerlab.github.io/cy-net-share/)
 
-    -   Full web application
+-   Full web application
 
-    -   Simple network view (for web application developers)
+-   Simple network view (for web application developers)
 
 <a id="as_an_ndex_network"> </a>
 ### As an NDEx Network
@@ -125,7 +125,7 @@ NDEx also has additional options that enable you to:
 -   request a **DOI** suitable for use in publications, grant applications or progress reports
 -   create working **groups** and specific sharing within NDEx.
 -   run different types of **queries** on your networks
--   perform **enrichment analysis** on a variety of datasets, including curated pathways, large interactomes, drug-target           association networks and many more.
+-   perform **enrichment analysis** on a variety of datasets, including curated pathways, large interactomes, drug-target association networks and many more.
 
 For more information on NDEx publishing and sharing features, see the [Publishing in NDEx](http://home.ndexbio.org/publishing-in-ndex/) and [Sharing Networks in NDEx](http://home.ndexbio.org/obtaining-and-granting-access-to-a-network/) manuals.
 
@@ -159,7 +159,7 @@ export the current network view into the following formats:
 
 -   PDF
 
-The image export dialog has a variable number of options based on the file format selected, with file type and file name always being selectable. PNG and JPEG have options for scaling, while other formats only have a single option, Export Text as Font. The file name is suggested based on the name of the selected table with the path defaulting to the current working directory. As in raw data export, the suggested file name can be changed using the Browse button or the text field. Press OK to export an image with the given file name and parameters.
+The image export dialog has a variable number of options based on the file format selected, with file type and file name always being selectable. PNG and JPEG have options for scaling, while other formats only have a single option, **Export Text as Font**. The file name is suggested based on the name of the selected table with the path defaulting to the current working directory. As in raw data export, the suggested file name can be changed using the **Browse** button or the text field. Press **OK** to export an image with the given file name and parameters.
 
 We recommend using **PDF** for publications because it is a standard
 vector graphics format, and it is easy to edit in other applications
@@ -254,7 +254,7 @@ To use
 
 4.  Start [CyNetShare](http://idekerlab.github.io/cy-net-share/)
 
-5.  Enter the network's URL as the Graph URL.
+5.  Enter the network's URL as the **Graph URL**.
 
 6.  Optionally, enter the style's URL.
 
@@ -348,7 +348,7 @@ web export (full, simple network view, or JSON). For full web application,
 we use the default. The file name is suggested based on the name of the
 selected table with the path defaulting to the current working directory.
 As in raw data export, the suggested file name can be changed using the
-Browse button or the text field. Press OK to export a web archive with 
+Browse button or the text field. Press **OK** to export a web archive with 
 the given file name.
 
 To view the web page, unzip the archive into a folder on your PC or web
@@ -374,7 +374,7 @@ or Apple Safari.
 <a id="generating_a_simple_network_view_for_web_application_developers"> </a>
 #### Generating a Simple Network View (For Web Application Developers)
 
-The Simple Network View export option is designed for users who want to
+The **Simple Network View** export option is designed for users who want to
 publish their data as a complete [single-page
 application](http://en.wikipedia.org/wiki/Single-page_application), but
 are interested in customizing the web viewer application themselves.
@@ -388,22 +388,22 @@ custom viewer by customizing this code.
 
 To generate a web page for a single network view as a zip archive, select
 **File → Export as Web Page ...** as before, but this time choose the
-*Simple viewer for current network only* format as below:
+**Simple viewer for current network only** format as below:
 
 ![](_static/images/Export/web_export_simple_dialog.png)
 
 Everything else works as before, though this time the viewer will only
-include the current network. Press OK to proceed with the export.
+include the current network. Press **OK** to proceed with the export.
 
 For instructions on testing the customized web application, see
-*Generating a Full Web Application* above.
+**Generating a Full Web Application** above.
 
 <a id="extending_the_webpage_with_Cytoscape_JS_functionality"> </a>
 #### Extending the webpage with Cytoscape.JS functionality
 
 As of version 3.6.2 of the JSON Support core app in Cytoscape, the user
 may add custom [Cytoscape.JS events](http://js.cytoscape.org/#core/events)
-to the exported webpage.  In the web_session/scripts directory, a custom.js 
+to the exported webpage. In the web_session/scripts directory, a custom.js 
 file has been added with a designated spot for custom JS code.
 
 For example, to add linkouts to nodes in the webpage (i.e. opening a

@@ -19,27 +19,29 @@ If you are already using R or Python, then you're in luck! There are packages
 available in these languages filled with helper functions to make accessing and
 controlling Cytoscape quick and intuitive.
 
-The R package is called ***RCy3*** and is available via Bioconductor, see https://www.bioconductor.org/packages/release/bioc/html/RCy3.html. The RCy3 repo offers a nice interface for browsing the documentation
+The R package is called ***RCy3*** and is available via Bioconductor, see [https://www.bioconductor.org/packages/release/bioc/html/RCy3.html](https://www.bioconductor.org/packages/release/bioc/html/RCy3.html). The RCy3 repo offers a nice interface for browsing the documentation
 and available vignettes (see Articles menu): http://cytoscape.org/RCy3/index.html. There are also
 a collection of video tutorials on the [Cytoscape YouTube channel](https://www.youtube.com/playlist?list=PLFQS98nmv__wYlu_XoscNb6DKu_vo6_vH).
 
-The PyCy3 package is coming soon... It's predescessor is available [here](https://github.com/cytoscape/py2cytoscape).
+The PyCy3 package is called [py4cytoscape](https://github.com/cytoscape/py4cytoscape).
 
 <a id="commands"> </a>
 ## Commands
 The **Commands** feature allows you to script a sequence of Cytoscape commands
 and menu items, where commands can have parameter values that would
-normally be provided by a user via a Cytoscape dialog box. For example,
-*session open file="C:\\myfile.cys"* loads a session from a file
-similarly to the **File | Open** menu item. Commands may 
+normally be provided by a user via a Cytoscape dialog box. For example:
+
+`session open file="C:\\myfile.cys"` 
+
+loads a session from a file similarly to the **File → Open...** menu item. Commands may 
 resolve to Cytoscape core functions or automation-enabled apps installed in 
 Cytoscape. You can create a command
-script file that Cytoscape can execute via the **Tools | Execute Command
-File** menu item or on the Cytoscape command line at startup. 
+script file that Cytoscape can execute via the **Tools → Execute Command
+File...** menu item or on the Cytoscape command line at startup. 
 ![](_static/images/Command_Tool/AutomationPanel.png)
 
 ***Commands*** is the built-in Cytoscape feature to automate your
-workflow as simple script. You can learn more about Commands in the [Command Tool](Command_Tool.html#command-tool)
+workflow as simple script. You can learn more about Commands in the [Command Tool](Command_Tool.html)
 section.
 
 <a id="restful_api"> </a>
@@ -49,7 +51,7 @@ such as [R](http://www.r-project.org/), [Python](https://www.python.org/), [Ruby
 [JavaScript](https://en.wikipedia.org/wiki/JavaScript). Such languages enable complex Cytoscape-centric workflows or the integration of Cytoscape into larger workflows. Cytsocape enables progamatic access to both its Commands and Functions via its CyREST interface.
 
 By default, the CyREST interface is enabled and available on TCP/IP port 1234. To verify this, start a web browser on 
-your Cytoscape workstation and surf to either http://localhost:1234/v1/ or http://localhost:1234/v1/commands. The first form is a Function that returns basic Cytoscape information as a JSON object:
+your Cytoscape workstation and navigate to either **http://localhost:1234/v1/** or **http://localhost:1234/v1/commands**. The first form is a Function that returns basic Cytoscape information as a JSON object:
 
 ![](_static/images/ProgrammaticAccess/FunctionAPI.png)
     
@@ -70,7 +72,7 @@ If your workstation has port 1234 already in use, you can specify a different Cy
      ./cytoscape.sh -R 8888 (for Mac or Linux)
 ```
 
-You can test the new port by using your browser to surf to http://localhost:8888/v1/
+You can test the new port by using your browser to navigate to **http://localhost:8888/v1/**.
 
 Note that if you expect to run more than one instance of Cytsocape on a single workstation, the CyREST port must be unique for each Cytoscape instance. You must use either the property or command line parameter technique to execute each instance with a different CyREST port.
 
@@ -83,7 +85,7 @@ Cytoscape makes a list of available Commands and Functions available via the **H
 
 Notably, **Automation Examples** contains a tutorial that explains how to explore CyREST Commands and Functions: [https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation](https://github.com/cytoscape/cytoscape-automation/wiki/Trying-Automation).
 
-The **CyREST API** and **CyREST Command API** submenus document CyREST in a Swagger web application, which allows you to explore CyREST entrypoints by reading about them and invoking them directly (using a *Try it out!*) button. A sample page matching the http://localhost:1234/v1/ Function is:
+The **CyREST API** and **CyREST Command API** submenus document CyREST in a Swagger web application, which allows you to explore CyREST entrypoints by reading about them and invoking them directly (using a *Try it out!*) button. A sample page matching the **http://localhost:1234/v1/** a function is:
 
 ![](_static/images/ProgrammaticAccess/swagger.png)
 
