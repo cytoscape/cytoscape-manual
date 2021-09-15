@@ -84,15 +84,15 @@ details for a given style and is used to edit these details as well.
 -   At the top of the interface, there is a drop-down for selecting
     an pre-defined style. 
 -   The list of available styles is searchable using the search field. 
--   The **Show only applied style** button ![](_static/images/Styles/CurrentStyleButton.png) will filter the list to display only the applied style.
+-   The **Show only Applied Styles** button ![](_static/images/Styles/CurrentStyleButton.png) will filter the list to display only the applied style.
 -   The list of available styles can be edited by clicking the **Edit..** ![](_static/images/Styles/EditStylesButton.png). This will reveal a set of buttons for selecting and deleting styles.
 
 -   There is also an **Options** button ![](_static/images/Styles/OptionsButton.png) with
     options to rename, remove, create and copy a Style, and an option to
-    create a legend for the selected Style.
+    create a legend for the selected style.
 
 -   The main area of the interface is composed of four tabs, for **Node**,
-    **Edge** and **Network** properties, and a **Table**  tab for style options for the **Node Table**. 
+    **Edge** and **Network** properties, and a **Table** tab for style options for the **Node Table**. 
     Note that style selections for the **Node Table** are not saved as part of the current style.
 
 -   Each tab contains a list of properties relevant to the
@@ -628,7 +628,7 @@ features. Each tutorial is independent of the others.
 <a id="tutorial_1_creating_a_basic_style_and_setting_default_values"> </a>
 ### Tutorial 1: Creating a Basic Style and Setting Default Values
 
-The goal of this tutorial is to learn how to create a new Style and set
+The goal of this tutorial is to learn how to create a new style and set
 some default values.
 
 1.  **Load a sample network:** From the main menu, select **File →
@@ -674,7 +674,7 @@ demonstrates how to create a new style that has a discrete mapping. The
 goal is to draw protein-DNA interactions as dashed lines, and
 protein-protein interactions as solid lines.
 
-1.  **Find the property:** In the Edge tab of the Style panel, find the
+1.  **Find the property:** In the **Edge** tab of the **Style** panel, find the
     **Stroke Color (Unselected)** property. If it is not already visible
     in the properties sheet, add it by selecting the drop-down item
     **Properties → Paint → Color (Unselected) → Stroke
@@ -720,7 +720,7 @@ create a new style using a continuous mapping. The goal is to
 superimpose node statistics (in this example, node degree) onto a
 network and display it along a color gradient.
 
-1.  **Find the property:** In the Node tab of the Style panel, find the
+1.  **Find the property:** In the **Node** tab of the **Style** panel, find the
     **Fill Color** property. If it is not already visible in the
     properties sheet, add it by selecting the drop-down item
     **Properties → Paint → Fill Color**.
@@ -1203,7 +1203,7 @@ started.
 <a id="style_file_formats"> </a>
 #### Style File Formats
 
-The Cytoscape-native style format is *Style XML*. If you want to share
+The Cytoscape-native style format is **Style XML**. If you want to share
 style files with other Cytoscape users, you need to export them to this
 format.
 
