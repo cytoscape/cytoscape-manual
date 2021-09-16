@@ -26,8 +26,6 @@ using Cytoscape.js and this new **Export to Cytoscape.js** feature.
 
     ![](_static/images/CytoscapeJs/sampleExport.png)
     <br>
--   [Interactive example (galFiltered.sif rendered with
-    Cytoscape.js 2.0.3)](http://chianti.ucsd.edu/~kono/dist/)
 
 <a id="differences_and_shared_concepts"> </a>
 ### Differences and Shared Concepts

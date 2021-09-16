@@ -55,7 +55,7 @@ simply drag and drop the file from the desktop into the **Table Panel**, or clic
 
 4.  Depending on what you choose in the **Where to import Table Data**
     drop-down, you will need to select a network collection or
-    specific network. You will also need to select **Importing Type**,
+    specific network. You will also need to select **Import Data as**,
     that is whether the data is node, edge or network table columns.
 
 5.  If the table is not properly delimited in the preview panel, change
@@ -63,10 +63,11 @@ simply drag and drop the file from the desktop into the **Table Panel**, or clic
     delimiter is tab. This step is not necessary for Excel Workbooks.
 
 6.  By default, the first column is designated as the primary key, as 
-    designated by the key ![Key.png](_static/images/Columns/Key.png)
-    icon. To set another column as the key instead, click the arrow at 
-    next to the column title and select the key symbol. Make sure the 
-    column designated as key matches the key in the network.
+    designated by the key ![](_static/images/Columns/Key.png)
+    icon. Make sure the column designated as key matches what's selected 
+    under **Key Column for Network** (i.e. the key in the network. To set 
+    another column as the key instead, click the arrow at next to the column 
+    title and select the key symbol. 
     
 7.  Similarly, to change the data type of a column, for example from 
     integer to string, click the arrow next to the column title, and 
@@ -123,7 +124,7 @@ edge data values refer to two different edges (source and target are
 reversed, though the nodes involved are the same).
 
 Each data column is stored in a separate file. Node and edge data files
-use the same format, and have the suffix ".attrs".
+use the same format, and have the suffix _.attrs_.
 
 Node and edge data may be loaded via the **File → Import → Table** menu options,
 just as data table files are.
@@ -147,16 +148,16 @@ column. The format is as follows:
 
 The first field is always the column name: it cannot contain spaces. If
 present, the class field defines the name of the class of the data
-values. For example, java.lang.String or String for Strings,
-java.lang.Double or Double for floating point values, java.lang.Integer
-or Integer for integer values, etc. If the value is actually a list of
+values. For example, **java.lang.String** or **String** for strings,
+**java.lang.Double** or **Double** for floating point values, **java.lang.Integer**
+or **Integer** for integer values, etc. If the value is actually a list of
 values, the class should be the type of the objects in the list. If no
 class is specified in the header line, Cytoscape will attempt to guess
 the type from the first value. If the first value contains numbers in a
-floating point format, Cytoscape will assume java.lang.Double; if the
+floating point format, Cytoscape will assume **java.lang.Double**; if the
 first value contains only numbers with no decimal point, Cytoscape will
-assume java.lang.Integer; otherwise Cytoscape will assume
-java.lang.String. Note that the first value can lead Cytoscape astray:
+assume **java.lang.Integer**; otherwise Cytoscape will assume
+**java.lang.String**. Note that the first value can lead Cytoscape astray:
 for example,
 
     floatingPointDataColumn
@@ -185,8 +186,8 @@ equals sign; whitespace (spaces and/or tabs) before and after the equals
 sign is ignored. This means that your names and values can contain
 whitespace, but object names cannot contain an equals sign and no
 guarantees are made concerning leading or trailing whitespace. Object
-names must be the Node ID or Edge ID as seen in the left-most column of
-the Table Panel if the data column is to map to anything. These names
+names must be the node ID or edge ID as seen in the left-most column of
+the **Table Panel** if the data column is to map to anything. These names
 must be reproduced exactly, including case, or they will not match.
 
 Edge names are all of the form:
@@ -198,7 +199,7 @@ Specifically, that is
 `sourceName space openParen edgeType closeParen space targetName`
 
 Note that tabs are not allowed in edge names. Tabs can be used to
-separate the edge name from the "=" delimiter, but not within the edge
+separate the edge name from the _=_ delimiter, but not within the edge
 name itself. Also note that this format is different from the
 specification of interactions in the SIF file format. To be explicit: a
 SIF entry for the previous interaction would look like
@@ -221,7 +222,7 @@ elements in its list, while the second object has a list with only one
 element. In the case of a list every data value uses list syntax (i.e.
 parentheses), and each element is of the same class. Again, the class
 will be inferred if it is not specified in the header line. Lists are
-not supported by Styles and so can't be mapped to network properties.
+not supported by **Styles** and so can't be mapped to network properties.
 
 <a id="newline_feature"> </a>
 ### Newline Feature
@@ -240,8 +241,8 @@ inserting into the data value. For example:
 
 When Cytoscape is started, the **Table Panel** appears in the bottom
 right of the main Cytoscape window. This browser can be hidden and
-restored using the F5 key or the **View → Show/Hide Table Panel** menu
-option. Like other Panels, the browser can be undocked by pressing the
+restored using the F5 key or by unchecking the **View → Show Table Panel** menu
+option. Like other panels, the browser can be undocked by pressing the
 little icon in the top right corner.
 
 To swap between displaying node, edge, and network data tables use the
@@ -261,7 +262,7 @@ close the column list).
 
 Most column values can be edited by double-clicking the cell (only the
 ID cannot be edited). Newline characters can be inserted into String
-columns either by pressing **Enter** or by typing "\\n". Once finished
+columns either by pressing **Enter** or by typing _\\n_. Once finished
 editing, click outside of the editing cell in the Table Panel or press
 **Shift-Enter** to save your edits. Pressing **Esc** while editing will
 undo any changes.
@@ -311,17 +312,17 @@ via web services, for example from
 <a id="basic_operation"> </a>
 ### Basic Operation
 
-1.  Load a network, for example galFiltered.sif.
+1.  Load a network, for example _galFiltered.sif_.
 
 2.  Select **File → Import → Table from Public Databases...**.
 
 3.  You will first be asked to select from a set of web services. For
-    this example, we will choose **ENSEMBL GENES 103**.
+    this example, we will choose **ENSEMBL GENES 104**.
 
 ![](_static/images/Columns/select_services.png)
 
 1.  In the **Import Data Table from Public Databases** dialog, select a
-    **Service**. Since galFiltered.sif is a yeast network, select
+    **Service**. Since the galFiltered network is from yeast, select
     **ENSEMBL GENES - SACCHAROMYCES CEREVISIAE**.
 
 2.  For **Key Column in Cytoscape**, select *COMMON* for **Column**
