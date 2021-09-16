@@ -10,7 +10,7 @@ be available through the **Command Panel**. Commands are part of the more genera
 [Cytoscape Automation](Programmatic_Access_to_Cytoscape_Features_Scripting.html#cytoscape_automation) feature, 
 which includes multiple ways of scripting Cytoscape execution.
 
-The **Command Panel** can be opened from **View → Show/Hide Command Panel**.
+The **Command Panel** can be opened from **View → Show Command Panel**.
 
 ![](_static/images/Command_Tool/AutomationPanel.png)
 

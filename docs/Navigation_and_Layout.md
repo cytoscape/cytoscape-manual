@@ -269,8 +269,8 @@ can select a Default Value, a Mapping and use Bypass for select nodes.
 In the Style tab, select the **Bend** property from the **Properties**
 drop-down and click on either the Default Value, Mapping or Bypass cell
 to bring up the **Edge Bend Editor**. In the editor, you can add as many
-handles as you want to the edge using Alt-Click on Windows, Option-Click
-on Mac, or Ctrl-Alt-Click on Linux.
+handles as you want to the edge using **Alt-Click** on Windows, **Option-Click**
+on Mac, or **Ctrl-Alt-Click** on Linux.
 
 ![](_static/images/Navigation_Layout/edbeBend1.png)
 
@@ -290,7 +290,7 @@ function to bundle all or selected edges automatically.
     -   Details of the algorithm is described in [this
         paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2009.01450.x).
 
-3.  Press OK to run. Edge bundling may take a long time if the number of
+3.  Press **OK** to run. Edge bundling may take a long time if the number of
     edges is large.
 
     -   If it takes too long, try decreasing **Maximum Iterations.**
@@ -306,13 +306,13 @@ get proper result.
 <a id="automatic_layout_algorithms"> </a>
 ## Automatic Layout Algorithms
 
-The Layout menu has an array of features for organizing the network
+The **Layout** menu has an array of features for organizing the network
 visually according to one of several algorithms, aligning and rotating
 groups of nodes, and adjusting the size of the network. Cytoscape
 layouts have three different sources, which are reflected in the
 **Layout** menu.
 
-Cytoscape Layouts have the option to operate on only the selected nodes,
+Cytoscape layouts have the option to operate on only the selected nodes,
 and all provide a **Settings...** panel to change the parameters of the
 algorithm. Most of the Cytoscape layouts also partition the graph before
 performing the layout. In addition, many of these layouts include the
@@ -334,7 +334,7 @@ Layout**. A sample screen shot is shown above.
 
 ![](_static/images/Navigation_Layout/spring.png)
 
-The spring-embedded layout is based on a "force-directed" paradigm as
+The spring-embedded layout is based on a force-directed paradigm as
 implemented by Kamada and Kawai (1988). Network nodes are treated like
 physical objects that repel each other, such as electrons. The
 connections between nodes are treated like metal springs attached to the
@@ -376,7 +376,7 @@ Attributes Layout → taxonomy**.
 
 ![](_static/images/Navigation_Layout/force_layout.png)
 
-The force-directed layout is a layout based on the "force-directed"
+The force-directed layout is a layout based on the force-directed
 paradigm. This layout is based on the algorithm implemented as part of
 the prefuse toolkit <!--[prefuse toolkit (http://www.prefuse.org/)](http://www.prefuse.org/)-->provided by Jeff Heer.
 The algorithm is very fast and with the right parameters can provide a
@@ -419,7 +419,7 @@ This algorithm is available by selecting **Layout → Circular Layout**.
 ![](_static/images/Navigation_Layout/yHir.png)
 
 The hierarchical layout algorithm is good for representing main
-direction or "flow" within a network. Nodes are placed in hierarchically
+direction or flow within a network. Nodes are placed in hierarchically
 arranged layers and the ordering of the nodes within each layer is
 chosen in such a way that minimizes the number of edge crossings. This
 algorithm is available by selecting **Layout → Hierarchical Layout**.
