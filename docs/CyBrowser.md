@@ -56,4 +56,4 @@ links in different tabs.
 web pages and provides a level of integration with Cytoscape that is more difficult to provide in all of
 the various browsers provided by all of the platforms Cytoscape runs on. In particular, **Cytoscape Web Browser** supports
 special links that are actually just Cytoscape commands. For javascript implementers, **Cytoscape Web Browser** also provides
-"hooks" to listen to node and edge selection in Cytoscape.
+hooks to listen to node and edge selection in Cytoscape.

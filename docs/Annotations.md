@@ -5,13 +5,13 @@ Annotations in the form of shapes, images or text can be added to the network ca
 
 The network canvas is made up of three transparent layers:
 
-- Foreground layer
+- **Foreground Layer**
 
-- Network layer
+- **Network Layer**
 
-- Background layer
+- **Background Layer**
 
-The middle Network layer contains nodes, edges and charts. The foreground and background 
+The middle **Network Layer** contains nodes, edges and charts. The **Foreground** and **Background** 
 layers contain annotations.
 
 ![](_static/images/Annotations/layers.png)
@@ -91,8 +91,8 @@ When an annotation is selected, 8 resize handles are visible. The annotation can
 
 ![](_static/images/Annotations/selected.png)
 
-It is possible to select multiple annotations at the same time. Hold Ctrl on Windows, 
-or Command on Mac, while clicking on each of the annotations you would like to select. 
+It is possible to select multiple annotations at the same time. Hold **Ctrl** on Windows, 
+or **Command** on Mac, while clicking on each of the annotations you would like to select. 
 This works both in the **Annotations** panel and on the network canvas. When multiple annotations 
 are selected they can be moved and resized at the same time.
 
