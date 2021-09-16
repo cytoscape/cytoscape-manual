@@ -6,17 +6,17 @@
 
 You can search for nodes and edges by column value directly through
 Cytoscape's tool bar. For example, to select nodes or edges with a
-column value that starts with "STE", type `ste*` in the search bar. The
+column value that starts with _STE_, type `ste*` in the search bar. The
 search is case-insensitive. The `*` is a wildcard character that matches
 zero or more characters, while `?` matches exactly one character. So
-`ste?` would match "STE2" but would not match "STE12". Searching for
+`ste?` would match _STE2_ but would not match _STE12_. Searching for
 `ste*` would match both.
 
 ![](_static/images/Filters/searchbar3.png)
 
 To search a specific column, you can prefix your search term with the
 column name followed by a `:`. For example, to select nodes and edges
-that have a "COMMON" column value that starts with "STE", use
+that have a **COMMON** column value that starts with _STE_, use
 `common:ste*`. If you don't specify a particular column, all columns
 will be searched.
 
@@ -25,8 +25,8 @@ letters and numbers currently do not work when searching a specific
 column. This will be fixed in a future release.
 
 To search for column values that contain special characters you need to
-escape those characters using a "\\". For example, to search for
-"GO:1232", use the query `GO\:1232`. The complete list of special
+escape those characters using a **\\**. For example, to search for
+_GO:1232_, use the query `GO\:1232`. The complete list of special
 characters is:
 
     + - & | ! ( ) { } [ ] ^ " ~ * ? : \
@@ -62,6 +62,7 @@ regardless of which **Selection Mode** for mouse click or drag-selection.
 </tbody>
 </table>
 <br>
+
 **Select → Mouse Drag Selects** includes the same options for **Selection Mode** 
 for mouse click or drag-selection as the current **Selection Mode** in the [Network
     View Tools](Quick_Tour_of_Cytoscape.html#the-network-overview-window).
@@ -77,23 +78,23 @@ node id per line:
 
 <a id="cycharts"> </a>
 ## cyChart
-CyChart is a charting package available as a core app in Cytoscape. CyChart provides simple 1D and 2D plots of numerical values from node or edge tables. Selection in the chart will reciprocally select nodes or edges in the network. This provides another way to visualize and interact with your data in Cytoscape.   
+**CyChart** is a charting package available as a core app in Cytoscape. **CyChart** provides simple 1D and 2D plots of numerical values from node or edge tables. Selection in the chart will reciprocally select nodes or edges in the network. This provides another way to visualize and interact with your data in Cytoscape.   
 
 ### Histograms
 
 A histogram shows the distribution of a variable in bins over a range. It shows the user where the most common values are and whether the values are distributed uniformly (flat line), normally (the bell curve) or have strong modes (hills and valleys). This can be particularly useful for finding pockets of the data that express similar ranges, such as positively and negatively expressed genes.
 
-To create a histogram using cyChart, open the right-click on the header of a numeric column in the Node or Edge Table, and select the command **Plot Histogram…**
+To create a histogram using **cyChart**, open the right-click on the header of a numeric column in the **Node** or **Edge Table**, and select the command **Plot Histogram…**
 
 ![](_static/images/Filters/plotHistogram.png)
 
-The structure of the cyChart window has a header with common functions and settings, the content of the chart, and a footer with the selections status and the controls to set the axes.
+The structure of the **cyChart** window has a header with common functions and settings, the content of the chart, and a footer with the selections status and the controls to set the axes.
 
 ![](_static/images/Filters/histogram1.png)
 
 To select a range within a histogram, click and drag left or right. You should see a color change in the background of the data. To edit an existing selection, drag in the middle of the selection to move the entire selection, or on either edge of the selection to edit just the start or end of the range. To clear the selection, click outside of the range.
 
-If the chart is in its interactive mode, you can see the main graph view changing its selection as the chart changes. However, in large networks this will over-stress the computer and become sluggish in the interface. Therefore, there is a check box in the header of cyChart to control whether selection is recomputed whenever the mouse moves, or occurs only at the end of your drag.
+If the chart is in its interactive mode, you can see the main graph view changing its selection as the chart changes. However, in large networks this will over-stress the computer and become sluggish in the interface. Therefore, there is a check box in the header of **cyChart** to control whether selection is recomputed whenever the mouse moves, or occurs only at the end of your drag.
 
 The footer is used to set the axes of the chart, and to show the status of the selection. Click on the popup choice box to see the list of available dimensions.  The chart will be regenerated whenever you change either dimension. The current selection is lost when either axis changes.
 
@@ -147,8 +148,8 @@ constraints. For example, you can find edges with a weight between 0 and
 5.5, or nodes with degree less than 3 (connecting to 3 or less edges). A filter can contain an arbitrary
 number of sub-filters.
 
-To add a filter click on the "+" button. To delete a filter (and all its
-sub-filters) click the "x" button. To move a filter grab the handle
+To add a filter click on the **+** button. To delete a filter (and all its
+sub-filters) click the **x** button. To move a filter grab the handle
 ![](_static/images/Filters/filterhandle.png)
 with the mouse and drag and drop the filter on its intended destination.
 Dropping a filter on top of another filter will group the filters into a
@@ -205,9 +206,9 @@ values. Depending on the column data type a variety of matching options are prov
       syntax](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html). This allows for much more
       sophisticated matching than is provided by the above options.
   - By default string matching is case insensitive. Case sensitive matching
-    requires the use of a regular expression that starts with "(?-i)". For
-    example to match the text "ABC" in a case sensitive way use the
-    following regular expression: "(?-i)ABC".
+    requires the use of a regular expression that starts with **(?-i)**. For
+    example to match the text _ABC_ in a case sensitive way use the
+    following regular expression: **(?-i)ABC**.
 
     ![](_static/images/Filters/column-string.png)
 <br>
@@ -311,12 +312,21 @@ filter.
 
 Output options:
 
--   Add (default): Automatically includes all input nodes and edges in
+-   **Add** (default): Automatically includes all input nodes and edges in
     the output, and adds source or target nodes from input edges to
     the output.
 
--   Replace with: Does not automatically include input nodes and edges
+-   **Replace with**: Does not automatically include input nodes and edges
     in the output. Only outputs nodes that match the filter.
+    
+Select options:
+
+-   **Source and target nodes** (default): Output both target and source nodes 
+    of selected edges.
+
+-   **Source nodes**: Output only source nodes of selected edges.
+
+-   **Target nodes**: Output only target nodes of selected edges.
 
 A sub-filter may be added as well. When a sub-filter is present the
 source/target nodes must match the filter to be included in the output.
@@ -333,47 +343,47 @@ greater distances to be added.
 
 Output options:
 
--   Add (default): Automatically includes all input nodes and edges in
+-   **Add** (default): Automatically includes all input nodes and edges in
     the output, and adds selected adjacent nodes and edges.
 
--   Replace with: Only outputs the adjacent nodes/edges.
+-   **Replace with**: Only outputs the adjacent nodes/edges.
 
 Select options:
 
--   Adjacent nodes: Output nodes that are adjacent to the input nodes.
+-   **Adjacent nodes**: Output nodes that are adjacent to the input nodes.
 
--   Adjacent edges: Output edges that are adjacent (incident) to the
+-   **Adjacent edges**: Output edges that are adjacent (incident) to the
     input nodes.
 
--   Adjacent nodes and edges (default): Output both nodes and edges that
+-   **Adjacent nodes and edges** (default): Output both nodes and edges that
     are adjacent to the input nodes.
 
 Edge direction options. (Hidden by default, click the small arrow icon
 to reveal.):
 
--   Incoming: Only include adjacent nodes/edges when the adjacent edge
+-   **Incoming**: Only include adjacent nodes/edges when the adjacent edge
     is incoming.
 
--   Outgoing: Only include adjacent nodes/edges when the adjacent edge
+-   **Outgoing**: Only include adjacent nodes/edges when the adjacent edge
     is outgoing.
 
--   Incoming and Outgoing (default): Ignore the directionality of
+-   **Incoming and Outgoing** (default): Ignore the directionality of
     adjacent edges.
 
 Sub-filter options. (Available when a sub-filter has been added.):
 
--   Adjacent nodes (default): The sub-filter is only applied to
+-   **Adjacent nodes** (default): The sub-filter is only applied to
     adjacent nodes. (Edges to the adjacent nodes are still included in
     the output.)
 
--   Adjacent edges: The sub-filter is only applied to adjacent edges.
+-   **Adjacent edges**: The sub-filter is only applied to adjacent edges.
     (Nodes connected to the adjacent edges are still included in
     the output.)
 
--   Adjacent nodes and edges: Both the adjacent edge and its connected
+-   **Adjacent nodes and edges**: Both the adjacent edge and its connected
     node must match the filter. Note that for a filter to match an edge
     and a node at the same time it should be a compound filter that is
-    set to "Match any (OR)".
+    set to **Match any (OR)**.
 
 <a id="working_with_narrowing_and_chainable_filters"> </a>
 ### Working with Narrowing and Chainable Filters
