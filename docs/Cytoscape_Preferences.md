@@ -81,7 +81,7 @@ The following node visualization options are available:
     
 -   **Compound Node**: Show the group node as an area surrounding the member nodes, but position it behind the member nodes to allow direct selection of each of the members. If you move a node within this area, you may need to resize the area to encompass the newly positioned member node. Moving the group node will cause all member nodes to move with it. There are [visual styles](Styles.html#styles) that allow you to change the color, shape and padding for the compound node. 
     
--   **Show Group Node**: When the group is expanded, show the group node as an additional node and add "member edges" between the group node and each of the member nodes.  This is useful, for example, for complexes where it may be important to show a group node (the entire complex) at the same time as group member nodes (each individual protein).
+-   **Show Group Node**: When the group is expanded, show the group node as an additional node and add member edges between the group node and each of the member nodes.  This is useful, for example, for complexes where it may be important to show a group node (the entire complex) at the same time as group member nodes (each individual protein).
     
 -   **Single Node**:  Show the group node as an area surrounding the member nodes, but put it in front of the member nodes so that the member nodes can not be selected or moved individually.
 

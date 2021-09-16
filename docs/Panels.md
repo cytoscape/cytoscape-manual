@@ -36,7 +36,7 @@ In the example below, the **Control** and **Tool** panels are minimized (**Resul
   ![](_static/images/Panels/ExampleMinimized.png)
 <br> 
 
-- **Docked:** The most used panels (e.g. **Control**, **Table**) are initially docked by default. When docked, a panel takes the space that could be used by its adjacent panels and by resizing it, those adjacent panels are resized as well (e.g. by resizing the "Control" panel horizontally, the "View" panel is also resized). If a panel is undocked or floating, use the **Dock** icon ![](_static/images/Panels/DockIcon.png) to make it docked.
+- **Docked:** The most used panels (e.g. **Control**, **Table**) are initially docked by default. When docked, a panel takes the space that could be used by its adjacent panels and by resizing it, those adjacent panels are resized as well (e.g. by resizing the **Control Panel** horizontally, the **View Panel** is also resized). If a panel is undocked or floating, use the **Dock** icon ![](_static/images/Panels/DockIcon.png) to make it docked.
 
   In the screenshot below, all panels are docked, except **Results** and **Command**, which are hidden:
   

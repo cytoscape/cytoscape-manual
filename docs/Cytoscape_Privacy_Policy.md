@@ -19,8 +19,8 @@ Cytoscape.
 -   During Cytoscape execution, we log usage statistics tagged with the date, 
     time, and IP address of the workstation running Cytoscape. This
     logging can be turned off during Cytoscape installation or by
-    setting the installoptions.shareStatistics property to false using
-    the Cytoscape Preferences Editor.
+    setting the **installoptions.shareStatistics** property to false using
+    the Cytoscape **Preferences Editor**.
     
 
 This policy may change from time to time, and if it does, we will notify
@@ -28,6 +28,6 @@ you via our normal mass notification media. We will also update this
 section of the user manual.
 
 Note that some internal Cytoscape Apps and Apps available through the
-Cytoscape App Store connect with third party services via the Internet.
+**Cytoscape App Store** connect with third party services via the Internet.
 Once an App links to such a service, you are subject to the privacy
 policy of that service.

@@ -41,10 +41,10 @@ the web page of the manufacturer of your CPU.
 
 As of 2017-01-06, drivers for Intel CPUs can be downloaded at 
 [https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime](https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime) - 
-look for "runtime-only". AMD requires you to [find drivers per device](https://www.amd.com/en/support) for older hardware or use ROCm:  [https://github.com/RadeonOpenCompute/ROCm/wiki#What-Is-ROCm. ](https://github.com/RadeonOpenCompute/ROCm/wiki#What-Is-ROCm).
+look for _runtime-only_. AMD requires you to [find drivers per device](https://www.amd.com/en/support) for older hardware or use ROCm:  [https://github.com/RadeonOpenCompute/ROCm/wiki#What-Is-ROCm. ](https://github.com/RadeonOpenCompute/ROCm/wiki#What-Is-ROCm).
 
 **Warning:** After you have just installed drivers for your OpenCL device, 
-Cytoscape may require restarting to be able to "see" the device.
+Cytoscape may require restarting to be able to see the device.
 
 <a id="cytoscape_gpu_troubleshooting"> </a>
 ## OpenCL/GPU Troubleshooting
@@ -82,7 +82,7 @@ the computation occupies the GPU for too long,
 preventing the operating system (e.g., Windows) from updating the display. 
 If the operating system detects this, it terminates the GPU computation.
 You can either try to run smaller chunks of the computation or configure
-the "Timeout Detection and Recovery" (TDR) to let the computation complete
+the **Timeout Detection and Recovery** (TDR) to let the computation complete
 even if the system becomes unresponsive.
 Further info can be found at [this NVidia thread](https://devtalk.nvidia.com/default/topic/459869/-quot-display-driver-stopped-responding-and-has-recovered-quot-wddm-timeout-detection-and-recovery-/)
 or [Microsoft webpage](https://msdn.microsoft.com/en-us/library/windows/hardware/ff570087(v=vs.85).aspx).

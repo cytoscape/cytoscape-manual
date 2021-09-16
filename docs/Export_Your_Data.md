@@ -268,30 +268,30 @@ Note that if you specify a style URL, the style is added to the list of
 styles available in
 [CyNetShare](http://idekerlab.github.io/cy-net-share/)'s
 Visual Style dropdown, and you can apply the style by selecting it in
-the list. CyNetShare's initial display uses the visual style named "default" -- 
+the list. CyNetShare's initial display uses the visual style named **default** -- 
 use the Visual Style dropdown to choose the style in effect when Cytoscape
 generated the .cyjs and .json files. 
 
 Note that the mechanics of generating a URL for a file in a public
 directory system is a fast moving topic. Until recently, systems like
 Dropbox (and others) allowed users to create a URL that resolved
-directly to a file -- a "direct" URL would be appropriate for use with
+directly to a file -- a direct URL would be appropriate for use with
 [CyNetShare](http://idekerlab.github.io/cy-net-share/).
 As of this writing, some public directory systems (e.g., Dropbox)
-generate "shareable" URLs instead, which resolve to a web page that
-allows file download -- a "shareable" URL doesn't work with
-[CyNetShare](http://idekerlab.github.io/cy-net-share/). Systems that offer "shareable" URLs may offer "direct" URLs as
-part of their premium (or Pro) package. To tell if your public directory
-system generates a "direct" URL, have it generate a URL for a file, then
+generate shareable URLs instead, which resolve to a web page that
+allows file download -- a shareable URL doesn't work with
+[CyNetShare](http://idekerlab.github.io/cy-net-share/). Systems that offer 
+shareable URLs may offer direct URLs as part of their premium (or Pro) package. To tell if your public directory
+system generates a direct URL, have it generate a URL for a file, then
 paste the URL into the address field of a browser and observe whether
 the browser displays the file itself (good!) or a download page for the
 file (bad!).
 
-**Hint:** if Dropbox generates a "shareable" link that looks like 
+**Hint:** if Dropbox generates a shareable link that looks like 
 `https://www.dropbox.com/s/w5e7towcchuvdeu/cynetworm.cyjs?dl=0`, 
-you may be able to create a "direct" link by changing the `dl=0` to `dl=1`: `https://www.dropbox.com/s/w5e7towcchuvdeu/cynetworm.cyjs?dl=1`.
+you may be able to create a direct link by changing the `dl=0` to `dl=1`: `https://www.dropbox.com/s/w5e7towcchuvdeu/cynetworm.cyjs?dl=1`.
 
-A simple strategy for always getting a "direct" URL is to store your
+A simple strategy for always getting a direct URL is to store your
 file in a public directory served up by a web server, if you have access
 to one -- a URL served by a web server might appear as:
 [http://myserver.com/~mypublicdir/netstyle.json](http://myserver.com/~mypublicdir/netstyle.json).
@@ -311,7 +311,7 @@ shareable document having a "direct" URL. To try this:
 
 5.  Select **Create public Gist**
 
-6.  Select **Raw** to place the "direct" URL into your browser's
+6.  Select **Raw** to place the direct URL into your browser's
     address field
 
 7.  Use that URL with
@@ -377,7 +377,7 @@ are interested in customizing the web viewer application themselves.
 Cytoscape creates a zip archive containing a partial
 [JavaScript](https://en.wikipedia.org/wiki/JavaScript)-based
 web application based on the cytoscape.js library and including simple
-"boilerplate" code and the current network view. The user can create a
+boilerplate code and the current network view. The user can create a
 custom viewer by customizing this code.
 
 ![](_static/images/Export/web_export_simple.png)
@@ -403,7 +403,7 @@ to the exported webpage. In the web_session/scripts directory, a custom.js
 file has been added with a designated spot for custom JS code.
 
 For example, to add linkouts to nodes in the webpage (i.e. opening a
-URL specified by the "href" node attribute when the user clicks the node), 
+URL specified by the **href** node attribute when the user clicks the node), 
 the custom.js file should look like:
 
 ```javascript
