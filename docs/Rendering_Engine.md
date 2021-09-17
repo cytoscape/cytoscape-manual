@@ -79,6 +79,9 @@ for very large networks.
 <tr> <th class="spec">render.nodeLabelThreshold</th>     <td class="">If the number of <i>rendered</i> nodes equals to or exceeds this number, node labels will not be rendered; this value defaults to 200.</td>      </tr>
 <tr> <th class="specalt">render.edgeArrowThreshold</th>  <td class="alt">If the number of <i>rendered</i> edges equals to or exceeds this number, edge arrows will not be rendered; this value defaults to 600.</td>   </tr>
 <tr> <th class="spec">render.edgeLabelThreshold</th>     <td class="">If the number of <i>rendered</i> edges equals to or exceeds this number, edge labels will not be rendered; this value defaults to 200.</td>      </tr>
+<tr> <th class="spec">render.hidpi</th>     <td class="">This property enables/disables HiDPI mode in the network view. When set to true the network will render in the native resolution on 4K Ultra-HD and Retina displays. New in Cytoscape 3.9. Defaults to true.</td>      </tr>
+<tr> <th class="spec">render.labelCache</th>     <td class="">This property enables/disables the renderer label cache, which results in a significant rendering speed improvement when enabled. New in Cytoscape 3.9. Defaults to true.</td>      </tr>
+<tr> <th class="spec">render.edgeBufferPan</th>     <td class="">This property enables/disables a feature in the renderer which shifts the edge buffer when panning the network, which avoids having to hide edges when panning in certain situations. New in Cytoscape 3.9. Defaults to true. </td>      </tr>
 </table>
 <br>
 
