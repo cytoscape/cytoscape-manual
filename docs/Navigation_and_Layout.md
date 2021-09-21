@@ -24,25 +24,25 @@ Zoom icons are detailed below:
 
 From Left to Right:
 
--   **Zoom In**
+**Zoom In**
 
   - Menu option: **View → Zoom In**
   - Keyboard shortcut: ``Ctrl-Plus`` (``Command-Plus`` on Mac OS X)
 
 
--   **Zoom Out**
+**Zoom Out**
 
   - Menu option: **View → Zoom Out**
   - Keyboard shortcut: ``Ctrl-Minus`` (``Command-Minus`` on Mac OS X)
 
 
--   **Zoom Out to Display all of Current Network**
+**Fit Content**: Zoom level is adjusted to fit the network to the window 
 
   - Menu option: **View → Fit Content**
   - Keyboard shortcut: ``Ctrl-0`` (``Command-0`` on Mac OS X)
 
 
--   **Zoom Selected Region**
+**Fit Selected**: Zoom level is adjusted to zoom on any selected nodes
 
   - Menu option: **View → Fit Selected**
   - Keyboard shortcut: ``Ctrl-9`` (``Command-9`` on Mac OS X)

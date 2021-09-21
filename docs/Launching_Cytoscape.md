@@ -44,13 +44,13 @@ on the [http://cytoscape.org](http://cytoscape.org) website.*
 -   While Cytoscape versions prior to v3.2 run on Java 6, Oracle and
     other JVM suppliers have dropped Java 6 support. Consequently,
     Cytoscape v3.2 and later don't support Java 6 either. With v3.3, we
-    have also dropped support for Java 7 for the same reason, and with
-    the release of Cytoscape v3.8 we have now dropped support for Java 8.
+    also dropped support for Java 7, and with
+    the release of Cytoscape v3.8 we dropped support for Java 8, for the same reason.
 
 -   We recommend a 64 bit Java Runtime Environment (JRE) such as OpenJDK 11.
 
 For additional information, select the Release Notes button on the
-[Cytoscape web site](http://cytoscape.org).
+[Cytoscape website](http://cytoscape.org).
 
 <a id="install_cytoscape"> </a>
 ### Install Cytoscape
@@ -82,7 +82,7 @@ More automation flexibility is available using other settings and pre-programmed
 <a id="cytoscape_directories"> </a>
 #### Cytoscape Directories
 
-Cytoscape installations (regardless of platform) containing the
+Cytoscape installations (regardless of platform) contain the
 following files and directories:
 
 <table cellspacing="0">
@@ -164,8 +164,8 @@ fails to start or open your network, it has likely estimated the
 available memory correctly, and you can continue to the [Quick
 Tour](Quick_Tour_of_Cytoscape.html#quick-tour-of-cytoscape).
 If Cytoscape misjudges the memory size or can't allocate enough memory,
-it could be that you're running with a 32 bit JRE and could get better
-results by installing a 64 bit JRE -- see the Install Java section
+it could be that you're running with a **32 bit JRE** and could get better
+results by installing a **64 bit JRE** -- see the Install Java section
 above.
 
 When Cytoscape starts, it displays the current memory usage in the lower
@@ -179,7 +179,7 @@ have multiple large networks loaded.
 By default, Cytoscape uses an estimate for initial and maximum memory
 allocation based on your operating system, system architecture (32 or 64
 bit), and installed memory. You can change Cytoscape's initial and/or
-maximum memory size by editing the Cytoscape.vmoptions file, which
+maximum memory size by editing the _Cytoscape.vmoptions_ file, which
 resides in the same directory as the Cytoscape executable. The file
 contains one option per line, with each line terminated by a linefeed,
 and an extra linefeed at the end of the file. Note that for the MacOS
@@ -206,7 +206,7 @@ functions in Cytoscape use larger stack space (a temporary memory for
 some operations, such as layout). Since this value is set independently
 from the values above, sometimes layout algorithms fail due to an *out
 of memory* error. To avoid this, you can set a larger heap size for
-Cytoscape tasks by using the ***taskStackSize*** option in the
+Cytoscape tasks by using the **taskStackSize** option in the
 `cytoscape3.props` file (located in the `CytoscapeConfiguration`
 directory). This can be edited within Cytoscape using the Preferences
 Editor (**Edit → Preferences → Properties...**) - look for taskStackSize. The

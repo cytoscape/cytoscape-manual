@@ -61,7 +61,7 @@ Alternatively, right click on the network canvas and select the annotation type 
 ![](_static/images/Annotations/add_menu.png)
 
 ### Shape, Bounded Text, Image, Text
-1. Click the button for shape, bounded text or image annotation.
+1. Click the button for shape, bounded text or image annotation. For image annotations, a file chooser will appear where you can select an image file. 
 2. Click the general location on the network canvas where the annotation should be placed. The annotation will appear on the canvas.
 3. The annotation properties can be edited in the **Appearance** tab in the **Annotations** panel. The properties can be edited 
   again after the annotation is created by selecting the annotation.
@@ -123,19 +123,22 @@ rename an annotation double-click the annotation in the **Annotation** panel and
 
 ## Editing Annotations
 
-To modify the properties of an annotation (eg, color, text) go to the **Annotation** panel,
-right click the annotation, and select **Modify Annotation...** in the context menu. Alternatively, 
-right-click on the annotation in the network and select **Modify Annotation...**. 
+To modify the properties of an annotation (eg, color, text) select the annotation in the **Annotation** panel or in the network,
+then click the **Appearance** tab. Alternatively, right-click on the annotation in the network and select **Modify Annotation...**. 
 
-![](_static/images/Annotations/modify_menu.png)
+![](_static/images/Annotations/modify_annotation.png)
+
+The annotation can now be resized in the network view window. Other aspects of the annotation, like color, font, shape, opacity and rotation, can be edited in the **Appearance** tab. 
+
+The below example describes annotations with edited rotation and opacity.
+
+![](_static/images/Annotations/rotation_opacity.png)
 
 ## Deleting Annotations
 
-To delete annotations from the **Annotation** panel select one or more annotations and click the 
-![](_static/images/Annotations/button_trash.png) button.
-
-To delete annotations from the network view right click an annotation and select **Edit > Cut**.
-
+To delete annotations, select one or more annotations in the **Annotation** panel and click the 
+![](_static/images/Annotations/button_trash.png) button, or select the annotation in the network and
+click **delete** on the keyboard or right-click an annotation and select **Edit → Cut**..
 
 ## Grouping Annotations
 
