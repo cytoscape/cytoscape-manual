@@ -4,11 +4,11 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 project = u'Cytoscape User Manual'
-copyright = u'2020, The Cytoscape Consortium'
+copyright = u'2021, The Cytoscape Consortium'
 author = u'The Cytoscape Consortium'
 
-version = '3.8.2'
-release = '3.8.2'
+version = '3.9.0'
+release = '3.9.0'
 language = None
 
 exclude_patterns = ['_build']
