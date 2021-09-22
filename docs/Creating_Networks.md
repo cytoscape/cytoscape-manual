@@ -215,7 +215,7 @@ select only a source column, it creates a network without interactions.
 This feature is useful with the node expansion function available from
 some web service clients. Please read the section **[Importing Networks
 from External
-Database](Creating_Networks.html?highlight=Web%20Service#what-is-a-web-service)**
+Database](Creating_Networks.html#import_networks_from_public_databases)**
 for more detail.
 
 <a id="advanced_options"> </a>
@@ -402,7 +402,7 @@ on the group node or any of its children to toggle back and forth.
 
 ![](_static/images/Creating_Networks/GroupExpanded2.png)
 
-The appearance and behavior of grouped nodes depends on the [group settings](Cytoscape_Preferences.html?#managing-group-view) in effect when the group is created. Settings can be managed for the entire Cytoscape session (via **Edit → Preferences → Group Preferences...**) or for a specific group (right-click **Preferences → Group Preferences...**).
+The appearance and behavior of grouped nodes depends on the [group settings](Cytoscape_Preferences.html#managing_group_view) in effect when the group is created. Settings can be managed for the entire Cytoscape session (via **Edit → Preferences → Group Preferences...**) or for a specific group (right-click **Preferences → Group Preferences...**).
 
 <a id="adding_network_annotations"> </a>
 ### Adding Network Annotations

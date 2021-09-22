@@ -25,7 +25,7 @@ formats:
 -   [Cytoscape.js
     JSON](http://cytoscape.github.io/cytoscape.js/#notation/elements-json)
     
--   [Cytoscape CX](https://github.com/CyComponent/CyWiki/blob/master/docs/CX/CX.md)    
+-   [Cytoscape CX](https://github.com/CyComponent/CyWiki)    
 
 The SIF format specifies nodes and interactions only, while other
 formats store additional information about network layout and allow

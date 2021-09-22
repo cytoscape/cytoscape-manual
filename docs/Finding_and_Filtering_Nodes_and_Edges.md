@@ -65,8 +65,8 @@ regardless of which **Selection Mode** for mouse click or drag-selection.
 
 **Select → Mouse Drag Selects** includes the same options for **Selection Mode** 
 for mouse click or drag-selection as the current **Selection Mode** in the [Network
-    View Tools](Quick_Tour_of_Cytoscape.html#the-network-overview-window).
-
+    View Tools](Quick_Tour_of_Cytoscape.html#network-view-tools).
+    
 **Select → Nodes → From ID List File...** selects nodes based on node
 identifiers found in a specified file. The file format is simply one
 node id per line:

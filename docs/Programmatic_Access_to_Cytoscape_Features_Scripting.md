@@ -23,7 +23,7 @@ The R package is called ***RCy3*** and is available via Bioconductor, see [https
 and available vignettes (see Articles menu): http://cytoscape.org/RCy3/index.html. There are also
 a collection of video tutorials on the [Cytoscape YouTube channel](https://www.youtube.com/playlist?list=PLFQS98nmv__wYlu_XoscNb6DKu_vo6_vH).
 
-The PyCy3 package is called [py4cytoscape](https://github.com/cytoscape/py4cytoscape).
+The Python package is called [py4cytoscape](https://github.com/cytoscape/py4cytoscape).
 
 <a id="commands"> </a>
 ## Commands

@@ -285,13 +285,13 @@ are summarized in the tables below.
 <caption>Table Properties</caption>
 <colgroup> <col style="width:200px">                    <col style="width:500px"> </colgroup>
 <tbody>
-<tr><th>Network Properties</th>                        <th>Description</th></tr>
-<tr><th class="spec ulcase">Cell Background Paint</th>  <td class="">The background color of the Table Panel cell.</td></tr>
-<tr><th class="specalt ulcase">Cell Font Face</th>   <td class="alt">The font used for the Table Panel.</td></tr>
-<tr><th class="spec ulcase">Cell Font Size</th>      <td class="">The size of the font used for Table Panel cell text.</td></tr>
-<tr><th class="specalt ulcase">Cell Image/Sparkline</th><td class=""></td></tr>
-<tr><th class="spec ulcase">Cell Text Paint</th>         <td class="alt">The color of the text in the Table Panel cell.</td></tr>
-<tr><th class="specalt ulcase">Cell Tooltip</th>      <td class="">The tooltip showed on the cell text.</td></tr>
+<tr><th>Table Properties</th>                        <th>Description</th></tr>
+<tr><th class="spec ulcase">Cell Background Paint</th>  <td class="">The background color of the table cell.</td></tr>
+<tr><th class="specalt ulcase">Cell Font Face</th>   <td class="alt">The font used for the table cell text.</td></tr>
+<tr><th class="spec ulcase">Cell Font Size</th>      <td class="">The size of the font used for table cell text.</td></tr>
+<tr><th class="specalt ulcase">Cell Image/Sparkline</th><td class="">Adds an image or chart in the table cell.</td></tr>
+<tr><th class="spec ulcase">Cell Text Paint</th>         <td class="alt">The color of the text in the table cell.</td></tr>
+<tr><th class="specalt ulcase">Cell Tooltip</th>      <td class="">The tooltip showed on the table cell text.</td></tr>
 </tbody>
 </table>
 <br>

@@ -202,7 +202,7 @@ similar function.
 
 The **Tools** menu contains advanced features like **cyChart**, **[Network Analyzer](Network_Analyzer.html#networkanalyzer)**, **[Cytoscape Web Browser](CyBrowser.html)**, **[Network Merge](Merge.html#merge)**, **[Execute Command File...](Command_Tool.html)**, **Job Status Monitor**, **Run Script File...** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.html#diffusion)**.
 
-**Cytoscape Web Browser** allows for viewing any html page directly in Cytoscape. The web browser can be opened in a separate window or can be launched in the Results Panel. 
+**Cytoscape Web Browser** allows for viewing any html page directly in Cytoscape. The web browser can be opened in a separate window or can be launched in the **Results Panel**. 
 
 ![](_static/images/Quick_Tour/ToolsMenu.png)
 
@@ -223,8 +223,8 @@ installed.
 
 ![](_static/images/Quick_Tour/Citations.png)
 
-The **Help** menu also allows you to connect directly to Cytoscape Help
-Desk and the Bug Report interface.
+The **Help** menu also allows you to connect directly to **Cytoscape Help
+Desk** and the **Bug Report** interface.
 
 <a id="network_management"> </a>
 ## Network Management

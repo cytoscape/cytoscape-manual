@@ -39,7 +39,7 @@ To use OpenCL on a CPU (i.e., on any desktop computer) or a Xeon Phi,
 you need to install the drivers separately from 
 the web page of the manufacturer of your CPU.
 
-As of 2017-01-06, drivers for Intel CPUs can be downloaded at 
+Drivers for Intel CPUs can be downloaded at 
 [https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime](https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime) - 
 look for _runtime-only_. AMD requires you to [find drivers per device](https://www.amd.com/en/support) for older hardware or use ROCm:  [https://github.com/RadeonOpenCompute/ROCm/wiki#What-Is-ROCm. ](https://github.com/RadeonOpenCompute/ROCm/wiki#What-Is-ROCm).
 

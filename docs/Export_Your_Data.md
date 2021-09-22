@@ -293,8 +293,7 @@ you may be able to create a direct link by changing the `dl=0` to `dl=1`: `https
 
 A simple strategy for always getting a direct URL is to store your
 file in a public directory served up by a web server, if you have access
-to one -- a URL served by a web server might appear as:
-[http://myserver.com/~mypublicdir/netstyle.json](http://myserver.com/~mypublicdir/netstyle.json).
+to one -- a URL served by a web server might appear as: **http://myserver.com/~mypublicdir/netstyle.json**.
 
 Alternately, you can use [Gist](http://gist.github.com/) to create a
 shareable document having a "direct" URL. To try this:
@@ -356,9 +355,7 @@ Here is an example exported file from Cytoscape:
 
 -   [Example full export deployed to web
     server](http://chianti.ucsd.edu/~kono/webapp/cytoscape-export-full/)
-
--   [Archive file](http://cl.ly/XjMs/cytoscape_full_export.zip)
-
+    
 ![](_static/images/Export/web_export_full2.png)
 
 Note that because Cytoscape uses the latest HTML5-based web
@@ -457,7 +454,7 @@ This is an AngularJS based web application built with grunt (at least
 for now -- we have plans to migrate to gulp). Source code and more
 documentations are available here:
 
-\* [https://github.com/idekerlab/cyjs-full-export](https://github.com/idekerlab/cyjs-full-export)
+-   [https://github.com/idekerlab/cyjs-full-export](https://github.com/idekerlab/cyjs-full-export)
 
 To build the project into *dist* directory, type:
 

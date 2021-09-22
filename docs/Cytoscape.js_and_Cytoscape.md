@@ -53,7 +53,7 @@ is the list of similarities and differences between the two:
 
 #### Cytoscape.js
 
--   A **[JavaScript library](http://en.wikipedia.org/wiki/JavaScript)**
+-   A [JavaScript library](http://en.wikipedia.org/wiki/JavaScript)
     for network visualization, **NOT** a complete web application nor
     mobile app
 
