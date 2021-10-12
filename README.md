@@ -25,8 +25,11 @@ an obsolete version, which will quickly become confusing.
 ### Process for updating the manual for a new CS release ###
  
 1. Update version number and Copyright year (if applicable) in conf.py
-2. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.** Leave "binary attachments" emtpy. Do not add the "v" in front of the version number as suggested by GitHub (i.e., use 3.8.0 instead of v3.8.0). 
-3. After 3-10 minutes, verify that the version-specific link works, for example: http://manual.cytoscape.org/en/3.8.2/
+2. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.** Leave "binary attachments" emtpy. Do not add the "v" in front of the version number as suggested by GitHub (i.e., use 3.9.0 instead of v3.9.0). 
+3. After 3-10 minutes, verify that the version-specific link works, for example: http://manual.cytoscape.org/en/3.9.0/
+4. Generate a pdf version of the manual: At the ReadTheDocs manual site (for example http://manual.cytoscape.org/en/3.9.0/, scroll to the bottom of the table of contents, and click "Downloads > PDF". When the pdf opens, download it locally.
+5. Rename the pdf in the following format: "Cytoscape3_9_0Manual.pdf", with the current version number. 
+6. Add the new pdf here: https://github.com/cytoscape/cytoscape.github.com/tree/master/manual. This will make sure the pdf link from the Cytoscape website works, i.e. https://cytoscape.org/manual/Cytoscape3_9_0Manual.pdf.
 
 ### Troubleshooting ###
 
