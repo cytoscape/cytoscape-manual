@@ -7,7 +7,7 @@ Cytoscape itself: LGPL 2.1, the GNU Lesser General Public License,
 version 2.1, February 1999 available in text at
 http://www.gnu.org/licenses/lgpl-2.1.html.
 
-Copyright (c) 2001-2021 The Cytoscape Consortium
+Copyright (c) 2001-2022 The Cytoscape Consortium
 
 .. rubric:: Table of Contents
 
