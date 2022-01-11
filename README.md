@@ -1,5 +1,5 @@
 # cytoscape-manual
-This project contains the complete user manual for Cytoscape 3. There are versions of the manual based on specific versions of Cytoscape. There is also a "stable" that links to the latest Cytoscape version. A "latest" link refers to the master branch. The versions are automatically built at ReadTheDocs.org from [tags of this repo](https://github.com/cytoscape/cytoscape-manual/tags), for example 3.8.2. Access to ReadTheDocs.org is restricted, Barry and Kristina have the credentials.
+This project contains the complete user manual for Cytoscape 3. There are versions of the manual based on specific versions of Cytoscape. There is also a "stable" version that links to the latest tagged release of the manual. A "latest" link refers to the master branch. The versions are automatically built at ReadTheDocs.org from [tags of this repo](https://github.com/cytoscape/cytoscape-manual/tags), for example 3.8.2. Access to ReadTheDocs.org is restricted, Barry and Kristina have the credentials.
 
 Latest Cytoscape version link: http://manual.cytoscape.org/en/stable
 
@@ -13,23 +13,31 @@ Master branch version: http://manual.cytoscape.org/en/latest
 The manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that Barry installed per http://docs.readthedocs.org/en/latest/webhooks.html). A build at ReadTheDocs can take anywhere from 3 minutes to 10 minutes, depending on how busy the build server is. It's always best to verify recent changes by viewing them in the built document. 
 A note on timing: Since the "stable" version at ReadTheDocs is the latest tagged release (as described above), it is best to wait to produce a release/tag until right before (1 day) a scheduled release. Otherwise stable links (from the website for example) will go to the unreleased version. 
 
-### Pre-release checks
+### Process for updating the manual content, pre-release
 
-1. Review updates to docs and images at GitHub.
-2. Add any new manual sections to index.rst and update Copyright year (if applicable).
-3. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/latest/
+1. Make a new branch at GitHub corresponding to the new version of Cytoscape, for example 3.9.1.
+2. Any changes to the manual content should be done on the new branch. ReadTheDocs will create a build as soon as a branch is created. To review content throughout the update period, go to the branch-specific version of the manual, for example http://manual.cytoscape.org/en/3.9.1/.
+3. Review updates to docs and images at GitHub.
+4. Add any new manual sections to index.rst and update Copyright year (if applicable).
+5. Update version number and Copyright year (if applicable) in conf.py
+6. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/3.9.1/.
 
 :warning: When you're checking a new version of the manual, be sure to clear your browser's cache ... otherwise, you'll be looking at 
 an obsolete version, which will quickly become confusing.
 
-### Process for updating the manual for a new CS release ###
- 
-1. Update version number and Copyright year (if applicable) in conf.py
-2. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.** Leave "binary attachments" emtpy. Do not add the "v" in front of the version number as suggested by GitHub (i.e., use 3.9.0 instead of v3.9.0). 
-3. After 3-10 minutes, verify that the version-specific link works, for example: http://manual.cytoscape.org/en/3.9.0/
-4. Generate a pdf version of the manual: At the ReadTheDocs manual site (for example http://manual.cytoscape.org/en/3.9.0/, scroll to the bottom of the table of contents, and click "Downloads > PDF". When the pdf opens, download it locally.
-5. Rename the pdf in the following format: "Cytoscape3_9_0Manual.pdf", with the current version number. 
-6. Add the new pdf here: https://github.com/cytoscape/cytoscape.github.com/tree/master/manual. This will make sure the pdf link from the Cytoscape website works, i.e. https://cytoscape.org/manual/Cytoscape3_9_0Manual.pdf.
+### Process for releasing the new manual content for a new CS release ###
+#### Do this as late as possible before a new Cytoscape release ####
+
+1. Go to the latest branch, and open a pull request for the master branch. This will update the master branch, which will trigger a build for the "latest" version of the manual.
+3. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.** Leave "binary attachments" emtpy. Do not add the "v" in front of the version number as suggested by GitHub (i.e., use 3.9.0 instead of v3.9.0).
+4. After 3-10 minutes, verify that all ReadTheDocs links work:
+- http://manual.cytoscape.org/en/3.9.1/
+- http://manual.cytoscape.org/en/latest
+- http://manual.cytoscape.org/en/stable
+
+6. Generate a pdf version of the manual: At the ReadTheDocs manual site (for example http://manual.cytoscape.org/en/3.9.0/, scroll to the bottom of the table of contents, and click "Downloads > PDF". When the pdf opens, download it locally.
+7. Rename the pdf in the following format: "Cytoscape3_9_0Manual.pdf", with the current version number. 
+8. Add the new pdf here: https://github.com/cytoscape/cytoscape.github.com/tree/master/manual. This will make sure the pdf link from the Cytoscape website works, i.e. https://cytoscape.org/manual/Cytoscape3_9_0Manual.pdf.
 
 ### Troubleshooting ###
 
