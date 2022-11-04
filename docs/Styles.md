@@ -95,8 +95,8 @@ details for a given style and is used to edit these details as well.
     **Edge** and **Network** properties, as well as a **Table** tab for style options for the **Table Panel**, for setting mappings on individual columns in the **Node** and **Edge** tables. Note that style selections for the **Table Panel** are not saved as part of the current style.
 
 -   Each tab contains a list of properties relevant to the
-    current style. At the top of the list a **Properties** drop-down
-    allows you to add additional properties to the list.
+    current style, with a subset of properties shown by default. At the top of the list a **Properties** drop-down
+    allows you to add additional properties to the list, show all properties, or save those currently shown as the new default.
 
 -   Each property entry in the list has 3 columns:
 
