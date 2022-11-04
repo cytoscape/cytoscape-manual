@@ -54,9 +54,8 @@ components:
 -   The main **Network View Window**, which displays the network. At the bottom
     of the network view are a set of network view tools. 
 
--   The **Table Panel** (bottom right panel), which displays columns of
-    selected nodes and edges and enables you to modify the values of
-    column data.
+-   The **Table Panel** (bottom right panel), which displays columns of associated data for nodes, edges and network-wide, 
+    and enables you to modify the values of column data.
 
 The **Network Panel** and **Table Panel** are dockable tabbed Panels. You can
 undock any of these panels by clicking on the **Float Window** control

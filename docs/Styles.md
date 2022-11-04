@@ -186,38 +186,42 @@ are summarized in the tables below.
 <tbody>
 <tr> <th>Node Properties</th>                                     <th>Description</th></tr>
 <tr> <th class="spec ulcase">Border Line Type</th>                <td class="">The type of line used for the border of the node.</td> </tr>
-<tr> <th class="specalt ulcase">Border Transparency</th>          <td class="alt">The opacity of the color of the border of the node. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
+<tr> <th class="specalt ulcase">Border Paint</th>                    <td class="">The color of the border of the node. This property can be added to the list from the drop-down menu <b>Properties → Paint → Border Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Border Transparency</th>          <td class="alt">The opacity of the color of the border of the node. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
 <tr> <th class="spec ulcase">Border Width</th>                    <td class="">The width of the node border.</td> </tr>
-<tr> <th class="specalt ulcase">Label</th>                        <td class="alt">The text used for the node label.</td> </tr>
-<tr> <th class="spec ulcase">Label Font Face</th>                 <td class="">The font used for the node label.</td> </tr>
-<tr> <th class="specalt ulcase">Label Font Size</th>              <td class="alt">The size of the font used for the node label.</td> </tr>
-<tr> <th class="spec ulcase">Label Position</th>                  <td class="">The position of the node label relative to the node.</td> </tr>
+<tr> <th class="specalt ulcase">Fill Color</th>                   <td class="alt">The color of the node. This property can be added to the list from the drop-down menu <b>Properties → Paint → Fill Color</b>.</td> </tr>
+<tr> <th class="spec ulcase">Height</th>                          <td class="">The height of the node. Height will be independent of width. This property is mutually exclusive of <i>Node Size</i>. It can be added to the list from the drop-down menu <b>Properties → Size → Height</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Image/Chart <i>1-9</i></th>       <td class="alt">A user-defined graphic (image, chart or gradient) that is displayed on the node. These properties (maximum of nine) can be added to the list from the drop-down menu <b>Properties → Paint → Custom Paint <i>n</i> → Image/Chart <i>n</i></b>.</td> </tr>
+<tr> <th class="spec ulcase">Image/Chart Position <i>1-9</i></th> <td class="">The position of each graphic (image, chart or gradient). These properties (maximum of nine) can be added to the list from the drop-down menu <b>Properties → Paint → Custom Paint <i>n</i> → Image/Chart Position <i>n</i></b>.</td> </tr>
+<tr> <th class="specalt ulcase">Image/Chart Size <i>1-9</i></th>  <td class="alt">The size of the related node <i>Image/Chart</i>. It can be added to the list from the drop-down menu <b>Properties → Size → Image/Chart Size <i>n</i></b>.</td> </tr>
+<tr> <th class="spec ulcase">Label</th>                        <td class="alt">The text used for the node label.</td> </tr>
+<tr> <th class="specalt ulcase">Label Background Color</th>       <td class="alt">The color of the edge label background. The value is relevant only when <i>Label Background Shape</i> is used.</td> </tr>
+<tr> <th class="spec ulcase">Label Background Shape</th>       <td class="alt">The shape of the label background. Default is None. The value is relevant only when <i>Label Background Color</i> is used.</td> </tr>
+<tr> <th class="specalt ulcase">Label Background Transparency</th>       <td class="alt">The opacity of the color of the edge background. Zero means totally transparent, and 255 means totally opaque.</td> </tr>
+<tr> <th class="spec ulcase">Label Color</th>                     <td class="">The color of the node label. This property can be added to the list from the drop-down menu <b>Properties → Paint → Label Color</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Label Font Face</th>                 <td class="">The font used for the node label.</td> </tr>
+<tr> <th class="spec ulcase">Label Font Size</th>              <td class="alt">The size of the font used for the node label.</td> </tr>
+<tr> <th class="specalt ulcase">Label Position</th>                  <td class="">The position of the node label relative to the node.</td> </tr>
+<tr> <th class="spec ulcase">Label Rotation</th>                     <td class="">The rotation of the node label, default is 0.</td> </tr>
 <tr> <th class="specalt ulcase">Label Transparency</th>           <td class="alt">The opacity of the node label. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
 <tr> <th class="spec ulcase">Label Width</th>                     <td class="">The maximum width of the node label. If the node label is wider than the specified width, Cytoscape will automatically wrap the label on space characters. Cytoscape will not hyphenate words, meaning that if a single word (i.e. no spaces) is longer than maximum width, the word will be displayed beyond the maximum width.</td> </tr>
 <tr> <th class="specalt ulcase">Nested Network Image Visible</th> <td class="alt">A boolean value that indicates whether a nested network should be visualized (assuming a nested network is present for the specified node).</td> </tr>
 <tr> <th class="spec ulcase">Padding (Compound Node)</th>         <td class="">Internal padding of the compound node (a node that contains other nodes).</td> </tr>
 <tr> <th class="specalt ulcase">Paint</th>                        <td class="alt">The color of the whole node, including its border, label and selected paint. This property can be added to the list from the drop-down menu <b>Properties → Paint → Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Border Paint</th>                    <td class="">The color of the border of the node. This property can be added to the list from the drop-down menu <b>Properties → Paint → Border Paint</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Image/Chart <i>1-9</i></th>       <td class="alt">A user-defined graphic (image, chart or gradient) that is displayed on the node. These properties (maximum of nine) can be added to the list from the drop-down menu <b>Properties → Paint → Custom Paint <i>n</i> → Image/Chart <i>n</i></b>.</td> </tr>
-<tr> <th class="spec ulcase">Image/Chart Position <i>1-9</i></th> <td class="">The position of each graphic (image, chart or gradient). These properties (maximum of nine) can be added to the list from the drop-down menu <b>Properties → Paint → Custom Paint <i>n</i> → Image/Chart Position <i>n</i></b>.</td> </tr>
-<tr> <th class="specalt ulcase">Fill Color</th>                   <td class="alt">The color of the node. This property can be added to the list from the drop-down menu <b>Properties → Paint → Fill Color</b>.</td> </tr>
-<tr> <th class="spec ulcase">Label Color</th>                     <td class="">The color of the node label. This property can be added to the list from the drop-down menu <b>Properties → Paint → Label Color</b>.</td> </tr>
-<tr> <th class="spec ulcase">Label Rotation</th>                     <td class="">The rotation of the node label, default is 0.</td> </tr>
-<tr> <th class="specalt ulcase">Selected Paint</th>               <td class="alt">The fill color of the node when selected. This property can be added to the list from the drop-down menu <b>Properties → Paint → Selected Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Shape</th>                           <td class="">The shape of the node.</td> </tr>
-<tr> <th class="specalt ulcase">Shape (Compound Node)</th>        <td class="alt">The shape of the compound node (a node that contains other nodes).</td> </tr>
-<tr> <th class="spec ulcase">Size</th>                            <td class="">The size of the node. Width and height will be equal. This property is mutually exclusive of <i>Node Height</i> and <i>Node Width</i>. It can be added to the list from the drop-down menu <b>Properties → Size → Size</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Image/Chart Size <i>1-9</i></th>  <td class="alt">The size of the related node <i>Image/Chart</i>. It can be added to the list from the drop-down menu <b>Properties → Size → Image/Chart Size <i>n</i></b>.</td> </tr>
-<tr> <th class="spec ulcase">Height</th>                          <td class="">The height of the node. Height will be independent of width. This property is mutually exclusive of <i>Node Size</i>. It can be added to the list from the drop-down menu <b>Properties → Size → Height</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Width</th>                        <td class="alt">The width of the node. Width will be independent of height. This property is mutually exclusive of <i>Node Size</i>. It can be added to the list from the drop-down menu <b>Properties → Size → Width</b>.</td> </tr>
-<tr> <th class="spec ulcase">Fit Custom Graphics to node</th>     <td class="">Toggle to fit Image/Chart size to node size. It can be added to the list from the drop-down menu <b>Properties → Size → Fit Custom Graphics to node</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Lock node width and height</th>   <td class="alt">Toggle to ignore <i>Width</i> and <i>Height</i>, and to use <i>Size</i> for both values. It can be added to the list from the drop-down menu <b>Properties → Size → Lock node width and height</b>.</td> </tr>
+<tr> <th class="spec ulcase">Selected Paint</th>               <td class="alt">The fill color of the node when selected. This property can be added to the list from the drop-down menu <b>Properties → Paint → Selected Paint</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Shape</th>                           <td class="">The shape of the node.</td> </tr>
+<tr> <th class="spec ulcase">Shape (Compound Node)</th>        <td class="alt">The shape of the compound node (a node that contains other nodes).</td> </tr>
+<tr> <th class="specalt ulcase">Size</th>                            <td class="">The size of the node. Width and height will be equal. This property is mutually exclusive of <i>Node Height</i> and <i>Node Width</i>. It can be added to the list from the drop-down menu <b>Properties → Size → Size</b>.</td> </tr>
 <tr> <th class="spec ulcase">Tooltip</th>                         <td class="">The text of the tooltip that appears when a mouse hovers over the node.</td> </tr>
 <tr> <th class="specalt ulcase">Transparency</th>                 <td class="alt">The opacity of the color of the node. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
 <tr> <th class="spec ulcase">Visible</th>                         <td class="">Hides the node if set to <i>false</i>. By default, this value is set to <i>true</i>.</td> </tr>
-<tr> <th class="specalt ulcase">X Location</th>                   <td class="alt">X location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.</td> </tr>
-<tr> <th class="spec ulcase">Y Location</th>                      <td class="">Y location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.</td> </tr>
-<tr> <th class="specalt ulcase">Z Location</th>                   <td class="alt">Z location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.</td> </tr>
+<tr> <th class="specalt ulcase">Width</th>                        <td class="alt">The width of the node. Width will be independent of height. This property is mutually exclusive of <i>Node Size</i>. It can be added to the list from the drop-down menu <b>Properties → Size → Width</b>.</td> </tr>
+<tr> <th class="spec ulcase">X Location</th>                   <td class="alt">X location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.</td> </tr>
+<tr> <th class="specalt ulcase">Y Location</th>                      <td class="">Y location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.</td> </tr>
+<tr> <th class="spec ulcase">Z Location</th>                   <td class="alt">Z location of the node. Default value of this will be ignored. The value will be used only when mapping function is defined.</td> </tr>
+<tr> <th class="specalt ulcase">Fit Custom Graphics to node (checkbox)</th>     <td class="">Toggle to fit Image/Chart size to node size. It can be added to the list from the drop-down menu <b>Properties → Size → Fit Custom Graphics to node</b>.</td> </tr>
+<tr> <th class="spec ulcase">Lock node width and height (checkbox)</th>   <td class="alt">Toggle to ignore <i>Width</i> and <i>Height</i>, and to use <i>Size</i> for both values. It can be added to the list from the drop-down menu <b>Properties → Size → Lock node width and height</b>.</td> </tr>
+
 </tbody>
 </table>
 <br>
@@ -228,32 +232,42 @@ are summarized in the tables below.
 <tbody>
 <tr> <th>Edge Properties</th>                                       <th>Description</th></tr>
 <tr> <th class="spec ulcase">Bend</th>                              <td class="">The edge bend. Defines how the edge is rendered. Users can add multiple handles to define how to bend the edge line.</td> </tr>
+<tr> <th class="specalt ulcase">Color (Selected)</th>                  <td class="">The color of the whole edge (stroke and arrows) when selected. This property can be added to the list from the drop-down menu <b>Properties → Paint → Color (Selected) → Color (Selected)</b>.</td> </tr>
+<tr> <th class="spec ulcase">Color (Unselected)</th>                <td class="">The color of the whole edge (stroke and arrows) when it is not selected. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Color (Unselected)</b>.</td> </tr>
 <tr> <th class="specalt ulcase">Curved</th>                         <td class="alt">If <i>Edge Bend</i> is defined, edges will be rendered as straight or curved lines. If this value is set to <i>true</i>, edges will be drawn as curved lines.</td> </tr>
 <tr> <th class="spec ulcase">Label</th>                             <td class="">The text used for the edge label.</td> </tr>
-<tr> <th class="specalt ulcase">Label Font Face</th>                <td class="alt">The font used for the edge label.</td> </tr>
-<tr> <th class="spec ulcase">Label Font Size</th>                   <td class="">The size of the font used for the edge label.</td> </tr>
-<tr> <th class="specalt ulcase">Label Transparency</th>             <td class="alt">The opacity of the color of the edge label. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
+<tr> <th class="specalt ulcase">Label Autorotate</th>                  <td class="">The <i>Label Rotation</i> of each edge label will be automatically set so that the label aligns with the edge.</td> </tr>   
+<tr> <th class="spec ulcase">Label Background Color</th>            <td class="">The color of the edge label background. The value is relevant only when <i>Label Background Shape</i> is used.</td> </tr>    
+<tr> <th class="specalt ulcase">Label Background Shape</th>            <td class="">The shape of the label background. Default is None. The value is relevant only when <i>Label Background Color</i> is used.</td> </tr>
+<tr> <th class="spec ulcase">Label Background Transparency</th>     <td class="">The opacity of the color of the edge background. Zero means totally transparent, and 255 means totally opaque.</td> </tr>
+<tr> <th class="specalt ulcase">Label Color</th>                       <td class="">The color of the edge label. It can be found in the drop-down menu <b>Properties → Paint → Label Color</b>.</td> </tr>
+<tr> <th class="spec ulcase">Label Font Face</th>                <td class="alt">The font used for the edge label.</td> </tr>
+<tr> <th class="specalt ulcase">Label Font Size</th>                   <td class="">The size of the font used for the edge label.</td> </tr>
+<tr> <th class="spec ulcase">Label Position</th>                    <td class="">The position of the edge label relative to the node.</td> </tr>
+<tr> <th class="specalt ulcase">Label Rotation</th>                    <td class="">The rotation of the edge label, default is 0</td> </tr>
+    
+<tr> <th class="spec ulcase">Label Transparency</th>             <td class="alt">The opacity of the color of the edge label. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
+<tr> <th class="specalt ulcase">Label Width</th>                       <td class="">The width of the edge label.</td> </tr>
 <tr> <th class="spec ulcase">Line Type</th>                         <td class="">The type of stoke used to render the line (solid, dashed, etc.)</td> </tr>
 <tr> <th class="specalt ulcase">Paint</th>                          <td class="alt">The color of the whole edge (including the stroke and arrows) when it is selected or unselected. This property can be added to the list from the drop-down menu <b>Properties → Paint → Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Color (Selected)</th>                  <td class="">The color of the whole edge (stroke and arrows) when selected. This property can be added to the list from the drop-down menu <b>Properties → Paint → Color (Selected) → Color (Selected)</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Source Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the source node end of the edge. It can be added to the list from the drop-down menu <b>Properties → Paint → Color (Selected) → Source Arrow Selected Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Stroke Color (Selected)</th>           <td class="">The color of the edge line when selected. It can be added to the list from the drop-down menu <b>Properties → Paint → Color (Selected) → Stroke Color (Selected)</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Target Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties → Paint → Color (Selected) → Target Arrow Selected Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Color (Unselected)</th>                <td class="">The color of the whole edge (stroke and arrows) when it is not selected. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Color (Unselected)</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Source Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the source node end of the edge. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Source Arrow Unselected Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Stroke Color (Unselected)</th>         <td class="">The color of the edge line. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Stroke Color (Unselected)</b>.</td> </tr>
-<tr> <th class="specalt ulcase">Target Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Target Arrow Unselected Paint</b>.</td> </tr>
-<tr> <th class="spec ulcase">Label Color</th>                       <td class="">The color of the edge label. It can be found in the drop-down menu <b>Properties → Paint → Label Color</b>.</td> </tr>
+<tr> <th class="spec ulcase">Source Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the source node end of the edge. It can be added to the list from the drop-down menu <b>Properties → Paint → Color (Selected) → Source Arrow Selected Paint</b>.</td> </tr>
 <tr> <th class="specalt ulcase">Source Arrow Shape</th>             <td class="alt">The shape of the arrow on the source node end of the edge.</td> </tr>
-<tr> <th class="spec ulcase">Target Arrow Shape</th>                <td class="">The shape of the arrow on the target node end of the edge.</td> </tr>
-<tr> <th class="specalt ulcase">Tooltip</th>                        <td class="alt">The text of the tooltip that appears when a mouse hovers over the edge.</td> </tr>
-<tr> <th class="spec ulcase">Transparency</th>                      <td class="">The opacity of the of the edge. Zero means totally transparent, and 255 means totally opaque.</td> </tr>
-<tr> <th class="specalt ulcase">Visible</th>                        <td class="alt">Hides the edge if set to <i>false</i>. By default, this value is set to <i>true</i>.</td> </tr>
+<tr> <th class="spec ulcase">Source Arrow Size</th>             <td class="alt">...</td> </tr>
+<tr> <th class="specalt ulcase">Source Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the source node end of the edge. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Source Arrow Unselected Paint</b>.</td> </tr>
 <tr> <th class="spec ulcase">Stacking</th>                          <td class="">Determines how edges are visualized when there are multiple edges between a pair of nodes.</td> </tr>
 <tr> <th class="specalt ulcase">Stacking Density</th>               <td class="alt">The spacing between edges when there are multiple edges between a pair of nodes.</td> </tr>
-<tr> <th class="spec ulcase">Width</th>                             <td class="">The width of the edge line.</td> </tr>
-<tr> <th class="specalt ulcase">Edge color to arrows</th>           <td class="alt">If <i>true</i> then <b>Color (Unselected)</b> is used for the whole edge, including its line and arrows. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Edge color to arrows</b>.</td> </tr>
+<tr> <th class="spec ulcase">Stroke Color (Selected)</th>           <td class="">The color of the edge line when selected. It can be added to the list from the drop-down menu <b>Properties → Paint → Color (Selected) → Stroke Color (Selected)</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Stroke Color (Unselected)</th>         <td class="">The color of the edge line. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Stroke Color (Unselected)</b>.</td> </tr>
+<tr> <th class="spec ulcase">Target Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties → Paint → Color (Selected) → Target Arrow Selected Paint</b>.</td> </tr>
+<tr> <th class="specalt ulcase">Target Arrow Shape</th>                <td class="">The shape of the arrow on the target node end of the edge.</td> </tr>
+<tr> <th class="spec ulcase">Target Arrow Size</th>                <td class="">....</td> </tr>
+<tr> <th class="specalt ulcase">Target Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Target Arrow Unselected Paint</b>.</td> </tr>
+<tr> <th class="spec ulcase">Tooltip</th>                        <td class="alt">The text of the tooltip that appears when a mouse hovers over the edge.</td> </tr>
+<tr> <th class="specalt ulcase">Transparency</th>                      <td class="">The opacity of the of the edge. Zero means totally transparent, and 255 means totally opaque.</td> </tr>
+<tr> <th class="spec ulcase">Visible</th>                        <td class="alt">Hides the edge if set to <i>false</i>. By default, this value is set to <i>true</i>.</td> </tr>
+<tr> <th class="specalt ulcase">Width</th>                             <td class="">The width of the edge line.</td> </tr>
 <tr> <th class="spec ulcase">Z Order</th>                           <td class="">The ordering for overlapping edges. Edges with a lower value will be underneath edges with a higher value. Default value of this will be ignored. The value will be used only when mapping function is defined.</td> </tr>
+<tr> <th class="specalt ulcase">Edge color to arrows (checkbox)</th>           <td class="alt">If <i>true</i> then <b>Color (Unselected)</b> is used for the whole edge, including its line and arrows. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Edge color to arrows</b>.</td> </tr>
 
 </tbody>
 </table>
