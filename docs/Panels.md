@@ -12,7 +12,7 @@ There are five panels that can be visible or hidden:
 
 Each panel contains multiple tabs. For example the **Control Panel** contains at a minimum the **Network**,
 **Style**, **Filter** and **Annotation** tabs. The **Table Panel** contains the **Node Table**, **Edge Table** and
-**Network Table** tabs. Analysis results from **Network Analyzer** (**Tools → Analyze Network**) 
+**Network Table** tabs. The **Node** and **Edge** tables contain any (data associated with nodes and edges)[Node_and_Edge_Column.html], and the **Network Table** contains network-wide associated data, for example URL or publication links. You can add relevant network-wide information to your network by adding columns in the **Network Table**. Analysis results from **Network Analyzer** (**Tools → Analyze Network**) 
 are shown in **Results Panel**. Installed apps may add additional tabs.
 
 <a id="managing_panels"> </a>
