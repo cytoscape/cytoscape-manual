@@ -1071,6 +1071,8 @@ The goal of this tutorial is to set a style for columns in the **Node Table**. T
 4.  In the mapping column of **Cell Background Paint** select the **gal80Rexp** column and select a default red-blue continuous mapping. This will color the background of the cells in the corresponding column in the **Node Table**.
 5.  In the default column of **Cell Font Face**, select **Arial-BoldMT**. 
 
+Note that as of Cytoscape 3.10, **Node Table** styles are saved as part of session files. 
+
 ![](_static/images/Styles/NodeTableStyle.png)
 
 
