@@ -92,7 +92,7 @@ details for a given style and is used to edit these details as well.
     create a legend for the selected style.
 
 -   The main area of the interface is composed of four tabs, for **Node**,
-    **Edge** and **Network** properties, as well as a **Table** tab for style options for the **Table Panel**, for setting mappings on individual columns in the **Node** and **Edge** tables. Note that style selections for the **Table Panel** are not saved as part of the current style.
+    **Edge** and **Network** properties, as well as a **Column** tab for setting mappings on individual columns in the **Node** and **Edge** tables of the "Table Panel". Note that as of Cytoscape 3.10, **Column** styles are saved as part of the current style. 
 
 -   Each tab contains a list of properties relevant to the
     current style, with a subset of properties shown by default. At the top of the list a **Properties** drop-down
@@ -115,7 +115,7 @@ details for a given style and is used to edit these details as well.
         selected to activate the **Bypass** column. Clicking on the
         **Bypass** column for selected node(s)/edge(s) allows you to
         enter a bypass for that property for selected node(s)/edge(s). 
-        There is no **Bypass** option for **Node Table** styles.
+        There is no **Bypass** option for **Column** styles.
 
 The **Default Value** is used when no mapping is defined for a property,
 or for nodes/edges not covered by a mapping for a particular property.
@@ -175,7 +175,7 @@ the **sampleData** directory. You can import the sample file from **File →
 Import → Styles from File...**.
 
 <a id="list_of_node_edge_and_network_properties"> </a>
-### List of Node, Edge, Network and Table Properties
+### List of Node, Edge, Network and Column Properties
 
 Cytoscape allows a wide variety of properties to be controlled. These
 are summarized in the tables below.
@@ -278,34 +278,34 @@ are summarized in the tables below.
 <colgroup> <col style="width:200px">                    <col style="width:500px"> </colgroup>
 <tbody>
 <tr><th>Network Properties</th>                        <th>Description</th></tr>
-<tr><th class="specalt ulcase">Annotation Selection</th><td class="">Whether or not annotations are selectable. If this is <i>false</i>, users cannot select annotations. Avoid changing this property directly through the Style panel.</td></tr>
-<tr><th class="spec ulcase">Background Paint</th>       <td class="">The background color of the network view.</td></tr>
-<tr><th class="specalt ulcase">Center X Location</th>   <td class="alt">The X location of network view center.</td></tr>
-<tr><th class="spec ulcase">Center Y Location</th>      <td class="">The Y location of network view center.</td></tr>
-<tr><th class="specalt ulcase">Edge Selection</th>         <td class="alt">Whether or not edges are selectable. If this is <i>false</i>, users cannot select edges. Avoid changing this property directly through the Style panel.</td></tr>
- <tr><th class="spec ulcase">Force High Detail</th>     <td class="alt">The Level of Detail policy for a network view. If this is <i>true</i>, the view elements will always be rendered in high detail. If <i>false</i>, Cytoscape will choose when it's best to lower the level of detail to improve performance.</td></tr>
-<tr><th class="specalt ulcase">Height</th>              <td class="alt">The height of the network view. It can be found in the drop-down menu <b>Properties → Size → Height</b>.</td></tr>
-<tr><th class="spec ulcase">Node Label Selection</th><td class="">Whether or not node labels can be selected and repositioned manually. Avoid changing this property directly through the Style panel.</td></tr>
-<tr><th class="specalt ulcase">Node Selection</th>      <td class="">Whether or not nodes are selectable. If this is <i>false</i>, users cannot select nodes. Avoid changing this property directly through the Style panel.</td></tr>
-<tr><th class="spec ulcase">Scale Factor</th>        <td class="alt">The zoom level of the network view.</td></tr>
-<tr><th class="specalt ulcase">Size</th>                   <td class="">The size (width and height) of the network view. It can be found in the drop-down menu <b>Properties → Size → Size</b>.</td></tr>
-<tr><th class="spec ulcase">Title</th>               <td class="alt">The title of the network view.</td></tr>
-<tr><th class="specalt ulcase">Width</th>                  <td class="">The width of the network view. It can be found in the drop-down menu <b>Properties → Size → Width</b>.</td></tr>
+<tr><th class="spec ulcase">Annotation Selection</th><td class="">Whether or not annotations are selectable. If this is <i>false</i>, users cannot select annotations. Avoid changing this property directly through the Style panel.</td></tr>
+<tr><th class="specalt ulcase">Background Paint</th>       <td class="">The background color of the network view.</td></tr>
+<tr><th class="spec ulcase">Center X Location</th>   <td class="alt">The X location of network view center.</td></tr>
+<tr><th class="specalt ulcase">Center Y Location</th>      <td class="">The Y location of network view center.</td></tr>
+<tr><th class="spec ulcase">Edge Selection</th>         <td class="alt">Whether or not edges are selectable. If this is <i>false</i>, users cannot select edges. Avoid changing this property directly through the Style panel.</td></tr>
+ <tr><th class="specalt ulcase">Force High Detail</th>     <td class="alt">The Level of Detail policy for a network view. If this is <i>true</i>, the view elements will always be rendered in high detail. If <i>false</i>, Cytoscape will choose when it's best to lower the level of detail to improve performance.</td></tr>
+<tr><th class="spec ulcase">Height</th>              <td class="alt">The height of the network view. It can be found in the drop-down menu <b>Properties → Size → Height</b>.</td></tr>
+<tr><th class="specalt ulcase">Node Label Selection</th><td class="">Whether or not node labels can be selected and repositioned manually. Avoid changing this property directly through the Style panel.</td></tr>
+<tr><th class="spec ulcase">Node Selection</th>      <td class="">Whether or not nodes are selectable. If this is <i>false</i>, users cannot select nodes. Avoid changing this property directly through the Style panel.</td></tr>
+<tr><th class="specalt ulcase">Scale Factor</th>        <td class="alt">The zoom level of the network view.</td></tr>
+<tr><th class="spec ulcase">Size</th>                   <td class="">The size (width and height) of the network view. It can be found in the drop-down menu <b>Properties → Size → Size</b>.</td></tr>
+<tr><th class="specalt ulcase">Title</th>               <td class="alt">The title of the network view.</td></tr>
+<tr><th class="spec ulcase">Width</th>                  <td class="">The width of the network view. It can be found in the drop-down menu <b>Properties → Size → Width</b>.</td></tr>
 </tbody>
 </table>
 <br>
 
 <table cellspacing="0" style="table-layout: fixed; width: 700px">
-<caption>Table Properties</caption>
+<caption>Column Properties</caption>
 <colgroup> <col style="width:200px">                    <col style="width:500px"> </colgroup>
 <tbody>
-<tr><th>Table Properties</th>                        <th>Description</th></tr>
-<tr><th class="spec ulcase">Cell Background Paint</th>  <td class="">The background color of the table cell.</td></tr>
-<tr><th class="specalt ulcase">Cell Font Face</th>   <td class="alt">The font used for the table cell text.</td></tr>
-<tr><th class="spec ulcase">Cell Font Size</th>      <td class="">The size of the font used for table cell text.</td></tr>
-<tr><th class="specalt ulcase">Cell Image/Sparkline</th><td class="">Adds an image or chart in the table cell.</td></tr>
-<tr><th class="spec ulcase">Cell Text Paint</th>         <td class="alt">The color of the text in the table cell.</td></tr>
-<tr><th class="specalt ulcase">Cell Tooltip</th>      <td class="">The tooltip showed on the table cell text.</td></tr>
+<tr><th>Column Properties</th>                        <th>Description</th></tr>
+<tr><th class="spec ulcase">Cell Background Paint</th>  <td class="">The background color of the table/column cell.</td></tr>
+<tr><th class="specalt ulcase">Cell Font Face</th>   <td class="alt">The font used for the table/column cell text.</td></tr>
+<tr><th class="spec ulcase">Cell Font Size</th>      <td class="">The size of the font used for table/column cell text.</td></tr>
+<tr><th class="specalt ulcase">Cell Image/Sparkline</th><td class="">Adds an image or chart in the table/column cell.</td></tr>
+<tr><th class="spec ulcase">Cell Text Paint</th>         <td class="alt">The color of the text in the table/column cell.</td></tr>
+<tr><th class="specalt ulcase">Cell Tooltip</th>      <td class="">The tooltip showed on the table/column cell text.</td></tr>
 </tbody>
 </table>
 <br>
@@ -1075,17 +1075,15 @@ charts from data stored in the Node tables.
         ![](_static/images/Styles/BarChartsNode_6_3.png)
     
 <a id="tutorial_7_creating_node_table_style"> </a>
-### Tutorial 7: Creating a Style for the Node Table
+### Tutorial 7: Creating a Style for the columns of the Node Table
 
-The goal of this tutorial is to set a style for columns in the **Node Table**. The **Table** tab of the **Style** interface offers default and mapping style options for a set of table cell attributes, for this tutorial we will use **Cell Background Paint** and **Cell Font Face**. There is no **Bypass** option for **Node Table** styles.
+The goal of this tutorial is to set a style for columns in the **Node Table**. The **Column** tab of the **Style** interface offers default and mapping style options for a set of table cell attributes, for this tutorial we will use **Cell Background Paint** and **Cell Font Face**. There is no **Bypass** option for **Column** styles.
 
 1.  Open the **Yeast Perturbation** sample session from **View → Show Starter Panel**.
-2.  At the top of the **Table** tab of the **Style** panel, select **Default Node** in the **Table** column.
+2.  At the top of the **Column** tab of the **Style** panel, click the plus sign and select **Node** in the **Table** column.
 3.  Next, select the data column you want to add the style to under the **Column** drop-down, in this case the **gal80Rexp** column.
 4.  In the mapping column of **Cell Background Paint** select the **gal80Rexp** column and select a default red-blue continuous mapping. This will color the background of the cells in the corresponding column in the **Node Table**.
 5.  In the default column of **Cell Font Face**, select **Arial-BoldMT**. 
-
-Note that as of Cytoscape 3.10, **Node Table** styles are saved as part of session files. 
 
 ![](_static/images/Styles/NodeTableStyle.png)
 
