@@ -252,7 +252,7 @@ are summarized in the tables below.
 <tr> <th class="specalt ulcase">Paint</th>                          <td class="alt">The color of the whole edge (including the stroke and arrows) when it is selected or unselected. This property can be added to the list from the drop-down menu <b>Properties → Paint → Paint</b>.</td> </tr>
 <tr> <th class="spec ulcase">Source Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the source node end of the edge. It can be added to the list from the drop-down menu <b>Properties → Paint → Color (Selected) → Source Arrow Selected Paint</b>.</td> </tr>
 <tr> <th class="specalt ulcase">Source Arrow Shape</th>             <td class="alt">The shape of the arrow on the source node end of the edge.</td> </tr>
-<tr> <th class="spec ulcase">Source Arrow Size</th>             <td class="alt">...</td> </tr>
+<tr> <th class="spec ulcase">Source Arrow Size</th>             <td class="alt">The size of the edge source arrow.</td> </tr>
 <tr> <th class="specalt ulcase">Source Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the source node end of the edge. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Source Arrow Unselected Paint</b>.</td> </tr>
 <tr> <th class="spec ulcase">Stacking</th>                          <td class="">Determines how edges are visualized when there are multiple edges between a pair of nodes.</td> </tr>
 <tr> <th class="specalt ulcase">Stacking Density</th>               <td class="alt">The spacing between edges when there are multiple edges between a pair of nodes.</td> </tr>
@@ -260,7 +260,7 @@ are summarized in the tables below.
 <tr> <th class="specalt ulcase">Stroke Color (Unselected)</th>         <td class="">The color of the edge line. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Stroke Color (Unselected)</b>.</td> </tr>
 <tr> <th class="spec ulcase">Target Arrow Selected Paint</th>    <td class="alt">The selected color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties → Paint → Color (Selected) → Target Arrow Selected Paint</b>.</td> </tr>
 <tr> <th class="specalt ulcase">Target Arrow Shape</th>                <td class="">The shape of the arrow on the target node end of the edge.</td> </tr>
-<tr> <th class="spec ulcase">Target Arrow Size</th>                <td class="">....</td> </tr>
+<tr> <th class="spec ulcase">Target Arrow Size</th>                <td class="">The size of the edge target arrow.</td> </tr>
 <tr> <th class="specalt ulcase">Target Arrow Unselected Paint</th>  <td class="alt">The color of the arrow on the target node end of the edge. It can be found in the drop-down menu <b>Properties → Paint → Color (Unselected) → Target Arrow Unselected Paint</b>.</td> </tr>
 <tr> <th class="spec ulcase">Tooltip</th>                        <td class="alt">The text of the tooltip that appears when a mouse hovers over the edge.</td> </tr>
 <tr> <th class="specalt ulcase">Transparency</th>                      <td class="">The opacity of the of the edge. Zero means totally transparent, and 255 means totally opaque.</td> </tr>
@@ -278,19 +278,19 @@ are summarized in the tables below.
 <colgroup> <col style="width:200px">                    <col style="width:500px"> </colgroup>
 <tbody>
 <tr><th>Network Properties</th>                        <th>Description</th></tr>
+<tr><th class="specalt ulcase">Annotation Selection</th><td class="">Whether or not annotations are selectable. If this is <i>false</i>, users cannot select annotations. Avoid changing this property directly through the Style panel.</td></tr>
 <tr><th class="spec ulcase">Background Paint</th>       <td class="">The background color of the network view.</td></tr>
 <tr><th class="specalt ulcase">Center X Location</th>   <td class="alt">The X location of network view center.</td></tr>
 <tr><th class="spec ulcase">Center Y Location</th>      <td class="">The Y location of network view center.</td></tr>
-<tr><th class="specalt ulcase">Annotation Selection</th><td class="">Whether or not annotations are selectable. If this is <i>false</i>, users cannot select annotations. Avoid changing this property directly through the Style panel.</td></tr>
-<tr><th class="spec ulcase">Edge Selection</th>         <td class="alt">Whether or not edges are selectable. If this is <i>false</i>, users cannot select edges. Avoid changing this property directly through the Style panel.</td></tr>
-<tr><th class="specalt ulcase">Node Selection</th>      <td class="">Whether or not nodes are selectable. If this is <i>false</i>, users cannot select nodes. Avoid changing this property directly through the Style panel.</td></tr>
-<tr><th class="specalt ulcase">Node Label Selection</th><td class="">Whether or not node labels can be selected and repositioned manually. Avoid changing this property directly through the Style panel.</td></tr>
+<tr><th class="specalt ulcase">Edge Selection</th>         <td class="alt">Whether or not edges are selectable. If this is <i>false</i>, users cannot select edges. Avoid changing this property directly through the Style panel.</td></tr>
  <tr><th class="spec ulcase">Force High Detail</th>     <td class="alt">The Level of Detail policy for a network view. If this is <i>true</i>, the view elements will always be rendered in high detail. If <i>false</i>, Cytoscape will choose when it's best to lower the level of detail to improve performance.</td></tr>
-<tr><th class="specalt ulcase">Scale Factor</th>        <td class="alt">The zoom level of the network view.</td></tr>
-<tr><th class="spec ulcase">Size</th>                   <td class="">The size (width and height) of the network view. It can be found in the drop-down menu <b>Properties → Size → Size</b>.</td></tr>
 <tr><th class="specalt ulcase">Height</th>              <td class="alt">The height of the network view. It can be found in the drop-down menu <b>Properties → Size → Height</b>.</td></tr>
-<tr><th class="spec ulcase">Width</th>                  <td class="">The width of the network view. It can be found in the drop-down menu <b>Properties → Size → Width</b>.</td></tr>
-<tr><th class="specalt ulcase">Title</th>               <td class="alt">The title of the network view.</td></tr>
+<tr><th class="spec ulcase">Node Label Selection</th><td class="">Whether or not node labels can be selected and repositioned manually. Avoid changing this property directly through the Style panel.</td></tr>
+<tr><th class="specalt ulcase">Node Selection</th>      <td class="">Whether or not nodes are selectable. If this is <i>false</i>, users cannot select nodes. Avoid changing this property directly through the Style panel.</td></tr>
+<tr><th class="spec ulcase">Scale Factor</th>        <td class="alt">The zoom level of the network view.</td></tr>
+<tr><th class="specalt ulcase">Size</th>                   <td class="">The size (width and height) of the network view. It can be found in the drop-down menu <b>Properties → Size → Size</b>.</td></tr>
+<tr><th class="spec ulcase">Title</th>               <td class="alt">The title of the network view.</td></tr>
+<tr><th class="specalt ulcase">Width</th>                  <td class="">The width of the network view. It can be found in the drop-down menu <b>Properties → Size → Width</b>.</td></tr>
 </tbody>
 </table>
 <br>
