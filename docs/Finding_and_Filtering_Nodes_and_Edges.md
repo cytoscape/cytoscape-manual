@@ -64,9 +64,11 @@ regardless of which **Selection Mode** for mouse click or drag-selection.
 <br>
 
 **Select → Mouse Drag Selects** includes the same options for **Selection Mode** 
-for mouse click or drag-selection as the current **Selection Mode** in the [Network
+for mouse click- or drag-selection as the current **Selection Mode** in the [Network
     View Tools](Quick_Tour_of_Cytoscape.html#network-view-tools).
-    
+
+**Select → Nodes → Largest subnetwork** selects the largest connected component in the current network. This operation is useful when working with a partitioned network consisting of two or more distinctly connected graphs. After selecting the largest subnetwork, a new network can easily be created from the selection. 
+
 **Select → Nodes → From ID List File...** selects nodes based on node
 identifiers found in a specified file. The file format is simply one
 node id per line:
