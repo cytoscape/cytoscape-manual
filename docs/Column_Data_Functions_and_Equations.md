@@ -10,8 +10,6 @@
 Columns may contain formulas that are evaluated on-demand and result
 in a value. 
 
-
-
 ### Syntax
 
 #### Basic Syntax
@@ -116,11 +114,13 @@ Example: **IF($x = $y, "equal", "different")**
 
 Currently we support the following functions:
 
-#### Cytoscape-specific functions
+#### Cytoscape-specific network functions
 
 -   Degree -- the degree of a node, meaning how many edges connect to it.
 
 -   InDegree -- the indegree of a node.
+
+-   IsDirected -- Returns true if this edge is directed, false otherwise.
 
 -   OutDegree -- the outdegree of a node.
 
@@ -140,15 +140,19 @@ Currently we support the following functions:
 
 -   Average -- Returns the average of a group of numbers.
 
+-   Combin -- Returns number of combinations of n objects, with k chosen at any one time.
+
 -   Cos -- Returns the cosine of an angle given in radians.
 
 -   Cosh -- Returns the hyperbolic sine of its argument.
 
--   Count -- Returns the number of numeric values in a list.
-
 -   Degrees -- Returns its argument converted from radians to degrees.
 
 -   Exp -- Returns e raised to a specified number.
+
+-   GeoMean -- the geometric mean of a set of numbers.
+
+-   HarMean -- the harmonic mean of a set of numbers.
 
 -   Ln -- Returns the natural logarithm of a number.
 
@@ -162,11 +166,22 @@ Currently we support the following functions:
 
 -   Mod -- Calculates the modulus of a number.
 
+-   Mode -- the mode of a set of numbers.
+
+-   NormDist -- Returns the pdf or CDF of the normal distribution.
+
+-   Permut -- Returns the number of permutations for a given number
+    of objects.
+
 -   Pi -- Returns an approximation of the value of p.
+
+-   Product -- Returns the product the given numbers.
 
 -   Radians -- Returns its argument converted from degrees to radians.
 
 -   Round -- Rounds a number to a specified number of decimal places.
+
+-   Sign -- Implements the signum function. Returns -1,0,+1 based on the number being negative, zero, or positive.
 
 -   Sin -- Returns the sine of an angle given in radians.
 
@@ -174,13 +189,19 @@ Currently we support the following functions:
 
 -   Sqrt -- Calculates the square root of a number.
 
+-   StDev - Returns the sample standard deviation of a list of numbers.
+
+-   Sum -- Returns the sum of all of its arguments.
+
 -   Tan -- returns the tangent of its argument in radians.
 
 -   Tanh -- returns the hyperbolic tangent of its argument in radians.
 
 -   Trunc -- Truncates a number.
 
-#### String Functions
+-   Var -- sample variance.
+
+#### Text Functions
 
 -   Concatenate -- Concatenates two or more pieces of text.
 
@@ -188,11 +209,15 @@ Currently we support the following functions:
 
 -   Len -- Returns the length of a string.
 
+-   Listtostring --  Converts a list to a string, given a separator.
+
 -   Lower -- Converts a string to lowercase.
 
 -   Mid -- Selects a substring of some text.
 
 -   Right -- Returns a suffix of a string.
+
+-   Split -- Splits a text string into substrings around matches of a delimiter. Returns a list of strings.
 
 -   Substitute -- Replaces some text with other text.
 
@@ -203,56 +228,59 @@ Currently we support the following functions:
 
 -   Value -- Converts a string to a number.
 
+#### List Functions
+
+-   Blist -- Returns a list of boolean values.
+
+-   Count -- Returns the number of numeric values in a list.
+
+-   First -- Returns the first entry in a list.
+
+-   Flist -- Returns a list of floating point numbers.
+
+-   Ilist -- Returns a list of integer numbers.
+
+-   Largest -- Returns the kth largest element of a list of numbers.
+
+-   Last -- Returns the last entry in a list.
+
+-   Len -- Returns the length of a string (ie number of characters in the string), or the length of a list.
+
+-   Nth -- Returns the n-th entry in a list.
+
+-   Slist -- Returns a list of strings.
+
 #### Logical/Boolean Functions
 
 -   And -- Returns the logical conjunction of any number of
     boolean values.
+    
+-   If -- Returns one of two alternatives based on a boolean value.
 
 -   Not -- Returns the logical negation of a boolean value.
 
 -   Or -- Returns the logical disjunction of any number of
     boolean values.
 
-#### List Functions
-
--   First -- Returns the first entry in a list.
-
--   Last -- Returns the last entry in a list.
-
--   Nth -- Returns the n-th entry in a list.
-
-#### Statistical Functions
-
--   Largest -- the kth largest value in a list.
-
--   GeoMean -- the geometric mean of a set of numbers.
-
--   HarMean -- the harmonic mean of a set of numbers.
-
--   Mode -- the mode of a set of numbers.
-
--   NormDist -- Returns the pdf or CDF of the normal distribution.
-
--   Permut -- Returns the number of permutations for a given number
-    of objects.
-
--   StDev - sample standard deviation.
-
--   Var -- sample variance.
-
-#### Miscellaneous Functions
-
--   Combin - Returns the number of combinations for a given number
-    of objects.
-
--   If -- Returns one of two alternatives based on a boolean value.
-
--   ListToString -- Returns a string representation of a list.
+#### Date/Time Functions
 
 -   Now -- Returns a string representation of the current date and time.
 
 -   Today -- returns a string representation of the current date.
 
+#### Other Functions
+
+-   Booleantablecell -- Returns the value in the column for the specified SUID
+
+-   Doubletablecell -- Returns the value in the column for the specified SUID
+
+-   Error -- Throws an exception at runtime.
+
+-   Integertablecell -- Returns the value in the column for the specified SUID
+
+-   Longtablecell -- Returns the value in the column for the specified SUID
+
+-   Stringtablecell -- Returns the value in the column for the specified SUID
 
 <a id="the_formula_builder"> </a>
 ## The Formula Builder
