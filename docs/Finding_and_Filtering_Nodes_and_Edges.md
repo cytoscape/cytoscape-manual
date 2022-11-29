@@ -59,6 +59,9 @@ regardless of which **Selection Mode** for mouse click or drag-selection.
 <tr> <td td class="alt"><b>Option-I</b></td>   <td class="alt">Invert edge selection</td>
 <tr> <td td class="alt"><b>Cmd-Option-E</b></td>   <td class="alt">Select Adjacent Edges</td> 
 <tr> <td td class="alt"><b>Cmd-Option-N</b></td>   <td class="alt">Select Nodes by Selected Edges</td> 
+<tr> <td td class="alt"><b>Cmd-Option-N</b></td>   <td class="alt">Select Nodes by Selected Edges</td> 
+<tr> <td td class="alt"><b>Shift-Drag or Control-Drag (Command-Drag on Mac)</b></td>    <td class="alt">Drag Select Nodes by Rectangular Selection</td></tr>
+<tr> <td td class="alt"><b>Option-Shift-Drag</b></td>    <td class="alt">Drag Select Nodes by Lasso Selection</td></tr>
 </tbody>
 </table>
 <br>

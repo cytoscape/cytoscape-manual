@@ -303,7 +303,7 @@ At the bottom of the Network View Window is a set of network tools:
 
 -   **Toggle Annotation Selection** allows you to turn off/on annotation selection. It is turned off by default.
 
--   **Toggle Node Label Selection** allows you to turn off/on node label selection. It is turned off by default.
+-   **Toggle Label Selection** allows you to turn off/on node/edge label selection. It is turned off by default.
 
 -   **Hide Navigator** lets you hide the Navigator ("bird's eye view").
 
