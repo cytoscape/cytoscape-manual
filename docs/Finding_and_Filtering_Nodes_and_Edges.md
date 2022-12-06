@@ -89,7 +89,7 @@ node id per line:
 
 A histogram shows the distribution of a variable in bins over a range. It shows the user where the most common values are and whether the values are distributed uniformly (flat line), normally (the bell curve) or have strong modes (hills and valleys). This can be particularly useful for finding pockets of the data that express similar ranges, such as positively and negatively expressed genes.
 
-To create a histogram using **cyChart**, open the right-click on the header of a numeric column in the **Node** or **Edge Table**, and select the command **Plot Histogram…**
+To create a histogram using **cyChart**, open the right-click on the header of a numeric column in the **Node** or **Edge Table**, and select the command **Plot Histogram…**. CyChart options are also available in the **Tools** menu. 
 
 ![](_static/images/Filters/plotHistogram.png)
 

@@ -88,11 +88,11 @@ following files and directories:
 <table cellspacing="0">
 <caption>Cytoscape files and directories</caption>
 <tr> <th class="">Directory / File</th>                              <th class="">Description</th>                                                                       </tr>
-<tr> <th class="spec ulcase">p/Cytoscape_v3.9.0</th>                        <td class="">Cytoscape program files, startup scripts, and default location for session files</td> </tr>
-<tr> <th class="specalt">p/Cytoscape_v3.9.0/gen_vmoptions.sh</th> <td class="alt">Cytoscape memory configuration settings</td>                                       </tr>
-<tr> <th class="spec">p/Cytoscape_v3.9.0/sampleData</th>             <td class="">Preset networks as described in the embedded README.txt file</td>                     </tr>
-<tr> <th class="specalt">p/Cytoscape_v3.9.0/framework</th>           <td class="alt">Cytoscape program files</td>                                                       </tr>
-<tr> <th class="spec">p/Cytoscape_v3.9.0/apps</th>                   <td class="">Cytoscape core app program files</td>                                                 </tr>
+<tr> <th class="spec ulcase">p/Cytoscape_v3.10.0</th>                        <td class="">Cytoscape program files, startup scripts, and default location for session files</td> </tr>
+<tr> <th class="specalt">p/Cytoscape_v3.10.0/gen_vmoptions.sh</th> <td class="alt">Cytoscape memory configuration settings</td>                                       </tr>
+<tr> <th class="spec">p/Cytoscape_v3.10.0/sampleData</th>             <td class="">Preset networks as described in the embedded README.txt file</td>                     </tr>
+<tr> <th class="specalt">p/Cytoscape_v3.10.0/framework</th>           <td class="alt">Cytoscape program files</td>                                                       </tr>
+<tr> <th class="spec">p/Cytoscape_v3.10.0/apps</th>                   <td class="">Cytoscape core app program files</td>                                                 </tr>
 <tr> <th class="specalt">u/CytoscapeConfiguration</th>               <td class="alt">Cytoscape properties and program cache files</td>                                  </tr>
 <tr> <th class="spec">u/CytoscapeConfiguration/cytoscape3.props</th> <td class="">Cytoscape configuration settings</td>                                                 </tr>
 </table>

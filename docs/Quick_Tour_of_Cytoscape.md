@@ -165,7 +165,7 @@ It also provides the control of other view-related functionality.
 The **Select** menu contains different options for selecting nodes and
 edges.
 
-![](_static/images/Quick_Tour/SelectMenu.png)
+![](_static/images/Quick_Tour/SelectMenu310.png)
 
 <a id="layout"> </a>
 ### Layout
@@ -199,7 +199,7 @@ similar function.
 <a id="tools"> </a>
 ### Tools
 
-The **Tools** menu contains advanced features like **cyChart**, **[Analyze Network](Network_Analyzer.html#networkanalyzer)**, **[Open web page](CyBrowser.html)**, **[Merge](Merge.html#merge)**, **[Execute Command File...](Command_Tool.html)**, **Job Status Monitor**, **Run Script File...** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.html#diffusion)**.
+The **Tools** menu contains advanced features like **[Enrichment Table](EnrichmentTable.html)**, **[cyChart](Finding_and_Filtering_Nodes_and_Edges.html#cychart)**, **[Analyze Network](Network_Analyzer.html#networkanalyzer)**, **[Open web page](CyBrowser.html)**, **[Merge](Merge.html#merge)**, **[Execute Command File...](Command_Tool.html)**, **Job Status Monitor**, **Run Script File...** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.html#diffusion)**.
 
 **Cytoscape Web Browser** allows for viewing any html page directly in Cytoscape. The web browser can be opened in a separate window or can be launched in the **Results Panel**. 
 
@@ -213,7 +213,7 @@ It also provides direct access to a **Tour of Cytoscape**, as well as a full lis
 of Cytoscape tutorials. Tutorial content opens automatically in the **Cytoscape Web Browser**. 
 Video demos are also linked to direclty from the Help menu. 
 
-![](_static/images/Quick_Tour/HelpMenu.png)
+![](_static/images/Quick_Tour/HelpMenu310.png)
 
 The **Citations** option displays the main literature citation for
 Cytoscape, as well as a list of literature citations for installed apps.
@@ -285,7 +285,7 @@ When you have detached network view windows, you can arrange them by selecting o
 
 At the bottom of the Network View Window is a set of network tools:
 
-![](_static/images/Quick_Tour/NetworkTools.png)
+![](_static/images/Quick_Tour/NetworkTools310.png)
 
 -   **Show Grid** will arrange all loaded networks as a grid.
 
