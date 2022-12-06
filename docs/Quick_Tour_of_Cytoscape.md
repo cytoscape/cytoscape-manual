@@ -203,7 +203,7 @@ The **Tools** menu contains advanced features like **[Enrichment Table](Enrichme
 
 **Cytoscape Web Browser** allows for viewing any html page directly in Cytoscape. The web browser can be opened in a separate window or can be launched in the **Results Panel**. 
 
-![](_static/images/Quick_Tour/ToolsMenu.png)
+![](_static/images/Quick_Tour/ToolsMenu310.png)
 
 <a id="help"> </a>
 ### Help
