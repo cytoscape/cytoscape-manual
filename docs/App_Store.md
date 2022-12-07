@@ -1,5 +1,5 @@
-<a id="app_manager"> </a>
-# App Manager
+<a id="app_Store"> </a>
+# App Store
 
 <a id="what_are_apps"> </a>
 ## What are Apps?
@@ -41,18 +41,18 @@ There are four ways you can find apps:
 
 -   If you want to install a collection of apps for a specific use case,
     click on the **collections** folder. This will display the available
-    collections in the middle pane. A collection is simply an app that 
+    collections in the middle pane. A collection is simply an app that
     installs other apps for a specific use case.
-    
+
 -   If you have a general idea of what sort of app you're looking for,
     double-click on the **apps by tag** folder, then click on one of the
     tags that interests you. The apps with that tag are listed in the
     middle pane.
 
-When you click on an app (or collection) in the middle panel, the 
-**App Manager** shows its short description and icon in the right panel. 
-If you want more information, click the **View on App Store** 
-button on the bottom-right. If you want to go ahead and install, 
+When you click on an app (or collection) in the middle panel, the
+**App Manager** shows its short description and icon in the right panel.
+If you want more information, click the **View on App Store**
+button on the bottom-right. If you want to go ahead and install,
 click the **Install** button.
 
 If you've downloaded an app to your computer, you can install it by
