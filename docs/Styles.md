@@ -1244,18 +1244,19 @@ An example of using **Enhanced Graphics** to add a second label to nodes is show
 ![](_static/images/Styles/EnhancedGraphicsLabel.png)
 
 **label**
+
 This chart type provides a mechanism to add text labels to nodes that have more display options than the simple labels provided by Cytoscape visual properties. Arguments:
--   color: Specify the color of the label
--   attribute: The attribute to get the label from.
--   background: A boolean option that causes a translucent background to be painted behind the label and on top of the network.
--   bgcolor: The color of the background.
--   dropShadow: Add a drop shadow behind the label.
--   label: The label to paint.
--   labelfont: The font family to use for the labels
--   labelsize: The font size to use for the labels
--   labelstyle: The font style to use for the labels
--   outline: Outline the font.
--   outlineColor: The color of the outline.
+-   **color**: Specify the color of the label
+-   **attribute**: The attribute to get the label from.
+-   **background**: A boolean option that causes a translucent background to be painted behind the label and on top of the network.
+-   **bgcolor**: The color of the background.
+-   **dropShadow**: Add a drop shadow behind the label.
+-   **label**: The label to paint.
+-   **labelfont**: The font family to use for the labels
+-   **labelsize**: The font size to use for the labels
+-   **labelstyle**: The font style to use for the labels
+-   **outline**: Outline the font.
+-   **outlineColor**: The color of the outline.
 
 For a more detailed description of the workflow for adding **Enhanced Graphics**, refer to the <a href="https://cytoscape.org/cytoscape-tutorials/protocols/custom-enhanced-graphics-style/#/">tutorial</a>.
 
