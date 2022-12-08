@@ -1228,6 +1228,37 @@ column values to discrete properties, such as fonts, shapes, or line
 styles. To edit a value for a specific region, double-click the icon on
 the track.
 
+<a id="enhanced_graphics"> </a>
+### Enhanced Graphics
+
+**Enhanced Graphics** provides support for a set of visual style passthrough mappings for use with **Node Custom Graphics**. These mappings are all of the form:
+
+<code>type: argument1="val1" argument2="val2" </code>
+
+where type is the type of chart or gradient and the arguments are the instructions for constructing that chart or graphic. 
+
+To use **Enhanced Graphics**, first add the desired mapping to a new column in the **Node Table**. Then, create a **Style** for one of the **Custom Paint** properties using the new column in a **Passthrough Mapping**. This will add your custom defined chart or graphic to the nodes.
+
+An example of using **Enhanced Graphics** to add a second label to nodes is shown below. In this case, the yeast ORF ID is added as a secondary node label, and offset to the upper right of the node. For the full list of supported graphics types can be found <a href="http://www.rbvi.ucsf.edu/cytoscape/utilities3/enhancedcg.shtml">here</a>.
+
+![](_static/images/Styles/EnhancedGraphicsLabel.png)
+
+**label**
+This chart type provides a mechanism to add text labels to nodes that have more display options than the simple labels provided by Cytoscape visual properties. Arguments:
+-   color: Specify the color of the label
+-   attribute: The attribute to get the label from.
+-   background: A boolean option that causes a translucent background to be painted behind the label and on top of the network.
+-   bgcolor: The color of the background.
+-   dropShadow: Add a drop shadow behind the label.
+-   label: The label to paint.
+-   labelfont: The font family to use for the labels
+-   labelsize: The font size to use for the labels
+-   labelstyle: The font style to use for the labels
+-   outline: Outline the font.
+-   outlineColor: The color of the outline.
+
+For a more detailed description of the workflow for adding **Enhanced Graphics**, refer to the <a href="https://cytoscape.org/cytoscape-tutorials/protocols/custom-enhanced-graphics-style/#/">tutorial</a>.
+
 <a id="managing_styles"> </a>
 ## Managing Styles
 
