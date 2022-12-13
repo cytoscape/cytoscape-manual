@@ -22,11 +22,11 @@ additional drivers for your device.
 
 <a id="cytoscape_gpu_configuration"> </a>
 ## Setup & Configuration
-The CyCL core app (should be already part of your Cytoscape distribution) 
-lets you see the available OpenCL devices and configure your preferred device for OpenCL computation.
-To see the device list and configure your preferred device, 
+ 
+You can see available OpenCL devices and configure your preferred device for OpenCL, 
 select **Edit → Preferences → OpenCL Settings...** 
 
+To see the device list 
 ![](_static/images/Cytoscape_and_OpenCL_GPU/open_cl_settings.png)
 
 In most cases, you want your preferred device to be your GPU (if you have one).
@@ -50,16 +50,6 @@ Cytoscape may require restarting to be able to see the device.
 ## OpenCL/GPU Troubleshooting
 
 If any OpenCL app is not working, here are some of the common causes:
-
-### CyCL core app is not installed or not initialized property
-
-**Diagnosis:** check if you can see the **Edit → Preferences → OpenCL Settings...** menu item.
-If not, this is a bad sign.
-
-**Treatment:** Check the CytoscapeConfiguration directory, 
-if it contains a file called `disable-opencl.dummy` remove it and start Cytoscape 
-from the system console (using cytoscape.bat or cytoscape.sh). 
-Check console output for additional information. 
 
 ### No OpenCL devices are available
 
