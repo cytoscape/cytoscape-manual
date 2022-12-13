@@ -282,6 +282,18 @@ Currently we support the following functions:
 
 -   Stringtablecell -- Returns the value in the column for the specified SUID
 
+### Map Source and Target Nodes
+
+By default, Cytoscape adds columns for source and target node to the **Edge Table**, using equations. By default, this mapping happens automatically when a network is opened, and the **shared name** column is used for the mapping. However, the selection of which **Node Table** column to use is customizable. 
+
+To update the mapping, go to **Apps → mapSourceAndTarget**. It is possible to select more than one **Node Table** column for the mapping, resulting in multiple sets of source and target node columns in the **Edge Table**.
+
+To turn off automatic mapping, go to **Edit → Properties → Cytoscape Preferences** and then select **mapSourceAndTarget** from the drop-down. Change the valule of the **autoMap** property to **FALSE**.
+
+The screenshot below shows the source and target node column mappings, using the node column **COMMON**. 
+
+![](_static/images/Column_Formulas/mapSourceAndTarget.png)
+
 <a id="the_formula_builder"> </a>
 ## The Formula Builder
 
