@@ -24,9 +24,8 @@ additional drivers for your device.
 ## Setup & Configuration
  
 You can see available OpenCL devices and configure your preferred device for OpenCL, 
-select **Edit → Preferences → OpenCL Settings...** 
+select **Edit → Preferences → OpenCL Settings...**:
 
-To see the device list 
 ![](_static/images/Cytoscape_and_OpenCL_GPU/open_cl_settings.png)
 
 In most cases, you want your preferred device to be your GPU (if you have one).
