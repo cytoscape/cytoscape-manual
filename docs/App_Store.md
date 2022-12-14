@@ -70,7 +70,7 @@ Disable an app. This temporarily disables the app. The app stays on your compute
 ### Uninstall Apps
 Uninstall an app. This deletes the app from your computer. If you want to reinstall the app, you will have to find it again in the Install Apps tab or find it in the App Store site and reinstall it from there.
 
-![](_static/images/AppStore/core.png) 
+![](_static/images/AppStore/coreapps.png) 
 
 ### Core Apps
 Core apps provide essential functionalities of Cytoscape. They are so important that we seperate core apps from other apps. Core apps cannot be disabled or deleted. Core apps tab is folded by default. If there is an update for core app, the tab will be expanded.
