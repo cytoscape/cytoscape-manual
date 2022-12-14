@@ -62,7 +62,7 @@ App Store → Install Apps From File**. Note that only **.jar** files can be ins
 ### Get app information
 You can see a list of all apps you have installed in app store tab. When you mouse over an app in the list, you'll see a brief description of the app.
 If you want more information, click the app name and it will redirect you to the app page.
-![](_static/images/AppStore/tooltips.png) 
+![](_static/images/AppStore/tips.png) 
 
 ### Enable/Disable Apps
 Disable an app. This temporarily disables the app. The app stays on your computer, but Cytoscape does not load it. You can enable the app by first selecting the disabled app in the list, then click Enable.
