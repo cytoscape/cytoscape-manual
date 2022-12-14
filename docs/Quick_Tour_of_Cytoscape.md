@@ -182,8 +182,8 @@ automatically lay a network out.
 <a id="apps"> </a>
 ### Apps
 
-The **Apps** menu gives you access to the **App Manager** (**Apps → App
-Manager**) for managing (install/update/delete) your apps and may have
+The **Apps** menu gives you access to the **App Store** (**Apps → App
+Store**) for managing (install/update/delete) your apps and may have
 options added by apps that have been installed. Depending on which apps
 are loaded, the apps that you see may be different than what appear
 here. The below picture shows a Cytoscape installation without installed
