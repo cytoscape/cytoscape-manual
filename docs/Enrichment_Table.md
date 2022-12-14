@@ -18,6 +18,8 @@ Enrichment process requires two mandatory parameters:
 - Organism: Organism associated with the query genes
 - Gene ID: Node table column containing the gene symbols
 
+![](_static/images/Enrichment_Table/species.png)
+
 Both these parameters are predicted by enrichment table app if enough information is available.
 
 - The application on startup predicts the possible ***organism*** by processing the data from the network in columns [`species`,`organism`,`IntAct::species`]
@@ -34,6 +36,9 @@ There are three ways you can perform enrichment analysis:
 - In the command line, enter `enrichment analysis`, and click enter.
 - Click the Perform Gene Enrichment button with icon of reload in the enrichment table panel.
 
+![](_static/images/Enrichment_Table/run.png)
+
+
 Now you get the table containing enrichment results. The results are sorted according to the p-value in a increasing order by default.
 
 <a id="filter"> </a>
@@ -43,6 +48,9 @@ There are couple of parameters based on which you can filter the table by catego
 - Click the Filter Enrichment Table button with filter icon to access the filters.
 - Select Gene Ontology Biological Process in the categories. Click ok. You will see a filtered table, along with number of current rows a label above table.
 - Open to filter panel again and check remove redundant terms. Click ok to see terms consisting of both filters applied.
+
+![](_static/images/Enrichment_Table/filter.png)
+
 <a id="ring"> </a>
 ## Ring Charts
 Ring charts provide ability visualise top-5 terms in the network using split-charts. You can change the number of terms and type of chart in chart setting panel.
@@ -51,6 +59,9 @@ Ring charts provide ability visualise top-5 terms in the network using split-cha
 - To remove the chart, click on Reset Charts to remove charts.
 - To change charts setting, go to Visit the network specific chart settings.
 
+![](_static/images/Enrichment_Table/ring.png)
+
+
 <a id="term"> </a>
 ## Term Selection
 Enrichment Table shows results based on nodes selected in the network. If no nodes are selected, all terms are shown in the table. On multiple node selection, terms consisting of all the selected nodes are shown. Similarly, to visualize one or more enrichment term, select the rows in the table and the corresponding nodes will get highlighted.
@@ -58,6 +69,9 @@ Enrichment Table shows results based on nodes selected in the network. If no nod
 <a id="optional"> </a>
 ## Optional Settings
 In addition to Organism and Gene ID column, there are other parameters that can be changed to obtain a more precise enrichment results. The Options are available in the Network specific enrichment panel settings section which can be accessed by clicking the gear icon. For example, you can remove redundant terms in the table by selecting the appropriate redundancy (Jaccard) cutoff, the default is 0.5.
+
+![](_static/images/Enrichment_Table/gear.png)
+
 
 <a id="map"> </a>
 ## Enrichment Map Generation
@@ -70,3 +84,5 @@ Enrichment Table App provides functionality to export the data:
 - Select appropriate location and file name and save the table.
 
 The default file extension is .**csv**.
+
+![](_static/images/Enrichment_Table/export.png)
