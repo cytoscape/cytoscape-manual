@@ -15,6 +15,18 @@ If you're familiar with Cytoscape 2.x, you probably know that Cytoscape
 apps were called **plugins**. Starting in Cytoscape 3.0, we are calling
 them **apps**. Cytoscape 2.x plugins cannot be used in Cytoscape 3.x.
 
+<a id="accessing_apps"> </a>
+## Accessing App Store
+There are three ways you can access app store in Cytoscape:
+- To access app store within Cytoscape, use the pull down menu in control panel.
+  
+- To access app store within Cytoscape, go to the side bar and click **App Store** tab.
+![](_static/images/AppStore/gui.png)
+
+- To access app store within Cytoscape, go to the menu bar and choose **Apps →
+  App Store → Show App Store**.
+![](_static/images/AppStore/menu.png)
+
 <a id="installing_apps"> </a>
 ## Installing Apps
 
@@ -23,56 +35,27 @@ or within Cytoscape. In this section, we'll talk about installing apps
 through Cytoscape. You can learn how to install apps through the App
 Store [here](http://apps.cytoscape.org/help/getstarted_app_install).
 
-To install apps within Cytoscape, go to the menu bar and choose **Apps →
-App Manager...**. At the top of the **App Manager** window, make sure you
-have the **Install Apps** tab selected.
-
-
-There are four ways you can find apps:
+There are three ways you can find apps:
 
 -   If you know the name of an app you're looking for, enter it in the
-    **Search** field. The **App Manager** will list the apps whose names or
-    descriptions match the **Search** field in the middle panel.
+    **Search** field, and click the search button. The **App Store** will list the apps whose names or
+    descriptions match the **Search** field in the web page.
 
 -   If you're not sure what sort of app you need and want to see everything,
-    click the **all apps** folder. In the middle pane, you will see a
-    list of all the apps.
-
--   If you want to install a collection of apps for a specific use case,
-    click on the **collections** folder. This will display the available
-    collections in the middle pane. A collection is simply an app that
-    installs other apps for a specific use case.
+    click the **Browse all apps** button. 
+    
+![](_static/images/AppStore/search.png)
 
 -   If you have a general idea of what sort of app you're looking for,
-    double-click on the **apps by tag** folder, then click on one of the
-    tags that interests you. The apps with that tag are listed in the
-    middle pane.
-
-When you click on an app (or collection) in the middle panel, the
-**App Manager** shows its short description and icon in the right panel.
-If you want more information, click the **View on App Store**
-button on the bottom-right. If you want to go ahead and install,
-click the **Install** button.
+    go to [the App Store](http://apps.cytoscape.org). On the left side, click on one of the
+    categories that interests you. The apps with that tag are listed in the
+    web page.
+    
+![](_static/images/AppStore/category.png)
 
 If you've downloaded an app to your computer, you can install it by
-clicking the **Install from File** button on the bottom-left.
+clicking the  **Apps →
+App Store → Install Apps From File**. Note that only **.jar** files can be installed.
 
 <a id="managing_your_installed_apps"> </a>
 ## Managing your Installed Apps
-
-You can see a list of all apps you have installed by clicking the
-**Currently Installed** tab at the top. When you click on an app in the
-list, you'll see a description of your app at the bottom. At the bottom,
-you'll see a couple buttons where you can:
-
--   **Uninstall** an app. This deletes the app from your computer. If
-    you want to reinstall the app, you will have to find it again in the
-    **Install Apps** tab or find it in the App Store site and
-    reinstall it from there.
-
--   **Disable** an app. This temporarily disables the app. The app stays
-    on your computer, but Cytoscape does not load it. You can enable the
-    app by first selecting the disabled app in the list, then click
-    **Enable**.
-
-Note that uninstalling or disabling a collection will not uninstall or disable any apps installed by the collection.
