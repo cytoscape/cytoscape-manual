@@ -18,7 +18,7 @@ them **apps**. Cytoscape 2.x plugins cannot be used in Cytoscape 3.x.
 <a id="accessing_apps"> </a>
 ## Accessing App Store
 There are three ways you can access app store in Cytoscape:
-- To access app store within Cytoscape, use the pull down menu in control panel.
+- To access app store within Cytoscape, use the pull down menu in the **control panel**.
   
 - To access app store within Cytoscape, go to the side bar and click **App Store** tab.
 ![](_static/images/AppStore/gui.png)
