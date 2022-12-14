@@ -79,6 +79,7 @@ You can find the entire list of core apps [here](https://github.com/cytoscape/cy
 
 ### Update Apps
 If the app has a newer version, the app store will remind you to upgrade the app. By clicking the **green arrow** button, the app will get update.
+
 ![](_static/images/AppStore/update.png) 
 
 Also, the bell button ![](_static/images/AppStore/bell.png) in the right up corner of Cytoscape will be clickable if there is an newer version. By clicking the bell button, Cytoscape will redirect you to the app store tab.
