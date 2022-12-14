@@ -9,7 +9,7 @@ This chapter describes the basic layout and mechanics of using Cytoscape. If you
 When you start Cytoscape, you can access basic functions from the
 **Starter Panel**:
 
-![](_static/images/Launching_Cytoscape/WelcomeNew_38.png)
+![](_static/images/Launching_Cytoscape/WelcomNew_38.png)
 
 The **Starter Panel** is designed to give you quick access to a set of sample session files,
 as well as tutorials and Cytoscape news. The sample session files include a broad range of networks
