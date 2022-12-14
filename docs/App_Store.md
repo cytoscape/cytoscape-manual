@@ -59,3 +59,27 @@ App Store → Install Apps From File**. Note that only **.jar** files can be ins
 
 <a id="managing_your_installed_apps"> </a>
 ## Managing your Installed Apps
+### Get app information
+You can see a list of all apps you have installed in app store tab. When you mouse over an app in the list, you'll see a brief description of the app.
+If you want more information, click the app name and it will redirect you to the app page.
+![](_static/images/AppStore/tooltip.png) 
+
+### Enable/Disable Apps
+Disable an app. This temporarily disables the app. The app stays on your computer, but Cytoscape does not load it. You can enable the app by first selecting the disabled app in the list, then click Enable.
+
+### Uninstall Apps
+Uninstall an app. This deletes the app from your computer. If you want to reinstall the app, you will have to find it again in the Install Apps tab or find it in the App Store site and reinstall it from there.
+
+![](_static/images/AppStore/core.png) 
+
+### Core Apps
+Core apps provide essential functionalities of Cytoscape. They are so important that we seperate core apps from other apps. Core apps cannot be disabled or deleted. Core apps tab is folded by default. If there is an update for core app, the tab will be expanded.
+
+You can find the entire list of core apps [here](https://github.com/cytoscape/cytoscape#new-from-330-core-apps).
+
+### Update Apps
+If the app has a newer version, the app store will remind you to upgrade the app. By clicking the **green arrow** button, the app will get update.
+![](_static/images/AppStore/update.png) 
+
+Also, the bell button ![](_static/images/AppStore/bell.png) in the right up corner of Cytoscape will be clickable if there is an newer version. By clicking the bell button, Cytoscape will redirect you to the app store tab.
+
