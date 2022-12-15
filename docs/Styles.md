@@ -74,7 +74,7 @@ applied to the *galFiltered.sif* network:
 The **Style** interface is located under the **Style** panel of the
 **Control Panel**.
 
-![](_static/images/Styles/StylesInterface.png)
+![](_static/images/Styles/StyleInterface.png)
 
 This interface allows you to create/delete/view and switch between different
 styles using the drop-down and the **Options** menu. With a specific style selected, the **Style** panel displays the
@@ -670,7 +670,7 @@ some default values.
 
 3.  Select the **Style** panel in the **Control Panel**.
 
-    ![](_static/images/Styles/StylesInterface.png)
+    ![](_static/images/Styles/StyleInterface.png)
     <br>
 
 4.  **Create a new style:** Click the **Options**

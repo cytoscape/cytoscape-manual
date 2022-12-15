@@ -8,7 +8,7 @@ There are five panels that can be visible or hidden:
 - **Results Panel** (right)
 - **Command Panel** (bottom)
 
-![](_static/images/Panels/DockWindow-v3_8_0.png)
+![](_static/images/Panels/DockWindow_310.png)
 
 Each panel contains multiple tabs. For example the **Control Panel** contains at a minimum the **Network**,
 **Style**, **Filter** and **Annotation** tabs. The **Table Panel** contains the **Node Table**, **Edge Table** and
@@ -55,7 +55,7 @@ When a panel is floating, its tabs are not removed from the corresponding sideba
   
    ![](_static/images/Panels/TabsDropDown.png)
 <br>
-In the image below, the _Control_, _Table_ and _Tool_ panels are floating:
+In the image below, the **Control**, **Table** and **Tool** panels are floating:
   
   ![](_static/images/Panels/ExampleFloating.png)
 
@@ -64,7 +64,7 @@ In the image below, the _Control_, _Table_ and _Tool_ panels are floating:
 
 - **Hide Sidebar Labels:**
 
-  When you install and use Cytoscape apps, those apps may add their own tabs, which can sometimes lead to very busy sidebars. In order to make the sidebars cleaner and easier to use, Cytoscape allows you to hide the tab labels and show only their icons. Righ-click anywhere on a sidebar and uncheck the context-menu option **Show Labels**.
+  When you install and use Cytoscape apps, those apps may add their own tabs, which can sometimes lead to very busy sidebars. In order to make the sidebars cleaner and easier to use, Cytoscape allows you to hide the tab labels and show only their icons. Right-click anywhere on a sidebar and uncheck the context-menu option **Show Labels**.
 
   In the example below, notice how the left sidebar is crowded with many tabs:
   

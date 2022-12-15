@@ -9,7 +9,7 @@ This chapter describes the basic layout and mechanics of using Cytoscape. If you
 When you start Cytoscape, you can access basic functions from the
 **Starter Panel**:
 
-![](_static/images/Launching_Cytoscape/WelcomeNew_38.png)
+![](_static/images/Launching_Cytoscape/Welcome_310.png)
 
 The **Starter Panel** is designed to give you quick access to a set of sample session files,
 as well as tutorials and Cytoscape news. The sample session files include a broad range of networks
@@ -30,7 +30,7 @@ Policy](Cytoscape_Privacy_Policy.html#cytoscape-privacy-policy)**.
 When a network is loaded, Cytoscape will look similar to the image
 below:
 
-![](_static/images/Quick_Tour/NewNetworkLoaded38.png)
+![](_static/images/Quick_Tour/NewNetworkLoaded_310.png)
 
 Most functionalities are self-explanatory, but we'll go through a
 concise explanation for clarity. The main window here has several
@@ -189,7 +189,7 @@ are loaded, the apps that you see may be different than what appear
 here. The below picture shows a Cytoscape installation without installed
 apps.
 
-![](_static/images/Quick_Tour/NewAppsMenu.png)
+![](_static/images/Quick_Tour/AppsMenu.png)
 
 **Note**: A list of available Cytoscape apps with descriptions is available online at: [http://apps.cytoscape.org](http://apps.cytoscape.org).
 

@@ -12,7 +12,7 @@ zero or more characters, while `?` matches exactly one character. So
 `ste?` would match _STE2_ but would not match _STE12_. Searching for
 `ste*` would match both.
 
-![](_static/images/Filters/searchbar3.png)
+![](_static/images/Filters/searchbar_310.png)
 
 To search a specific column, you can prefix your search term with the
 column name followed by a `:`. For example, to select nodes and edges
@@ -138,7 +138,7 @@ Volcano plots are a domain-specific type of scatter chart, where the X axis is a
 The **Filter** tab in the **Control Panel** can be used to create selection
 expressions for selecting nodes and edges.
 
-![](_static/images/Filters/select-panel2.png)
+![](_static/images/Filters/select-panel.png)
 
 There are two tabs: 
 1. On the **Filter** tab are *narrowing* filters, which can be combined into a tree. 
