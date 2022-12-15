@@ -1,7 +1,7 @@
 <a id="enrichmenttable"> </a>
 # Enrichment Table
 
-The Enrichment Table App provides the functionality of functional enrichment analysis for any network loaded into Cytoscape using [g:Profiler's web service](https://biit.cs.ut.ee/gprofiler/gost).
+The Enrichment Table core app provides the functionality of functional enrichment analysis for any network loaded into Cytoscape using [g:Profiler's web service](https://biit.cs.ut.ee/gprofiler/gost).
 
 The app creates a new table in the **Table Panel** called the **Enrichment Table**, which provides buttons for performing enrichment analysis, as well as for settings and filtering results. The app also adds a menu option under **Tools*** → Enrichment Table → Perform Gene Enrichment**.
 
