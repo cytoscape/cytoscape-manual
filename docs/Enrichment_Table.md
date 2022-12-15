@@ -1,7 +1,7 @@
 <a id="enrichmenttable"> </a>
 # Enrichment Table
 
-The Enrichment Table core app provides access to functional enrichment analysis for any network loaded into Cytoscape using [g:Profiler's web service](https://biit.cs.ut.ee/gprofiler/gost). Click the reload icon in the **Enrichment Table** panel to retrieve enrichment analysis results, or use the menu option **Tools*** → Enrichment Table → Perform Gene Enrichment**.
+The Enrichment Table core app provides access to functional enrichment analysis for any network loaded into Cytoscape using [g:Profiler's web service](https://biit.cs.ut.ee/gprofiler/gost). Click the reload icon in the **Enrichment Table** panel to retrieve enrichment analysis results, or use the menu option **Tools → Enrichment Table → Perform Gene Enrichment**.
 
 <a id="et_prediction"> </a>
 ## Organism and Gene ID
@@ -26,7 +26,7 @@ If you want to manully set organism and gene ID or the prediction is incorrect, 
 ## Running Enrichment Analysis
 There are three ways you can perform enrichment analysis:
 
-- Use the menu option under **Tools*** → Enrichment Table → Perform Gene Enrichment**.
+- Use the menu option under **Tools → Enrichment Table → Perform Gene Enrichment**.
 - In the Cytoscape **Command Line**, enter `enrichment analysis`, and click enter.
 - Click the **Perform Gene Enrichment** button (reload icon) in the **Enrichment Table** panel.
 
