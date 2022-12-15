@@ -47,7 +47,7 @@ There are couple of parameters based on which you can filter the table by catego
 ![](_static/images/Enrichment_Table/filter.png)
 
 <a id="et_ring"> </a>
-## = Charts
+## Charts
 Charts provides the ability to visualise a set of terms for each node in the network. By default, a split donut chart is displayed, corresponding to the top 5 terms. You can change the number of terms and type of chart in **Network-specific chart settings** (right-most button).
 
 - Click **Draw Chart** to create charts with default settings.
@@ -79,10 +79,12 @@ We can generate an [Enrichment Map](https://www.baderlab.org/Software/Enrichment
 - Select the desired file location and file name for the table.
 
 <a id="et_automation"> </a>
-## Automation
-The enrichment analysis is supported in automation use cases as well. The basic command syntax is `enrichment analysis`.  You can optionally choose the organism associated with the query genes with the `organism` parameter. You can also optionally select the node table column containing the gene symbols with the `geneID` parameter. All parameters are listed
-[here](http://localhost:1234/v1/swaggerUI/swagger-ui/index.html?url=http%3A%2F%2Flocalhost%3A1234%2Fv1%2Fcommands%2Fswagger.json#!/enrichment/enrichment_analysis).
 
 The default file extension is .**csv**.
 
 ![](_static/images/Enrichment_Table/export.png)
+
+## Automation
+The enrichment analysis is supported in automation use cases as well. The basic command syntax is `enrichment analysis`.  You can optionally choose the organism associated with the query genes with the `organism` parameter. You can also optionally select the node table column containing the gene symbols with the `geneID` parameter. All parameters are listed
+[here](http://localhost:1234/v1/swaggerUI/swagger-ui/index.html?url=http%3A%2F%2Flocalhost%3A1234%2Fv1%2Fcommands%2Fswagger.json#!/enrichment/enrichment_analysis).
+
