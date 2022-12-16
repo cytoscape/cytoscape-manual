@@ -4,8 +4,8 @@
 <a id="search_bar"> </a>
 ## Search Bar
 
-You can search for nodes and edges by column value directly through
-Cytoscape's tool bar. For example, to select nodes or edges with a
+You can search for nodes and edges by column value directly through the search field in
+the **Tool Bar**, and by clicking the **Search Table** button in the **Table Panel** for **Node** and **Edge** tables. For example, to select nodes or edges with a
 column value that starts with _STE_, type `ste*` in the search bar. The
 search is case-insensitive. The `*` is a wildcard character that matches
 zero or more characters, while `?` matches exactly one character. So
@@ -20,9 +20,20 @@ that have a **COMMON** column value that starts with _STE_, use
 `common:ste*`. If you don't specify a particular column, all columns
 will be searched.
 
-Columns with names that contain spaces, quotes, or characters other than
-letters and numbers currently do not work when searching a specific
-column. This will be fixed in a future release.
+### Query Syntax
+The query syntax uses the <a href="https://lucene.apache.org/core/8_0_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package.description" target="_blank">standard Lucene QueryParser</a> with a few modifications.
+
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<colgroup> <col style="width:100px"><col style="width:420px"> </colgroup>                                                                        <tbody>
+<tr> <th td class="alt">Query type</th><th class="center">Syntax</th>                                        
+<tr> <td td class="alt"><b>Multi-field query</b></td>        <td class="alt">For example `hello there`; entering any data will query all fields (columns) for that data. This only works with textual data, numeric data must be column specific.</td>             
+<tr> <td td class="alt"><b>Field query</b></td>  <td class="alt">`name:hello`; searches the **name** column for "hello".</td>   
+<tr> <td td class="alt"><b>Column namespaces</b></td>      <td class="alt">Using a column with a namespace in a field query requires that the namespace separator (::) be escaped: `EnrichmentMap\:\:pvalue:1.0`. However the column name without the namespace can also be used: `pvalue:1.0`</td>           
+<tr> <td td class="alt"><b>Wildcards</b></td>    <td class="alt">? matches any character, * matches any substring: `hell?`, `h*`.</td>  
+<tr> <td td class="alt"><b>Numeric queries</b></td>      <td class="alt">Due to a limitation in Lucene the field name must be provided when performing a numeric query: `pvalue:1.0`.</td>        
+<tr> <td td class="alt"><b>Numeric range queries</b></td>   <td class="alt">`pvalue:[0.2 TO 0.4]`. Also supports exclusive queries using curly braces: `pvalue:{0.0 TO 0.5}`.</td>  
+</tbody>
+</table>
 
 To search for column values that contain special characters you need to
 escape those characters using a **\\**. For example, to search for
@@ -34,6 +45,10 @@ characters is:
 **Note:** Escaping characters only works when searching all columns. It
 currently does not work for column-specific searching. This will be
 fixed in a future release.
+
+Columns with names that contain spaces, quotes, or characters other than
+letters and numbers currently do not work when searching a specific
+column. This will be fixed in a future release.
 
 <a id="the_select_menu"> </a>
 ## The Select Menu

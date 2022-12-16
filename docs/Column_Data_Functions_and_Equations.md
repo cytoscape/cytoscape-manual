@@ -299,11 +299,11 @@ The screenshot below shows the source and target node column mappings, using the
 
 In order to ease the creation of formulas as well as to facilitate
 discovery of built-in functions we provide a **Formula Builder** in the
-Table Panel. The Formula Builder
+**Table Panel**. The Formula Builder
 is opened by clicking the
 ![](_static/images/Column_Formulas/fx-button.png) button.
 
-This should bring up the Formula Builder which looks like this:
+This should bring up the **Formula Builder** which looks like this:
 
 ![](_static/images/Column_Formulas/FunctionBuilder3.png)
 
