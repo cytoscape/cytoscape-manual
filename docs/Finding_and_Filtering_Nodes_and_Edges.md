@@ -26,12 +26,12 @@ The query syntax uses the <a href="https://lucene.apache.org/core/8_0_0/querypar
 <table cellspacing="0" style="table-layout: fixed; width: 700px">
 <colgroup> <col style="width:100px"><col style="width:420px"> </colgroup>                                                                        <tbody>
 <tr> <th td class="alt">Query type</th><th class="center">Syntax</th>                                        
-<tr> <td td class="alt"><b>Multi-field query</b></td>        <td class="alt">For example `hello there`; entering any data will query all fields (columns) for that data. This only works with textual data, numeric data must be column specific.</td>             
-<tr> <td td class="alt"><b>Field query</b></td>  <td class="alt">`name:hello`; searches the **name** column for "hello".</td>   
-<tr> <td td class="alt"><b>Column namespaces</b></td>      <td class="alt">Using a column with a namespace in a field query requires that the namespace separator (::) be escaped: `EnrichmentMap\:\:pvalue:1.0`. However the column name without the namespace can also be used: `pvalue:1.0`</td>           
-<tr> <td td class="alt"><b>Wildcards</b></td>    <td class="alt">? matches any character, * matches any substring: `hell?`, `h*`.</td>  
-<tr> <td td class="alt"><b>Numeric queries</b></td>      <td class="alt">Due to a limitation in Lucene the field name must be provided when performing a numeric query: `pvalue:1.0`.</td>        
-<tr> <td td class="alt"><b>Numeric range queries</b></td>   <td class="alt">`pvalue:[0.2 TO 0.4]`. Also supports exclusive queries using curly braces: `pvalue:{0.0 TO 0.5}`.</td>  
+<tr> <td td class="alt"><b>Multi-field query</b></td>        <td class="alt">For example <code>hello there</code>; entering any data will query all fields (columns) for that data. This only works with textual data, numeric data must be column specific.</td>             
+<tr> <td td class="alt"><b>Field query</b></td>  <td class="alt"><code>name:hello</code>; searches the <b>name</b> column for "hello".</td>   
+<tr> <td td class="alt"><b>Column namespaces</b></td>      <td class="alt">Using a column with a namespace in a field query requires that the namespace separator (::) be escaped: <code>EnrichmentMap\:\:pvalue:1.0</code>. However the column name without the namespace can also be used: <code>pvalue:1.0</code></td>           
+<tr> <td td class="alt"><b>Wildcards</b></td>    <td class="alt">? matches any character, * matches any substring: <code>hell?</code>, <code>h*</code>.</td>  
+<tr> <td td class="alt"><b>Numeric queries</b></td>      <td class="alt">Due to a limitation in Lucene the field name must be provided when performing a numeric query: <code>pvalue:1.0</code>.</td>        
+<tr> <td td class="alt"><b>Numeric range queries</b></td>   <td class="alt"><code>pvalue:[0.2 TO 0.4]</code>. Also supports exclusive queries using curly braces: <code>pvalue:{0.0 TO 0.5}</code>.</td>  
 </tbody>
 </table>
 
