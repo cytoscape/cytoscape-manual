@@ -1239,7 +1239,9 @@ where type is the type of chart or gradient and the arguments are the instructio
 
 To use **Enhanced Graphics**, first add the desired mapping to a new column in the **Node Table**. Then, create a **Style** for one of the **Custom Paint** properties using the new column in a **Passthrough Mapping**. This will add your custom defined chart or graphic to the nodes.
 
-An example of using **Enhanced Graphics** to add a second label to nodes is shown below. In this case, the yeast ORF ID is added as a secondary node label, and offset to the upper right of the node. For the full list of supported graphics types can be found <a href="http://www.rbvi.ucsf.edu/cytoscape/utilities3/enhancedcg.shtml">here</a>.
+An example of using **Enhanced Graphics** to add a second label to nodes is shown below. In this case, the yeast ORF ID is added as a secondary node label, and offset to the upper right of the node. For the full list of supported graphics types can be found <a href="http://www.rbvi.ucsf.edu/cytoscape/utilities3/enhancedcg.shtml">here</a>. The mapping for this is as follows:
+
+<code>label: attribute=name labelsize=10 outline=false background=false color=orange</code>
 
 ![](_static/images/Styles/EnhancedGraphicsLabel.png)
 
