@@ -33,6 +33,7 @@ Copyright (c) 2001-2022 The Cytoscape Consortium
    CyBrowser
    Merge
    Network_Analyzer
+   Enrichment_Table
    Cytoscape_Preferences
    Linkout
    Panels

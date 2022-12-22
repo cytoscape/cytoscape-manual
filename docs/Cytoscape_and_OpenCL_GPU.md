@@ -23,7 +23,7 @@ additional drivers for your device.
 <a id="cytoscape_gpu_configuration"> </a>
 ## Setup & Configuration
  
-You can see available OpenCL devices and configure your preferred device for OpenCL, 
+The CyCL core app (should be already part of your Cytoscape distribution) lets you see the available OpenCL devices and configure your preferred device for OpenCL computation. You can see available OpenCL devices and configure your preferred device for OpenCL, 
 select **Edit → Preferences → OpenCL Settings...**:
 
 ![](_static/images/Cytoscape_and_OpenCL_GPU/open_cl_settings.png)
