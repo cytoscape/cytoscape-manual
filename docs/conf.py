@@ -7,8 +7,8 @@ project = u'Cytoscape User Manual'
 copyright = u'2021, The Cytoscape Consortium'
 author = u'The Cytoscape Consortium'
 
-version = '3.10'
-release = '3.10'
+version = '3.10.0'
+release = '3.10.0'
 language = None
 
 exclude_patterns = ['_build']
