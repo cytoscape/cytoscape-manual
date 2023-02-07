@@ -15,7 +15,7 @@ A note on timing: Since the "stable" version at ReadTheDocs is the latest tagged
 
 ### Process for updating the manual content, pre-release
 
-1. Make a new branch at GitHub corresponding to the new version of Cytoscape, for example 3.9.1.
+1. Make a new branch at GitHub corresponding to the new version of Cytoscape, for example 3.9.1. Make sure to mirror the exact version number that is being developed (refer to code.cytoscape.org); the format should be "X.Y.Z". 
 2. Any changes to the manual content should be done on the new branch. ReadTheDocs will create a build as soon as a branch is created. To review content throughout the update period, go to the branch-specific version of the manual, for example http://manual.cytoscape.org/en/3.9.1/.
 3. Review updates to docs and images at GitHub.
 4. Add any new manual sections to index.rst and update Copyright year (if applicable).
