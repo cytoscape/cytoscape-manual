@@ -288,7 +288,7 @@ By default, Cytoscape adds columns for source and target node to the **Edge Tabl
 
 To update the mapping, go to **Apps → mapSourceAndTarget**. It is possible to select more than one **Node Table** column for the mapping, resulting in multiple sets of source and target node columns in the **Edge Table**.
 
-To turn off automatic mapping, go to **Edit → Properties → Cytoscape Preferences** and then select **mapSourceAndTarget** from the drop-down. Change the valule of the **autoMap** property to **FALSE**.
+To turn off automatic mapping, go to **Edit → Properties → Cytoscape Preferences** and then select **mapSourceAndTarget** from the drop-down. Change the value of the **autoMap** property to **FALSE**.
 
 The screenshot below shows the source and target node column mappings, using the node column **COMMON**. 
 
