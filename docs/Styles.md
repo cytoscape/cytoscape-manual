@@ -506,44 +506,30 @@ other property. Cytoscape provides a set of images and you can also add
 your own images in the **Image Manager**, as well as remove or modify
 existing ones.
 
-The [Taxonomy
-Icon](http://biosciencedbc.jp/taxonomy_icon/taxonomy_icon.cgi?lng=en)
-set used in this section is created by Database Center for Life Science
-(DBCLS) and is distributed under Creative Commons License ([CC BY
-2.1.](http://creativecommons.org/licenses/by/2.1/jp/deed.en))
-
 <a id="managing_images"> </a>
 ### Managing Images
 
 The **Image Manager** is available under the menu option **View → Open
 Image Manager...**:
 
-![](_static/images/Styles/cgManager1.png)
+![](_static/images/Styles/ImageManager.png)
 
--   You can add images by drag-and-drop of image files and URLs. If you
-    want to add images from a web browser or local file system, you can
-    drag images from them and drop those images onto the list of images
-    on the left.
-
-    -   **Note:** When you drag and drop images from web browser, make
+-   You can add images by drag-and-drop of image files. 
+     
+    -    **Note:** When you drag and drop images from web browser, make
         sure that you are actually dragging the URL for the image. In
         some cases, images are linked to an HTML page or scripts, and in
         such cases, this drag and drop feature may not work.
 
--   If you want to add one or more images from a folder, press the **+**
-    button on the bottom of the Image Manager window and then select the
-    images you want to add.
+-   To add images from a web browser or local file system, click the **Add Images** button and add 
+    your images under **From File**  or **From URL**.
 
-    ![](_static/images/Styles/add_custom_graphics.png)
+-   If you want to add one or more images from a folder, select all the
+    images you want to add under **From File**.
 
 -   To remove images from the current session's image library, simply
-    select one or more images from the list and press the **Remove
+    select one or more images and press the **Remove
     Selected Images** button (trash icon).
-
--   Images can be resized by defining specific **Width** and
-    **Height** values. If the **Aspect Ratio** box is checked, the
-    width-height ratio is always synchronized. You can resize the image
-    to the original size by pressing the **Original** button.
 
 <a id="using_graphics_in_styles"> </a>
 ### Using Graphics in Styles
