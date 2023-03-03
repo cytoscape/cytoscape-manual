@@ -284,7 +284,7 @@ Currently we support the following functions:
 
 ### Map Source and Target Nodes
 
-By default, Cytoscape adds columns for source and target node to the **Edge Table**, using equations. By default, this mapping happens automatically when a network is opened, and the **shared name** column is used for the mapping. However, the selection of which **Node Table** column to use is customizable. 
+By default, Cytoscape adds columns for source and target node to the **Edge Table**, using equations. This mapping happens automatically when a network is opened, and the **shared name** column is used for the mapping. However, the selection of which **Node Table** column to use is customizable. 
 
 To update the mapping, go to **Apps → mapSourceAndTarget**. It is possible to select more than one **Node Table** column for the mapping, resulting in multiple sets of source and target node columns in the **Edge Table**.
 

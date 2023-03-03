@@ -307,7 +307,7 @@ This removes the need to export the table to a file in order to insert the data 
 
 It is also possible to import node data columns from public databases
 via web services, for example from
-[BioMart (http://www.biomart.org)](http://www.biomart.org/#).
+[BioMart (https://www.ensembl.org/info/data/biomart/index.html)](https://www.ensembl.org/info/data/biomart/index.html).
 
 <a id="basic_operation"> </a>
 ### Basic Operation

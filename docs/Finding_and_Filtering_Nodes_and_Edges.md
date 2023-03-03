@@ -32,6 +32,7 @@ The query syntax uses the <a href="https://lucene.apache.org/core/8_0_0/querypar
 <tr> <td td class="alt"><b>Wildcards</b></td>    <td class="alt">? matches any character, * matches any substring: <code>hell?</code>, <code>h*</code>.</td>  
 <tr> <td td class="alt"><b>Numeric queries</b></td>      <td class="alt">Due to a limitation in Lucene the field name must be provided when performing a numeric query: <code>pvalue:1.0</code>.</td>        
 <tr> <td td class="alt"><b>Numeric range queries</b></td>   <td class="alt"><code>pvalue:[0.2 TO 0.4]</code>. Also supports exclusive queries using curly braces: <code>pvalue:{0.0 TO 0.5}</code>.</td>  
+<tr> <td td class="alt"><b>Boolean operators</b></td>   <td class="alt">Boolean operators are supported, with <code>OR</code> used as the default for multiple entries. Entering <code>YKR026C AND gcn3</code> would select only nodes that match both “YKR026C” and “gcn3”.</td> 
 </tbody>
 </table>
 
@@ -40,15 +41,7 @@ escape those characters using a **\\**. For example, to search for
 _GO:1232_, use the query `GO\:1232`. The complete list of special
 characters is:
 
-    + - & | ! ( ) { } [ ] ^ " ~ * ? : \
-
-**Note:** Escaping characters only works when searching all columns. It
-currently does not work for column-specific searching. This will be
-fixed in a future release.
-
-Columns with names that contain spaces, quotes, or characters other than
-letters and numbers currently do not work when searching a specific
-column. This will be fixed in a future release.
+    + - & | ! ( ) { } [ ] ^ " ~ * ? : \ space
 
 <a id="the_select_menu"> </a>
 ## The Select Menu

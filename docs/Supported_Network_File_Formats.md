@@ -229,7 +229,7 @@ In contrast to SIF, GML is a rich graph format language supported by
 many other network visualization packages. The GML file format
 specification is available at:
 
-[https://http://www.graphviewer.nl/misc/gmllanguage/gml-technical-report.pdf](http://www.graphviewer.nl/misc/gmllanguage/gml-technical-report.pdf)
+[http://graphviewer.nl/misc/gmllanguage/gml-technical-report.pdf](http://www.graphviewer.nl/misc/gmllanguage/gml-technical-report.pdf)
 
 It is generally not necessary to modify the content of a GML file
 directly. Once a network is built in SIF format and then laid out, the
