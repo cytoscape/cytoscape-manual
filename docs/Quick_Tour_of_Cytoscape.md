@@ -103,7 +103,7 @@ section.
 <a id="file"> </a>
 ### File
 
-The **File** menu contains most basic file functionality: **File → Open**
+The **File** menu contains most basic file functionality: **File → Open Session**
 for opening a Cytoscape session file; **File → New Network** for creating a new
 network, either blank for editing, or from an existing network; **File →
 Save** for saving a session file; **File → Import** for importing data
@@ -113,10 +113,10 @@ network in either JPEG, PDF, PNG, PostScript or SVG format.
 **File → Export Network to Web Page** lets you export the entire session or
 a single network as a Web page using Cytoscape.js.
 
-**File → Open Recent** will list recently opened session files for
+**File → Open Recent Session** will list recently opened session files for
 quick access. **File → Print...** allows printing.
 
-![](_static/images/Quick_Tour/FileMenu37.png)
+![](_static/images/Quick_Tour/FileMenu310.png)
 
 <a id="edit"> </a>
 ### Edit
@@ -172,10 +172,10 @@ edges.
 
 The **Layout** menu has an array of features for visually organizing the
 network. The features in the top portion of the network (**Bundle
-Edges**, **Clear Edge Bends**, **Node Layout Tools**) are tools for 
+Edges**, **Clear All Edge Bends**, **Node Layout Tools**) are tools for 
 manipulating the network visualization. The
 bottom section of the menu lists a variety of layout algorithms which
-automatically lay a network out.
+automatically layout a network.
 
 ![](_static/images/Quick_Tour/LayoutMenu37.png)
 
@@ -295,7 +295,7 @@ At the bottom of the Network View Window is a set of network tools:
 
 -   **Export to File...** gives you options to export the network or image.
 
--   **Always Show Graphics Detail** forces the rendering of graphics details. It is turned off by default.
+-   **Always Show Graphics Details** forces the rendering of graphics details. It is turned off by default.
 
 -   **Toggle Node Selection** allows you to turn off/on node selection. It is turned on by default.
     

@@ -294,9 +294,9 @@ computers to interact over the internet. These days, many major
 biological databases publish their data with a web service API:
 
 -   List of Biological Web Services:
-    [http://taverna.sourceforge.net/services](http://taverna.sourceforge.net/services)
+    [https://incubator.apache.org/projects/taverna.html](https://incubator.apache.org/projects/taverna.html)
 
--   Web Services at the EBI: [http://www.ebi.ac.uk/Tools/webservices/](http://www.ebi.ac.uk/Tools/webservices/)
+-   Web Services at the EBI: [https://www.ebi.ac.uk/Tools/common/tools/help/](https://www.ebi.ac.uk/Tools/common/tools/help/)
 
 Cytoscape core developer team have developed several web service clients
 using this framework. Cytoscape supports many web services including:
@@ -339,7 +339,7 @@ using this framework. Cytoscape supports many web services including:
 
 You can also find a network via its UUID by using the *uuid:* selector in your search (e.g., **uuid:50e3dff7-133e-11e6-a039-06603eb7f303**)
 
-CyNDEx-2, like NDEx,  uses standard [Lucene Syntax](http://www.google.com/url?q=http%3A%2F%2Flucene.apache.org%2Fcore%2F2_9_4%2Fqueryparsersyntax.html&sa=D&sntz=1&usg=AFQjCNET2XPlP7UAXyTDJzAoMf1zsv0Ccw) as its network search language. For additional information, see [Searching Networks in NDEx](http://home.ndexbio.org/finding-and-querying-networks/). More information about CyNDEx-2, see the [CyNDEx-2 App Store](http://apps.cytoscape.org/apps/cyndex2) page.
+CyNDEx-2, like NDEx,  uses standard [Lucene Syntax](https://lucene.apache.org/core/2_9_4/queryparsersyntax.html) as its network search language. For additional information, see [Searching Networks in NDEx](http://home.ndexbio.org/finding-and-querying-networks/). More information about CyNDEx-2, see the [CyNDEx-2 App Store](http://apps.cytoscape.org/apps/cyndex2) page.
 
 Finally, It is also possible to access the NDEx Import and Export dialogs via the NDEx button in the main **Cytoscape Toolbar**, which will display the two otions on click.
 
@@ -414,4 +414,4 @@ of your own, choose from a shapes library or add either plain or bounded
 text. Shapes and text are customizable and any added annotations can be
 edited from the right-click context menu.
 
-![](_static/images/Creating_Networks/AddNetworkAnnotations.png)
+![](_static/images/Creating_Networks/AddNodeMenu.png)
