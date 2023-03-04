@@ -545,8 +545,8 @@ Node graphics are used and defined like any other property, through the
     the **Graphics** dialog):
 
     -   **Images:** You can select one of the provided images or add
-        your own (click the **Open Image Manager...** button to add more
-        images to the list).
+        your own (click the **Add Images** button to add more
+        images).
 
     -   **Charts:** The following chart types are available:
         ![](_static/images/Styles/BarChartIcon.png)
@@ -565,9 +565,9 @@ Node graphics are used and defined like any other property, through the
     -   **Gradients:** You can also set *Linear* and *Radial* gradients
         to nodes.
 
-    ![](_static/images/Styles/BarChartEditor.png)
+    ![](_static/images/Styles/BarChartEditor310.png)
     <br>
-    ![](_static/images/Styles/RadialGradientEditor.png)
+    ![](_static/images/Styles/RadialGradientEditor310.png)
 
 -   To add a graphic, first add one **Image/Chart** property to the
     properties list in the **Style** interface (on the **Node** tab,
