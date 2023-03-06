@@ -147,7 +147,7 @@ Preferences → Properties...**. More details on how to edit preferences
 can be found
 [here](Cytoscape_Preferences.html#cytoscape-preferences).
 
-![](_static/images/Quick_Tour/EditMenu.png)
+![](_static/images/Quick_Tour/EditMenu310.png)
 
 <a id="view"> </a>
 ### View
