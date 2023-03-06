@@ -956,8 +956,6 @@ charts from data stored in the Node tables.
     
 7.  Click the **Charts** tab and make sure the **Bar Chart** option
     is selected.
-
-    ![](_static/images/Styles/BarChartPanel.png)
     <br>
     
 8.  **Select data columns:** Now you have to choose the columns in the
@@ -999,7 +997,6 @@ charts from data stored in the Node tables.
     and then focus on node **YMR043W**.
 
     ![](_static/images/Styles/BarChartsNetworkZoom.png)
-    ![](_static/images/Styles/BarChartsNodeZoomNode.png)
 
 12. **Change other chart options:** Click the **Default Value** cell of
     the **Image/Chart 1** property again in order to open the
