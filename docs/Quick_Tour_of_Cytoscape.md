@@ -157,7 +157,7 @@ The **View** menu allows you to display or hide panels, including the **Control 
 also provides a means for viewing the **Starter Panel**. 
 It also provides the control of other view-related functionality.
 
-![](_static/images/Quick_Tour/ViewMenu38.png)
+![](_static/images/Quick_Tour/ViewMenu310.png)
 
 <a id="select"> </a>
 ### Select

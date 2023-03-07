@@ -12,7 +12,7 @@ to these properties will be saved in .props files under the
 Cytoscape properties are configurable using the **Add**, **Modify** and **Delete**
 buttons as seen below.
 
-![](_static/images/Preferences/Preferences_cy3.png)
+![](_static/images/Preferences/Preferences310.png)
 
 App properties may also be edited in the same way as editing Cytoscape
 properties. For example, to edit the properties of **Linkout**, select
@@ -20,7 +20,7 @@ properties. For example, to edit the properties of **Linkout**, select
 store properties inside session files in addition to (or instead of)
 storing them in the `CytoscapeConfiguration` directory.
 
-![](_static/images/Preferences/Preferences_Linkout.png)
+![](_static/images/Preferences/Preferences_Linkout310.png)
 
 <a id="managing_bookmarks"> </a>
 ## Managing Bookmarks
