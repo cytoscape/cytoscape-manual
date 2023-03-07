@@ -524,6 +524,8 @@ Image Manager...**:
 -   To add images from a web browser or local file system, click the **Add Images** button and add 
     your images under **From File**  or **From URL**.
 
+![](_static/images/Styles/GraphicsAddImagesURL.png)
+
 -   If you want to add one or more images from a folder, select all the
     images you want to add under **From File**.
 
@@ -535,6 +537,7 @@ Image Manager...**:
 ### Using Graphics in Styles
 
 ![](_static/images/Styles/CustomGraphicsVizMapper.png)
+<br>
 <br>
 ![](_static/images/Styles/CustomGraphicsNodes.png)
 
@@ -565,7 +568,8 @@ Node graphics are used and defined like any other property, through the
     -   **Gradients:** You can also set *Linear* and *Radial* gradients
         to nodes.
 
-    ![](_static/images/Styles/BarChartEditor310.png)
+    ![](_static/images/Styles/BarChartEditor.png)
+    <br>
     <br>
     ![](_static/images/Styles/RadialGradientEditor310.png)
 
@@ -574,10 +578,8 @@ Node graphics are used and defined like any other property, through the
     select **Properties → Paint → Custom Paint *n* → Image/Chart *n***).
     Next, click the **Default Value** column of the **Image/Chart**
     property to bring up the **Graphics** dialog. Select an image, a
-    chart or a gradient and then click **Apply**.
-
-    -   By default, graphics are automatically resized to be consistent
-        with the **Node Size** property.
+    chart or a gradient and then click **Apply**. By default, graphics are 
+    automatically resized to be consistent with the **Node Size** property.
 
 -   To remove an image, chart or gradient, click the **Remove Graphics**
     button on the **Graphics** dialog.
