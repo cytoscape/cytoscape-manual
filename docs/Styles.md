@@ -876,8 +876,9 @@ assign up to nine images per node as a part of a style.
     the following:
 
     ![](_static/images/Styles/CustomGraphicsNodes310.png)
+    <br>
 
-11. Open the Image Manager under **View → Open Image Manager...**. Download this icon 
+11. Open the Image Manager under **View → Open Image Manager...**. Download this exclamation mark icon 
     ![](_static/images/Styles/sampleImage2.png)
     and then add it to Image Manager by clicking the **Add Images** button and then selecting the downloaded icon.
 
@@ -909,7 +910,7 @@ assign up to nine images per node as a part of a style.
 
     Now the important nodes in the network (nodes with high [betweenness
     centrality](http://en.wikipedia.org/wiki/Betweenness_centrality))
-    are annotated with the icon:
+    are annotated with the exclamation mark icon:
 
     ![](_static/images/Styles/CustomGraphicsNodes2_310.png)
 

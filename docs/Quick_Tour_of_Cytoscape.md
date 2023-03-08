@@ -236,17 +236,18 @@ An example where a number of networks have been loaded is shown below:
 
 The network manager (in the **Control Panel**) shows the networks that are
 loaded. Clicking on a network here will make that view active in the
-main window, if the view exists. Each network has a name and size
-(number of nodes and edges), which are shown in the network manager. The number 
-of nodes and edges is shown by default but this can be disabled under 
-**Options → Show Number of Nodes and Edges**. 
-If a network is loaded from a file, the network name is the name of the
-file. The list of networks can be sorted alphabetically by network name by clicking on the 
-**Options** button at the top right and selecting **Sort Network by Name**. 
-By default, the network provenance history is also shown in the **Network Panel**, for example
-showing if a network originated as a subnetwork from another network. This can be disabled under 
-**Options → Show Network Provenance History**.
+main window, if the view exists. 
+-   Each network has a name and size (number of nodes and edges), which are shown in the network manager. 
+    The number of nodes and edges is shown by default but this can be disabled under **Options → Show Number of Nodes and Edges**. 
 
+-   If a network is loaded from a file, the network name is the name of the
+    file. The list of networks can be sorted alphabetically by network name by clicking on the 
+    **Options** button at the top right and selecting **Sort Network by Name**. 
+
+-   By default, the network provenance history is also shown in the **Network Panel**, for example
+    showing if a network originated as a subnetwork from another network. This can be disabled under 
+    **Options → Show Network Provenance History**.
+  
 Some networks are very large (thousands of nodes and edges) and can take
 a long time to display. For this reason, a network in Cytoscape may not
 contain a view. Networks that have a view are in normal black font and

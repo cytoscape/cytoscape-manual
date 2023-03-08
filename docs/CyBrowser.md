@@ -2,9 +2,9 @@
 # Cytoscape Web Browser
 
 Cytoscape includes a simple web browser that can be used for viewing 
-web sites from within Cytoscape.  It is also used by Cytoscape apps,
+web sites from within Cytoscape. It is also used by Cytoscape apps,
 link outs, displaying the user manual, and displaying interactive
-tutorials.  Typically the browser is activated automatically, but you
+tutorials. Typically the browser is activated automatically, but you
 can bring up a browser window yourself by using
 **Tools → Open web page**, or clicking on the **Cytoscape Web Browser**
 ![](_static/images/CyBrowser/WebIcon.png)
@@ -23,11 +23,11 @@ the <a href="#cybrowser_results">Cytoscape Results Panel</a>.
 The main **Cytoscape Web Browser** window provides a very rudimentary browsing interface, with
 forward/back buttons, a text field to enter a new URL, and a **Go** button to 
 move to the new page.  In addition, there three context menus:
-1. **Selected text**
-   The selected text menu has just one item: **Copy**, which copies the selected
+1. **Selected text**: 
+   The selected text menu has just one item, **Copy**, which copies the selected
    text.
-2. **Link**
-   Using the link menu, users can copy the link location, open the link in a new window,
+2. **Link**: 
+   Using the link menu, users can copy the link location, open the link in a new window or the computer's native browser,
    or open the link in a new tab.  They can also use this to download the link target to
    a file.
    
