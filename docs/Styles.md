@@ -515,11 +515,6 @@ Image Manager...**:
 ![](_static/images/Styles/ImageManager.png)
 
 -   You can add images by drag-and-drop of image files. 
-     
-    -    **Note:** When you drag and drop images from web browser, make
-        sure that you are actually dragging the URL for the image. In
-        some cases, images are linked to an HTML page or scripts, and in
-        such cases, this drag and drop feature may not work.
 
 -   To add images from a web browser or local file system, click the **Add Images** button and add 
     your images under **From File**  or **From URL**.
@@ -583,8 +578,6 @@ Node graphics are used and defined like any other property, through the
 
 -   To remove an image, chart or gradient, click the **Remove Graphics**
     button on the **Graphics** dialog.
-
-    ![](_static/images/Styles/CustomGraphicsSelector.png)
 
 <a id="graphics_positions"> </a>
 #### Graphics Positions
@@ -868,7 +861,7 @@ assign up to nine images per node as a part of a style.
 
 6.  Select any of the images from the list and click **Apply**.
 
-    ![](_static/images/Styles/cgTutorial-defImage.png)
+    ![](_static/images/Styles/cgTutorial-defImage310.png)
     <br>
 
 7.  Click the **Default Value** cell of node **Transparency** and set
@@ -886,10 +879,10 @@ assign up to nine images per node as a part of a style.
 
 11. Open the Image Manager under **View → Open Image Manager...**. Drag
     and Drop this
-    ![](_static/images/Styles/sampleImage.png)
+    ![](_static/images/Styles/sampleImage2.png)
     icon to the image list which automatically adds it to the manager.
 
-    ![](_static/images/Styles/cgTutorial4.png)
+    ![](_static/images/Styles/cgTutorial5_310.png)
     <br>
 
 12. Create a Continuous Mapping for **Image/Chart 2** and select
@@ -897,7 +890,7 @@ assign up to nine images per node as a part of a style.
     the **Current Mapping** value cell to open the **Continuous
     Mapping Editor**.
 
-    ![](_static/images/Styles/cgTutorial-openCMEditor.png)
+    ![](_static/images/Styles/cgTutorial-openCMEditor310.png)
     <br>
 
 13. In the **Continuos Mapping Editor**, add a handle position by
@@ -905,7 +898,7 @@ assign up to nine images per node as a part of a style.
     Double-click the region over **0.2** and set the new icon you have
     just added in the last step.
 
-    ![](_static/images/Styles/cgTutorial5.png)
+    ![](_static/images/Styles/cgTutorial5_contmap_310.png)
 
 14. Add the property **Image/Chart Position 2** from the drop-down
     option **Properties → Paint → Custom Paint 2 → Image/Chart Position
