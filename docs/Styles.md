@@ -531,10 +531,10 @@ Image Manager...**:
 <a id="using_graphics_in_styles"> </a>
 ### Using Graphics in Styles
 
-![](_static/images/Styles/CustomGraphicsVizMapper.png)
+![](_static/images/Styles/CustomGraphicsVizMapper310.png)
 <br>
 <br>
-![](_static/images/Styles/CustomGraphicsNodes.png)
+![](_static/images/Styles/CustomGraphicsNodes310.png)
 
 Node graphics are used and defined like any other property, through the
 **Style** interface. There are nine **Image/Chart** properties.
@@ -875,12 +875,11 @@ assign up to nine images per node as a part of a style.
 10. Also change the edge **Width** to *6*. Now your network looks like
     the following:
 
-    ![](_static/images/Styles/CustomGraphicsNodes.png)
+    ![](_static/images/Styles/CustomGraphicsNodes310.png)
 
-11. Open the Image Manager under **View → Open Image Manager...**. Drag
-    and Drop this
+11. Open the Image Manager under **View → Open Image Manager...**. Download this icon 
     ![](_static/images/Styles/sampleImage2.png)
-    icon to the image list which automatically adds it to the manager.
+    and then add it to Image Manager by clicking the **Add Images** button and then selecting the downloaded icon.
 
     ![](_static/images/Styles/cgTutorial5_310.png)
     <br>
@@ -905,14 +904,14 @@ assign up to nine images per node as a part of a style.
     2**. Click its **Default Value** cell to move the position of the
     graphics to upper left.
 
-    ![](_static/images/Styles/cgTutorial6.png)
+    ![](_static/images/Styles/cgTutorial6_pos_310.png)
     <br>
 
     Now the important nodes in the network (nodes with high [betweenness
     centrality](http://en.wikipedia.org/wiki/Betweenness_centrality))
     are annotated with the icon:
 
-    ![](_static/images/Styles/CustomGraphicsNodes2.png)
+    ![](_static/images/Styles/CustomGraphicsNodes2_310.png)
 
 <a id="tutorial_6_creating_node_charts"> </a>
 ### Tutorial 6: Creating Node Charts
