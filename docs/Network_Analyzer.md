@@ -1,7 +1,7 @@
 <a id="networkanalyzer"> </a>
 # Analyzer
 
-Analyzer computes a comprehensive set of topological parameters
+Analyzer computes a comprehensive set of topological metrics
 for undirected and directed networks, including:
 
 -   Number of nodes, edges and connected components.
@@ -34,12 +34,12 @@ When results are ready, they will appear in the **Results Panel**.
 
 ![](_static/images/Network_Analyzer/AnalyzerResultsPanel.png)
 
-The results have multiple tabs, accessible via the buttons on the bottom of the panel. Details on the network parameters can be
+The results have multiple tabs, accessible via the buttons on the bottom of the panel. Details on the network metrics can be
 found
 **[here](http://med.bioinf.mpi-inf.mpg.de/netanalyzer/help/2.7/index.html#complex)**.
 
-<a id="analysis_parameters"> </a>
--   **Simple Parameters**
+<a id="analysis_metrics"> </a>
+-   **Simple Metrics**
 
 -   **Node Degree Distribution**
 
@@ -61,8 +61,8 @@ found
 
 Prior versions of this tool offered the option of analyzing all nodes or only a selected subset. This is no longer supported directly in the program. Instead, if you want to analyze a subnetwork, you can use the command **File → New Network → From Selected Nodes, All Edges** in the **Command Panel** to create the desired subnetwork.
 
-<a id="plot_parameters"> </a>
-### Plot Parameters
+<a id="plot_metrics"> </a>
+### Plot Metrics
 
 Once the Analyzer is run, several additional columns are added to the **Node Table** (and an EdgeBetweenness column is added to the **Edge Table**).  To plot any of these new columns, right-click on the column header and select **Plot Histogram...** for a single parameter distribution, or **Plot Scatter...** for a bivariate plot of the data.  Within either of these charts it is possible to select a section of the data, and select the nodes (edges) in the main graph window corresponding to the region selected on the chart.
 <a id="networkanalyzer_settings"> </a>
