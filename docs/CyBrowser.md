@@ -10,7 +10,7 @@ can bring up a browser window yourself by using
 ![](_static/images/CyBrowser/WebIcon.png)
 icon in the tool bar.
 
-The initial **Cytoscape Web Browser** dialog provides a field to type in a web site address
+The initial **Starting Cytoscape Web Browser** dialog provides a field to type in a web site address
 and a checkbox to indicate whether the browser window should be opened in
 the <a href="#cybrowser_results">Cytoscape Results Panel</a>.
 
@@ -18,7 +18,7 @@ the <a href="#cybrowser_results">Cytoscape Results Panel</a>.
 
 ## Cytoscape Web Browser Window
 
-![](_static/images/CyBrowser/CyBrowser.png)
+![](_static/images/CyBrowser/CyBrowser310.png)
 
 The main **Cytoscape Web Browser** window provides a very rudimentary browsing interface, with
 forward/back buttons, a text field to enter a new URL, and a **Go** button to 

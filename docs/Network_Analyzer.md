@@ -32,7 +32,7 @@ should be analyzed as a directed graph.
 
 When results are ready, they will appear in the **Results Panel**.
 
-![](_static/images/Network_Analyzer/AnalyzerResultsPanel.png)
+![](_static/images/Network_Analyzer/AnalyzerResultsPanel310.png)
 
 The results have multiple tabs, accessible via the buttons on the bottom of the panel. Details on the network metrics can be
 found

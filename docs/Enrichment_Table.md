@@ -1,7 +1,7 @@
 <a id="enrichmenttable"> </a>
 # Enrichment Table
 
-The Enrichment Table core app provides access to functional enrichment analysis for any network loaded into Cytoscape using [g:Profiler's web service](https://biit.cs.ut.ee/gprofiler/gost). Click the reload icon in the **Enrichment Table** panel to retrieve enrichment analysis results, or use the menu option **Tools → Enrichment Table → Perform Gene Enrichment**.
+The Enrichment Table core app provides access to functional enrichment analysis for any network loaded into Cytoscape using [g:Profiler's web service](https://biit.cs.ut.ee/gprofiler/gost). Click the **Perform Gene Enrichment** button (reload icon) ![](_static/images/Enrichment_Table/reload.png) in the **Enrichment Table** panel to retrieve enrichment analysis results, or use the menu option **Tools → Enrichment Table → Perform Gene Enrichment**.
 
 <a id="et_prediction"> </a>
 ## Organism and Gene ID
@@ -40,8 +40,8 @@ Now you get the table containing enrichment results. The results are sorted acco
 ## Filter Results
 There are couple of parameters based on which you can filter the table by categories and evidence code:
 
-- Click the **Filter Enrichment table** button with filter icon to access the filters.
-- Select **Gene Ontology Biological Process** in the categories. Click ok. You will see a filtered table, and a summary of the number of filtered versus all rows at the top of the table.
+- Click the **Filter enrichment table** button with filter icon to access the filters.
+- Select **Gene Ontology Biological Process** in the categories. Click **OK**. You will see a filtered table, and a summary of the number of filtered versus all rows at the top of the table.
 - Open the filter panel again and check **Remove redundant terms**. Click ok to see terms with both filters applied.
 
 ![](_static/images/Enrichment_Table/filter.png)
@@ -50,8 +50,8 @@ There are couple of parameters based on which you can filter the table by catego
 ## Charts
 Charts provides the ability to visualise a set of terms for each node in the network. By default, a split donut chart is displayed, corresponding to the top 5 terms. You can change the number of terms and type of chart in **Network-specific chart settings** (right-most button).
 
-- Click **Draw Chart** to create charts with default settings.
-- To remove charts, click on **Reset Charts**.
+- Click **Draw chart using default color palette** to create charts with default settings.
+- To remove charts, click on **Reset charts**.
 - To change charts settings, go to **Network-specific chart settings**.
 
 ![](_static/images/Enrichment_Table/ring.png)

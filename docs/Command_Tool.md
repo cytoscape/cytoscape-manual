@@ -17,10 +17,7 @@ The **Command Panel** can be opened from **View → Show Command Panel**.
 The **Command Panel** can also be used to read and execute script files. 
 Each line in the script file is a command that is sent to a app.
 Script files may be entered on the Cytoscape command line using the _-S_
-flag to Cytoscape, through the **Tools → Run Script File...** menu item,
-or through **Tools → Execute Command File** menu item.
-
-![](_static/images/Command_Tool/RunScriptCommands.png)
+flag to Cytoscape, or through **Tools → Execute Command File** menu item.
 
 Cytoscape commands consist of three parts: a command class, or
 namespace; a command within that namespace; and a series of arguments or
