@@ -26,13 +26,15 @@ To run Analyzer, select **Tools → Analyze Network**.
 
 ![](_static/images/Network_Analyzer/Analyzer.png)
 
-Analyzer will run different statistics depending on whether the network is directed or undirected.  The app will guess which type of network it is based on the definition of a target arrow style, but since this is not 
+Analyzer will run different statistics depending on whether the network is directed or undirected,
+with the default being undirected. A **Set Parameters** dialog will open where you can specify if the network
+should be analyzed as a directed graph.
 
 When results are ready, they will appear in the **Results Panel**.
 
 ![](_static/images/Network_Analyzer/AnalyzerResultsPanel.png)
 
-The results have multiple tabs. Details on the network parameters can be
+The results have multiple tabs, accessible via the buttons on the bottom of the panel. Details on the network parameters can be
 found
 **[here](http://med.bioinf.mpi-inf.mpg.de/netanalyzer/help/2.7/index.html#complex)**.
 
@@ -40,21 +42,19 @@ found
 
 -   **Node Degree Distribution**
 
--   **Avg. Clustering Coefficient Distribution**
+-   **Clustering Coefficient**
 
--   **Topological Coefficients**
+-   **Topological Coefficient**
 
--   **Shortest Path Distribution**
+-   **Average Shortest Path Length**
 
--   **Shared Neighbors Distribution**
-
--   **Neighborhood Connectivity Distribution**
+-   **Neighborhood Connectivity**
 
 -   **Betweenness Centrality**
 
 -   **Closeness Centrality**
 
--   **Stress Centrality Distribution**
+-   **Stress Centrality**
 
 ### Analyze Subset of Nodes
 
