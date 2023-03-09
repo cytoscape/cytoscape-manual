@@ -191,7 +191,7 @@ application development with Cytoscape.js is beyond the scope of this
 document. If you need examples and tutorials about web application
 development with Cytoscape.js, please visit the following web site:
 
--   [https://github.com/cytoscape/cyjs-sample/wiki](https://github.com/cytoscape/cyjs-sample/wiki)
+[https://github.com/cytoscape/cyjs-sample/wiki](https://github.com/cytoscape/cyjs-sample/wiki)
 
 <a id="questions"> </a>
 ### Questions?

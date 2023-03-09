@@ -63,7 +63,7 @@ In the image below, the **Control**, **Table** and **Tool** panels are floating:
 <a id="other_panel_features"> </a>
 ## Other Features
 
-###Hide Sidebar Labels
+### Hide Sidebar Labels
 When you install and use Cytoscape apps, those apps may add their own tabs, which can sometimes lead to very busy sidebars. In order to make the sidebars cleaner and easier to use, Cytoscape allows you to hide the tab labels and show only their icons. Right-click anywhere on a sidebar and uncheck the context-menu option **Show Labels**.
 
 In the example below, notice how the left sidebar is crowded with many tabs:

@@ -206,7 +206,7 @@ and are described in sections below.
 
 For example, here is a network in Cytoscape:
 
-![](_static/images/Export/WebExportOriginal_v10.png)
+![](_static/images/Export/WebExportOriginal_v310.png)
 
 Here is the same network as an interactive web visualization:
 
