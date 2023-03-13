@@ -29,7 +29,7 @@ an obsolete version, which will quickly become confusing.
 #### Do this as late as possible before a new Cytoscape release ####
 
 1. Go to the latest branch, and open a pull request for the master branch. This will update the master branch, which will trigger a build for the "latest" version of the manual.
-3. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.** Leave "binary attachments" emtpy. Do not add the "v" in front of the version number as suggested by GitHub (i.e., use 3.9.0 instead of v3.9.0).
+3. [Create a new release](https://github.com/cytoscape/cytoscape-manual/releases) with the relevant release number, for example 3.8.0. **This will automatically trigger a build at ReadTheDocs for this release.** Leave "binary attachments" empty. Do not add the "v" in front of the version number as suggested by GitHub (i.e., use 3.9.0 instead of v3.9.0).
 4. After 3-10 minutes, verify that all ReadTheDocs links work:
 - http://manual.cytoscape.org/en/3.9.1/
 - http://manual.cytoscape.org/en/latest
