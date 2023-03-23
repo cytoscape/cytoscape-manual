@@ -35,10 +35,6 @@ an obsolete version, which will quickly become confusing.
 - http://manual.cytoscape.org/en/latest
 - http://manual.cytoscape.org/en/stable
 
-6. Generate a pdf version of the manual: At the ReadTheDocs manual site (for example http://manual.cytoscape.org/en/3.9.0/, scroll to the bottom of the table of contents, and click "Downloads > PDF". When the pdf opens, download it locally.
-7. Rename the pdf in the following format: "Cytoscape3_9_0Manual.pdf", with the current version number. 
-8. Add the new pdf here: https://github.com/cytoscape/cytoscape.github.com/tree/master/manual. This will make sure the pdf link from the Cytoscape website works, i.e. https://cytoscape.org/manual/Cytoscape3_9_0Manual.pdf.
-
 ### Troubleshooting ###
 
 If a problem with a new tagged release (and the corresponding ReadTheDocs build) is discovered, the tag at GitHub has to both be removed and recreated in order to fix the ReadTheDocs build. 
