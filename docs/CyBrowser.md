@@ -4,23 +4,24 @@
 Cytoscape includes a simple web browser that can be used for viewing 
 web sites from within Cytoscape. It is also used by Cytoscape apps,
 link outs, displaying the user manual, and displaying interactive
-tutorials. Typically the browser is activated automatically, but you
-can bring up a browser window yourself by using
-**Tools → Open web page**, or clicking on the **Cytoscape Web Browser**
-![](_static/images/CyBrowser/WebIcon.png)
-icon in the tool bar.
-
-The initial **Starting Cytoscape Web Browser** dialog provides a field to type in a web site address
+tutorials. You can bring up a browser window by selecting 
+**Tools → Open web page**, which will bring up the initial **Starting Cytoscape Web Browser** dialog. 
+It provides a field to type in a web site address
 and a checkbox to indicate whether the browser window should be opened in
 the <a href="#cybrowser_results">Cytoscape Results Panel</a>.
 
 ![](_static/images/CyBrowser/CyBrowserDialog.png)
 
+You can also access the web browser by clicking on the **Cytoscape Web Browser**
+![](_static/images/CyBrowser/WebIcon.png)
+icon in the tool bar, which will bring up the main **Cytoscape Web Browser** with a landing page (see screenshot below)
+with links to various resources like this manual, tutorials, the Cytoscape website and more.
+
 ## Cytoscape Web Browser Window
 
 ![](_static/images/CyBrowser/CyBrowser310.png)
 
-The main **Cytoscape Web Browser** window provides a very rudimentary browsing interface, with
+The main **Cytoscape Web Browser** window provides a rudimentary browsing interface, with
 forward/back buttons, a text field to enter a new URL, and a **Go** button to 
 move to the new page.  In addition, there three context menus:
 1. **Selected text**: 
