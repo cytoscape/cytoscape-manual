@@ -9,7 +9,7 @@ This chapter describes the basic layout and mechanics of using Cytoscape. If you
 When you start Cytoscape, you can access basic functions from the
 **Starter Panel**:
 
-![](_static/images/Launching_Cytoscape/Welcome_38.png)
+![](_static/images/Launching_Cytoscape/Welcome_310.png)
 
 The **Starter Panel** is designed to give you quick access to a set of sample session files,
 as well as tutorials and Cytoscape news. The sample session files include a broad range of networks
@@ -30,7 +30,7 @@ Policy](Cytoscape_Privacy_Policy.html#cytoscape-privacy-policy)**.
 When a network is loaded, Cytoscape will look similar to the image
 below:
 
-![](_static/images/Quick_Tour/NetworkLoaded38.png)
+![](_static/images/Quick_Tour/NewNetworkLoaded_310.png)
 
 Most functionalities are self-explanatory, but we'll go through a
 concise explanation for clarity. The main window here has several
@@ -47,16 +47,13 @@ components:
 
 -   The **Network Panel** (**Network** panel of the **Control Panel**). 
     At the top of the Network Panel is a Search bar, with direct access 
-    to multiple external resources. The network panel also
-    contains an optional network overview pane (shown at the
-    bottom left).  
+    to multiple external resources.
 
 -   The main **Network View Window**, which displays the network. At the bottom
-    of the network view are a set of network view tools. 
+    of the network view are a set of network view tools.  
 
--   The **Table Panel** (bottom right panel), which displays columns of
-    selected nodes and edges and enables you to modify the values of
-    column data.
+-   The **Table Panel** (bottom right panel), which displays columns of associated data for nodes, edges and network-wide, 
+    and enables you to modify the values of column data.
 
 The **Network Panel** and **Table Panel** are dockable tabbed Panels. You can
 undock any of these panels by clicking on the **Float Window** control
@@ -104,7 +101,7 @@ section.
 <a id="file"> </a>
 ### File
 
-The **File** menu contains most basic file functionality: **File → Open**
+The **File** menu contains most basic file functionality: **File → Open Session**
 for opening a Cytoscape session file; **File → New Network** for creating a new
 network, either blank for editing, or from an existing network; **File →
 Save** for saving a session file; **File → Import** for importing data
@@ -114,10 +111,10 @@ network in either JPEG, PDF, PNG, PostScript or SVG format.
 **File → Export Network to Web Page** lets you export the entire session or
 a single network as a Web page using Cytoscape.js.
 
-**File → Open Recent** will list recently opened session files for
+**File → Open Recent Session** will list recently opened session files for
 quick access. **File → Print...** allows printing.
 
-![](_static/images/Quick_Tour/FileMenu37.png)
+![](_static/images/Quick_Tour/FileMenu310.png)
 
 <a id="edit"> </a>
 ### Edit
@@ -148,7 +145,7 @@ Preferences → Properties...**. More details on how to edit preferences
 can be found
 [here](Cytoscape_Preferences.html#cytoscape-preferences).
 
-![](_static/images/Quick_Tour/EditMenu.png)
+![](_static/images/Quick_Tour/EditMenu310.png)
 
 <a id="view"> </a>
 ### View
@@ -158,7 +155,7 @@ The **View** menu allows you to display or hide panels, including the **Control 
 also provides a means for viewing the **Starter Panel**. 
 It also provides the control of other view-related functionality.
 
-![](_static/images/Quick_Tour/ViewMenu38.png)
+![](_static/images/Quick_Tour/ViewMenu310.png)
 
 <a id="select"> </a>
 ### Select
@@ -166,31 +163,31 @@ It also provides the control of other view-related functionality.
 The **Select** menu contains different options for selecting nodes and
 edges.
 
-![](_static/images/Quick_Tour/SelectMenu.png)
+![](_static/images/Quick_Tour/SelectMenu310.png)
 
 <a id="layout"> </a>
 ### Layout
 
 The **Layout** menu has an array of features for visually organizing the
 network. The features in the top portion of the network (**Bundle
-Edges**, **Clear Edge Bends**, **Node Layout Tools**) are tools for 
+Edges**, **Clear All Edge Bends**, **Node Layout Tools**) are tools for 
 manipulating the network visualization. The
 bottom section of the menu lists a variety of layout algorithms which
-automatically lay a network out.
+automatically layout a network.
 
-![](_static/images/Quick_Tour/LayoutMenu37.png)
+![](_static/images/Quick_Tour/LayoutMenu310.png)
 
 <a id="apps"> </a>
 ### Apps
 
-The **Apps** menu gives you access to the **App Manager** (**Apps → App
-Manager**) for managing (install/update/delete) your apps and may have
+The **Apps** menu gives you access to the **App Store** (**Apps → App
+Store**) for managing (install/update/delete) your apps and may have
 options added by apps that have been installed. Depending on which apps
 are loaded, the apps that you see may be different than what appear
 here. The below picture shows a Cytoscape installation without installed
 apps.
 
-![](_static/images/Quick_Tour/AppsMenu.png)
+![](_static/images/Quick_Tour/AppsMenu310.png)
 
 **Note**: A list of available Cytoscape apps with descriptions is available online at: [http://apps.cytoscape.org](http://apps.cytoscape.org).
 
@@ -200,11 +197,11 @@ similar function.
 <a id="tools"> </a>
 ### Tools
 
-The **Tools** menu contains advanced features like **cyChart**, **[Analyze Network](Network_Analyzer.html#networkanalyzer)**, **[Open web page](CyBrowser.html)**, **[Merge](Merge.html#merge)**, **[Execute Command File...](Command_Tool.html)**, **Job Status Monitor**, **Run Script File...** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.html#diffusion)**.
+The **Tools** menu contains advanced features like **[Enrichment Table](EnrichmentTable.html)**, **[cyChart](Finding_and_Filtering_Nodes_and_Edges.html#cychart)**, **[Analyze Network](Network_Analyzer.html#networkanalyzer)**, **[Open web page](CyBrowser.html)**, **[Merge](Merge.html#merge)**, **[Execute Command File...](Command_Tool.html)**, **Job Status Monitor** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.html#diffusion)**.
 
 **Cytoscape Web Browser** allows for viewing any html page directly in Cytoscape. The web browser can be opened in a separate window or can be launched in the **Results Panel**. 
 
-![](_static/images/Quick_Tour/ToolsMenu.png)
+![](_static/images/Quick_Tour/ToolsMenu310.png)
 
 <a id="help"> </a>
 ### Help
@@ -214,7 +211,7 @@ It also provides direct access to a **Tour of Cytoscape**, as well as a full lis
 of Cytoscape tutorials. Tutorial content opens automatically in the **Cytoscape Web Browser**. 
 Video demos are also linked to direclty from the Help menu. 
 
-![](_static/images/Quick_Tour/HelpMenu.png)
+![](_static/images/Quick_Tour/HelpMenu310.png)
 
 The **Citations** option displays the main literature citation for
 Cytoscape, as well as a list of literature citations for installed apps.
@@ -239,11 +236,18 @@ An example where a number of networks have been loaded is shown below:
 
 The network manager (in the **Control Panel**) shows the networks that are
 loaded. Clicking on a network here will make that view active in the
-main window, if the view exists. Each network has a name and size
-(number of nodes and edges), which are shown in the network manager. If
-a network is loaded from a file, the network name is the name of the
-file.
+main window, if the view exists. 
+-   Each network has a name and size (number of nodes and edges), which are shown in the network manager. 
+    The number of nodes and edges is shown by default but this can be disabled under **Options → Show Number of Nodes and Edges**. 
 
+-   If a network is loaded from a file, the network name is the name of the
+    file. The list of networks can be sorted alphabetically by network name by clicking on the 
+    **Options** button at the top right and selecting **Sort Network by Name**. 
+
+-   By default, the network provenance history is also shown in the **Network Panel**, for example
+    showing if a network originated as a subnetwork from another network. This can be disabled under 
+    **Options → Show Network Provenance History**.
+  
 Some networks are very large (thousands of nodes and edges) and can take
 a long time to display. For this reason, a network in Cytoscape may not
 contain a view. Networks that have a view are in normal black font and
@@ -286,7 +290,7 @@ When you have detached network view windows, you can arrange them by selecting o
 
 At the bottom of the Network View Window is a set of network tools:
 
-![](_static/images/Quick_Tour/NetworkTools.png)
+![](_static/images/Quick_Tour/NetworkTools310.png)
 
 -   **Show Grid** will arrange all loaded networks as a grid.
 
@@ -296,7 +300,7 @@ At the bottom of the Network View Window is a set of network tools:
 
 -   **Export to File...** gives you options to export the network or image.
 
--   **Always Show Graphics Detail** forces the rendering of graphics details. It is turned off by default.
+-   **Always Show Graphics Details** forces the rendering of graphics details. It is turned off by default.
 
 -   **Toggle Node Selection** allows you to turn off/on node selection. It is turned on by default.
     
@@ -304,7 +308,7 @@ At the bottom of the Network View Window is a set of network tools:
 
 -   **Toggle Annotation Selection** allows you to turn off/on annotation selection. It is turned off by default.
 
--   **Toggle Node Label Selection** allows you to turn off/on node label selection. It is turned off by default.
+-   **Toggle Label Selection** allows you to turn off/on node/edge label selection. It is turned off by default.
 
 -   **Hide Navigator** lets you hide the Navigator ("bird's eye view").
 

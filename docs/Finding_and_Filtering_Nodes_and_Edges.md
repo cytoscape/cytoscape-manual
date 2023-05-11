@@ -4,15 +4,15 @@
 <a id="search_bar"> </a>
 ## Search Bar
 
-You can search for nodes and edges by column value directly through
-Cytoscape's tool bar. For example, to select nodes or edges with a
+You can search for nodes and edges by column value directly through the search field in
+the **Tool Bar**, and by clicking the **Search Table** button in the **Table Panel** for **Node** and **Edge** tables. For example, to select nodes or edges with a
 column value that starts with _STE_, type `ste*` in the search bar. The
 search is case-insensitive. The `*` is a wildcard character that matches
 zero or more characters, while `?` matches exactly one character. So
 `ste?` would match _STE2_ but would not match _STE12_. Searching for
 `ste*` would match both.
 
-![](_static/images/Filters/searchbar3.png)
+![](_static/images/Filters/searchbar_310.png)
 
 To search a specific column, you can prefix your search term with the
 column name followed by a `:`. For example, to select nodes and edges
@@ -20,20 +20,28 @@ that have a **COMMON** column value that starts with _STE_, use
 `common:ste*`. If you don't specify a particular column, all columns
 will be searched.
 
-Columns with names that contain spaces, quotes, or characters other than
-letters and numbers currently do not work when searching a specific
-column. This will be fixed in a future release.
+### Query Syntax
+The query syntax uses the <a href="https://lucene.apache.org/core/8_0_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package.description" target="_blank">standard Lucene QueryParser</a> with a few modifications.
+
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<colgroup> <col style="width:100px"><col style="width:420px"> </colgroup>                                                                        <tbody>
+<tr> <th td class="alt">Query type</th><th class="center">Syntax</th>                                        
+<tr> <td td class="alt"><b>Multi-field query</b></td>        <td class="alt">For example <code>hello there</code>; entering any data will query all fields (columns) for that data. This only works with textual data, numeric data must be column specific.</td>             
+<tr> <td td class="alt"><b>Field query</b></td>  <td class="alt"><code>name:hello</code>; searches the <b>name</b> column for "hello".</td>   
+<tr> <td td class="alt"><b>Column namespaces</b></td>      <td class="alt">Using a column with a namespace in a field query requires that the namespace separator (::) be escaped: <code>EnrichmentMap\:\:pvalue:1.0</code>. However the column name without the namespace can also be used: <code>pvalue:1.0</code></td>           
+<tr> <td td class="alt"><b>Wildcards</b></td>    <td class="alt">? matches any character, * matches any substring: <code>hell?</code>, <code>h*</code>.</td>  
+<tr> <td td class="alt"><b>Numeric queries</b></td>      <td class="alt">Due to a limitation in Lucene the field name must be provided when performing a numeric query: <code>pvalue:1.0</code>.</td>        
+<tr> <td td class="alt"><b>Numeric range queries</b></td>   <td class="alt"><code>pvalue:[0.2 TO 0.4]</code>. Also supports exclusive queries using curly braces: <code>pvalue:{0.0 TO 0.5}</code>.</td>  
+<tr> <td td class="alt"><b>Boolean operators</b></td>   <td class="alt">Boolean operators are supported, with <code>OR</code> used as the default for multiple entries. Entering <code>YKR026C AND gcn3</code> would select only nodes that match both “YKR026C” and “gcn3”.</td> 
+</tbody>
+</table>
 
 To search for column values that contain special characters you need to
 escape those characters using a **\\**. For example, to search for
 _GO:1232_, use the query `GO\:1232`. The complete list of special
 characters is:
 
-    + - & | ! ( ) { } [ ] ^ " ~ * ? : \
-
-**Note:** Escaping characters only works when searching all columns. It
-currently does not work for column-specific searching. This will be
-fixed in a future release.
+    + - & | ! ( ) { } [ ] ^ " ~ * ? : \ space
 
 <a id="the_select_menu"> </a>
 ## The Select Menu
@@ -59,14 +67,19 @@ regardless of which **Selection Mode** for mouse click or drag-selection.
 <tr> <td td class="alt"><b>Option-I</b></td>   <td class="alt">Invert edge selection</td>
 <tr> <td td class="alt"><b>Cmd-Option-E</b></td>   <td class="alt">Select Adjacent Edges</td> 
 <tr> <td td class="alt"><b>Cmd-Option-N</b></td>   <td class="alt">Select Nodes by Selected Edges</td> 
+<tr> <td td class="alt"><b>Cmd-Option-N</b></td>   <td class="alt">Select Nodes by Selected Edges</td> 
+<tr> <td td class="alt"><b>Shift-Drag or Control-Drag (Command-Drag on Mac)</b></td>    <td class="alt">Drag Select Nodes by Rectangular Selection</td></tr>
+<tr> <td td class="alt"><b>Option-Shift-Drag</b></td>    <td class="alt">Drag Select Nodes by Lasso Selection</td></tr>
 </tbody>
 </table>
 <br>
 
 **Select → Mouse Drag Selects** includes the same options for **Selection Mode** 
-for mouse click or drag-selection as the current **Selection Mode** in the [Network
+for mouse click- or drag-selection as the current **Selection Mode** in the [Network
     View Tools](Quick_Tour_of_Cytoscape.html#network-view-tools).
-    
+
+**Select → Nodes → Largest subnetwork** selects the largest connected component in the current network. This operation is useful when working with a partitioned network consisting of two or more distinctly connected graphs. After selecting the largest subnetwork, a new network can easily be created from the selection. 
+
 **Select → Nodes → From ID List File...** selects nodes based on node
 identifiers found in a specified file. The file format is simply one
 node id per line:
@@ -84,7 +97,7 @@ node id per line:
 
 A histogram shows the distribution of a variable in bins over a range. It shows the user where the most common values are and whether the values are distributed uniformly (flat line), normally (the bell curve) or have strong modes (hills and valleys). This can be particularly useful for finding pockets of the data that express similar ranges, such as positively and negatively expressed genes.
 
-To create a histogram using **cyChart**, open the right-click on the header of a numeric column in the **Node** or **Edge Table**, and select the command **Plot Histogram…**
+To create a histogram using **cyChart**, open the right-click on the header of a numeric column in the **Node** or **Edge Table**, and select the command **Plot Histogram…**. CyChart options are also available in the **Tools** menu. 
 
 ![](_static/images/Filters/plotHistogram.png)
 
@@ -133,7 +146,7 @@ Volcano plots are a domain-specific type of scatter chart, where the X axis is a
 The **Filter** tab in the **Control Panel** can be used to create selection
 expressions for selecting nodes and edges.
 
-![](_static/images/Filters/select-panel2.png)
+![](_static/images/Filters/select-panel.png)
 
 There are two tabs: 
 1. On the **Filter** tab are *narrowing* filters, which can be combined into a tree. 
@@ -411,7 +424,7 @@ An advanced Diffusion option allows you to specify initial heat values for each 
 
 This figure shows the result of selecting the PHO4, GCR1 and ICL1 genes (via the [search bar](Finding_and_Filtering_Nodes_and_Edges.html#search_bar)) and performing a Diffusion by either selecting **Tools → Diffuse → Selected Nodes** or right-clicking to **Diffuse → Selected Nodes**. Diffusion calculated the heat ranking of all 331 nodes in the network, and then selected the top 33. 
 
-![](_static/images/Filters/after_diffusion.png)
+![](_static/images/Filters/after-diffusion.png)
 
 To select more than 33 nodes, move the **Node Rank** slider in the Diffusion Output Results Panel to the right or enter a number greater than 33 in the **Current Rank** field. You can also select nodes using a heat value cutoff by using the **Range Column** to select a column containing heat values. Finally, you can use the **Visual Style** chooser and **Create** button to extract the selected nodes into a new network.
 

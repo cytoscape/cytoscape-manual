@@ -39,3 +39,13 @@ how to merge the networks. The options available here are:
     merged network should be named and its data type.
 
 ![](_static/images/Merge/AdvancedNetworkMergeOptions.png)
+
+<a id="merge_tables"> </a>
+## Merge Tables
+
+It is also possible to merge tables, via **Tools →
+Merge → Tables...**:
+
+![](_static/images/Merge/MergeTables.png)
+
+Merging of node and edge tables works similarly to network merge, and tables can be merged within or between network collections.

@@ -75,7 +75,7 @@ options.
 
 The easiest and most common way to install Cytoscape is by executing an [automatic installation package](https://cytoscape.org/download.html) downloaded from the Cytoscape web site. This will bring up a wizard that will lead you through the process, presenting choices for the installation directory, license agreement, file associations and privacy settings. 
 
-The installation process can be automated and made silent by executing the installation package with the "-q" command parameter (e.g., "Cytoscape_3_8_0-RC1_windows_64bit.exe -q") from a command line or script. For this to succeed, your execution environment must already have sufficient privileges to install software (e.g., for Windows: administrator priveleges). With a "-q" parameter, the installation package will automatically choose all default settings. 
+The installation process can be automated and made silent by executing the installation package with the "-q" command parameter (e.g., "Cytoscape_3_10_0-RC1_windows_64bit.exe -q") from a command line or script. For this to succeed, your execution environment must already have sufficient privileges to install software (e.g., for Windows: administrator priveleges). With a "-q" parameter, the installation package will automatically choose all default settings. 
 
 More automation flexibility is available using other settings and pre-programmed response files, as described in Appendix A of the [Install4j manual (http://resources.ej-technologies.com/install4j/help/doc/help.pdf)](http://resources.ej-technologies.com/install4j/help/doc/help.pdf).
 
@@ -88,11 +88,11 @@ following files and directories:
 <table cellspacing="0">
 <caption>Cytoscape files and directories</caption>
 <tr> <th class="">Directory / File</th>                              <th class="">Description</th>                                                                       </tr>
-<tr> <th class="spec ulcase">p/Cytoscape_v3.9.0</th>                        <td class="">Cytoscape program files, startup scripts, and default location for session files</td> </tr>
-<tr> <th class="specalt">p/Cytoscape_v3.9.0/gen_vmoptions.sh</th> <td class="alt">Cytoscape memory configuration settings</td>                                       </tr>
-<tr> <th class="spec">p/Cytoscape_v3.9.0/sampleData</th>             <td class="">Preset networks as described in the embedded README.txt file</td>                     </tr>
-<tr> <th class="specalt">p/Cytoscape_v3.9.0/framework</th>           <td class="alt">Cytoscape program files</td>                                                       </tr>
-<tr> <th class="spec">p/Cytoscape_v3.9.0/apps</th>                   <td class="">Cytoscape core app program files</td>                                                 </tr>
+<tr> <th class="spec ulcase">p/Cytoscape_v3.10.0</th>                        <td class="">Cytoscape program files, startup scripts, and default location for session files</td> </tr>
+<tr> <th class="specalt">p/Cytoscape_v3.10.0/gen_vmoptions.sh</th> <td class="alt">Cytoscape memory configuration settings</td>                                       </tr>
+<tr> <th class="spec">p/Cytoscape_v3.10.0/sampleData</th>             <td class="">Preset networks as described in the embedded README.txt file</td>                     </tr>
+<tr> <th class="specalt">p/Cytoscape_v3.10.0/framework</th>           <td class="alt">Cytoscape program files</td>                                                       </tr>
+<tr> <th class="spec">p/Cytoscape_v3.10.0/apps</th>                   <td class="">Cytoscape core app program files</td>                                                 </tr>
 <tr> <th class="specalt">u/CytoscapeConfiguration</th>               <td class="alt">Cytoscape properties and program cache files</td>                                  </tr>
 <tr> <th class="spec">u/CytoscapeConfiguration/cytoscape3.props</th> <td class="">Cytoscape configuration settings</td>                                                 </tr>
 </table>
@@ -148,7 +148,7 @@ Program Launch icon (Windows).
 
 After launching Cytoscape a window will appear that looks like this:
 
-![](_static/images/Launching_Cytoscape/Welcome_38.png)
+![](_static/images/Launching_Cytoscape/Welcome_310.png)
 
 *If your Cytoscape window does not resemble this, further configuration
 may be required. Consult the **Release Notes** available on the

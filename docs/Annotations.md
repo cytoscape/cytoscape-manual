@@ -126,7 +126,7 @@ rename an annotation double-click the annotation in the **Annotation** panel and
 To modify the properties of an annotation (eg, color, text) select the annotation in the **Annotation** panel or in the network,
 then click the **Appearance** tab. Alternatively, right-click on the annotation in the network and select **Modify Annotation...**. 
 
-![](_static/images/Annotations/modify_annotation.png)
+![](_static/images/Annotations/modify_annotation310.png)
 
 The annotation can now be resized in the network view window. Other aspects of the annotation, like color, font, shape, opacity and rotation, can be edited in the **Appearance** tab. 
 

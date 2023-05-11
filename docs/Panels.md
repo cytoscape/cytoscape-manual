@@ -8,11 +8,11 @@ There are five panels that can be visible or hidden:
 - **Results Panel** (right)
 - **Command Panel** (bottom)
 
-![](_static/images/Panels/DockWindow-v3_8_0.png)
+![](_static/images/Panels/DockWindow_310.png)
 
 Each panel contains multiple tabs. For example the **Control Panel** contains at a minimum the **Network**,
-**Style**, **Filter** and **Annotation** tabs. The **Table Panel** contains the **Node Table**, **Edge Table** and
-**Network Table** tabs. Analysis results from **Network Analyzer** (**Tools → Analyze Network**) 
+**Style**, **Filter** and **Annotation** tabs. The **Table Panel** contains the **Node Table**, **Edge Table**,
+**Network Table** and **Enrichment Table** tabs. The **Node** and **Edge** tables contain any [data associated with nodes and edges](Node_and_Edge_Column.html), and the **Network Table** contains network-wide associated data, for example URL or publication links. You can add relevant network-wide information to your network by adding columns in the **Network Table**. Analysis results from **Network Analyzer** (**Tools → Analyze Network**) 
 are shown in **Results Panel**. Installed apps may add additional tabs.
 
 <a id="managing_panels"> </a>
@@ -38,7 +38,7 @@ In the example below, the **Control** and **Tool** panels are minimized (**Resul
 
 - **Docked:** The most used panels (e.g. **Control**, **Table**) are initially docked by default. When docked, a panel takes the space that could be used by its adjacent panels and by resizing it, those adjacent panels are resized as well (e.g. by resizing the **Control Panel** horizontally, the **View Panel** is also resized). If a panel is undocked or floating, use the **Dock** icon ![](_static/images/Panels/DockIcon.png) to make it docked.
 
-  In the screenshot below, all panels are docked, except **Results** and **Command**, which are hidden:
+In the screenshot below, all panels are docked, except **Results** and **Command**, which are hidden:
   
   ![](_static/images/Panels/ExampleDocked.png)
 <br> 
@@ -55,21 +55,21 @@ When a panel is floating, its tabs are not removed from the corresponding sideba
   
    ![](_static/images/Panels/TabsDropDown.png)
 <br>
-In the image below, the _Control_, _Table_ and _Tool_ panels are floating:
+<br>
+In the image below, the **Control**, **Table** and **Tool** panels are floating:
   
   ![](_static/images/Panels/ExampleFloating.png)
 
 <a id="other_panel_features"> </a>
 ## Other Features
 
-- **Hide Sidebar Labels:**
+### Hide Sidebar Labels
+When you install and use Cytoscape apps, those apps may add their own tabs, which can sometimes lead to very busy sidebars. In order to make the sidebars cleaner and easier to use, Cytoscape allows you to hide the tab labels and show only their icons. Right-click anywhere on a sidebar and uncheck the context-menu option **Show Labels**.
 
-  When you install and use Cytoscape apps, those apps may add their own tabs, which can sometimes lead to very busy sidebars. In order to make the sidebars cleaner and easier to use, Cytoscape allows you to hide the tab labels and show only their icons. Righ-click anywhere on a sidebar and uncheck the context-menu option **Show Labels**.
+In the example below, notice how the left sidebar is crowded with many tabs:
 
-  In the example below, notice how the left sidebar is crowded with many tabs:
-  
-  ![](_static/images/Panels/ShowSidebarLabels.png)
-  
-  In the next example, the tab labels have been hidden:
-  
-  ![](_static/images/Panels/HideSidebarLabels.png)
+![](_static/images/Panels/ShowSidebarLabels.png)
+
+In the next example, the tab labels have been hidden:
+
+![](_static/images/Panels/HideSidebarLabels.png)

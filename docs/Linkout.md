@@ -61,7 +61,7 @@ The default links are defined in the `linkout.props` file contained in the
 be edited directly via text editor or by using the Cytoscape Configuration Editor (**Edit → Preferences → Properties...**) and
 selecting *linkout* (shown below). 
 
-![](_static/images/Linkout/Figure2_linkout26.png)
+![](_static/images/Linkout/Figure2_linkout310.png)
 
 In addition, new links can be defined when starting Cytoscape from
 command line by specifying individual properties. The formatting of the
