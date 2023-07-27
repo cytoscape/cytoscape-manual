@@ -239,7 +239,7 @@ are summarized in the tables below. Some properties are visible in the list by d
 <tr> <th class="spec ulcase">Label Background Transparency</th>     <td class="">The opacity of the color of the edge background. Zero means totally transparent, and 255 means totally opaque.</td> </tr>
 <tr> <th class="specalt ulcase">Label Font Face</th>                <td class="alt">The font used for the edge label.</td> </tr>
 <tr> <th class="spec ulcase">Label Font Size</th>                   <td class="">The size of the font used for the edge label.</td> </tr>
-<tr> <th class="specalt ulcase">Label Position</th>                    <td class="">The position of the edge label relative to the node.</td> </tr>
+<tr> <th class="specalt ulcase">Label Position</th>                    <td class="">The position of the edge label relative to the edge.</td> </tr>
 <tr> <th class="spec ulcase">Label Rotation</th>                    <td class="">The rotation of the edge label, default is 0</td> </tr>
 <tr> <th class="specalt ulcase">Label Transparency</th>             <td class="alt">The opacity of the color of the edge label. <i>Zero</i> means totally transparent, and <i>255</i> means totally opaque.</td> </tr>
 <tr> <th class="spec ulcase">Label Width</th>                       <td class="">The width of the edge label.</td> </tr>
