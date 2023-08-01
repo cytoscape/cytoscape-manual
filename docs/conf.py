@@ -4,7 +4,7 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 project = u'Cytoscape User Manual'
-copyright = u'2021, The Cytoscape Consortium'
+copyright = u'2023, The Cytoscape Consortium'
 author = u'The Cytoscape Consortium'
 
 version = '3.10.0'
