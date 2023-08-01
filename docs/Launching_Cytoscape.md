@@ -46,7 +46,8 @@ on the [http://cytoscape.org](http://cytoscape.org) website.*
 -   While Cytoscape versions prior to v3.2 run on Java 6, Oracle and
     other JVM suppliers have dropped Java 6 support. Consequently,
     Cytoscape v3.2 and later don't support Java 6. With v3.3, we
-    also dropped support for Java 7, and with the release of Cytoscape v3.8 we dropped support for Java 8, for the same reason.
+    also dropped support for Java 7, and with the release of Cytoscape v3.8 we dropped support for Java 8. With v3.10, we droppped
+    support for Java 11, for the same reason.
 
 For additional information, select the Release Notes button on the
 [Cytoscape website](http://cytoscape.org).
