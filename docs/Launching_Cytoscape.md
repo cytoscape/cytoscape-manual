@@ -41,7 +41,7 @@ on the [http://cytoscape.org](http://cytoscape.org) website.*
 
 **Cytoscape requires Java 17.**
 
--   We recommend a 64 bit Java Runtime Environment (JRE) such as OpenJDK 11.
+-   We recommend a 64 bit Java Runtime Environment (JRE) such as OpenJDK 17.
   
 -   While Cytoscape versions prior to v3.2 run on Java 6, Oracle and
     other JVM suppliers have dropped Java 6 support. Consequently,
