@@ -40,6 +40,11 @@ to map the new network to the existing network collection.
 
 ![](_static/images/Creating_Networks/ImportNetwork.png)
 
+Network collections in Cytoscape are used to organize related networks, for example
+subnetworks. Networks in a collection are linked through the **shared name** node attribute; the 
+**shared name** attribute will be added upon import. This attribute is useful when you want to 
+change a node name across all networks in a collection.
+
 Alternatively, you can simply drag and drop a network file from the desktop 
 into the **Network** tab of the **Control Panel**, rather than selecting the 
 file from the menu option.
