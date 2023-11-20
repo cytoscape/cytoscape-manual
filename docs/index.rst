@@ -12,7 +12,7 @@ Copyright (c) 2001-2023 The Cytoscape Consortium
 .. rubric:: Table of Contents
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
    :numbered: 2
 
    Introduction
