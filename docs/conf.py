@@ -1,8 +1,6 @@
 extensions = [] # this gives build errors: extensions = ['recommonmark']
 templates_path = ['_templates']
 
-source_suffix = '.rst'
-
 master_doc = 'index'
 
 project = u'Cytoscape User Manual'
