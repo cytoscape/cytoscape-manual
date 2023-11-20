@@ -107,7 +107,7 @@ The structure of the **cyChart** window has a header with common functions and s
 
 To select a range within a histogram, click and drag left or right. You should see a color change in the background of the data. To edit an existing selection, drag in the middle of the selection to move the entire selection, or on either edge of the selection to edit just the start or end of the range. To clear the selection, click outside of the range.
 
-If the chart is in its interactive mode, you can see the main graph view changing its selection as the chart changes. However, in large networks this will over-stress the computer and become sluggish in the interface. Therefore, there is a check box in the header of **cyChart** to control whether selection is recomputed whenever the mouse moves, or occurs only at the end of your drag.
+If the chart is in its interactive mode, you can see the main graph view changing its selection as the chart changes. However, in large networks this will over-stress the computer and become sluggish in the interface. Therefore, there is a checkbox in the header of **cyChart** to control whether selection is recomputed whenever the mouse moves, or occurs only at the end of your drag.
 
 The footer is used to set the axes of the chart, and to show the status of the selection. Click on the popup choice box to see the list of available dimensions.  The chart will be regenerated whenever you change either dimension. The current selection is lost when either axis changes.
 
