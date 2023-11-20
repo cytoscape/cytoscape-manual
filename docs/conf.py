@@ -2,6 +2,8 @@
 extensions = ["myst_parser"]
 templates_path = ['_templates']
 
+source_suffix = ['.rst', '.md']
+
 master_doc = 'index'
 
 project = u'Cytoscape User Manual'
@@ -65,13 +67,13 @@ texinfo_documents = [
    'Miscellaneous'),
 ]
 
-from recommonmark.parser import CommonMarkParser
+#from recommonmark.parser import CommonMarkParser
 
 # The suffix of source filenames.
-source_suffix = ['.rst', '.md']
+#source_suffix = ['.rst', '.md']
 
-source_parsers = {
-	'.md': CommonMarkParser,
-}
+#source_parsers = {
+#	'.md': CommonMarkParser,
+#}
 
 
