@@ -29,7 +29,6 @@ html_favicon = '_static/images/cytoscape3-icon.ico'
 html_theme_options = {
     'prev_next_buttons_location': 'both',
     'navigation_depth': 4,
-    'style_external_links': True,
 }
 
 html_static_path = ['_static']
