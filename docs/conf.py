@@ -1,6 +1,8 @@
 extensions = [] # this gives build errors: extensions = ['recommonmark']
 templates_path = ['_templates']
 
+source_suffix = '.rst'
+
 master_doc = 'index'
 
 project = u'Cytoscape User Manual'
@@ -11,7 +13,7 @@ version = '3.10.1'
 release = '3.10.1'
 language = None
 
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', '_templates']
 pygments_style = 'sphinx'
 
 import sphinx_rtd_theme
