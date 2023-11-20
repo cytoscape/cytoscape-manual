@@ -1,4 +1,5 @@
-extensions = [] # this gives build errors: extensions = ['recommonmark']
+#extensions = [] # this gives build errors: extensions = ['recommonmark']
+extensions = ["myst_parser"]
 templates_path = ['_templates']
 
 master_doc = 'index'
