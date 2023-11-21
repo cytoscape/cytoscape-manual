@@ -1,5 +1,5 @@
 #extensions = [] # this gives build errors: extensions = ['recommonmark']
-extensions = ["myst_parser"]
+extensions = ["myst_parser", "sphinxcontrib.jquery"]
 templates_path = ['_templates']
 
 source_suffix = ['.rst', '.md']
