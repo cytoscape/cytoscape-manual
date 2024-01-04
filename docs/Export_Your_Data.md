@@ -51,12 +51,12 @@ will include data attributes and visual information if the chosen format support
 (like XGMML). Network data can be exported in a number of formats, including:
 
 * SIF (Simple Interaction Format)
-* NNF (Nested Network Format)
-* XGMML
+* XGMML, with or without style data
 * GraphML
 * PSI-MI Level 1 and 2.5
 * Cytoscape.js JSON (can be used with Cytoscape.js, a tool described in future sections)
 * CX JSON (for Cytoscape Cyberinfrastructure network exchange)
+* CX2 JSON
 
 The default format is SIF, which is a simple tab-delimited network format that provides
 node names and edge interactions only. You can choose the format using the dialog drop-down box.
