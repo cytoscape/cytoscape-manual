@@ -6,8 +6,6 @@ formats:
 
 -   Simple interaction file (SIF or .sif format)
 
--   Nested network format (NNF or .nnf format)
-
 -   Graph Markup Language (GML or .gml format)
 
 -   XGMML (extensible graph markup and modelling language).
@@ -139,88 +137,6 @@ separate node names with spaces.
 Networks in simple interactions format are often stored in files with a
 `.sif` extension, and Cytoscape recognizes this extension when browsing
 a directory for files of this type.
-
-<a id="nnf"> </a>
-## NNF
-
-
-The NNF format is a very simple format that unlike SIF allows the
-optional assignment of single nested network per node. No other node
-columns can be specified. There are only 2 possible line formats:
-
--   A node _node_ contained in a _network_:
-
-`network node`
-
--   2 nodes linked together contained in a network:
-
-`network node1 interaction node2`
-
-If a network name (first entry on a line) appeared previously as a node
-name (in columns 2 or 4), the network will be nested in the node with
-the same name. Also, if a name that has been previously defined as a
-network (by being listed in the first column), later appears as a node
-name (in columns 2 or 4), the previously defined network will be nested
-in the node with the same name. In summary: any time a name is used as
-both, a network name , and a node name, this implies that the network
-will be nested in the node of the same name. Additionally comments may
-be included on all lines. Comments start with a hash mark '\#' and
-continue to the end of a line. Trailing comments (after data lines) and
-entirely blank lines anywhere are also permissible. Please **note** that
-if you load multiple NNF files in Cytoscape they will be treated like a
-single, long concatenated NNF file! If you need to embed spaces, tabs or
-backslashes in a name, you must escape it by preceding it with a
-backslash, so that, e.g. an embedded backslash becomes two backslashes,
-an embedded space a backslash followed by a space etc.
-
-<a id="examples"> </a>
-### Examples
-
-#### Example 1
-
-![](_static/images/Network_Formats/NNFExample1_2.png)
-
-    Example_1      C
-    Example_1      network1
-    network1       A        pp        B
-    network1       B        pp        A
-    Example_1      C        pp        B
-
-#### Example 2
-
-![](_static/images/Network_Formats/NNFExample2_2.png)
-
-    Example_2      M1
-    Example_2      M2
-    M1             A
-    M2             B        pp        C
-    Example_2      A        pp        B
-    Example_2      M1       im        M2
-
-#### Example 3
-
-![](_static/images/Network_Formats/NNFExample3_2.png)
-
-    Example_3      M1       im        M2
-    Example_3      M3       im        M1
-    Example_3      M2       im        M3
-    Example_3      C        pp        M3
-    Example_3      M2       pp        C
-    M1             A
-    M2             A        pp        B
-    M3             B        pp        C
-
-#### Example 4
-
-![](_static/images/Network_Formats/NNFExample4_2.png)
-
-    Example_4      M4
-    M4             D
-    M4             M3
-    M3             M2        pp        C
-    M2             M1        pp        B
-    M1             A
-    M4             C         pp        D
 
 <a id="gml_format"> </a>	
 ## GML Format
