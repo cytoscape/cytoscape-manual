@@ -16,16 +16,7 @@ Note that **Nested Networks** are similar in concept to [**Groups**](Creating_Ne
 <a id="creating_nested_networks"> </a>
 ## Creating Nested Networks
 
-There are currently two ways in which a user can create nested networks.
-
--   By importing a Nested Network Format (NNF) file. (See: **[NNF
-    Network
-    Format](Supported_Network_File_Formats.html#nnf)**).
-	
--   By manually constructing networks and assigning nested networks to
-    individual nodes through the right-click node context menu. (See
-    **[Nested Network Node Context
-    Menu](Navigation_and_Layout.html#nested-network-node-context-menu)**).
+Nested networks are created manually, by constructing networks and assigning nested networks to individual nodes through the right-click node context menu. (See **[Nested Network Node Context Menu](Navigation_and_Layout.html#nested-network-node-context-menu)**).
 
 <a id="visualization_of_nested_networks"> </a>	
 ## Visualization of Nested Networks
