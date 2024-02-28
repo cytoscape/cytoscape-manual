@@ -76,7 +76,7 @@ regardless of which **Selection Mode** for mouse click or drag-selection.
 
 **Select → Mouse Drag Selects** includes the same options for **Selection Mode** 
 for mouse click- or drag-selection as the current **Selection Mode** in the [Network
-    View Tools](Quick_Tour_of_Cytoscape.html#network-view-tools).
+    View Tools](Quick_Tour_of_Cytoscape.md#network-view-tools).
 
 **Select → Nodes → Largest subnetwork** selects the largest connected component in the current network. This operation is useful when working with a partitioned network consisting of two or more distinctly connected graphs. After selecting the largest subnetwork, a new network can easily be created from the selection. 
 
@@ -422,7 +422,7 @@ lower percentile dynamically. It also stores the node's initial heat as a node a
 
 An advanced Diffusion option allows you to specify initial heat values for each node via its _diffusion_input_ attribute.
 
-This figure shows the result of selecting the PHO4, GCR1 and ICL1 genes (via the [search bar](Finding_and_Filtering_Nodes_and_Edges.html#search_bar)) and performing a Diffusion by either selecting **Tools → Diffuse → Selected Nodes** or right-clicking to **Diffuse → Selected Nodes**. Diffusion calculated the heat ranking of all 331 nodes in the network, and then selected the top 33. 
+This figure shows the result of selecting the PHO4, GCR1 and ICL1 genes (via the [search bar](Finding_and_Filtering_Nodes_and_Edges.md#search_bar)) and performing a Diffusion by either selecting **Tools → Diffuse → Selected Nodes** or right-clicking to **Diffuse → Selected Nodes**. Diffusion calculated the heat ranking of all 331 nodes in the network, and then selected the top 33. 
 
 ![](_static/images/Filters/after-diffusion.png)
 

@@ -10,7 +10,7 @@ confidence values in a protein-protein interaction. These column data
 can then be visualized in a user-defined way by setting up a mapping
 from columns to network properties (colors, shapes, and so on). The
 section on
-**[Styles](Styles.html)**
+**[Styles](Styles.md)**
 discusses this in greater detail.
 
 <a id="import_data_table_files"> </a>

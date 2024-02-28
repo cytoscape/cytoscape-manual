@@ -60,7 +60,7 @@ There are two ways to pan the network:
 -   Left-Click and Drag - You can pan the network view by holding down the left mouse button and moving the mouse.
 
 -   Dragging Box on **[Network
-    Overview](Quick_Tour_of_Cytoscape.html#the-network-overview-window)** -
+    Overview](Quick_Tour_of_Cytoscape.md#the-network-overview-window)** -
     You can also pan the view by left-clicking and dragging the blue box in the overview panel in the lower part of the view.
 
 <a id="other_mouse_behaviors"> </a>
@@ -146,7 +146,7 @@ menu.
     for the nested network not exist, it will be created.
 
 More information about nested networks can be found in the **[Nested
-Networks](Nested_Networks.html#nested-networks)**
+Networks](Nested_Networks.md#nested-networks)**
 section.
 
 <a id="manual_layout"> </a>
@@ -173,7 +173,7 @@ It contains several **Node Layout Tools** that can help to automate or fine tune
 ### Scale
 Adjust the Scale slider to change the length of edges.  The position of the nodes will be scaled, not the node sizes. 
 Node size can be adjusted using
-**[Styles](Styles.html)**.
+**[Styles](Styles.md)**.
 The images below show selected (yellow) nodes scaled to 50% of the default value.
 
 **Before**

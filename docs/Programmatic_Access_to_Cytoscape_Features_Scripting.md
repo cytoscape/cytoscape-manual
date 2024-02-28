@@ -41,7 +41,7 @@ File...** menu item or on the Cytoscape command line at startup.
 ![](_static/images/Command_Tool/AutomationPanel.png)
 
 ***Commands*** is the built-in Cytoscape feature to automate your
-workflow as simple script. You can learn more about Commands in the [Command Tool](Command_Tool.html)
+workflow as simple script. You can learn more about Commands in the [Command Tool](Command_Tool.md)
 section.
 
 <a id="restful_api"> </a>

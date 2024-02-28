@@ -9,14 +9,14 @@ plugins make use of nested networks in the overview network that they
 generate. There each node representing a module contains a nested
 network.
 
-Note that **Nested Networks** are similar in concept to [**Groups**](Creating_Networks.html#grouping-nodes), but with very different consequences. A Nested Network incorporates an independent network that does not share nodes or attributes with the current network -- it can be edited only as a separate network collection or in a separate Cytoscape session. Its nodes cannot be connected to nodes in the current network and cannot be found or filtered using Cytoscape functions or apps. Conversely, nodes in a Group are part of the current network, can have edges to nodes outside of the group, and can be found or filtered using Cytoscape functions or apps. 
+Note that **Nested Networks** are similar in concept to [**Groups**](Creating_Networks.md#grouping-nodes), but with very different consequences. A Nested Network incorporates an independent network that does not share nodes or attributes with the current network -- it can be edited only as a separate network collection or in a separate Cytoscape session. Its nodes cannot be connected to nodes in the current network and cannot be found or filtered using Cytoscape functions or apps. Conversely, nodes in a Group are part of the current network, can have edges to nodes outside of the group, and can be found or filtered using Cytoscape functions or apps. 
 
-**Most often, [Groups](Creating_Networks.html#grouping-nodes) are more functional and easier to use.**
+**Most often, [Groups](Creating_Networks.md#grouping-nodes) are more functional and easier to use.**
 
 <a id="creating_nested_networks"> </a>
 ## Creating Nested Networks
 
-Nested networks are created manually, by constructing networks and assigning nested networks to individual nodes through the right-click node context menu. (See **[Nested Network Node Context Menu](Navigation_and_Layout.html#nested-network-node-context-menu)**).
+Nested networks are created manually, by constructing networks and assigning nested networks to individual nodes through the right-click node context menu. (See **[Nested Network Node Context Menu](Navigation_and_Layout.md#nested-network-node-context-menu)**).
 
 <a id="visualization_of_nested_networks"> </a>	
 ## Visualization of Nested Networks

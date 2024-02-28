@@ -13,9 +13,9 @@ in Cytoscape for each exportable data type. These options (Network, Table, Style
 <a id="export_ndex"> </a>
 ### Network Data Exchange (NDEx) Public Database
 
-The **Network to NDEx** option is used to store a network on the public NDEx server. You can use the NDEx public server to store your networks on the cloud, for [sharing networks](Export_Your_Data.html#as_an_ndex_network) with collaborators, or to [archive networks](Export_Your_Data.html#as_an_ndex_network) for publication. To store a network, you must first create a free NDEx account, which you can easily do by visiting the [NDEx Public Server](http://ndexbio.org) website.
+The **Network to NDEx** option is used to store a network on the public NDEx server. You can use the NDEx public server to store your networks on the cloud, for [sharing networks](Export_Your_Data.md#as_an_ndex_network) with collaborators, or to [archive networks](Export_Your_Data.md#as_an_ndex_network) for publication. To store a network, you must first create a free NDEx account, which you can easily do by visiting the [NDEx Public Server](http://ndexbio.org) website.
 
-The **Network to NDEx** option saves only the currently selected network to your NDEx account. Such networks are suitable for processing by other applications and web services, as they contain only the nodes and edges in the selected network -- other views and the nodes and edges unique to them are not written. If you later re-import this network (using the Cytoscape [**Search bar**](Creating_Networks.html#example-retrieving-networks-from-ndex)), only the single network you saved will be loaded.
+The **Network to NDEx** option saves only the currently selected network to your NDEx account. Such networks are suitable for processing by other applications and web services, as they contain only the nodes and edges in the selected network -- other views and the nodes and edges unique to them are not written. If you later re-import this network (using the Cytoscape [**Search bar**](Creating_Networks.md#example-retrieving-networks-from-ndex)), only the single network you saved will be loaded.
 
 When you select the option, the CyNDEx-2 Browser dialog will appear and enable you to provide various **metadata** to annotate the network and make it findable in subsequent NDEx searches. You can set the name of your network by editing the **Network Name** attribute. The **Update Existing Network** option enables you to overwrite the existing copy of the network (if you have permission to do so). We recommend to provide as much metadata as possible, and always provide at least **Version** and **Description** attributes.
 
@@ -116,7 +116,7 @@ viewers. These are further explained below.
 <a id="as_an_ndex_network"> </a>
 ### As an NDEx Network
 
-The easiest way to share your results with others is to save your network in the NDEx Public Database by using the [Network to NDEx](Export_Your_Data.html#export_ndex) or [Collection to NDEx](Export_Your_Data.html#export_ndex) options. Then, visit your NDEx account and enable the **Sharable URL** (similar to a Google Doc shared link) so that your private network can be accessed by whoever you send the link to. 
+The easiest way to share your results with others is to save your network in the NDEx Public Database by using the [Network to NDEx](Export_Your_Data.md#export_ndex) or [Collection to NDEx](Export_Your_Data.md#export_ndex) options. Then, visit your NDEx account and enable the **Sharable URL** (similar to a Google Doc shared link) so that your private network can be accessed by whoever you send the link to. 
 
 NDEx also has additional options that enable you to:
 
@@ -183,7 +183,7 @@ library, and so enable not only viewing but also Cytoscape-style
 interactive browsing of networks and attributes.
 
 The simplest choice is
-[CyNetShare](Export_Your_Data.html#sharing-via-cynetshare),
+[CyNetShare](Export_Your_Data.md#sharing-via-cynetshare),
 where you save your network (and optionally a style) on a public file
 system, then interactively view the network in a browser. Like Google
 Maps, you can generate and publish a URL that allows collaborators to

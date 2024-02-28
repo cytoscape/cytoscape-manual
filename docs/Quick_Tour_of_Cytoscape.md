@@ -22,7 +22,7 @@ time by choosing **View → Show Starter Panel**.
 
 For
 information on user privacy, see the **[Cytoscape Privacy
-Policy](Cytoscape_Privacy_Policy.html#cytoscape-privacy-policy)**.
+Policy](Cytoscape_Privacy_Policy.md#cytoscape-privacy-policy)**.
 
 <a id="basic_features"> </a>
 ## Basic Features
@@ -75,7 +75,7 @@ the **Dock** icon.
 
 ![](_static/images/Quick_Tour/TablePanel38.png)
 
-For more information on the panels in Cytoscape, see the **[Panels](Panels.html#what-are-panels)**
+For more information on the panels in Cytoscape, see the **[Panels](Panels.md#what-are-panels)**
 section.
 
 <a id="network_editing"> </a>
@@ -90,7 +90,7 @@ Edge**. Then select the target node, a new edge will be added between
 the two nodes. In a similar way annotation objects can be added;
 pictures, shapes or textboxes; much like in MS PowerPoint or similar
 software. Detailed information on network editing can be found in the
-**[Editing Networks](Creating_Networks.html#create_a_new_network_or_edit_one_manually)**
+**[Editing Networks](Creating_Networks.md#create_a_new_network_or_edit_one_manually)**
 section.
 
 ![](_static/images/Quick_Tour/AddNodeMenu37.png)
@@ -143,7 +143,7 @@ them to the foreground vs background layer are also available in the Edit menu.
 Editing preferences for properties and apps are found under **Edit →
 Preferences → Properties...**. More details on how to edit preferences
 can be found
-[here](Cytoscape_Preferences.html#cytoscape-preferences).
+[here](Cytoscape_Preferences.md#cytoscape-preferences).
 
 ![](_static/images/Quick_Tour/EditMenu310.png)
 
@@ -197,7 +197,7 @@ similar function.
 <a id="tools"> </a>
 ### Tools
 
-The **Tools** menu contains advanced features like **[Enrichment Table](EnrichmentTable.html)**, **[cyChart](Finding_and_Filtering_Nodes_and_Edges.html#cychart)**, **[Analyze Network](Network_Analyzer.html#networkanalyzer)**, **[Open web page](CyBrowser.html)**, **[Merge](Merge.html#merge)**, **[Execute Command File...](Command_Tool.html)**, **Job Status Monitor** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.html#diffusion)**.
+The **Tools** menu contains advanced features like **[Enrichment Table](EnrichmentTable.md)**, **[cyChart](Finding_and_Filtering_Nodes_and_Edges.md#cychart)**, **[Analyze Network](Network_Analyzer.md#networkanalyzer)**, **[Open web page](CyBrowser.md)**, **[Merge](Merge.md#merge)**, **[Execute Command File...](Command_Tool.md)**, **Job Status Monitor** and **[Diffuse](Finding_and_Filtering_Nodes_and_Edges.md#diffusion)**.
 
 **Cytoscape Web Browser** allows for viewing any html page directly in Cytoscape. The web browser can be opened in a separate window or can be launched in the **Results Panel**. 
 

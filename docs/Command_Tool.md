@@ -7,7 +7,7 @@ Cytoscape and see the results in a **Reply Log**.
 
 Any app that registers commands will
 be available through the **Command Panel**. Commands are part of the more general
-[Cytoscape Automation](Programmatic_Access_to_Cytoscape_Features_Scripting.html#cytoscape_automation) feature, 
+[Cytoscape Automation](Programmatic_Access_to_Cytoscape_Features_Scripting.md#cytoscape_automation) feature, 
 which includes multiple ways of scripting Cytoscape execution.
 
 The **Command Panel** can be opened from **View → Show Command Panel**.

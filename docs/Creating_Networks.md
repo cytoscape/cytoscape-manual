@@ -16,7 +16,7 @@ There are 4 different ways of creating networks in Cytoscape:
 
 Network files can be specified in any of the formats described in the
 **[Supported Network
-Formats](Supported_Network_File_Formats.html#supported-network-file-formats)**
+Formats](Supported_Network_File_Formats.md#supported-network-file-formats)**
 section. Networks are imported into Cytoscape via **File →
 Import**. The network file can either be located directly
 on the local computer, or found on a remote computer (in which case it
@@ -60,7 +60,7 @@ Network from URL...**. In the import network dialog, insert the appropriate
 URL, either manually or using URL bookmarks. Bookmarked URLs can be
 accessed by clicking on the arrow to the right of the text field (see
 the Bookmark Manager in
-[Preferences](Cytoscape_Preferences.html#cytoscape-preferences)
+[Preferences](Cytoscape_Preferences.md#cytoscape-preferences)
 for more details on bookmarks). Also, you can drag and drop links from a
 web browser to the URL text box. Once a URL has been specified, click on
 the OK button to load the network.
@@ -101,7 +101,7 @@ affect which files are accessible to a computer. To work around this
 problem, Cytoscape supports the use of proxy servers. To configure a
 proxy server, go to **Edit → Preferences → Proxy Settings...**. This is
 further described in the
-**[Preferences](Cytoscape_Preferences.html#cytoscape-preferences)**
+**[Preferences](Cytoscape_Preferences.md#cytoscape-preferences)**
 section.
 
 <a id="import_networks_from_unformatted_table_files"> </a>
@@ -174,7 +174,7 @@ can be imported as edge data.
 The network import function cannot import node table columns - only edge
 table columns. To import node table columns from this table, please see
 the **[Node and Edge Column
-Data](Node_and_Edge_Column_Data.html#node-and-edge-column-data)**
+Data](Node_and_Edge_Column_Data.md#node-and-edge-column-data)**
 section of this manual.
 
 Note (1): This data was adapted from the *A merged human interactome*
@@ -220,7 +220,7 @@ select only a source column, it creates a network without interactions.
 This feature is useful with the node expansion function available from
 some web service clients. Please read the section **[Importing Networks
 from External
-Database](Creating_Networks.html#import_networks_from_public_databases)**
+Database](Creating_Networks.md#import_networks_from_public_databases)**
 for more detail.
 
 <a id="advanced_options"> </a>
@@ -336,7 +336,7 @@ using this framework. Cytoscape supports many web services including:
 
 -   By default, results are returned in order of relevance based on the search terms you provided; you can change the sorting criteria by clicking on the column headers.
 
--   Mark the **My Networks** checkbox at the top of the results table to only display the results that you own (you must have an NDEx account and a profile associated to the CyNDEx Browser... see the section [Export options](Export_Your_Data.html#export_ndex) for more details). 
+-   Mark the **My Networks** checkbox at the top of the results table to only display the results that you own (you must have an NDEx account and a profile associated to the CyNDEx Browser... see the section [Export options](Export_Your_Data.md#export_ndex) for more details). 
 
 -   Click the **Black Arrow Icon** on the left hand side of a network to import it into Cytoscape and visualize it. When you have finished loading networks, dismiss the dialog window by clicking the **Close Dialog** button.
 
@@ -407,12 +407,12 @@ on the group node or any of its children to toggle back and forth.
 
 ![](_static/images/Creating_Networks/GroupExpanded2.png)
 
-The appearance and behavior of grouped nodes depends on the [group settings](Cytoscape_Preferences.html#managing_group_view) in effect when the group is created. Settings can be managed for the entire Cytoscape session (via **Edit → Preferences → Group Preferences...**) or for a specific group (right-click **Preferences → Group Preferences...**).
+The appearance and behavior of grouped nodes depends on the [group settings](Cytoscape_Preferences.md#managing_group_view) in effect when the group is created. Settings can be managed for the entire Cytoscape session (via **Edit → Preferences → Group Preferences...**) or for a specific group (right-click **Preferences → Group Preferences...**).
 
 <a id="adding_network_annotations"> </a>
 ### Adding Network Annotations
 
-[Annotations](Annotations.html) in the form of text, images or shapes can be added to the
+[Annotations](Annotations.md) in the form of text, images or shapes can be added to the
 network canvas by right-clicking anywhere on the canvas and selecting
 one of the **Annotation** choices in the **Add** menu. You can add an image
 of your own, choose from a shapes library or add either plain or bounded
