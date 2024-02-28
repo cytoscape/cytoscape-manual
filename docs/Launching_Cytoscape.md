@@ -162,7 +162,7 @@ amount of memory. An incorrect estimate may result in Cytoscape hanging
 at startup or Cytoscape unable to load your network. Unless Cytoscape
 fails to start or open your network, it has likely estimated the
 available memory correctly, and you can continue to the [Quick
-Tour](Quick_Tour_of_Cytoscape.html#quick-tour-of-cytoscape).
+Tour](Quick_Tour_of_Cytoscape.md).
 If Cytoscape misjudges the memory size or can't allocate enough memory,
 it could be that you're running with a **32 bit JRE** and could get better
 results by installing a **64 bit JRE** -- see the Install Java section
