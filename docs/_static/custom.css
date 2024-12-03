@@ -1,0 +1,13 @@
+/* Remove bullet and Adjust indentation of first level list items if necessary */
+
+div.toctree-wrapper.compound > ul > li {
+    margin-left: 1.5em;     /* Indent list items */
+    list-style: none
+}
+
+/* Remove bullet and Adjust indentation of second level list items if necessary */
+
+div.toctree-wrapper.compound > ul > li > ul > li {
+    margin-left: 1.5em;     /* Indent list items */
+    list-style: none
+}
