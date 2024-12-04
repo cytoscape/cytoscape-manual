@@ -28,6 +28,8 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 ## app.add_stylesheet() method is deprecated, switch to using html_css_files = [] below (KH)
 #def setup(app):
   #app.add_stylesheet( "css/tables.css" ) ##deprecated method
+def setup(app):
+  app.add_css_file( "css/tables.css" )
 # from http://stackoverflow.com/questions/32079200/how-do-i-set-up-custom-styles-for-restructuredtext-sphinx-readthedocs-etc/32079202#32079202
 html_logo = '_static/images/cytoscape3-icon-trans-128x128.png'
 html_favicon = '_static/images/cytoscape3-icon.ico'
@@ -42,7 +44,10 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_css_files = ['css/tables.css']
+html_css_files = [
+    'custom.css',
+]
+# html_css_files = ['css/tables.css']
 
 html_show_sourcelink = True
 htmlhelp_basename = 'Testdoc'
