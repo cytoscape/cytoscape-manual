@@ -49,12 +49,12 @@ layout of the network each time it is loaded.
 Lines in the SIF file specify a source node, a relationship type (or
 edge type), and one or more target nodes:
 
-    nodeA <relationship type> nodeB
-    nodeC <relationship type> nodeA
-    nodeD <relationship type> nodeE nodeF nodeB
+    nodeA &lt;relationship type&gt; nodeB
+    nodeC &lt;relationship type&gt; nodeA
+    nodeD &lt;relationship type&gt; nodeE nodeF nodeB
     nodeG
     ...
-    nodeY <relationship type> nodeZ
+    nodeY &lt;relationship type&gt; nodeZ
 
 A more specific example is:
 
