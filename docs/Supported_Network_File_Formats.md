@@ -49,12 +49,12 @@ layout of the network each time it is loaded.
 Lines in the SIF file specify a source node, a relationship type (or
 edge type), and one or more target nodes:
 
-    nodeA &lt;relationship type&gt; nodeB
-    nodeC &lt;relationship type&gt; nodeA
-    nodeD &lt;relationship type&gt; nodeE nodeF nodeB
+    nodeA relationship_type nodeB
+    nodeC relationship_type nodeA
+    nodeD relationship_type nodeE nodeF nodeB
     nodeG
     ...
-    nodeY &lt;relationship type&gt; nodeZ
+    nodeY relationship_type nodeZ
 
 A more specific example is:
 
@@ -74,9 +74,9 @@ node that has no relationships with other nodes. This form is not needed
 for nodes that do have relationships, since the specification of the
 relationship implicitly identifies the nodes as well.
 
-Duplicate entries are ignored. Multiple edges between the same nodes
-must have different edge types. For example, the following specifies two
-edges between the same pair of nodes, one of type xx and one of type yy:
+Duplicate entries are kept. Multiple edges between the same nodes
+can have the same edge types. For example, the following specifies three
+edges between the same pair of nodes, two of type xx and one of type yy:
 
     node1 xx node2
     node1 xx node2
