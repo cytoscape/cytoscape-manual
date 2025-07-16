@@ -74,8 +74,8 @@ node that has no relationships with other nodes. This form is not needed
 for nodes that do have relationships, since the specification of the
 relationship implicitly identifies the nodes as well.
 
-Duplicate entries are kept. Multiple edges between the same nodes
-can have the same edge types. For example, the following specifies three
+Duplicate entries are preserved. Multiple edges between the same nodes
+can have identical edge types. For example, the following specifies three
 edges between the same pair of nodes, two of type xx and one of type yy:
 
     node1 xx node2
