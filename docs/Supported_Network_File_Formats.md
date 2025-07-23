@@ -428,8 +428,6 @@ read the [Style](Styles.md#styles) section for more details.
 <a id="cytoscape_cx"> </a>
 ## Cytoscape Exchange Format (CX2)
 
-## Cytoscape Exchange Format (CX2)
-
 The Cytoscape Exchange Format version 2 (CX2) is a JSON-based network data exchange format designed for efficient interoperability across various Cytoscape ecosystem applications, including Cytoscape Desktop, Cytoscape Web, and the Network Data Exchange (NDEx). CX2 organizes network data into modular "aspects," each structured independently following its own schema. This aspect-oriented approach simplifies handling complex data such as visual styles, network topology, node and edge attributes, and layout coordinates, allowing consistent interpretation and presentation across different tools.
 
 Originally introduced as an evolution of the Cytoscape Exchange (CX) format, CX2 was collaboratively developed by the Cytoscape and NDEx teams to better support the increasing complexity of biological networks and their associated metadata. CX2 enhances performance through a compact design optimized for web applications, reducing memory usage and improving network data transfer efficiency. Its extensible structure enables easy incorporation of new features without impacting existing compatibility, supporting future advancements within the Cytoscape community.
