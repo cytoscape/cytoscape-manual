@@ -1,6 +1,8 @@
 <a id="supported_network_file_formats"> </a>
 # Supported Network File Formats
 
+Cytoscape represents networks as directed graphs, where nodes represent entities (such as genes, proteins, or metabolites) and edges represent relationships or interactions between these entities. All edges in Cytoscape are inherently directed, meaning they have a source node and a target node. However, Cytoscape does not interpret or assign semantic meaning to the imported graph structure - it simply preserves the topological relationships as specified in the input data. The biological or functional significance of nodes and edges is determined by the user's interpretation and analysis.
+
 Cytoscape can read network/pathway files written in the following
 formats:
 
@@ -23,7 +25,12 @@ formats:
 -   [Cytoscape.js
     JSON](http://cytoscape.github.io/cytoscape.js/#notation/elements-json)
     
--   [Cytoscape CX](https://github.com/CyComponent/CyWiki)    
+-   Cytoscape Exchange Format (CX2)    
+
+These formats vary in their complexity and the type of information they can store. Some formats focus primarily on network topology, while others can preserve additional metadata such as node attributes, edge properties, visual styling, and layout information. All file types listed (except Excel) are text files and you can edit and view them in a regular text editor.
+
+<a id="sif_format"> </a>
+## SIF Format
 
 The SIF format specifies nodes and interactions only, while other
 formats store additional information about network layout and allow
@@ -32,12 +39,7 @@ sources. Typically, SIF files are used to import interactions when
 building a network for the first time, since they are easy to create in
 a text editor or spreadsheet. Once the interactions have been loaded and
 network layout has been performed, the network may be saved to GML or
-XGMML format for interaction with other systems. All file types listed
-(except Excel) are text files and you can edit and view them in a
-regular text editor.
-
-<a id="sif_format"> </a>
-## SIF Format
+XGMML format for interaction with other systems.
 
 The simple interaction format is convenient for building a graph from a
 list of interactions. It also makes it easy to combine different
@@ -424,41 +426,62 @@ style in a separate JSON file if you apply style to your network. Please
 read the [Style](Styles.md#styles) section for more details.
 
 <a id="cytoscape_cx"> </a>
-## Cytoscape CX
+## Cytoscape Exchange Format (CX2)
 
-CX is a JSON-based transfer format that enables diverse Cytoscape Cyberinfrastructure (CI) services to exchange networks while preserving all network-related information.
-It is designed for flexibility, modularity, and extensibility, and as a message payload in common CI REST protocols. It enables applications to standardize on core aspects of networks, coordinate on more specific or unique standards, and to ignore or omit irrelevant aspects. It is not intended as an optimized format for storage or for specific functionality in applications.
- 
-CX is an Aspect-Oriented Network Interchange Format, where the base information is a list of nodes. Independent data structures (called aspects) organize and elaborate on nodes and each other. The core of CX defines five aspects, though a more comprehensive [CX document](https://github.com/CyComponent/CyWiki) describes many more aspects.
+## Cytoscape Exchange Format (CX2)
 
-<table cellspacing="0" style="table-layout: fixed; width: 700px">
-<colgroup> <col style="width:200px">                              <col style="width:500px"> </colgroup>
-<tbody>
-<tr> <th>Aspect</th>                                 <th>Purpose</th></tr>
-<tr> <th class="spec ulcase">networkAttributes</th>  <td class="">element specify name-value pairs describing the network</td> </tr>
-<tr> <th class="specalt ulcase">nodes</th>           <td class="alt">elements specify the identifiers for nodes in a network, optionally specifying a node name</td> </tr>
-<tr> <th class="spec ulcase">edges</th>              <td class="">elements specify edges that connect nodes, optionally specifying a interaction</td> </tr>
-<tr> <th class="specalt ulcase">nodeAttributes</th>  <td class="alt">elements specify name-value pairs describing nodes</td> </tr>
-<tr> <th class="spec ulcase">edgeAttributes</th>     <td class="">elements specify name-value pairs describing edges</td> </tr>
-</tbody>
-</table>
-<br>
+The Cytoscape Exchange Format version 2 (CX2) is a JSON-based network data exchange format designed for efficient interoperability across various Cytoscape ecosystem applications, including Cytoscape Desktop, Cytoscape Web, and the Network Data Exchange (NDEx). CX2 organizes network data into modular "aspects," each structured independently following its own schema. This aspect-oriented approach simplifies handling complex data such as visual styles, network topology, node and edge attributes, and layout coordinates, allowing consistent interpretation and presentation across different tools.
 
-The **nodes** aspect contains only the identifiers of the network's nodes, The **edges** aspect contains identifiers for each edge along with the identifiers of the nodes the edge connects. The **networkAttributes** aspect contains name-value pairs describing the network. The **nodeAttributes** and "edgeAttributes" aspects contain name-value pairs attached to specifically identified nodes and edges.
+Originally introduced as an evolution of the Cytoscape Exchange (CX) format, CX2 was collaboratively developed by the Cytoscape and NDEx teams to better support the increasing complexity of biological networks and their associated metadata. CX2 enhances performance through a compact design optimized for web applications, reducing memory usage and improving network data transfer efficiency. Its extensible structure enables easy incorporation of new features without impacting existing compatibility, supporting future advancements within the Cytoscape community.
 
-Critically, applications are free to add and maintain their own aspects without coordinating or negotiating with disinterested applications.
+A simple CX2 network example with two nodes, one edge, attributes, and layout coordinates is shown below:
 
-As an illustration using the picture below, a three node network can be described as a list of nodes (**nodes** aspect) and edges that link them (**edges** aspect). If the network has been laid out, a separate aspect (**cartesianLayout** aspect) can describe the position of each node. More concretely, a CX encoding would have three nodes in the **nodes** aspect, each with unique IDs. The **edges** aspect references each node by ID, with each edge having its own ID. Finally, the **cartesianLayout** aspect ties coordinates to nodes by ID. In fact, a network may have many aspects, describing node and edge attributes, subnetworks, visual properties, groups and so on.
+```json
+[
+  {
+    "CXVersion": "2.0",
+    "hasFragments": false
+  },
+  {
+    "attributeDeclarations": [
+      {
+        "networkAttributes": {
+          "name": {"d": "string"}
+        },
+        "nodes": {
+          "name": {"d": "string"},
+          "type": {"d": "string"}
+        },
+        "edges": {
+          "interaction": {"d": "string"}
+        }
+      }
+    ]
+  },
+  {
+    "networkAttributes": [
+      {"name": "Simple Network Example"}
+    ]
+  },
+  {
+    "nodes": [
+      {"id": 1, "x": 100, "y": 200, "v": {"name": "Node A", "type": "protein"}},
+      {"id": 2, "x": 300, "y": 400, "v": {"name": "Node B", "type": "protein"}}
+    ]
+  },
+  {
+    "edges": [
+      {"id": 100, "s": 1, "t": 2, "v": {"interaction": "binds"}}
+    ]
+  },
+  {
+    "status": [
+      {"error": "", "success": true}
+    ]
+  }
+]
+```
 
-![](_static/images/Network_Formats/cx_example.png)
+For detailed information about the CX2 specification, supported aspects, and additional examples, please visit the [Cytoscape Exchange Format documentation](https://cytoscape.org/cx/cx2/specification/cytoscape-exchange-format-specification-%28version-2%29/).
 
-The actual JSON encoding for a CX stream is described in the [CX document](https://github.com/CyComponent/CyWiki). It would appear something like this: 
 
-    {
-      "nodes": [{"@id": 1}, {"@id": 2}, {"@id": 3}],
-      "edges": [{"s": 1, "@id": 4, "t": 2}, 
-                {"s": 2, "@id": 5, "t": 3}],
-      "cartesianLayout": [{"x": 100, "node": 1, "y": 100}, 
-                          {"x": 200, "node": 2, "y": 200},
-                          {"x": 100, "node": 3, "y": 200}]
-    }
