@@ -473,7 +473,7 @@ at:
 
 Cytoscape has native support for Microsoft Excel files (.xls, .xlsx) and
 delimited text files. The tables in these files can have network data
-and edge columns. Users can specify columns containg source nodes,
+and edge columns. Users can specify columns containing source nodes,
 target nodes, interaction types, and edge columns during file import.
 Some of the other network analysis tools, such as igraph
 ([https://igraph.org/](https://igraph.org/)), has feature to export graph
