@@ -7,11 +7,11 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 project = u'Cytoscape User Manual'
-copyright = u'2024, The Cytoscape Consortium'
+copyright = u'2025, The Cytoscape Consortium'
 author = u'The Cytoscape Consortium'
 
-version = '3.10.3'
-release = '3.10.3'
+version = '3.10.4'
+release = '3.10.4'
 language = None
 
 # List of patterns, relative to source directory, that match files and
