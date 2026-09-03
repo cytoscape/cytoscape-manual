@@ -18,15 +18,12 @@ A note on timing: Since the "stable" version at ReadTheDocs is the latest tagged
 ### Process for updating the manual content, pre-release
 
 1. Make a new branch at GitHub corresponding to the new version of Cytoscape, for example 3.9.1. Make sure to mirror the exact version number that is being developed (refer to code.cytoscape.org); the format should be "X.Y.Z".
-2. To get readthedocs to build the manual for this new version.
-3. Go to https://readthedocs.org, login and under project click on **Cytoscape User Manual**.
-4. Click **Add version** button and select "X.Y.Z" branch just created.
-5. Click the Slider next to **Active** and click **Update version**
-6. Any changes to the manual content should be done on the new branch. ReadTheDocs will create a build as soon as a branch is created. To review content throughout the update period, go to the branch-specific version of the manual, for example http://manual.cytoscape.org/en/3.9.1/.
-7. Review updates to docs and images at GitHub.
-8. Add any new manual sections to index.rst and update Copyright year (if applicable).
-9. Update version number and Copyright year (if applicable) in conf.py
-10. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/3.9.1/.
+2. To get readthedocs to build the manual for this new version. Go to https://readthedocs.org, login and under project click on **Cytoscape User Manual**. Click **Add version** button and select "X.Y.Z" branch just created. Click the Slider next to **Active** and click **Update version**
+3. Any changes to the manual content should be done on the new branch. ReadTheDocs will create a build as soon as a branch is created. To review content throughout the update period, go to the branch-specific version of the manual, for example http://manual.cytoscape.org/en/3.9.1/.
+4. Review updates to docs and images at GitHub.
+5. Add any new manual sections to index.rst and update Copyright year (if applicable).
+6. Update version number and Copyright year (if applicable) in conf.py
+7. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/3.9.1/.
 
 :warning: When you're checking a new version of the manual, be sure to clear your browser's cache ... otherwise, you'll be looking at
 an obsolete version, which will quickly become confusing.
