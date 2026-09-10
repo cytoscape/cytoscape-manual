@@ -1,0 +1,78 @@
+# Sphinx warnings this repo already emitted before the Agentic Integration
+# chapter was added. That chapter contributes none of its own.
+# tests/test_manual.py asserts a build produces nothing outside this set, so a
+# genuinely new warning -- a missing image, a mistyped toctree entry -- fails
+# the suite.
+#
+# Absolute paths and line numbers are stripped before comparison; line numbers
+# move whenever a chapter is edited.
+#
+# The categories here, and why they are tolerated rather than fixed:
+#
+#   myst.xref_missing  By far the bulk. This manual links between chapters
+#                      with raw HTML anchors (<a id="foo"> </a>), which MyST
+#                      cannot see when it validates a Markdown link target.
+#                      The links resolve correctly in the built HTML, so these
+#                      are false positives, not broken links -- but clearing
+#                      them means revisiting every link in the manual.
+#                      Agentic_Integration.md avoids them by writing its
+#                      anchor links as raw HTML (<a href="...">), which MyST
+#                      passes through without validating. Note that the
+#                      Foo.html#anchor Markdown form the README suggests does
+#                      NOT avoid the warning -- MyST validates that too.
+#
+#   toc.not_readable   docs/index.rst lists App_Manager, but that file was
+#   toc.not_included   renamed to App_Store.md in 1d276e5 and the toctree was
+#                      never updated. Sphinx drops the entry, so the App Store
+#                      chapter is missing from the published manual and every
+#                      later chapter numbers one lower. Deliberately not fixed
+#                      here: it would shift Agentic Integration from 27 to 28.
+#
+#   myst.header        Pre-existing heading-level jumps in older chapters.
+#
+#   (untyped)          Two conf.py deprecations: get_html_theme_path, and
+#                      language = None.
+#
+# To regenerate after fixing or accepting a warning, run `make build` and then:
+#
+#   python3 tests/regenerate_warnings_baseline.py
+#
+WARNING: Calling get_html_theme_path is deprecated. If you are calling it to define html_theme_path, you are safe to remove that code.
+WARNING: Invalid configuration value found: 'language = None'. Update your configuration to a valid language code. Falling back to 'en' (English).
+docs/App_Store.md: WARNING: document isn't included in any toctree [toc.not_included]
+docs/Command_Tool.md: WARNING: local id not found in doc 'Programmatic_Access_to_Cytoscape_Features_Scripting': 'cytoscape_automation' [myst.xref_missing]
+docs/Creating_Networks.md: WARNING: local id not found in doc 'Creating_Networks': 'import_networks_from_public_databases' [myst.xref_missing]
+docs/Creating_Networks.md: WARNING: local id not found in doc 'Cytoscape_Preferences': 'cytoscape-preferences' [myst.xref_missing]
+docs/Creating_Networks.md: WARNING: local id not found in doc 'Cytoscape_Preferences': 'managing_group_view' [myst.xref_missing]
+docs/Creating_Networks.md: WARNING: local id not found in doc 'Export_Your_Data': 'export_ndex' [myst.xref_missing]
+docs/Creating_Networks.md: WARNING: local id not found in doc 'Node_and_Edge_Column_Data': 'node-and-edge-column-data' [myst.xref_missing]
+docs/Creating_Networks.md: WARNING: local id not found in doc 'Supported_Network_File_Formats': 'supported-network-file-formats' [myst.xref_missing]
+docs/Cytoscape.js_and_Cytoscape.md: WARNING: Non-consecutive header level increase; H2 to H4 [myst.header]
+docs/Cytoscape_Preferences.md: WARNING: local id not found in doc 'Creating_Networks': 'grouping-nodes' [myst.xref_missing]
+docs/Cytoscape_Preferences.md: WARNING: local id not found in doc 'Styles': 'styles' [myst.xref_missing]
+docs/Cytoscape_and_OpenCL_GPU.md: WARNING: 'myst' cross-reference target not found: 'cytoscape_gpu_configuration' [myst.xref_missing]
+docs/Export_Your_Data.md: WARNING: local id not found in doc 'Creating_Networks': 'example-retrieving-networks-from-ndex' [myst.xref_missing]
+docs/Export_Your_Data.md: WARNING: local id not found in doc 'Export_Your_Data': 'as_an_ndex_network' [myst.xref_missing]
+docs/Export_Your_Data.md: WARNING: local id not found in doc 'Export_Your_Data': 'export_ndex' [myst.xref_missing]
+docs/Export_Your_Data.md: WARNING: local id not found in doc 'Export_Your_Data': 'sharing-via-cynetshare' [myst.xref_missing]
+docs/Finding_and_Filtering_Nodes_and_Edges.md: WARNING: local id not found in doc 'Finding_and_Filtering_Nodes_and_Edges': 'search_bar' [myst.xref_missing]
+docs/Finding_and_Filtering_Nodes_and_Edges.md: WARNING: local id not found in doc 'Quick_Tour_of_Cytoscape': 'network-view-tools' [myst.xref_missing]
+docs/Linkout.md: WARNING: local id not found in doc 'Launching_Cytoscape': 'cytoscape-directories' [myst.xref_missing]
+docs/Navigation_and_Layout.md: WARNING: local id not found in doc 'Nested_Networks': 'nested-networks' [myst.xref_missing]
+docs/Navigation_and_Layout.md: WARNING: local id not found in doc 'Quick_Tour_of_Cytoscape': 'the-network-overview-window' [myst.xref_missing]
+docs/Nested_Networks.md: WARNING: local id not found in doc 'Creating_Networks': 'grouping-nodes' [myst.xref_missing]
+docs/Nested_Networks.md: WARNING: local id not found in doc 'Navigation_and_Layout': 'nested-network-node-context-menu' [myst.xref_missing]
+docs/Panels.md: WARNING: 'myst' cross-reference target not found: 'Node_and_Edge_Column.md' [myst.xref_missing]
+docs/Quick_Tour_of_Cytoscape.md: WARNING: 'myst' cross-reference target not found: 'EnrichmentTable.md' [myst.xref_missing]
+docs/Quick_Tour_of_Cytoscape.md: WARNING: local id not found in doc 'Creating_Networks': 'create_a_new_network_or_edit_one_manually' [myst.xref_missing]
+docs/Quick_Tour_of_Cytoscape.md: WARNING: local id not found in doc 'Cytoscape_Preferences': 'cytoscape-preferences' [myst.xref_missing]
+docs/Quick_Tour_of_Cytoscape.md: WARNING: local id not found in doc 'Cytoscape_Privacy_Policy': 'cytoscape-privacy-policy' [myst.xref_missing]
+docs/Quick_Tour_of_Cytoscape.md: WARNING: local id not found in doc 'Finding_and_Filtering_Nodes_and_Edges': 'cychart' [myst.xref_missing]
+docs/Quick_Tour_of_Cytoscape.md: WARNING: local id not found in doc 'Finding_and_Filtering_Nodes_and_Edges': 'diffusion' [myst.xref_missing]
+docs/Quick_Tour_of_Cytoscape.md: WARNING: local id not found in doc 'Merge': 'merge' [myst.xref_missing]
+docs/Quick_Tour_of_Cytoscape.md: WARNING: local id not found in doc 'Network_Analyzer': 'networkanalyzer' [myst.xref_missing]
+docs/Quick_Tour_of_Cytoscape.md: WARNING: local id not found in doc 'Panels': 'what-are-panels' [myst.xref_missing]
+docs/Styles.md: WARNING: 'myst' cross-reference target not found: 'how-mappings-work' [myst.xref_missing]
+docs/Supported_Network_File_Formats.md: WARNING: local id not found in doc 'Creating_Networks': 'creating-networks' [myst.xref_missing]
+docs/Supported_Network_File_Formats.md: WARNING: local id not found in doc 'Styles': 'styles' [myst.xref_missing]
+docs/index.rst: WARNING: toctree contains reference to nonexisting document 'App_Manager' [toc.not_readable]

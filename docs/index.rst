@@ -42,6 +42,7 @@ Copyright (c) 2001-2026 The Cytoscape Consortium
    Cytoscape_and_OpenCL_GPU
    Cytoscape.js_and_Cytoscape
    Programmatic_Access_to_Cytoscape_Features_Scripting
+   Agentic_Integration
    Cytoscape_Privacy_Policy
    Basic_Expression_Analysis_Tutorial
 ..   

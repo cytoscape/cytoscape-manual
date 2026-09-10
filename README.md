@@ -49,6 +49,31 @@ If a problem with a new tagged release (and the corresponding ReadTheDocs build)
 
 Note: If the build you are looking for does not appear in the drop-down even though it should be there (i.e. there is a tag at GitHub), it is possible that the build is just "inactive". Go to the "Versions" page and scroll down to the list at the bottom. Locate the build there, for example 3.8.1, and click "Activate".
 
+## Building the Manual Locally
+
+The repository carries a `Makefile` that reproduces what ReadTheDocs does, so you can see your changes before pushing. Run `make` on its own for the list of targets.
+
+```
+make dev     # live-reloading preview at http://localhost:8000, rebuilds on save
+make test    # clean build, then the test suite -- run this before opening a PR
+```
+
+`make dev` leaves a server running and rebuilds the manual every time you save a file, refreshing the browser tab for you. Override the port with `make dev PORT=9000`.
+
+`make test` builds from scratch and checks the result: that the manual builds, that `_static` was collected, that the chapter numbering in `index.rst` still comes out as expected, and that Sphinx emitted no warning outside `tests/sphinx_warnings_baseline.txt`. That baseline records the warnings this manual already produces (see the comments at the top of the file); anything new fails the run. The same two targets run in GitHub Actions on every pull request and push.
+
+Note that `docs/_build/html` is only a local preview. This repository produces no deployable artifact -- ReadTheDocs clones the repo and runs its own build, so nothing is ever uploaded from a workstation.
+
+## Previewing a Pull Request
+
+ReadTheDocs builds every pull request. A `docs/readthedocs.org:cytoscape-manual` check appears on the PR, and its **Details** link opens a hosted preview of the whole manual as of that branch:
+
+```
+https://cytoscape-manual--<PR number>.org.readthedocs.build/en/<PR number>/
+```
+
+That preview is built by the same machinery that publishes the manual, so it is the right thing to review against. Previews are discarded when the PR closes.
+
 ## Editing the Manual
 
 To edit manual text, you must first check out this repository and use a text editor on your workstation. For small edits, you can use GitHub's native Markdown editor.
