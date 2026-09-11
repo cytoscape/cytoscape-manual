@@ -24,9 +24,163 @@ releases.
 chapter works on a stock installation. The capability is delivered by an
 optional app from the
 [Cytoscape App Store (https://apps.cytoscape.org)](https://apps.cytoscape.org),
-which you must install yourself. The rest of this chapter covers that app:
-what it provides, how to install and connect it, and how to work with an agent
-once it is running.
+which you must install yourself. The rest of this chapter covers that app: how
+to install and connect it, what it provides, and how to work with an agent once
+it is running.
+
+<a id="mcp_installation"> </a>
+## Installation
+
+The Cytoscape MCP Server is not bundled with Cytoscape, so none of this chapter
+applies until you install it.
+
+<a id="mcp_requirements"> </a>
+***Requirements.***
+
+-   Cytoscape 3.10 or above.
+-   An MCP-capable AI client that supports the Streamable HTTP transport —
+    for example Claude Desktop, Claude Code, GitHub Copilot or OpenAI Codex
+    CLI.
+-   An internet connection, if you want to load networks from NDEx.
+
+The app has one runtime property, editable at
+**Edit → Preferences → Properties → cytoscapemcp**:
+
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<caption>Cytoscape MCP Server properties</caption>
+<colgroup> <col style="width:170px"> <col style="width:180px"> <col style="width:350px"> </colgroup>
+<tbody>
+<tr> <th>Property</th>                       <th>Default</th>                          <th>Description</th> </tr>
+<tr> <th class="spec ulcase">mcp.ndexbaseurl</th> <td><code>https://www.ndexbio.org</code></td> <td>Base URL of the NDEx server that network-loading tools read from. Change it to point at a private or internal NDEx instance. Takes effect immediately — tool calls read it at invocation time, so no restart is needed.</td> </tr>
+</tbody>
+</table>
+<br>
+
+
+<a id="mcp_install_app"> </a>
+### Installing the app
+
+Install **Cytoscape MCP Server** from its Cytoscape App Store page:
+
+-   [apps.cytoscape.org/apps/cytoscapemcpserver (https://apps.cytoscape.org/apps/cytoscapemcpserver)](https://apps.cytoscape.org/apps/cytoscapemcpserver)
+
+Click **Install** there and Cytoscape will pick the app up. Restart Cytoscape if
+prompted. Once it has started, the app is running when the **MCP** button
+appears in the status bar with a green label.
+
+<a id="mcp_url"> </a>
+### Finding your MCP URL
+
+Everything an agent needs is one URL:
+
+    http://localhost:{rest.port}/mcp
+
+where `{rest.port}` is Cytoscape's CyREST port. That is **1234** unless you
+changed it under **Edit → Preferences → REST API**. Rather than assembling the
+URL yourself, click the **MCP** button in the bottom-left status bar — the
+**MCP Server** dialog shows the live URL for your running instance, along with
+the setup commands for each supported agent.
+
+<a id="mcp_configure_agent"> </a>
+### Configuring your agent
+
+There are two ways to connect, and they are not equivalent.
+
+<table cellspacing="0" style="table-layout: fixed; width: 700px">
+<caption>Choosing how to connect</caption>
+<colgroup> <col style="width:250px"> <col style="width:450px"> </colgroup>
+<tbody>
+<tr> <th>Your agent</th> <th>Use this</th> </tr>
+<tr> <th class="spec ulcase">Anything supporting Streamable HTTP — Claude Code, GitHub Copilot, Codex CLI and most others</th> <td>The MCP URL above, configured directly. Nothing to install and no extra process.</td> </tr>
+<tr> <th class="specalt ulcase">Claude Desktop</th> <td class="alt">The <b>Cytoscape MCP</b> extension (<code>.mcpb</code>), which bundles a small stdio-to-HTTP bridge. Desktop extensions speak stdio, so the bridge is required there.</td> </tr>
+</tbody>
+</table>
+<br>
+
+Both reach the same MCP server inside Cytoscape. **If your agent can take a
+URL, give it the URL.**
+
+***Claude Desktop.*** First go to **Settings → Extensions → Advanced** and
+enable **Use Built-in Node.js for MCP** — the extension will not function
+without it. Download `cytoscape-mcp.mcpb` from the project's releases page,
+then in Claude Desktop go to **Settings → Extensions**, click **Install
+Extension**, and select the downloaded file. To verify, look for the
+**Cytoscape MCP** connector under **Customize → Connectors**; that screen
+exposes the CyREST port as a setting, defaulted to 1234, which you should
+change if you changed the port in Cytoscape.
+
+***Claude Code.***
+
+    claude mcp add --transport http cytoscape-mcp http://localhost:{rest.port}/mcp
+
+Verify with `claude mcp list`.
+
+***GitHub Copilot (VS Code).*** Open the Command Palette
+(**Cmd+Shift+P** / **Ctrl+Shift+P**), run **MCP: Add Server**, choose **HTTP**,
+enter `http://localhost:{rest.port}/mcp` and name it `cytoscape-mcp`. Or from
+a terminal:
+
+    code --add-mcp '{"name":"cytoscape-mcp","type":"http","url":"http://localhost:{rest.port}/mcp"}'
+
+***GitHub Copilot CLI.***
+
+    copilot mcp add --transport http cytoscape-mcp http://localhost:{rest.port}/mcp
+
+Verify with `copilot mcp list`.
+
+***OpenAI Codex CLI.***
+
+    codex mcp add cytoscape-mcp --http-url http://localhost:{rest.port}/mcp
+
+Verify with `codex mcp list`, or type `/mcp` inside the Codex TUI.
+
+<a id="mcp_verify"> </a>
+### Verifying the installation
+
+Check Cytoscape first, then the agent.
+
+1.  **The MCP button is present and green.** Look at the bottom-left corner of
+    the Cytoscape window for a bold **MCP** button. Green means the server
+    started and is ready. Red means it is not responding — confirm Cytoscape
+    is running and that CyREST is active.
+
+2.  **The MCP Server dialog opens.** Click the button. A dialog titled
+    **MCP Server** should open, headed by a green line reading *MCP server
+    running at* followed by the endpoint URL for your running instance, and
+    listing the connection instructions for each supported agent.
+
+    ![](_static/images/Agentic_Integration/mcp_server_dialog.png)
+
+3.  **The health endpoint answers.**
+
+        curl http://localhost:{rest.port}/mcp/health
+
+    You should see:
+
+        {"status":"ok","transport":"mcp-streamable-http"}
+
+    A "connection refused" error means Cytoscape is not running, or the port
+    is not the one you used.
+
+4.  **The agent reports a connection.** Most agents have a `/mcp` command or an
+    MCP settings panel listing each configured server, whether it is
+    **connected**, and which tools it publishes. `cytoscape-mcp` should appear
+    there as connected.
+
+5.  **A prompt reaches Desktop.** Ask the agent:
+
+        > open a network using cytoscape desktop
+
+    The network should appear in Cytoscape's **Network** panel and render in
+    the main canvas, and the tool call should be listed under
+    **View → Show Task History**.
+
+**Warning:** Cytoscape is a single-user application with shared session state.
+The transport supports several agents connected at once, each with its own
+session, but they can issue conflicting commands — two agents changing the
+current view, for instance. Running more than one agent against a single
+Cytoscape instance is not recommended, and coordinating them is your
+responsibility.
 
 <a id="mcp"> </a>
 ## MCP
@@ -39,11 +193,9 @@ The agent discovers those tools, decides which ones your request calls for,
 and invokes them. Because the protocol is shared, any MCP-capable agent can
 talk to any MCP server.
 
-**The Cytoscape MCP Server is an optional app and is not part of the core
-Cytoscape distribution.** A stock Cytoscape install has no MCP endpoint and no
-**MCP** button in the status bar. Until you install the app from the App Store,
-an agent has nothing to connect to. Because it is not a core app it is also
-versioned separately and does not update along with Cytoscape.
+Because the Cytoscape MCP Server is not a core app, it is versioned separately
+and does not update along with Cytoscape — worth remembering when the tools an
+agent sees do not match what this chapter describes.
 
 **NOTE:** This app is experimental. The tools it publishes and the way they
 behave are subject to change.
@@ -140,164 +292,11 @@ You can obtain the catalog three ways:
 -   From your agent, using its `/mcp` command or its MCP settings panel, which
     lists the tools currently published by each connected server.
 
-<a id="mcp_requirements"> </a>
-***Requirements.***
-
--   Cytoscape 3.10 or above.
--   An MCP-capable AI client that supports the Streamable HTTP transport —
-    for example Claude Desktop, Claude Code, GitHub Copilot or OpenAI Codex
-    CLI.
--   An internet connection, if you want to load networks from NDEx.
-
-The app has one runtime property, editable at
-**Edit → Preferences → Properties → cytoscapemcp**:
-
-<table cellspacing="0" style="table-layout: fixed; width: 700px">
-<caption>Cytoscape MCP Server properties</caption>
-<colgroup> <col style="width:170px"> <col style="width:180px"> <col style="width:350px"> </colgroup>
-<tbody>
-<tr> <th>Property</th>                       <th>Default</th>                          <th>Description</th> </tr>
-<tr> <th class="spec ulcase">mcp.ndexbaseurl</th> <td><code>https://www.ndexbio.org</code></td> <td>Base URL of the NDEx server that network-loading tools read from. Change it to point at a private or internal NDEx instance. Takes effect immediately — tool calls read it at invocation time, so no restart is needed.</td> </tr>
-</tbody>
-</table>
-<br>
-
 <a id="mcp_further_reading"> </a>
 ***Further reading.*** The app maintains its own documentation — a user
 manual, a tutorial, agent configuration details and an FAQ — which goes into
 more detail than this chapter and is updated with each release:
 [github.com/cytoscape/cytoscape-desktop-mcp (https://github.com/cytoscape/cytoscape-desktop-mcp)](https://github.com/cytoscape/cytoscape-desktop-mcp)
-
-<a id="mcp_installation"> </a>
-### Installation
-
-The Cytoscape MCP Server is an optional app and is not bundled with Cytoscape.
-It must be installed before anything below will work.
-
-<a id="mcp_install_app"> </a>
-#### Installing the app
-
-Install **Cytoscape MCP Server** from its Cytoscape App Store page:
-
--   [apps.cytoscape.org/apps/cytoscapemcpserver (https://apps.cytoscape.org/apps/cytoscapemcpserver)](https://apps.cytoscape.org/apps/cytoscapemcpserver)
-
-Click **Install** there and Cytoscape will pick the app up. Restart Cytoscape if
-prompted. Once it has started, the app is running when the **MCP** button
-appears in the status bar with a green label.
-
-<a id="mcp_url"> </a>
-#### Finding your MCP URL
-
-Everything an agent needs is one URL:
-
-    http://localhost:{rest.port}/mcp
-
-where `{rest.port}` is Cytoscape's CyREST port. That is **1234** unless you
-changed it under **Edit → Preferences → REST API**. Rather than assembling the
-URL yourself, click the **MCP** button in the bottom-left status bar — the
-**MCP Server** dialog shows the live URL for your running instance, along with
-the setup commands for each supported agent.
-
-<a id="mcp_configure_agent"> </a>
-#### Configuring your agent
-
-There are two ways to connect, and they are not equivalent.
-
-<table cellspacing="0" style="table-layout: fixed; width: 700px">
-<caption>Choosing how to connect</caption>
-<colgroup> <col style="width:250px"> <col style="width:450px"> </colgroup>
-<tbody>
-<tr> <th>Your agent</th> <th>Use this</th> </tr>
-<tr> <th class="spec ulcase">Anything supporting Streamable HTTP — Claude Code, GitHub Copilot, Codex CLI and most others</th> <td>The MCP URL above, configured directly. Nothing to install and no extra process.</td> </tr>
-<tr> <th class="specalt ulcase">Claude Desktop</th> <td class="alt">The <b>Cytoscape MCP</b> extension (<code>.mcpb</code>), which bundles a small stdio-to-HTTP bridge. Desktop extensions speak stdio, so the bridge is required there.</td> </tr>
-</tbody>
-</table>
-<br>
-
-Both reach the same MCP server inside Cytoscape. **If your agent can take a
-URL, give it the URL.**
-
-***Claude Desktop.*** First go to **Settings → Extensions → Advanced** and
-enable **Use Built-in Node.js for MCP** — the extension will not function
-without it. Download `cytoscape-mcp.mcpb` from the project's releases page,
-then in Claude Desktop go to **Settings → Extensions**, click **Install
-Extension**, and select the downloaded file. To verify, look for the
-**Cytoscape MCP** connector under **Customize → Connectors**; that screen
-exposes the CyREST port as a setting, defaulted to 1234, which you should
-change if you changed the port in Cytoscape.
-
-***Claude Code.***
-
-    claude mcp add --transport http cytoscape-mcp http://localhost:{rest.port}/mcp
-
-Verify with `claude mcp list`.
-
-***GitHub Copilot (VS Code).*** Open the Command Palette
-(**Cmd+Shift+P** / **Ctrl+Shift+P**), run **MCP: Add Server**, choose **HTTP**,
-enter `http://localhost:{rest.port}/mcp` and name it `cytoscape-mcp`. Or from
-a terminal:
-
-    code --add-mcp '{"name":"cytoscape-mcp","type":"http","url":"http://localhost:{rest.port}/mcp"}'
-
-***GitHub Copilot CLI.***
-
-    copilot mcp add --transport http cytoscape-mcp http://localhost:{rest.port}/mcp
-
-Verify with `copilot mcp list`.
-
-***OpenAI Codex CLI.***
-
-    codex mcp add cytoscape-mcp --http-url http://localhost:{rest.port}/mcp
-
-Verify with `codex mcp list`, or type `/mcp` inside the Codex TUI.
-
-<a id="mcp_verify"> </a>
-#### Verifying the installation
-
-Check Cytoscape first, then the agent.
-
-1.  **The MCP button is present and green.** Look at the bottom-left corner of
-    the Cytoscape window for a bold **MCP** button. Green means the server
-    started and is ready. Red means it is not responding — confirm Cytoscape
-    is running and that CyREST is active.
-
-2.  **The MCP Server dialog opens.** Click the button. A dialog titled
-    **MCP Server** should open, headed by a green line reading *MCP server
-    running at* followed by the endpoint URL for your running instance, and
-    listing the connection instructions for each supported agent.
-
-    ![](_static/images/Agentic_Integration/mcp_server_dialog.png)
-
-3.  **The health endpoint answers.**
-
-        curl http://localhost:{rest.port}/mcp/health
-
-    You should see:
-
-        {"status":"ok","transport":"mcp-streamable-http"}
-
-    A "connection refused" error means Cytoscape is not running, or the port
-    is not the one you used.
-
-4.  **The agent reports a connection.** Most agents have a `/mcp` command or an
-    MCP settings panel listing each configured server, whether it is
-    **connected**, and which tools it publishes. `cytoscape-mcp` should appear
-    there as connected.
-
-5.  **A prompt reaches Desktop.** Ask the agent:
-
-        > open a network using cytoscape desktop
-
-    The network should appear in Cytoscape's **Network** panel and render in
-    the main canvas, and the tool call should be listed under
-    **View → Show Task History**.
-
-**Warning:** Cytoscape is a single-user application with shared session state.
-The transport supports several agents connected at once, each with its own
-session, but they can issue conflicting commands — two agents changing the
-current view, for instance. Running more than one agent against a single
-Cytoscape instance is not recommended, and coordinating them is your
-responsibility.
 
 <a id="mcp_agent_usage"> </a>
 ### Agent Usage
@@ -390,11 +389,7 @@ in the right-hand column:
 <tr> <th>Prompt</th> <th>What happens</th> </tr>
 <tr> <th class="spec ulcase">load my ndex network xyz into cytoscape</th> <td>Runs <code>ndex download network</code> for that network's UUID, using your selected profile, and opens it as a new network and view.</td> </tr>
 <tr> <th class="specalt ulcase">find ndex networks that start with ergosterol</th> <td class="alt">Runs <code>ndex search networks searchTerm=ergosterol</code> and reports the matches with their UUIDs, owners and sizes. Note that NDEx matches the term anywhere in a network's name, description or owner rather than only at the start, so a request phrased as "starting with" still returns every network mentioning the term.</td> </tr>
-<tr> <th class="spec ulcase">search my private ndex networks for ergosterol</th> <td>The same search with <code>visibility=PRIVATE</code>, which searches your own networks and requires a signed-in profile.</td> </tr>
-<tr> <th class="specalt ulcase">upload my xyz network to ndex</th> <td class="alt">Runs <code>ndex create network</code>, saving the current network to NDEx as a <b>new</b> network and returning its UUID and URL.</td> </tr>
-<tr> <th class="spec ulcase">save my changes back to the ndex network I downloaded</th> <td>Runs <code>ndex update network</code> with that network's UUID, <b>replacing</b> the content of the existing NDEx network.</td> </tr>
-<tr> <th class="specalt ulcase">upload this network to ndex as public in my Project folder</th> <td class="alt">Runs <code>ndex create network</code> with <code>visibility=PUBLIC</code> and <code>folder="My Project"</code>.</td> </tr>
-<tr> <th class="spec ulcase">which ndex accounts am I signed in to?</th> <td>Runs <code>ndex list profiles</code>, listing the configured profiles and which one is current.</td> </tr>
+<tr> <th class="spec ulcase">upload my xyz network to ndex</th> <td>Runs <code>ndex create network</code>, saving the current network to NDEx as a <b>new</b> network and returning its UUID and URL.</td> </tr>
 </tbody>
 </table>
 <br>
