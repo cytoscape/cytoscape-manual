@@ -1,6 +1,6 @@
 # cytoscape-manual
 
-This project contains the complete user manual for Cytoscape 3. There are versions of the manual based on specific versions of Cytoscape. There is also a "stable" version that links to the latest tagged release of the manual. A "latest" link refers to the master branch. The versions are automatically built at ReadTheDocs.org from [tags of this repo](https://github.com/cytoscape/cytoscape-manual/tags), for example 3.8.2. Access to ReadTheDocs.org is restricted, Barry and Kristina have the credentials.
+This project contains the complete user manual for Cytoscape 3. There are versions of the manual based on specific versions of Cytoscape. There is also a "stable" version that links to the latest tagged release of the manual. A "latest" link refers to the master branch. The versions are automatically built at ReadTheDocs.org from [tags of this repo](https://github.com/cytoscape/cytoscape-manual/tags), for example 3.8.2.
 
 Latest Cytoscape version link: http://manual.cytoscape.org/en/stable
 
@@ -12,18 +12,17 @@ Master branch version: http://manual.cytoscape.org/en/latest
 
 ## Rebuilding the Manual
 
-The manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. (This is courtesy of a WebHook that Barry installed per http://docs.readthedocs.org/en/latest/webhooks.html). A build at ReadTheDocs can take anywhere from 3 minutes to 10 minutes, depending on how busy the build server is. It's always best to verify recent changes by viewing them in the built document.
+The manual is automatically rebuilt by ReadTheDocs when the GitHub repository is updated. A build can take anywhere from 3 minutes to 10 minutes, depending on how busy the build server is. It's always best to verify recent changes by viewing them in the built document.
 A note on timing: Since the "stable" version at ReadTheDocs is the latest tagged release (as described above), it is best to wait to produce a release/tag until right before (1 day) a scheduled release. Otherwise stable links (from the website for example) will go to the unreleased version.
 
 ### Process for updating the manual content, pre-release
 
 1. Make a new branch at GitHub corresponding to the new version of Cytoscape, for example 3.9.1. Make sure to mirror the exact version number that is being developed (refer to code.cytoscape.org); the format should be "X.Y.Z".
-2. To get readthedocs to build the manual for this new version. Go to https://readthedocs.org, login and under project click on **Cytoscape User Manual**. Click **Add version** button and select "X.Y.Z" branch just created. Click the Slider next to **Active** and click **Update version**
-3. Any changes to the manual content should be done on the new branch. ReadTheDocs will create a build as soon as a branch is created. To review content throughout the update period, go to the branch-specific version of the manual, for example http://manual.cytoscape.org/en/3.9.1/.
-4. Review updates to docs and images at GitHub.
-5. Add any new manual sections to index.rst and update Copyright year (if applicable).
-6. Update version number and Copyright year (if applicable) in conf.py
-7. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/3.9.1/.
+2. Any changes to the manual content should be done on the new branch. ReadTheDocs will create a build as soon as a branch is created. To review content throughout the update period, go to the branch-specific version of the manual, for example http://manual.cytoscape.org/en/3.9.1/.
+3. Review updates to docs and images at GitHub.
+4. Add any new manual sections to index.rst and update Copyright year (if applicable).
+5. Update version number and Copyright year (if applicable) in conf.py
+6. Double-check the manual at ReadTheDocs here: http://manual.cytoscape.org/en/3.9.1/.
 
 :warning: When you're checking a new version of the manual, be sure to clear your browser's cache ... otherwise, you'll be looking at
 an obsolete version, which will quickly become confusing.
@@ -42,12 +41,32 @@ an obsolete version, which will quickly become confusing.
 
 ### Troubleshooting
 
-If a problem with a new tagged release (and the corresponding ReadTheDocs build) is discovered, the tag at GitHub has to both be removed and recreated in order to fix the ReadTheDocs build.
+If a problem with a new tagged release (and the corresponding ReadTheDocs build) is discovered, delete the release via the github.com UI and recreate it. Go to tags (https://github.com/cytoscape/cytoscape-manual/tags), click on the title of the tag you want to delete, then click the "Delete" button in upper right. Recreating the release triggers a fresh build.
 
-1. Delete the relevant release via the github.com UI. Go to tags (https://github.com/cytoscape/cytoscape-manual/tags), click on the title of the tag you want to delete, then click the "Delete" button in upper right.
-2. Log into ReadTheDocs. Under "Builds", select the appropriate build number, for example 3.8.1, in the drop-down and then click the "Build" button.
+## Building the Manual Locally
 
-Note: If the build you are looking for does not appear in the drop-down even though it should be there (i.e. there is a tag at GitHub), it is possible that the build is just "inactive". Go to the "Versions" page and scroll down to the list at the bottom. Locate the build there, for example 3.8.1, and click "Activate".
+The repository carries a `Makefile` that reproduces what ReadTheDocs does, so you can see your changes before pushing. Run `make` on its own for the list of targets.
+
+```
+make dev     # live-reloading preview at http://localhost:8000, rebuilds on save
+make test    # clean build, then the test suite -- run this before opening a PR
+```
+
+`make dev` leaves a server running and rebuilds the manual every time you save a file, refreshing the browser tab for you. Override the port with `make dev PORT=9000`.
+
+`make test` builds from scratch and checks the result: that the manual builds, that `_static` was collected, that the chapter numbering in `index.rst` still comes out as expected, and that Sphinx emitted no warning outside `tests/sphinx_warnings_baseline.txt`. That baseline records the warnings this manual already produces (see the comments at the top of the file); anything new fails the run. The same two targets run in GitHub Actions on every pull request and push.
+
+Note that `docs/_build/html` is only a local preview. This repository produces no deployable artifact -- ReadTheDocs clones the repo and runs its own build, so nothing is ever uploaded from a workstation.
+
+## Previewing a Pull Request
+
+ReadTheDocs builds every pull request. A `docs/readthedocs.org:cytoscape-manual` check appears on the PR, and its **Details** link opens a hosted preview of the whole manual as of that branch:
+
+```
+https://cytoscape-manual--<PR number>.org.readthedocs.build/en/<PR number>/
+```
+
+That preview is built by the same machinery that publishes the manual, so it is the right thing to review against. Previews are discarded when the PR closes.
 
 ## Editing the Manual
 

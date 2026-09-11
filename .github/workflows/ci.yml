@@ -1,0 +1,25 @@
+name: CI
+
+# Every pull request, and every push to any branch.
+on:
+  pull_request:
+  push:
+
+jobs:
+  build:
+    # Python version mirrors .readthedocs.yaml, so a green run means
+    # ReadTheDocs will build. The runner image does not need to match --
+    # .readthedocs.yaml still pins ubuntu-22.04, which RTD controls; 24.04 here
+    # just avoids chasing a GitHub runner-image retirement later.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Only make targets: the Makefile owns environment setup, so local and CI
+      # behaviour cannot drift.
+      - run: make build
+      - run: make test

@@ -1,0 +1,4 @@
+# Local development and CI only. ReadTheDocs installs docs/requirements.txt,
+# never this file -- nothing here may affect the built output.
+pytest
+sphinx-autobuild
