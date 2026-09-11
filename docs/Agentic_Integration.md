@@ -24,8 +24,9 @@ releases.
 chapter works on a stock installation. The capability is delivered by an
 optional app from the
 [Cytoscape App Store (https://apps.cytoscape.org)](https://apps.cytoscape.org),
-which you must install yourself. The rest of this chapter covers that app: what it provides, how to
-install and connect it, and how to work with an agent once it is running.
+which you must install yourself. The rest of this chapter covers that app:
+what it provides, how to install and connect it, and how to work with an agent
+once it is running.
 
 <a id="mcp"> </a>
 ## MCP
@@ -104,17 +105,22 @@ Alongside those, three **command gateway** tools give an agent access to the
 searches the catalog with a full-text query, one retrieves a command's full
 argument schema, and one invokes it. The three are used in that order by
 design: the gateway refuses to invoke a command whose schema has not been
-retrieved first, which stops an agent from guessing at argument names. This matters more than it might sound.
-Installing another Cytoscape app registers that app's commands with Desktop,
-and the gateway picks them up automatically — so an agent's reach grows with
-the apps you install, with no change to the MCP app itself. The
-<a href="#working_with_ndex">NDEx section</a> below is a worked example of exactly that.
+retrieved first, which stops an agent from guessing at argument names.
+
+This matters more than it might sound. Installing another Cytoscape app
+registers that app's commands with Desktop, and the gateway picks them up
+automatically — so an agent's reach grows with the apps you install, with no
+change to the MCP app itself. The walkthrough under
+<a href="#mcp_how_prompting_works">Agent Usage</a> is a worked example: the
+agent reaches NDEx through a command the gateway found, not through any
+built-in NDEx tool.
 
 <a id="mcp_tool_catalog"> </a>
 ***The tool catalog.*** You never call a tool by name. Every tool is activated
 by natural language: you describe what you want, and the model selects the
-tool from the descriptions it was given. A complete, human-readable catalog of every tool
-registered on the server is available for reference, listing each tool's full
+tool from the descriptions it was given. A complete, human-readable catalog of
+every tool registered on the server is available for reference, listing each
+tool's full
 JSON input and output schema along with three or four example prompt snippets
 showing the phrasing that activates it. Consult it when a request is not
 producing the operation you expected — the example phrasings are the fastest
@@ -157,15 +163,10 @@ The app has one runtime property, editable at
 <br>
 
 <a id="mcp_further_reading"> </a>
-***Further reading.*** The app maintains its own documentation, which goes into
+***Further reading.*** The app maintains its own documentation — a user
+manual, a tutorial, agent configuration details and an FAQ — which goes into
 more detail than this chapter and is updated with each release:
-
--   [App Store listing (https://apps.cytoscape.org/apps/cytoscapemcpserver)](https://apps.cytoscape.org/apps/cytoscapemcpserver)
--   [Project README (https://github.com/cytoscape/cytoscape-desktop-mcp)](https://github.com/cytoscape/cytoscape-desktop-mcp)
--   [User Manual (https://github.com/cytoscape/cytoscape-desktop-mcp/blob/main/docs/UserManual.md)](https://github.com/cytoscape/cytoscape-desktop-mcp/blob/main/docs/UserManual.md)
--   [Tutorial (https://github.com/cytoscape/cytoscape-desktop-mcp/blob/main/docs/Tutorial.md)](https://github.com/cytoscape/cytoscape-desktop-mcp/blob/main/docs/Tutorial.md)
--   [Agent Configuration (https://github.com/cytoscape/cytoscape-desktop-mcp/blob/main/docs/AgentConfiguration.md)](https://github.com/cytoscape/cytoscape-desktop-mcp/blob/main/docs/AgentConfiguration.md)
--   [FAQ (https://github.com/cytoscape/cytoscape-desktop-mcp/blob/main/docs/FAQ.md)](https://github.com/cytoscape/cytoscape-desktop-mcp/blob/main/docs/FAQ.md)
+[github.com/cytoscape/cytoscape-desktop-mcp (https://github.com/cytoscape/cytoscape-desktop-mcp)](https://github.com/cytoscape/cytoscape-desktop-mcp)
 
 <a id="mcp_installation"> </a>
 ### Installation
@@ -249,15 +250,6 @@ Verify with `copilot mcp list`.
     codex mcp add cytoscape-mcp --http-url http://localhost:{rest.port}/mcp
 
 Verify with `codex mcp list`, or type `/mcp` inside the Codex TUI.
-
-***From the MCP Registry.*** The bridge is published to the official MCP
-Registry as `io.github.cytoscape/cytoscape-desktop-mcp-bridge`. If your agent
-or an MCP marketplace installs from the registry, it will find it there.
-Note that a registry install only sets up the client side — Cytoscape must
-already be running with the app installed, or there is nothing behind it.
-
-***Any other agent.*** Consult its documentation for configuring an MCP server
-using the **Streamable HTTP** transport, and give it the URL above.
 
 <a id="mcp_verify"> </a>
 #### Verifying the installation
@@ -380,35 +372,16 @@ vocabulary.
 #### Working with NDEx
 
 [NDEx](https://www.ndexbio.org/), the Network Data Exchange, is where many
-Cytoscape users keep their networks. Agents can work with it directly, and the
-way that capability arrives is worth understanding: it is not built into the
-MCP app at all. **CyNDEx-2** version 3.7.4 added a set of Cytoscape commands
-under the `ndex` namespace, and the MCP app's command gateway finds and
-invokes them like any other registered command. Installing or updating
-CyNDEx-2 is all it takes.
+Cytoscape users keep their networks, and an agent can work with it directly.
+Which networks it can reach is decided by the NDEx sign-in profile you have set
+up in Cytoscape, not by the agent — that is what gives a phrase like *"my
+networks"* something concrete to resolve against. With no profile configured,
+an agent can still search and download public networks, but not save to your
+account. See <a href="Export_Your_Data.html#export_ndex">Export Your Data</a>
+for the interactive route to the same functionality.
 
-**Note**: the network commands require an NDEx server running **v3.0.0 or
-newer** and **CX Support 2.8.0 or newer**. The `ndex list profiles` command
-reads local configuration only and works even when NDEx is unreachable.
-
-***Sign-in profiles come first.*** A CyNDEx-2 **profile** is a saved NDEx
-sign-in, named `username@serverUrl` — the same spelling shown in the CyNDEx-2
-sign-in interface. Profiles are configured in Cytoscape, not in the agent,
-and this is what gives "my networks" a meaning the agent can act on: it is
-your Desktop profile that decides whose networks are reachable, not anything
-the agent holds.
-
--   If a profile is selected, commands use it unless you name a different one.
--   If no profile is selected and none are configured, `ndex download network`
-    and `ndex search networks` fall back to the public NDEx server
-    anonymously, and can then reach public networks only.
--   `ndex create network` and `ndex update network` always require a signed-in
-    profile and report an error when there is none.
-
-See <a href="Export_Your_Data.html#export_ndex">Export Your Data</a> for the interactive
-route to the same functionality.
-
-***Example prompts.*** Each of these resolves to one of the `ndex` commands:
+***Example prompts.*** Each of these drives NDEx through the command named
+in the right-hand column:
 
 <table cellspacing="0" style="table-layout: fixed; width: 700px">
 <caption>NDEx prompts and the commands they resolve to</caption>
@@ -425,46 +398,6 @@ route to the same functionality.
 </tbody>
 </table>
 <br>
-
-***The commands behind the prompts.*** Knowing these makes it much easier to
-phrase a request precisely, and to check that the agent did what you meant:
-
-<table cellspacing="0" style="table-layout: fixed; width: 700px">
-<caption>CyNDEx-2 commands in the <code>ndex</code> namespace</caption>
-<colgroup> <col style="width:170px"> <col style="width:200px"> <col style="width:330px"> </colgroup>
-<tbody>
-<tr> <th>Command</th> <th>Arguments</th> <th>Description</th> </tr>
-<tr> <th class="spec ulcase">ndex create network</th> <td><code>profile</code>, <code>visibility</code>, <code>folder</code></td> <td>Saves the currently selected network to NDEx as a <b>new</b> network. Never modifies an existing one. Single networks only — use <b>File → Export → Collection to NDEx...</b> for a collection.</td> </tr>
-<tr> <th class="specalt ulcase">ndex update network</th> <td class="alt"><code>networkId</code> (required), <code>profile</code>, <code>visibility</code>, <code>folder</code></td> <td class="alt">Replaces the content of the named NDEx network with the currently selected network. Never creates one.</td> </tr>
-<tr> <th class="spec ulcase">ndex download network</th> <td><code>networkId</code> (required), <code>profile</code>, <code>accessKey</code>, <code>createView</code></td> <td>Downloads a network from NDEx into Cytoscape. <code>accessKey</code> is for a network shared by link.</td> </tr>
-<tr> <th class="specalt ulcase">ndex search networks</th> <td class="alt"><code>searchTerm</code>, <code>profile</code>, <code>visibility</code>, <code>maxResults</code>, <code>startIndex</code></td> <td class="alt">Searches network names, descriptions and owners. <code>visibility</code> is <code>PUBLIC</code> (default) or <code>PRIVATE</code> — NDEx treats this as a choice of corpus, so the two cannot be searched together, and unlisted networks are excluded from search results by design.</td> </tr>
-<tr> <th class="spec ulcase">ndex list profiles</th> <td>none</td> <td>Lists the configured CyNDEx-2 sign-in profiles and marks the current one. Reads local configuration only.</td> </tr>
-</tbody>
-</table>
-<br>
-
-The `visibility` argument differs between saving and searching. On
-`ndex create network` and `ndex update network` it sets the new visibility and
-accepts `PRIVATE` (the default), `PUBLIC` or `UNLISTED`. On
-`ndex search networks` it chooses which corpus to search and accepts only
-`PUBLIC` (the default) or `PRIVATE`. `folder` takes a folder name or UUID.
-
-You can run any of these yourself from the [Command Panel](Command_Tool.md) —
-`help ndex` lists them and
-`help ndex create network` prints one command's arguments.
-
-**Warning:** saving to NDEx is deliberately two commands rather than one
-command with a switch. `ndex create network` always makes a new network;
-`ndex update network` always **overwrites** the network named by its required
-`networkId`. There is no default, because *"put a copy on NDEx"* and *"save my
-changes back"* are different requests with different consequences. Phrase
-which one you mean, and confirm the UUID before an update.
-
-**Note**: saving a *single network* — by command, or through
-**File → Export → Network to NDEx...** — records the NDEx UUID against that
-network. Saving a *collection* records it against the collection instead. A
-network saved through both paths ends up associated with two different NDEx
-networks, and which one an update targets depends on which path is used.
 
 <a id="mcp_tips"> </a>
 #### Tips and troubleshooting
