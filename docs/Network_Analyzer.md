@@ -98,16 +98,16 @@ differ from the distance in the opposite direction.
 **Clustering coefficient**
 
 The clustering coefficient of a node *n* measures how connected its neighbors are
-to one another: *C*{sub}`n` = 2*e*{sub}`n` / (*k*{sub}`n`(*k*{sub}`n` - 1)), where
-*k*{sub}`n` is the number of neighbors of *n* and *e*{sub}`n` is the number of
+to one another: *C*<sub>n</sub> = 2*e*<sub>n</sub> / (*k*<sub>n</sub>(*k*<sub>n</sub> - 1)), where
+*k*<sub>n</sub> is the number of neighbors of *n* and *e*<sub>n</sub> is the number of
 edges between those neighbors. The network clustering coefficient is the average of
-*C*{sub}`n` over all nodes, with nodes having fewer than two neighbors counted as
+*C*<sub>n</sub> over all nodes, with nodes having fewer than two neighbors counted as
 0. It ranges from 0 (no neighbor of any node connects to another neighbor) to 1
 (every neighborhood is fully connected).
 
-In a directed analysis, *C*{sub}`n` = *e*{sub}`n` / (*k*{sub}`n`(*k*{sub}`n` - 1)),
-where *k*{sub}`n` is the number of neighbors of *n*, counted regardless of edge
-direction, and *e*{sub}`n` is the number of directed edges between those neighbors,
+In a directed analysis, *C*<sub>n</sub> = *e*<sub>n</sub> / (*k*<sub>n</sub>(*k*<sub>n</sub> - 1)),
+where *k*<sub>n</sub> is the number of neighbors of *n*, counted regardless of edge
+direction, and *e*<sub>n</sub> is the number of directed edges between those neighbors,
 counted individually.
 
 **Network density**
@@ -132,7 +132,7 @@ connectivity and a stronger tendency for some nodes to act as hubs.
 *Undirected analysis only.*
 
 An index of how strongly degree is concentrated in a few nodes:
-*C* = (*N* / (*N* - 2)) · (*k*{sub}`max` / (*N* - 1) - *D*), where *k*{sub}`max` is
+*C* = (*N* / (*N* - 2)) · (*k*<sub>max</sub> / (*N* - 1) - *D*), where *k*<sub>max</sub> is
 the maximum node degree and *D* is the network density. Star-like networks have
 centralization close to 1, whereas networks where every node has the same number of
 neighbors have centralization close to 0.
