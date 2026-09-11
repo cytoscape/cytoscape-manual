@@ -379,7 +379,7 @@ vocabulary.
 <a id="working_with_ndex"> </a>
 #### Working with NDEx
 
-[NDEx](http://www.ndexbio.org/), the Network Data Exchange, is where many
+[NDEx](https://www.ndexbio.org/), the Network Data Exchange, is where many
 Cytoscape users keep their networks. Agents can work with it directly, and the
 way that capability arrives is worth understanding: it is not built into the
 MCP app at all. **CyNDEx-2** version 3.7.4 added a set of Cytoscape commands
@@ -443,9 +443,14 @@ phrase a request precisely, and to check that the agent did what you meant:
 </table>
 <br>
 
-`visibility` accepts `PRIVATE` (the default), `PUBLIC` or `UNLISTED`.
-`folder` takes a folder name or UUID. You can run any of these yourself from
-the [Command Panel](Command_Tool.md) — `help ndex` lists them and
+The `visibility` argument differs between saving and searching. On
+`ndex create network` and `ndex update network` it sets the new visibility and
+accepts `PRIVATE` (the default), `PUBLIC` or `UNLISTED`. On
+`ndex search networks` it chooses which corpus to search and accepts only
+`PUBLIC` (the default) or `PRIVATE`. `folder` takes a folder name or UUID.
+
+You can run any of these yourself from the [Command Panel](Command_Tool.md) —
+`help ndex` lists them and
 `help ndex create network` prints one command's arguments.
 
 **Warning:** saving to NDEx is deliberately two commands rather than one

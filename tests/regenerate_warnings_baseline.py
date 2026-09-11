@@ -4,6 +4,9 @@
 Run `make build` first. Review the diff before committing -- the point of the
 baseline is that new warnings are noticed, so regenerating it to make a test
 pass defeats it.
+
+Imports only warnings_baseline (standard library), so this runs under the
+system interpreter without pytest installed.
 """
 
 import os
@@ -12,7 +15,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from test_manual import BASELINE_FILE, WARNINGS_FILE, normalize_warnings
+from warnings_baseline import BASELINE_FILE, WARNINGS_FILE, normalize_warnings
+
 
 def main():
     if not os.path.exists(WARNINGS_FILE):

@@ -6,33 +6,11 @@ renumbers everything after it. Asserting the numbers here means such a change
 fails the suite instead of shipping unnoticed.
 """
 
-import os
-import re
 import urllib.request
 
 import pytest
 
-REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WARNINGS_FILE = os.path.join(REPO_ROOT, "docs", "_build", "sphinx-warnings.txt")
-
-BASELINE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sphinx_warnings_baseline.txt")
-
-
-def normalize_warnings(text):
-    """Strip the absolute path prefix and line numbers from warning lines.
-
-    Line numbers move whenever a chapter is edited, so comparing them would
-    make the baseline fail on unrelated changes.
-    """
-    normalized = set()
-    for line in text.splitlines():
-        line = line.strip()
-        if not line:
-            continue
-        line = line.replace(REPO_ROOT + os.sep, "")
-        line = re.sub(r"^(\S+?):\d+:", r"\1:", line)
-        normalized.add(line)
-    return normalized
+from warnings_baseline import WARNINGS_FILE, normalize_warnings, read_baseline
 
 
 def fetch(base_url, path=""):
@@ -91,10 +69,7 @@ def test_no_new_sphinx_warnings():
     """
     with open(WARNINGS_FILE, encoding="utf-8") as handle:
         produced = normalize_warnings(handle.read())
-    with open(BASELINE_FILE, encoding="utf-8") as handle:
-        baseline = normalize_warnings(
-            "".join(line for line in handle if not line.startswith("#"))
-        )
+    baseline = read_baseline()
 
     new = sorted(produced - baseline)
     assert not new, (

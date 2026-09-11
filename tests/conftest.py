@@ -24,6 +24,7 @@ WARNINGS_FILE = os.path.join(REPO_ROOT, "docs", "_build", "sphinx-warnings.txt")
 
 STARTUP_TIMEOUT = 15.0
 SHUTDOWN_TIMEOUT = 5.0
+PORT_ATTEMPTS = 5
 
 
 def _free_port():
@@ -58,11 +59,20 @@ def _kill(process):
         pass
 
 
+class PortTaken(Exception):
+    """Another process grabbed the port between allocation and bind."""
+
+
 def _wait_until_serving(base_url, process):
     deadline = time.monotonic() + STARTUP_TIMEOUT
     while time.monotonic() < deadline:
         if process.poll() is not None:
             output = process.stdout.read() if process.stdout else ""
+            # _free_port lets go of the port before http.server binds it, so a
+            # racing process can take it in between. That is worth retrying;
+            # any other startup failure is not.
+            if "address already in use" in output.lower():
+                raise PortTaken(output)
             raise RuntimeError(
                 f"http.server exited with {process.returncode} before serving:\n{output}"
             )
@@ -74,31 +84,49 @@ def _wait_until_serving(base_url, process):
     raise RuntimeError(f"http.server did not start serving {base_url} within {STARTUP_TIMEOUT}s")
 
 
+def _start_server():
+    """Start http.server on a free port, retrying only if the port was taken."""
+    for attempt in range(1, PORT_ATTEMPTS + 1):
+        port = _free_port()
+        url = f"http://127.0.0.1:{port}/"
+        process = subprocess.Popen(
+            [sys.executable, "-m", "http.server", str(port), "--bind", "127.0.0.1"],
+            cwd=BUILD_DIR,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
+            # Own process group, so teardown can signal the whole group and
+            # never orphan a child.
+            start_new_session=True,
+        )
+        atexit.register(_kill, process)
+        try:
+            _wait_until_serving(url, process)
+            return process, url
+        except PortTaken:
+            _kill(process)
+            atexit.unregister(_kill)
+            if attempt == PORT_ATTEMPTS:
+                raise RuntimeError(
+                    f"could not get a free port after {PORT_ATTEMPTS} attempts"
+                )
+        except BaseException:
+            _kill(process)
+            atexit.unregister(_kill)
+            raise
+
+
 @pytest.fixture(scope="session")
 def base_url():
     """Serve docs/_build/html on localhost and yield its base URL."""
     if not os.path.isdir(BUILD_DIR):
         pytest.fail(f"{BUILD_DIR} does not exist -- run `make build` first")
 
-    port = _free_port()
-    url = f"http://127.0.0.1:{port}/"
-
-    process = subprocess.Popen(
-        [sys.executable, "-m", "http.server", str(port), "--bind", "127.0.0.1"],
-        cwd=BUILD_DIR,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-        text=True,
-        # Own process group, so teardown can signal the whole group and never
-        # orphan a child.
-        start_new_session=True,
-    )
-
-    # Belt and braces: pytest's own teardown is skipped on an internal error or
-    # a crash in another fixture, but atexit still runs.
-    atexit.register(_kill, process)
+    # _start_server registers the atexit kill as belt and braces: pytest's own
+    # teardown is skipped on an internal error or a crash in another fixture,
+    # but atexit still runs.
+    process, url = _start_server()
     try:
-        _wait_until_serving(url, process)
         yield url
     finally:
         _kill(process)
