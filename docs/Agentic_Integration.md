@@ -130,7 +130,7 @@ Verify with `copilot mcp list`.
 
 ***OpenAI Codex CLI.***
 
-    codex mcp add cytoscape-mcp --http-url http://localhost:{rest.port}/mcp
+    codex mcp add cytoscape-mcp --url http://localhost:{rest.port}/mcp
 
 Verify with `codex mcp list`, or type `/mcp` inside the Codex TUI.
 
